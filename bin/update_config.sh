@@ -1,9 +1,10 @@
 #!/bin/bash
-INITIAL_REV=$(svn info | grep Revision |awk '{print $2}')
+TRAFHOME=/opt/mhg/TRAFFIC
+INITIAL_REV=$(svn info "$TRAFHOME" | grep Revision |awk '{print $2}')
 EXP_NEXT_REV=$((INITIAL_REV+1))
-cd /opt/mhg/TRAFFIC/
+cd $TRAFHOME
 svn update
-NEW_REV=$(svn info | grep Revision |awk '{print $2}')
+NEW_REV=$(svn info "$TRAFHOME" | grep Revision |awk '{print $2}')
 if [ "$INITIAL_REV" = "$NEW_REV" ]; then
 	echo "No changes were detected."
 else
