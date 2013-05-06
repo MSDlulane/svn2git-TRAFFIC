@@ -23,36 +23,36 @@
 ###############################################################
 # PRODUCTION
 # CPTLAGW03
-cptlagw01.za.mhgad.com dhs_gems_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10001
-cptlagw01.za.mhgad.com dhs_gems_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10002
-cptlagw01.za.mhgad.com dhs_main_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10003
-cptlagw01.za.mhgad.com dhs_main_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10004
-cptlagw01.za.mhgad.com dhs_nimas_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10005
-cptlagw01.za.mhgad.com dhs_nimas_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10006
-cptlagw01.za.mhgad.com dhs_polmed_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10007
-cptlagw01.za.mhgad.com dhs_polmed_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10008
+#cptlagw01.za.mhgad.com dhs_gems_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10001
+#cptlagw01.za.mhgad.com dhs_gems_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10002
+#cptlagw01.za.mhgad.com dhs_main_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10003
+#cptlagw01.za.mhgad.com dhs_main_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10004
+#cptlagw01.za.mhgad.com dhs_nimas_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10005
+#cptlagw01.za.mhgad.com dhs_nimas_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10006
+#cptlagw01.za.mhgad.com dhs_polmed_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10007
+#cptlagw01.za.mhgad.com dhs_polmed_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10008
 # CPTLAGW02
-cptlagw02.za.mhgad.com Archiving LEGACY_CPTLAGW02 ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com HealthBridge LEGACY_CPTLAGW02 ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com MedEdi LEGACY_CPTLAGW02 ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com Medikredit LEGACY_CPTLAGW02 ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com Medipos LEGACY_CPTLAGW02 ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com MediPost LEGACY_CPTLAGW02 ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com Solutio LEGACY_CPTLAGW02_SOLUTIO ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com Solutio_sweeper LEGACY_CPTLAGW02_SOLUTIO ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com web LEGACY_CPTLAGW02 ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com web_auth LEGACY_CPTLAGW02 ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com Mhg_primary LATEST_CPTLAGW02 ENABLED -1 -1 10001
-cptlagw02.za.mhgad.com Mhg_secondary LATEST_CPTLAGW02 ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com Archiving LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com HealthBridge LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com MedEdi LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com Medikredit LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com Medipos LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com MediPost LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com Solutio LEGACY_CPTLAGW02_SOLUTIO ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com Solutio_sweeper LEGACY_CPTLAGW02_SOLUTIO ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com web LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com web_auth LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com Mhg_primary LATEST_CPTLAGW02 ENABLED -1 -1 10001
+#cptlagw02.za.mhgad.com Mhg_secondary LATEST_CPTLAGW02 ENABLED -1 -1 10001
 # CPTLAGW03
-cptlagw03.za.mhgad.com Datamax LEGACY_CPTLAGW03 ENABLED -1 -1 10001
-cptlagw03.za.mhgad.com EMD LEGACY_CPTLAGW03 ENABLED -1 -1 10001
-cptlagw03.za.mhgad.com IKat LEGACY_CPTLAGW03 ENABLED -1 -1 10001
-cptlagw03.za.mhgad.com KaraboIT LEGACY_CPTLAGW03 ENABLED -1 -1 10001
-cptlagw03.za.mhgad.com Medicharge LEGACY_CPTLAGW03 ENABLED -1 -1 10001
-cptlagw03.za.mhgad.com SPN LEGACY_CPTLAGW03 ENABLED -1 -1 10001
-cptlagw03.za.mhgad.com CPT_Mhg_backup LATEST_CPTLAGW03 ENABLED -1 -1 10001
-cptlagw03.za.mhgad.com PPN LEGACY_PPN_CPTLAGW03 ENABLED -1 -1 10001
+#cptlagw03.za.mhgad.com Datamax LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+#cptlagw03.za.mhgad.com EMD LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+#cptlagw03.za.mhgad.com IKat LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+#cptlagw03.za.mhgad.com KaraboIT LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+#cptlagw03.za.mhgad.com Medicharge LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+#cptlagw03.za.mhgad.com SPN LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+#cptlagw03.za.mhgad.com CPT_Mhg_backup LATEST_CPTLAGW03 ENABLED -1 -1 10001
+#cptlagw03.za.mhgad.com PPN LEGACY_PPN_CPTLAGW03 ENABLED -1 -1 10001
 # ACCEPTANCE
 cptlagw90.za.mhgad.com PPN_ACPT LATEST_CPTLAGW90 ENABLED -1 -1 65001
 cptlagw90.za.mhgad.com Mhg_ACPT LATEST_CPTLAGW90 ENABLED -1 -1 65002
