@@ -11,3 +11,4 @@ else
 	echo "Summary of (A)dded and (M)odified files."
 	svn log -v -r "$EXP_NEXT_REV":"$NEW_REV" "$TRAFHOME" |egrep "^   (A|M)"
 fi
+# Done.
