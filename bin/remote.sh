@@ -19,7 +19,7 @@ else
 	IFS=$'\r\n'
 	for hostname in $(grep -v "^#" "$TRAFHOME/etc/traffic_server_list.txt" | awk '{print $1}' | sort | uniq)
 	do
-		ssh "${SSH_USER}@${hostname}" "sudo $TRAFHOME/bin/perform_deploy.sh $REV_NR" |tee "${OPERATION}${DATESTAMP}"
+		ssh -t "${SSH_USER}@${hostname}" "sudo $TRAFHOME/bin/perform_deploy.sh $REV_NR" |tee "${OPERATION}${DATESTAMP}"
 	done
 	IFS=$OLD_IFS
 fi
