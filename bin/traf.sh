@@ -25,12 +25,14 @@ else
 fi
 
 TRAFJMXSETTINGS=""
+TRAFSNMPSETTINGS=""
 if [ "$TRAFJMXPORT" = "" ]; then
-	echo "TRAF JMX port is not configured. TRAF will not start. Abort."
+	echo "TRAF JMX/SNMP port is not configured. TRAF will not start. Abort."
 	exit 4
 else
-	echo "TRAF JMX port set to #$TRAFJMXPORT."
+	echo "TRAF JMX/SNMP port set to #$TRAFJMXPORT."
 	TRAFJMXSETTINGS="-Dcom.sun.management.jmxremote.port=$TRAFJMXPORT -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false"
+	TRAFSNMPSETTINGS="-Dcom.sun.management.snmp.acl.file=$TRAFHOME/etc/snmp.acl -Dcom.sun.management.snmp.port=$TRAFJMXPORT -Dcom.sun.management.snmp.interface=0.0.0.0"
 fi
 
 if [ -d  "$TRAFHOME/lib/$TRAFLIB" ]; then
