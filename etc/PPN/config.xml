@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Enviroments>
+
+	<!-- Global Server Parameters -->
+	<server name="PPN" trxSizeLimit="80000" trxAbortSizeLimit="125000" tradingPartner="PPN" 
+		cmdPasswd="1q2w3e" port="20850" diagPort="20851" logConfigFile="log4j.xml" __system_out="default" 
+	/>
+
+	<!-- List of Environments that this server can talk to -->
+	<env name="default" mhgAccount="AMED">
+		<pool id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107"
+					connections="20" autotimeout="120000" poolMaxWaitTime="60000" />
+		<pool id="EJB" hostname="cptleap01.za.mhgad.com" port="1099"
+      		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
+					autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
+					waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
+					hostname="cptlsee01.za.mhgad.com" port="23000" connections="10"
+					autotimeout="120000" poolMaxWaitTime="60000" />
+	</env>
+
+	<transaction class="InterfaceTransactions.ppn.PpnTransaction" />
+	<transaction-header class="InterfaceTransactions.ppn.PpnHeader" />
+	
+	<snmp-port mibFile="mibs.xml">20852</snmp-port>
+	
+	<pool-definitions-file name="pool.xml"
+		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
+		<pool id="EJB" class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
+      hostName="cptleap01.za.mhgad.com" port="1099" account="AMED"
+      serviceTqName="ListServicesNames" />
+		<pool id="POJAS"
+			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+			hostName="cptlsee01.za.mhgad.com" port="23000" />
+	</pool-definitions-file>
+
+	<transaction-x-ref>
+		<!-- This xref id used for the MHG default transformation -->
+		<x-ref tradingPartner="10" mhg="CHGCLAIM" functionNo="FFFF"
+			description="Change the status of a claim" />
+		<x-ref tradingPartner="9" mhg="TRGXML01" functionNo="FFFF"
+			description="MHRS Ambulatory claim" />
+		<x-ref tradingPartner="8" mhg="TRGXML01" functionNo="FFFF" 
+			description="MHRS Switchback Claims" />
+		<x-ref tradingPartner="5" mhg="TRGXML01" functionNo="FFFF" 
+			description="MHRS Switchback Claims" />
+	</transaction-x-ref>
+
+	<tailWatchServer id="PPNPat" tcpipPort="20853" multicast-host-ip="" multicast-port="-1" />
+	<diagTailWatchServer id="PPNPat" tcpipPort="20854" multicast-host-ip="" multicast-port="-1" />
+	<inputDataServer id="PPNPat" tcpipPort="20855" multicast-host-ip="" multicast-port="-1" />
+
+	<transaction-transform>
+		<trx-form type="PatientValidation"
+			transformClass="InterfaceTransactions.ppn.GenericTransaction"
+			tqFunctionName="BANKMED_VALIDATE_PATIENT" />
+		<trx-form type="InAuth" transformClass="InterfaceTransactions.ppn.AuthTransfrom" />
+		<trx-form type="MemberBenefitMessage"
+			transformClass="InterfaceTransactions.ppn.BenefitTransfrom" />
+		<trx-form type="DEFAULT"
+			transformClass="InterfaceTransactions.ppn.DefaultTransfrom" />
+	</transaction-transform>
+
+	<logger classname="InterfaceTransactions.Diagnostics.SolutioLogger"
+		logFileRefreshInterval="Daily" 
+		processSleepTime="1000" 
+		logDirectory="log/PPN/accesslog">
+		<claimsLogger 
+				poolId="generic" 
+				DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+				DbUrl="jdbc:sybase:Tds:cptlsyb07.za.mhgad.com:8100/JBAUDIT" 
+				logTable="PPN" 
+				DbUserName="traffic" 
+				DbPassword="pJ9fXZ3d" 
+				minpoolsize="1" 
+				maxpoolsize="2" 
+				timeout="600000">
+				<logTransactions desc="comma seperated list of transactions to log" value="REALCLM,TRGXML01,CHGCLAIM,PPNAUTH" />
+		</claimsLogger>
+	</logger>
+
+</Enviroments>

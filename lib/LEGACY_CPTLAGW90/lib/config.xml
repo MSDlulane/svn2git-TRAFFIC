@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	<bean id="EnvironmentStore" class="com.mhgad.za.see.resources.EnvironmentStore">
+		<constructor-arg>
+			<map>
+				<entry key="SYSTEM">
+					<ref local="LoggingDataSource"/>
+				</entry>
+
+				<entry key="GAME_LOCAL">
+					<ref local="LoggingDataSource"/>
+				</entry>
+
+				<entry key="WORKFLOW">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/WORKFLOW"/>
+						<property name="username" value="workflow"/>
+						<property name="password" value="wfonly"/>
+						<property name="validationQuery" value="select 1+1"/>
+					</bean>
+				</entry>
+
+				<entry key="AMED">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/AMED"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="CORMED">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/CORMED"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="NEWMED">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/NEWMED"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="POLMED">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/POLMED"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="GEMS">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/GEMS"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="NIMAS">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/NIMAS"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="REDRIB">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/REDRIB"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="SIGMA">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/SIGMA"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="PILIR">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/PILIR"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="IMAGE">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/IMAGEDB"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="HUM">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/HUM"/>
+						<property name="username" value="emeduser"/>
+						<property name="password" value="16May02"/>
+					</bean>
+				</entry>
+
+				<entry key="UTILITY">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/UTILITY"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+
+				<entry key="CMS">
+					<bean class="utils.dbpool.TimedDataSource">
+						<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+						<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/BankmedCMS"/>
+						<property name="username" value="pojas"/>
+						<property name="password" value="newmed"/>
+					</bean>
+				</entry>
+			</map>
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="LoggingDataSource" class="utils.dbpool.TimedDataSource">
+		<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>
+		<property name="url" value="jdbc:jtds:sybase://cptlsyb80.za.mhgad.com:7500/GAME"/>
+		<property name="username" value="pojas"/>
+		<property name="password" value="newmed"/>
+	</bean>
+
+
+	<bean id="ConfigurableResources" class="com.mhgad.za.see.resources.ConfigurableResources">
+		<property name="resources">
+			<map>
+				<entry key="dateFormat" value="yyyy/MM/dd HH:mm:ss"/>
+				<entry key="multiCastPacket" value="RELOAD_LDAP"/>
+				<entry key="multiCastAddress" value="225.225.225.225"/>
+				<entry key="multiCastPort" value="30000"/>
+				<entry key="snmpPort" value="33002"/>
+				<entry key="totalRequestMib" value="1.3.6.1.4.1.0"/>
+				<entry key="totalErrorMib" value="1.3.6.1.4.1.1"/>
+				<entry key="heapMemoryMib" value="1.3.6.1.4.2.0"/>
+				<entry key="periodRequests" value="1.3.6.1.4.3.0"/>
+				<entry key="periodErrors" value="1.3.6.1.4.3.1"/>
+				<entry key="periodAverages" value="1.3.6.1.4.3.2"/>
+				<entry key="tenMinuteAverage" value="1.3.6.1.4.4.0"/>
+				<entry key="notificationServer" value="cptsol01"/>
+				<entry key="notificationPort" value="24000"/>
+				<entry key="trafServer" value="localhost"/>
+				<entry key="trafPort" value="30600"/>
+				<entry key="imageDbTable" value="timages_test"/>
+				<entry key="imageURL" value="http://cptlagw90.za.mhgad.com/images"/>
+				<entry key="imageFileLocation" value="/var/www/html/images"/>
+				<entry key="loadWorkFlow" value="true"/>
+				<entry key="loadWebServiceStore" value="true"/>
+				<entry key="logDynamicServices" value="true"/>
+			</map>
+		</property>
+		<property name="dateFormat" value="yyyy/MM/dd HH:mm:ss"/>
+	</bean>
+
+</beans>

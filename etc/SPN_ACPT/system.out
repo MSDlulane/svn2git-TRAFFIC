@@ -1,0 +1,14 @@
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:383)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:106)
+	at InterfaceTransactions.Diagnostics.DiagServer.<init>(DiagServer.java:52)
+	at InterfaceTransactions.InterfaceClient.InterfaceClientServer.<init>(InterfaceClientServer.java:1271)
+	at InterfaceTransactions.InterfaceClient.InterfaceClientServer.main(InterfaceClientServer.java:2543)
+
+Error starting server /opt/mhg/TRAFFIC/etc/SPN_ACPT/config.xml
+log4j: log/SPN.log -> log/SPN.log.20130505
+log4j: setFile called: log/SPN.log, false
+log4j: setFile ended

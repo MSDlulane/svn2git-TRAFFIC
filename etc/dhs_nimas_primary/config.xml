@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<Enviroments>
+
+	<server sendTrxDetailsToStatusMonitor="true" trxSizeLimit="128000"
+		trxAbortSizeLimit="256000" cmdPasswd="1q2w3e" tradingPartner="Mediswitch"
+		name="DHS NIMAS Primary" port="20300" diagPort="20301"
+		distributedCacheEnabled="true" distributedCacheIP="cptlagw01.za.mhgad.com" 
+		distributedCachePort="11211" distributedCacheEntryTimeout="120"
+		logConfigFile="log4j_nimas.xml" __system_out="default" />
+
+	<!-- NIMAS -->
+	<env name="NIMAS" mhgAccount="NIMAS" useDistributedCache="true">
+		<pool useSoTimeOut="false" stickyStandin="false"
+			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
+			dropClientOnError="false" startDisabled="false"
+			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
+			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9113" connections="10"
+			autotimeout="120000" poolMaxWaitTime="50000">
+
+			<!-- Auto dis/enable these connectors on a SYNC message -->
+			<localConnectorsToManipulateOnSync>
+				<localConnectorToManipulateOnSync
+					desc="Test" remoteEnv="NIMAS" remotePoolId="COBOLBACKUP" />
+			</localConnectorsToManipulateOnSync>
+
+			<remoteConnectorOperations>
+				<remoteConnectorOperation desc="will enable conn if active"
+					action="STATUS" host="dralsin01.za.mhgad.com" diagport="20301"
+					remoteEnv="NIMAS" remotePoolId="COBOL" />
+			</remoteConnectorOperations>
+
+			<secondaryPool useSoTimeOut="false"
+				autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" minTrxTime="15000"
+				dropClientOnError="false" startDisabled="false"
+				waitForSyncToFinishTimeout="10000" autoDisable="false" autoEnable="true"
+				id="COBOLBACKUP" hostname="dralsin01.za.mhgad.com" port="9313"
+				connections="10" autotimeout="90000" poolMaxWaitTime="40000"
+				connectorImplementationClassID="COBOL">
+				
+				<remoteConnectorOperations>
+					
+					<remoteConnectorOperation desc="will enable conn if active"
+						action="STATUS" host="dralsin01.za.mhgad.com" diagport="20301"
+						remoteEnv="NIMAS" remotePoolId="COBOL" />
+					<remoteConnectorOperation desc="will disable conn if trx processed"
+						action="DISABLE" host="dralsin01.za.mhgad.com" diagport="20301"
+						remoteEnv="NIMAS" remotePoolId="COBOLBACKUP" />
+					<remoteConnectorOperation desc="will enable conn if trx processed"
+						action="ENABLE" host="dralsin01.za.mhgad.com" diagport="20301"
+						remoteEnv="NIMAS" remotePoolId="COBOL" />
+						
+				</remoteConnectorOperations>
+
+			</secondaryPool>
+		</pool>
+	</env>
+
+	<env name="NETCARE" mhgAccount="NIMAS" useDistributedCache="true">
+		<pool useSoTimeOut="false" stickyStandin="false"
+			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
+			dropClientOnError="false" startDisabled="false"
+			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
+			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9113" connections="10"
+			autotimeout="120000" poolMaxWaitTime="50000">
+
+			<!-- Auto dis/enable these connectors on a SYNC message -->
+			<localConnectorsToManipulateOnSync>
+				<localConnectorToManipulateOnSync
+					desc="Test" remoteEnv="NETCARE" remotePoolId="COBOLBACKUP" />
+			</localConnectorsToManipulateOnSync>
+
+			<remoteConnectorOperations>
+				<remoteConnectorOperation desc="will enable conn if active"
+					action="STATUS" host="dralsin01.za.mhgad.com" diagport="20301"
+					remoteEnv="NETCARE" remotePoolId="COBOL" />
+			</remoteConnectorOperations>
+
+			<secondaryPool useSoTimeOut="false"
+				autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" minTrxTime="15000"
+				dropClientOnError="false" startDisabled="false"
+				waitForSyncToFinishTimeout="10000" autoDisable="false" autoEnable="true"
+				id="COBOLBACKUP" hostname="dralsin01.za.mhgad.com" port="9313"
+				connections="10" autotimeout="90000" poolMaxWaitTime="40000"
+				connectorImplementationClassID="COBOL">
+				
+				<remoteConnectorOperations>
+					
+					<remoteConnectorOperation desc="will enable conn if active"
+						action="STATUS" host="dralsin01.za.mhgad.com" diagport="20301"
+						remoteEnv="NETCARE" remotePoolId="COBOL" />
+					<remoteConnectorOperation desc="will disable conn if trx processed"
+						action="DISABLE" host="dralsin01.za.mhgad.com" diagport="20301"
+						remoteEnv="NETCARE" remotePoolId="COBOLBACKUP" />
+					<remoteConnectorOperation desc="will enable conn if trx processed"
+						action="ENABLE" host="dralsin01.za.mhgad.com" diagport="20301"
+						remoteEnv="NETCARE" remotePoolId="COBOL" />
+						
+				</remoteConnectorOperations>
+
+			</secondaryPool>
+		</pool>
+	</env>
+
+	<env name="PGG" mhgAccount="NIMAS" useDistributedCache="true">
+		<pool useSoTimeOut="false" stickyStandin="false"
+			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
+			dropClientOnError="false" startDisabled="false"
+			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
+			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9113" connections="10"
+			autotimeout="120000" poolMaxWaitTime="50000">
+
+			<!-- Auto dis/enable these connectors on a SYNC message -->
+			<localConnectorsToManipulateOnSync>
+				<localConnectorToManipulateOnSync
+					desc="Test" remoteEnv="PGG" remotePoolId="COBOLBACKUP" />
+			</localConnectorsToManipulateOnSync>
+
+			<remoteConnectorOperations>
+				<remoteConnectorOperation desc="will enable conn if active"
+					action="STATUS" host="dralsin01.za.mhgad.com" diagport="20301"
+					remoteEnv="PGG" remotePoolId="COBOL" />
+			</remoteConnectorOperations>
+
+			<secondaryPool useSoTimeOut="false"
+				autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" minTrxTime="15000"
+				dropClientOnError="false" startDisabled="false"
+				waitForSyncToFinishTimeout="10000" autoDisable="false" autoEnable="true"
+				id="COBOLBACKUP" hostname="dralsin01.za.mhgad.com" port="9313"
+				connections="10" autotimeout="90000" poolMaxWaitTime="40000"
+				connectorImplementationClassID="COBOL">
+				
+				<remoteConnectorOperations>
+					
+					<remoteConnectorOperation desc="will enable conn if active"
+						action="STATUS" host="dralsin01.za.mhgad.com" diagport="20301"
+						remoteEnv="PGG" remotePoolId="COBOL" />
+					<remoteConnectorOperation desc="will disable conn if trx processed"
+						action="DISABLE" host="dralsin01.za.mhgad.com" diagport="20301"
+						remoteEnv="PGG" remotePoolId="COBOLBACKUP" />
+					<remoteConnectorOperation desc="will enable conn if trx processed"
+						action="ENABLE" host="dralsin01.za.mhgad.com" diagport="20301"
+						remoteEnv="PGG" remotePoolId="COBOL" />
+						
+				</remoteConnectorOperations>
+
+			</secondaryPool>
+		</pool>
+	</env>
+
+	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
+	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
+
+	<pool-definitions-file name="pool.xml" />
+
+	<snmp-port mibFile="mibs.xml">20302</snmp-port>
+	<tailWatchServer id="Mediswitch" tcpipPort="20303"
+		multicast-host-ip="" multicast-port="-1" />
+	<diagTailWatchServer id="Mediswitch" tcpipPort="20304"
+		multicast-host-ip="" multicast-port="-1" />
+
+	<synchronous-transactions>true</synchronous-transactions>
+
+	<transaction-x-ref>
+		<x-ref tradingPartner="1" mhg="ELCHECK" functionNo="0001"
+			isPingOrHandshake="true" description="Elegibility check" />
+		<x-ref tradingPartner="2" mhg="REALCLM" functionNo="000A"
+			description="Realtime Pharmacy Medicine claims" />
+		<x-ref tradingPartner="3" mhg="REALCLM" functionNo="0002"
+			description="Realtime doctor Medicine claims" />
+		<x-ref tradingPartner="4" mhg="REALCLM" functionNo="0004"
+			description="Realtime doctor claims" />
+		<x-ref tradingPartner="5" mhg="REALCLM" functionNo="0010" 
+			description="Realtime doctor" />
+		<x-ref tradingPartner="127" mhg="PING" functionNo="0008"
+			isPingOrHandshake="true" description="Ping" />
+	</transaction-x-ref>
+
+	<destination-x-ref>
+
+		<x-ref tradingPartner="nrdd0001" mhg="NIMAS" functionMask="FFFF"
+			description="Doctors Real Time Procedures/Meds" />
+		<x-ref tradingPartner="MNIM0001" mhg="NIMAS" functionMask="FFFF"
+			description="Pharmacy Real Time" />
+		<x-ref tradingPartner="MNET0001" mhg="NETCARE" functionMask="FFFF"
+			description="Netcare Pharmacy Real Time" />
+		<x-ref tradingPartner="MPGG0001" mhg="PGG" functionMask="FFFF"
+			description="PGG Pharmacy Real Time" />
+			
+
+	</destination-x-ref>
+
+	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logFileRefreshInterval="Daily" 
+		processSleepTime="1000" 
+		logDirectory="log/accesslog-nimas-nq">
+		<claimsLogger 
+			poolId="generic" 
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT" 
+			logTable="DHSNimas" 
+			DbUserName="traffic" 
+			DbPassword="pJ9fXZ3d" 
+			minpoolsize="1" 
+			maxpoolsize="2" 
+			timeout="600000">
+			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM" />
+		</claimsLogger>
+	</logger>
+	
+</Enviroments>

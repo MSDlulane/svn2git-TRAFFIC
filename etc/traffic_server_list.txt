@@ -1,0 +1,75 @@
+#####
+# INLINE README:
+# Columns:
+#		1. Hostname 
+#		2. TRAF name
+#		3. Code library name
+#		4. TRAF Enabled/Disabled
+#		5. JVM start-heap
+#		6. JVM max-heap
+#		7. JMX port
+# Traffic servers listed for a specific 
+# host can only be installed and started on 
+# that specific host if they are labelled as 
+# 'ENABLED' in column #4.
+# The "TRAF name" column must contain the name of the
+# directory in $TRAFHOME/etc/ which holds the config for 
+# the TRAF server.
+# JVM start/max heap columns hold the amount of memory
+# configured on the jvm for the start/max heap. -1 indicates 
+# no configured value.
+# JMX port is required and indicates which tcp port should be
+# for jmx monitoring.
+###############################################################
+# PRODUCTION
+# CPTLAGW03
+cptlagw01.za.mhgad.com dhs_gems_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10001
+cptlagw01.za.mhgad.com dhs_gems_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10002
+cptlagw01.za.mhgad.com dhs_main_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10003
+cptlagw01.za.mhgad.com dhs_main_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10004
+cptlagw01.za.mhgad.com dhs_nimas_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10005
+cptlagw01.za.mhgad.com dhs_nimas_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10006
+cptlagw01.za.mhgad.com dhs_polmed_non_qpbm LEGACY_CPTLAGW01 ENABLED -1 -1 10007
+cptlagw01.za.mhgad.com dhs_polmed_primary LEGACY_CPTLAGW01 ENABLED -1 -1 10008
+# CPTLAGW02
+cptlagw02.za.mhgad.com Archiving LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com HealthBridge LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com MedEdi LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com Medikredit LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com Medipos LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com MediPost LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com Solutio LEGACY_CPTLAGW02_SOLUTIO ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com Solutio_sweeper LEGACY_CPTLAGW02_SOLUTIO ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com web LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com web_auth LEGACY_CPTLAGW02 ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com Mhg_primary LATEST_CPTLAGW02 ENABLED -1 -1 10001
+cptlagw02.za.mhgad.com Mhg_secondary LATEST_CPTLAGW02 ENABLED -1 -1 10001
+# CPTLAGW03
+cptlagw03.za.mhgad.com Datamax LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+cptlagw03.za.mhgad.com EMD LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+cptlagw03.za.mhgad.com IKat LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+cptlagw03.za.mhgad.com KaraboIT LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+cptlagw03.za.mhgad.com Medicharge LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+cptlagw03.za.mhgad.com SPN LEGACY_CPTLAGW03 ENABLED -1 -1 10001
+cptlagw03.za.mhgad.com CPT_Mhg_backup LATEST_CPTLAGW03 ENABLED -1 -1 10001
+cptlagw03.za.mhgad.com PPN LEGACY_PPN_CPTLAGW03 ENABLED -1 -1 10001
+# ACCEPTANCE
+cptlagw90.za.mhgad.com PPN_ACPT LATEST_CPTLAGW90 ENABLED -1 -1 65001
+cptlagw90.za.mhgad.com Mhg_ACPT LATEST_CPTLAGW90 ENABLED -1 -1 65002
+cptlagw90.za.mhgad.com Check_ACPT LEGACY_CPTLAGW90 DISABLED -1 -1 65003
+cptlagw90.za.mhgad.com Datamax_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65004
+cptlagw90.za.mhgad.com DHS_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65005
+cptlagw90.za.mhgad.com EMD_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65006
+cptlagw90.za.mhgad.com HealthBridge_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65007
+cptlagw90.za.mhgad.com KaraboIT_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65008
+cptlagw90.za.mhgad.com MedEdi_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65009
+cptlagw90.za.mhgad.com Medicharge_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65010
+cptlagw90.za.mhgad.com Medikredit_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65011
+cptlagw90.za.mhgad.com Medipos_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65012
+cptlagw90.za.mhgad.com MediPost_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65013
+cptlagw90.za.mhgad.com Solutio_ACPT LEGACY_SOLUTIO_CPTLAGW90 ENABLED -1 -1 65014
+cptlagw90.za.mhgad.com Solutio_sweeper_ACPT LEGACY_SOLUTIO_CPTLAGW90 ENABLED -1 -1 65015
+cptlagw90.za.mhgad.com SPN_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65016
+cptlagw90.za.mhgad.com WWW_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65017
+cptlagw90.za.mhgad.com IKat_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65018
+cptlagw90.za.mhgad.com Standin_ACPT LEGACY_CPTLAGW90 ENABLED -1 -1 65019

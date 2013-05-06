@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<!--
+startDisabled: Primary must start is a disabled state
+waitForSyncToFinishTimeout: max time in ms to wait for backup to
+finish synchronization autoEnable: if true then connector will
+automatically be enabled when the SYNC_STOP event is received
+autoDisable: if true then connector will disable itself as soon as it
+switches to the backup
+-->
+<Enviroments>
+
+	<!-- Global Server Parameters -->
+	<server sendTrxDetailsToStatusMonitor="true" trxSizeLimit="48000"
+		trxAbortSizeLimit="64000" cmdPasswd="1q2w3e" tradingPartner="MediEDI"
+		name="MedEDI TEST" active="true" autoDisable="false" port="20845"
+	  diagPort="20846" logConfigFile="log4j.xml" />
+
+	<!-- List of Environments that this server can talk to -->
+	<env name="AMED" mhgAccount="AMED">
+		<pool startDisabled="false" id="COBOL" hostname="cptlapp90.za.mhgad.com"
+		port="9106" connections="25" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="GEMS">
+		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9110"
+		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	</env>
+
+	<env name="IMPERIAL" mhgAccount="IMPERIAL">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com"
+		port="9105" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+	</env>
+
+	<env name="MEDIPOS" mhgAccount="MEDIPOS">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com"
+		port="9108" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+	</env>
+
+	<env name="NEWMED">
+		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9311"
+		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	</env>
+
+	<env name="NIMAS">
+		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113"
+		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	</env>
+
+	<env name="POLMED">
+		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9109"
+		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	</env>
+
+	<env name="SAMWU">
+		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9115"
+		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	</env>
+
+	<env name="SIGMA">
+		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9112"
+		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	</env>
+
+	<env name="TRANSMED" mhgAccount="NEWMED">
+		<pool startDisabled="false" id="COBOL" hostname="cptlapp90.za.mhgad.com"
+			port="9107" connections="25" autotimeout="120000" poolMaxWaitTime="40000"
+		  waitForSyncToFinishTimeout="15000" autoDisable="true" autoEnable="true" />
+	</env>
+
+	<transaction class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
+	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
+
+	<pool-definitions-file name="pool.xml" />
+
+	<snmp-port mibFile="mibs.xml">20847</snmp-port>
+
+	<synchronous-transactions>true</synchronous-transactions>
+
+	<tailWatchServer id="MedEdi Primary" tcpipPort="20848"
+	multicast-host-ip="" multicast-port="-1" />
+	<diagTailWatchServer id="MedEdi Primary" tcpipPort="20849"
+	multicast-host-ip="" multicast-port="-1" />
+
+	<transaction-x-ref>
+		<x-ref tradingPartner="1" mhg="ELCHECK" functionNo="0001"
+		description="Elegibility check" />
+		<x-ref tradingPartner="3" mhg="REALCLM" functionNo="0002"
+		description="Realtime doctor Medicine claims" />
+		<x-ref tradingPartner="4" mhg="REALCLM" functionNo="0004"
+		description="Realtime doctor claims" />
+		<x-ref tradingPartner="127" mhg="PING" functionNo="0008"
+		description="Ping" />
+	</transaction-x-ref>
+
+	<destination-x-ref>
+		<!-- Development Env's -->
+		<x-ref tradingPartner="T00" mhg="AMED" functionMask="FFFF"
+		description="Bankmed" />
+		<x-ref tradingPartner="T01" mhg="NEWMED" functionMask="FFFF"
+		description="Openplan" />
+		<x-ref tradingPartner="T02" mhg="TRANSMED" functionMask="FFFF"
+		description="Transmed" />
+		<x-ref tradingPartner="T03" mhg="AMED" functionMask="FFFF"
+		description="Woolthru" />
+		<x-ref tradingPartner="T04" mhg="AMED" functionMask="FFFF"
+		description="Sappi" />
+		<x-ref tradingPartner="T05" mhg="AMED" functionMask="FFFF"
+		description="Engen" />
+		<x-ref tradingPartner="T06" mhg="AMED" functionMask="FFFF"
+		description="Relyant" />
+		<x-ref tradingPartner="T07" mhg="AMED" functionMask="FFFF"
+		description="Alpha" />
+		<x-ref tradingPartner="T08" mhg="AMED" functionMask="FFFF"
+		description="Pick 'n Pay" />
+		<x-ref tradingPartner="T09" mhg="AMED" functionMask="FFFF"
+		description="Afrox" />
+		<x-ref tradingPartner="T10" mhg="AMED" functionMask="FFFF"
+		description="Remedi" />
+		<x-ref tradingPartner="T11" mhg="NEWMED" functionMask="FFFF"
+		description="Metstaff" />
+		<x-ref tradingPartner="T12" mhg="AMED" functionMask="FFFF"
+		description="BPSA" />
+		<x-ref tradingPartner="T13" mhg="AMED" functionMask="FFFF"
+		description="Foshini" />
+		<x-ref tradingPartner="T14" mhg="LAMAF" functionMask="FFFF"
+		description="Lamaf" />
+		<x-ref tradingPartner="T15" mhg="SAMWU" functionMask="FFFF"
+		description="Samwu" />
+		<x-ref tradingPartner="T16" mhg="SIGMA" functionMask="FFFF"
+		description="Prosano" />
+		<x-ref tradingPartner="T17" mhg="AMED" functionMask="FFFF"
+		description="Remedi" />
+		<x-ref tradingPartner="T18" mhg="POLMED" functionMask="FFFF"
+		description="Polmed" />
+		<x-ref tradingPartner="T19" mhg="GEMS" functionMask="FFFF"
+		description="Gems" />
+		<x-ref tradingPartner="T20" mhg="NIMAS" functionMask="FFFF"
+		description="Nimas" />
+		<x-ref tradingPartner="T21" mhg="IMPERIAL" functionMask="FFFF"
+		description="Imperial" />
+		<x-ref tradingPartner="T22" mhg="MEDIPOS" functionMask="FFFF"
+		description="Medipos" />
+	</destination-x-ref>
+
+	<!-- Log File Parameters  -->
+	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+		logDirectory="log/accesslog">
+		<claimsLogger
+			poolId="generic"
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
+			logTable="Mededi"
+			DbUserName="traffic"
+			DbPassword="IR0b0t"
+			minpoolsize="1"
+			maxpoolsize="2"
+			timeout="600000">
+			<logTransactions desc="comma seperated list of transactions to log"	value="REALCLM" />
+		</claimsLogger>
+	</logger>
+
+</Enviroments>

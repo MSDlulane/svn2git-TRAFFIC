@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<Enviroments>
+
+	<server trxSizeLimit="128000" trxAbortSizeLimit="256000"
+		cmdPasswd="1q2w3e" tradingPartner="Mediswitch" name="DHS MAIN NON QPBM"
+		distributedCacheEnabled="true" distributedCacheIP="cptlagw01.za.mhgad.com" 
+		distributedCachePort="11211"  distributedCacheEntryTimeout="120" 
+		port="20200" diagPort="20201" logConfigFile="log4j_main_non_qpbm.xml" __system_out="default" />
+
+	<!-- List of Environments that this server can talk to -->
+	<env name="AMED">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9107" connections="5" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<env name="BP" useDistributedCache="true">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>	
+
+	<env name="ENGEN">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<env name="FISHMED" useDistributedCache="true">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<env name="GOLDEN" useDistributedCache="true">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<env name="IMPERIAL" useDistributedCache="true">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9114" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<env name="MEDIPOS" useDistributedCache="true">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9115" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>	
+
+	<env name="NEWMED">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9108" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<env name="REDRIB">
+	  	<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" 
+	  	port="9111" connections="10" autotimeout="120000" poolMaxWaitTime="120000"/>
+	</env>
+	
+	<env name="SAMWU" useDistributedCache="true">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9105" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<env name="TRANSMED" mhgAccount="NEWMED" useDistributedCache="true">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9108" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<env name="WOOLTRU" useDistributedCache="true">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
+	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
+
+	<pool-definitions-file name="pool.xml" />
+
+	<snmp-port mibFile="mibs.xml">20202</snmp-port>
+	<tailWatchServer id="Mediswitch" tcpipPort="20203"
+		multicast-host-ip="" multicast-port="-1" />
+	<diagTailWatchServer id="Mediswitch" tcpipPort="20204"
+		multicast-host-ip="" multicast-port="-1" />
+	<inputDataServer id="Mediswitch" tcpipPort="20205" multicast-host-ip="" multicast-port="-1" />
+
+	<synchronous-transactions>true</synchronous-transactions>
+
+	<transaction-x-ref>
+		<x-ref tradingPartner="1" mhg="ELCHECK" functionNo="0001"
+			description="Elegibility check" />
+		<x-ref tradingPartner="2" mhg="REALCLM" functionNo="000A"
+			description="Realtime Pharmacy Medicine claims" />
+		<x-ref tradingPartner="3" mhg="REALCLM" functionNo="0002"
+			description="Realtime doctor Medicine claims" />
+		<x-ref tradingPartner="4" mhg="REALCLM" functionNo="0004"
+			description="Realtime doctor claims" />
+		<x-ref tradingPartner="5" mhg="REALCLM" functionNo="0010"
+			description="Realtime doctor" />
+		<x-ref tradingPartner="127" mhg="PING" functionNo="0008"
+			isPingOrHandshake="true" description="Ping" />
+	</transaction-x-ref>
+
+	<destination-x-ref>
+		<x-ref tradingPartner="nrde0003" mhg="AMED" functionMask="FFFF"
+			description="NRDE0003 - Bankmed" />
+		<x-ref tradingPartner="MARM0001" mhg="AMED" functionMask="FFFF"
+			description="MHG: AFROX REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MASM0001" mhg="AMED" functionMask="FFFF"
+			description="MHG: AFROX SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MBRM0001" mhg="AMED" functionMask="FFFF"
+			description="MHG: BANKMED REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MBSM0001" mhg="AMED" functionMask="FFFF"
+			description="MHG: BANKMED SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MFOS0002" mhg="AMED" functionMask="FFFF"
+			description="MHG: FOSCHINI REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MFSM0002" mhg="AMED" functionMask="FFFF"
+			description="MHG: FOSCHINI SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MPNP0002" mhg="AMED" functionMask="FFFF"
+			description="MHG: PICK N PAY REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MPNP0003" mhg="AMED" functionMask="FFFF"
+			description="MHG: PICK N PAY SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MSRM0001" mhg="AMED" functionMask="FFFF"
+			description="MHG: SAPPI REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MSSM0003" mhg="AMED" functionMask="FFFF"
+			description="MHG: SAPPI SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MBRM0004" mhg="AMED" functionMask="FFFF"
+			description="Bankmed Docters claim" />
+		<x-ref tradingPartner="MBPR0002" mhg="AMED" functionMask="FFFF"
+			description="Bankmed Pathology claim" />
+		<x-ref tradingPartner="MBRR0003" mhg="AMED" functionMask="FFFF"
+			description="Bankmed Radiology, Physio claim" />
+		<x-ref tradingPartner="MARM0003" mhg="AMED" functionMask="FFFF"
+			description="MHG: AFROX REALER (MEDICAL)" />
+		<x-ref tradingPartner="MAPR0002" mhg="AMED" functionMask="FFFF"
+			description="MHG: AFROX PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MARR0001" mhg="AMED" functionMask="FFFF"
+			description="MHG: AFROX REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MFPR0001" mhg="AMED" functionMask="FFFF"
+			description="MHG: FOSCHINI PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MFRM0001" mhg="AMED" functionMask="FFFF"
+			description="MHG: FOSCHINI REALER (MEDICAL)" />
+		<x-ref tradingPartner="MFRR0001" mhg="AMED" functionMask="FFFF"
+			description="MHG: FOSCHINI REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MSRR0001" mhg="AMED" functionMask="FFFF"
+			description="MHG: SAPPI REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MSPR0005" mhg="AMED" functionMask="FFFF"
+			description="MMHG: SAPPI PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MSRM0006" mhg="AMED" functionMask="FFFF"
+			description="MHG: SAPPI REALER (MEDICAL)" />
+		<x-ref tradingPartner="MPNP0017" mhg="AMED" functionMask="FFFF"
+			description="MHG: PICK N PAY PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MPNP0018" mhg="AMED" functionMask="FFFF"
+			description="MHG: PICK N PAY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MPNP0019" mhg="AMED" functionMask="FFFF"
+			description="MHG: PICK N PAY REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MAMR0003" mhg="AMED" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+		<x-ref tradingPartner="MBMR0004" mhg="AMED" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+		<x-ref tradingPartner="MFMR0004" mhg="AMED" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+		<x-ref tradingPartner="MPNP0020" mhg="AMED" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+		<x-ref tradingPartner="MSMR0008" mhg="AMED" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+			
+		<x-ref tradingPartner="MBSA0002" mhg="BP" functionMask="FFFF"
+			description="MHG: BP SOUTHERN AFRICA REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MBSA0003" mhg="BP" functionMask="FFFF"
+			description="MHG: BP SOUTHERN AFRICA SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MBSA0006" mhg="BP" functionMask="FFFF"
+			description="MHG: BP SOUTHERN AFRICA PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MBSR0001" mhg="BP" functionMask="FFFF"
+			description="MHG: BP SOUTHERN REALER (MEDICAL)" />
+		<x-ref tradingPartner="MBSA0007" mhg="BP" functionMask="FFFF"
+			description="MHG: BP SOUTHERN AFRICA REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MBSA0008" mhg="BP" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+
+		<x-ref tradingPartner="MERM0001" mhg="ENGEN" functionMask="FFFF"
+			description="MHG: ENGEN REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MESM0001" mhg="ENGEN" functionMask="FFFF"
+			description="MHG: ENGEN SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MEPR0001" mhg="ENGEN" functionMask="FFFF"
+			description="MHG: ENGEN PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MERM0003" mhg="ENGEN" functionMask="FFFF"
+			description="MHG: ENGEN REALER (MEDICAL)" />
+		<x-ref tradingPartner="MERR0003" mhg="ENGEN" functionMask="FFFF"
+			description="MHG: ENGEN REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MEMR0004" mhg="ENGEN" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+
+		<x-ref tradingPartner="fish0002" mhg="FISHMED" functionMask="FFFF"
+			description="fish0002 - FISHMED" />
+
+		<x-ref tradingPartner="MIRP0001" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL Pharmacy" />
+		<x-ref tradingPartner="MIGR0002" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL Realtime" />
+		<x-ref tradingPartner="MIGS0001" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL SwitchOn" />
+		<x-ref tradingPartner="MIGR0003" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL Realer" />
+		<x-ref tradingPartner="MIGR0004" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL Realer Specialiste" />
+		<x-ref tradingPartner="MIGM0001" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL Medical" />
+		<x-ref tradingPartner="MIGM0002" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL Mediclinic" />
+		<x-ref tradingPartner="MIGN0001" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL Netcare" />
+		<x-ref tradingPartner="MIGH0001" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL Hospital" />
+		<x-ref tradingPartner="MIGM0003" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+
+		<x-ref tradingPartner="MMHO0007" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDIPOS Hospital" />
+		<x-ref tradingPartner="MMNE0005" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDIPOS Netcare" />
+		<x-ref tradingPartner="MMME0013" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDIPOS Mediclinic" />
+		<x-ref tradingPartner="MMRM0006" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDIPOS Realtime" />
+		<x-ref tradingPartner="MMRP0003" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDIPOS Realtime" />
+		<x-ref tradingPartner="MMRM0007" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDIPOS Realer" />
+		<x-ref tradingPartner="MMSM0006" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDIPOS Switchon" />
+		<x-ref tradingPartner="MMRR0010" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDIPOS Realer Specialists" />
+		<x-ref tradingPartner="MMMR0004" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+
+		<x-ref tradingPartner="rrdt0001" mhg="REDRIB" functionMask="FFFF"
+			description="RRDT0001 - Redrib" />
+		
+		<x-ref tradingPartner="rrph0001" mhg="REMEDI" functionMask="FFFF"
+			description="Remedi - Real Time - " />
+		<x-ref tradingPartner="MRRM0001" mhg="REMEDI" functionMask="FFFF"
+			description="MHG: REMEDI REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MRSM0001" mhg="REMEDI" functionMask="FFFF"
+			description="MHG: REMEDI SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MRRR0013" mhg="REMEDI" functionMask="FFFF"
+			description="MHG: REMEDI REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MRPR0001" mhg="REMEDI" functionMask="FFFF"
+			description="MHG: REMEDI PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MRRM0003" mhg="REMEDI" functionMask="FFFF"
+			description="MHG: REMEDI REALER (MEDICAL)" />
+
+		<x-ref tradingPartner="opha0028" mhg="NEWMED" functionMask="FFFF"
+			description="Omnihealth - Real Time - " />
+		<x-ref tradingPartner="tpha0039" mhg="NEWMED" functionMask="FFFF"
+			description=" Transmed" />
+		<x-ref tradingPartner="mrde0004" mhg="NEWMED" functionMask="FFFF"
+			description="MRDE0004 - Methealth" />
+		<x-ref tradingPartner="MMRM0001" mhg="NEWMED" functionMask="FFFF"
+			description="MHG: METROPOLITAN REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MMSM0002" mhg="NEWMED" functionMask="FFFF"
+			description="MHG: METROPOLITAN SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MMRR0009" mhg="NEWMED" functionMask="FFFF"
+			description="MHG: METROPOLITAN REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MMPR0002" mhg="NEWMED" functionMask="FFFF"
+			description="MHG: METROPOLITAN PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MMRM0005" mhg="NEWMED" functionMask="FFFF"
+			description="MHG: METROPOLITAN REALER (MEDICAL)" />
+		<x-ref tradingPartner="MTRR0001" mhg="NEWMED" functionMask="FFFF"
+			description="MHG: TRANSMED REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MTPR0002" mhg="NEWMED" functionMask="FFFF"
+			description="MHG: TRANSMED PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MTRM0004" mhg="NEWMED" functionMask="FFFF"
+			description="MHG: TRANSMED REALER (MEDICAL)" />
+		<x-ref tradingPartner="MMMR0005" mhg="NEWMED" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+
+		<x-ref tradingPartner="SAMW0001" mhg="SAMWU" functionMask="FFFF"
+			description="MHG: SAMWU Realtime" />
+		<x-ref tradingPartner="METR0054" mhg="SAMWU" functionMask="FFFF"
+			description="MHG: Mediclinic Hospital to MHG" />
+		<x-ref tradingPartner="METR0055" mhg="SAMWU" functionMask="FFFF"
+			description="MHG: Netcare Hospital to MHG" />
+		<x-ref tradingPartner="METR0056" mhg="SAMWU" functionMask="FFFF"
+			description="MHG: Hospital to MHG" />
+		<x-ref tradingPartner="MSRM0002" mhg="SAMWU" functionMask="FFFF"
+			description="MHG: Real Time Medical (Doctors) to MHG" />
+		<x-ref tradingPartner="SSME0006" mhg="SAMWU" functionMask="FFFF"
+			description="MHG: SwitchOn Real Time claims to MHG" />
+		<x-ref tradingPartner="SMED0010" mhg="SAMWU" functionMask="FFFF"
+			description="MHG: Doctors batch claims to MHG" />
+		<x-ref tradingPartner="MSRM0010" mhg="SAMWU" functionMask="FFFF"
+			description="MHG: Real Time Realer claims" />
+		<x-ref tradingPartner="MSPR0007" mhg="SAMWU" functionMask="FFFF"
+			description="MHG: Pathology Real Time Realer" />
+			
+		<x-ref tradingPartner="MTRM0001" mhg="TRANSMED" functionMask="FFFF"
+			description="MHG: TRANSMED REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MTSM0001" mhg="TRANSMED" functionMask="FFFF"
+			description="MHG: TRANSMED SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MTMR0014" mhg="TRANSMED" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+
+		<x-ref tradingPartner="nrde0004" mhg="WOOLTRU" functionMask="FFFF"
+			description="nrde0004 - WOOLTRU" />
+		<x-ref tradingPartner="MWRM0001" mhg="WOOLTRU" functionMask="FFFF"
+			description="MHG: WOOLTRU REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MWSM0001" mhg="WOOLTRU" functionMask="FFFF"
+			description="MHG: WOOLTRU SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MWPR0003" mhg="WOOLTRU" functionMask="FFFF"
+			description="MHG: WOOLTRU PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MWRM0002" mhg="WOOLTRU" functionMask="FFFF"
+			description="MHG: WOOLTRU REALER (MEDICAL)" />
+		<x-ref tradingPartner="MWRR0001" mhg="WOOLTRU" functionMask="FFFF"
+			description="MHG: WOOLTRU REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MWMR0002" mhg="WOOLTRU" functionMask="FFFF"
+			description="MHG: MEDICLINIC Doctor" />
+		<x-ref tradingPartner="MIGP0001" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL GROUP PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MIGR0002" mhg="IMPERIAL" functionMask="FFFF"
+			description="MHG: IMPERIAL Realtime" />
+		<x-ref tradingPartner="MMPR0005" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDIPOS PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MMRM0006" mhg="MEDIPOS" functionMask="FFFF"
+			description="MHG: MEDIPOS Realtime" />
+			
+	</destination-x-ref>
+
+	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logFileRefreshInterval="Daily" 
+		processSleepTime="1000" 
+		logDirectory="log/accesslog-main">
+		<claimsLogger 
+			poolId="generic" 
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT" 
+			logTable="DHSMain" 
+			DbUserName="traffic" 
+			DbPassword="pJ9fXZ3d" 
+			minpoolsize="1" 
+			maxpoolsize="2" 
+			timeout="600000">
+			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM" />
+		</claimsLogger>
+	</logger>
+
+</Enviroments>

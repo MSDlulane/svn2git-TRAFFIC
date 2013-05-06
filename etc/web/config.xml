@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Enviroments>
+	<!-- Global Server Parameters -->
+	<server trxSizeLimit="5120000" trxAbortSizeLimit="5120000" tradingPartner="Internet and IVR" name="Web Traffic Server" port="9004" diagPort="9006" logConfigFile="log4j.xml" __system_out="default"/>
+	<multicastDiagServer multicast-host-ip="225.225.225.225" multicast-port="20000" />
+
+	<!-- List of Environments that this server can talk to -->
+	<env name="AMED" >
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-amed.za.mhgad.com" port="9307" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="NEWMED" >
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-newmed.za.mhgad.com" port="9308" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="AMEDEMED" >
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-amed.za.mhgad.com" port="9117" connections="5" autotimeout="120000" poolMaxWaitTime="30000"/>
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="REDRIB" >
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-redrib.za.mhgad.com" port="9311" connections="5" autotimeout="120000" poolMaxWaitTime="30000"/>
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="IMAGE" mhgAccount="IMAGE">
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="IMPERIAL" >
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-imperial.za.mhgad.com" port="9314" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="MEDIPOS" >
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-medipos.za.mhgad.com" port="9315" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="PILIR" mhgAccount="PILIR">
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-pilir.za.mhgad.com" port="9304" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="NIMAS" mhgAccount="NIMAS">
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-nimas.za.mhgad.com" port="9313" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="POLMED" mhgAccount="POLMED">
+		<pool id="COBOL" useSoTimeOut="false" hostname="apl-polmed.za.mhgad.com" port="9309" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="SHARE" >
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="GEMS" mhgAccount="GEMS">
+		<pool id="COBOL" useSoTimeOut="false" hostname="apl-gems.za.mhgad.com" port="9310" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<env name="SAMWU" mhgAccount="SAMWU">
+		<pool id="COBOL" useSoTimeOut="false" hostname="apl-samwu.za.mhgad.com" port="9305" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
+	</env>
+
+	<threadPool useThreadPool="true" size="-1" />
+	<!-- Log File Parameters  -->
+	<logger classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+		logDirectory="log/accesslog"/>
+
+	<transaction        class="InterfaceTransactions.DefaultImplementation.DefaultTransaction" />
+	<transaction-header class="InterfaceTransactions.DefaultImplementation.DefaultHeader" />
+
+	<pool-definitions-file name="pool.xml">
+		<pool id="POJAS" class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector" hostName="cptlsee01.za.mhgad.com" port="23000"/>
+	</pool-definitions-file>
+
+	<snmp-port mibFile="mibs.xml">9161</snmp-port>
+	<tailWatchServer id="Internet" tcpipPort="9008" multicast-host-ip="" multicast-port="-1" />
+	<diagTailWatchServer id="Internet" tcpipPort="9009" multicast-host-ip="" multicast-port="-1" />
+
+</Enviroments>

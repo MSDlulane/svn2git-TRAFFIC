@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Enviroments>
+
+	<server sendTrxDetailsToStatusMonitor="true" trxSizeLimit="128000"
+		trxAbortSizeLimit="256000" cmdPasswd="1q2w3e" tradingPartner="Mediswitch"
+		name="DHS POLMED Server" port="20500" diagPort="20501" logConfigFile="log4j_polmed_non_qpbm.xml"
+		distributedCacheEnabled="true" distributedCacheIP="cptlagw01.za.mhgad.com" 
+		distributedCachePort="11211" distributedCacheEntryTimeout="120" 
+		__system_out="default" />
+
+	<env name="POLMED" mhgAccount="POLMED" useDistributedCache="true">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9109" connections="20" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<env name="POLMED_DOC">
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9109" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+	</env>
+
+	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
+	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
+
+	<pool-definitions-file name="pool.xml" />
+
+	<snmp-port mibFile="mibs.xml">20502</snmp-port>
+	<tailWatchServer id="Mediswitch" tcpipPort="20503"
+		multicast-host-ip="" multicast-port="-1" />
+	<diagTailWatchServer id="Mediswitch" tcpipPort="20504"
+		multicast-host-ip="" multicast-port="-1" />
+	<inputDataServer id="Mediswitch" tcpipPort="20505" multicast-host-ip="" multicast-port="-1" />
+
+	<synchronous-transactions>true</synchronous-transactions>
+
+	<transaction-x-ref>
+		<x-ref tradingPartner="1" mhg="ELCHECK" functionNo="0001"
+			description="Elegibility check" />
+		<x-ref tradingPartner="2" mhg="REALCLM" functionNo="000A"
+			description="Realtime Pharmacy Medicine claims" />
+		<x-ref tradingPartner="3" mhg="REALCLM" functionNo="0002"
+			description="Realtime doctor Medicine claims" />
+		<x-ref tradingPartner="4" mhg="REALCLM" functionNo="0004"
+			description="Realtime doctor claims" />
+		<x-ref tradingPartner="127" mhg="PING" functionNo="0008"
+			isPingOrHandshake="true" description="Ping" />
+		<x-ref tradingPartner="5" mhg="REALCLM" functionNo="0010"
+			description="Realtime doctor" />
+	</transaction-x-ref>
+
+	<destination-x-ref>
+		
+		<x-ref tradingPartner="prph0003" mhg="POLMED_DOC" functionMask="FFFF"
+			description="Polmed - Real Time - " />
+
+		<x-ref tradingPartner="MPRM0003" mhg="POLMED" functionMask="FFFF"
+			description="MHG: POLMED REALTIME (MEDICAL)" />
+		<x-ref tradingPartner="MPSM0004" mhg="POLMED" functionMask="FFFF"
+			description="MHG: POLMED SWITCHON (MEDICAL)" />
+		<x-ref tradingPartner="MSOB0003" mhg="POLMED" functionMask="FFFF"
+			description="MHG: POLMED PATHOLOGY REALER (MEDICAL)" />
+		<x-ref tradingPartner="MSOB0004" mhg="POLMED" functionMask="FFFF"
+			description="MHG: POLMED REALER (MEDICAL)" />
+		<x-ref tradingPartner="MSOB0005" mhg="POLMED" functionMask="FFFF"
+			description="MHG: POLMED REALER RADIO PHYSIO (MEDICAL)" />
+		<x-ref tradingPartner="MPMR0003" mhg="POLMED" functionMask="FFFF"
+			description="MHG: POLMED MEDICLINIC (MEDICAL)" />
+
+	</destination-x-ref>
+
+	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logFileRefreshInterval="Daily" 
+		processSleepTime="1000" 
+		logDirectory="log/accesslog-polmed">
+		<claimsLogger 
+			poolId="generic" 
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT" 
+			logTable="DHSPolmed" 
+			DbUserName="traffic" 
+			DbPassword="pJ9fXZ3d" 
+			minpoolsize="1" 
+			maxpoolsize="2" 
+			timeout="600000">
+			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM" />
+		</claimsLogger>
+	</logger>
+	
+</Enviroments>
