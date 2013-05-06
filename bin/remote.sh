@@ -1,21 +1,29 @@
 #!/bin/bash
 TRAFHOME=/opt/mhg/TRAFFIC
-SSH_USER=""
-TRAFNAME=$2
+SSH_USER=$1
+REV_NR=$2
 DATESTAMP=$(date '+%Y%m%d_%H%M%S')
-for TRAFNAME in "$@"
-do
-	if [ "$SSH_USER" = "" ]; then
-		SSH_USER=$TRAFNAME
-	else
-		OLD_IFS=$IFS
-		IFS=$'\r\n'
-		for hostname in $(grep " $TRAFNAME " "$TRAFHOME/etc/traffic_server_list.txt" | awk '{print $1}' | sort | uniq)
-		do
-			ssh "$SSH_USER$hostname" "sudo $TRAFHOME/bin/perform_deploy.sh" > "deployment_$DATESTAMP"
-		done
-		IFS=$OLD_IFS
-	fi
-done
-#git add --all
-#git commit -m "Deployment completed."
+OPERATION="rollback_"
+if [ "$REV_NR" = "" ]; then
+	echo "Performing deployment..."
+	OPERATION="deployment_"
+else
+	echo "Performing rollback..."
+fi
+
+if [ "$SSH_USER" = "" ]; then
+	echo "No SSH user specified. Abort."
+	exit 1
+else
+	OLD_IFS=$IFS
+	IFS=$'\r\n'
+	for hostname in $(awk '{print $1}' "$TRAFHOME/etc/traffic_server_list.txt" | sort | uniq)
+	do
+		ssh "$SSH_USER$hostname" "sudo $TRAFHOME/bin/perform_deploy.sh $REV_NR" |tee "${OPERATION}${DATESTAMP}"
+	done
+	IFS=$OLD_IFS
+fi
+echo "Adding deployment log to SVN repository..."
+svn add ./* 
+svn ci -m "Deployment completed: ${SSH_USER}."
+echo "Done."
