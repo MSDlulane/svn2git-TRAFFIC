@@ -1,10 +1,5 @@
 #!/bin/bash
 ###
-# The SVN revision number should be supplied for
-# configuration rollback
-##
-REVISION=$1
-###
 # Only the shell utilities listed below 
 # should be used in this script.
 #
@@ -24,11 +19,6 @@ REVISION=$1
 # - /opt/mhg/TRAFFIC/bin/update_config.sh
 # - /opt/mhg/TRAFFIC/bin/verify_configs.sh
 ####
-
-###
-# Uncomment the line below to update the config:
-#/opt/mhg/TRAFFIC/bin/update_config.sh ${REVISION}
-
 ###
 # The line below will restart the "Mhg_ACPT" TRAF 
 # server. To modify this, find the traffic server
