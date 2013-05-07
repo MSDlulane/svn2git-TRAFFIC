@@ -17,7 +17,7 @@ do
 	if [ -f "/etc/init.d/$scriptname" ]; then
 		scriptinstalled="1"
 	fi
-	rcconfig=$(chkconfig --list $scriptname |grep -c "3:on	4:on	5:on")
+	rcconfig=$(/sbin/chkconfig --list $scriptname |grep -c "3:on	4:on	5:on")
 	printf "$row" "$trafname" "$scriptname" "$scriptinstalled" "$rcconfig"
 done
 echo ""

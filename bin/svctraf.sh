@@ -9,7 +9,7 @@ if [ "$OPERATION" != "status" ]; then
 	do
 		trafname=$(echo "$trafconfig" | awk '{print $2}')
 		scriptname="traffic-$trafname"
-		rcconfig=$(chkconfig --list $scriptname |grep -c "3:on	4:on	5:on")
+		rcconfig=$(/sbin/chkconfig --list $scriptname |grep -c "3:on	4:on	5:on")
 		if [ -f "/etc/init.d/$scriptname" ]; then
 			if [ "$rcconfig" = "1" ]; then
 				/sbin/service "$scriptname" $OPERATION > /dev/null

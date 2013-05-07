@@ -8,7 +8,7 @@ if [ "$TRAFNAME" = "" ]; then
 fi
 SCRIPTNAME=traffic-$TRAFNAME
 echo "Delete rc.d config..."
-chkconfig --del $TRAFNAME_PARAM
+/sbin/chkconfig --del $TRAFNAME_PARAM
 if [ -f /etc/init.d/$SCRIPTNAME ]; then
 	echo "Delete init.d script..."
 	rm /etc/init.d/$SCRIPTNAME
