@@ -74,11 +74,9 @@ Standin_ACPT         (pid 6502) is running...
 
 Connection to cptlagw90.za.mhgad.com closed.
 Adding deployment log to SVN repository...
-A         rollback_20130507_072555
+A         rollback_20130507_090442
 svn: E200009: Could not add all targets because some targets are already versioned
 svn: E200009: Illegal target for the requested operation
-Sending        deployment_20130507_070917
-Adding         rollback_20130507_072555
-Transmitting file data ..
-Committed revision 30.
-Done.
+Sending        rollback_20130507_072555
+Adding         rollback_20130507_090442
+Transmitting file data .
