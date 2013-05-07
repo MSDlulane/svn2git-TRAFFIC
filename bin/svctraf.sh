@@ -12,7 +12,7 @@ if [ "$OPERATION" != "status" ]; then
 		rcconfig=$(chkconfig --list $scriptname |grep -c "3:on	4:on	5:on")
 		if [ -f "/etc/init.d/$scriptname" ]; then
 			if [ "$rcconfig" = "1" ]; then
-				service "$scriptname" $OPERATION > /dev/null
+				/sbin/service "$scriptname" $OPERATION > /dev/null
 			fi
 		fi
 	done
@@ -31,7 +31,7 @@ for trafconfig in $(grep "$HOSTNAME" "$TRAFHOME/etc/traffic_server_list.txt")
 do
 	trafname=$(echo "$trafconfig" | awk '{print $2}')
 	scriptname="traffic-$trafname"
-	servicestatus=$(service $scriptname status 2>&1 |awk '{for(i=2;i<=NF;i++){ printf $i" " } print ""}')
+	servicestatus=$(/sbin/service $scriptname status 2>&1 |awk '{for(i=2;i<=NF;i++){ printf $i" " } print ""}')
 	printf "$row" "$trafname" "$servicestatus"
 done
 IFS=$OLD_IFS
