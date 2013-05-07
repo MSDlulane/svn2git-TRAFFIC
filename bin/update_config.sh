@@ -3,7 +3,8 @@ TRAFHOME=/opt/mhg/TRAFFIC
 INITIAL_REV=$(svn info "$TRAFHOME" | grep Revision |awk '{print $2}')
 EXP_NEXT_REV=$((INITIAL_REV+1))
 ROLLBACK_REV=$1
-if [ "$ROLLBACK_REV" = "" ]; then
+
+do_update() {
 	echo "Retrieving latest configuration..."
 	svn update "$TRAFHOME"
 	NEW_REV=$(svn info "$TRAFHOME" | grep Revision |awk '{print $2}')
@@ -13,6 +14,10 @@ if [ "$ROLLBACK_REV" = "" ]; then
 		echo "Summary of (A)dded and (M)odified files."
 		svn log -v -r "$EXP_NEXT_REV":"$NEW_REV" "$TRAFHOME" |egrep "^   (A|M)"
 	fi
+}
+
+if [ "$ROLLBACK_REV" = "" ]; then
+	do_update
 else
 	cp "$TRAFHOME/bin/deploy.sh" "/tmp/rollback_${ROLLBACK_REV}_deploy.sh"
 	echo "Rolling back to revision #$ROLLBACK_REV..."
