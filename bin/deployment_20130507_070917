@@ -25,7 +25,7 @@ Traffic servers for host, cptlagw90.za.mhgad.com:
 CONFIG-NAME          SERVICE-STATUS                               
 -----------          --------------                               
 PPN_ACPT             (pid 4208) is running...                     
-Mhg_ACPT             (pid 2689) is running...                     
+Mhg_ACPT             (pid 12375) is running...                    
 Check_ACPT           is stopped                                   
 Datamax_ACPT         (pid 4582) is running...                     
 DHS_ACPT             (pid 4698) is running...                     
@@ -44,14 +44,7 @@ WWW_ACPT             (pid 6147) is running...
 IKat_ACPT            (pid 6323) is running...                     
 Standin_ACPT         (pid 6502) is running...                     
 
-Shutting down Mhg_ACPT Traffic Server: [60G[[0;32m  OK  [0;39m]
-Starting Mhg_ACPT Traffic Server: 
-traffic-Mhg_ACPT Service is enabled.
-TRAF JMX/SNMP port set to #65002.
-Using library "LATEST_CPTLAGW90".
-JVM start heap-size not set.
-JVM max heap-size not set.
-[60G[[0;32m  OK  [0;39m]
+Done.
 
 Traffic servers for host, cptlagw90.za.mhgad.com:
 
@@ -79,10 +72,9 @@ Standin_ACPT         (pid 6502) is running...
 
 Connection to cptlagw90.za.mhgad.com closed.
 Adding deployment log to SVN repository...
-A         deployment_20130507_065636
+A         deployment_20130507_070917
 svn: E200009: Could not add all targets because some targets are already versioned
 svn: E200009: Illegal target for the requested operation
-Adding         deployment_20130507_065636
+Sending        deployment_20130507_065636
+Adding         deployment_20130507_070917
 Transmitting file data .
-Committed revision 26.
-Done.
