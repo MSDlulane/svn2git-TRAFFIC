@@ -44,6 +44,8 @@ WWW_ACPT             (pid 6147) is running...
 IKat_ACPT            (pid 6323) is running...                     
 Standin_ACPT         (pid 6502) is running...                     
 
+/opt/mhg/TRAFFIC/bin/update_config.sh: line 16: syntax error near unexpected token `else'
+/opt/mhg/TRAFFIC/bin/update_config.sh: line 16: `else'
 Done.
 
 Traffic servers for host, cptlagw90.za.mhgad.com:
@@ -72,11 +74,9 @@ Standin_ACPT         (pid 6502) is running...
 
 Connection to cptlagw90.za.mhgad.com closed.
 Adding deployment log to SVN repository...
-A         deployment_20130507_070917
+A         rollback_20130507_072555
 svn: E200009: Could not add all targets because some targets are already versioned
 svn: E200009: Illegal target for the requested operation
-Sending        deployment_20130507_065636
-Adding         deployment_20130507_070917
-Transmitting file data ..
-Committed revision 28.
-Done.
+Sending        deployment_20130507_070917
+Adding         rollback_20130507_072555
+Transmitting file data .
