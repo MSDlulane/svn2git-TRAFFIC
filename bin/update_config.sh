@@ -3,7 +3,7 @@ TRAFHOME=/opt/mhg/TRAFFIC
 INITIAL_REV=$(svn info "$TRAFHOME" | grep Revision |awk '{print $2}')
 EXP_NEXT_REV=$((INITIAL_REV+1))
 ROLLBACK_REV=$1
-if [ "$ROLLBACK_REV" = "" ]
+if [ "$ROLLBACK_REV" = "" ]; then
 	echo "Retrieving latest configuration..."
 	svn update "$TRAFHOME"
 	NEW_REV=$(svn info "$TRAFHOME" | grep Revision |awk '{print $2}')
