@@ -1,0 +1,91 @@
+[sudo] password for jmeyer: 
+New config deploy...
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+
+Traffic servers for host, cptlagw90.za.mhgad.com:
+
+CONFIG-NAME          SERVICE-STATUS                               
+-----------          --------------                               
+PPN_ACPT             line 34: service: command not found          
+Mhg_ACPT             line 34: service: command not found          
+Check_ACPT           line 34: service: command not found          
+Datamax_ACPT         line 34: service: command not found          
+DHS_ACPT             line 34: service: command not found          
+EMD_ACPT             line 34: service: command not found          
+HealthBridge_ACPT    line 34: service: command not found          
+KaraboIT_ACPT        line 34: service: command not found          
+MedEdi_ACPT          line 34: service: command not found          
+Medicharge_ACPT      line 34: service: command not found          
+Medikredit_ACPT      line 34: service: command not found          
+Medipos_ACPT         line 34: service: command not found          
+MediPost_ACPT        line 34: service: command not found          
+Solutio_ACPT         line 34: service: command not found          
+Solutio_sweeper_ACPT line 34: service: command not found          
+SPN_ACPT             line 34: service: command not found          
+WWW_ACPT             line 34: service: command not found          
+IKat_ACPT            line 34: service: command not found          
+Standin_ACPT         line 34: service: command not found          
+
+/opt/mhg/TRAFFIC/bin/svc.sh: line 9: service: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+/opt/mhg/TRAFFIC/bin/svctraf.sh: line 12: chkconfig: command not found
+
+Traffic servers for host, cptlagw90.za.mhgad.com:
+
+CONFIG-NAME          SERVICE-STATUS                               
+-----------          --------------                               
+PPN_ACPT             line 34: service: command not found          
+Mhg_ACPT             line 34: service: command not found          
+Check_ACPT           line 34: service: command not found          
+Datamax_ACPT         line 34: service: command not found          
+DHS_ACPT             line 34: service: command not found          
+EMD_ACPT             line 34: service: command not found          
+HealthBridge_ACPT    line 34: service: command not found          
+KaraboIT_ACPT        line 34: service: command not found          
+MedEdi_ACPT          line 34: service: command not found          
+Medicharge_ACPT      line 34: service: command not found          
+Medikredit_ACPT      line 34: service: command not found          
+Medipos_ACPT         line 34: service: command not found          
+MediPost_ACPT        line 34: service: command not found          
+Solutio_ACPT         line 34: service: command not found          
+Solutio_sweeper_ACPT line 34: service: command not found          
+SPN_ACPT             line 34: service: command not found          
+WWW_ACPT             line 34: service: command not found          
+IKat_ACPT            line 34: service: command not found          
+Standin_ACPT         line 34: service: command not found          
+
