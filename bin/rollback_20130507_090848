@@ -44,8 +44,12 @@ IKat_ACPT            (pid 6323) is running...
 Standin_ACPT         (pid 6502) is running...                     
 
 Retrieving latest configuration...
-At revision 37.
-No changes were detected.
+U    /opt/mhg/TRAFFIC/bin/deployment_20130507_090747
+A    /opt/mhg/TRAFFIC/bin/deployment_20130507_090833
+Updated to revision 38.
+Summary of (A)dded and (M)odified files.
+   M /bin/deployment_20130507_090747
+   A /bin/deployment_20130507_090833
 Done.
 
 Traffic servers for host, cptlagw90.za.mhgad.com:
@@ -74,11 +78,9 @@ Standin_ACPT         (pid 6502) is running...
 
 Connection to cptlagw90.za.mhgad.com closed.
 Adding deployment log to SVN repository...
-A         deployment_20130507_090833
+A         rollback_20130507_090848
 svn: E200009: Could not add all targets because some targets are already versioned
 svn: E200009: Illegal target for the requested operation
-Sending        deployment_20130507_090747
-Adding         deployment_20130507_090833
-Transmitting file data ..
-Committed revision 38.
-Done.
+Sending        deployment_20130507_090833
+Adding         rollback_20130507_090848
+Transmitting file data .
