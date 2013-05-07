@@ -83,4 +83,6 @@ svn: E200009: Could not add all targets because some targets are already version
 svn: E200009: Illegal target for the requested operation
 Sending        deployment_20130507_090833
 Adding         rollback_20130507_090848
-Transmitting file data .
+Transmitting file data ..
+Committed revision 39.
+Done.
