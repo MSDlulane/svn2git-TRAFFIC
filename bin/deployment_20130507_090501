@@ -17,7 +17,6 @@
  regarding the protection of all information in its possession.
 
                                     ***
-[sudo] password for jmeyer: 
 New config deploy...
 
 Traffic servers for host, cptlagw90.za.mhgad.com:
@@ -74,11 +73,9 @@ Standin_ACPT         (pid 6502) is running...
 
 Connection to cptlagw90.za.mhgad.com closed.
 Adding deployment log to SVN repository...
-A         rollback_20130507_090442
+A         deployment_20130507_090501
 svn: E200009: Could not add all targets because some targets are already versioned
 svn: E200009: Illegal target for the requested operation
-Sending        rollback_20130507_072555
-Adding         rollback_20130507_090442
+Adding         deployment_20130507_090501
+Sending        rollback_20130507_090442
 Transmitting file data ..
-Committed revision 32.
-Done.
