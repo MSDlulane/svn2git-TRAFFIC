@@ -84,43 +84,43 @@
 	/>
 
 	<transaction-x-ref>
-		<xref
+		<x-ref
 			tradingPartner="1"
 			mhg="ELCHECK"
 			functionNo="0001"
 			description="Elegibility check"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="2"
 			mhg="REALCLM"
 			functionNo="000A"
 			description="Realtime Pharmacy Medicine claims"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="3"
 			mhg="REALCLM"
 			functionNo="0002"
 			description="Realtime doctor Medicine claims"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="4"
 			mhg="REALCLM"
 			functionNo="0004"
 			description="Realtime doctor claims"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="5"
 			mhg="REALCLM"
 			functionNo="0010"
 			description="Realtime doctor"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="6"
 			mhg="POJAS_SOL_VALIDATE_PATIENT"
 			functionNo="FFFF"
 			description="POJAS_SOL_VALIDATE_PATIENT"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="127"
 			mhg="PING"
 			functionNo="0008"
@@ -129,109 +129,109 @@
 	</transaction-x-ref>
 
 	<destination-x-ref>
-		<xref
+		<x-ref
 			tradingPartner="PA001"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="BANKMED: Dentists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="PA002"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="BANKMED: Pathologists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="PA003"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="BANKMED: Specialists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="PA004"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="BANKMED:Optometrists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="PA005"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="BANKMED:Radiologists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="PA006"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="BANKMED: Oncologists "
 		/>
-		<xref
+		<x-ref
 			tradingPartner="PA007"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="BANKMED: Physiotherapists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="PA008"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="BANKMED: Other"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="PA009"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="BANKMED: Doctors (GP)"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="P5001"
 			mhg="POLMED"
 			functionMask="FFFF"
 			description="POLMED: Dentists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="P5002"
 			mhg="POLMED"
 			functionMask="FFFF"
 			description="POLMED: Pathologists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="P5003"
 			mhg="POLMED"
 			functionMask="FFFF"
 			description="POLMED: Specialists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="P5004"
 			mhg="POLMED"
 			functionMask="FFFF"
 			description="POLMED:Optometrists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="P5005"
 			mhg="POLMED"
 			functionMask="FFFF"
 			description="POLMED:Radiologists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="P5006"
 			mhg="POLMED"
 			functionMask="FFFF"
 			description="POLMED: Oncologists "
 		/>
-		<xref
+		<x-ref
 			tradingPartner="P5007"
 			mhg="POLMED"
 			functionMask="FFFF"
 			description="POLMED: Physiotherapists"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="P5008"
 			mhg="POLMED"
 			functionMask="FFFF"
 			description="POLMED: Other"
 		/>
-		<xref
+		<x-ref
 			tradingPartner="P5009"
 			mhg="POLMED"
 			functionMask="FFFF"
