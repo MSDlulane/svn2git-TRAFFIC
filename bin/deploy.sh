@@ -25,4 +25,5 @@
 # name in the file "$TRAFHOME/etc/traffic_server_list.txt"
 # and replace the name
 #/opt/mhg/TRAFFIC/bin/svc.sh Mhg_ACPT restart
+/opt/mhg/TRAFFIC/bin/svc.sh PPN_ACPT restart
 echo "Done."
