@@ -12,7 +12,9 @@
 	/>
 
 	<!-- List of Environments that this server can talk to -->
-	<env name="AMED">
+	<env
+		name="AMED"
+	>
 		<pool
 			useSoTimeOut="false"
 			stickyStandin="false"
@@ -40,7 +42,9 @@
 		/>
 	</env>
 
-	<env name="POLMED">
+	<env
+		name="POLMED"
+	>
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
@@ -76,7 +80,7 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-	20857
+		20857
 	</snmp-port>
 	<pool-definitions-file
 		name="pool.xml"
