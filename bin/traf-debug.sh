@@ -60,5 +60,5 @@ fi
 TRAFMEMSETTINGS="$TRAFSTARTMEM_OPT $TRAFMAXMEM_OPT"
 
 cd "$TRAFDIR"
-exec -a "$TRAFPROCNAME" java -server $TRAFMEMSETTINGS $TRAFJMXSETTINGS -jar "$TRAFHOME/lib/$TRAFLIB/TRAF.jar" "$TRAFDIR/config.xml" >"$TRAFDIR/stdout" 2>"$TRAFDIR/stderr" &
+exec -a "$TRAFPROCNAME" java -server $TRAFMEMSETTINGS $TRAFSNMPSETTINGS $TRAFJMXSETTINGS -jar "$TRAFHOME/lib/$TRAFLIB/TRAF.jar" "$TRAFDIR/config.xml" >"$TRAFDIR/stdout" 2>"$TRAFDIR/stderr" &
 echo $! > /var/run/mhgsvc/${TRAFPROCNAME}.pid
