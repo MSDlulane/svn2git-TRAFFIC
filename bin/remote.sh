@@ -27,5 +27,5 @@ fi
 echo "Adding deployment log to SVN repository..." |tee -a "${LOGFILE}"
 svn add ./* 2>&1 | grep -v "is already under version control" |tee -a "${LOGFILE}"
 svn ci -m "Deployment completed: ${SSH_USER}." |tee -a "${LOGFILE}"
-echo "Done."|tee -a "${LOGFILE}"
+echo "Done."
 
