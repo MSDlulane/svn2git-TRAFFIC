@@ -3,14 +3,14 @@ TRAFHOME=/opt/mhg/TRAFFIC
 SSH_USER=$1
 REV_NR=$2
 DATESTAMP=$(date '+%Y%m%d_%H%M%S')
-OPERATION="rollback_"
+OPERATION="rollback"
 if [ "$REV_NR" = "" ]; then
 	echo "Performing deployment..."
-	OPERATION="deployment_"
+	OPERATION="deployment"
 else
 	echo "Performing rollback..."
 fi
-LOGFILE="${OPERATION}${DATESTAMP}"
+LOGFILE="logs/${OPERATION}/${DATESTAMP}"
 
 if [ "$SSH_USER" = "" ]; then
 	echo "No SSH user specified. Abort."
@@ -27,5 +27,6 @@ fi
 echo "Adding deployment log to SVN repository..." |tee -a "${LOGFILE}"
 svn add ./* 2>&1 | grep -v "is already under version control" |tee -a "${LOGFILE}"
 svn ci -m "Deployment completed: ${SSH_USER}." |tee -a "${LOGFILE}"
+svn update
 echo "Done."
 
