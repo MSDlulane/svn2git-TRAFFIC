@@ -9,7 +9,7 @@ header="\n%-20s %-30s %-13s %-9s\n"
 row="%-20s %-30s %-13s %-9s\n"
 printf "$header" "CONFIG-NAME" "RC-SCRIPT-NAME" "SCRIPT-EXISTS" "RC-CONFIG"
 printf "$row" "-----------" "--------------" "-------------" "---------"
-for trafconfig in $(grep "$HOSTNAME" "$TRAFHOME/bin/traffic_server_list.txt")
+for trafconfig in $(grep "$HOSTNAME" "$TRAFHOME/conf/traffic_server_list.txt")
 do
 	trafname=$(echo "$trafconfig" | awk '{print $2}')
 	scriptname="traffic-$trafname"

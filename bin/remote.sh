@@ -18,7 +18,7 @@ if [ "$SSH_USER" = "" ]; then
 else
 	OLD_IFS=$IFS
 	IFS=$'\r\n'
-	for hostname in $(grep -v "^#" "$TRAFHOME/bin/traffic_server_list.txt" | awk '{print $1}' | sort | uniq)
+	for hostname in $(grep -v "^#" "$TRAFHOME/conf/traffic_server_list.txt" | awk '{print $1}' | sort | uniq)
 	do
 		ssh -t "${SSH_USER}@${hostname}" "sudo $TRAFHOME/bin/perform_deploy.sh $REV_NR" 2>&1 | tee "${LOGFILE}"
 	done

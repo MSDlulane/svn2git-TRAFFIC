@@ -5,7 +5,7 @@ OPERATION=$1
 if [ "$OPERATION" != "status" ]; then
 	OLD_IFS=$IFS
 	IFS=$'\r\n'
-	for trafconfig in $(grep "$HOSTNAME" "$TRAFHOME/bin/traffic_server_list.txt")
+	for trafconfig in $(grep "$HOSTNAME" "$TRAFHOME/conf/traffic_server_list.txt")
 	do
 		trafname=$(echo "$trafconfig" | awk '{print $2}')
 		scriptname="traffic-$trafname"
@@ -27,7 +27,7 @@ header="\n%-20s %-45s\n"
 row="%-20s %-45s\n"
 printf "$header" "CONFIG-NAME" "SERVICE-STATUS"
 printf "$row" "-----------" "--------------" 
-for trafconfig in $(grep "$HOSTNAME" "$TRAFHOME/bin/traffic_server_list.txt")
+for trafconfig in $(grep "$HOSTNAME" "$TRAFHOME/conf/traffic_server_list.txt")
 do
 	trafname=$(echo "$trafconfig" | awk '{print $2}')
 	scriptname="traffic-$trafname"

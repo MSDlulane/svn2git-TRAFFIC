@@ -2,6 +2,7 @@
 TRAFHOME=/opt/mhg/TRAFFIC
 SSH_STR=$1
 ROLLBACK_REV=$2
+HOSTNAME=$(hostname)
 if [ "${ROLLBACK_REV}" = "" ]; then
 	echo "New config deploy..."
 else
@@ -11,9 +12,44 @@ ${TRAFHOME}/bin/svctraf.sh
 ###
 # The line below to updates the config:
 ${TRAFHOME}/bin/update_config.sh ${ROLLBACK_REV}
-${TRAFHOME}/bin/deploy.sh
+OIFS=${IFS}
+IFS=$'\r\n'
+for LINE in $(egrep '^${HOSTNAME}' ${TRAFHOME}/conf/deployment.instructions)
+do
+	INSTRUCTION=$(echo -n $LINE | awk '{print $3}')
+	TRAFNAME=$(echo -n $LINE | awk '{print $2}')
+	ISDONE="NO"
+	echo "Attempting instruction \"${INSTRUCTION}\" on service \"${HOSTNAME}:${TRAFNAME}\"..."
+	
+	if [ "${INSTRUCTION}" = "restart" ]; then
+		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+	fi
+
+	if [ "${INSTRUCTION}" = "start" ]; then
+		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+	fi
+
+	if [ "${INSTRUCTION}" = "stop" ]; then
+		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+	fi
+
+	if [ "${INSTRUCTION}" = "install" ]; then
+		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+	fi
+
+	if [ "${INSTRUCTION}" = "uninstall" ]; then
+		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+	fi
+
+	if [ "${ISDONE}" = "NO" ]; then
+		echo "The instruction, \"${INSTRUCTION}\" is invalid and cannot be performed."
+	else
+		echo "The instruction, \"${INSTRUCTION}\" was successfully completed."
+	fi
+done
+IFS=${OIFS}
 ${TRAFHOME}/bin/svctraf.sh
-if [ -f "$TRAFHOME/bin/backup_deploy.sh" ]; then
+if [ -f "$TRAFHOME/conf/backup_deployment.instructions" ]; then
 	echo "Removing rollback artifacts..."
-	mv "${TRAFHOME}/bin/backup_deploy.sh" "${TRAFHOME}/bin/deploy.sh"
+	mv "${TRAFHOME}/conf/backup_deployment.instructions" "${TRAFHOME}/conf/deployment.instructions"
 fi

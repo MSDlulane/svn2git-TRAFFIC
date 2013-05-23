@@ -4,7 +4,7 @@ HOSTNAME=$(hostname)
 TRAFNAME=$1
 TRAFPROCNAME=trafffic-$TRAFNAME
 
-TRAFLIST=$TRAFHOME/bin/traffic_server_list.txt
+TRAFLIST=$TRAFHOME/conf/traffic_server_list.txt
 TRAFLIB=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $3}')
 TRAFENABLED=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $4}')
 TRAFSTARTMEM=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $5}')

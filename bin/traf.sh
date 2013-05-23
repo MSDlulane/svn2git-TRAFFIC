@@ -4,7 +4,7 @@ HOSTNAME=$(hostname)
 TRAFNAME=$1
 TRAFPROCNAME=traffic-$TRAFNAME
 
-TRAFLIST=$TRAFHOME/bin/traffic_server_list.txt
+TRAFLIST=$TRAFHOME/conf/traffic_server_list.txt
 TRAFLIB=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $3}')
 TRAFENABLED=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $4}')
 TRAFSTARTMEM=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $5}')
@@ -32,7 +32,7 @@ if [ "$TRAFJMXPORT" = "" ]; then
 else
 	echo "TRAF JMX/SNMP port set to #$TRAFJMXPORT."
 	TRAFJMXSETTINGS="-Dcom.sun.management.jmxremote.port=$TRAFJMXPORT -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false"
-	TRAFSNMPSETTINGS="-Dcom.sun.management.snmp.acl.file=$TRAFHOME/etc/snmp.acl -Dcom.sun.management.snmp.port=$TRAFJMXPORT -Dcom.sun.management.snmp.interface=0.0.0.0"
+	TRAFSNMPSETTINGS="-Dcom.sun.management.snmp.acl.file=$TRAFHOME/conf/snmp.acl -Dcom.sun.management.snmp.port=$TRAFJMXPORT -Dcom.sun.management.snmp.interface=0.0.0.0"
 fi
 
 if [ -d  "$TRAFHOME/lib/$TRAFLIB" ]; then
