@@ -44,7 +44,7 @@ do
 	if [ "${ISDONE}" = "NO" ]; then
 		echo "The instruction, \"${INSTRUCTION}\" is invalid and cannot be performed."
 	else
-		echo "The instruction, \"${INSTRUCTION}\" was successfully completed."
+		echo "The instruction, \"${INSTRUCTION}\" was successfully performed on service \"${HOSTNAME}:${TRAFNAME}\"."
 	fi
 done
 IFS=${OIFS}
