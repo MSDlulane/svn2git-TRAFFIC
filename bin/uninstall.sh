@@ -2,7 +2,7 @@
 TRAFHOME="/opt/mhg/TRAFFIC"
 HOSTNAME=$(hostname)
 TRAFNAME_PARAM=$1
-TRAFNAME=$(grep "$HOSTNAME $TRAFNAME_PARAM" "$TRAFHOME/etc/traffic_server_list.txt" | awk '{print $2}')
+TRAFNAME=$(grep "$HOSTNAME $TRAFNAME_PARAM" "$TRAFHOME/bin/traffic_server_list.txt" | awk '{print $2}')
 if [ "$TRAFNAME" = "" ]; then
 	echo "The TRAF service $TRAFNAME_PARAM is not configured for this host, $HOSTNAME. Aborting."
 fi

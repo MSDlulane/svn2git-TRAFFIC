@@ -1,6 +1,6 @@
 #!/bin/bash
 TRAFHOME=/opt/mhg/TRAFFIC
-TRAFLIST=$TRAFHOME/etc/traffic_server_list.txt
+TRAFLIST=$TRAFHOME/bin/traffic_server_list.txt
 echo "Find config dir in \"$TRAFHOME/etc\" for entries in \"$TRAFLIST\"."
 OLD_IFS=$IFS
 IFS=$'\n'

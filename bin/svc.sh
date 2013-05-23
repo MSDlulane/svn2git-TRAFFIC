@@ -4,7 +4,7 @@ HOSTNAME=$(hostname)
 TRAFNAME=$1
 OPERATION=$2
 CONFIGKEY="$HOSTNAME $TRAFNAME "
-EXISTS=$(grep -c "$CONFIGKEY" "$TRAFHOME/etc/traffic_server_list.txt")
+EXISTS=$(grep -c "$CONFIGKEY" "$TRAFHOME/bin/traffic_server_list.txt")
 if [ "$EXISTS" = "1" ]; then
 	/sbin/service "traffic-$TRAFNAME" $OPERATION
 	exit $?
