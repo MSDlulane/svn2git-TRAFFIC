@@ -14,7 +14,7 @@ TRAFLOGLINK="$TRAFHOME/etc/$TRAFNAME/log"
 echo "Make log directory $TRAFLOGDIR..."
 mkdir -p $TRAFLOGDIR
 chown mhgsvc:mhgsvc $TRAFLOGDIR
-if [ -f $TRAFLOGLINK ]; then
+if [ -f "${TRAFLOGLINK}" ]; then
 	echo "Soft-link $TRAFLOGLINK exists."
 else
 	echo "Make log soft-link $TRAFLOGLINK..."
