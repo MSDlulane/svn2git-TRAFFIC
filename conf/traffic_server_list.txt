@@ -85,5 +85,5 @@ cptlagw80.za.mhgad.com IKat LEGACY_CPTLAGW80 ENABLED -1 -1 64002
 cptlagw80.za.mhgad.com Medicharge LEGACY_CPTLAGW80 ENABLED -1 -1 64003
 cptlagw80.za.mhgad.com Mhg LATEST_CPTLAGW90 ENABLED -1 -1 64004
 cptlagw80.za.mhgad.com MHRS LEGACY_CPTLAGW80 ENABLED -1 -1 64005
-cptlagw80.za.mhgad.com Solutio LEGACY_CPTLAGW80 ENABLED -1 -1 64006
-cptlagw80.za.mhgad.com Solutio_sweeper LEGACY_CPTLAGW80 ENABLED -1 -1 64007
+cptlagw80.za.mhgad.com Solutio LEGACY_SOLUTIO_CPTLAGW80 ENABLED -1 -1 64006
+cptlagw80.za.mhgad.com Solutio_sweeper LEGACY_SOLUTIO_CPTLAGW80 ENABLED -1 -1 64007

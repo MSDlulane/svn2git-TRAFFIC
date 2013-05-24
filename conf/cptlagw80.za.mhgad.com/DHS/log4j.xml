@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<!--
+| For more configuration infromation and examples see the Jakarta Log4j
+| owebsite: http://jakarta.apache.org/log4j
+-->
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="true">
+
+<!-- ================================= -->
+<!-- Preserve messages in a local file -->
+<!-- ================================= -->
+<!-- A time/date based rolling appender -->
+<appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender">
+	<param name="Threshold" value="DEBUG"/>
+	<param name="Append" value="true" />
+	<param name="File" value="log/DHS_DEV.log"/>
+	<param name="DatePattern" value="'.'yyyyMMdd"/>
+	<layout class="org.apache.log4j.PatternLayout">
+		<!-- The default pattern: Date Priority [Category] Message\n -->
+		<param name="ConversionPattern" value="%d %-5p %-17c{2} (%13F:%L) %3x - %m\n"/>
+	</layout>
+</appender>
+
+<!-- ============================== -->
+<!-- Append messages to the console -->
+<!-- ============================== -->
+<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+	<param name="Threshold" value="DEBUG"/>
+	<param name="Target" value="log/System.out"/>
+	<layout class="org.apache.log4j.PatternLayout">
+	<!-- The default pattern: Date Priority [Category] Message\n -->
+	<param name="ConversionPattern" value="%d{ABSOLUTE} %-5p [%c{1}] %m%n"/>
+	</layout>
+</appender>
+
+<root>
+	<param name="priority" value="DEBUG" />
+	<appender-ref ref="FILE"/>
+	<appender-ref ref="CONSOLE"/>
+</root>
+
+</log4j:configuration>
+
