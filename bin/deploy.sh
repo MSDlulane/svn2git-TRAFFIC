@@ -13,7 +13,7 @@ fi
 
 while true; do
 	if [ $1 ]; then
-		echo ssh -t "${sshUser}@$1" "sudo $trafHome/bin/perform_deploy.sh" '2>&1' '| tee "${logFile}"'
+		ssh -t "${sshUser}@$1" "sudo $trafHome/bin/perform_deploy.sh" 2>&1 | tee "${logFile}"
 		shift
 	else
 		break
