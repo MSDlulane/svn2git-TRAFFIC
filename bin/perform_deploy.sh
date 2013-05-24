@@ -14,7 +14,7 @@ ${TRAFHOME}/bin/svctraf.sh
 ${TRAFHOME}/bin/update_config.sh ${ROLLBACK_REV}
 OIFS=${IFS}
 IFS=$'\r\n'
-for LINE in $(egrep '^${HOSTNAME}' ${TRAFHOME}/conf/deployment.instructions)
+for LINE in $(egrep '^${HOSTNAME} ' ${TRAFHOME}/conf/deployment.instructions)
 do
 	INSTRUCTION=$(echo -n $LINE | awk '{print $3}')
 	TRAFNAME=$(echo -n $LINE | awk '{print $2}')
