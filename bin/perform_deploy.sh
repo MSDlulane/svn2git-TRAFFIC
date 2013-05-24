@@ -23,22 +23,27 @@ do
 	
 	if [ "${INSTRUCTION}" = "restart" ]; then
 		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+		ISDONE="YES"
 	fi
 
 	if [ "${INSTRUCTION}" = "start" ]; then
 		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+		ISDONE="YES"
 	fi
 
 	if [ "${INSTRUCTION}" = "stop" ]; then
 		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+		ISDONE="YES"
 	fi
 
 	if [ "${INSTRUCTION}" = "install" ]; then
 		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+		ISDONE="YES"
 	fi
 
 	if [ "${INSTRUCTION}" = "uninstall" ]; then
 		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+		ISDONE="YES"
 	fi
 
 	if [ "${ISDONE}" = "NO" ]; then
