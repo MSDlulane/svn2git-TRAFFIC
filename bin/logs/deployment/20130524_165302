@@ -1,0 +1,66 @@
+
+                             ***  WARNING  ***
+
+ This system is restricted to users authorised by Metropolitan Health
+ and for authorised use only.  Actual or attempted unauthorised access, use or
+ modification of this system is strictly prohibited and is subject to 
+ disciplinary proceedings and/or criminal or civil penalties under applicable
+ domestic or foreign laws or regulations.
+
+ The use of this system may be monitored and recorded for administrative
+ and security reasons.  Anyone accessing this system expressly consents to
+ such monitoring and is advised that if possible evidence of unlawful or 
+ criminal activity is revealed, Metropolitan Health may provide such
+ evidence to law enforcement officials or other authorities.
+
+ All users must comply with Metropolitan Health's policies and procedures 
+ regarding the protection of all information in its possession.
+
+                                    ***
+New config deploy...
+
+Traffic servers for host, cptlagw80.za.mhgad.com:
+
+CONFIG-NAME          SERVICE-STATUS                               
+-----------          --------------                               
+DHS                  (pid 14594) is running...                    
+IKat                 (pid 14634) is running...                    
+Medicharge           (pid 14690) is running...                    
+Mhg                  (pid 19432) is running...                    
+MHRS                 (pid 14866) is running...                    
+Solutio              (pid 14917) is running...                    
+Solutio_sweeper      (pid 14962) is running...                    
+
+Retrieving latest configuration...
+U    /opt/mhg/TRAFFIC/bin/deploy.sh
+Updated to revision 92.
+Summary of (A)dded and (M)odified files.
+   M /bin/deploy.sh
+Attempting instruction "restart" on service "cptlagw80.za.mhgad.com:Mhg"...
+Shutting down Mhg Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Mhg Traffic Server: 
+traffic-Mhg Service is enabled.
+TRAF JMX/SNMP port set to #64004.
+Using library "LATEST_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw80.za.mhgad.com:Mhg".
+
+Traffic servers for host, cptlagw80.za.mhgad.com:
+
+CONFIG-NAME          SERVICE-STATUS                               
+-----------          --------------                               
+DHS                  (pid 14594) is running...                    
+IKat                 (pid 14634) is running...                    
+Medicharge           (pid 14690) is running...                    
+Mhg                  (pid 20243) is running...                    
+MHRS                 (pid 14866) is running...                    
+Solutio              (pid 14917) is running...                    
+Solutio_sweeper      (pid 14962) is running...                    
+
+Connection to cptlagw80 closed.
+Adding deployment log to SVN repository...
+A         logs/deployment/20130524_165302
+Adding         bin/logs/deployment/20130524_165302
+Transmitting file data .
