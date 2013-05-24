@@ -1,9 +1,9 @@
 #!/bin/bash
 svn update ../
 trafHome=/opt/mhg/TRAFFIC
-sshUser=$1
-shift
 rollbackRev=$1
+shift
+sshUser=$1
 shift
 dateStamp=$(date '+%Y%m%d_%H%M%S')
 logFile="logs/deployment/${dateStamp}"
