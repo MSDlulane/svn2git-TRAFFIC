@@ -21,7 +21,7 @@ while true; do
 done
 echo "Adding deployment log to SVN repository..." |tee -a "${logFile}"
 svn add ${logFile} 2>&1 | grep -v "is already under version control" |tee -a "${logFile}"
-svn ci -m "Deployment completed: ${sshUser}." |tee -a "${logFile}"
+svn ci -m "Deployment completed: ${sshUser}." 
 svn update
 echo "Done."
 
