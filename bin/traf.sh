@@ -5,11 +5,11 @@ TRAFNAME=$1
 TRAFPROCNAME=traffic-$TRAFNAME
 
 TRAFLIST=$TRAFHOME/conf/traffic_server_list.txt
-TRAFLIB=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $3}')
-TRAFENABLED=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $4}')
-TRAFSTARTMEM=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $5}')
-TRAFMAXMEM=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $6}')
-TRAFJMXPORT=$(grep "$HOSTNAME $TRAFNAME" $TRAFLIST | awk '{print $7}')
+TRAFLIB=$(grep "$HOSTNAME $TRAFNAME " $TRAFLIST | awk '{print $3}')
+TRAFENABLED=$(grep "$HOSTNAME $TRAFNAME " $TRAFLIST | awk '{print $4}')
+TRAFSTARTMEM=$(grep "$HOSTNAME $TRAFNAME " $TRAFLIST | awk '{print $5}')
+TRAFMAXMEM=$(grep "$HOSTNAME $TRAFNAME " $TRAFLIST | awk '{print $6}')
+TRAFJMXPORT=$(grep "$HOSTNAME $TRAFNAME " $TRAFLIST | awk '{print $7}')
 TRAFDIR=$TRAFHOME/etc/$TRAFNAME
 
 echo ""
