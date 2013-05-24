@@ -6,7 +6,7 @@ shift
 sshUser=$1
 shift
 dateStamp=$(date '+%Y%m%d_%H%M%S')
-logFile="logs/deployment/${dateStamp}"
+logFile="logs/rollback/${dateStamp}"
 
 if [ "$sshUser" = "" ]; then
 	echo "No SSH user specified. Abort."
