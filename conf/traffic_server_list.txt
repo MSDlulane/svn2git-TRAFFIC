@@ -87,3 +87,24 @@ cptlagw80.za.mhgad.com Mhg LATEST_CPTLAGW90 ENABLED -1 -1 64004
 cptlagw80.za.mhgad.com MHRS LEGACY_CPTLAGW80 ENABLED -1 -1 64005
 cptlagw80.za.mhgad.com Solutio LEGACY_SOLUTIO_CPTLAGW80 ENABLED -1 -1 64006
 cptlagw80.za.mhgad.com Solutio_sweeper LEGACY_SOLUTIO_CPTLAGW80 ENABLED -1 -1 64007
+# PREPROD
+cptlagw70.za.mhgad.com PPN LATEST_CPTLAGW90 ENABLED -1 -1 65001
+cptlagw70.za.mhgad.com Mhg LATEST_CPTLAGW90 ENABLED -1 -1 65002
+cptlagw70.za.mhgad.com Check LEGACY_CPTLAGW90 DISABLED -1 -1 65003
+cptlagw70.za.mhgad.com Datamax LEGACY_CPTLAGW90 ENABLED -1 -1 65004
+cptlagw70.za.mhgad.com DHS LEGACY_CPTLAGW90 ENABLED -1 -1 65005
+cptlagw70.za.mhgad.com EMD LEGACY_CPTLAGW90 ENABLED -1 -1 65006
+cptlagw70.za.mhgad.com HealthBridge LEGACY_CPTLAGW90 ENABLED -1 -1 65007
+cptlagw70.za.mhgad.com KaraboIT LEGACY_CPTLAGW90 ENABLED -1 -1 65008
+cptlagw70.za.mhgad.com MedEdi LEGACY_CPTLAGW90 ENABLED -1 -1 65009
+cptlagw70.za.mhgad.com Medicharge LEGACY_CPTLAGW90 ENABLED -1 -1 65010
+cptlagw70.za.mhgad.com Medikredit LEGACY_CPTLAGW90 ENABLED -1 -1 65011
+cptlagw70.za.mhgad.com Medipos LEGACY_CPTLAGW90 ENABLED -1 -1 65012
+cptlagw70.za.mhgad.com MediPost LEGACY_CPTLAGW90 ENABLED -1 -1 65013
+cptlagw70.za.mhgad.com Solutio LEGACY_SOLUTIO_CPTLAGW90 ENABLED -1 -1 65014
+cptlagw70.za.mhgad.com Solutio_sweeper LEGACY_SOLUTIO_CPTLAGW90 ENABLED -1 -1 65015
+cptlagw70.za.mhgad.com SPN LEGACY_CPTLAGW90 ENABLED -1 -1 65016
+cptlagw70.za.mhgad.com WWW LEGACY_CPTLAGW90 ENABLED -1 -1 65017
+cptlagw70.za.mhgad.com IKat LEGACY_CPTLAGW90 ENABLED -1 -1 65018
+cptlagw70.za.mhgad.com Standin LEGACY_CPTLAGW90 ENABLED -1 -1 65019
+
