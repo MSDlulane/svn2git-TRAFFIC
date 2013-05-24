@@ -1,7 +1,6 @@
 #!/bin/bash
 TRAFHOME=/opt/mhg/TRAFFIC
-SSH_STR=$1
-ROLLBACK_REV=$2
+ROLLBACK_REV=$1
 HOSTNAME=$(hostname)
 if [ "${ROLLBACK_REV}" = "" ]; then
 	echo "New config deploy..."
