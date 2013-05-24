@@ -9,7 +9,7 @@ fi
 SCRIPTNAME=traffic-$TRAFNAME
 echo "Delete rc.d config..."
 /sbin/chkconfig --del $SCRIPTNAME
-if [ -f /etc/init.d/$SCRIPTNAME ]; then
+if [ -f "/etc/init.d/${SCRIPTNAME}" ]; then
 	echo "Delete init.d script..."
 	rm /etc/init.d/$SCRIPTNAME
 else
