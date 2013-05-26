@@ -2,6 +2,7 @@
 TRAFHOME=/opt/mhg/TRAFFIC
 ROLLBACK_REV=$1
 HOSTNAME=$(hostname)
+echo "Updating config: ${HOSTNAME}."
 if [ "${ROLLBACK_REV}" = "" ]; then
 	echo "New config deploy..."
 else

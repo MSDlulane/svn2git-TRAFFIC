@@ -16,6 +16,7 @@ do_update() {
 	fi
 }
 
+svn info ${TRAFHOME}
 if [ "$ROLLBACK_REV" = "" ]; then
 	do_update
 else
