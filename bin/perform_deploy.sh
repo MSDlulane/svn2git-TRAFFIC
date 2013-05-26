@@ -2,6 +2,27 @@
 TRAFHOME=/opt/mhg/TRAFFIC
 ROLLBACK_REV=$1
 HOSTNAME=$(hostname)
+
+function doInstall {
+	if [ "${ROLLBACK_REV}" = "" ]; then
+		${TRAFHOME}/bin/install.sh $1
+		${TRAFHOME}/bin/svc.sh $1 start
+	else
+		${TRAFHOME}/bin/svc.sh $1 stop
+		${TRAFHOME}/bin/uninstall.sh $1
+	fi
+}
+
+function doUninstall {
+	if [ "${ROLLBACK_REV}" = "" ]; then
+		${TRAFHOME}/bin/svc.sh $1 stop
+		${TRAFHOME}/bin/uninstall.sh $1
+	else
+		${TRAFHOME}/bin/install.sh $1
+		${TRAFHOME}/bin/svc.sh $1 start
+	fi
+}
+
 echo "Updating config: ${HOSTNAME}."
 if [ "${ROLLBACK_REV}" = "" ]; then
 	echo "New config deploy..."
@@ -37,12 +58,12 @@ do
 	fi
 
 	if [ "${INSTRUCTION}" = "install" ]; then
-		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+		doInstall ${TRAFNAME}
 		ISDONE="YES"
 	fi
 
 	if [ "${INSTRUCTION}" = "uninstall" ]; then
-		${TRAFHOME}/bin/svc.sh ${TRAFNAME} ${INSTRUCTION}
+		doUninstall ${TRAFNAME}
 		ISDONE="YES"
 	fi
 
