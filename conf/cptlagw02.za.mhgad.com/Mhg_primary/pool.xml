@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <pool-classes>
    <pool id="COBOL" class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector" />
+   <pool id="POJAS_BACKUP" class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector" />
+   <pool id="POJAS_SLOW_BACKUP" class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector" />
 
 		<pool id="JEE" class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector" >
 <tq-function name="Authorisation_2011_04_01.RequestHandler" targetBeanName="Authorisation_2011_04_01.RequestHandler" desc=""/>
@@ -93,6 +95,7 @@
 	</pool>
   
    <pool id="POJAS" class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector" >
+<tq-function name="SPBioKineticsStaleCheck" targetBeanName="DynamicQueryExecutor" desc=""/>
 <tq-function name="AAAmultipurpose_TQ" targetBeanName="DynamicQueryExecutor" desc=""/>
 <tq-function name="ADD_DYNAMIC_SERVICE" targetBeanName="MulticastSender" desc=""/>
 <tq-function name="ADD_MULTIDYNAMIC_SERVICE" targetBeanName="MulticastSender" desc=""/>
