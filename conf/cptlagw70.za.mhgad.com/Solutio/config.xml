@@ -14,7 +14,7 @@
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			hostname="cptlagw70.za.mhgad.com" port="33000" connections="4"
+			hostname="cptlagw70.za.mhgad.com" port="23000" connections="4"
 			autotimeout="120000" poolMaxWaitTime="60000" />
 	</env>
 
@@ -30,7 +30,7 @@
                         serviceTqName="ListServicesNames" />
 		<pool id="POJAS"
 			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-			hostName="cptlagw70.za.mhgad.com" port="33000" />
+			hostName="cptlagw70.za.mhgad.com" port="23000" />
 	</pool-definitions-file>
 
 	<transaction-x-ref>
