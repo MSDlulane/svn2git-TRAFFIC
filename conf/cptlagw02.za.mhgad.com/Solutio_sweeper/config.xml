@@ -4,7 +4,7 @@
 	<!-- Global Server Parameters -->
 	<server sendTrxDetailsToStatusMonitor="true" tradingPartner="SolutioSweeper"
 		name="Solutio Sweeper Traf" port="10100" diagPort="10101"
-		logConfigFile="log4j_sweeper.xml" __system_out="sweeperTraf.system.out"
+		logConfigFile="log4j.xml" __system_out="sweeperTraf.system.out"
 		internalMessages="true" />
 
 	<!-- List of Environments that this server can talk to -->
