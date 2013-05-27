@@ -7,3 +7,4 @@ do
 	echo "Starting \"${trafname}\" for test..."
 	${trafficdirname}/dbin/traf-debuf.sh ${testhostname} ${trafficdirname} ${trafname}
 done
+
