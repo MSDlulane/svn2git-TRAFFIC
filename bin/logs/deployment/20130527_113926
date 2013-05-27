@@ -1,0 +1,285 @@
+Warning: Permanently added 'cptlagw70.za.mhgad.com,172.23.113.24' (RSA) to the list of known hosts.
+
+                             ***  WARNING  ***
+
+ This system is restricted to users authorised by Metropolitan Health
+ and for authorised use only.  Actual or attempted unauthorised access, use or
+ modification of this system is strictly prohibited and is subject to 
+ disciplinary proceedings and/or criminal or civil penalties under applicable
+ domestic or foreign laws or regulations.
+
+ The use of this system may be monitored and recorded for administrative
+ and security reasons.  Anyone accessing this system expressly consents to
+ such monitoring and is advised that if possible evidence of unlawful or 
+ criminal activity is revealed, Metropolitan Health may provide such
+ evidence to law enforcement officials or other authorities.
+
+ All users must comply with Metropolitan Health's policies and procedures 
+ regarding the protection of all information in its possession.
+
+                                    ***
+[sudo] password for dmeyer: 
+Updating config: cptlagw70.za.mhgad.com.
+New config deploy...
+
+Traffic servers for host, cptlagw70.za.mhgad.com:
+
+CONFIG-NAME          SERVICE-STATUS                               
+-----------          --------------                               
+PPN                  (pid 16205) is running...                    
+Mhg                  (pid 16283) is running...                    
+Check                is stopped                                   
+Datamax              (pid 16509) is running...                    
+DHS                  (pid 16603) is running...                    
+EMD                  (pid 16705) is running...                    
+HealthBridge         (pid 16811) is running...                    
+KaraboIT             (pid 16925) is running...                    
+MedEdi               (pid 17020) is running...                    
+Medicharge           (pid 17126) is running...                    
+Medikredit           (pid 17179) is running...                    
+Medipos              (pid 17251) is running...                    
+MediPost             (pid 17378) is running...                    
+Solutio              (pid 17479) is running...                    
+Solutio_sweeper      (pid 17565) is running...                    
+SPN                  (pid 17644) is running...                    
+WWW                  (pid 17723) is running...                    
+IKat                 (pid 17776) is running...                    
+Standin              (pid 17904) is running...                    
+
+Path: /opt/mhg/TRAFFIC
+URL: https://cptlsvn01.za.mhgad.com/repos/TRAFFIC
+Repository Root: https://cptlsvn01.za.mhgad.com/repos/TRAFFIC
+Repository UUID: 4db9f1c2-9d7c-4cd1-a05b-62adee338cff
+Revision: 108
+Node Kind: directory
+Schedule: normal
+Last Changed Rev: 108
+Last Changed Date: 2013-05-27 11:33:24 +0200 (Mon, 27 May 2013)
+
+Retrieving latest configuration...
+Error validating server certificate for 'https://cptlsvn01.za.mhgad.com:443':
+ - The certificate is not issued by a trusted authority. Use the
+   fingerprint to validate the certificate manually!
+ - The certificate has expired.
+Certificate information:
+ - Hostname: cptlsvn01.za.mhgad.com
+ - Valid: from Aug 14 11:05:15 2008 GMT until Aug 14 11:05:15 2009 GMT
+ - Issuer: SomeOrganizationalUnit, SomeOrganization, SomeCity, SomeState, --
+ - Fingerprint: bb:89:e0:bf:84:e5:46:85:c0:99:35:2a:8a:79:33:c1:ad:b6:0d:3f
+(R)eject, accept (t)emporarily or accept (p)ermanently? p
+At revision 108.
+No changes were detected.
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:Check"...
+Shutting down Check Traffic Server: [60G[[0;31mFAILED[0;39m]
+Starting Check Traffic Server: 
+traffic-Check Service is NOT enabled. TRAF will not start. Abort.
+[60G[[0;31mFAILED[0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:Check".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:Datamax"...
+Shutting down Datamax Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Datamax Traffic Server: 
+traffic-Datamax Service is enabled.
+TRAF JMX/SNMP port set to #65004.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:Datamax".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:DHS"...
+Shutting down DHS Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting DHS Traffic Server: 
+traffic-DHS Service is enabled.
+TRAF JMX/SNMP port set to #65005.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:DHS".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:EMD"...
+Shutting down EMD Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting EMD Traffic Server: 
+traffic-EMD Service is enabled.
+TRAF JMX/SNMP port set to #65006.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:EMD".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:HealthBridge"...
+Shutting down HealthBridge Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting HealthBridge Traffic Server: 
+traffic-HealthBridge Service is enabled.
+TRAF JMX/SNMP port set to #65007.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:HealthBridge".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:IKat"...
+Shutting down IKat Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting IKat Traffic Server: 
+traffic-IKat Service is enabled.
+TRAF JMX/SNMP port set to #65018.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:IKat".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:KaraboIT"...
+Shutting down KaraboIT Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting KaraboIT Traffic Server: 
+traffic-KaraboIT Service is enabled.
+TRAF JMX/SNMP port set to #65008.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:KaraboIT".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:MedEdi"...
+Shutting down MedEdi Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting MedEdi Traffic Server: 
+traffic-MedEdi Service is enabled.
+TRAF JMX/SNMP port set to #65009.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:MedEdi".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:Medicharge"...
+Shutting down Medicharge Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Medicharge Traffic Server: 
+traffic-Medicharge Service is enabled.
+TRAF JMX/SNMP port set to #65010.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:Medicharge".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:Medikredit"...
+Shutting down Medikredit Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Medikredit Traffic Server: 
+traffic-Medikredit Service is enabled.
+TRAF JMX/SNMP port set to #65011.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:Medikredit".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:Medipos"...
+Shutting down Medipos Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Medipos Traffic Server: 
+traffic-Medipos Service is enabled.
+TRAF JMX/SNMP port set to #65012.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:Medipos".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:MediPost"...
+Shutting down MediPost Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting MediPost Traffic Server: 
+traffic-MediPost Service is enabled.
+TRAF JMX/SNMP port set to #65013.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:MediPost".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:Mhg"...
+Shutting down Mhg Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Mhg Traffic Server: 
+traffic-Mhg Service is enabled.
+TRAF JMX/SNMP port set to #65002.
+Using library "LATEST_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:Mhg".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:PPN"...
+Shutting down PPN Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting PPN Traffic Server: 
+traffic-PPN Service is enabled.
+TRAF JMX/SNMP port set to #65001.
+Using library "LATEST_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:PPN".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:Solutio"...
+Shutting down Solutio Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Solutio Traffic Server: 
+traffic-Solutio Service is enabled.
+TRAF JMX/SNMP port set to #65014.
+Using library "LEGACY_SOLUTIO_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:Solutio".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:Solutio_sweeper"...
+Shutting down Solutio_sweeper Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Solutio_sweeper Traffic Server: 
+traffic-Solutio_sweeper Service is enabled.
+TRAF JMX/SNMP port set to #65015.
+Using library "LEGACY_SOLUTIO_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:Solutio_sweeper".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:SPN"...
+Shutting down SPN Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting SPN Traffic Server: 
+traffic-SPN Service is enabled.
+TRAF JMX/SNMP port set to #65016.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:SPN".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:Standin"...
+Shutting down Standin Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Standin Traffic Server: 
+traffic-Standin Service is enabled.
+TRAF JMX/SNMP port set to #65019.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:Standin".
+Attempting instruction "restart" on service "cptlagw70.za.mhgad.com:WWW"...
+Shutting down WWW Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting WWW Traffic Server: 
+traffic-WWW Service is enabled.
+TRAF JMX/SNMP port set to #65017.
+Using library "LEGACY_CPTLAGW90".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw70.za.mhgad.com:WWW".
+
+Traffic servers for host, cptlagw70.za.mhgad.com:
+
+CONFIG-NAME          SERVICE-STATUS                               
+-----------          --------------                               
+PPN                  (pid 25416) is running...                    
+Mhg                  (pid 25170) is running...                    
+Check                is stopped                                   
+Datamax              (pid 24031) is running...                    
+DHS                  (pid 24129) is running...                    
+EMD                  (pid 24234) is running...                    
+HealthBridge         (pid 24342) is running...                    
+KaraboIT             (pid 24562) is running...                    
+MedEdi               (pid 24669) is running...                    
+Medicharge           (pid 24780) is running...                    
+Medikredit           (pid 24890) is running...                    
+Medipos              (pid 24980) is running...                    
+MediPost             (pid 25072) is running...                    
+Solutio              (pid 25504) is running...                    
+Solutio_sweeper      (pid 25579) is running...                    
+SPN                  (pid 25658) is running...                    
+WWW                  (pid 25838) is running...                    
+IKat                 (pid 24462) is running...                    
+Standin              (pid 25744) is running...                    
+
+Connection to cptlagw70.za.mhgad.com closed.
+Adding deployment log to SVN repository...
+A         logs/deployment/20130527_113926
