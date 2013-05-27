@@ -27,7 +27,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000"/>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -38,7 +38,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -62,7 +62,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000"/>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -73,7 +73,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -87,7 +87,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000"/>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -98,7 +98,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -110,7 +110,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000" />
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -121,7 +121,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -136,7 +136,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000" />
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -147,7 +147,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -162,7 +162,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000"/>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -173,7 +173,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -187,7 +187,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000" />
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -198,7 +198,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -212,7 +212,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000" />
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -223,7 +223,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -237,7 +237,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000" />
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -248,7 +248,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -262,7 +262,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000" />
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -273,7 +273,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -288,7 +288,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000" />
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -299,7 +299,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -311,7 +311,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000" />
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -322,7 +322,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -336,7 +336,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000" />
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -347,7 +347,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -359,7 +359,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 			poolMaxWaitTime="120000">
 		</pool>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -371,7 +371,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -381,7 +381,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 			poolMaxWaitTime="120000">
 		</pool>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -393,7 +393,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -405,7 +405,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 			poolMaxWaitTime="120000">
 		</pool>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -417,7 +417,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -431,7 +431,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="30"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="30"
 		autotimeout="120000" poolMaxWaitTime="120000" />
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -442,7 +442,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -454,7 +454,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 			poolMaxWaitTime="120000">
 		</pool>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -466,7 +466,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -478,7 +478,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 			poolMaxWaitTime="120000">
 		</pool>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -490,7 +490,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -502,7 +502,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 			poolMaxWaitTime="120000">
 		</pool>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -514,7 +514,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -526,7 +526,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 			poolMaxWaitTime="120000">
 		</pool>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -538,7 +538,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -550,7 +550,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 			poolMaxWaitTime="120000">
 		</pool>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -562,7 +562,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -574,7 +574,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
+			hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="120000"
 			poolMaxWaitTime="120000">
 		</pool>
 		<pool id="WAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -586,7 +586,7 @@ switches to the backup
 			<secondaryPool  id="WAS_POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlagw90.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
+				hostname="cptlagw70.za.mhgad.com" port="33000" connections="10" autotimeout="12000"
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
@@ -612,7 +612,7 @@ switches to the backup
 		<pool_
 		id="POJAS"
 			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-			hostName="cptlagw90.za.mhgad.com" port="33000" />
+			hostName="cptlagw70.za.mhgad.com" port="33000" />
 	</pool-definitions-file>
 
 	<snmp-port mibFile="mibs.xml">30602</snmp-port>
