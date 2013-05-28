@@ -33,7 +33,7 @@
 			poolMaxWaitTime="28000"
 		/>
 		<pool
-			id="EJB"
+			id="JEE"
 			hostname="cptleap01.za.mhgad.com"
 			port="1099"
 			connections="100"
@@ -62,7 +62,7 @@
 			autotimeout="120000"
 			poolMaxWaitTime="28000"/>
 		<pool
-			id="EJB"
+			id="JEE"
 			hostname="cptleap01.za.mhgad.com"
 			port="1099"
 			connections="100"
