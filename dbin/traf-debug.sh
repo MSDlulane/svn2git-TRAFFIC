@@ -49,7 +49,7 @@ TRAFMAXMEM_OPT=""
 echo "Ignoring JVM max heap-size."
 
 TRAFMEMSETTINGS="$TRAFSTARTMEM_OPT $TRAFMAXMEM_OPT"
-
+mkdir ${TRAFDIR}/log
 cd "$TRAFDIR"
 nohup java -server $TRAFMEMSETTINGS $TRAFSNMPSETTINGS $TRAFJMXSETTINGS -jar "$TRAFHOME/lib/$TRAFLIB/TRAF.jar" "$TRAFDIR/config.xml" >"$TRAFDIR/log/stdout" 2>"$TRAFDIR/log/stderr" &
-echo $! > /var/run/mhgsvc/${TRAFPROCNAME}.pid
+echo "$TRAFNAME $!" >> $TRAFHOME/dbin/pids
