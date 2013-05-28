@@ -2,6 +2,23 @@
 HOSTNAME=$1
 TRAFHOME=$2
 TRAFNAME=$3
+
+
+if [ "${HOSTNAME}" = "" ]; then
+	echo "Please specify a hostname."
+	exit 1
+fi
+
+if [ "${TRAFHOME}" = "" ]; then
+	echo "Please specify a hostname."
+	exit 2
+fi
+
+if [ "${TRAFNAME}" = "" ]; then
+	echo "Please specify a hostname."
+	exit 4
+fi
+
 TRAFPROCNAME=traffic-$TRAFNAME
 
 TRAFLIST=$TRAFHOME/conf/traffic_server_list.txt
