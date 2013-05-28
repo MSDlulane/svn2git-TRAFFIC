@@ -1,0 +1,136 @@
+Warning: Permanently added 'cptlagw80.za.mhgad.com,172.23.113.41' (RSA) to the list of known hosts.
+
+                             ***  WARNING  ***
+
+ This system is restricted to users authorised by Metropolitan Health
+ and for authorised use only.  Actual or attempted unauthorised access, use or
+ modification of this system is strictly prohibited and is subject to 
+ disciplinary proceedings and/or criminal or civil penalties under applicable
+ domestic or foreign laws or regulations.
+
+ The use of this system may be monitored and recorded for administrative
+ and security reasons.  Anyone accessing this system expressly consents to
+ such monitoring and is advised that if possible evidence of unlawful or 
+ criminal activity is revealed, Metropolitan Health may provide such
+ evidence to law enforcement officials or other authorities.
+
+ All users must comply with Metropolitan Health's policies and procedures 
+ regarding the protection of all information in its possession.
+
+                                    ***
+[sudo] password for jmeyer: 
+Updating config: cptlagw80.za.mhgad.com.
+New config deploy...
+
+Traffic servers for host, cptlagw80.za.mhgad.com:
+
+CONFIG-NAME          SERVICE-STATUS                               
+-----------          --------------                               
+DHS                  (pid 6715) is running...                     
+IKat                 (pid 6773) is running...                     
+Medicharge           (pid 6857) is running...                     
+Mhg                  (pid 10725) is running...                    
+MHRS                 (pid 7057) is running...                     
+Solutio              (pid 7138) is running...                     
+Solutio_sweeper      (pid 7204) is running...                     
+
+Path: /opt/mhg/TRAFFIC
+URL: https://cptlsvn01.za.mhgad.com/repos/TRAFFIC
+Repository Root: https://cptlsvn01.za.mhgad.com/repos/TRAFFIC
+Repository UUID: 4db9f1c2-9d7c-4cd1-a05b-62adee338cff
+Revision: 137
+Node Kind: directory
+Schedule: normal
+Last Changed Rev: 105
+Last Changed Date: 2013-05-26 20:42:23 +0200 (Sun, 26 May 2013)
+
+Retrieving latest configuration...
+svn: Working copy '/opt/mhg/TRAFFIC' locked
+svn: run 'svn cleanup' to remove locks (type 'svn help cleanup' for details)
+No changes were detected.
+Attempting instruction "restart" on service "cptlagw80.za.mhgad.com:DHS"...
+Shutting down DHS Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting DHS Traffic Server: 
+traffic-DHS Service is enabled.
+TRAF JMX/SNMP port set to #64001.
+Using library "DEVELOPMENT_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw80.za.mhgad.com:DHS".
+Attempting instruction "restart" on service "cptlagw80.za.mhgad.com:IKat"...
+Shutting down IKat Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting IKat Traffic Server: 
+traffic-IKat Service is enabled.
+TRAF JMX/SNMP port set to #64002.
+Using library "DEVELOPMENT_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw80.za.mhgad.com:IKat".
+Attempting instruction "restart" on service "cptlagw80.za.mhgad.com:Medicharge"...
+Shutting down Medicharge Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Medicharge Traffic Server: 
+traffic-Medicharge Service is enabled.
+TRAF JMX/SNMP port set to #64003.
+Using library "DEVELOPMENT_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw80.za.mhgad.com:Medicharge".
+Attempting instruction "restart" on service "cptlagw80.za.mhgad.com:Mhg"...
+Shutting down Mhg Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Mhg Traffic Server: 
+traffic-Mhg Service is enabled.
+TRAF JMX/SNMP port set to #64004.
+Using library "DEVELOPMENT_LATEST".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw80.za.mhgad.com:Mhg".
+Attempting instruction "restart" on service "cptlagw80.za.mhgad.com:MHRS"...
+Shutting down MHRS Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting MHRS Traffic Server: 
+traffic-MHRS Service is enabled.
+TRAF JMX/SNMP port set to #64005.
+Using library "DEVELOPMENT_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw80.za.mhgad.com:MHRS".
+Attempting instruction "restart" on service "cptlagw80.za.mhgad.com:Solutio"...
+Shutting down Solutio Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Solutio Traffic Server: 
+traffic-Solutio Service is enabled.
+TRAF JMX/SNMP port set to #64006.
+Using library "DEVELOPMENT_LEGACY_SOLUTIO".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw80.za.mhgad.com:Solutio".
+Attempting instruction "restart" on service "cptlagw80.za.mhgad.com:Solutio_sweeper"...
+Shutting down Solutio_sweeper Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Solutio_sweeper Traffic Server: 
+traffic-Solutio_sweeper Service is enabled.
+TRAF JMX/SNMP port set to #64007.
+Using library "DEVELOPMENT_LEGACY_SOLUTIO".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw80.za.mhgad.com:Solutio_sweeper".
+
+Traffic servers for host, cptlagw80.za.mhgad.com:
+
+CONFIG-NAME          SERVICE-STATUS                               
+-----------          --------------                               
+DHS                  (pid 25270) is running...                    
+IKat                 (pid 25362) is running...                    
+Medicharge           (pid 25451) is running...                    
+Mhg                  (pid 25547) is running...                    
+MHRS                 (pid 25621) is running...                    
+Solutio              (pid 25772) is running...                    
+Solutio_sweeper      (pid 25855) is running...                    
+
+Connection to cptlagw80.za.mhgad.com closed.
+Adding deployment log to SVN repository...
+A         logs/deployment/20130528_192051
