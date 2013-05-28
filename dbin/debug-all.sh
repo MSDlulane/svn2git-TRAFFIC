@@ -2,6 +2,14 @@
 testhostname=$1
 trafficdirname=$2
 
+if [ "${testhostname}" = "" ]; then
+	echo "Please specify a hostname."
+	exit 1
+fi
+if [ "${trafficdirname}" = "" ]; then
+	echo "Please specify a \"traffic_dir_name\"."
+	exit 2
+fi
 rm -f ${trafficdirname}/etc
 if [ -f ${trafficdirname}/dbin/pids ]; then
 	rm ${trafficdirname}/dbin/pids
