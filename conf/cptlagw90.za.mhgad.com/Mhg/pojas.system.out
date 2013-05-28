@@ -1,3 +1,0 @@
-log4j: log/Mhg.log -> log/Mhg.log.20130505
-log4j: setFile called: log/Mhg.log, false
-log4j: setFile ended

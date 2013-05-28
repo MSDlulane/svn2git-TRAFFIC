@@ -2,9 +2,7 @@
 testhostname=$1
 trafficdirname=$2
 
-if [ -f ${trafficdirname}/etc ]; then
-	rm ${trafficdirname}/etc
-fi
+rm -f ${trafficdirname}/etc
 if [ -f ${trafficdirname}/dbin/pids ]; then
 	rm ${trafficdirname}/dbin/pids
 fi

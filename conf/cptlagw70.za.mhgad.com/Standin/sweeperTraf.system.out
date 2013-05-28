@@ -1,7 +1,0 @@
-java.net.BindException: Address already in use
-	at java.net.PlainDatagramSocketImpl.bind0(Native Method)
-	at java.net.PlainDatagramSocketImpl.bind(PlainDatagramSocketImpl.java:91)
-	at java.net.DatagramSocket.bind(DatagramSocket.java:372)
-	at java.net.DatagramSocket.<init>(DatagramSocket.java:211)
-	at java.net.DatagramSocket.<init>(DatagramSocket.java:262)
-	at jmgmt.Agent.run(Agent.java:164)
