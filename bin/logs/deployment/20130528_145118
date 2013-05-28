@@ -1,0 +1,825 @@
+Warning: Permanently added 'cptlagw90.za.mhgad.com' (RSA) to the list of known hosts.
+
+                             ***  WARNING  ***
+
+ This system is restricted to users authorised by Metropolitan Health
+ and for authorised use only.  Actual or attempted unauthorised access, use or
+ modification of this system is strictly prohibited and is subject to 
+ disciplinary proceedings and/or criminal or civil penalties under applicable
+ domestic or foreign laws or regulations.
+
+ The use of this system may be monitored and recorded for administrative
+ and security reasons.  Anyone accessing this system expressly consents to
+ such monitoring and is advised that if possible evidence of unlawful or 
+ criminal activity is revealed, Metropolitan Health may provide such
+ evidence to law enforcement officials or other authorities.
+
+ All users must comply with Metropolitan Health's policies and procedures 
+ regarding the protection of all information in its possession.
+
+                                    ***
+[sudo] password for dmeyer: 
+Updating config: cptlagw90.za.mhgad.com.
+New config deploy...
+
+Traffic servers for host, cptlagw90.za.mhgad.com:
+
+CONFIG-NAME          SERVICE-STATUS                               
+-----------          --------------                               
+PPN                  (pid 18735) is running...                    
+Mhg                  (pid 18777) is running...                    
+Check                is stopped                                   
+Datamax              (pid 18857) is running...                    
+DHS                  (pid 18902) is running...                    
+EMD                  (pid 18944) is running...                    
+HealthBridge         (pid 18986) is running...                    
+KaraboIT             (pid 19028) is running...                    
+MedEdi               (pid 19075) is running...                    
+Medicharge           (pid 19136) is running...                    
+Medikredit           (pid 19217) is running...                    
+Medipos              (pid 19584) is running...                    
+MediPost             (pid 19858) is running...                    
+Solutio              (pid 19953) is running...                    
+Solutio_sweeper      (pid 20130) is running...                    
+SPN                  (pid 20240) is running...                    
+WWW                  (pid 20346) is running...                    
+IKat                 (pid 20533) is running...                    
+Standin              (pid 20591) is running...                    
+
+Path: /opt/mhg/TRAFFIC
+URL: https://cptlsvn01.za.mhgad.com/repos/TRAFFIC
+Repository Root: https://cptlsvn01.za.mhgad.com/repos/TRAFFIC
+Repository UUID: 4db9f1c2-9d7c-4cd1-a05b-62adee338cff
+Revision: 106
+Node Kind: directory
+Schedule: normal
+Last Changed Rev: 106
+Last Changed Date: 2013-05-27 10:47:45 +0200 (Mon, 27 May 2013)
+
+Retrieving latest configuration...
+D    /opt/mhg/TRAFFIC/conf/cptlagw90.za.mhgad.com/Standin/sweeperTraf.system.out
+D    /opt/mhg/TRAFFIC/conf/cptlagw90.za.mhgad.com/SPN/system.out
+D    /opt/mhg/TRAFFIC/conf/cptlagw90.za.mhgad.com/Mhg/pojas.system.out
+U    /opt/mhg/TRAFFIC/conf/deployment.instructions
+D    /opt/mhg/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_backup_primary
+D    /opt/mhg/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_backup_secondary
+U    /opt/mhg/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_secondary/config.xml
+U    /opt/mhg/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_secondary/pool.xml
+U    /opt/mhg/TRAFFIC/conf/cptlagw02.za.mhgad.com/Solutio_sweeper/config.xml
+U    /opt/mhg/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_primary/config.xml
+U    /opt/mhg/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_primary/pool.xml
+U    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/IKat/config.xml
+U    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/PPN/config.xml
+U    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/PPN/pool.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/web
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/web/config.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/web/pool.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/web/mibs.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/web/log4j.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_primary
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_primary/config.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_primary/pool.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_primary/mibs.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_primary/log4j.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/web_auth
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/web_auth/config.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/web_auth/pool.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw03.za.mhgad.com/web_auth/log4j.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/Medikredit/mk_Amed_System.out
+A    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/Medikredit/mibs.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/Medikredit/log4j.xml
+U    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/WWW/config.xml
+U    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/Solutio/config.xml
+D    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/Standin/sweeperTraf.system.out
+A    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/Medipos/mibs.xml
+A    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/Medipos/Medipos_System.out
+A    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/Medipos/log4j.xml
+D    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/SPN/system.out
+U    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/SPN/config.xml
+D    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/Mhg/pojas.system.out
+U    /opt/mhg/TRAFFIC/conf/cptlagw70.za.mhgad.com/Mhg/config.xml
+U    /opt/mhg/TRAFFIC/conf/traffic_server_list.txt
+D    /opt/mhg/TRAFFIC/lib/LEGACY_REGIONAL
+D    /opt/mhg/TRAFFIC/lib/LATEST_CPTLAGW90
+D    /opt/mhg/TRAFFIC/lib/LEGACY_SOLUTIO_CPTLAGW80
+D    /opt/mhg/TRAFFIC/lib/LEGACY_SOLUTIO_CPTLAGW90
+D    /opt/mhg/TRAFFIC/lib/LEGACY_CPTLAGW80
+D    /opt/mhg/TRAFFIC/lib/LEGACY_CPTLAGW90
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/babylon2-3.0.2-SNAPSHOT-client.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/jdom-1.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/jconn3-6.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/EjbServiceInterface-0.1-SNAPSHOT.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY/README.TXT
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/sybase-jdbc3-driver-6.0-b26023.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/babylon2-client-3.0.2.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/commons-codec-1.3.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/jdom-1.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/xml-apis-1.0.b2.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/commons-logging-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/EjbServiceInterface-0.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LATEST/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/sybase-jdbc3-driver-6.0-b26023.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/babylon2-client-3.0.2.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/commons-codec-1.3.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/jdom-1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/xml-apis-1.0.b2.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/commons-logging-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/EjbServiceInterface-0.1.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LATEST/README.TXT
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/babylon2-3.0.2-SNAPSHOT-client.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/jdom-1.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/jconn3-6.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/EjbServiceInterface-0.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY_SOLUTIO/README.TXT
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/sybase-jdbc3-driver-6.0-b26023.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/babylon2-client-3.0.2.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/commons-codec-1.3.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/jdom-1.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/xml-apis-1.0.b2.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/commons-logging-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/EjbServiceInterface-0.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LEGACY/README.TXT
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/sybase-jdbc3-driver-6.0-b26023.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/babylon2-client-3.0.2.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/commons-codec-1.3.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/jdom-1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/xml-apis-1.0.b2.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/commons-logging-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/EjbServiceInterface-0.1.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LATEST/README.TXT
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/babylon2-3.0.2-SNAPSHOT-client.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/jdom-1.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/jconn3-6.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/EjbServiceInterface-0.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY_SOLUTIO/README.TXT
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/babylon2-3.0.2-SNAPSHOT-client.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/jdom-1.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/jconn3-6.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/EjbServiceInterface-0.1.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY_SOLUTIO/README.TXT
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/ejb3-persistence.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/babylon2-3.0.2-SNAPSHOT-client.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/jdom-1.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/jbossall-client.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/jboss-ejb3x.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/config.xml
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/jconn3-6.0.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/jboss-annotations-ejb3.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/EjbServiceInterface-0.1.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/ACCEPTANCE_LEGACY/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/babylon2-3.0.2-SNAPSHOT-client.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/jdom-1.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/jconn3-6.0.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/EjbServiceInterface-0.1-SNAPSHOT.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/PRODUCTION_LEGACY/README.TXT
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/babylon2-3.0.2-SNAPSHOT-client.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/jdom-1.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/jconn3-6.0.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/EjbServiceInterface-0.1.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/TRAF.jar
+A    /opt/mhg/TRAFFIC/lib/PREPROD_LEGACY_SOLUTIO/README.TXT
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/xalan-2.6.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/jam-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/Claimslogger-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/ejb-api-3.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/crimson-1.1.3.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/xercesImpl-2.4.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/ksoap-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/jmgmt-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/DataMapper-2.0.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/jbossall-client-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/httpclient-4.0.3.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/sybase-jdbc3-driver-6.0-b26023.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/jboss-ejb3x-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/babylon2-client-3.0.2.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/commons-codec-1.3.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/ejb3-persistence-1.0.1.GA.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/jdom-1.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/httpcore-4.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/xml-apis-1.0.b2.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/commons-logging-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/commons-lang-2.4.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/activation-1.1.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/servlet-api-2.5.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/EjbServiceInterface-0.1.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/log4j-1.2.14.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+A    /opt/mhg/TRAFFIC/lib/DEVELOPMENT_LATEST/TRAF.jar
+A    /opt/mhg/TRAFFIC/bin/logs/deployment/20130527_115227
+A    /opt/mhg/TRAFFIC/bin/logs/deployment/20130527_113926
+A    /opt/mhg/TRAFFIC/dbin
+A    /opt/mhg/TRAFFIC/dbin/status_all.sh
+A    /opt/mhg/TRAFFIC/dbin/debug-all.sh
+A    /opt/mhg/TRAFFIC/dbin/stop_all.sh
+A    /opt/mhg/TRAFFIC/dbin/traf-debug.sh
+Updated to revision 137.
+Summary of (A)dded and (M)odified files.
+   A /conf/cptlagw70.za.mhgad.com/Medikredit/log4j.xml
+   A /conf/cptlagw70.za.mhgad.com/Medikredit/mibs.xml
+   A /conf/cptlagw70.za.mhgad.com/Medikredit/mk_Amed_System.out
+   A /conf/cptlagw70.za.mhgad.com/Medipos/Medipos_System.out
+   A /conf/cptlagw70.za.mhgad.com/Medipos/log4j.xml
+   A /conf/cptlagw70.za.mhgad.com/Medipos/mibs.xml
+   M /conf/cptlagw70.za.mhgad.com/Mhg/config.xml
+   M /conf/cptlagw70.za.mhgad.com/SPN/config.xml
+   M /conf/cptlagw70.za.mhgad.com/Solutio/config.xml
+   M /conf/cptlagw70.za.mhgad.com/WWW/config.xml
+   M /conf/deployment.instructions
+   A /bin/logs/deployment/20130527_113926
+   M /conf/cptlagw70.za.mhgad.com/Mhg/config.xml
+   M /conf/cptlagw70.za.mhgad.com/SPN/config.xml
+   M /conf/cptlagw70.za.mhgad.com/Solutio/config.xml
+   M /conf/cptlagw70.za.mhgad.com/WWW/config.xml
+   A /bin/logs/deployment/20130527_115227
+   M /conf/cptlagw02.za.mhgad.com/Solutio_sweeper/config.xml
+   M /conf/cptlagw02.za.mhgad.com/Solutio_sweeper/config.xml
+   M /conf/cptlagw02.za.mhgad.com/Mhg_primary/pool.xml
+   M /conf/cptlagw02.za.mhgad.com/Mhg_secondary/pool.xml
+   A /dbin
+   A /dbin/debug-all.sh
+   A /dbin/traf-debug.sh
+   A /lib/LATEST_CPTLAGW02
+   A /lib/LATEST_CPTLAGW02/README.TXT
+   A /lib/LATEST_CPTLAGW02/TRAF.jar
+   A /lib/LATEST_CPTLAGW02/lib
+   A /lib/LATEST_CPTLAGW02/lib/Claimslogger-2.0.jar
+   A /lib/LATEST_CPTLAGW02/lib/DataMapper-2.0.jar
+   A /lib/LATEST_CPTLAGW02/lib/EjbServiceInterface-0.1.jar
+   A /lib/LATEST_CPTLAGW02/lib/activation-1.1.1.jar
+   A /lib/LATEST_CPTLAGW02/lib/babylon2-client-3.0.2.jar
+   A /lib/LATEST_CPTLAGW02/lib/commons-codec-1.3.jar
+   A /lib/LATEST_CPTLAGW02/lib/commons-lang-2.4.jar
+   A /lib/LATEST_CPTLAGW02/lib/commons-logging-1.1.1.jar
+   A /lib/LATEST_CPTLAGW02/lib/crimson-1.1.3.jar
+   A /lib/LATEST_CPTLAGW02/lib/ejb-api-3.0.jar
+   A /lib/LATEST_CPTLAGW02/lib/ejb3-persistence-1.0.1.GA.jar
+   A /lib/LATEST_CPTLAGW02/lib/httpclient-4.0.3.jar
+   A /lib/LATEST_CPTLAGW02/lib/httpcore-4.1.1.jar
+   A /lib/LATEST_CPTLAGW02/lib/jam-2.0.jar
+   A /lib/LATEST_CPTLAGW02/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+   A /lib/LATEST_CPTLAGW02/lib/jboss-ejb3x-4.2.3.GA.jar
+   A /lib/LATEST_CPTLAGW02/lib/jbossall-client-4.2.3.GA.jar
+   A /lib/LATEST_CPTLAGW02/lib/jdom-1.1.jar
+   A /lib/LATEST_CPTLAGW02/lib/jmgmt-2.0.jar
+   A /lib/LATEST_CPTLAGW02/lib/ksoap-2.0.jar
+   A /lib/LATEST_CPTLAGW02/lib/log4j-1.2.14.jar
+   A /lib/LATEST_CPTLAGW02/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+   A /lib/LATEST_CPTLAGW02/lib/servlet-api-2.5.jar
+   A /lib/LATEST_CPTLAGW02/lib/sybase-jdbc3-driver-6.0-b26023.jar
+   A /lib/LATEST_CPTLAGW02/lib/xalan-2.6.0.jar
+   A /lib/LATEST_CPTLAGW02/lib/xercesImpl-2.4.0.jar
+   A /lib/LATEST_CPTLAGW02/lib/xml-apis-1.0.b2.jar
+   A /lib/LEGACY_CPTLAGW02
+   A /lib/LEGACY_CPTLAGW02/README.TXT
+   A /lib/LEGACY_CPTLAGW02/TRAF.jar
+   A /lib/LEGACY_CPTLAGW02/lib
+   A /lib/LEGACY_CPTLAGW02/lib/Claimslogger-2.0.jar
+   A /lib/LEGACY_CPTLAGW02/lib/DataMapper-2.0.jar
+   A /lib/LEGACY_CPTLAGW02/lib/EjbServiceInterface-0.1-SNAPSHOT.jar
+   A /lib/LEGACY_CPTLAGW02/lib/activation-1.1.1.jar
+   A /lib/LEGACY_CPTLAGW02/lib/babylon2-3.0.2-SNAPSHOT-client.jar
+   A /lib/LEGACY_CPTLAGW02/lib/commons-lang-2.4.jar
+   A /lib/LEGACY_CPTLAGW02/lib/crimson-1.1.3.jar
+   A /lib/LEGACY_CPTLAGW02/lib/ejb-api-3.0.jar
+   A /lib/LEGACY_CPTLAGW02/lib/ejb3-persistence-1.0.1.GA.jar
+   A /lib/LEGACY_CPTLAGW02/lib/httpclient-4.0.3.jar
+   A /lib/LEGACY_CPTLAGW02/lib/httpcore-4.1.1.jar
+   A /lib/LEGACY_CPTLAGW02/lib/jam-2.0.jar
+   A /lib/LEGACY_CPTLAGW02/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+   A /lib/LEGACY_CPTLAGW02/lib/jboss-ejb3x-4.2.3.GA.jar
+   A /lib/LEGACY_CPTLAGW02/lib/jbossall-client-4.2.3.GA.jar
+   A /lib/LEGACY_CPTLAGW02/lib/jconn3-6.0.jar
+   A /lib/LEGACY_CPTLAGW02/lib/jdom-1.0.jar
+   A /lib/LEGACY_CPTLAGW02/lib/jmgmt-2.0.jar
+   A /lib/LEGACY_CPTLAGW02/lib/ksoap-2.0.jar
+   A /lib/LEGACY_CPTLAGW02/lib/log4j-1.2.14.jar
+   A /lib/LEGACY_CPTLAGW02/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+   A /lib/LEGACY_CPTLAGW02/lib/servlet-api-2.5.jar
+   A /lib/LEGACY_CPTLAGW02/lib/xalan-2.6.0.jar
+   A /lib/LEGACY_CPTLAGW02/lib/xercesImpl-2.4.0.jar
+   M /dbin/debug-all.sh
+   M /dbin/debug-all.sh
+   A /dbin/status_all.sh
+   A /dbin/stop_all.sh
+   M /dbin/traf-debug.sh
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/README.TXT
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/TRAF.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/Claimslogger-2.0.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/DataMapper-2.0.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/EjbServiceInterface-0.1.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/activation-1.1.1.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/babylon2-3.0.2-SNAPSHOT-client.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/commons-lang-2.4.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/crimson-1.1.3.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/ejb-api-3.0.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/ejb3-persistence-1.0.1.GA.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/httpclient-4.0.3.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/httpcore-4.1.1.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/jam-2.0.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/jboss-annotations-ejb3-4.2.3.GA.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/jboss-ejb3x-4.2.3.GA.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/jbossall-client-4.2.3.GA.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/jconn3-6.0.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/jdom-1.0.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/jmgmt-2.0.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/ksoap-2.0.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/log4j-1.2.14.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/org.apache.servicemix.bundles.spymemcached-2.5_2.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/servlet-api-2.5.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/xalan-2.6.0.jar
+   A /lib/LEGACY_CPTLAGW02_SOLUTIO/lib/xercesImpl-2.4.0.jar
+   M /conf/cptlagw02.za.mhgad.com/Mhg_primary/config.xml
+   M /conf/cptlagw02.za.mhgad.com/Mhg_secondary/config.xml
+   A /lib/LEGACY_SOLUTIO_PRODUCTION (from /lib/LEGACY_CPTLAGW02_SOLUTIO:119)
+   A /lib/PRODUCTION_LATEST (from /lib/LATEST_CPTLAGW02:117)
+   A /lib/PRODUCTION_LEGACY (from /lib/LEGACY_CPTLAGW02:117)
+   A /lib/ACCEPTANCE_LATEST (from /lib/LATEST_CPTLAGW90:117)
+   A /lib/ACCEPTANCE_LEGACY (from /lib/LEGACY_CPTLAGW90:117)
+   A /lib/DEVELOPMENT_LEGACY (from /lib/LEGACY_CPTLAGW80:117)
+   A /lib/DEVELOPMENT_LEGACY_SOLUTIO (from /lib/LEGACY_SOLUTIO_CPTLAGW80:117)
+   A /lib/PRODUCTION_LEGACY_SOLUTIO (from /lib/LEGACY_SOLUTIO_PRODUCTION:121)
+   A /lib/ACCEPTANCE_LEGACY_SOLUTIO (from /lib/LEGACY_SOLUTIO_CPTLAGW90:117)
+   A /lib/PREPROD_LATEST (from /lib/PRODUCTION_LATEST:121)
+   A /lib/PREPROD_LEGACY (from /lib/PRODUCTION_LEGACY:121)
+   A /lib/PREPROD_LEGACY_SOLUTIO (from /lib/PRODUCTION_LEGACY_SOLUTIO:122)
+   A /lib/DEVELOPMENT_LATEST (from /lib/ACCEPTANCE_LATEST:122)
+   M /conf/traffic_server_list.txt
+   M /conf/deployment.instructions
+   M /dbin/debug-all.sh
+   A /conf/cptlagw03.za.mhgad.com/Mhg_primary (from /conf/cptlagw02.za.mhgad.com/Mhg_primary:117)
+   A /conf/cptlagw03.za.mhgad.com/web (from /conf/cptlagw02.za.mhgad.com/web:117)
+   A /conf/cptlagw03.za.mhgad.com/web_auth (from /conf/cptlagw02.za.mhgad.com/web_auth:117)
+   M /conf/traffic_server_list.txt
+   M /conf/cptlagw03.za.mhgad.com/IKat/config.xml
+   M /conf/cptlagw03.za.mhgad.com/PPN/config.xml
+   M /conf/cptlagw03.za.mhgad.com/PPN/pool.xml
+   M /dbin/debug-all.sh
+   M /dbin/traf-debug.sh
+   M /dbin/stop_all.sh
+   M /conf/cptlagw03.za.mhgad.com/IKat/config.xml
+   M /conf/traffic_server_list.txt
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:PPN"...
+Shutting down PPN Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting PPN Traffic Server: 
+traffic-PPN Service is enabled.
+TRAF JMX/SNMP port set to #65001.
+Using library "ACCEPTANCE_LATEST".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:PPN".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:Mhg"...
+Shutting down Mhg Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Mhg Traffic Server: 
+traffic-Mhg Service is enabled.
+TRAF JMX/SNMP port set to #65002.
+Using library "ACCEPTANCE_LATEST".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:Mhg".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:Check"...
+Shutting down Check Traffic Server: [60G[[0;31mFAILED[0;39m]
+Starting Check Traffic Server: 
+traffic-Check Service is NOT enabled. TRAF will not start. Abort.
+[60G[[0;31mFAILED[0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:Check".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:Datamax"...
+Shutting down Datamax Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Datamax Traffic Server: 
+traffic-Datamax Service is enabled.
+TRAF JMX/SNMP port set to #65004.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:Datamax".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:DHS"...
+Shutting down DHS Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting DHS Traffic Server: 
+traffic-DHS Service is enabled.
+TRAF JMX/SNMP port set to #65005.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:DHS".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:EMD"...
+Shutting down EMD Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting EMD Traffic Server: 
+traffic-EMD Service is enabled.
+TRAF JMX/SNMP port set to #65006.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:EMD".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:HealthBridge"...
+Shutting down HealthBridge Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting HealthBridge Traffic Server: 
+traffic-HealthBridge Service is enabled.
+TRAF JMX/SNMP port set to #65007.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:HealthBridge".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:KaraboIT"...
+Shutting down KaraboIT Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting KaraboIT Traffic Server: 
+traffic-KaraboIT Service is enabled.
+TRAF JMX/SNMP port set to #65008.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:KaraboIT".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:MedEdi"...
+Shutting down MedEdi Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting MedEdi Traffic Server: 
+traffic-MedEdi Service is enabled.
+TRAF JMX/SNMP port set to #65009.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:MedEdi".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:Medicharge"...
+Shutting down Medicharge Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Medicharge Traffic Server: 
+traffic-Medicharge Service is enabled.
+TRAF JMX/SNMP port set to #65010.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:Medicharge".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:Medikredit"...
+Shutting down Medikredit Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Medikredit Traffic Server: 
+traffic-Medikredit Service is enabled.
+TRAF JMX/SNMP port set to #65011.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:Medikredit".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:Medipos"...
+Shutting down Medipos Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Medipos Traffic Server: 
+traffic-Medipos Service is enabled.
+TRAF JMX/SNMP port set to #65012.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:Medipos".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:MediPost"...
+Shutting down MediPost Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting MediPost Traffic Server: 
+traffic-MediPost Service is enabled.
+TRAF JMX/SNMP port set to #65013.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:MediPost".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:Solutio"...
+Shutting down Solutio Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Solutio Traffic Server: 
+traffic-Solutio Service is enabled.
+TRAF JMX/SNMP port set to #65014.
+Using library "ACCEPTANCE_LEGACY_SOLUTIO".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:Solutio".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:Solutio_sweeper"...
+Shutting down Solutio_sweeper Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Solutio_sweeper Traffic Server: 
+traffic-Solutio_sweeper Service is enabled.
+TRAF JMX/SNMP port set to #65015.
+Using library "ACCEPTANCE_LEGACY_SOLUTIO".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:Solutio_sweeper".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:SPN"...
+Shutting down SPN Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting SPN Traffic Server: 
+traffic-SPN Service is enabled.
+TRAF JMX/SNMP port set to #65016.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:SPN".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:WWW"...
+Shutting down WWW Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting WWW Traffic Server: 
+traffic-WWW Service is enabled.
+TRAF JMX/SNMP port set to #65017.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:WWW".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:IKat"...
+Shutting down IKat Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting IKat Traffic Server: 
+traffic-IKat Service is enabled.
+TRAF JMX/SNMP port set to #65018.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:IKat".
+Attempting instruction "restart" on service "cptlagw90.za.mhgad.com:Standin"...
+Shutting down Standin Traffic Server: [60G[[0;32m  OK  [0;39m]
+Starting Standin Traffic Server: 
+traffic-Standin Service is enabled.
+TRAF JMX/SNMP port set to #65019.
+Using library "ACCEPTANCE_LEGACY".
+JVM start heap-size not set.
+JVM max heap-size not set.
+[60G[[0;32m  OK  [0;39m]
+The instruction, "restart" was successfully performed on service "cptlagw90.za.mhgad.com:Standin".
+
+Traffic servers for host, cptlagw90.za.mhgad.com:
+
+CONFIG-NAME          SERVICE-STATUS                               
+-----------          --------------                               
+PPN                  (pid 15428) is running...                    
+Mhg                  (pid 15493) is running...                    
+Check                is stopped                                   
+Datamax              (pid 15620) is running...                    
+DHS                  (pid 15781) is running...                    
+EMD                  (pid 15985) is running...                    
+HealthBridge         (pid 16236) is running...                    
+KaraboIT             (pid 16417) is running...                    
+MedEdi               (pid 16577) is running...                    
+Medicharge           (pid 16748) is running...                    
+Medikredit           (pid 16956) is running...                    
+Medipos              (pid 17083) is running...                    
+MediPost             (pid 17209) is running...                    
+Solutio              (pid 17351) is running...                    
+Solutio_sweeper      (pid 17481) is running...                    
+SPN                  (pid 17635) is running...                    
+WWW                  (pid 17767) is running...                    
+IKat                 (pid 17950) is running...                    
+Standin              (pid 18070) is running...                    
+
+Connection to cptlagw90.za.mhgad.com closed.
+Adding deployment log to SVN repository...
+A         logs/deployment/20130528_145118
