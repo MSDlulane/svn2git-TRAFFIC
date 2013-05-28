@@ -1180,7 +1180,7 @@
 		<claimsLogger 
 			poolId="generic" 
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT" 
+			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT" 
 			logTable="IKat" 
 			DbUserName="traffic" 
 			DbPassword="IR0b0t" 
