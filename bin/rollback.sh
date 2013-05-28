@@ -20,7 +20,7 @@ fi
 
 while true; do
 	if [ $1 ]; then
-		ssh -t "${sshUser}@$1" "sudo $trafHome/bin/perform_deploy.sh ${rollbackRev}" 2>&1 | tee "${logFile}"
+		ssh -t "${sshUser}@$1" "sudo $trafHome/bin/perform_deploy.sh ${rollbackRev}" 2>&1 | tee -a "${logFile}"
 		shift
 	else
 		break
