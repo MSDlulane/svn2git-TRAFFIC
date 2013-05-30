@@ -45,15 +45,15 @@ fi
 TRAFSTARTMEM_OPT=""
 if [ "$TRAFSTARTMEM" != "-1" ]; then
 	echo "JVM will allocate $TRAFSTARTMEM mb heap at start-up."
-	TRAFSTARTMEM_OPT="-Xms$TRAFSTARTMEMm "
+	TRAFSTARTMEM_OPT="-Xms${TRAFSTARTMEM}m "
 else
 	echo "JVM start heap-size not set."
 fi
 
 TRAFMAXMEM_OPT=""
 if [ "$TRAFMAXMEM" != "-1" ]; then
-	echo "JVM will allocate maximum $TRAFSTARTMEM mb heap at runtime."
-	TRAFMAXMEM_OPT="-Xmx$TRAFMAXMEMm"
+	echo "JVM will allocate maximum $TRAFMAXMEM mb heap at runtime."
+	TRAFMAXMEM_OPT="-Xmx${TRAFMAXMEM}m"
 else
 	echo "JVM max heap-size not set."
 fi
