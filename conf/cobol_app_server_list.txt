@@ -1,0 +1,57 @@
+# Production: DIRECT
+PRODUCTION AMED apl-amed.za.mhgad.com 9207
+PRODUCTION POLMED apl-polmed.za.mhgad.com 9209
+PRODUCTION GEMS apl-gems.za.mhgad.com 9210
+PRODUCTION IMPERIAL apl-imperial.za.mhgad.com 9214
+PRODUCTION MEDIPOS apl-medipos.za.mhgad.com 9215
+PRODUCTION PILIR apl-pilir.za.mhgad.com 9204
+PRODUCTION NIMAS apl-nimas.za.mhgad.com 9213
+PRODUCTION REDRIB apl-redrib.za.mhgad.com 9211
+PRODUCTION NEWMED apl-newmed.za.mhgad.com 9208
+PRODUCTION SAMWU apl-samwu.za.mhgad.com 9206
+PRODUCTION SIGMA apl-sigma.za.mhgad.com 9212
+# Production: XML_Server
+PRODUCTION GEMS cptlxml01.za.mhgad.com 9110
+PRODUCTION NIMAS cptlxml01.za.mhgad.com 9113
+PRODUCTION AMED cptlxml01.za.mhgad.com 9107
+PRODUCTION BP cptlxml01.za.mhgad.com 9107
+PRODUCTION ENGEN cptlxml01.za.mhgad.com 9107
+PRODUCTION FISHMED cptlxml01.za.mhgad.com 9107
+PRODUCTION GOLDEN cptlxml01.za.mhgad.com 9107
+PRODUCTION IMPERIAL cptlxml01.za.mhgad.com 9114
+PRODUCTION MEDIPOS cptlxml01.za.mhgad.com 9115
+PRODUCTION NEWMED cptlxml01.za.mhgad.com 9108
+PRODUCTION REDRIB cptlxml01.za.mhgad.com 9111
+PRODUCTION SAMWU cptlxml01.za.mhgad.com 9105
+PRODUCTION TRANSMED cptlxml01.za.mhgad.com 9108
+PRODUCTION WOOLTRU cptlxml01.za.mhgad.com 9107
+# Production: STANDIN
+STANDIN GEMS dralsin01.za.mhgad.com 9110
+STANDIN BP dralsin01.za.mhgad.com 9306
+STANDIN FISHMED dralsin01.za.mhgad.com 9306
+STANDIN GOLDEN dralsin01.za.mhgad.com 9306
+STANDIN IMPERIAL dralsin01.za.mhgad.com 9308
+STANDIN MEDIPOS dralsin01.za.mhgad.com 9314
+STANDIN SAMWU dralsin01.za.mhgad.com 9312
+STANDIN TRANSMED dralsin01.za.mhgad.com 9307
+STANDIN WOOLTRU dralsin01.za.mhgad.com 9306
+# Acceptance
+ACCEPTANCE PROTEKTA cptlapp90.za.mhgad.com 9117
+ACCEPTANCE PILIR cptlapp90.za.mhgad.com 9104
+ACCEPTANCE IMPERIAL cptlapp90.za.mhgad.com 9105
+ACCEPTANCE MEDIPOS cptlapp90.za.mhgad.com 9108
+ACCEPTANCE NEWMED cptlapp90.za.mhgad.com 9107
+ACCEPTANCE NIMAS cptlapp90.za.mhgad.com 9113
+ACCEPTANCE GEMS cptlapp90.za.mhgad.com 9110
+ACCEPTANCE REDRIB cptlapp90.za.mhgad.com 9111
+ACCEPTANCE SAMWU cptlapp90.za.mhgad.com 9115
+ACCEPTANCE AMED cptlapp90.za.mhgad.com 9106
+ACCEPTANCE POLMED cptlapp90.za.mhgad.com 9109
+# Development
+DEVELOPMENT AMED cptlapp80.za.mhgad.com 9121
+DEVELOPMENT GEMS cptlapp80.za.mhgad.com 9126
+DEVELOPMENT NEWMED cptlapp80.za.mhgad.com 9124
+DEVELOPMENT NIMAS cptlapp80.za.mhgad.com 9123
+DEVELOPMENT PILIR cptlapp80.za.mhgad.com 9120
+DEVELOPMENT POLMED cptlapp80.za.mhgad.com 9122
+DEVELOPMENT REDRIB cptlapp80.za.mhgad.com 9128

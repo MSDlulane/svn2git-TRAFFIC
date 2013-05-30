@@ -22,7 +22,7 @@ switches to the backup
 	<env name="AMED" mhgAccount="AMED">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -45,19 +45,19 @@ switches to the backup
 	</env>
 
 	<env name="JBoss" mhgAccount="AMED">
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099" 
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099" 
 		connections="10" autotimeout="120000" poolMaxWaitTime="10000" />
 	</env>
 
 	<env name="JBossW" mhgAccount="IMAGE">
-          <pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099" 
+          <pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099" 
 		  connections="10" autotimeout="120000" poolMaxWaitTime="10000"/>
 	</env>
 	
 	<env name="IMPERIAL">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9105"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -82,7 +82,7 @@ switches to the backup
 	<env name="MEDIPOS">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9108"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -131,7 +131,7 @@ switches to the backup
 	<env name="NEWMED" mhgAccount="NEWMED">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9107"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -157,7 +157,7 @@ switches to the backup
 	<env name="REDRIB" mhgAccount="REDRIB">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9111"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -182,7 +182,7 @@ switches to the backup
 	<env name="GEMS" mhgAccount="GEMS">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9110"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -207,7 +207,7 @@ switches to the backup
 	<env name="POLMED" mhgAccount="POLMED">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9109"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -232,7 +232,7 @@ switches to the backup
 	<env name="PILIR" mhgAccount="PILIR">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9104"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -257,7 +257,7 @@ switches to the backup
 	<env name="PILIRT" mhgAccount="PILIRT">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9104"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -283,7 +283,7 @@ switches to the backup
 	<env name="NIMAS" mhgAccount="NIMAS">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -331,7 +331,7 @@ switches to the backup
 	<env name="SAMWU" mhgAccount="SAMWU">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9115"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -354,7 +354,7 @@ switches to the backup
 	</env>
 
 	<env name="SYSTEM" mhgAccount="SYSTEM">
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -397,7 +397,7 @@ switches to the backup
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 	</env>
 
@@ -421,12 +421,12 @@ switches to the backup
 				poolMaxWaitTime="12000" connectorImplementationClassID="COBOL" />
 		</pool>
 		
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 	</env>
 
 	<env name="GAME_LOCAL" mhgAccount="GAME_LOCAL">
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -449,7 +449,7 @@ switches to the backup
 	</env>
 
 	<env name="PRICE" mhgAccount="PRICE">
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -473,7 +473,7 @@ switches to the backup
 	</env>
 
 	<env name="SPINE" mhgAccount="SPINE">
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -497,7 +497,7 @@ switches to the backup
 	</env>
 
 	<env name="CMS" mhgAccount="CMS">
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -521,7 +521,7 @@ switches to the backup
 	</env>
 
 	<env name="IMAGE" mhgAccount="IMAGE">
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -545,7 +545,7 @@ switches to the backup
 	</env>
 
 	<env name="SPINELOG" mhgAccount="SPINELOG">
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -569,7 +569,7 @@ switches to the backup
 	</env>
 
 	<env name="UTILITY" mhgAccount="UTILITY">
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+		<pool id="JEE" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -605,7 +605,7 @@ switches to the backup
 
 	<pool-definitions-file name="pool.xml"
 			defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
-		<pool_ id="EJB"
+		<pool_ id="JEE"
 			class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 			hostName="cptlacp01.za.mhgad.com" port="1099" account="AMED"
 			serviceTqName="ListServicesNames" />

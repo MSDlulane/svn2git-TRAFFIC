@@ -225,7 +225,10 @@
 		/>
 	</pool>
    
-	<pool id="POJAS" class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector" >
+	<pool
+		id="POJAS"
+		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+	>
 		<tq-function
 			name="Get_DCP_SurveyUser"
 			targetBeanName="DynamicQueryExecutor"
