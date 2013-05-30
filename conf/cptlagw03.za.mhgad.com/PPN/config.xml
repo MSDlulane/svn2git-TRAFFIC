@@ -80,7 +80,7 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		20857
+		20852
 	</snmp-port>
 	<pool-definitions-file
 		name="pool.xml"
