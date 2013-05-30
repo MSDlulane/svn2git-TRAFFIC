@@ -935,7 +935,7 @@ switches to the backup
 	<serverConfig useBufferedOutputStreamInPool="true" afterConnectorSleepTime="0" />
 
 	<pool-definitions-file name="pool.xml"
-		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
+			defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
 		<pool_ id="JEE"
 			class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 			hostName="cptleap01.za.mhgad.com " port="1099" account="AMED"
@@ -945,9 +945,9 @@ switches to the backup
 			hostName="cptlsee01.za.mhgad.com" port="23000" />
 	</pool-definitions-file>
 
-	<snmp-port mibFile="mibs.xml">20602</snmp-port>
-	<tailWatchServer id="Mediswitch" tcpipPort="20603" multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="Mediswitch" tcpipPort="20604" multicast-host-ip="" multicast-port="-1" />
+	<snmp-port mibFile="mibs.xml">20652</snmp-port>
+	<tailWatchServer id="Mediswitch" tcpipPort="20653" multicast-host-ip="" multicast-port="-1" />
+	<diagTailWatchServer id="Mediswitch" tcpipPort="20654" multicast-host-ip="" multicast-port="-1" />
 
 	<synchronous-transactions>true</synchronous-transactions>
 
