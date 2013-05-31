@@ -505,6 +505,11 @@
 			desc=""
 		/>
 		<tq-function
+			name="WF_GET_SPN_DETAILS"
+			targetBeanName="SpnDetails"
+			desc=""
+		/>
+		<tq-function
 			name="WF_GET_QUEUE_COUNT"
 			targetBeanName="QueueDetails"
 			desc=""
