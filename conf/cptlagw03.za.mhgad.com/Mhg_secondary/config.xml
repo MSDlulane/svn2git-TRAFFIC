@@ -163,12 +163,12 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlsee01.za.mhgad.com" port="23000" connections="10"
+			hostname="cptlsee03.za.mhgad.com" port="23000" connections="10"
 			autotimeout="120000" poolMaxWaitTime="120000">
 			<secondaryPool id="POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlsee03.za.mhgad.com" port="23000" connections="10"
+				hostname="cptlsee02.za.mhgad.com" port="23000" connections="10"
 				autotimeout="120000" poolMaxWaitTime="120000"/>
 		</pool>
 		<pool id="POJAS_SLOW" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -468,12 +468,12 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlsee01.za.mhgad.com" port="23000" connections="10"
+			hostname="cptlsee03.za.mhgad.com" port="23000" connections="10"
 			autotimeout="120000" poolMaxWaitTime="120000">
 			<secondaryPool id="POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 				waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-				hostname="cptlsee03.za.mhgad.com" port="23000" connections="10"
+				hostname="cptlsee02.za.mhgad.com" port="23000" connections="10"
 				autotimeout="120000" poolMaxWaitTime="120000"/>
 		</pool>
 		<pool id="POJAS_SLOW" useSoTimeOut="false" autoDisableOnSyncStart="true"
@@ -890,7 +890,7 @@ switches to the backup
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			hostname="cptlsee01.za.mhgad.com" port="23000" connections="10"
+			hostname="cptlsee02.za.mhgad.com" port="23000" connections="10"
 			autotimeout="120000" poolMaxWaitTime="120000">
 			<secondaryPool id="POJAS_BACKUP" useSoTimeOut="false" autoDisableOnSyncStart="true"
 				autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
