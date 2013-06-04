@@ -230,6 +230,16 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	>
 		<tq-function
+			name="Get_DCP_SurveyQuestionOption"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Update_DCP_SurveyQuestionOption"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
 			name="Get_Existing_DCP_Survey"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
