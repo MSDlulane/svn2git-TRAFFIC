@@ -224,10 +224,55 @@
 			desc=""
 		/>
 	</pool>
+   
 	<pool
 		id="POJAS"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-	>	
+	>
+		<tq-function
+			name="Get_DCP_SurveyUser"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyUser"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyUserSurvey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyUserSurvey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Update_DCP_SurveyUserSurvey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyUser_Section"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyUserSection"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Update_DCP_SurveyUserSection"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyQuestionOption"
+			targetBeanName="DynamicQueryExecutor"
+		/>
 		<tq-function
 			name="WF_LIST_PROCESS_QUEUE_NAMES_BY_USER"
 			targetBeanName="QueueManagement"
@@ -237,10 +282,15 @@
 			name="WF_GET_MULTIPART_TRANSITIONS"
 			targetBeanName="SpnDetails"
 			desc=""
-		/>			 
+		/>
 		<tq-function
 			name="WF_MAINTAIN_NODE_TRANSITION"
 			targetBeanName="NodeManagement"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyAnswer"
+			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
 		<tq-function
@@ -1008,7 +1058,6 @@
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
-
 		<tq-function
 			name="SPBioKineticsStaleCheck"
 			targetBeanName="DynamicQueryExecutor"

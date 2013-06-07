@@ -858,7 +858,9 @@
 	</pool-definitions-file>
 	<snmp-port
 		mibFile="mibs.xml"
-	/>
+	>
+	40602
+	</snmp-port>
 	<tailWatchServer
 		id="Mediswitch"
 		multicast-host-ip=""
