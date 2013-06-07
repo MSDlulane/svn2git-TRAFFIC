@@ -230,27 +230,22 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	>
 		<tq-function
-			name="Get_Existing_DCP_Survey"
+			name="Get_DCP_SurveyUser_Section"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
 		<tq-function
-			name="Get_DCP_SurveyAnswers"
+			name="Update_DCP_SurveyQuestionOption"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
 		<tq-function
-			name="Get_DCP_SurveyUser"
+			name="Get_DCP_Existing_Survey_Section"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
 		<tq-function
-			name="Insert_DCP_SurveyUser"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
-			name="Get_DCP_SurveyUserSurvey"
+			name="Insert_DCP_SurveyQuestionOption"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
@@ -260,12 +255,7 @@
 			desc=""
 		/>
 		<tq-function
-			name="Update_DCP_SurveyUserSurvey"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
-			name="Get_DCP_SurveyUser_Section"
+			name="Get_Existing_DCP_Survey"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
@@ -280,8 +270,39 @@
 			desc=""
 		/>
 		<tq-function
-			name="Insert_DCP_SurveyQuestionOption"
+			name="Update_DCP_SurveyUserSurvey"
 			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyUser"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyUser"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyAnswer"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyUserSurvey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyQuestionOption"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyAnswers"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
 		/>
 		<tq-function
 			name="WF_LIST_PROCESS_QUEUE_NAMES_BY_USER"
@@ -296,11 +317,6 @@
 		<tq-function
 			name="WF_MAINTAIN_NODE_TRANSITION"
 			targetBeanName="NodeManagement"
-			desc=""
-		/>
-		<tq-function
-			name="Insert_DCP_SurveyAnswer"
-			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
 		<tq-function
