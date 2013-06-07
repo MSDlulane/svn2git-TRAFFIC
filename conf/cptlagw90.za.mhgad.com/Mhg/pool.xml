@@ -227,7 +227,51 @@
 	<pool
 		id="POJAS"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-	>	
+	>
+		<tq-function
+			name="Get_DCP_SurveyUser"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyUser"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyUserSurvey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyUserSurvey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Update_DCP_SurveyUserSurvey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyUser_Section"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyUserSection"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Update_DCP_SurveyUserSection"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyQuestionOption"
+			targetBeanName="DynamicQueryExecutor"
+
 		<tq-function
 			name="WF_LIST_PROCESS_QUEUE_NAMES_BY_USER"
 			targetBeanName="QueueManagement"
