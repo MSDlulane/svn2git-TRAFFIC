@@ -19,7 +19,7 @@
 # configured on the jvm for the start/max heap. -1 indicates 
 # no configured value.
 # JMX port is required and indicates which tcp port should be
-# for jmx monitoring.
+# for jmx monitoring. 
 ###############################################################
 # PRODUCTION
 # CPTLAGW01
