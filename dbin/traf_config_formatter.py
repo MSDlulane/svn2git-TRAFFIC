@@ -15,11 +15,13 @@ def formattree(level, element, currentoutput):
 	for k in sorted(element.attrib):
 		optag = optag + prefix + indent + '	' + k + '="' + element.attrib[k] + '"\n'
 		prefix = ''
-	if len(element.getchildren()) == 0:
+	if len(element.getchildren()) == 0 and (element.text == '' or element.text == None):
 		optag = optag + indent + '/>\n'
 		return currentoutput + optag
 	else:
 		optag = optag + indent + '>\n'
+		if element.text != '' and element.text != None:
+			childstring = indent + '	' + element.text.strip() + '\n' + childstring
 		return currentoutput + optag + childstring + indent + '</' + element.tag + '>\n'
 
 if __name__ == '__main__':	
