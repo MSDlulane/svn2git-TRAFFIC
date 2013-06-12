@@ -69,7 +69,7 @@
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbPassword="IR0b0t"
-			DbUrl="jdbc:sybase:Tds:cptlsyb82.za.mhgad.com:7550/JBAUDIT"
+			DbUrl="jdbc:sybase:Tds:cptlsyb72.za.mhgad.com:5000/JBAUDIT"
 			DbUserName="traffic"
 			logTable="SANLAM"
 			maxpoolsize="2"

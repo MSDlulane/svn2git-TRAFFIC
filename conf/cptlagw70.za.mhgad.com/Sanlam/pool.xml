@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <pool-classes>
 	<pool
+		id="SANLAMBENOUT"
+		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+	/>
+	<pool
 		id="COBOL"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	/>
