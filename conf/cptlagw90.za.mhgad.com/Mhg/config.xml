@@ -459,7 +459,7 @@
 		</pool>
 	</env>
 	<env
-		mhgAccount="RANDWATER"
+		mhgAccount="RANDW"
 		name="RANDWATER"
 	>
 		<pool
@@ -2134,6 +2134,12 @@
 			functionMask="FFFF"
 			mhg="RANDWATER"
 			tradingPartner="P28"
+		/>
+		<x-ref
+			description="RANDWATER"
+			functionMask="FFFF"
+			mhg="RANDWATER"
+			tradingPartner="Y"
 		/>
 		<x-ref
 			description="SHARE access"

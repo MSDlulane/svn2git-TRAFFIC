@@ -834,7 +834,7 @@
 		/>
 	</env>
 	<env
-		mhgAccount="RANDWATER"
+		mhgAccount="RANDW"
 		name="RANDWATER"
 	>
 		<pool
@@ -1124,6 +1124,12 @@
 			description="RANDWATER"
 			functionMask="FFFF"
 			mhg="RANDWATER"
+			tradingPartner="P28"
+		/>
+		<x-ref
+			description="RANDWATER"
+			functionMask="FFFF"
+			mhg="Y"
 			tradingPartner="P28"
 		/>
 		<x-ref
