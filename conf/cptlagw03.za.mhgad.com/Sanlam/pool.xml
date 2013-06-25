@@ -5,6 +5,11 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	/>
 	<pool
+		id="POJAS_BACKUP"
+		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+	/>
+
+	<pool
 		id="JEE"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 	>
@@ -224,10 +229,37 @@
 			desc=""
 		/>
 	</pool>
+   
 	<pool
-		id="POJAS"
+		id="COBOL_SLOW"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-	>	
+	>
+		<tq-function
+			name="REALAUTH"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="DRGDTL"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="DEDCALC"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="NAPRULE"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+	</pool>
+   
+	<pool
+		id="POJAS_SLOW"
+		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+	>
 		<tq-function
 			name="WF_LIST_PROCESS_QUEUE_NAMES_BY_USER"
 			targetBeanName="QueueManagement"
@@ -1009,6 +1041,82 @@
 			desc=""
 		/>
 
+		<tq-function
+			name="Get_DCP_SurveyUser_Section"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Update_DCP_SurveyQuestionOption"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_Existing_Survey_Section"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyQuestionOption"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyUserSurvey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_Existing_DCP_Survey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyUserSection"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Update_DCP_SurveyUserSection"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Update_DCP_SurveyUserSurvey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyUser"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyUser"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Insert_DCP_SurveyAnswer"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyUserSurvey"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyQuestionOption"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Get_DCP_SurveyAnswers"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+	
 		<tq-function
 			name="SPBioKineticsStaleCheck"
 			targetBeanName="DynamicQueryExecutor"
