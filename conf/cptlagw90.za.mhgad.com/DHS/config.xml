@@ -81,6 +81,19 @@
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
+	<env
+		mhgAccount="RANDW"
+		name="RANDWATER"
+	>
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9118"
+		/>
+	</env>
 	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
 	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
 
@@ -110,6 +123,9 @@
 	</transaction-x-ref>
 
 	<destination-x-ref>
+
+		<x-ref tradingPartner="MRWM0003" mhg="RANDWATER"
+		functionMask="FFFF" description="RANDW" />
 
 		<x-ref tradingPartner="RTDM0001" mhg="METROPOLITAN"
 		functionMask="FFFF" description="RTDM0001 - Metropolitan" />
