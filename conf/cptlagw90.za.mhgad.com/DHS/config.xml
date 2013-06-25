@@ -124,10 +124,10 @@
 
 	<destination-x-ref>
 
-		<x-ref tradingPartner="MRWM0003" mhg="RANDWATER"
+		<x-ref tradingPartner="RTDM0004" mhg="RANDWATER"
 		functionMask="FFFF" description="RANDW" />
 
-		<x-ref tradingPartner="RTDM0001" mhg="METROPOLITAN"
+		<x-ref tradingPartner="MRWM0003" mhg="METROPOLITAN"
 		functionMask="FFFF" description="RTDM0001 - Metropolitan" />
 		<x-ref tradingPartner="rtdm0001" mhg="METROPOLITAN"
 		functionMask="FFFF" description="rtdm0001 - Metropolitan" />
