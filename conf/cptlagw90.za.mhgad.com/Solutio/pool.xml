@@ -1,5 +1,19 @@
 <?xml version="1.0"?>
 <pool-classes>
-   <pool id="COBOL" class="InterfaceTransactions.Solutio.MhrsConnector" />
+	<pool id="COBOL" class="InterfaceTransactions.Solutio.MhrsConnector" /> 
+	<pool
+	    id="EJB" class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
+	 >
+		<tq-function
+			name="POJAS_SOL_AUTHORISATION"
+			targetBeanName="POJAS_SOL_AUTHORISATION"
+			desc=""
+		/>
+		<tq-function
+			name="POJAS_SOL_VALIDATE_PATIENT"
+			targetBeanName="POJAS_SOL_VALIDATE_PATIENT"
+			desc=""
+		/>
+	</pool>
 </pool-classes>
 
