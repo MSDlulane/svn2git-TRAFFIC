@@ -679,6 +679,130 @@ switches to the backup
 			
 	</env>
 
+	<env name="RANDWATER" mhgAccount="RANDW">
+		<pool 
+			useSoTimeOut="true"
+			id="COBOL"
+			hostname="apl-randw.za.mhgad.com"
+			port="9217"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="120000"
+		/>
+		<pool
+			useSoTimeOut="true"
+			id="COBOL_SLOW"
+			hostname="apl-randw.za.mhgad.com"
+			port="9217"
+			connections="5"
+			autotimeout="30000"
+			poolMaxWaitTime="30000"
+		/>
+		<pool id="JEE"
+			hostname="cptleap01.za.mhgad.com"
+			port="1099"
+			connections="100"
+			autotimeout="120000"
+			poolMaxWaitTime="10000"
+		/>
+		<pool
+			id="POJAS"
+			useSoTimeOut="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="false"
+			autoEnable="true"
+			hostname="cptlsee01.za.mhgad.com"
+			port="23000"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="120000">
+			<secondaryPool
+				id="POJAS_BACKUP"
+				useSoTimeOut="false"
+				autoDisableOnSyncStart="true"
+				autoEnableOnSyncEnd="true"
+				dropClientOnError="false"
+				startDisabled="false"
+				waitForSyncToFinishTimeout="40000"
+				autoDisable="false"
+				autoEnable="true"
+				hostname="cptlsee03.za.mhgad.com"
+				port="23000"
+				connections="10"
+				autotimeout="120000"
+				poolMaxWaitTime="120000"
+			/>
+		</pool>
+		<pool
+			id="POJAS_SLOW"
+			useSoTimeOut="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="false"
+			autoEnable="true"
+			hostname="cptlsee02.za.mhgad.com"
+			port="23000"
+			connections="10"
+			autotimeout="30000"
+			poolMaxWaitTime="30000">
+			<secondaryPool
+				id="POJAS_SLOW_BACKUP"
+				useSoTimeOut="false"
+				autoDisableOnSyncStart="true"
+				autoEnableOnSyncEnd="true"
+				dropClientOnError="false"
+				startDisabled="false"
+				waitForSyncToFinishTimeout="40000"
+				autoDisable="false"
+				autoEnable="true"
+				hostname="cptlsee03.za.mhgad.com"
+				port="23000" connections="10"
+				autotimeout="120000"
+				poolMaxWaitTime="120000"
+			/>
+		</pool>
+		<pool
+			id="WAS"
+			useSoTimeOut="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="false"
+			autoEnable="true"
+			hostname="cptlesb01.za.mhgad.com"
+			port="20610"
+			connections="10"
+			autotimeout="15000"
+			poolMaxWaitTime="15000">
+			<secondaryPool
+				id="WAS_POJAS_BACKUP"
+				useSoTimeOut="false"
+				autoDisableOnSyncStart="true"
+				autoEnableOnSyncEnd="true"
+				dropClientOnError="false"
+				startDisabled="false"
+				waitForSyncToFinishTimeout="40000"
+				autoDisable="false"
+				autoEnable="true"
+				hostname="cptlsee01.za.mhgad.com"
+				port="23000"
+				connections="10"
+				autotimeout="12000"
+				poolMaxWaitTime="12000"
+				connectorImplementationClassID="COBOL"
+			/>
+		</pool>
+	</env>
+
 	<env name="SHARE" mhgAccount="SHARE">
 		<pool id="JEE" hostname="cptleap01.za.mhgad.com " port="1099"
 			connections="100" autotimeout="120000" poolMaxWaitTime="10000" />
@@ -1025,6 +1149,8 @@ switches to the backup
 			description="PGG NIMAS" />
 		<x-ref tradingPartner="P27" mhg="NIMAS" functionMask="FFFF"
 			description="Netcare NIMAS" />
+		<x-ref tradingPartner="P28" mhg="RANDWATER" functionMask="FFFF"
+			description="RANDWATER" />
 
 		<x-ref tradingPartner="P86" mhg="SHARE" functionMask="FFFF"
 			description="Share Database" />
@@ -1101,6 +1227,8 @@ switches to the backup
 			description="PGG NIMAS" />
 		<x-ref tradingPartner="M" mhg="NIMAS" functionMask="FFFF"
 			description="Netcare NIMAS" />
+		<x-ref tradingPartner="Y" mhg="RANDWATER" functionMask="FFFF"
+			description="RANDWATER" />
 
 		<x-ref tradingPartner="AFROX" mhg="AMED" functionMask="FFFF"
 			description="AFROX" />
@@ -1122,6 +1250,8 @@ switches to the backup
 			description="Transmed" />
 		<x-ref tradingPartner="WOOLTRU" mhg="AMED" functionMask="FFFF"
 			description="Wooltru" />
+		<x-ref tradingPartner="RANDWATER" mhg="RANDWATER" functionMask="FFFF"
+			description="RANDWATER" />
 			
 	</destination-x-ref>
 
