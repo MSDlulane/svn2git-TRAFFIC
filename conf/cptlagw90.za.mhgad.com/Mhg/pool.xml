@@ -15,7 +15,7 @@
 		/>
 		<tq-function
 			name="AUTHORISATION_TRIGGER"
-			targetBeanName="Authorisation_2011_08_24.RequestHandler"
+			targetBeanName="AUTHORISATION_TRIGGER"
 			desc=""
 		/>
 		<tq-function
