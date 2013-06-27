@@ -2,10 +2,10 @@
 	<server
 		__system_out="default"
 		cmdPasswd="p34nu7"
-		diagPort="20301"
+		diagPort="20401"
 		logConfigFile="log4j.xml"
 		name="Sanlam"
-		port="20300"
+		port="20400"
 		tradingPartner="Sanlam"
 		trxAbortSizeLimit="64000"
 		trxSizeLimit="48000"
@@ -34,19 +34,19 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-	20302
+	20402
 	</snmp-port>
 	<tailWatchServer
 		id="SANLAM"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="20303"
+		tcpipPort="20403"
 	/>
 	<diagTailWatchServer
 		id="SANLAM"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="20304"
+		tcpipPort="20404"
 	/>
 	<synchronous-transactions>
 	true
