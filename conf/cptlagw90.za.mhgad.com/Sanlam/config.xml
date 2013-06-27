@@ -51,7 +51,14 @@
 	<synchronous-transactions>
 	true
 	</synchronous-transactions>
-	<transaction-x-ref />
+	<transaction-x-ref>
+		<x-ref
+			tradingPartner="1"
+			mhg="BENLOOKUP"
+			functionNo="0001"
+			description="Benefit look-up"
+		/>
+	</transaction-x-ref>
 	<destination-x-ref>
 		<x-ref
 			description="Benefit Requests to Sanlam Health"
@@ -69,7 +76,7 @@
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbPassword="IR0b0t"
-			DbUrl="jdbc:sybase:Tds:cptlsyb82.za.mhgad.com:7550/JBAUDIT"
+			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
 			DbUserName="traffic"
 			logTable="SANLAM"
 			maxpoolsize="2"

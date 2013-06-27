@@ -51,7 +51,14 @@
 	<synchronous-transactions>
 	true
 	</synchronous-transactions>
-	<transaction-x-ref />
+	<transaction-x-ref>
+		<x-ref
+			tradingPartner="1"
+			mhg="BENLOOKUP"
+			functionNo="0001"
+			description="Benefit look-up"
+		/>
+	</transaction-x-ref>
 	<destination-x-ref>
 		<x-ref
 			description="Benefit Requests to Sanlam Health"
