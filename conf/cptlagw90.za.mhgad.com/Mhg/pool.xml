@@ -14,6 +14,11 @@
 			desc=""
 		/>
 		<tq-function
+			name="AUTHORISATION_TRIGGER"
+			targetBeanName="Authorisation_2011_08_24.RequestHandler"
+			desc=""
+		/>
+		<tq-function
 			name="BANKMED_VALIDATE_PATIENT"
 			targetBeanName="BANKMED_VALIDATE_PATIENT"
 			desc=""
