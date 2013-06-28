@@ -778,11 +778,12 @@ switches to the backup
 			waitForSyncToFinishTimeout="40000"
 			autoDisable="false"
 			autoEnable="true"
-			hostname="cptlesb01.za.mhgad.com"
-			port="20610"
+			hostname="cptlsee01.za.mhgad.com"
+			port="23000"
 			connections="10"
-			autotimeout="15000"
-			poolMaxWaitTime="15000">
+			autotimeout="12000"
+			connectorImplementationClassID="COBOL"
+			poolMaxWaitTime="12000">
 			<secondaryPool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
@@ -793,7 +794,7 @@ switches to the backup
 				waitForSyncToFinishTimeout="40000"
 				autoDisable="false"
 				autoEnable="true"
-				hostname="cptlsee01.za.mhgad.com"
+				hostname="cptlsee03.za.mhgad.com"
 				port="23000"
 				connections="10"
 				autotimeout="12000"
