@@ -161,8 +161,6 @@
 		<x-ref tradingPartner="rtdm0010" mhg="MEDIPOS" functionMask="FFFF"
 		description="rtdm0010 - Medipos" />
 
-		<x-ref tradingPartner="RTDM0004" mhg="NIMAS" functionMask="FFFF"
-		description="RTDM0004 - Nimas" />
 		<x-ref tradingPartner="rtdm0004" mhg="NIMAS" functionMask="FFFF"
 		description="rtdm0004 - Nimas" />
 
