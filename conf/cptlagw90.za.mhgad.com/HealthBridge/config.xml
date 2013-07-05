@@ -163,6 +163,7 @@ autoDisable:					if true then connector will disable itself as soon as it switch
 		<x-ref tradingPartner=  "TBU"  mhg="IMPERIAL"				functionMask="FFFF" description="IMPERIAL"/>
 		<x-ref tradingPartner=  "TB7"  mhg="MEDIPOS"				functionMask="FFFF" description="MEDIPOS"/>
 		<x-ref tradingPartner=  "TBQ"  mhg="SAMWU"					functionMask="FFFF" description="SAMWU"/>
+		<x-ref tradingPartner=  "HB5A"  mhg="POLMED"					functionMask="FFFF" description="TEMPORARY: Shaun reddy to confirm missing code reason."/>
 
 	</destination-x-ref>
 
