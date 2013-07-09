@@ -105,6 +105,7 @@ switches to the backup
 		<x-ref tradingPartner=  "T15" mhg="SAMWU"   			functionMask="FFFF" description="Samwu"/>
 		<x-ref tradingPartner=  "T18" mhg="POLMED"  			functionMask="FFFF" description="Polmed"/>
 		<x-ref tradingPartner=  "T19" mhg="GEMS"  				functionMask="FFFF" description="Gems"/>
+		<x-ref tradingPartner=  "P19" mhg="GEMS"  				functionMask="FFFF" description="Gems"/>
 		<x-ref tradingPartner=  "T20" mhg="NIMAS"  				functionMask="FFFF" description="Nimas"/>
 		<x-ref tradingPartner=  "T21" mhg="IMPERIAL" 			functionMask="FFFF"	description="Imperial" />
 		<x-ref tradingPartner=  "T22" mhg="MEDIPOS" 			functionMask="FFFF"	description="Medipos" />
