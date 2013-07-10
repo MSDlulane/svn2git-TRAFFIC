@@ -1061,6 +1061,7 @@ switches to the backup
 
 	<pool-definitions-file name="pool.xml"
 		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
+		<!--
 		<pool_ id="JEE"
 			class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 			hostName="cptleap01.za.mhgad.com " port="1099" account="AMED"
@@ -1068,6 +1069,7 @@ switches to the backup
 		<pool_ id="POJAS"
 			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 			hostName="cptlsee01.za.mhgad.com" port="23000" />
+		-->
 	</pool-definitions-file>
 
 	<snmp-port mibFile="mibs.xml">20602</snmp-port>
