@@ -1,0 +1,144 @@
+To the PM/Scrum-master:
+-----------------------
+The numbered points below can be used as a template for creting JIRA tasks for a new scheme/take-on
+
+INDEX:
+------
+1. GAME Database Configurations
+	a. SCHEME_INFO
+	b. SCHEME_XREF
+	
+2. Traffic Server Configurations:
+	a. DHS
+	b. MHG
+	
+3. Add the new scheme datasource to SEE and JBoss
+
+4. Create a new persistence unit for BABYLON (JBoss Entity layer)
+
+5. Add the standin-traffic, standin-sweeper configurations
+
+
+Instructions:
+-------------
+
+In all cases, the service the services whose configuration is being altered needs to be restarted.
+For SVN permission issues contact jmeyer
+This document is versioned so YOU (stop looking around) can make it better. Feel free to add your comments etc.
+
+1.a,b GAME Database Configurations
+	//Example for Dev
+	//Using Aqua Data Studio connect to CPTLSYB82:7550 SYBASE ASE Database
+	//Using the scripts "randwater_scheme_info.sql" and "protekta_example_new_scheme_game_inserts.sql"
+	//the scripts are in the same directory as this file.
+	//create scripts for adding the 3 SCHEME_XREF entries and the 1 SCHEME_INFO entries
+
+2.a Traffic Server Configurations: Mhg
+	Define "env" elements for the scheme in the "DHS" traffic server config.
+		//Example for DEV
+		svn co https://cptlsvn01/repos/TRAFFIC
+		cd TRAFFIC/conf/cptlagw80.za.mhgad.com/DHS
+		vim config.xml
+		//duplicate the an existing "env" element
+		//change the new "env" element to the name and mhgAccount you need 
+		//(using different values for these is possible but is not advised).
+		//for the cobol "pool" element change the DEV port to the port 
+		//obtained from the LINUX IT-Infrastructure team (contact djason/afranks/rknoesen) 
+		//allocated to the new scheme. The host will remain cptlapp80 which is DEV COBOL.
+		//save the file
+		cd ../../../..
+		cd TRAFFIC/conf
+		vim cobol_app_server_list.txt
+		//add the app server port to the development group:
+		//Note the fields are a single space separated
+		//DEVELOPMENT <SCHEME/ACCOUNT NAME> cptlapp80.za.mhgad.com <SCHEME/ACCOUNT PORT>
+		//save the file
+		//commit configuration changes
+		cd ../
+		svn ci -m "Added scheme <SCHEME NAME> to Mhg Traffic"
+	
+2.b Traffic Server Configurations: Mhg
+	Define "env" elements for the scheme in the "Mhg" traffic server config.
+		//Example for DEV
+		svn co https://cptlsvn01/repos/TRAFFIC
+		cd TRAFFIC/conf/cptlagw80.za.mhgad.com/Mhg
+		vim config.xml
+		//duplicate the AMED "env" element
+		//change the new "env" element to the name and mhgAccount you need 
+		//(using different values for these is possible but is not advised).
+		//for the cobol "pool" element change the DEV port to the port 
+		//obtained from the LINUX IT-Infrastructure team (contact djason/afranks/rknoesen) 
+		//allocated to the new scheme. The host will remain cptlapp80 which is DEV COBOL.
+		//save the file
+		cd ../../../..
+		cd TRAFFIC/conf
+		vim cobol_app_server_list.txt
+		//add the app server port to the development group:
+		//Note the fields are a single space separated
+		//DEVELOPMENT <SCHEME/ACCOUNT NAME> cptlapp80.za.mhgad.com <SCHEME/ACCOUNT PORT>
+		//save the file
+		//commit configuration changes
+		cd ../
+		svn ci -m "Added scheme <SCHEME NAME> to Mhg Traffic"
+
+3. Add the new scheme datasource to SEE and JBoss
+		SEE:
+		//NB. production changes need to be made on cptlsee01, cptlsee02, cptlsee03
+		//DEV example:
+		//ssh to cptlagw80
+		vim /opt/mhg/SEE/etc/config.xml
+		//duplicate a datasource element change the
+		//on the duplicated element:
+		//database-name to the scheme database name
+		JBoss:
+		vim /var/lib/jbossas/server/production/deploy/babylon-cptlsyb80-7550-ds.xml
+		//duplicate a "local-tx-datasource" element
+		//change the jndi name so that it looks like "jdbc/babylon/<New Scheme Name all lowercase>"
+		//change the database name in the database url
+		
+4. Create a new persistence unit for BABYLON (JBoss Entity layer)
+		//DEV Example:
+		svn co https://cptlsvn01/repos/babylon/
+		cd babylon/branches/development_branch/babylon/src/META-INF/
+		vim persistence.xml
+		//duplicate an "persistence-unit" element
+		//alter the "name" property to "jdbc/babylon2/<New Scheme Name all lowercase>"
+		//alter the value of the "persistence-unit" child-element "java:jdbc/babylon/<New Scheme Name all lowercase>" 
+		//it must match the datasource-name created in 3:JBoss above
+
+5. Add the standin-traffic, standin-sweeper configurations
+		//Currently MHG only has Standin in ACPT
+		TRAFFIC Server:
+		//Example for ACPT
+		svn co https://cptlsvn01/repos/TRAFFIC
+		cd TRAFFIC/conf/cptlagw90.za.mhgad.com/Mhg
+		vim config.xml
+		//duplicate the AMED "env" element
+		//change the new "env" element to the name and mhgAccount you need 
+		//(using different values for these is possible but is not advised).
+		//for the cobol "pool" element change the DEV port to the port 
+		//obtained from the LINUX IT-Infrastructure team (contact djason/afranks/rknoesen) 
+		//allocated to the new scheme. The host will remain cptlapp80 which is DEV COBOL.
+		//save the file
+		cd ../../../..
+		cd TRAFFIC/conf
+		vim cobol_app_server_list.txt
+		//add the app server port to the development group:
+		//Note the fields are a single space separated
+		//DEVELOPMENT <SCHEME/ACCOUNT NAME> cptlapp80.za.mhgad.com <SCHEME/ACCOUNT PORT>
+		//save the file
+		//commit configuration changes
+		cd ../
+		svn ci -m "Added scheme <SCHEME NAME> to Mhg Traffic"
+		Sweeper:
+		ssh cptlagw90
+		vim /opt/mhg/NewmedAI/sinsweep.xml
+		//duplicate the last job element
+		//alter the description to match the new scheme
+		//alter the "job-id" element value sequentially
+		//in the "11 Sync Stop Commands , | server,port,command" and "10 Sync start Commands | server,port,command" 
+		//elements alter the ENV tag value in the command to match the env name configured for the DHS traffic server [2.a]
+		//in the "12 claim destination" element alter the value to match the env name configured for the DHS traffic server [2.a]
+		
+		
+		
