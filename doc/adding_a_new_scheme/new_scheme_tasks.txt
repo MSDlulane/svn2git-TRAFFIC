@@ -52,6 +52,9 @@ This document is versioned so YOU (stop looking around) can make it better. Feel
 		//add the app server port to the development group:
 		//Note the fields are a single space separated
 		//DEVELOPMENT <SCHEME/ACCOUNT NAME> cptlapp80.za.mhgad.com <SCHEME/ACCOUNT PORT>
+		//duplicate a "destination-x-ref" element and add entries for the new XREF entries created in
+		//[1.a,b] (the P-code, scheme-code and scheme-name entries in the SCHEME_XREF table of the GAME 
+		//database)
 		//save the file
 		//commit configuration changes
 		cd ../
@@ -76,6 +79,8 @@ This document is versioned so YOU (stop looking around) can make it better. Feel
 		//add the app server port to the development group:
 		//Note the fields are a single space separated
 		//DEVELOPMENT <SCHEME/ACCOUNT NAME> cptlapp80.za.mhgad.com <SCHEME/ACCOUNT PORT>
+		//contact EBM and obtain DHS destination codes for the new scheme (kbengu@mhg.co.za)
+		//duplicate a "destination-x-ref" element and add entries for the destination codes from DHS
 		//save the file
 		//commit configuration changes
 		cd ../

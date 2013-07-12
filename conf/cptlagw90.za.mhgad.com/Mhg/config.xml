@@ -2142,6 +2142,25 @@
 			tradingPartner="Y"
 		/>
 		<x-ref
+			description="PROTEKTA"
+			functionMask="FFFF"
+			mhg="PROTEKTA"
+			tradingPartner="P29"
+		/>
+		<x-ref
+			description="PROTEKTA"
+			functionMask="FFFF"
+			mhg="PROTEKTA"
+			tradingPartner="J"
+		/>
+		<x-ref
+			description="PROTEKTA"
+			functionMask="FFFF"
+			mhg="PROTEKTA"
+			tradingPartner="PROTEKTA"
+		/>
+
+		<x-ref
 			description="SHARE access"
 			functionMask="FFFF"
 			mhg="SHARE"
