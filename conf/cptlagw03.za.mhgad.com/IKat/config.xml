@@ -1183,7 +1183,7 @@
 			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT" 
 			logTable="IKat" 
 			DbUserName="traffic" 
-			DbPassword="IR0b0t" 
+			DbPassword="pJ9fXZ3d" 
 			minpoolsize="1" 
 			maxpoolsize="2" 
 			timeout="600000">
