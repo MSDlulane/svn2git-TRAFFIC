@@ -1,98 +1,223 @@
-<?xml version="1.0"?>
 <Enviroments>
-
-	<server sendTrxDetailsToStatusMonitor="true" trxSizeLimit="128000"
-		trxAbortSizeLimit="256000" cmdPasswd="1q2w3e" tradingPartner="Mediswitch"
-		name="DHS Nimas Server" port="20400" diagPort="20401"
-		distributedCacheEnabled="true" distributedCacheIP="cptlagw01.za.mhgad.com" 
-		distributedCachePort="11211" distributedCacheEntryTimeout="120"
-		logConfigFile="log4j_nimas_non_qpbm.xml" __system_out="default" />
-
-	<env name="NIMAS_NON_QPBM" mhgAccount="NIMAS">
-		<pool useSoTimeOut="true" id="COBOL" hostname="cptlxml01.za.mhgad.com"
-			port="9113" connections="5" autotimeout="120000" poolMaxWaitTime="120000" />
+	
+	<server
+		__system_out="default"
+		cmdPasswd="1q2w3e"
+		diagPort="20401"
+		distributedCacheEnabled="true"
+		distributedCacheEntryTimeout="120"
+		distributedCacheIP="cptlagw01.za.mhgad.com"
+		distributedCachePort="11211"
+		logConfigFile="log4j_nimas_non_qpbm.xml"
+		name="DHS Nimas Server"
+		port="20400"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="Mediswitch"
+		trxAbortSizeLimit="256000"
+		trxSizeLimit="128000"
+	/>
+	<env
+		mhgAccount="NIMAS"
+		name="NIMAS_NON_QPBM"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="120000"
+			port="9113"
+			useSoTimeOut="true"
+		/>
 	</env>
-
-	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
-	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
-
-	<pool-definitions-file name="pool.xml" />
-
-	<snmp-port mibFile="mibs.xml">20402</snmp-port>
-	<tailWatchServer id="Mediswitch" tcpipPort="20403"
-		multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="Mediswitch" tcpipPort="20404"
-		multicast-host-ip="" multicast-port="-1" />
-	<inputDataServer id="Mediswitch" tcpipPort="20405" multicast-host-ip="" multicast-port="-1" />
-
-	<synchronous-transactions>true</synchronous-transactions>
-
-	<transaction-x-ref>
-		<x-ref tradingPartner="1" mhg="ELCHECK" functionNo="0001"
-			isPingOrHandshake="true" description="Elegibility check" />
-		<x-ref tradingPartner="2" mhg="REALCLM" functionNo="000A"
-			description="Realtime Pharmacy Medicine claims" />
-		<x-ref tradingPartner="3" mhg="REALCLM" functionNo="0002"
-			description="Realtime doctor Medicine claims" />
-		<x-ref tradingPartner="4" mhg="REALCLM" functionNo="0004"
-			description="Realtime doctor claims" />
-		<x-ref tradingPartner="5" mhg="REALCLM" functionNo="0010" 
-			description="Realtime doctor" />
-		<x-ref tradingPartner="127" mhg="PING" functionNo="0008"
-			isPingOrHandshake="true" description="Ping" />
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		20402
+	</snmp-port>
+	<tailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20403"
+	/>
+	<diagTailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20404"
+	/>
+	<inputDataServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20405"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			isPingOrHandshake="true"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime Pharmacy Medicine claims"
+			functionNo="000A"
+			mhg="REALCLM"
+			tradingPartner="2"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+		<x-ref
+			description="Realtime doctor"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
+		/>
 	</transaction-x-ref>
-
-	<destination-x-ref>
-
-		<x-ref tradingPartner="MNRM0001" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: NIMAS REALTIME (MEDICAL)" />
-		<x-ref tradingPartner="MNSM0002" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: NIMAS SWITCHON (MEDICAL)" />
-
-		<x-ref tradingPartner="MSRR0002" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: NIMAS REALER RADIO PHYSIO (MEDICAL)" />
-		<x-ref tradingPartner="MSPR0006" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: NIMAS PATHOLOGY REALER (MEDICAL)" />
-		<x-ref tradingPartner="MSRM0007" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: NIMAS REALER (MEDICAL)" />
-		<x-ref tradingPartner="MNMR0002" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: NIMAS REALER (MEDICAL)" />
-
-		<x-ref tradingPartner="MNHO0002" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: NETCARE (HOSPITAL)" />
-		<x-ref tradingPartner="MNME0006" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: MHG: NETCARE (MEDICAL)" />
-		<x-ref tradingPartner="MNME0005" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: NETCARE (MEDICLINIC)" />
-		<x-ref tradingPartner="MNNE0002" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: NETCARE (NETCARE)" />
-		<x-ref tradingPartner="MPHO0016" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: PG (HOSPITAL)" />
-		<x-ref tradingPartner="MPME0007" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: PG (MEDICLINIC)" />
-		<x-ref tradingPartner="MPNE0004" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: PG (NETCARE)" />
-		<x-ref tradingPartner="MPGM0005" mhg="NIMAS_NON_QPBM"
-			functionMask="FFFF" description="MHG: PG GROUP (MEDICAL)" />
-			
+	<destination-x-ref	>
+		
+		<x-ref
+			description="MHG: NIMAS REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MNRM0001"
+		/>
+		<x-ref
+			description="MHG: NIMAS SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MNSM0002"
+		/>
+		<x-ref
+			description="MHG: NIMAS REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MSRR0002"
+		/>
+		<x-ref
+			description="MHG: NIMAS PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MSPR0006"
+		/>
+		<x-ref
+			description="MHG: NIMAS REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MSRM0007"
+		/>
+		<x-ref
+			description="MHG: NIMAS REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MNMR0002"
+		/>
+		<x-ref
+			description="MHG: NETCARE (HOSPITAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MNHO0002"
+		/>
+		<x-ref
+			description="MHG: MHG: NETCARE (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MNME0006"
+		/>
+		<x-ref
+			description="MHG: NETCARE (MEDICLINIC)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MNME0005"
+		/>
+		<x-ref
+			description="MHG: NETCARE (NETCARE)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MNNE0002"
+		/>
+		<x-ref
+			description="MHG: PG (HOSPITAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MPHO0016"
+		/>
+		<x-ref
+			description="MHG: PG (MEDICLINIC)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MPME0007"
+		/>
+		<x-ref
+			description="MHG: PG (NETCARE)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MPNE0004"
+		/>
+		<x-ref
+			description="MHG: PG GROUP (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MPGM0005"
+		/>
 	</destination-x-ref>
-
-	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logFileRefreshInterval="Daily" 
-		processSleepTime="1000" 
-		logDirectory="log/accesslog-nimas">
-		<claimsLogger 
-			poolId="generic" 
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog-nimas"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT" 
-			logTable="DHSNimas" 
-			DbUserName="traffic" 
-			DbPassword="pJ9fXZ3d" 
-			minpoolsize="1" 
-			maxpoolsize="2" 
-			timeout="600000">
-			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM" />
+			DbPassword="pJ9fXZ3d"
+			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT"
+			DbUserName="traffic"
+			logTable="DHSNimas"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM"
+			/>
 		</claimsLogger>
 	</logger>
-	
 </Enviroments>
+

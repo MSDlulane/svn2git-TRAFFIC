@@ -1,186 +1,369 @@
-<?xml version="1.0"?>
 <Enviroments>
-
-	<server sendTrxDetailsToStatusMonitor="true" trxSizeLimit="128000"
-		trxAbortSizeLimit="256000" cmdPasswd="1q2w3e" tradingPartner="Mediswitch"
-		name="DHS POLMED Server" port="20700" diagPort="20701" logConfigFile="log4j_polmed.xml"
-		distributedCacheEnabled="true" distributedCacheIP="cptlagw01.za.mhgad.com" 
-		distributedCachePort="11211" distributedCacheEntryTimeout="120" 
-		__system_out="default" />
-
-	<env name="METROPOLITAN" mhgAccount="NEWMED" useDistributedCache="true">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9108"
-			connections="5" autotimeout="120000" poolMaxWaitTime="28000">
-
-			<!-- Auto dis/enable these connectors on a SYNC message -->
-			<localConnectorsToManipulateOnSync>
-				<localConnectorToManipulateOnSync
-					desc="Test" remoteEnv="METROPOLITAN" remotePoolId="COBOLBACKUP" />
-			</localConnectorsToManipulateOnSync>
-
-			<remoteConnectorOperations>
-				<remoteConnectorOperation desc="will enable conn if active"
-					action="STATUS" host="dralsin01.za.mhgad.com" diagport="20701"
-					remoteEnv="METROPOLITAN" remotePoolId="COBOL" />
-			</remoteConnectorOperations>
-
-			<secondaryPool useSoTimeOut="false"
-				autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" minTrxTime="15000"
-				dropClientOnError="true" startDisabled="true"
-				waitForSyncToFinishTimeout="10000" autoDisable="false" autoEnable="true"
-				id="COBOLBACKUP" hostname="dralsin01.za.mhgad.com" port="9307"
-				connections="3" autotimeout="90000" poolMaxWaitTime="40000"
-				connectorImplementationClassID="COBOL">
-				<remoteConnectorOperations>
-
-					<remoteConnectorOperation desc="will enable conn if active"
-						action="STATUS" host="dralsin01.za.mhgad.com" diagport="20701"
-						remoteEnv="METROPOLITAN" remotePoolId="COBOL" />
-					<remoteConnectorOperation desc="will disable conn if trx processed"
-						action="DISABLE" host="dralsin01.za.mhgad.com" diagport="20701"
-						remoteEnv="METROPOLITAN" remotePoolId="COBOLBACKUP" />
-					<remoteConnectorOperation desc="will enable conn if trx processed"
-						action="ENABLE" host="dralsin01.za.mhgad.com" diagport="20701"
-						remoteEnv="METROPOLITAN" remotePoolId="COBOL" />
-						
-				</remoteConnectorOperations>
-
-			</secondaryPool>
-		</pool>
-	</env>
 	
-	<env name="POLMED" mhgAccount="POLMED" useDistributedCache="true">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9109"
-			connections="12" autotimeout="120000" poolMaxWaitTime="28000">
-
-			<!-- Auto dis/enable these connectors on a SYNC message -->
-			<localConnectorsToManipulateOnSync>
+	<server
+		__system_out="default"
+		cmdPasswd="1q2w3e"
+		diagPort="20701"
+		distributedCacheEnabled="true"
+		distributedCacheEntryTimeout="120"
+		distributedCacheIP="cptlagw01.za.mhgad.com"
+		distributedCachePort="11211"
+		logConfigFile="log4j_polmed.xml"
+		name="DHS POLMED Server"
+		port="20700"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="Mediswitch"
+		trxAbortSizeLimit="256000"
+		trxSizeLimit="128000"
+	/>
+	<env
+		mhgAccount="NEWMED"
+		name="METROPOLITAN"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="5"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9108"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<localConnectorsToManipulateOnSync			>
+				
 				<localConnectorToManipulateOnSync
-					desc="Test" remoteEnv="POLMED" remotePoolId="COBOLBACKUP" />
+					desc="Test"
+					remoteEnv="METROPOLITAN"
+					remotePoolId="COBOLBACKUP"
+				/>
 			</localConnectorsToManipulateOnSync>
-
-			<!--
-				On startup the folowing connectors will be queried - if all active
-				then this connector will be enabled
-			-->
-			<remoteConnectorOperations>
-				<remoteConnectorOperation desc="will enable conn if active"
-					action="STATUS" host="dralsin01.za.mhgad.com" diagport="20701"
-					remoteEnv="POLMED" remotePoolId="COBOL" />
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="20701"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="METROPOLITAN"
+					remotePoolId="COBOL"
+				/>
 			</remoteConnectorOperations>
-
-			<secondaryPool useSoTimeOut="false"
-				autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" minTrxTime="15000"
-				dropClientOnError="false" startDisabled="true"
-				waitForSyncToFinishTimeout="10000" autoDisable="false" autoEnable="true"
-				id="COBOLBACKUP" hostname="dralsin01.za.mhgad.com" port="9310"
-				connections="10" autotimeout="90000" poolMaxWaitTime="28000"
-				connectorImplementationClassID="COBOL">
-				<remoteConnectorOperations>
-
-					<!--
-						On startup the folowing connectors will be queried - if all active
-						then this connector will be enabled
-					-->
-					<remoteConnectorOperation desc="will enable conn if active"
-						action="STATUS" host="dralsin01.za.mhgad.com" diagport="20701"
-						remoteEnv="POLMED" remotePoolId="COBOL" />
-					<remoteConnectorOperation desc="will disable conn if trx processed"
-						action="DISABLE" host="dralsin01.za.mhgad.com" diagport="20701"
-						remoteEnv="POLMED" remotePoolId="COBOLBACKUP" />
-					<remoteConnectorOperation desc="will enable conn if trx processed"
-						action="ENABLE" host="dralsin01.za.mhgad.com" diagport="20701"
-						remoteEnv="POLMED" remotePoolId="COBOL" />
-						
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="3"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="true"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="40000"
+				port="9307"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="20701"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="METROPOLITAN"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="20701"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="METROPOLITAN"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="20701"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="METROPOLITAN"
+						remotePoolId="COBOL"
+					/>
 				</remoteConnectorOperations>
-
 			</secondaryPool>
 		</pool>
 	</env>
-
-	<env name="POLMED_DOC">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
-			port="9109" connections="5" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		mhgAccount="POLMED"
+		name="POLMED"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="12"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9109"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="POLMED"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="20701"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="POLMED"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="10"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="28000"
+				port="9310"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="20701"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="POLMED"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="20701"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="POLMED"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="20701"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="POLMED"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
 	</env>
-
-	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
-	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
-
-	<pool-definitions-file name="pool.xml" />
-
-	<snmp-port mibFile="mibs.xml">20702</snmp-port>
-	<tailWatchServer id="Mediswitch" tcpipPort="20703"
-		multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="Mediswitch" tcpipPort="20704"
-		multicast-host-ip="" multicast-port="-1" />
-
-	<synchronous-transactions>true</synchronous-transactions>
-
-	<transaction-x-ref>
-		<x-ref tradingPartner="1" mhg="ELCHECK" functionNo="0001"
-			description="Elegibility check" />
-		<x-ref tradingPartner="2" mhg="REALCLM" functionNo="000A"
-			description="Realtime Pharmacy Medicine claims" />
-		<x-ref tradingPartner="3" mhg="REALCLM" functionNo="0002"
-			description="Realtime doctor Medicine claims" />
-		<x-ref tradingPartner="4" mhg="REALCLM" functionNo="0004"
-			description="Realtime doctor claims" />
-		<x-ref tradingPartner="127" mhg="PING" functionNo="0008"
-			isPingOrHandshake="true" description="Ping" />
-		<x-ref tradingPartner="5" mhg="REALCLM" functionNo="0010"
-			description="Realtime doctor" />
+	<env
+		name="POLMED_DOC"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9109"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		20702
+	</snmp-port>
+	<tailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20703"
+	/>
+	<diagTailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20704"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime Pharmacy Medicine claims"
+			functionNo="000A"
+			mhg="REALCLM"
+			tradingPartner="2"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+		<x-ref
+			description="Realtime doctor"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
+		/>
 	</transaction-x-ref>
-
-	<destination-x-ref>
-		<x-ref tradingPartner="prph0003" mhg="POLMED_DOC" functionMask="FFFF"
-			description="Polmed - Real Time - " />
-		<x-ref tradingPartner="METR0007" mhg="POLMED" functionMask="FFFF"
-			description="POLMED" />
-		<x-ref tradingPartner="METR0008" mhg="METROPOLITAN"	functionMask="FFFF" 
-			description="METROPOLITAN" />
-
-		<!--NEW CODES -->
-		<x-ref tradingPartner="MPRM0003" mhg="POLMED" functionMask="FFFF"
-			description="MHG: POLMED REALTIME (MEDICAL)" />
-		<x-ref tradingPartner="MPSM0004" mhg="POLMED" functionMask="FFFF"
-			description="MHG: POLMED SWITCHON (MEDICAL)" />
-
-		<!-- Added 2009-11-09 -->
-		<x-ref tradingPartner="MSOB0003" mhg="POLMED" functionMask="FFFF"
-			description="MHG: POLMED PATHOLOGY REALER (MEDICAL)" />
-		<x-ref tradingPartner="MSOB0004" mhg="POLMED" functionMask="FFFF"
-			description="MHG: POLMED REALER (MEDICAL)" />
-		<x-ref tradingPartner="MSOB0005" mhg="POLMED" functionMask="FFFF"
-			description="MHG: POLMED REALER RADIO PHYSIO (MEDICAL)" />
-		<x-ref tradingPartner="MPMR0003" mhg="POLMED" functionMask="FFFF"
-			description="MHG: POLMED MEDICLINIC (MEDICAL)" />
-
+	<destination-x-ref	>
+		
+		<x-ref
+			description="Polmed - Real Time - "
+			functionMask="FFFF"
+			mhg="POLMED_DOC"
+			tradingPartner="prph0003"
+		/>
+		<x-ref
+			description="POLMED"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="METR0007"
+		/>
+		<x-ref
+			description="METROPOLITAN"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="METR0008"
+		/>
+		<x-ref
+			description="MHG: POLMED REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="MPRM0003"
+		/>
+		<x-ref
+			description="MHG: POLMED SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="MPSM0004"
+		/>
+		<x-ref
+			description="MHG: POLMED PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="MSOB0003"
+		/>
+		<x-ref
+			description="MHG: POLMED REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="MSOB0004"
+		/>
+		<x-ref
+			description="MHG: POLMED REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="MSOB0005"
+		/>
+		<x-ref
+			description="MHG: POLMED MEDICLINIC (MEDICAL)"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="MPMR0003"
+		/>
 	</destination-x-ref>
-
-	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logFileRefreshInterval="Daily" 
-		processSleepTime="1000" 
-		logDirectory="log/accesslog-polmed">
-		<claimsLogger 
-			poolId="generic" 
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog-polmed"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT" 
-			logTable="DHSPolmed" 
-			DbUserName="traffic" 
-			DbPassword="pJ9fXZ3d" 
-			minpoolsize="1" 
-			maxpoolsize="2" 
-			timeout="600000">
-			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM" />
+			DbPassword="pJ9fXZ3d"
+			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT"
+			DbUserName="traffic"
+			logTable="DHSPolmed"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM"
+			/>
 		</claimsLogger>
 	</logger>
-	
 </Enviroments>
+
