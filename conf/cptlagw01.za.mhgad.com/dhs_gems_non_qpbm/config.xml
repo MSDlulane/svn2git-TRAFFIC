@@ -4,7 +4,7 @@
 		__system_out="default"
 		cmdPasswd="1q2w3e"
 		diagPort="20901"
-		logConfigFile="log4j_gems_non_qpbm.xml"
+		logConfigFile="log4j.xml"
 		name="DHS GEMS NON QPBM"
 		port="20900"
 		sendTrxDetailsToStatusMonitor="true"

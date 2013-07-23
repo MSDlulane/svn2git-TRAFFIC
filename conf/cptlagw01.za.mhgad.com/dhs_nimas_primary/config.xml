@@ -100,7 +100,7 @@
 		distributedCacheEntryTimeout="120"
 		distributedCacheIP="cptlagw01.za.mhgad.com"
 		distributedCachePort="11211"
-		logConfigFile="log4j_nimas.xml"
+		logConfigFile="log4j.xml"
 		name="DHS NIMAS Primary"
 		port="20300"
 		sendTrxDetailsToStatusMonitor="true"

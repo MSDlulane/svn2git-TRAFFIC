@@ -8,7 +8,7 @@
 		distributedCacheEntryTimeout="120"
 		distributedCacheIP="cptlagw01.za.mhgad.com"
 		distributedCachePort="11211"
-		logConfigFile="log4j_polmed_non_qpbm.xml"
+		logConfigFile="log4j.xml"
 		name="DHS POLMED Server"
 		port="20500"
 		sendTrxDetailsToStatusMonitor="true"

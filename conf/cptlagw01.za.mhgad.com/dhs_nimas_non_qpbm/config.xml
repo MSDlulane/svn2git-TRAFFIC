@@ -8,7 +8,7 @@
 		distributedCacheEntryTimeout="120"
 		distributedCacheIP="cptlagw01.za.mhgad.com"
 		distributedCachePort="11211"
-		logConfigFile="log4j_nimas_non_qpbm.xml"
+		logConfigFile="log4j.xml"
 		name="DHS Nimas Server"
 		port="20400"
 		sendTrxDetailsToStatusMonitor="true"
