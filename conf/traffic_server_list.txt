@@ -23,14 +23,14 @@
 ###############################################################
 # PRODUCTION
 # CPTLAGW01
-cptlagw01.za.mhgad.com dhs_gems_non_qpbm LEGACY_CPTLAGW01 ENABLED 128 256 10001
-cptlagw01.za.mhgad.com dhs_gems_primary LEGACY_CPTLAGW01 ENABLED 512 768 10002
-cptlagw01.za.mhgad.com dhs_main_non_qpbm LEGACY_CPTLAGW01 ENABLED 128 256 10003
-cptlagw01.za.mhgad.com dhs_main_primary LEGACY_CPTLAGW01 ENABLED 256 512 10004
-cptlagw01.za.mhgad.com dhs_nimas_non_qpbm LEGACY_CPTLAGW01 ENABLED 128 256 10005
-cptlagw01.za.mhgad.com dhs_nimas_primary LEGACY_CPTLAGW01 ENABLED 128 256 10006
-cptlagw01.za.mhgad.com dhs_polmed_non_qpbm LEGACY_CPTLAGW01 ENABLED 128 256 10007
-cptlagw01.za.mhgad.com dhs_polmed_primary LEGACY_CPTLAGW01 ENABLED 256 512 10008
+cptlagw01.za.mhgad.com dhs_gems_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10001
+cptlagw01.za.mhgad.com dhs_gems_primary PRODUCTION_LEGACY ENABLED 512 768 10002
+cptlagw01.za.mhgad.com dhs_main_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10003
+cptlagw01.za.mhgad.com dhs_main_primary PRODUCTION_LEGACY ENABLED 256 512 10004
+cptlagw01.za.mhgad.com dhs_nimas_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10005
+cptlagw01.za.mhgad.com dhs_nimas_primary PRODUCTION_LEGACY ENABLED 128 256 10006
+cptlagw01.za.mhgad.com dhs_polmed_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10007
+cptlagw01.za.mhgad.com dhs_polmed_primary PRODUCTION_LEGACY ENABLED 256 512 10008
 # CPTLAGW02
 cptlagw02.za.mhgad.com Archiving PRODUCTION_LEGACY ENABLED 128 256 10001
 cptlagw02.za.mhgad.com HealthBridge PRODUCTION_LEGACY ENABLED 128 256 10002
