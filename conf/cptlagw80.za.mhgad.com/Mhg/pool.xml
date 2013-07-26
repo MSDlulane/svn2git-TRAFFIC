@@ -14,6 +14,11 @@
 			desc=""
 		/>
 		<tq-function
+			name="AUTHORISATION_TRIGGER"
+			targetBeanName="AUTHORISATION_TRIGGER"
+			desc=""
+		/>
+		<tq-function
 			name="BANKMED_VALIDATE_PATIENT"
 			targetBeanName="BANKMED_VALIDATE_PATIENT"
 			desc=""
@@ -229,6 +234,11 @@
 		id="POJAS"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	>
+		<tq-function
+			name="GET_ICD_DTPMASTER"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
 		<tq-function
 			name="Get_DCP_SurveyUser_Section"
 			targetBeanName="DynamicQueryExecutor"

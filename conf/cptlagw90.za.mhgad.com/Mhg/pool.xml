@@ -235,6 +235,11 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	>
 		<tq-function
+			name="GET_ICD_DTPMASTER"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
 			name="Get_DCP_SurveyUser_Section"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
