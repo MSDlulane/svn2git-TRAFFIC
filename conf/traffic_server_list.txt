@@ -23,43 +23,213 @@
 ###############################################################
 # PRODUCTION
 # CPTLAGW01
+#
+# CPTLAGW01 is a production host/machine/server which serves to host traffic-server entry-points
+# for DHS/Mediswitch only. All traffic on CPTLAGW01 to traffic server comes
+# from DHS/Mediswitch.
+#
+# DHS traffic server deployed for GEMS.
+# This service is for processing non-pharmacy claims.
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_gems_non_qpbm/
 cptlagw01.za.mhgad.com dhs_gems_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10001
+#
+# DHS traffic server deployed for GEMS.
+# This service is for processing pharmacy claims.
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_gems_primary/
 cptlagw01.za.mhgad.com dhs_gems_primary PRODUCTION_LEGACY ENABLED 512 768 10002
+#
+# DHS traffic server deployed as a primary entry-point for DHS
+# This service is for processing non-pharmacy claims.
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_main_non_qbpm/
 cptlagw01.za.mhgad.com dhs_main_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10003
+#
+# DHS traffic server deployed as a primary entry-point for DHS
+# This service is for processing pharmacy claims.
+# Low traffic volume schemes are usually added to this server for routing.
+# (Pharmacy claims).
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_main_primary/
 cptlagw01.za.mhgad.com dhs_main_primary PRODUCTION_LEGACY ENABLED 256 512 10004
+#
+# DHS traffic server originally for nimas claim-account schemes but more recently it 
+# is used for low traffic volume schemes (eg. RANDWATER and PGG). 
+# This service is for processing non-pharmacy claims.
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_nimas_non_qbpm/
 cptlagw01.za.mhgad.com dhs_nimas_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10005
+#
+# DHS traffic server originally for nimas claim-account schemes but more recently it 
+# is used for low traffic volume schemes (eg. RANDWATER and PGG). 
+# This service is for processing pharmacy claims.
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_nimas_primary/
 cptlagw01.za.mhgad.com dhs_nimas_primary PRODUCTION_LEGACY ENABLED 128 256 10006
+#
+# DHS traffic server polmed claim-account scheme. 
+# This service is for processing non-pharmacy claims.
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_polmed_non_qbpm/
 cptlagw01.za.mhgad.com dhs_polmed_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10007
+#
+# DHS traffic server polmed claim-account scheme. 
+# This service is for processing pharmacy claims.
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_polmed_primary/
 cptlagw01.za.mhgad.com dhs_polmed_primary PRODUCTION_LEGACY ENABLED 256 512 10008
 # CPTLAGW02
+#
+# CPTLAGW02 is a host/machine/server originally commisioned to host internal
+# traffic routing for user-interfaces etc. More recently claims processing
+# traffic-servers have been added. The traffic servers hosted on CPTLAGW02 are
+# used for more than just claims other services are also exposed such as
+# patient-validation which are deployed in MHG-SEE and JBoss.
+#
+#
+# Traffic server for archiving? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Archiving/
 cptlagw02.za.mhgad.com Archiving PRODUCTION_LEGACY ENABLED 128 256 10001
+#
+# Traffic server for HealthBridge? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/HealthBridge/
 cptlagw02.za.mhgad.com HealthBridge PRODUCTION_LEGACY ENABLED 128 256 10002
+#
+# Traffic server for MedEdi? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/MedEdi/
 cptlagw02.za.mhgad.com MedEdi PRODUCTION_LEGACY ENABLED 128 256 10003
+#
+# Traffic server for Medikredit? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Medikredit/
 cptlagw02.za.mhgad.com Medikredit PRODUCTION_LEGACY ENABLED 128 256 10004
+#
+# Traffic server for Medipos? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Medipos/
 cptlagw02.za.mhgad.com Medipos PRODUCTION_LEGACY ENABLED 128 256 10005
+#
+# Traffic server for MediPost? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/MediPost/
 cptlagw02.za.mhgad.com MediPost PRODUCTION_LEGACY ENABLED 128 256 10006
+#
+# Traffic servicing Solutio? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Solutio/
 cptlagw02.za.mhgad.com Solutio PRODUCTION_LEGACY_SOLUTIO ENABLED 256 512 10007
+#
+# Traffic servicing the Solutio-sweeper? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Solutio_sweeper/
 cptlagw02.za.mhgad.com Solutio_sweeper PRODUCTION_LEGACY_SOLUTIO ENABLED -1 256 10008
+#
+# Traffic server for internet and intranet service requests. TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/web/
 cptlagw02.za.mhgad.com web PRODUCTION_LEGACY ENABLED 128 256 10009
+#
+# Traffic server for internet and intranet auth service requests. TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/web_auth/
 cptlagw02.za.mhgad.com web_auth PRODUCTION_LEGACY ENABLED -1 256 10010
+#
+# Primary traffic server User interface requests. Intended service consumers
+# QUI, UNITY, WEB user-interfaces etc. 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_primary/
 cptlagw02.za.mhgad.com Mhg_primary PRODUCTION_LATEST ENABLED 256 512 10011
+#
+# Secondary traffic server User interface requests. Intended service consumers
+# COBOL text-based user interfaces etc. 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_secondary/
 cptlagw02.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012
 # CPTLAGW03
+#
+# CPTLAGW03 is a host/machine/server added for third-parties other than DHS as
+# an access-point for claims and other services.
+#
+# Traffic servicing Datamax? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Datamax/
 cptlagw03.za.mhgad.com Datamax PRODUCTION_LEGACY ENABLED 128 256 10001
+# 
+# Traffic servicing EMD? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/EMD/
 cptlagw03.za.mhgad.com EMD PRODUCTION_LEGACY ENABLED 128 256 10002
+# 
+# Traffic servicing IKat? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/IKat/
 cptlagw03.za.mhgad.com IKat PRODUCTION_LEGACY ENABLED 128 256 10003
+# 
+# Traffic servicing KaraboIT? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/KaraboIT/
 cptlagw03.za.mhgad.com KaraboIT PRODUCTION_LEGACY ENABLED 128 256 10004
+# 
+# Traffic servicing Medicharge? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Medicharge/
 cptlagw03.za.mhgad.com Medicharge PRODUCTION_LEGACY ENABLED 128 256 10005
+# 
+# Traffic servicing GEMS SPN. Requests to this traffic server are generated by
+# Filemonitor from batch files submitted via SFTP for PrimeCure, Universal
+# Health and Opticlear. Requests are one of the following
+# claims-payment-instructions, dsp-network-management, dsp-member-allocation,
+# hiv-registrations and hiv-authorizations.
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/SPN/
 cptlagw03.za.mhgad.com SPN PRODUCTION_LEGACY ENABLED 512 768 10006
+# 
+# Traffic servicing PPN? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Solutio/
 cptlagw03.za.mhgad.com PPN PRODUCTION_LATEST ENABLED 128 256 10008
+#
+# Traffic server for internet and intranet service requests. TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/web/
 cptlagw03.za.mhgad.com web PRODUCTION_LEGACY ENABLED 128 256 10009
+#
+# Traffic server for internet and intranet auth service requests. TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/web_auth/
 cptlagw03.za.mhgad.com web_auth PRODUCTION_LEGACY ENABLED -1 256 10010
+#
+# Primary traffic server User interface requests. Only service consumers
+# WEB user-interfaces etc. 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_primary/
 cptlagw03.za.mhgad.com Mhg_primary PRODUCTION_LATEST ENABLED 256 512 10011
+#
+# Secondary traffic server User interface requests. Only service consumers
+# WEB user-interfaces etc. 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_secondary/
 cptlagw03.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012
+#
+# Sanlam traffic server for routing benefit queries to Sanlam Health for the
+# Randwater account.
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Sanlam/
 cptlagw03.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013
 # DISASTER RECOVERY
 dralsin01.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013
 # REGIONAL
+# 
+# REGIONAL traffic hosts and instances service user interface requests 
+# for services. Service targeting GAME and SHARE or PDF conversion and image
+# archiving are serviced by local JBoss and SEE instance on the same host. All
+# scheme-specific (Services which require access to scheme databases) 
+# requests are serviced by SEE and JBoss instances in the Town
+# Square data centre.
 ptalagw01.za.mhgad.com Mhg PRODUCTION_LEGACY ENABLED -1 256 10010
 jhblagw01.za.mhgad.com Mhg PRODUCTION_LEGACY ENABLED -1 256 10010
 dbnlagw01.za.mhgad.com Mhg PRODUCTION_LEGACY ENABLED -1 256 10010
