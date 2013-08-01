@@ -3345,11 +3345,6 @@
 			desc=""
 		/>
 		<tq-function
-			name="MEMBERONLINE_Count_Claims_FORDOCTOR"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
 			name="MEMBERONLINE_DELETECONTLANG"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
@@ -5188,6 +5183,11 @@
 		id="WAS"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	>
+		<tq-function
+			name="MEMBERONLINE_Count_Claims_FORDOCTOR"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
 		<tq-function
 			name="FoG_VALIDATEMEMBER"
 			targetBeanName="DynamicQueryExecutor"
