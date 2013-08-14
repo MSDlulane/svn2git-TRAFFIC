@@ -92,7 +92,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -162,7 +162,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -200,7 +200,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -238,7 +238,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -268,7 +268,15 @@
 			port="9210"
 		/>
 		<pool
-			autoDisable="true"
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap01.za.mhgad.com "
+			id="JEE"
+			poolMaxWaitTime="10000"
+			port="1099"
+		/>
+		<pool
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -282,14 +290,6 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptleap01.za.mhgad.com "
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099"
 		/>
 	</env>
 	<env
@@ -315,12 +315,12 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
-			connections="4"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlsee01.za.mhgad.com"
 			id="POJAS"
@@ -354,12 +354,12 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
-			connections="4"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlsee01.za.mhgad.com"
 			id="POJAS"
@@ -393,12 +393,12 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
-			connections="4"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlsee01.za.mhgad.com"
 			id="POJAS"
@@ -423,7 +423,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -453,7 +453,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -483,7 +483,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -543,7 +543,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -573,7 +573,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -641,7 +641,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -680,12 +680,12 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
-			connections="4"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlsee01.za.mhgad.com"
 			id="POJAS"
@@ -698,7 +698,7 @@
 	</env>
 	<env
 		mhgAccount="SAMWU"
-		name="SAMWU"
+		name="SAMWUMED"
 	>
 		
 		<pool
@@ -707,7 +707,7 @@
 			hostname="apl-samwu.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9205"
+			port="9206"
 			useSoTimeOut="true"
 		/>
 		<pool
@@ -719,12 +719,12 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
-			connections="4"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlsee01.za.mhgad.com"
 			id="POJAS"
@@ -749,7 +749,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisable="true"
+			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
@@ -779,7 +779,7 @@
 			port="1099"
 		/>
 		<pool
-			autoDisabled="true"
+			autoDisabled="false"
 			autoDisabledOnSyncStart="true"
 			autoEnable="true"
 			autoEnabledOnSyncEnd="true"
@@ -802,23 +802,7 @@
 	<pool-definitions-file
 		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		name="pool.xml"
-	>
-		
-		<pool
-			account="AMED"
-			class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
-			hostName="cptleap01.za.mhgad.com "
-			id="JEE"
-			port="1099"
-			serviceTqName="ListServicesNames"
-		/>
-		<pool
-			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-			hostName="cptlsee01.za.mhgad.com"
-			id="POJAS"
-			port="23000"
-		/>
-	</pool-definitions-file>
+	/>
 	<snmp-port
 		mibFile="mibs.xml"
 	>
@@ -889,145 +873,133 @@
 		/>
 		<x-ref
 			description="Bankmed"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P00"
 		/>
 		<x-ref
 			description="Openplan"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="NEWMED"
 			tradingPartner="P01"
 		/>
 		<x-ref
 			description="Transmed"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="TRANSMED"
 			tradingPartner="P02"
 		/>
 		<x-ref
 			description="Woolthru"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P03"
 		/>
 		<x-ref
 			description="Sappi"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P04"
 		/>
 		<x-ref
 			description="Engen"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P05"
 		/>
 		<x-ref
 			description="Relyant"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P06"
 		/>
 		<x-ref
 			description="Alpha"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P07"
 		/>
 		<x-ref
 			description="Pick 'n Pay"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P08"
 		/>
 		<x-ref
 			description="Afrox"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P09"
 		/>
 		<x-ref
 			description="Remedi"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P10"
 		/>
 		<x-ref
 			description="Metstaff"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="NEWMED"
 			tradingPartner="P11"
 		/>
 		<x-ref
 			description="BPSA"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P12"
 		/>
 		<x-ref
-			description="Foshini"
-			functionMask="0000"
+			description="Foschini"
+			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P13"
 		/>
 		<x-ref
 			description="Lamaf"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="LAMAF"
 			tradingPartner="P14"
 		/>
 		<x-ref
 			description="Samwu"
 			functionMask="FFFF"
-			mhg="SAMWU"
+			mhg="SAMWUMED"
 			tradingPartner="P15"
 		/>
 		<x-ref
-			description="Prosano"
-			functionMask="0000"
-			mhg="SIGMA"
-			tradingPartner="P16"
-		/>
-		<x-ref
 			description="POLMED Prod"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="POLMED"
 			tradingPartner="P18"
 		/>
 		<x-ref
 			description="Samwu option B"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="SAMWUB"
 			tradingPartner="P17"
 		/>
 		<x-ref
 			description="GEMS Prod"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="GEMS"
 			tradingPartner="P19"
 		/>
 		<x-ref
 			description="PILIR Prod"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="PILIR"
 			tradingPartner="P20"
 		/>
 		<x-ref
 			description="NIMAS Prod"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="NIMAS"
 			tradingPartner="P21"
 		/>
 		<x-ref
-			description="GENESIS Prod"
-			functionMask="0000"
-			mhg="GENESIS"
-			tradingPartner="P22"
-		/>
-		<x-ref
 			description="REDRIB Prod"
-			functionMask="0000"
+			functionMask="FFFF"
 			mhg="REDRIB"
 			tradingPartner="P23"
 		/>
@@ -1044,10 +1016,34 @@
 			tradingPartner="P25"
 		/>
 		<x-ref
+			description="PGG NIMAS"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="P26"
+		/>
+		<x-ref
+			description="Netcare NIMAS"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="P27"
+		/>
+		<x-ref
+			description="RANDWATER"
+			functionMask="FFFF"
+			mhg="RANDWATER"
+			tradingPartner="P28"
+		/>
+		<x-ref
 			description="Workflow Database"
 			functionMask="FFFF"
 			mhg="WORKFLOW"
 			tradingPartner="P88"
+		/>
+		<x-ref
+			description="Game Local Query"
+			functionMask="FFFF"
+			mhg="GAME_LOCAL"
+			tradingPartner="P89"
 		/>
 		<x-ref
 			description="Share Database"
@@ -1064,29 +1060,23 @@
 		<x-ref
 			description="LDAP Query"
 			functionMask="FFFF"
-			mhg="GAME_LOCAL"
-			tradingPartner="P89"
-		/>
-		<x-ref
-			description="LDAP Query"
-			functionMask="FFFF"
 			mhg="LDAP"
 			tradingPartner="P90"
 		/>
 		<x-ref
-			description="LDAP Query"
+			description="System Query"
 			functionMask="FFFF"
 			mhg="SYSTEM"
 			tradingPartner="P91"
 		/>
 		<x-ref
-			description="LDAP Query"
+			description="Price Query"
 			functionMask="FFFF"
 			mhg="PRICE"
 			tradingPartner="P92"
 		/>
 		<x-ref
-			description="LDAP Query"
+			description="Spine Query"
 			functionMask="FFFF"
 			mhg="SPINE"
 			tradingPartner="P93"
@@ -1098,16 +1088,16 @@
 			tradingPartner="P97"
 		/>
 		<x-ref
-			description="Image Database"
-			functionMask="FFFF"
-			mhg="IMAGE"
-			tradingPartner="P95"
-		/>
-		<x-ref
 			description="Utilities"
 			functionMask="FFFF"
 			mhg="UTILITY"
 			tradingPartner="P98"
+		/>
+		<x-ref
+			description="Image Database"
+			functionMask="FFFF"
+			mhg="IMAGE"
+			tradingPartner="P95"
 		/>
 		<x-ref
 			description="Share Connection"
@@ -1188,9 +1178,9 @@
 			tradingPartner="P"
 		/>
 		<x-ref
-			description="Mediclinic SAMWU"
+			description="Mediclinic SAMWUMED"
 			functionMask="FFFF"
-			mhg="SAMWU"
+			mhg="SAMWUMED"
 			tradingPartner="Q"
 		/>
 		<x-ref
