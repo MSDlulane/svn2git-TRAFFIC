@@ -1175,7 +1175,7 @@
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
 		logFileRefreshInterval="Daily" 
 		processSleepTime="1000" 
-		logDirectory="log/accesslog-test"
+		logDirectory="log/accesslog"
 	>
 		<claimsLogger 
 			poolId="generic" 

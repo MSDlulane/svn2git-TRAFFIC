@@ -268,7 +268,7 @@
 		classname="InterfaceTransactions.Diagnostics.SolutioLogger"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
-		logDirectory="log/PPN/accesslog">
+		logDirectory="log/accesslog">
 
 		<claimsLogger
 				poolId="generic"
