@@ -233,7 +233,7 @@
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logDirectory="log/accesslog-gems-nq"
+		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 	>

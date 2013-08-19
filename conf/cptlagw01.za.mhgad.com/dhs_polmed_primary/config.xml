@@ -342,7 +342,7 @@
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logDirectory="log/accesslog-polmed"
+		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 	>
