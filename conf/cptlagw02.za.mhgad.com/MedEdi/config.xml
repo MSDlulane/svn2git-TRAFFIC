@@ -141,7 +141,7 @@ switches to the backup
 	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
-		logDirectory="log/MedEdi/accesslog">
+		logDirectory="log/accesslog">
 		<claimsLogger
 			poolId="generic"
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"

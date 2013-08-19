@@ -53,7 +53,7 @@
 	<logger classname="InterfaceTransactions.Diagnostics.MediskorLogger"
 		logFileRefreshInterval="Daily" 
 		processSleepTime="1000" 
-		logDirectory="log/Medikredit/accesslog-amed">
+		logDirectory="log/accesslog">
 		<claimsLogger 
 				poolId="generic" 
 				DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"

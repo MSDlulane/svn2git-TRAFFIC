@@ -222,7 +222,7 @@
 	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
 		logFileRefreshInterval="Daily" 
 		processSleepTime="1000" 
-		logDirectory="log/MediPost/accesslog">
+		logDirectory="log/accesslog">
 		<claimsLogger 
 				poolId="generic" 
 				DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
