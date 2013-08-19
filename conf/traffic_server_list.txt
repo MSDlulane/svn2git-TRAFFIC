@@ -8,6 +8,7 @@
 #		5. JVM start-heap
 #		6. JVM max-heap
 #		7. JMX/JVM-SNMP port
+#		8. Indicates whether tq-access is logged (log/accesslog)
 # Traffic servers listed for a specific 
 # host can only be installed and started on 
 # that specific host if they are labelled as 
@@ -32,19 +33,19 @@
 # This service is for processing non-pharmacy claims.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_gems_non_qpbm/
-cptlagw01.za.mhgad.com dhs_gems_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10001
+cptlagw01.za.mhgad.com dhs_gems_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10001 DISABLED
 #
 # DHS traffic server deployed for GEMS.
 # This service is for processing pharmacy claims.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_gems_primary/
-cptlagw01.za.mhgad.com dhs_gems_primary PRODUCTION_LEGACY ENABLED 512 768 10002
+cptlagw01.za.mhgad.com dhs_gems_primary PRODUCTION_LEGACY ENABLED 512 768 10002 DISABLED
 #
 # DHS traffic server deployed as a primary entry-point for DHS
 # This service is for processing non-pharmacy claims.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_main_non_qbpm/
-cptlagw01.za.mhgad.com dhs_main_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10003
+cptlagw01.za.mhgad.com dhs_main_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10003 DISABLED
 #
 # DHS traffic server deployed as a primary entry-point for DHS
 # This service is for processing pharmacy claims.
@@ -52,33 +53,33 @@ cptlagw01.za.mhgad.com dhs_main_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10003
 # (Pharmacy claims).
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_main_primary/
-cptlagw01.za.mhgad.com dhs_main_primary PRODUCTION_LEGACY ENABLED 256 512 10004
+cptlagw01.za.mhgad.com dhs_main_primary PRODUCTION_LEGACY ENABLED 256 512 10004 DISABLED
 #
 # DHS traffic server originally for nimas claim-account schemes but more recently it 
 # is used for low traffic volume schemes (eg. RANDWATER and PGG). 
 # This service is for processing non-pharmacy claims.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_nimas_non_qbpm/
-cptlagw01.za.mhgad.com dhs_nimas_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10005
+cptlagw01.za.mhgad.com dhs_nimas_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10005 DISABLED
 #
 # DHS traffic server originally for nimas claim-account schemes but more recently it 
 # is used for low traffic volume schemes (eg. RANDWATER and PGG). 
 # This service is for processing pharmacy claims.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_nimas_primary/
-cptlagw01.za.mhgad.com dhs_nimas_primary PRODUCTION_LEGACY ENABLED 128 256 10006
+cptlagw01.za.mhgad.com dhs_nimas_primary PRODUCTION_LEGACY ENABLED 128 256 10006 DISABLED
 #
 # DHS traffic server polmed claim-account scheme. 
 # This service is for processing non-pharmacy claims.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_polmed_non_qbpm/
-cptlagw01.za.mhgad.com dhs_polmed_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10007
+cptlagw01.za.mhgad.com dhs_polmed_non_qpbm PRODUCTION_LEGACY ENABLED 128 256 10007 DISABLED
 #
 # DHS traffic server polmed claim-account scheme. 
 # This service is for processing pharmacy claims.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw01.za.mhgad.com/dhs_polmed_primary/
-cptlagw01.za.mhgad.com dhs_polmed_primary PRODUCTION_LEGACY ENABLED 256 512 10008
+cptlagw01.za.mhgad.com dhs_polmed_primary PRODUCTION_LEGACY ENABLED 256 512 10008 DISABLED
 # CPTLAGW02
 #
 # CPTLAGW02 is a host/machine/server originally commisioned to host internal
@@ -91,64 +92,64 @@ cptlagw01.za.mhgad.com dhs_polmed_primary PRODUCTION_LEGACY ENABLED 256 512 1000
 # Traffic server for archiving? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Archiving/
-cptlagw02.za.mhgad.com Archiving PRODUCTION_LEGACY ENABLED 128 256 10001
+cptlagw02.za.mhgad.com Archiving PRODUCTION_LEGACY ENABLED 128 256 10001 DISABLED
 #
 # Traffic server for HealthBridge? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/HealthBridge/
-cptlagw02.za.mhgad.com HealthBridge PRODUCTION_LEGACY ENABLED 128 256 10002
+cptlagw02.za.mhgad.com HealthBridge PRODUCTION_LEGACY ENABLED 128 256 10002 DISABLED
 #
 # Traffic server for MedEdi? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/MedEdi/
-cptlagw02.za.mhgad.com MedEdi PRODUCTION_LEGACY ENABLED 128 256 10003
+cptlagw02.za.mhgad.com MedEdi PRODUCTION_LEGACY ENABLED 128 256 10003 DISABLED
 #
 # Traffic server for Medikredit? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Medikredit/
-cptlagw02.za.mhgad.com Medikredit PRODUCTION_LEGACY ENABLED 128 256 10004
+cptlagw02.za.mhgad.com Medikredit PRODUCTION_LEGACY ENABLED 128 256 10004 DISABLED
 #
 # Traffic server for Medipos? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Medipos/
-cptlagw02.za.mhgad.com Medipos PRODUCTION_LEGACY ENABLED 128 256 10005
+cptlagw02.za.mhgad.com Medipos PRODUCTION_LEGACY ENABLED 128 256 10005 DISABLED
 #
 # Traffic server for MediPost? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/MediPost/
-cptlagw02.za.mhgad.com MediPost PRODUCTION_LEGACY ENABLED 128 256 10006
+cptlagw02.za.mhgad.com MediPost PRODUCTION_LEGACY ENABLED 128 256 10006 DISABLED
 #
 # Traffic servicing Solutio? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Solutio/
-cptlagw02.za.mhgad.com Solutio PRODUCTION_LEGACY_SOLUTIO ENABLED 256 512 10007
+cptlagw02.za.mhgad.com Solutio PRODUCTION_LEGACY_SOLUTIO ENABLED 256 512 10007 DISABLED
 #
 # Traffic servicing the Solutio-sweeper? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Solutio_sweeper/
-cptlagw02.za.mhgad.com Solutio_sweeper PRODUCTION_LEGACY_SOLUTIO ENABLED -1 256 10008
+cptlagw02.za.mhgad.com Solutio_sweeper PRODUCTION_LEGACY_SOLUTIO ENABLED -1 256 10008 DISABLED
 #
 # Traffic server for internet and intranet service requests. TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/web/
-cptlagw02.za.mhgad.com web PRODUCTION_LEGACY ENABLED 128 256 10009
+cptlagw02.za.mhgad.com web PRODUCTION_LEGACY ENABLED 128 256 10009 DISABLED
 #
 # Traffic server for internet and intranet auth service requests. TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/web_auth/
-cptlagw02.za.mhgad.com web_auth PRODUCTION_LEGACY ENABLED -1 256 10010
+cptlagw02.za.mhgad.com web_auth PRODUCTION_LEGACY ENABLED -1 256 10010 DISABLED
 #
 # Primary traffic server User interface requests. Intended service consumers
 # QUI, UNITY, WEB user-interfaces etc. 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_primary/
-cptlagw02.za.mhgad.com Mhg_primary PRODUCTION_LATEST ENABLED 256 512 10011
+cptlagw02.za.mhgad.com Mhg_primary PRODUCTION_LATEST ENABLED 256 512 10011 ENABLED
 #
 # Secondary traffic server User interface requests. Intended service consumers
 # COBOL text-based user interfaces etc. 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_secondary/
-cptlagw02.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012
+cptlagw02.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012 ENABLED
 # CPTLAGW03
 #
 # CPTLAGW03 is a host/machine/server added for third-parties other than DHS as
@@ -157,27 +158,27 @@ cptlagw02.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012
 # Traffic servicing Datamax? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Datamax/
-cptlagw03.za.mhgad.com Datamax PRODUCTION_LEGACY ENABLED 128 256 10001
+cptlagw03.za.mhgad.com Datamax PRODUCTION_LEGACY ENABLED 128 256 10001 DISABLED
 # 
 # Traffic servicing EMD? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/EMD/
-cptlagw03.za.mhgad.com EMD PRODUCTION_LEGACY ENABLED 128 256 10002
+cptlagw03.za.mhgad.com EMD PRODUCTION_LEGACY ENABLED 128 256 10002 DISABLED
 # 
 # Traffic servicing IKat? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/IKat/
-cptlagw03.za.mhgad.com IKat PRODUCTION_LEGACY ENABLED 128 256 10003
+cptlagw03.za.mhgad.com IKat PRODUCTION_LEGACY ENABLED 128 256 10003 DISABLED
 # 
 # Traffic servicing KaraboIT? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/KaraboIT/
-cptlagw03.za.mhgad.com KaraboIT PRODUCTION_LEGACY ENABLED 128 256 10004
+cptlagw03.za.mhgad.com KaraboIT PRODUCTION_LEGACY ENABLED 128 256 10004 DISABLED
 # 
 # Traffic servicing Medicharge? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Medicharge/
-cptlagw03.za.mhgad.com Medicharge PRODUCTION_LEGACY ENABLED 128 256 10005
+cptlagw03.za.mhgad.com Medicharge PRODUCTION_LEGACY ENABLED 128 256 10005 DISABLED
 # 
 # Traffic servicing GEMS SPN. Requests to this traffic server are generated by
 # Filemonitor from batch files submitted via SFTP for PrimeCure, Universal
@@ -186,40 +187,40 @@ cptlagw03.za.mhgad.com Medicharge PRODUCTION_LEGACY ENABLED 128 256 10005
 # hiv-registrations and hiv-authorizations.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/SPN/
-cptlagw03.za.mhgad.com SPN PRODUCTION_LEGACY ENABLED 512 768 10006
+cptlagw03.za.mhgad.com SPN PRODUCTION_LEGACY ENABLED 512 768 10006 DISABLED
 # 
 # Traffic servicing PPN? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Solutio/
-cptlagw03.za.mhgad.com PPN PRODUCTION_LATEST ENABLED 128 256 10008
+cptlagw03.za.mhgad.com PPN PRODUCTION_LATEST ENABLED 128 256 10008 DISABLED
 #
 # Traffic server for internet and intranet service requests. TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/web/
-cptlagw03.za.mhgad.com web PRODUCTION_LEGACY ENABLED 128 256 10009
+cptlagw03.za.mhgad.com web PRODUCTION_LEGACY ENABLED 128 256 10009 DISABLED
 #
 # Traffic server for internet and intranet auth service requests. TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/web_auth/
-cptlagw03.za.mhgad.com web_auth PRODUCTION_LEGACY ENABLED -1 256 10010
+cptlagw03.za.mhgad.com web_auth PRODUCTION_LEGACY ENABLED -1 256 10010 DISABLED
 #
 # Primary traffic server User interface requests. Only service consumers
 # WEB user-interfaces etc. 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_primary/
-cptlagw03.za.mhgad.com Mhg_primary PRODUCTION_LATEST ENABLED 256 512 10011
+cptlagw03.za.mhgad.com Mhg_primary PRODUCTION_LATEST ENABLED 256 512 10011 ENABLED
 #
 # Secondary traffic server User interface requests. Only service consumers
 # WEB user-interfaces etc. 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_secondary/
-cptlagw03.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012
+cptlagw03.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012 ENABLED
 #
 # Sanlam traffic server for routing benefit queries to Sanlam Health for the
 # Randwater account.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Sanlam/
-cptlagw03.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013
+cptlagw03.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013 DISABLED
 # DISASTER RECOVERY
 dralsin01.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013
 # REGIONAL
@@ -230,61 +231,61 @@ dralsin01.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013
 # scheme-specific (Services which require access to scheme databases) 
 # requests are serviced by SEE and JBoss instances in the Town
 # Square data centre.
-ptalagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010
-jhblagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010
-dbnlagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010
-cpalagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010
-cpmlagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010
+ptalagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
+jhblagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
+dbnlagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
+cpalagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
+cpmlagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
 # ACCEPTANCE
-cptlagw90.za.mhgad.com PPN ACCEPTANCE_LATEST ENABLED -1 -1 65001
-cptlagw90.za.mhgad.com Mhg ACCEPTANCE_LATEST ENABLED -1 -1 65002
-cptlagw90.za.mhgad.com Check ACCEPTANCE_LEGACY DISABLED -1 -1 65003
-cptlagw90.za.mhgad.com Datamax ACCEPTANCE_LEGACY ENABLED -1 -1 65004
-cptlagw90.za.mhgad.com DHS ACCEPTANCE_LEGACY ENABLED -1 -1 65005
-cptlagw90.za.mhgad.com EMD ACCEPTANCE_LEGACY ENABLED -1 -1 65006
-cptlagw90.za.mhgad.com HealthBridge ACCEPTANCE_LEGACY ENABLED -1 -1 65007
-cptlagw90.za.mhgad.com KaraboIT ACCEPTANCE_LEGACY ENABLED -1 -1 65008
-cptlagw90.za.mhgad.com MedEdi ACCEPTANCE_LEGACY ENABLED -1 -1 65009
-cptlagw90.za.mhgad.com Medicharge ACCEPTANCE_LEGACY ENABLED -1 -1 65010
-cptlagw90.za.mhgad.com Medikredit ACCEPTANCE_LEGACY ENABLED -1 -1 65011
-cptlagw90.za.mhgad.com Medipos ACCEPTANCE_LEGACY ENABLED -1 -1 65012
-cptlagw90.za.mhgad.com MediPost ACCEPTANCE_LEGACY ENABLED -1 -1 65013
-cptlagw90.za.mhgad.com Solutio ACCEPTANCE_LEGACY_SOLUTIO ENABLED -1 -1 65014
-cptlagw90.za.mhgad.com Solutio_sweeper ACCEPTANCE_LEGACY_SOLUTIO ENABLED -1 -1 65015
-cptlagw90.za.mhgad.com SPN ACCEPTANCE_LEGACY ENABLED -1 -1 65016
-cptlagw90.za.mhgad.com WWW ACCEPTANCE_LEGACY ENABLED -1 -1 65017
-cptlagw90.za.mhgad.com IKat ACCEPTANCE_LEGACY ENABLED -1 -1 65018
-cptlagw90.za.mhgad.com Standin PRODUCTION_LEGACY ENABLED -1 -1 65019
-cptlagw90.za.mhgad.com Sanlam ACCEPTANCE_LATEST ENABLED -1 256 65020
-cptlagw90.za.mhgad.com TQ_TEST ACCEPTANCE_LATEST ENABLED -1 -1 65021
+cptlagw90.za.mhgad.com PPN ACCEPTANCE_LATEST ENABLED -1 -1 65001 DISABLED
+cptlagw90.za.mhgad.com Mhg ACCEPTANCE_LATEST ENABLED -1 -1 65002 ENABLED
+cptlagw90.za.mhgad.com Check ACCEPTANCE_LEGACY DISABLED -1 -1 65003 DISABLED
+cptlagw90.za.mhgad.com Datamax ACCEPTANCE_LEGACY ENABLED -1 -1 65004 DISABLED
+cptlagw90.za.mhgad.com DHS ACCEPTANCE_LEGACY ENABLED -1 -1 65005 DISABLED
+cptlagw90.za.mhgad.com EMD ACCEPTANCE_LEGACY ENABLED -1 -1 65006 DISABLED
+cptlagw90.za.mhgad.com HealthBridge ACCEPTANCE_LEGACY ENABLED -1 -1 65007 DISABLED
+cptlagw90.za.mhgad.com KaraboIT ACCEPTANCE_LEGACY ENABLED -1 -1 65008 DISABLED
+cptlagw90.za.mhgad.com MedEdi ACCEPTANCE_LEGACY ENABLED -1 -1 65009 DISABLED
+cptlagw90.za.mhgad.com Medicharge ACCEPTANCE_LEGACY ENABLED -1 -1 65010 DISABLED
+cptlagw90.za.mhgad.com Medikredit ACCEPTANCE_LEGACY ENABLED -1 -1 65011 DISABLED
+cptlagw90.za.mhgad.com Medipos ACCEPTANCE_LEGACY ENABLED -1 -1 65012 DISABLED
+cptlagw90.za.mhgad.com MediPost ACCEPTANCE_LEGACY ENABLED -1 -1 65013 DISABLED
+cptlagw90.za.mhgad.com Solutio ACCEPTANCE_LEGACY_SOLUTIO ENABLED -1 -1 65014 DISABLED
+cptlagw90.za.mhgad.com Solutio_sweeper ACCEPTANCE_LEGACY_SOLUTIO ENABLED -1 -1 65015 DISABLED
+cptlagw90.za.mhgad.com SPN ACCEPTANCE_LEGACY ENABLED -1 -1 65016 DISABLED
+cptlagw90.za.mhgad.com WWW ACCEPTANCE_LEGACY ENABLED -1 -1 65017 DISABLED
+cptlagw90.za.mhgad.com IKat ACCEPTANCE_LEGACY ENABLED -1 -1 65018 DISABLED
+cptlagw90.za.mhgad.com Standin PRODUCTION_LEGACY ENABLED -1 -1 65019 DISABLED
+cptlagw90.za.mhgad.com Sanlam ACCEPTANCE_LATEST ENABLED -1 256 65020 DISABLED
+cptlagw90.za.mhgad.com TQ_TEST ACCEPTANCE_LATEST ENABLED -1 -1 65021 DISABLED
 # DEVELOPMENT
-cptlagw80.za.mhgad.com DHS DEVELOPMENT_LEGACY ENABLED -1 -1 64001
-cptlagw80.za.mhgad.com IKat DEVELOPMENT_LEGACY ENABLED -1 -1 64002
-cptlagw80.za.mhgad.com Medicharge DEVELOPMENT_LEGACY ENABLED -1 -1 64003
-cptlagw80.za.mhgad.com Mhg DEVELOPMENT_LATEST ENABLED -1 -1 64004
-cptlagw80.za.mhgad.com MHRS DEVELOPMENT_LEGACY ENABLED -1 -1 64005
-cptlagw80.za.mhgad.com Solutio DEVELOPMENT_LEGACY_SOLUTIO ENABLED -1 -1 64006
-cptlagw80.za.mhgad.com Solutio_sweeper DEVELOPMENT_LEGACY_SOLUTIO ENABLED -1 -1 64007
-cptlagw80.za.mhgad.com Sanlam DEVELOPMENT_LATEST ENABLED -1 256 65008
+cptlagw80.za.mhgad.com DHS DEVELOPMENT_LEGACY ENABLED -1 -1 64001 DISABLED
+cptlagw80.za.mhgad.com IKat DEVELOPMENT_LEGACY ENABLED -1 -1 64002 DISABLED
+cptlagw80.za.mhgad.com Medicharge DEVELOPMENT_LEGACY ENABLED -1 -1 64003 DISABLED
+cptlagw80.za.mhgad.com Mhg DEVELOPMENT_LATEST ENABLED -1 -1 64004 ENABLED
+cptlagw80.za.mhgad.com MHRS DEVELOPMENT_LEGACY ENABLED -1 -1 64005 DISABLED
+cptlagw80.za.mhgad.com Solutio DEVELOPMENT_LEGACY_SOLUTIO ENABLED -1 -1 64006 DISABLED
+cptlagw80.za.mhgad.com Solutio_sweeper DEVELOPMENT_LEGACY_SOLUTIO ENABLED -1 -1 64007 DISABLED
+cptlagw80.za.mhgad.com Sanlam DEVELOPMENT_LATEST ENABLED -1 256 65008 DISABLED
 # PREPROD
-cptlagw70.za.mhgad.com PPN PREPROD_LATEST ENABLED -1 -1 65001
-cptlagw70.za.mhgad.com Mhg PREPROD_LATEST ENABLED -1 -1 65002
-cptlagw70.za.mhgad.com Check PREPROD_LEGACY DISABLED -1 -1 65003
-cptlagw70.za.mhgad.com Datamax PREPROD_LEGACY ENABLED -1 -1 65004
-cptlagw70.za.mhgad.com DHS PREPROD_LEGACY ENABLED -1 -1 65005
-cptlagw70.za.mhgad.com EMD PREPROD_LEGACY ENABLED -1 -1 65006
-cptlagw70.za.mhgad.com HealthBridge PREPROD_LEGACY ENABLED -1 -1 65007
-cptlagw70.za.mhgad.com KaraboIT PREPROD_LEGACY ENABLED -1 -1 65008
-cptlagw70.za.mhgad.com MedEdi PREPROD_LEGACY ENABLED -1 -1 65009
-cptlagw70.za.mhgad.com Medicharge PREPROD_LEGACY ENABLED -1 -1 65010
-cptlagw70.za.mhgad.com Medikredit PREPROD_LEGACY ENABLED -1 -1 65011
-cptlagw70.za.mhgad.com Medipos PREPROD_LEGACY ENABLED -1 -1 65012
-cptlagw70.za.mhgad.com MediPost PREPROD_LEGACY ENABLED -1 -1 65013
-cptlagw70.za.mhgad.com Solutio DEVELOPMENT_LEGACY_SOLUTIO ENABLED -1 -1 65014
-cptlagw70.za.mhgad.com Solutio_sweeper DEVELOPMENT_LEGACY_SOLUTIO ENABLED -1 -1 65015
-cptlagw70.za.mhgad.com SPN PREPROD_LEGACY ENABLED -1 -1 65016
-cptlagw70.za.mhgad.com WWW PREPROD_LEGACY ENABLED -1 -1 65017
-cptlagw70.za.mhgad.com IKat PREPROD_LEGACY ENABLED -1 -1 65018
-cptlagw70.za.mhgad.com Standin PREPROD_LEGACY ENABLED -1 -1 65019
-cptlagw70.za.mhgad.com Sanlam PREPROD_LATEST DISABLED -1 256 65020
+cptlagw70.za.mhgad.com PPN PREPROD_LATEST ENABLED -1 -1 65001 DISABLED
+cptlagw70.za.mhgad.com Mhg PREPROD_LATEST ENABLED -1 -1 65002 ENABLED
+cptlagw70.za.mhgad.com Check PREPROD_LEGACY DISABLED -1 -1 65003 DISABLED
+cptlagw70.za.mhgad.com Datamax PREPROD_LEGACY ENABLED -1 -1 65004 DISABLED
+cptlagw70.za.mhgad.com DHS PREPROD_LEGACY ENABLED -1 -1 65005 DISABLED
+cptlagw70.za.mhgad.com EMD PREPROD_LEGACY ENABLED -1 -1 65006 DISABLED
+cptlagw70.za.mhgad.com HealthBridge PREPROD_LEGACY ENABLED -1 -1 65007 DISABLED
+cptlagw70.za.mhgad.com KaraboIT PREPROD_LEGACY ENABLED -1 -1 65008 DISABLED
+cptlagw70.za.mhgad.com MedEdi PREPROD_LEGACY ENABLED -1 -1 65009 DISABLED
+cptlagw70.za.mhgad.com Medicharge PREPROD_LEGACY ENABLED -1 -1 65010 DISABLED
+cptlagw70.za.mhgad.com Medikredit PREPROD_LEGACY ENABLED -1 -1 65011 DISABLED
+cptlagw70.za.mhgad.com Medipos PREPROD_LEGACY ENABLED -1 -1 65012 DISABLED
+cptlagw70.za.mhgad.com MediPost PREPROD_LEGACY ENABLED -1 -1 65013 DISABLED
+cptlagw70.za.mhgad.com Solutio DEVELOPMENT_LEGACY_SOLUTIO ENABLED -1 -1 65014 DISABLED
+cptlagw70.za.mhgad.com Solutio_sweeper DEVELOPMENT_LEGACY_SOLUTIO ENABLED -1 -1 65015 DISABLED
+cptlagw70.za.mhgad.com SPN PREPROD_LEGACY ENABLED -1 -1 65016 DISABLED
+cptlagw70.za.mhgad.com WWW PREPROD_LEGACY ENABLED -1 -1 65017 DISABLED
+cptlagw70.za.mhgad.com IKat PREPROD_LEGACY ENABLED -1 -1 65018 DISABLED
+cptlagw70.za.mhgad.com Standin PREPROD_LEGACY ENABLED -1 -1 65019 DISABLED
+cptlagw70.za.mhgad.com Sanlam PREPROD_LATEST DISABLED -1 256 65020 DISABLED
 
