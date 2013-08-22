@@ -697,6 +697,45 @@
 		/>
 	</env>
 	<env
+		mhgAccount="RANDW"
+		name="RANDWATER"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="apl-randw.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="120000"
+			port="9217"
+			useSoTimeOut="true"
+		/>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap01.za.mhgad.com"
+			id="JEE"
+			poolMaxWaitTime="10000"
+			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlsee01.za.mhgad.com"
+			id="POJAS"
+			poolMaxWaitTime="120000"
+			port="23000"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+	</env>
+	<env
 		mhgAccount="SAMWU"
 		name="SAMWUMED"
 	>
@@ -809,13 +848,13 @@
 		20602
 	</snmp-port>
 	<tailWatchServer
-		id="MHG-JHB"
+		id="MHG-CPA"
 		multicast-host-ip=""
 		multicast-port="-1"
 		tcpipPort="20603"
 	/>
 	<diagTailWatchServer
-		id="MHG-JHB"
+		id="MHG-CPA"
 		multicast-host-ip=""
 		multicast-port="-1"
 		tcpipPort="20604"
@@ -857,404 +896,433 @@
 			tradingPartner="127"
 		/>
 	</transaction-x-ref>
-	<destination-x-ref	>
-		
-		<x-ref
-			description="JBoss"
-			functionMask="FFFF"
-			mhg="JBoss"
-			tradingPartner="X"
-		/>
-		<x-ref
-			description="JBOSS"
-			functionMask="FFFF"
-			mhg="JBossW"
-			tradingPartner="W"
-		/>
-		<x-ref
-			description="Bankmed"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P00"
-		/>
-		<x-ref
-			description="Openplan"
-			functionMask="FFFF"
-			mhg="NEWMED"
-			tradingPartner="P01"
-		/>
-		<x-ref
-			description="Transmed"
-			functionMask="FFFF"
-			mhg="TRANSMED"
-			tradingPartner="P02"
-		/>
-		<x-ref
-			description="Woolthru"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P03"
-		/>
-		<x-ref
-			description="Sappi"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P04"
-		/>
-		<x-ref
-			description="Engen"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P05"
-		/>
-		<x-ref
-			description="Relyant"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P06"
-		/>
-		<x-ref
-			description="Alpha"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P07"
-		/>
-		<x-ref
-			description="Pick 'n Pay"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P08"
-		/>
-		<x-ref
-			description="Afrox"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P09"
-		/>
-		<x-ref
-			description="Remedi"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P10"
-		/>
-		<x-ref
-			description="Metstaff"
-			functionMask="FFFF"
-			mhg="NEWMED"
-			tradingPartner="P11"
-		/>
-		<x-ref
-			description="BPSA"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P12"
-		/>
-		<x-ref
-			description="Foschini"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P13"
-		/>
-		<x-ref
-			description="Lamaf"
-			functionMask="FFFF"
-			mhg="LAMAF"
-			tradingPartner="P14"
-		/>
-		<x-ref
-			description="Samwu"
-			functionMask="FFFF"
-			mhg="SAMWUMED"
-			tradingPartner="P15"
-		/>
-		<x-ref
-			description="POLMED Prod"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P18"
-		/>
-		<x-ref
-			description="Samwu option B"
-			functionMask="FFFF"
-			mhg="SAMWUB"
-			tradingPartner="P17"
-		/>
-		<x-ref
-			description="GEMS Prod"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="P19"
-		/>
-		<x-ref
-			description="PILIR Prod"
-			functionMask="FFFF"
-			mhg="PILIR"
-			tradingPartner="P20"
-		/>
-		<x-ref
-			description="NIMAS Prod"
-			functionMask="FFFF"
-			mhg="NIMAS"
-			tradingPartner="P21"
-		/>
-		<x-ref
-			description="REDRIB Prod"
-			functionMask="FFFF"
-			mhg="REDRIB"
-			tradingPartner="P23"
-		/>
-		<x-ref
-			description="IMPERIAL Prod"
-			functionMask="FFFF"
-			mhg="IMPERIAL"
-			tradingPartner="P24"
-		/>
-		<x-ref
-			description="MEDIPOS Prod"
-			functionMask="FFFF"
-			mhg="MEDIPOS"
-			tradingPartner="P25"
-		/>
-		<x-ref
-			description="PGG NIMAS"
-			functionMask="FFFF"
-			mhg="NIMAS"
-			tradingPartner="P26"
-		/>
-		<x-ref
-			description="Netcare NIMAS"
-			functionMask="FFFF"
-			mhg="NIMAS"
-			tradingPartner="P27"
-		/>
-		<x-ref
-			description="RANDWATER"
-			functionMask="FFFF"
-			mhg="RANDWATER"
-			tradingPartner="P28"
-		/>
-		<x-ref
-			description="Workflow Database"
-			functionMask="FFFF"
-			mhg="WORKFLOW"
-			tradingPartner="P88"
-		/>
-		<x-ref
-			description="Game Local Query"
-			functionMask="FFFF"
-			mhg="GAME_LOCAL"
-			tradingPartner="P89"
-		/>
-		<x-ref
-			description="Share Database"
-			functionMask="FFFF"
-			mhg="SHARE"
-			tradingPartner="P86"
-		/>
-		<x-ref
-			description="Common Database"
-			functionMask="FFFF"
-			mhg="COMMON"
-			tradingPartner="P87"
-		/>
-		<x-ref
-			description="LDAP Query"
-			functionMask="FFFF"
-			mhg="LDAP"
-			tradingPartner="P90"
-		/>
-		<x-ref
-			description="System Query"
-			functionMask="FFFF"
-			mhg="SYSTEM"
-			tradingPartner="P91"
-		/>
-		<x-ref
-			description="Price Query"
-			functionMask="FFFF"
-			mhg="PRICE"
-			tradingPartner="P92"
-		/>
-		<x-ref
-			description="Spine Query"
-			functionMask="FFFF"
-			mhg="SPINE"
-			tradingPartner="P93"
-		/>
-		<x-ref
-			description="SPINELOG"
-			functionMask="FFFF"
-			mhg="SPINELOG"
-			tradingPartner="P97"
-		/>
-		<x-ref
-			description="Utilities"
-			functionMask="FFFF"
-			mhg="UTILITY"
-			tradingPartner="P98"
-		/>
-		<x-ref
-			description="Image Database"
-			functionMask="FFFF"
-			mhg="IMAGE"
-			tradingPartner="P95"
-		/>
-		<x-ref
-			description="Share Connection"
-			functionMask="FFFF"
-			mhg="SHARE"
-			tradingPartner="P99"
-		/>
-		<x-ref
-			description="Mediclinic Bankmed"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="A"
-		/>
-		<x-ref
-			description="Mediclinic Remedi"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="S"
-		/>
-		<x-ref
-			description="Mediclinic Newmed"
-			functionMask="FFFF"
-			mhg="NEWMED"
-			tradingPartner="V"
-		/>
-		<x-ref
-			description="Mediclinic Afrox"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="K"
-		/>
-		<x-ref
-			description="Mediclinic Engen"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="G"
-		/>
-		<x-ref
-			description="Mediclinic Fishmed"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="O"
-		/>
-		<x-ref
-			description="Mediclinic Golden Arrow"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="N"
-		/>
-		<x-ref
-			description="Mediclinic Wooltru"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="E"
-		/>
-		<x-ref
-			description="Mediclinic Holcim"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="J"
-		/>
-		<x-ref
-			description="Mediclinic Sappi"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="L"
-		/>
-		<x-ref
-			description="Mediclinic Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="5"
-		/>
-		<x-ref
-			description="Mediclinic BP"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="P"
-		/>
-		<x-ref
-			description="Mediclinic SAMWUMED"
-			functionMask="FFFF"
-			mhg="SAMWUMED"
-			tradingPartner="Q"
-		/>
-		<x-ref
-			description="Mediclinic NIMAS"
-			functionMask="FFFF"
-			mhg="NIMAS"
-			tradingPartner="2"
-		/>
-		<x-ref
-			description="Mediclinic OpenPlan"
-			functionMask="FFFF"
-			mhg="NEWMED"
-			tradingPartner="3"
-		/>
-		<x-ref
-			description="Mediclinic PicknPay"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="I"
-		/>
-		<x-ref
-			description="Mediclinic Foschini"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="F"
-		/>
-		<x-ref
-			description="Mediclinic Metropolitan"
-			functionMask="FFFF"
-			mhg="NEWMED"
-			tradingPartner="1"
-		/>
-		<x-ref
-			description="GEMS"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="T"
-		/>
-		<x-ref
-			description="Pilir"
-			functionMask="FFFF"
-			mhg="PILIR"
-			tradingPartner="D"
-		/>
-		<x-ref
-			description="Prosano"
-			functionMask="FFFF"
-			mhg="SIGMA"
-			tradingPartner="8"
-		/>
-		<x-ref
-			description="Red Ribbon"
-			functionMask="FFFF"
-			mhg="REDRIB"
-			tradingPartner="R"
-		/>
-		<x-ref
-			description="IMPERIAL"
-			functionMask="FFFF"
-			mhg="IMPERIAL"
-			tradingPartner="U"
-		/>
-		<x-ref
-			description="MEDIPOS"
-			functionMask="FFFF"
-			mhg="MEDIPOS"
-			tradingPartner="7"
-		/>
-		<x-ref
-			description="LDAP Query"
-			functionMask="FFFF"
-			mhg="LDAP"
-			tradingPartner="T90"
-		/>
+	<destination-x-ref>
+			<x-ref
+				description="Bankmed"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="A"
+			/>
+			<x-ref
+				description="Mediclinic Wooltru"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="E"
+			/>
+			<x-ref
+				description="Mediclinic Foschini"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="F"
+			/>
+			<x-ref
+				description="Mediclinic Engen"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="G"
+			/>
+			<x-ref
+				description="Mediclinic PicknPay"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="I"
+			/>
+			<x-ref
+				description="Mediclinic Holcim"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="J"
+			/>
+			<x-ref
+				description="Mediclinic Afrox"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="K"
+			/>
+			<x-ref
+				description="Mediclinic Sappi"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="L"
+			/>
+			<x-ref
+				description="Mediclinic Golden Arrow"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="N"
+			/>
+			<x-ref
+				description="Mediclinic Fishmed"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="O"
+			/>
+			<x-ref
+				description="Mediclinic BP"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P"
+			/>
+			<x-ref
+				description="Bankmed"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P00"
+			/>
+			<x-ref
+				description="Woolthru"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P03"
+			/>
+			<x-ref
+				description="Sappi"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P04"
+			/>
+			<x-ref
+				description="Engen"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P05"
+			/>
+			<x-ref
+				description="Relyant"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P06"
+			/>
+			<x-ref
+				description="Alpha"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P07"
+			/>
+			<x-ref
+				description="Pick 'n Pay"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P08"
+			/>
+			<x-ref
+				description="Afrox"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P09"
+			/>
+			<x-ref
+				description="Remedi"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P10"
+			/>
+			<x-ref
+				description="BPSA"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P12"
+			/>
+			<x-ref
+				description="Foshini"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="P13"
+			/>
+			<x-ref
+				description="Remedi"
+				functionMask="FFFF"
+				mhg="AMED"
+				tradingPartner="S"
+			/>
+			<x-ref
+				description="Common Database"
+				functionMask="FFFF"
+				mhg="COMMON"
+				tradingPartner="P87"
+			/>
+			<x-ref
+				description="Game Local Query"
+				functionMask="FFFF"
+				mhg="GAME_LOCAL"
+				tradingPartner="P89"
+			/>
+			<x-ref
+				description="GEMS Prod"
+				functionMask="FFFF"
+				mhg="GEMS"
+				tradingPartner="P19"
+			/>
+			<x-ref
+				description="GEMS"
+				functionMask="FFFF"
+				mhg="GEMS"
+				tradingPartner="T"
+			/>
+			<x-ref
+				description="Genesis"
+				functionMask="FFFF"
+				mhg="GENESIS"
+				tradingPartner="P22"
+			/>
+			<x-ref
+				description="Image"
+				functionMask="FFFF"
+				mhg="IMAGE"
+				tradingPartner="P95"
+			/>
+			<x-ref
+				description="Imperial"
+				functionMask="FFFF"
+				mhg="IMPERIAL"
+				tradingPartner="P24"
+			/>
+			<x-ref
+				description="Imperial"
+				functionMask="FFFF"
+				mhg="IMPERIAL"
+				tradingPartner="U"
+			/>
+			<x-ref
+				description="JBoss"
+				functionMask="FFFF"
+				mhg="JBoss"
+				tradingPartner="X"
+			/>
+			<x-ref
+				description="JBOSS"
+				functionMask="FFFF"
+				mhg="JBossW"
+				tradingPartner="W"
+			/>
+			<x-ref
+				description="Lamaf"
+				functionMask="FFFF"
+				mhg="LAMAF"
+				tradingPartner="P14"
+			/>
+			<x-ref
+				description="LDAP Query"
+				functionMask="FFFF"
+				mhg="LDAP"
+				tradingPartner="P90"
+			/>
+			<x-ref
+				description="LDAP Query"
+				functionMask="FFFF"
+				mhg="LDAP"
+				tradingPartner="T90"
+			/>
+			<x-ref
+				description="Medipos"
+				functionMask="FFFF"
+				mhg="MEDIPOS"
+				tradingPartner="7"
+			/>
+			<x-ref
+				description="Medipos"
+				functionMask="FFFF"
+				mhg="MEDIPOS"
+				tradingPartner="P25"
+			/>
+			<x-ref
+				description="Mediclinic Metropolitan"
+				functionMask="FFFF"
+				mhg="NEWMED"
+				tradingPartner="1"
+			/>
+			<x-ref
+				description="Mediclinic OpenPlan"
+				functionMask="FFFF"
+				mhg="NEWMED"
+				tradingPartner="3"
+			/>
+			<x-ref
+				description="Openplan"
+				functionMask="FFFF"
+				mhg="NEWMED"
+				tradingPartner="P01"
+			/>
+			<x-ref
+				description="Metstaff"
+				functionMask="FFFF"
+				mhg="NEWMED"
+				tradingPartner="P11"
+			/>
+			<x-ref
+				description="Mediclinic Transmed"
+				functionMask="FFFF"
+				mhg="NEWMED"
+				tradingPartner="V"
+			/>
+			<x-ref
+				description="Mediclinic NIMAS"
+				functionMask="FFFF"
+				mhg="NIMAS"
+				tradingPartner="2"
+			/>
+			<x-ref
+				description="PGG NIMAS"
+				functionMask="FFFF"
+				mhg="NIMAS"
+				tradingPartner="9"
+			/>
+			<x-ref
+				description="Netcare NIMAS"
+				functionMask="FFFF"
+				mhg="NIMAS"
+				tradingPartner="M"
+			/>
+			<x-ref
+				description="Nimas"
+				functionMask="FFFF"
+				mhg="NIMAS"
+				tradingPartner="P21"
+			/>
+			<x-ref
+				description="PGG NIMAS"
+				functionMask="FFFF"
+				mhg="NIMAS"
+				tradingPartner="P26"
+			/>
+			<x-ref
+				description="Netcare NIMAS"
+				functionMask="FFFF"
+				mhg="NIMAS"
+				tradingPartner="P27"
+			/>
+			<x-ref
+				description="Mediclinic Pilir"
+				functionMask="FFFF"
+				mhg="PILIR"
+				tradingPartner="D"
+			/>
+			<x-ref
+				description="Pilir"
+				functionMask="FFFF"
+				mhg="PILIR"
+				tradingPartner="P20"
+			/>
+			<x-ref
+				description="Mediclinic Polmed"
+				functionMask="FFFF"
+				mhg="POLMED"
+				tradingPartner="5"
+			/>
+			<x-ref
+				description="POLMED Prod"
+				functionMask="FFFF"
+				mhg="POLMED"
+				tradingPartner="P18"
+			/>
+			<x-ref
+				description="LDAP Query"
+				functionMask="FFFF"
+				mhg="PRICE"
+				tradingPartner="P92"
+			/>
+			<x-ref
+				description="Randwater Medical Scheme"
+				functionMask="FFFF"
+				mhg="RANDWATER"
+				tradingPartner="P28"
+			/>
+			<x-ref
+				description="Randwater Medical Scheme"
+				functionMask="FFFF"
+				mhg="RANDWATER"
+				tradingPartner="RANDWATER"
+			/>
+			<x-ref
+				description="Randwater Medical Scheme"
+				functionMask="FFFF"
+				mhg="RANDWATER"
+				tradingPartner="Y"
+			/>
+			<x-ref
+				description="REDRIB Dev"
+				functionMask="FFFF"
+				mhg="REDRIB"
+				tradingPartner="P23"
+			/>
+			<x-ref
+				description="Mediclinic Red Ribbon"
+				functionMask="FFFF"
+				mhg="REDRIB"
+				tradingPartner="R"
+			/>
+			<x-ref
+				description="Samwu"
+				functionMask="FFFF"
+				mhg="SAMWUMED"
+				tradingPartner="P15"
+			/>
+			<x-ref
+				description="Mediclinic SAMWU"
+				functionMask="FFFF"
+				mhg="SAMWUMED"
+				tradingPartner="Q"
+			/>
+			<x-ref
+				description="Samwu option B"
+				functionMask="FFFF"
+				mhg="SAMWUB"
+				tradingPartner="P17"
+			/>
+			<x-ref
+				description="Share Database"
+				functionMask="FFFF"
+				mhg="SHARE"
+				tradingPartner="P86"
+			/>
+			<x-ref
+				description="Config for SHARE db"
+				functionMask="FFFF"
+				mhg="SHARE"
+				tradingPartner="P99"
+			/>
+			<x-ref
+				description="Prosano"
+				functionMask="FFFF"
+				mhg="SIGMA"
+				tradingPartner="P16"
+			/>
+			<x-ref
+				description="Spine Query"
+				functionMask="FFFF"
+				mhg="SPINE"
+				tradingPartner="P93"
+			/>
+			<x-ref
+				description="SPINELOG"
+				functionMask="FFFF"
+				mhg="SPINELOG"
+				tradingPartner="P97"
+			/>
+			<x-ref
+				description="LDAP Query"
+				functionMask="FFFF"
+				mhg="SYSTEM"
+				tradingPartner="P91"
+			/>
+			<x-ref
+				description="Transmed"
+				functionMask="FFFF"
+				mhg="TRANSMED"
+				tradingPartner="P02"
+			/>
+			<x-ref
+				description="Utilities"
+				functionMask="FFFF"
+				mhg="UTILITY"
+				tradingPartner="P98"
+			/>
+			<x-ref
+				description="Workflow"
+				functionMask="FFFF"
+				mhg="WORKFLOW"
+				tradingPartner="P88"
+			/>
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
@@ -1265,4 +1333,3 @@
 		
 	</logger>
 </Enviroments>
-
