@@ -24,11 +24,11 @@
 	<snmp-port mibFile="mibs.xml">20812</snmp-port>
 	<pool-definitions-file name="pool.xml"
 		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
-		<pool id="EJB"
+		<pool_ id="EJB"
                         class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
                         hostName="cptleap01.za.mhgad.com" port="1099" account="AMED"
                         serviceTqName="ListServicesNames" />
-		<pool id="POJAS"
+		<pool_ id="POJAS"
 			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 			hostName="cptlsee01.za.mhgad.com" port="23000" />
 	</pool-definitions-file>
