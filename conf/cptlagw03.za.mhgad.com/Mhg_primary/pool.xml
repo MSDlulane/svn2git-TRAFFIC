@@ -3387,11 +3387,6 @@
 			desc=""
 		/>
 		<tq-function
-			name="MEMBERONLINE_Count_Claims_FORDOCTOR"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
 			name="MEMBERONLINE_DELETECONTLANG"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
@@ -5257,6 +5252,11 @@
 		/>
 		<tq-function
 			name="zzMEMBERONLINE_GETSCHEMESBYMEMBERNUMBER"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="MEMBERONLINE_Count_Claims_FORDOCTOR"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
