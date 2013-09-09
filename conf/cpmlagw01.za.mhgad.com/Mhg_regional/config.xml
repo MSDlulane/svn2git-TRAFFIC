@@ -746,7 +746,7 @@
 			hostname="apl-samwu.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9206"
+			port="9205"
 			useSoTimeOut="true"
 		/>
 		<pool
