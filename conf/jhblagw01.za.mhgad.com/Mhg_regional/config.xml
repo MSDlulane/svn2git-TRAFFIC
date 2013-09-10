@@ -332,6 +332,45 @@
 		/>
 	</env>
 	<env
+		mhgAccount="PROTEKTA"
+		name="PROTEKTA"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="apl-protekta.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="120000"
+			port="9216"
+			useSoTimeOut="true"
+		/>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap01.za.mhgad.com "
+			id="JEE"
+			poolMaxWaitTime="10000"
+			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlsee01.za.mhgad.com"
+			id="POJAS"
+			poolMaxWaitTime="120000"
+			port="23000"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+	</env>
+	<env
 		mhgAccount="NIMAS"
 		name="NIMAS"
 	>
@@ -1322,6 +1361,24 @@
 				functionMask="FFFF"
 				mhg="WORKFLOW"
 				tradingPartner="P88"
+			/>
+			<x-ref
+				description="PROTEKTA"
+				functionMask="FFFF"
+				mhg="PROTEKTA"
+				tradingPartner="J"
+			/>
+			<x-ref
+				description="PROTEKTA"
+				functionMask="FFFF"
+				mhg="PROTEKTA"
+				tradingPartner="P29"
+			/>
+			<x-ref
+				description="PROTEKTA"
+				functionMask="FFFF"
+				mhg="PROTEKTA"
+				tradingPartner="PROTEKTA"
 			/>
 	</destination-x-ref>
 	<logger
