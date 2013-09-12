@@ -31,21 +31,6 @@
 			useSoTimeOut="true"
 		/>
 	</env>
-	<env
-		mhgAccount="PROTEKTA"
-		name="PROTEKTA_NON_QPBM"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="5"
-			hostname="cptlxml01.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9116"
-			useSoTimeOut="true"
-		/>
-	</env>
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
@@ -209,60 +194,6 @@
 			tradingPartner="MPGM0005"
 		/>
 
-		<x-ref
-			description="MHG: PROTEKTA SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="PROTEKTA_NON_QPBM"
-			tradingPartner="MPSM0008"
-		/>
-		<x-ref
-			description="MHG: PROTEKTA REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="PROTEKTA_NON_QPBM"
-			tradingPartner="MPRM0008"
-		/>
-		<x-ref
-			description="MHG: PROTEKTA PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="PROTEKTA_NON_QPBM"
-			tradingPartner="MPPR0003"
-		/>
-		<x-ref
-			description="MHG: PROTEKTA REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="PROTEKTA_NON_QPBM"
-			tradingPartner="MPRR0003"
-		/>
-		<x-ref
-			description="MHG: PROTEKTA MEDICLINIC REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="PROTEKTA_NON_QPBM"
-			tradingPartner="MPMR0004"
-		/>
-		<x-ref
-			description="MHG: PROTEKTA (MEDICAL)"
-			functionMask="FFFF"
-			mhg="PROTEKTA_NON_QPBM"
-			tradingPartner="MPME0009"
-		/>
-		<x-ref
-			description="MHG: PROTEKTA (HOSPITAL)"
-			functionMask="FFFF"
-			mhg="PROTEKTA_NON_QPBM"
-			tradingPartner="MPHO0017"
-		/>
-		<x-ref
-			description="MHG: PROTEKTA (NETCARE)"
-			functionMask="FFFF"
-			mhg="PROTEKTA_NON_QPBM"
-			tradingPartner="MPNE0005"
-		/>
-		<x-ref
-			description="MHG: PROTEKTA (MEDICLINIC)"
-			functionMask="FFFF"
-			mhg="PROTEKTA_NON_QPBM"
-			tradingPartner="MPME0010"
-		/>
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
