@@ -1243,8 +1243,6 @@ switches to the backup
 			description="Mediclinic Pilir" />
 		<x-ref tradingPartner="R" mhg="REDRIB" functionMask="FFFF"
 			description="Mediclinic Red Ribbon" />
-		<x-ref tradingPartner="J" mhg="AMED" functionMask="FFFF"
-			description="Mediclinic Holcim" />
 		<x-ref tradingPartner="L" mhg="AMED" functionMask="FFFF"
 			description="Mediclinic Sappi" />
 		<x-ref tradingPartner="P" mhg="AMED" functionMask="FFFF"
