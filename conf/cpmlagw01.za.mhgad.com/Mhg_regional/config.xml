@@ -967,12 +967,6 @@
 				tradingPartner="I"
 			/>
 			<x-ref
-				description="Mediclinic Holcim"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="J"
-			/>
-			<x-ref
 				description="Mediclinic Afrox"
 				functionMask="FFFF"
 				mhg="AMED"
