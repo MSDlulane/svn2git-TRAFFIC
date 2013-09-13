@@ -49,7 +49,8 @@ if [ "$TRAFJMXPORT" = "" ]; then
 	exit 4
 else
 	echo "TRAF JMX [_ONLY_] port set to #$TRAFJMXPORT."
-	TRAFJMXSETTINGS="-Dcom.sun.management.jmxremote.port=$TRAFJMXPORT -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false"
+#	TRAFJMXSETTINGS="-Dcom.sun.management.jmxremote.port=$TRAFJMXPORT -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false"
+	TRAFJMXSETTINGS="-Xdebug -Xrunjdwp:transport=dt_socket,address=${TRAFJMXPORT},server=y,suspend=n"
 fi
 
 if [ -d  "$TRAFHOME/lib/$TRAFLIB" ]; then
