@@ -814,55 +814,55 @@
 		/>
 		<x-ref
 			tradingPartner="PU001"
-			mhg="IMPERIALMED"
+			mhg="IMPERIAL"
 			functionMask="FFFF" 
 			description="IMPERIALMED: Dentists"
 		/>
 		<x-ref
 			tradingPartner="PU002"
-			mhg="IMPERIALMED"
+			mhg="IMPERIAL"
 			functionMask="FFFF" 
 			description="IMPERIALMED: Pathologists"
 		/>
 		<x-ref
 			tradingPartner="PU003"
-			mhg="IMPERIALMED"
+			mhg="IMPERIAL"
 			functionMask="FFFF" 
 			description="IMPERIALMED: Specialists"
 		/>
 		<x-ref
 			tradingPartner="PU004"
-			mhg="IMPERIALMED"
+			mhg="IMPERIAL"
 			functionMask="FFFF" 
 			description="IMPERIALMED:Optometrists"
 		/>
 		<x-ref
 			tradingPartner="PU005"
-			mhg="IMPERIALMED"
+			mhg="IMPERIAL"
 			functionMask="FFFF" 
 			description="IMPERIALMED:Radiologists"
 		/>
 		<x-ref
 			tradingPartner="PU006"
-			mhg="IMPERIALMED"
+			mhg="IMPERIAL"
 			functionMask="FFFF" 
 			description="IMPERIALMED: Oncologists "
 		/>
 		<x-ref
 			tradingPartner="PU007"
-			mhg="IMPERIALMED"
+			mhg="IMPERIAL"
 			functionMask="FFFF" 
 			description="IMPERIALMED: Physiotherapists"
 		/>
 		<x-ref
 			tradingPartner="PU008"
-			mhg="IMPERIALMED"
+			mhg="IMPERIAL"
 			functionMask="FFFF" 
 			description="IMPERIALMED: Other"
 		/>
 		<x-ref
 			tradingPartner="PU009"
-			mhg="IMPERIALMED"
+			mhg="IMPERIAL"
 			functionMask="FFFF" 
 			description="IMPERIALMED: Doctors (GP)"
 		/>
