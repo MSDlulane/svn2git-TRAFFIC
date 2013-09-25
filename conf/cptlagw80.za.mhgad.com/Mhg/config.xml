@@ -1147,7 +1147,13 @@
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"
-			mhg="Y"
+			mhg="RANDWATER"
+			tradingPartner="Y"
+		/>
+		<x-ref
+			description="RANDWATER"
+			functionMask="FFFF"
+			mhg="RANDWATER"
 			tradingPartner="P28"
 		/>
 		<x-ref
