@@ -228,6 +228,12 @@
 			targetBeanName="mc.ReAuthorisationInformation"
 			desc=""
 		/>
+                <tq-function
+                        name="LIST_DYNAMIC_SERVICES"
+                        targetBeanName="ListServicesNames"
+                        desc=""
+                />
+          
 	</pool>
    
 	<pool
@@ -239,6 +245,13 @@
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
+
+                <tq-function
+                        name="ENVIRONMENT_INFO"
+                        targetBeanName="SystemManagement"
+                        desc=""
+                />
+
 		<tq-function
 			name="Get_DCP_SurveyUser_Section"
 			targetBeanName="DynamicQueryExecutor"
@@ -1452,11 +1465,6 @@
 		<tq-function
 			name="ENQWORK_INSERT"
 			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
-			name="ENVIRONMENT_INFO"
-			targetBeanName="SystemManagement"
 			desc=""
 		/>
 		<tq-function
@@ -3197,11 +3205,6 @@
 		<tq-function
 			name="LIST_BUSINESS_OBJECTS"
 			targetBeanName="BusinessObjectManagement"
-			desc=""
-		/>
-		<tq-function
-			name="LIST_DYNAMIC_SERVICES"
-			targetBeanName="ListServicesNames"
 			desc=""
 		/>
 		<tq-function
