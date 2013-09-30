@@ -202,6 +202,114 @@
 	</transaction-x-ref>
 
 	<destination-x-ref>
+		<x-ref
+			tradingPartner="PU001"
+			mhg="IMPERIAL"
+			functionMask="FFFF" 
+			description="IMPERIALMED: Dentists"
+		/>
+		<x-ref
+			tradingPartner="PU002"
+			mhg="IMPERIAL"
+			functionMask="FFFF" 
+			description="IMPERIALMED: Pathologists"
+		/>
+		<x-ref
+			tradingPartner="PU003"
+			mhg="IMPERIAL"
+			functionMask="FFFF" 
+			description="IMPERIALMED: Specialists"
+		/>
+		<x-ref
+			tradingPartner="PU004"
+			mhg="IMPERIAL"
+			functionMask="FFFF" 
+			description="IMPERIALMED:Optometrists"
+		/>
+		<x-ref
+			tradingPartner="PU005"
+			mhg="IMPERIAL"
+			functionMask="FFFF" 
+			description="IMPERIALMED:Radiologists"
+		/>
+		<x-ref
+			tradingPartner="PU006"
+			mhg="IMPERIAL"
+			functionMask="FFFF" 
+			description="IMPERIALMED: Oncologists "
+		/>
+		<x-ref
+			tradingPartner="PU007"
+			mhg="IMPERIAL"
+			functionMask="FFFF" 
+			description="IMPERIALMED: Physiotherapists"
+		/>
+		<x-ref
+			tradingPartner="PU008"
+			mhg="IMPERIAL"
+			functionMask="FFFF" 
+			description="IMPERIALMED: Other"
+		/>
+		<x-ref
+			tradingPartner="PU009"
+			mhg="IMPERIAL"
+			functionMask="FFFF" 
+			description="IMPERIALMED: Doctors (GP)"
+		/>
+		<x-ref
+			tradingPartner="PI001"
+			mhg="AMED"
+			functionMask="FFFF" 
+			description="PICKNPAY: Dentists"
+		/>
+		<x-ref
+			tradingPartner="PI002"
+			mhg="AMED"
+			functionMask="FFFF" 
+			description="PICKNPAY: Pathologists"
+		/>
+		<x-ref
+			tradingPartner="PI003"
+			mhg="AMED"
+			functionMask="FFFF" 
+			description="PICKNPAY: Specialists"
+		/>
+		<x-ref
+			tradingPartner="PI004"
+			mhg="AMED"
+			functionMask="FFFF" 
+			description="PICKNPAY:Optometrists"
+		/>
+		<x-ref
+			tradingPartner="PI005"
+			mhg="AMED"
+			functionMask="FFFF" 
+			description="PICKNPAY:Radiologists"
+		/>
+		<x-ref
+			tradingPartner="PI006"
+			mhg="AMED"
+			functionMask="FFFF" 
+			description="PICKNPAY: Oncologists "
+		/>
+		<x-ref
+			tradingPartner="PI007"
+			mhg="AMED"
+			functionMask="FFFF" 
+			description="PICKNPAY: Physiotherapists"
+		/>
+		<x-ref
+			tradingPartner="PI008"
+			mhg="AMED"
+			functionMask="FFFF" 
+			description="PICKNPAY: Other"
+		/>
+		<x-ref
+			tradingPartner="PI009"
+			mhg="AMED"
+			functionMask="FFFF" 
+			description="PICKNPAY: Doctors (GP)"
+		/>
 		<x-ref tradingPartner="DMK" mhg="AFROX" functionMask="FFFF"
 		description="DMK - Afrox" />
 		<x-ref tradingPartner="DMA" mhg="BANKMED" functionMask="FFFF"
