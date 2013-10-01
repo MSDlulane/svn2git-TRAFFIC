@@ -1341,7 +1341,7 @@
 			<x-ref
 				description="Transmed"
 				functionMask="FFFF"
-				mhg="TRANSMED"
+				mhg="NEWMED"
 				tradingPartner="P02"
 			/>
 			<x-ref
