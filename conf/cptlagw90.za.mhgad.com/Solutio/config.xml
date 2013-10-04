@@ -16,6 +16,40 @@
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
 			hostname="cptlagw90.za.mhgad.com" port="33000" connections="4"
 			autotimeout="120000" poolMaxWaitTime="60000" />
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="30610"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="12000"
+				connections="10"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="cptlagw90.za.mhgad.com"
+				id="WAS_POJAS_BACKUP"
+				poolMaxWaitTime="12000"
+				port="33000"
+				startDisabled="false"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="40000"
+			/>
+		</pool>
 	</env>
 
 	<transaction class="InterfaceTransactions.Solutio.SolutioTransaction" />
