@@ -228,6 +228,12 @@
 			targetBeanName="mc.ReAuthorisationInformation"
 			desc=""
 		/>
+                <tq-function
+                        name="LIST_DYNAMIC_SERVICES"
+                        targetBeanName="LIST_DYNAMIC_SERVICES"
+                        desc=""
+                />
+
 	</pool>
    
 	<pool
@@ -3197,11 +3203,6 @@
 		<tq-function
 			name="LIST_BUSINESS_OBJECTS"
 			targetBeanName="BusinessObjectManagement"
-			desc=""
-		/>
-		<tq-function
-			name="LIST_DYNAMIC_SERVICES"
-			targetBeanName="ListServicesNames"
 			desc=""
 		/>
 		<tq-function
