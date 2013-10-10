@@ -1227,11 +1227,6 @@
 			desc=""
 		/>
 		<tq-function
-			name="CAREPLAN_SCHEDULE_BY_PATIENT"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
 			name="CHECK_IPA_DOCTOR_EXISTS"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
@@ -1269,26 +1264,6 @@
 		<tq-function
 			name="CONNECTION_INFO"
 			targetBeanName="SystemManagement"
-			desc=""
-		/>
-		<tq-function
-			name="CONTACT_UPDATE_INSERT_VCT"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
-			name="CPTMASTER_SEARCH"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
-			name="CPT_SEARCH"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
-			name="CPT_SEARCH_CROSS"
-			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
 		<tq-function
@@ -1442,11 +1417,6 @@
 			desc=""
 		/>
 		<tq-function
-			name="Delete_from_RISKDET"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
 			name="ECHO"
 			targetBeanName="Echo"
 			desc=""
@@ -1478,16 +1448,6 @@
 		/>
 		<tq-function
 			name="ENQUIRY_SUMMARY_GET_INFO_VITEL"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
-			name="ENQUIRY_UPDATE"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
-			name="ENQUIRY_UPDATE_VITEL"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
@@ -1837,11 +1797,6 @@
 			desc=""
 		/>
 		<tq-function
-			name="GEMS_GET_DOCTORS_NETWORK_INFO_COUNT"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
 			name="GENERATE_REPORT"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
@@ -1873,11 +1828,6 @@
 		/>
 		<tq-function
 			name="GETGDT"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
-			name="GETIPAPROVIDERCOUNT"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
@@ -5230,6 +5180,58 @@
 		id="WAS"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	>
+		<!-- WAS 2013-10-10 END-->
+		<tq-function
+			name="GETIPAPROVIDERCOUNT"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="GEMS_GET_DOCTORS_NETWORK_INFO_COUNT"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="ENQUIRY_UPDATE_VITEL"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="ENQUIRY_UPDATE"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="Delete_from_RISKDET"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="CPT_SEARCH_CROSS"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="CPT_SEARCH"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="CPTMASTER_SEARCH"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="CONTACT_UPDATE_INSERT_VCT"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<tq-function
+			name="CAREPLAN_SCHEDULE_BY_PATIENT"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
+		<!-- WAS 2013-10-10 END-->
 		<tq-function
 			name="FoG_VALIDATEMEMBER"
 			targetBeanName="DynamicQueryExecutor"
