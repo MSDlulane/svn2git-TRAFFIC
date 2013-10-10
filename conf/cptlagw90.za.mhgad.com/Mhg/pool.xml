@@ -241,11 +241,6 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	>
 		<tq-function
-			name="MEMBERONLINE_MICSERIALBYTYPE"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
 			name="GET_ICD_DTPMASTER"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
@@ -5189,6 +5184,11 @@
 		id="WAS"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	>
+		<tq-function
+			name="MEMBERONLINE_MICSERIALBYTYPE"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""
+		/>
 		<tq-function
 			name="MEMBERONLINE_Count_Claims_FORDOCTOR"
 			targetBeanName="DynamicQueryExecutor"
