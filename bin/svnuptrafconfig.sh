@@ -1,12 +1,17 @@
 #!/bin/bash
-TRAF_DIR=$(basname $(basename $0))
+TRAF_DIR=$(dirname $(dirname $0))
 TRAFLOGDIR="/var/opt/mhg/log/TRAFFIC/"
 DEPLLOGDIR=${TRAFLOGDIR}/deployment_logs
-if [ -d "${DEPLLOGDIR}" ]; then
+DEPLLOGFILE=${DEPLLOGDIR}/$(hostname).svn_promotion.$(date +%Y%m%d).log
+if [ ! -d "${DEPLLOGDIR}" ]; then
 	echo "Creating ${DEPLLOGDIR}..."
 	mkdir -p ${DEPLLOGDIR}
 fi
-LOG_FILE=${DEPLLOGDIR}/bin/log/$(hostname).svn_promotion.$(date +"yyyyMMdd").log
-svn status ${TRAF_DIR} |tee -a ${LOG_FILE}
-svn up ${TRAF_DIR} |tee -a ${LOG_FILE}
-chmod +r ${LOG_FILE}
+if [ ! -f "${DEPLLOGFILE}" ]; then
+	echo "Creating ${DEPLLOGFILE}..."
+	touch ${DEPLLOGFILE}
+fi
+echo ${TRAF_DIR}
+svn status ${TRAF_DIR} |tee -a ${DEPLLOGFILE}
+svn up ${TRAF_DIR} |tee -a ${DEPLLOGFILE}
+chmod +r ${DEPLLOGFILE}
