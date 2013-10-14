@@ -12,6 +12,7 @@ if [ ! -f "${DEPLLOGFILE}" ]; then
 	touch ${DEPLLOGFILE}
 fi
 echo ${TRAF_DIR}
-svn status ${TRAF_DIR} |tee -a ${DEPLLOGFILE}
-svn up ${TRAF_DIR} |tee -a ${DEPLLOGFILE}
+svn info ${TRAF_DIR} |awk "{print \"$(date +%c): \", \$0}" |tee -a ${DEPLLOGFILE}
+svn status ${TRAF_DIR} |awk "{print \"$(date +%c): \", \$0}" |tee -a ${DEPLLOGFILE}
+svn up ${TRAF_DIR} |awk "{print \"$(date +%c): \", \$0}" |tee -a ${DEPLLOGFILE}
 chmod +r ${DEPLLOGFILE}
