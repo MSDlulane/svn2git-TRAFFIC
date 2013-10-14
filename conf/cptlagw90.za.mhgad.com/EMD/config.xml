@@ -1,149 +1,330 @@
-<?xml version="1.0"?>
 <Enviroments>
-
-	<!-- Global Server Parameters -->
-	<server trxSizeLimit="124000" trxAbortSizeLimit="256000"
-		cmdPasswd="1q2w3e" tradingPartner="EMD" name="EMD Test Server" port="20875"
-		diagPort="20876" logConfigFile="log4j.xml" __system_out="default" />
-
-	<!-- List of Environments that this server can talk to -->
-
-	<env name="AMED">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
-			connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	
+	<env
+		name="AMED"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9106"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
-
-	<env name="NIMAS">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113" connections="10"
-			autotimeout="120000" poolMaxWaitTime="60000"/>
+	<server
+		__system_out="default"
+		cmdPasswd="1q2w3e"
+		diagPort="20876"
+		logConfigFile="log4j.xml"
+		name="EMD Test Server"
+		port="20875"
+		tradingPartner="EMD"
+		trxAbortSizeLimit="256000"
+		trxSizeLimit="124000"
+	/>
+	<env
+		name="NIMAS"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9113"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
-
-	<env name="GEMS" mhgAccount="GEMS">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9110" connections="10"
-			autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		mhgAccount="GEMS"
+		name="GEMS"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
-
-	<env name="NEWMED" mhgAccount="NEWMED">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9107"
-			connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		mhgAccount="NEWMED"
+		name="NEWMED"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9107"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
-
-	<env name="POLMED">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9109" connections="10"
-			autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="POLMED"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9109"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
-
-	<env name="SAMWU">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9115"
-			connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="SAMWU"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9115"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
-
-	<!-- Log File Parameters  -->
-	<loggerOLD classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
-		logFileRefreshInterval="Daily" processSleepTime="1000" logDirectory="Logs" />
-
-	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
-	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
-
-	<pool-definitions-file name="pool.xml" />
-
-	<snmp-port mibFile="mibs.xml">20877</snmp-port>
-
-	<tailWatchServer id="EMD" tcpipPort="20878"
-		multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="EMD" tcpipPort="20879"
-		multicast-host-ip="" multicast-port="-1" />
-
-	<synchronous-transactions>true</synchronous-transactions>
-
-	<transaction-x-ref>
-		<x-ref tradingPartner="1" mhg="ELCHECK" functionNo="0001"
-			description="Elegibility check" />
-		<x-ref tradingPartner="3" mhg="REALCLM" functionNo="0002"
-			description="Realtime doctor Medicine claims" />
-		<x-ref tradingPartner="4" mhg="REALCLM" functionNo="0004"
-			description="Realtime doctor claims" />
-		<x-ref tradingPartner="5" mhg="REALCLM" functionNo="0010"
-			description="Realtime doctor" />
-		<x-ref tradingPartner="127" mhg="PING" functionNo="0008"
-			isPingOrHandshake="true" description="Ping" />
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		20877
+	</snmp-port>
+	<tailWatchServer
+		id="EMD"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20878"
+	/>
+	<diagTailWatchServer
+		id="EMD"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20879"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+		<x-ref
+			description="Realtime doctor"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
+		/>
 	</transaction-x-ref>
-
-	<destination-x-ref>
-		<x-ref tradingPartner="MHG1" mhg="NEWMED" functionMask="FFFF"
-			description="MHG1 - Metropolitan" />
-		<x-ref tradingPartner="MHG2" mhg="NIMAS" functionMask="FFFF"
-			description="MHG2 - Nimas" />
-		<x-ref tradingPartner="MHG5" mhg="POLMED" functionMask="FFFF"
-			description="MHG5 - Polmed" />
-		<x-ref tradingPartner="MHGA" mhg="AMED" functionMask="FFFF"
-			description="MHGA - Bankmed" />
-		<x-ref tradingPartner="MHGE" mhg="AMED" functionMask="FFFF"
-			description="MHGE - Wooltru" />
-		<x-ref tradingPartner="MHGF" mhg="AMED" functionMask="FFFF"
-			description="MHGF - Foschini" />
-		<x-ref tradingPartner="MHGG" mhg="AMED" functionMask="FFFF"
-			description="MHGG - Engen" />
-		<x-ref tradingPartner="MHGK" mhg="AMED" functionMask="FFFF"
-			description="MHGK - Afrox" />
-		<x-ref tradingPartner="MHGL" mhg="AMED" functionMask="FFFF"
-			description="MHGL - Sappi" />
-		<x-ref tradingPartner="MHGN" mhg="AMED" functionMask="FFFF"
-			description="MHGN - GoldenArrow" />
-		<x-ref tradingPartner="MHGO" mhg="AMED" functionMask="FFFF"
-			description="MHGO - Fishmed" />
-		<x-ref tradingPartner="MHGP" mhg="AMED" functionMask="FFFF"
-			description="MHGP - BPSA " />
-		<x-ref tradingPartner="MHGQ" mhg="SAMWU" functionMask="FFFF"
-			description="MHGQ - SAMWU " />
-		<x-ref tradingPartner="MHGT" mhg="GEMS" functionMask="FFFF"
-			description="MHGT - GEMS" />
-		<x-ref tradingPartner="MHGV" mhg="NEWMED" functionMask="FFFF"
-			description="MHGV - Transmed" />
-
+	<destination-x-ref	>
+		
+		<x-ref
+			description="MHG1 - Metropolitan"
+			functionMask="FFFF"
+			mhg="NEWMED"
+			tradingPartner="MHG1"
+		/>
+		<x-ref
+			description="MHG2 - Nimas"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="MHG2"
+		/>
+		<x-ref
+			description="MHG5 - Polmed"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="MHG5"
+		/>
+		<x-ref
+			description="MHGG - Engen"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGG"
+		/>
+		<x-ref
+			description="MHGA - Bankmed"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGA"
+		/>
+		<x-ref
+			description="MHGE - Wooltru"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGE"
+		/>
+		<x-ref
+			description="MHGF - Foschini"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGF"
+		/>
+		<x-ref
+			description="MHGK - Afrox"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGK"
+		/>
+		<x-ref
+			description="MHGL - Sappi"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGL"
+		/>
+		<x-ref
+			description="MHGN - GoldenArrow"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGN"
+		/>
+		<x-ref
+			description="MHGP - BPSA "
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGP"
+		/>
+		<x-ref
+			description="MHGO - Fishmed"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGO"
+		/>
+		<x-ref
+			description="MHGQ - SAMWU "
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="MHGQ"
+		/>
+		<x-ref
+			description="MHGT - GEMS"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MHGT"
+		/>
+		<x-ref
+			description="MHGV - Transmed"
+			functionMask="FFFF"
+			mhg="NEWMED"
+			tradingPartner="MHGV"
+		/>
 	</destination-x-ref>
-
-	<!-- Log File Parameters  -->
-	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logFileRefreshInterval="Daily" 
-		processSleepTime="1000" 
-		logDirectory="log/accesslog-test">
-		<claimsLogger 
-			poolId="generic" 
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT" 
-			logTable="EMD" 
-			DbUserName="traffic" 
-			DbPassword="IR0b0t" 
-			minpoolsize="1" 
-			maxpoolsize="2" 
-			timeout="600000">
-			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH" />
+			DbPassword="IR0b0t"
+			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="EMD"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH"
+			/>
 		</claimsLogger>
 	</logger>
-
 </Enviroments>
+

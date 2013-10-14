@@ -1,5 +1,8 @@
-<?xml version="1.0"?>
 <pool-classes>
-   <pool id="COBOL" class="InterfaceTransactions.Solutio.MhrsConnector" />
+	
+	<pool
+		class="InterfaceTransactions.Solutio.MhrsConnector"
+		id="COBOL"
+	/>
 </pool-classes>
 

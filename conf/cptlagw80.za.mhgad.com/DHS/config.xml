@@ -1,84 +1,201 @@
-<?xml version="1.0"?>
 <Enviroments>
-	<!-- Global Server Parameters -->
-	<server sendTrxDetailsToStatusMonitor="true" trxSizeLimit="48000"
-		trxAbortSizeLimit="64000" cmdPasswd="1q2w3e" tradingPartner="Mediswitch"
-		name="DHS DEV Server" port="20750" diagPort="20751" logConfigFile="log4j_dev.xml"
-		distributedCacheEnabled="true" distributedCacheIP="172.23.113.33"
-		distributedCachePort="11211" distributedCacheEntryTimeout="120"
-		__system_out="default" />
-
-	<env name="AMED">
-		<pool id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9106"
-		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
+	
+	<env
+		name="AMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="20"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+		/>
 	</env>
-
-	<env name="GEMS" useDistributedCache="true">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9110" connections="25"
-			autotimeout="120000" poolMaxWaitTime="28000">
-			<secondaryPool useSoTimeOut="false"
-				autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" minTrxTime="15000"
-				dropClientOnError="false" startDisabled="false"
-				waitForSyncToFinishTimeout="10000" autoDisable="true" autoEnable="true"
-				id="COBOLBACKUP" hostname="cptlapp80.za.mhgad.com" port="9233"
-				connections="10" autotimeout="90000" poolMaxWaitTime="28000"
-				connectorImplementationClassID="COBOL">
+	<server
+		__system_out="default"
+		cmdPasswd="1q2w3e"
+		diagPort="20751"
+		distributedCacheEnabled="true"
+		distributedCacheEntryTimeout="120"
+		distributedCacheIP="172.23.113.33"
+		distributedCachePort="11211"
+		logConfigFile="log4j_dev.xml"
+		name="DHS DEV Server"
+		port="20750"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="Mediswitch"
+		trxAbortSizeLimit="64000"
+		trxSizeLimit="48000"
+	/>
+	<env
+		name="GEMS"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="25"
+			dropClientOnError="false"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<secondaryPool
+				autoDisable="true"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="10"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="cptlapp80.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="28000"
+				port="9233"
+				startDisabled="false"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
 			</secondaryPool>
 		</pool>
 	</env>
-
-	<env name="IMPERIAL">
-		<pool id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9105"
-		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		name="IMPERIAL"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="20"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9105"
+		/>
 	</env>
-
-	<env name="MEDIPOS">
-		<pool id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9108"
-		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		name="MEDIPOS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="20"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9108"
+		/>
 	</env>
-
-	<env name="NEWMED">
-		<pool id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9107"
-		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		name="NEWMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+		/>
 	</env>
-
-	<env name="NIMAS">
-		<pool id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9113"
-		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		name="NIMAS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9113"
+		/>
 	</env>
-
-	<env name="METROPOLITAN">
-		<pool id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9107"
-		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		name="METROPOLITAN"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+		/>
 	</env>
-
-	<env name="POLMED">
-		<pool id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9109"
-		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		name="POLMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9109"
+		/>
 	</env>
-
-	<env name="REDRIB">
-		<pool id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9111"
-		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		name="REDRIB"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="20"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9111"
+		/>
 	</env>
-
-	<env name="SAMWU">
-		<pool id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9115"
-		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		name="SAMWU"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9115"
+		/>
 	</env>
-
-	<env name="SIGMA">
-		<pool id="COBOL" hostname="cptlapp80.za.mhgad.com" port="9112"
-		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		name="SIGMA"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9112"
+		/>
 	</env>
 	<env
 		mhgAccount="RANDW"
 		name="RANDWATER"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="25"
@@ -88,131 +205,271 @@
 			port="9134"
 		/>
 	</env>
-
-	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
-	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
-
-	<pool-definitions-file name="pool.xml" />
-
-	<snmp-port mibFile="mibs.xml">20752</snmp-port>
-	<tailWatchServer id="Mediswitch" tcpipPort="20753"
-	multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="Mediswitch" tcpipPort="20754"
-	multicast-host-ip="" multicast-port="-1" />
-
-	<synchronous-transactions>true</synchronous-transactions>
-
-	<transaction-x-ref>
-		<x-ref tradingPartner="1" mhg="ELCHECK" functionNo="0001"
-		description="Elegibility check" isPingOrHandshake="true" />
-		<x-ref tradingPartner="2" mhg="REALCLM" functionNo="000A"
-		description="Realtime Pharmacy Medicine claims" />
-		<x-ref tradingPartner="3" mhg="REALCLM" functionNo="0002"
-		description="Realtime doctor Medicine claims" />
-		<x-ref tradingPartner="4" mhg="REALCLM" functionNo="0004"
-		description="Realtime doctor claims" />
-		<x-ref tradingPartner="5" mhg="REALCLM" functionNo="0010"
-		description="Realtime claims" />
-		<x-ref tradingPartner="127" mhg="PING" functionNo="0008"
-		description="Ping" isPingOrHandshake="true" />
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		20752
+	</snmp-port>
+	<tailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20753"
+	/>
+	<diagTailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20754"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			isPingOrHandshake="true"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime Pharmacy Medicine claims"
+			functionNo="000A"
+			mhg="REALCLM"
+			tradingPartner="2"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+		<x-ref
+			description="Realtime claims"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
+		/>
 	</transaction-x-ref>
-
-	<destination-x-ref>
-
-		<x-ref tradingPartner="RTDM0004" mhg="METROPOLITAN"
-		functionMask="FFFF" description="RTDM0001 - Metropolitan" />
-		<x-ref tradingPartner="MRWM0003" mhg="RANDWATER"
-		functionMask="FFFF" description="RANDW" />
-		<x-ref tradingPartner="rtdm0001" mhg="METROPOLITAN"
-		functionMask="FFFF" description="rtdm0001 - Metropolitan" />
-
-		<x-ref tradingPartner="RTDM0002" mhg="AMED" functionMask="FFFF"
-		description="RTDM0002 - Bankmed" />
-		<x-ref tradingPartner="rtdm0002" mhg="AMED" functionMask="FFFF"
-		description="rtdm0002 - Bankmed" />
-
-		<x-ref tradingPartner="RTDM0003" mhg="GEMS" functionMask="FFFF"
-		description="RTDM0003 - Gems" />
-		<x-ref tradingPartner="rtdm0003" mhg="GEMS" functionMask="FFFF"
-		description="rtdm0003 - Gems" />
+	<destination-x-ref	>
 		
-		<x-ref tradingPartner="MGOP0001" mhg="GEMS" functionMask="FFFF"
-		description="MHG:GEMS Emerald pathology realer (Medical)" />
-		
-		<x-ref tradingPartner="MOPP0003" mhg="GEMS" functionMask="FFFF"
-		description="MHG:GEMS Emerald pathology realer (Medical)" />
-				
-		<x-ref tradingPartner="MGRP0002" mhg="GEMS" functionMask="FFFF"
-		description="MHG:GEMS Ruby pathology realer (Medical)" />
-		
-
-		<x-ref tradingPartner="ITES0001" mhg="IMPERIAL" functionMask="FFFF"
-		description="ITES0001 - Imperial" />
-		<x-ref tradingPartner="ites0001" mhg="IMPERIAL" functionMask="FFFF"
-		description="ites0001 - Imperial" />
-
-		<x-ref tradingPartner="RTDM0010" mhg="MEDIPOS" functionMask="FFFF"
-		description="RTDM0010 - Medipos" />
-		<x-ref tradingPartner="rtdm0010" mhg="MEDIPOS" functionMask="FFFF"
-		description="rtdm0010 - Medipos" />
-
-		<x-ref tradingPartner="RTDM0004" mhg="NIMAS" functionMask="FFFF"
-		description="RTDM0004 - Nimas" />
-		<x-ref tradingPartner="rtdm0004" mhg="NIMAS" functionMask="FFFF"
-		description="rtdm0004 - Nimas" />
-
-		<x-ref tradingPartner="RTDM0005" mhg="POLMED" functionMask="FFFF"
-		description="RTDM0005 - Polmed" />
-		<x-ref tradingPartner="rtdm0005" mhg="POLMED" functionMask="FFFF"
-		description="rtdm0005 - Polmed" />
-
-		<x-ref tradingPartner="RTDM0006" mhg="REDRIB" functionMask="FFFF"
-		description="RTDM0006 - Red Ribbon" />
-		<x-ref tradingPartner="rtdm0006" mhg="REDRIB" functionMask="FFFF"
-		description="rtdm0006 - Red Ribbon" />
-
-		<x-ref tradingPartner="RTDM0007" mhg="SIGMA" functionMask="FFFF"
-		description="RTDM0007 - Prosano" />
-		<x-ref tradingPartner="rtdm0007" mhg="SIGMA" functionMask="FFFF"
-		description="rtdm0007 - Prosano" />
-
-		<x-ref tradingPartner="RTDM0008" mhg="NEWMED" functionMask="FFFF"
-		description="RTDM0008 - Newmed" />
-		<x-ref tradingPartner="rtdm0008" mhg="NEWMED" functionMask="FFFF"
-		description="rtdm0008 - Newmed" />
-
-		<x-ref tradingPartner="RTDM0011" mhg="SAMWU" functionMask="FFFF"
-		description="RTDM0011 - Samwu" />
-		<x-ref tradingPartner="rtdm0011" mhg="SAMWU" functionMask="FFFF"
-		description="rtdm0011 - Samwu" />
-
-		<x-ref tradingPartner="MIGP0001" mhg="IMPERIAL" functionMask="FFFF"
-		description="MHG: IMPERIAL GROUP PATHOLOGY REALER (MEDICAL)" />
-		<x-ref tradingPartner="MMPR0005" mhg="MEDIPOS" functionMask="FFFF"
-		description="MHG: MEDIPOS PATHOLOGY REALER (MEDICAL)" />
-		
-		
-		
-
+		<x-ref
+			description="RTDM0001 - Metropolitan"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="RTDM0004"
+		/>
+		<x-ref
+			description="RANDW"
+			functionMask="FFFF"
+			mhg="RANDWATER"
+			tradingPartner="MRWM0003"
+		/>
+		<x-ref
+			description="rtdm0001 - Metropolitan"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="rtdm0001"
+		/>
+		<x-ref
+			description="RTDM0002 - Bankmed"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="RTDM0002"
+		/>
+		<x-ref
+			description="rtdm0002 - Bankmed"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="rtdm0002"
+		/>
+		<x-ref
+			description="MHG:GEMS Emerald pathology realer (Medical)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGOP0001"
+		/>
+		<x-ref
+			description="RTDM0003 - Gems"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="RTDM0003"
+		/>
+		<x-ref
+			description="rtdm0003 - Gems"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="rtdm0003"
+		/>
+		<x-ref
+			description="MHG:GEMS Emerald pathology realer (Medical)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MOPP0003"
+		/>
+		<x-ref
+			description="MHG:GEMS Ruby pathology realer (Medical)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGRP0002"
+		/>
+		<x-ref
+			description="ITES0001 - Imperial"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="ITES0001"
+		/>
+		<x-ref
+			description="ites0001 - Imperial"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="ites0001"
+		/>
+		<x-ref
+			description="RTDM0010 - Medipos"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="RTDM0010"
+		/>
+		<x-ref
+			description="rtdm0010 - Medipos"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="rtdm0010"
+		/>
+		<x-ref
+			description="RTDM0004 - Nimas"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="RTDM0004"
+		/>
+		<x-ref
+			description="rtdm0004 - Nimas"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="rtdm0004"
+		/>
+		<x-ref
+			description="RTDM0005 - Polmed"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="RTDM0005"
+		/>
+		<x-ref
+			description="rtdm0005 - Polmed"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="rtdm0005"
+		/>
+		<x-ref
+			description="RTDM0006 - Red Ribbon"
+			functionMask="FFFF"
+			mhg="REDRIB"
+			tradingPartner="RTDM0006"
+		/>
+		<x-ref
+			description="rtdm0006 - Red Ribbon"
+			functionMask="FFFF"
+			mhg="REDRIB"
+			tradingPartner="rtdm0006"
+		/>
+		<x-ref
+			description="RTDM0007 - Prosano"
+			functionMask="FFFF"
+			mhg="SIGMA"
+			tradingPartner="RTDM0007"
+		/>
+		<x-ref
+			description="rtdm0007 - Prosano"
+			functionMask="FFFF"
+			mhg="SIGMA"
+			tradingPartner="rtdm0007"
+		/>
+		<x-ref
+			description="RTDM0008 - Newmed"
+			functionMask="FFFF"
+			mhg="NEWMED"
+			tradingPartner="RTDM0008"
+		/>
+		<x-ref
+			description="rtdm0008 - Newmed"
+			functionMask="FFFF"
+			mhg="NEWMED"
+			tradingPartner="rtdm0008"
+		/>
+		<x-ref
+			description="RTDM0011 - Samwu"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="RTDM0011"
+		/>
+		<x-ref
+			description="rtdm0011 - Samwu"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="rtdm0011"
+		/>
+		<x-ref
+			description="MHG: IMPERIAL GROUP PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="MIGP0001"
+		/>
+		<x-ref
+			description="MHG: MEDIPOS PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="MMPR0005"
+		/>
 	</destination-x-ref>
-
-	<!-- Log File Parameters  -->
-	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
-		logDirectory="log/accesslog">
+	>
+		
 		<claimsLogger
-			poolId="generic"
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb82.za.mhgad.com:7550/JBAUDIT"
-			logTable="DHSMain"
-			DbUserName="traffic"
 			DbPassword="IR0b0t"
-			minpoolsize="1"
+			DbUrl="jdbc:sybase:Tds:cptlsyb82.za.mhgad.com:7550/JBAUDIT"
+			DbUserName="traffic"
+			logTable="DHSMain"
 			maxpoolsize="2"
-			timeout="600000">
-			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH" />
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH"
+			/>
 		</claimsLogger>
 	</logger>
-
 </Enviroments>
+

@@ -1,66 +1,113 @@
-<?xml version="1.0"?>
 <Enviroments>
-
-	<!-- Global Server Parameters -->
-	<server sendTrxDetailsToStatusMonitor="true" tradingPartner="SolutioSweeper"
-		name="Solutio Sweeper Traf" port="10100" diagPort="10101"
-		logConfigFile="log4j.xml" __system_out_="sweeperTraf.system.out"
-		internalMessages="true" />
-
-	<env name="MHRSTEST">
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL"
-			hostname="196.35.1.82" port="20822" connections="1" autotimeout="7000"
-			poolMaxWaitTime="15000" />
+	
+	<env
+		name="MHRSTEST"
+	>
+		
+		<pool
+			autotimeout="7000"
+			connections="1"
+			dropClientOnError="false"
+			hostname="196.35.1.82"
+			id="COBOL"
+			poolMaxWaitTime="15000"
+			port="20822"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="MHRSTCLM">
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL"
-			hostname="196.35.1.82" port="20824" connections="1" autotimeout="7000"
-			poolMaxWaitTime="15000" />
+	<server
+		__system_out_="sweeperTraf.system.out"
+		diagPort="10101"
+		internalMessages="true"
+		logConfigFile="log4j.xml"
+		name="Solutio Sweeper Traf"
+		port="10100"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="SolutioSweeper"
+	/>
+	<env
+		name="MHRSTCLM"
+	>
+		
+		<pool
+			autotimeout="7000"
+			connections="1"
+			dropClientOnError="false"
+			hostname="196.35.1.82"
+			id="COBOL"
+			poolMaxWaitTime="15000"
+			port="20824"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="MHRSTMED">
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL"
-			hostname="196.35.1.82" port="20826" connections="1" autotimeout="7000"
-			poolMaxWaitTime="15000" />
+	<env
+		name="MHRSTMED"
+	>
+		
+		<pool
+			autotimeout="7000"
+			connections="1"
+			dropClientOnError="false"
+			hostname="196.35.1.82"
+			id="COBOL"
+			poolMaxWaitTime="15000"
+			port="20826"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<!-- Log File Parameters  -->
 	<transaction
-		class="InterfaceTransactions.DefaultImplementation.DefaultTransaction" />
+		class="InterfaceTransactions.DefaultImplementation.DefaultTransaction"
+	/>
 	<transaction-header
-		class="InterfaceTransactions.DefaultImplementation.DefaultHeader" />
-
-
-	<pool-definitions-file name="pool.xml" />
-
-	<snmp-port mibFile="mibs.xml">10102</snmp-port>
-
-	<synchronous-transactions>true</synchronous-transactions>
-
-	<tailWatchServer id="Sweeper" tcpipPort="10103"
-		multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="Sweeper" tcpipPort="20104"
-		multicast-host-ip="" multicast-port="-1" />
-
-	<logger classname="InterfaceTransactions.Diagnostics.SolutioLogger"
+		class="InterfaceTransactions.DefaultImplementation.DefaultHeader"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		10102
+	</snmp-port>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<tailWatchServer
+		id="Sweeper"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="10103"
+	/>
+	<diagTailWatchServer
+		id="Sweeper"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20104"
+	/>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.SolutioLogger"
+		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
-		logDirectory="log/accesslog-test">
+	>
+		
 		<claimsLogger
-			poolId="generic"
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
-			logTable="Sweeper"
-			DbUserName="traffic"
 			DbPassword="IR0b0t"
-			minpoolsize="1"
+			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="Sweeper"
 			maxpoolsize="2"
-			timeout="600000">
-		<logTransactions desc="comma seperated list of transactions to log" value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH" />
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH"
+			/>
 		</claimsLogger>
 	</logger>
-
-
 </Enviroments>
 

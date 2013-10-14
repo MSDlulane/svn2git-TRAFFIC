@@ -1,76 +1,132 @@
-<?xml version="1.0"?>
-<!--
-startDisabled: Primary must start is a disabled state
-waitForSyncToFinishTimeout: max time in ms to wait for backup to
-finish synchronization autoEnable: if true then connector will
-automatically be enabled when the SYNC_STOP event is received
-autoDisable: if true then connector will disable itself as soon as it
-switches to the backup
--->
 <Enviroments>
-	<!-- Global Server Parameters -->
-	<server trxSizeLimit="10240000" trxAbortSizeLimit="10240000"
-		cmdPasswd="1q2w3e" sendTrxDetailsToStatusMonitor="true"
-		tradingPartner="Check" name="Gui Applications" active="true"
-		autoDisable="false" port="30800" diagPort="30801" logConfigFile="log4j.xml"
-	__system_out="pojas.system.out" />
 	
-	<env name="MHRSTEST" mhgAccount="MHRSTEST">
-		<pool id="COBOL" hostname="196.35.1.82" port="20822"
-		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
+	<server
+		__system_out="pojas.system.out"
+		active="true"
+		autoDisable="false"
+		cmdPasswd="1q2w3e"
+		diagPort="30801"
+		logConfigFile="log4j.xml"
+		name="Gui Applications"
+		port="30800"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="Check"
+		trxAbortSizeLimit="10240000"
+		trxSizeLimit="10240000"
+	/>
+	<env
+		mhgAccount="MHRSTEST"
+		name="MHRSTEST"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="2"
+			hostname="196.35.1.82"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="20822"
+		/>
 	</env>
-
-	<multicastDiagServer multicast-host-ip="225.225.225.225" multicast-port="30000" />
-
-	<serverConfig useBufferedOutputStreamInPool="true" afterConnectorSleepTime="0" />
-
-	<pool-definitions-file name="pool.xml"
-			defaultCOBOL_ConnectorClass="InterfaceTransactions.Solutio.CobolConnector"/>
-
-	<snmp-port mibFile="mibs.xml">30802</snmp-port>
-	<tailWatchServer id="Mediswitch" tcpipPort="30803"
-	multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="Mediswitch" tcpipPort="30804"
-	multicast-host-ip="" multicast-port="-1" />
-
-	<synchronous-transactions>true</synchronous-transactions>
-
+	<serverConfig
+		afterConnectorSleepTime="0"
+		useBufferedOutputStreamInPool="true"
+	/>
+	<multicastDiagServer
+		multicast-host-ip="225.225.225.225"
+		multicast-port="30000"
+	/>
+	<pool-definitions-file
+		defaultCOBOL_ConnectorClass="InterfaceTransactions.Solutio.CobolConnector"
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		30802
+	</snmp-port>
+	<tailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="30803"
+	/>
+	<diagTailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="30804"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
 	<transaction
-		class="InterfaceTransactions.Solutio.MhrsSendTransaction" />
+		class="InterfaceTransactions.Solutio.MhrsSendTransaction"
+	/>
 	<transaction-header
-		class="InterfaceTransactions.DefaultImplementation.DefaultHeader" />
-
-	<transaction-x-ref>
-		<x-ref tradingPartner="1" mhg="ELCHECK" functionNo="0001"
-		description="Elegibility check" />
-		<x-ref tradingPartner="3" mhg="REALCLM" functionNo="0002"
-		description="Realtime doctor Medicine claims" />
-		<x-ref tradingPartner="4" mhg="REALCLM" functionNo="0004"
-		description="Realtime doctor claims" />
-		<x-ref tradingPartner="127" mhg="PING" functionNo="0008"
-		description="Ping" isPingOrHandshake="true" />
+		class="InterfaceTransactions.DefaultImplementation.DefaultHeader"
+	/>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
 	</transaction-x-ref>
-
-	<destination-x-ref>
-		<x-ref tradingPartner="MHRSTEST" mhg="MHRSTEST" functionMask="FFFF" description="MHRSTEST" />
+	<destination-x-ref	>
+		
+		<x-ref
+			description="MHRSTEST"
+			functionMask="FFFF"
+			mhg="MHRSTEST"
+			tradingPartner="MHRSTEST"
+		/>
 	</destination-x-ref>
-
-	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logFileRefreshInterval="Daily" 
-		processSleepTime="1000" 
-		logDirectory="log/accesslog-gems">
-		<claimsLogger 
-			poolId="generic" 
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT" 
-			logTable="Solutio" 
-			DbUserName="traffic" 
-			DbPassword="IR0b0t" 
-			minpoolsize="1" 
-			maxpoolsize="2" 
-			timeout="600000">
-			<logTransactions desc="comma seperated list of transactions to log" value="*" />
+			DbPassword="IR0b0t"
+			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="Solutio"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="*"
+			/>
 		</claimsLogger>
 	</logger>
-
 </Enviroments>
+

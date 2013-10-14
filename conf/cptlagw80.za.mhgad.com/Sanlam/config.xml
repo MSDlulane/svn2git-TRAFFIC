@@ -1,4 +1,5 @@
 <Enviroments>
+	
 	<server
 		__system_out="default"
 		cmdPasswd="p34nu7"
@@ -13,6 +14,7 @@
 	<env
 		name="SANLAMBEN"
 	>
+		
 		<pool
 			autotimeout="30000"
 			connections="10"
@@ -34,7 +36,7 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-	20302
+		20302
 	</snmp-port>
 	<tailWatchServer
 		id="SANLAM"
@@ -48,18 +50,20 @@
 		multicast-port="-1"
 		tcpipPort="20304"
 	/>
-	<synchronous-transactions>
-	true
+	<synchronous-transactions	>
+		true
 	</synchronous-transactions>
-	<transaction-x-ref>
+	<transaction-x-ref	>
+		
 		<x-ref
-			tradingPartner="1"
-			mhg="BENLOOKUP"
-			functionNo="0001"
 			description="Benefit look-up"
+			functionNo="0001"
+			mhg="BENLOOKUP"
+			tradingPartner="1"
 		/>
 	</transaction-x-ref>
-	<destination-x-ref>
+	<destination-x-ref	>
+		
 		<x-ref
 			description="Benefit Requests to Sanlam Health"
 			functionMask="FFFF"
@@ -73,6 +77,7 @@
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 	>
+		
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbPassword="IR0b0t"
@@ -84,6 +89,7 @@
 			poolId="generic"
 			timeout="600000"
 		>
+			
 			<logTransactions
 				desc="comma seperated list of transactions to log"
 				value="*"

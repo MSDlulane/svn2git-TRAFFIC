@@ -1,76 +1,74 @@
-<?xml version="1.0"?>
 <Enviroments>
-	<!-- Global Server Parameters -->
+	
 	<server
-		trxSizeLimit="512000"
-		trxAbortSizeLimit="512000"
-		name="PPN"
-		port="20855"
+		__system_out="default"
 		diagPort="20856"
 		logConfigFile="log4j.xml"
-		__system_out="default"
+		name="PPN"
+		port="20855"
+		trxAbortSizeLimit="512000"
+		trxSizeLimit="512000"
 	/>
-
-	<!-- List of Environments that this server can talk to -->
 	<env
 		name="AMED"
 	>
+		
 		<pool
-			useSoTimeOut="false"
-			stickyStandin="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
 			autoDisable="true"
+			autoDisableOnSyncStart="true"
 			autoEnable="true"
-			id="COBOL"
-			hostname="cptlapp90.za.mhgad.com"
-			port="9106"
-			connections="10"
+			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
 			poolMaxWaitTime="28000"
+			port="9106"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 		<pool
-			id="JEE"
-			hostname="cptlacp01.za.mhgad.com"
-			port="1099"
-			connections="100"
 			autotimeout="120000"
+			connections="100"
+			hostname="cptlacp01.za.mhgad.com"
+			id="JEE"
 			poolMaxWaitTime="10000"
+			port="1099"
 		/>
 	</env>
-
 	<env
 		name="POLMED"
 	>
+		
 		<pool
-			id="COBOL"
-			useSoTimeOut="false"
-			stickyStandin="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
 			autoDisable="true"
+			autoDisableOnSyncStart="true"
 			autoEnable="true"
-			hostname="cptlapp90.za.mhgad.com"
-			port="9109"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
 			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="28000"/>
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9109"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 		<pool
-			id="JEE"
-			hostname="cptlacp01.za.mhgad.com"
-			port="1099"
-			connections="100"
 			autotimeout="120000"
+			connections="100"
+			hostname="cptlacp01.za.mhgad.com"
+			id="JEE"
 			poolMaxWaitTime="10000"
+			port="1099"
 		/>
 	</env>
-
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionPlainTextInput"
 	/>
@@ -83,207 +81,208 @@
 		20857
 	</snmp-port>
 	<pool-definitions-file
-		name="pool.xml"
 		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+		name="pool.xml"
 	/>
-
-	<transaction-x-ref>
+	<transaction-x-ref	>
+		
 		<x-ref
-			tradingPartner="1"
-			mhg="ELCHECK"
-			functionNo="0001"
 			description="Elegibility check"
+			functionNo="0001"
+			mhg="ELCHECK"
+			tradingPartner="1"
 		/>
 		<x-ref
-			tradingPartner="2"
-			mhg="REALCLM"
-			functionNo="000A"
 			description="Realtime Pharmacy Medicine claims"
+			functionNo="000A"
+			mhg="REALCLM"
+			tradingPartner="2"
 		/>
 		<x-ref
-			tradingPartner="3"
-			mhg="REALCLM"
-			functionNo="0002"
 			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
 		/>
 		<x-ref
-			tradingPartner="4"
-			mhg="REALCLM"
-			functionNo="0004"
 			description="Realtime doctor claims"
-		/>
-		<x-ref
-			tradingPartner="5"
+			functionNo="0004"
 			mhg="REALCLM"
-			functionNo="0010"
-			description="Realtime doctor"
+			tradingPartner="4"
 		/>
 		<x-ref
-			tradingPartner="6"
-			mhg="POJAS_SOL_VALIDATE_PATIENT"
-			functionNo="FFFF"
 			description="POJAS_SOL_VALIDATE_PATIENT"
+			functionNo="FFFF"
+			mhg="POJAS_SOL_VALIDATE_PATIENT"
+			tradingPartner="6"
 		/>
 		<x-ref
-			tradingPartner="127"
-			mhg="PING"
+			description="Realtime doctor"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
+		/>
+		<x-ref
+			description="Ping"
 			functionNo="0008"
-			isPingOrHandshake="true" description="Ping"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
 		/>
 	</transaction-x-ref>
-
-	<destination-x-ref>
+	<destination-x-ref	>
+		
 		<x-ref
-			tradingPartner="PA001"
-			mhg="AMED"
-			functionMask="FFFF"
 			description="BANKMED: Dentists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA001"
 		/>
 		<x-ref
-			tradingPartner="PA002"
-			mhg="AMED"
-			functionMask="FFFF"
 			description="BANKMED: Pathologists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA002"
 		/>
 		<x-ref
-			tradingPartner="PA003"
-			mhg="AMED"
-			functionMask="FFFF"
 			description="BANKMED: Specialists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA003"
 		/>
 		<x-ref
-			tradingPartner="PA004"
-			mhg="AMED"
-			functionMask="FFFF"
 			description="BANKMED:Optometrists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA004"
 		/>
 		<x-ref
-			tradingPartner="PA005"
-			mhg="AMED"
-			functionMask="FFFF"
 			description="BANKMED:Radiologists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA005"
 		/>
 		<x-ref
-			tradingPartner="PA006"
-			mhg="AMED"
-			functionMask="FFFF"
 			description="BANKMED: Oncologists "
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA006"
 		/>
 		<x-ref
-			tradingPartner="PA007"
-			mhg="AMED"
-			functionMask="FFFF"
 			description="BANKMED: Physiotherapists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA007"
 		/>
 		<x-ref
-			tradingPartner="PA008"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BANKMED: Other"
-		/>
-		<x-ref
-			tradingPartner="PA009"
-			mhg="AMED"
-			functionMask="FFFF"
 			description="BANKMED: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA009"
 		/>
 		<x-ref
-			tradingPartner="P5001"
-			mhg="POLMED"
+			description="BANKMED: Other"
 			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA008"
+		/>
+		<x-ref
 			description="POLMED: Dentists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5001"
 		/>
 		<x-ref
-			tradingPartner="P5002"
-			mhg="POLMED"
-			functionMask="FFFF"
 			description="POLMED: Pathologists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5002"
 		/>
 		<x-ref
-			tradingPartner="P5003"
-			mhg="POLMED"
-			functionMask="FFFF"
 			description="POLMED: Specialists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5003"
 		/>
 		<x-ref
-			tradingPartner="P5004"
-			mhg="POLMED"
-			functionMask="FFFF"
 			description="POLMED:Optometrists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5004"
 		/>
 		<x-ref
-			tradingPartner="P5005"
-			mhg="POLMED"
-			functionMask="FFFF"
 			description="POLMED:Radiologists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5005"
 		/>
 		<x-ref
-			tradingPartner="P5006"
-			mhg="POLMED"
-			functionMask="FFFF"
 			description="POLMED: Oncologists "
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5006"
 		/>
 		<x-ref
-			tradingPartner="P5007"
-			mhg="POLMED"
-			functionMask="FFFF"
 			description="POLMED: Physiotherapists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5007"
 		/>
 		<x-ref
-			tradingPartner="P5008"
-			mhg="POLMED"
-			functionMask="FFFF"
 			description="POLMED: Other"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5008"
 		/>
 		<x-ref
-			tradingPartner="P5009"
-			mhg="POLMED"
-			functionMask="FFFF"
 			description="POLMED: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5009"
 		/>
 	</destination-x-ref>
-
 	<tailWatchServer
 		id="PPNPat"
-		tcpipPort="20858"
 		multicast-host-ip=""
 		multicast-port="-1"
+		tcpipPort="20858"
 	/>
-
 	<diagTailWatchServer
 		id="PPNPat"
-		tcpipPort="20859"
 		multicast-host-ip=""
 		multicast-port="-1"
+		tcpipPort="20859"
 	/>
-
 	<inputDataServer
 		id="PPNPat"
-		tcpipPort="20860"
 		multicast-host-ip=""
 		multicast-port="-1"
+		tcpipPort="20860"
 	/>
-
 	<logger
 		classname="InterfaceTransactions.Diagnostics.SolutioLogger"
+		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
-		logDirectory="log/PPN/accesslog">
-
+	>
+		
 		<claimsLogger
-				poolId="generic"
-				DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-				DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
-				logTable="PPN"
-				DbUserName="pojas"
-				DbPassword="newmed"
-				minpoolsize="1"
-				maxpoolsize="2"
-				timeout="600000">
-				<logTransactions
-					desc="comma seperated list of transactions to log"
-					value="REALCLM,TRGXML01,CHGCLAIM,PPNAUTH"
-				/>
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="newmed"
+			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
+			DbUserName="pojas"
+			logTable="PPN"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM,TRGXML01,CHGCLAIM,PPNAUTH"
+			/>
 		</claimsLogger>
 	</logger>
 </Enviroments>
+

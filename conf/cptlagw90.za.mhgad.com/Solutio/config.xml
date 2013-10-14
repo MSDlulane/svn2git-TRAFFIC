@@ -73,6 +73,9 @@
 			/>
 		</pool>
 	</env>
+	<transaction
+		class="InterfaceTransactions.Solutio.SolutioTransaction"
+	/>
 	<server
 		__system_out="default"
 		autoTestConnectorsOnStartup="false"
@@ -82,9 +85,6 @@
 		port="20820"
 		trxAbortSizeLimit="512000"
 		trxSizeLimit="512000"
-	/>
-	<transaction
-		class="InterfaceTransactions.Solutio.SolutioTransaction"
 	/>
 	<transaction-header
 		class="InterfaceTransactions.Solutio.SolutioHeader"
@@ -164,7 +164,7 @@
 	</transaction-transform>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.SolutioLogger"
-		logDirectory="log/Solutio/accesslog"
+		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 	>

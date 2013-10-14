@@ -1,135 +1,353 @@
-<?xml version="1.0"?>
 <Enviroments>
-
-	<server sendTrxDetailsToStatusMonitor="true" tradingPartner="Sweeper" name="Standin Sweeper Traf Test"
-		port="10300" diagPort="10301" trxSizeLimit="256000" trxAbortSizeLimit="512000"
-		logConfigFile="log4j.xml" __system_out="sweeperTraf.system.out" internalMessages="true"/>
-
-	<!-- List of Environments that this server can talk to -->
-	<env name="AMED" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9107" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="30000" />
+	
+	<server
+		__system_out="sweeperTraf.system.out"
+		diagPort="10301"
+		internalMessages="true"
+		logConfigFile="log4j.xml"
+		name="Standin Sweeper Traf Test"
+		port="10300"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="Sweeper"
+		trxAbortSizeLimit="512000"
+		trxSizeLimit="256000"
+	/>
+	<env
+		name="AMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9107"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="BP" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9107" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="BP"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9107"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="FISHMED" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9107" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="FISHMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9107"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="GEMS" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9110" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="60000" />
+	<env
+		name="GEMS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9110"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="GENESIS" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9114" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="60000" />
+	<env
+		name="GENESIS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9114"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="GOLDEN" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9107" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="GOLDEN"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9107"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="IMPERIAL" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9114" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="IMPERIAL"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9114"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="MEDIPOS" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9115" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="MEDIPOS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9115"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="NEWMED" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9108" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="20000" />
+	<env
+		name="NEWMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="20000"
+			port="9108"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="NIMAS" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9113" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="60000" />
+	<env
+		name="NIMAS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9113"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="NETCARE" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9113" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="60000" />
+	<env
+		name="NETCARE"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9113"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="MIDMED" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9113" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="60000" />
+	<env
+		name="MIDMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9113"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="PGG" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9113" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="60000" />
+	<env
+		name="PGG"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9113"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="POLMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9109"
-		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
+	<env
+		name="POLMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9109"
+		/>
 	</env>
-
-	<env name="REMEDI" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9107" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="REMEDI"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9107"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="SAMWU" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9105" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="SAMWU"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9105"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="WOOLTRU" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90" port="9107" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="WOOLTRU"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9107"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="RANDW" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9118" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="60000" />
+	<env
+		name="RANDW"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9118"
+			useSoTimeOut="false"
+		/>
 	</env>
-
-	<env name="PROTEKTA" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9117" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="60000" />
+	<env
+		name="PROTEKTA"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9117"
+			useSoTimeOut="false"
+		/>
 	</env>
-	<!-- Log File Parameters  -->
-
-	<transaction        class="InterfaceTransactions.DefaultImplementation.DefaultTransaction" />
-	<transaction-header class="InterfaceTransactions.DefaultImplementation.DefaultHeader" />
-
-	<pool-definitions-file name="pool.xml" />
-
-	<snmp-port mibFile="mibs.xml">10102</snmp-port>
-
-	<synchronous-transactions>true</synchronous-transactions>
-
-	<tailWatchServer id="Sweeper" tcpipPort="10303" multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="Sweeper" tcpipPort="10304" multicast-host-ip="" multicast-port="-1" />
-
-	<logger classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
+	<transaction
+		class="InterfaceTransactions.DefaultImplementation.DefaultTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.DefaultImplementation.DefaultHeader"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		10102
+	</snmp-port>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<tailWatchServer
+		id="Sweeper"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="10303"
+	/>
+	<diagTailWatchServer
+		id="Sweeper"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="10304"
+	/>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
+		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
-		logDirectory="log/accesslog-test">
+	>
+		
 		<claimsLogger
-			poolId="generic"
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
-			logTable="DHSPolmed"
-			DbUserName="traffic"
 			DbPassword="IR0b0t"
-			minpoolsize="1"
+			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="DHSPolmed"
 			maxpoolsize="2"
-			timeout="600000">
-		<logTransactions desc="comma seperated list of transactions to log" value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH" />
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH"
+			/>
 		</claimsLogger>
 	</logger>
-
 </Enviroments>
+

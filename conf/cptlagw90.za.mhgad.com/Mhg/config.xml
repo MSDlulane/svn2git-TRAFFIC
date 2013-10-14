@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
 <Enviroments>
+	
 	<server
 		__system_out="pojas.system.out"
 		active="true"
@@ -19,6 +19,7 @@
 		mhgAccount="AMED"
 		name="AMED"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -67,6 +68,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -90,6 +92,7 @@
 		mhgAccount="PROTEKTA"
 		name="PROTEKTA"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -138,6 +141,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -157,11 +161,11 @@
 			/>
 		</pool>
 	</env>
-
 	<env
 		mhgAccount="AMED"
 		name="JBoss"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="10"
@@ -175,6 +179,7 @@
 		mhgAccount="IMAGE"
 		name="JBossW"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="10"
@@ -187,6 +192,7 @@
 	<env
 		name="IMPERIAL"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -235,6 +241,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -257,6 +264,7 @@
 	<env
 		name="MEDIPOS"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -305,6 +313,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -328,6 +337,7 @@
 		mhgAccount="HUM"
 		name="HUM"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -368,6 +378,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -391,6 +402,7 @@
 		mhgAccount="NEWMED"
 		name="NEWMED"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -439,6 +451,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -462,6 +475,7 @@
 		mhgAccount="RANDW"
 		name="RANDWATER"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -510,6 +524,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -533,6 +548,7 @@
 		mhgAccount="REDRIB"
 		name="REDRIB"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -581,6 +597,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -604,6 +621,7 @@
 		mhgAccount="GEMS"
 		name="GEMS"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -652,6 +670,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -675,6 +694,7 @@
 		mhgAccount="POLMED"
 		name="POLMED"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -723,6 +743,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -746,6 +767,7 @@
 		mhgAccount="PILIR"
 		name="PILIR"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -794,6 +816,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -817,6 +840,7 @@
 		mhgAccount="PILIRT"
 		name="PILIRT"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -865,6 +889,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -888,6 +913,7 @@
 		mhgAccount="NIMAS"
 		name="NIMAS"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -936,6 +962,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -959,6 +986,7 @@
 		mhgAccount="GENESIS"
 		name="GENESIS"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -999,6 +1027,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1022,6 +1051,7 @@
 		mhgAccount="SAMWU"
 		name="SAMWU"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -1070,6 +1100,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1093,6 +1124,7 @@
 		mhgAccount="SYSTEM"
 		name="SYSTEM"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1133,6 +1165,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1156,6 +1189,7 @@
 		mhgAccount="SHARE"
 		name="SHARE"
 	>
+		
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -1188,6 +1222,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1219,6 +1254,7 @@
 		mhgAccount="WORKFLOW"
 		name="WORKFLOW"
 	>
+		
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -1251,6 +1287,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1282,6 +1319,7 @@
 		mhgAccount="GAME_LOCAL"
 		name="GAME_LOCAL"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1322,6 +1360,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1345,6 +1384,7 @@
 		mhgAccount="PRICE"
 		name="PRICE"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1385,6 +1425,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1408,6 +1449,7 @@
 		mhgAccount="SPINE"
 		name="SPINE"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1448,6 +1490,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1471,6 +1514,7 @@
 		mhgAccount="CMS"
 		name="CMS"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1511,6 +1555,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1534,6 +1579,7 @@
 		mhgAccount="IMAGE"
 		name="IMAGE"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1574,6 +1620,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1597,6 +1644,7 @@
 		mhgAccount="SPINELOG"
 		name="SPINELOG"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1637,6 +1685,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1660,6 +1709,7 @@
 		mhgAccount="UTILITY"
 		name="UTILITY"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1700,6 +1750,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
+			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1731,6 +1782,7 @@
 		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		name="pool.xml"
 	>
+		
 		<pool_
 			account="AMED"
 			class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
@@ -1749,7 +1801,7 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-	30602
+		30602
 	</snmp-port>
 	<tailWatchServer
 		id="Mediswitch"
@@ -1784,6 +1836,7 @@
 		useTqFunctionIfNoTpe="true"
 	/>
 	<transaction-x-ref	>
+		
 		<x-ref
 			description="Elegibility check"
 			functionNo="0001"
@@ -1811,6 +1864,7 @@
 		/>
 	</transaction-x-ref>
 	<destination-x-ref	>
+		
 		<x-ref
 			description="Mediclinic Bankmed"
 			functionMask="FFFF"
@@ -2064,16 +2118,16 @@
 			tradingPartner="P18"
 		/>
 		<x-ref
-			description="Samwu option B"
-			functionMask="FFFF"
-			mhg="SAMWUB"
-			tradingPartner="P17"
-		/>
-		<x-ref
 			description="GEMS Acpt"
 			functionMask="FFFF"
 			mhg="GEMS"
 			tradingPartner="P19"
+		/>
+		<x-ref
+			description="Samwu option B"
+			functionMask="FFFF"
+			mhg="SAMWUB"
+			tradingPartner="P17"
 		/>
 		<x-ref
 			description="PILIR Acpt"
@@ -2159,7 +2213,6 @@
 			mhg="PROTEKTA"
 			tradingPartner="PROTEKTA"
 		/>
-
 		<x-ref
 			description="SHARE access"
 			functionMask="FFFF"
@@ -2329,6 +2382,7 @@
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 	>
+		
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbPassword="newmed"
@@ -2340,6 +2394,7 @@
 			poolId="generic"
 			timeout="600000"
 		>
+			
 			<logTransactions
 				desc="comma seperated list of transactions to log"
 				value="*"

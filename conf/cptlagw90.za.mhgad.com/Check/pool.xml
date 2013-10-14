@@ -1,5 +1,8 @@
-<?xml version="1.0"?>
 <pool-classes>
-   <pool id="COBOL" class="InterfaceTransactions.Solutio.CobolConnector" />
+	
+	<pool
+		class="InterfaceTransactions.Solutio.CobolConnector"
+		id="COBOL"
+	/>
 </pool-classes>
 

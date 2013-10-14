@@ -1,4 +1,5 @@
 <Enviroments>
+	
 	<server
 		__system_out__="pojas.system.out"
 		active="true"
@@ -17,6 +18,7 @@
 		mhgAccount="AMED"
 		name="AMED"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -54,6 +56,7 @@
 		mhgAccount="PROTEKTA"
 		name="PROTEKTA"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -87,13 +90,10 @@
 			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
-	<multicastDiagServer
-		multicast-host-ip="225.225.225.225"
-		multicast-port="40000"
-	/>
 	<env
 		name="IMPERIAL"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -127,10 +127,15 @@
 			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
+	<multicastDiagServer
+		multicast-host-ip="225.225.225.225"
+		multicast-port="40000"
+	/>
 	<env
 		mhgAccount="GEMS"
 		name="GEMS"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -168,6 +173,7 @@
 		mhgAccount="AMED"
 		name="JBoss"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="10"
@@ -181,6 +187,7 @@
 		mhgAccount="IMAGE"
 		name="JBossW"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="10"
@@ -193,6 +200,7 @@
 	<env
 		name="MEDIPOS"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -230,6 +238,7 @@
 		mhgAccount="POLMED"
 		name="POLMED"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -267,6 +276,7 @@
 		mhgAccount="SHARE"
 		name="SHARE"
 	>
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
@@ -296,6 +306,7 @@
 		mhgAccount="SYSTEM"
 		name="SYSTEM"
 	>
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
@@ -325,6 +336,7 @@
 		mhgAccount="WORKFLOW"
 		name="WORKFLOW"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="10"
@@ -354,6 +366,7 @@
 		mhgAccount="GAME_LOCAL"
 		name="GAME_LOCAL"
 	>
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
@@ -383,6 +396,7 @@
 		mhgAccount="NOTIFY"
 		name="NOTIFY"
 	>
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
@@ -412,6 +426,7 @@
 		mhgAccount="PRICE"
 		name="PRICE"
 	>
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
@@ -441,6 +456,7 @@
 		mhgAccount="SPINE"
 		name="SPINE"
 	>
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
@@ -462,6 +478,7 @@
 		mhgAccount="IMAGE"
 		name="IMAGE"
 	>
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
@@ -491,6 +508,7 @@
 		mhgAccount="SPINELOG"
 		name="SPINELOG"
 	>
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
@@ -520,6 +538,7 @@
 		mhgAccount="PILIR"
 		name="PILIR"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -557,6 +576,7 @@
 		mhgAccount="NIMAS"
 		name="NIMAS"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -594,6 +614,7 @@
 		mhgAccount="GENESIS"
 		name="GENESIS"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -631,6 +652,7 @@
 		mhgAccount="REDRIB"
 		name="REDRIB"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -668,6 +690,7 @@
 		mhgAccount="VITAL"
 		name="VITAL"
 	>
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
@@ -697,6 +720,7 @@
 		mhgAccount="UTILITY"
 		name="UTILITY"
 	>
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
@@ -726,6 +750,7 @@
 		mhgAccount="SIGMA"
 		name="SIGMA"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -763,6 +788,7 @@
 		mhgAccount="SAMWU"
 		name="SAMWU"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -800,6 +826,7 @@
 		mhgAccount="NEWMED"
 		name="NEWMED"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -837,6 +864,7 @@
 		mhgAccount="RANDW"
 		name="RANDWATER"
 	>
+		
 		<pool
 			autotimeout="120000"
 			connections="2"
@@ -878,6 +906,7 @@
 		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		name="pool.xml"
 	>
+		
 		<pool_
 			account="AMED"
 			class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
@@ -896,7 +925,7 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-	40602
+		40602
 	</snmp-port>
 	<tailWatchServer
 		id="Mediswitch"
@@ -925,6 +954,7 @@
 		useTqFunctionIfNoTpe="true"
 	/>
 	<transaction-x-ref	>
+		
 		<x-ref
 			description="Elegibility check"
 			functionNo="0001"
@@ -952,6 +982,7 @@
 		/>
 	</transaction-x-ref>
 	<destination-x-ref	>
+		
 		<x-ref
 			description="Bankmed"
 			functionMask="FFFF"
@@ -1061,16 +1092,16 @@
 			tradingPartner="P18"
 		/>
 		<x-ref
-			description="Samwu option B"
-			functionMask="FFFF"
-			mhg="SAMWUB"
-			tradingPartner="P17"
-		/>
-		<x-ref
 			description="GEMS Dev"
 			functionMask="FFFF"
 			mhg="GEMS"
 			tradingPartner="P19"
+		/>
+		<x-ref
+			description="Samwu option B"
+			functionMask="FFFF"
+			mhg="SAMWUB"
+			tradingPartner="P17"
 		/>
 		<x-ref
 			description="PILIR Dev"
@@ -1175,16 +1206,16 @@
 			tradingPartner="P88"
 		/>
 		<x-ref
-			description="Common Database"
-			functionMask="FFFF"
-			mhg="COMMON"
-			tradingPartner="P87"
-		/>
-		<x-ref
 			description="Local GAME Database"
 			functionMask="FFFF"
 			mhg="GAME_LOCAL"
 			tradingPartner="P89"
+		/>
+		<x-ref
+			description="Common Database"
+			functionMask="FFFF"
+			mhg="COMMON"
+			tradingPartner="P87"
 		/>
 		<x-ref
 			description="LDAP Query"
@@ -1223,12 +1254,6 @@
 			tradingPartner="P96"
 		/>
 		<x-ref
-			description="Image Database"
-			functionMask="FFFF"
-			mhg="IMAGE"
-			tradingPartner="P95"
-		/>
-		<x-ref
 			description="Utilities"
 			functionMask="FFFF"
 			mhg="UTILITY"
@@ -1237,14 +1262,20 @@
 		<x-ref
 			description="Image Database"
 			functionMask="FFFF"
-			mhg="SPINELOG"
-			tradingPartner="P97"
+			mhg="IMAGE"
+			tradingPartner="P95"
 		/>
 		<x-ref
 			description="Share Connection"
 			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="P99"
+		/>
+		<x-ref
+			description="Image Database"
+			functionMask="FFFF"
+			mhg="SPINELOG"
+			tradingPartner="P97"
 		/>
 		<x-ref
 			description="Bankmed"
@@ -1591,7 +1622,7 @@
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
-		logDirectory="log/accesslog-test"
+		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 	/>
