@@ -3029,7 +3029,7 @@
 		<x-ref
 			description="Transmed"
 			functionMask="0000"
-			mhg="TRANSMED"
+			mhg="NEWMED"
 			tradingPartner="P02"
 		/>
 		<x-ref

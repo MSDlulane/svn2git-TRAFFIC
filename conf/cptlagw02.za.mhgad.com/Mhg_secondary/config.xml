@@ -1147,7 +1147,7 @@ switches to the backup
 			description="Bankmed" />
 		<x-ref tradingPartner="P01" mhg="NEWMED" functionMask="0000"
 			description="Openplan" />
-		<x-ref tradingPartner="P02" mhg="TRANSMED" functionMask="0000"
+		<x-ref tradingPartner="P02" mhg="NEWMED" functionMask="0000"
 			description="Transmed" />
 		<x-ref tradingPartner="P03" mhg="AMED" functionMask="0000"
 			description="Woolthru" />
