@@ -6,10 +6,10 @@
 		autoDisable="false"
 		autoTestConnectorsOnStartup="false"
 		cmdPasswd="1q2w3e"
-		diagPort="30601"
+		diagPort="30667"
 		logConfigFile="log4j.xml"
 		name="Gui Applications"
-		port="30600"
+		port="30666"
 		sendTrxDetailsToStatusMonitor="true"
 		tradingPartner="QUI ACPT"
 		trxAbortSizeLimit="10240000"
@@ -1807,19 +1807,19 @@
 		id="Mediswitch"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30603"
+		tcpipPort="30668"
 	/>
 	<diagTailWatchServer
 		id="Mediswitch"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30604"
+		tcpipPort="30669"
 	/>
 	<inputDataServer
 		id="Mediswitch"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30605"
+		tcpipPort="30670"
 	/>
 	<synchronous-transactions	/>
 	<transaction_
