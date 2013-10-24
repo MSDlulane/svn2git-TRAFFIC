@@ -17,6 +17,10 @@
 		id="JEE"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 	>
+	<pool
+		id="JEE_BACKUP"
+		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
+	>
 		<tq-function
 			name="Authorisation_2011_04_01.RequestHandler"
 			targetBeanName="Authorisation_2011_04_01.RequestHandler"
