@@ -24,11 +24,24 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptleap01.za.mhgad.com"
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="10"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		
+		
+		
 	</env>
 	<multicastDiagServer
 		multicast-host-ip="225.225.225.225"
@@ -86,11 +99,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>		
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -156,11 +179,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -194,11 +227,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -232,11 +275,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -270,11 +323,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -309,11 +372,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -348,11 +421,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -387,11 +470,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -426,11 +519,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -456,11 +559,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -486,11 +599,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -516,11 +639,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -576,11 +709,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -606,11 +749,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -674,11 +827,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -713,11 +876,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -752,11 +925,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com"
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -791,11 +974,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -821,11 +1014,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -851,11 +1054,21 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap01.za.mhgad.com "
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
 		<pool
 			autoDisabled="false"
 			autoDisabledOnSyncStart="true"
