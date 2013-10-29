@@ -4,7 +4,11 @@
 		id="COBOL"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	/>
-	
+	<pool
+		id="JEE_BACKUP"
+		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
+	/>
+
 	<pool
 		id="JEE"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
