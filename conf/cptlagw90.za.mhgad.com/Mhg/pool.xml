@@ -191,7 +191,380 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
+		<tq-function
+			desc=""
+			name="GET_MEMBEN"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="WF_GET_MULTIPART_TRANSITIONS"
+			targetBeanName="SpnDetails" />
+		<tq-function
+			desc=""
+			name="WF_LIST_PROCESS_QUEUE_NAMES_BY_USER"
+			targetBeanName="QueueManagement" />
 
+		<tq-function
+			desc=""
+			name="WF_MAINTAIN_NODE_TRANSITION"
+			targetBeanName="NodeManagement" />
+
+		<tq-function
+			desc=""
+			name="SET_WORKFLOW_AVAILABLE"
+			targetBeanName="MulticastSender" />
+		<tq-function
+			desc=""
+			name="WF_ASSIGN_ITEM"
+			targetBeanName="AssignItem" />
+		<tq-function
+			desc=""
+			name="WF_ASSIGN_ITEM2"
+			targetBeanName="AssignItem2" />
+
+		<tq-function
+			desc=""
+			name="WF_COMPLETE_ITEM"
+			targetBeanName="CompleteItem" />
+		<tq-function
+			desc=""
+			name="WF_CREATE_ENQWORK"
+			targetBeanName="CreateEnqWork" />
+
+		<tq-function
+			desc=""
+			name="WF_DEPLOY_PROCESS_DEFINITION"
+			targetBeanName="ProcessDefinitionManagement" />
+		<tq-function
+			desc=""
+			name="WF_FORCE_COMPLETE_ITEM"
+			targetBeanName="ForceCompleteItem" />
+
+		<tq-function
+			desc=""
+			name="WF_GET_ALL_COUNTS"
+			targetBeanName="QueueDetails2" />
+
+		<tq-function
+			desc=""
+			name="WF_GET_FILTERED_TRANSITIONS"
+			targetBeanName="TransitionFilter" />
+
+		<tq-function
+			desc=""
+			name="WF_GET_INBOX_COUNT"
+			targetBeanName="InboxDetails" />
+		<tq-function
+			desc=""
+			name="WF_GET_ITEM"
+			targetBeanName="ItemDetails" />
+
+		<tq-function
+			desc=""
+			name="WF_GET_PROCESS_DEFINITION"
+			targetBeanName="ProcessDefinitionManagement" />
+		<tq-function
+			desc=""
+			name="WF_GET_MEMBER_OPEN_ITEMS"
+			targetBeanName="OpenItemDetails" />
+
+		<tq-function
+			desc=""
+			name="WF_GET_PROCESS_DEFINITION_BY_ID"
+			targetBeanName="ProcessDefinitionManagement" />
+
+		<tq-function
+			desc=""
+			name="WF_GET_PROCESS_VARIABLES"
+			targetBeanName="ProcessVariableInformation" />
+		<tq-function
+			desc=""
+			name="WF_GET_SPN_DETAILS"
+			targetBeanName="SpnDetails" />
+		<tq-function
+			desc=""
+			name="WF_GET_QUEUE_COUNT"
+			targetBeanName="QueueDetails" />
+
+		<tq-function
+			desc=""
+			name="WF_INITIATE_PRIORITY_PROCESS"
+			targetBeanName="ProcessManagement" />
+		<tq-function
+			desc=""
+			name="WF_INITIATE_PROCESS"
+			targetBeanName="ProcessManagement" />
+		<tq-function
+			desc=""
+			name="WF_INVOKE_QC_PUTINSRT"
+			targetBeanName="QualityCheckPutinsrtInvoker" />
+		<tq-function
+			desc=""
+			name="WF_LIST_ASSIGNED_ITEMS"
+			targetBeanName="ListAssignedItems" />
+		<tq-function
+			desc=""
+			name="WF_LIST_PROCESS_DEFINITION_NAMES"
+			targetBeanName="ProcessDefinitionManagement" />
+		<tq-function
+			desc=""
+			name="WF_LIST_USERNAMES_BY_WORKFLOW"
+			targetBeanName="ListUsernames" />
+		<tq-function
+			desc=""
+			name="WF_LIST_QUEUE_NAMES_BY_USER"
+			targetBeanName="QueueManagement" />
+		<tq-function
+			desc=""
+			name="WF_LIST_UNASSIGNED_QUEUE_NAMES_BY_USER"
+			targetBeanName="QueueManagement" />
+		<tq-function
+			desc=""
+			name="WF_LIST_USER_WITH_QUEUE_ACCESS"
+			targetBeanName="ListUserDetailsWithQueueAccess" />
+		<tq-function
+			desc=""
+			name="WF_LOG_ADHOC_ITEM"
+			targetBeanName="AdhocItem" />
+		<tq-function
+			desc=""
+			name="WF_LOG_INCOMPLETE_ITEM"
+			targetBeanName="IncompleteItem" />
+		<tq-function
+			desc=""
+			name="WF_REASSIGN_ITEM"
+			targetBeanName="ReassignItemManagement" />
+		<tq-function
+			desc=""
+			name="WF_RELOAD_SPN_DETAILS"
+			targetBeanName="SpnDetails" />
+		<tq-function
+			desc=""
+			name="WF_RESUME_PROCESS"
+			targetBeanName="ResumeProcess" />
+		<tq-function
+			desc=""
+			name="WF_SET_PRIORITY_BY_PROCESS"
+			targetBeanName="ItemPriorityManagementByProcess" />
+		<tq-function
+			desc=""
+			name="WF_SET_PRIORITY"
+			targetBeanName="ItemPriorityManagement" />
+		<tq-function
+			desc=""
+			name="WF_START_ITEM"
+			targetBeanName="AssignedItemManagement" />
+
+		<tq-function
+			desc=""
+			name="WF_UNASSIGN_ITEM"
+			targetBeanName="UnassignItemManagement" />
+
+
+
+		<tq-function
+			desc=""
+			name="ASSIGN_WORKFLOW"
+			targetBeanName="MulticastSender" />
+
+		<tq-function
+			desc=""
+			name="ADD_SERVICE_LOGGING"
+			targetBeanName="AddServiceLog" />
+		<tq-function
+			desc=""
+			name="ADD_DYNAMIC_SERVICE"
+			targetBeanName="MulticastSender" />
+		<tq-function
+			desc=""
+			name="ADD_MULTIDYNAMIC_SERVICE"
+			targetBeanName="MulticastSender" />
+		<tq-function
+			desc=""
+			name="ADD_REGULAR_SERVICE"
+			targetBeanName="MulticastSender" />
+		<tq-function
+			desc=""
+			name="BANKMED_CORE_SAVER"
+			targetBeanName="Bankmed" />
+		<tq-function
+			desc=""
+			name="ADD_WEB_SERVICE"
+			targetBeanName="WebServiceManagement" />
+
+		<tq-function
+			desc=""
+			name="CONNECTION_INFO"
+			targetBeanName="SystemManagement" />
+
+		<tq-function
+			desc=""
+			name="DELETE_SERVICE"
+			targetBeanName="MulticastSender" />
+		<tq-function
+			desc=""
+			name="DELETE_WEB_SERVICE"
+			targetBeanName="WebServiceManagement" />
+		<tq-function
+			desc=""
+			name="DYNAMIC_SELECT"
+			targetBeanName="DynamicSelect" />
+
+		<tq-function
+			desc=""
+			name="ECHO"
+			targetBeanName="Echo" />
+
+		<tq-function
+			desc=""
+			name="ENVIRONMENT_INFO"
+			targetBeanName="SystemManagement" />
+		<tq-function
+			desc=""
+			name="EXECUTE_WEB_SERVICE"
+			targetBeanName="WebServiceExecutor" />
+		<tq-function
+			desc=""
+			name="FRIENDS_OF_GEMS"
+			targetBeanName="FriendsOfGems" />
+
+		<tq-function
+			desc=""
+			name="GET_DYNAMIC_SERVICE"
+			targetBeanName="ListServicesNames" />
+		<tq-function
+			desc=""
+			name="GET_IMAGE_URL_SEE"
+			targetBeanName="GetImage" />
+		<tq-function
+			desc=""
+			name="GET_MULTIDYNAMIC_SERVICE"
+			targetBeanName="ListServicesNames" />
+		<tq-function
+			desc=""
+			name="GET_REGULAR_SERVICE"
+			targetBeanName="ListServicesNames" />
+		<tq-function
+			desc=""
+			name="GET_WAP_IMAGE_WITH_ID"
+			targetBeanName="WAPInterface" />
+
+		<tq-function
+			desc=""
+			name="LISTALLSERVICESNAMES"
+			targetBeanName="ListServicesNames" />
+		<tq-function
+			desc=""
+			name="LIST_BUSINESS_OBJECTS"
+			targetBeanName="BusinessObjectManagement" />
+		<tq-function
+			desc=""
+			name="LIST_DYNAMIC_SERVICES_NAMES"
+			targetBeanName="ListServicesNames" />
+		<tq-function
+			desc=""
+			name="LIST_MULTIDYNAMIC_SERVICES"
+			targetBeanName="ListServicesNames" />
+		<tq-function
+			desc=""
+			name="LIST_MULTIDYNAMIC_SERVICES_NAMES"
+			targetBeanName="ListServicesNames" />
+		<tq-function
+			desc=""
+			name="LIST_REGULAR_SERVICES"
+			targetBeanName="ListServicesNames" />
+		<tq-function
+			desc=""
+			name="LIST_REGULAR_SERVICES_NAMES"
+			targetBeanName="ListServicesNames" />
+
+		<tq-function
+			desc=""
+			name="NIMASSMS_RECEIVE_REPLY"
+			targetBeanName="Nimas" />
+		<tq-function
+			desc=""
+			name="NIMASSMS_RECEIVE_REPLY_OLD"
+			targetBeanName="NimasReceiveReply" />
+		<tq-function
+			desc=""
+			name="NOTIFY_SEE"
+			targetBeanName="NotificationSender" />
+		<tq-function
+			desc=""
+			name="PING"
+			targetBeanName="Echo" />
+		<tq-function
+			desc=""
+			name="POJAS_SOL_AUTHORISATION_SEE"
+			targetBeanName="HospitalAuthorisation" />
+		<tq-function
+			desc=""
+			name="POLEMDSMS_RECEIVE_REPLY"
+			targetBeanName="Polmed" />
+		<tq-function
+			desc=""
+			name="POJAS_SOL_VALIDATE_PATIENT_SEE"
+			targetBeanName="ValidatePatient" />
+		<tq-function
+			desc=""
+			name="POLMEDSMS_RECEIVE_REPLY"
+			targetBeanName="Polmed" />
+		<tq-function
+			desc=""
+			name="QUALSA_STORE_RESULTS"
+			targetBeanName="StoreResults" />
+		<tq-function
+			desc=""
+			name="QUI_GET_USER_APP_CONFIG"
+			targetBeanName="UserAppConfig" />
+		<tq-function
+			desc=""
+			name="REALAUTH_SEND_AUTH"
+			targetBeanName="McAuthSender" />
+		<tq-function
+			desc=""
+			name="REALAUTH_RECEIVE_AUTH"
+			targetBeanName="McAuthReceiver" />
+		<tq-function
+			desc=""
+			name="RELOAD_JARS"
+			targetBeanName="DeployJarManager" />
+		<tq-function
+			desc=""
+			name="REMOVE_ALL_SERVICE_LOGGING"
+			targetBeanName="RemoveAllServiceLog" />
+		<tq-function
+			desc=""
+			name="REMOVE_SERVICE_LOGGING"
+			targetBeanName="RemoveServiceLog" />
+
+		<tq-function
+			desc=""
+			name="SMS_REQUEST_SEE"
+			targetBeanName="SmsRequestHandler" />
+		<tq-function
+			desc=""
+			name="STRING_TEST"
+			targetBeanName="StringTest" />
+		<tq-function
+			desc=""
+			name="SYSTEM_INFO"
+			targetBeanName="SystemManagement" />
+		<tq-function
+			desc=""
+			name="VCT"
+			targetBeanName="VCT" />
+
+		<tq-function
+			desc=""
+			name="Validate_Login"
+			targetBeanName="Login" />
+
+	</pool>
+	<pool
+		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+		id="WAS">
 		<tq-function
 			desc=""
 			name="GET_MEMBER_BY_SURNAME"
@@ -206,20 +579,8 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="WF_GET_MULTIPART_TRANSITIONS"
-			targetBeanName="SpnDetails" />
-		<tq-function
-			desc=""
-			name="WF_LIST_PROCESS_QUEUE_NAMES_BY_USER"
-			targetBeanName="QueueManagement" />
-		<tq-function
-			desc=""
 			name="QUI_CLOSE_WORKFLOW"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_MAINTAIN_NODE_TRANSITION"
-			targetBeanName="NodeManagement" />
 		<tq-function
 			desc=""
 			name="QUI_LIST_ALLOCATED_WORKFLOWS"
@@ -234,28 +595,8 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="SET_WORKFLOW_AVAILABLE"
-			targetBeanName="MulticastSender" />
-		<tq-function
-			desc=""
-			name="WF_ASSIGN_ITEM"
-			targetBeanName="AssignItem" />
-		<tq-function
-			desc=""
-			name="WF_ASSIGN_ITEM2"
-			targetBeanName="AssignItem2" />
-		<tq-function
-			desc=""
 			name="WF_ATTACH_ADD_IMAGE"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_COMPLETE_ITEM"
-			targetBeanName="CompleteItem" />
-		<tq-function
-			desc=""
-			name="WF_CREATE_ENQWORK"
-			targetBeanName="CreateEnqWork" />
 		<tq-function
 			desc=""
 			name="WF_DELETE_GROUP_TASK"
@@ -272,14 +613,7 @@
 			desc=""
 			name="WF_DELETE_TASK_VARIABLES"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_DEPLOY_PROCESS_DEFINITION"
-			targetBeanName="ProcessDefinitionManagement" />
-		<tq-function
-			desc=""
-			name="WF_FORCE_COMPLETE_ITEM"
-			targetBeanName="ForceCompleteItem" />
+
 		<tq-function
 			desc=""
 			name="WF_FORCE_COMPLETE_PROCESS"
@@ -288,10 +622,7 @@
 			desc=""
 			name="WF_FORCE_COMPLETE_TASK"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_GET_ALL_COUNTS"
-			targetBeanName="QueueDetails2" />
+
 		<tq-function
 			desc=""
 			name="WF_GET_ATTACH"
@@ -346,8 +677,140 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="WF_GET_FILTERED_TRANSITIONS"
-			targetBeanName="TransitionFilter" />
+			name="WFDBPICKUP_OUTSTANDING"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="zFoG_VALIDATEMEMBER"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="zGET_MEMBER_DETAILS2"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="zGET_MEMBER_SUSPEND"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="zGET_MEMBER_PIN"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="zMEMBER_ALL_BY_MEMBERID"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="WFDBPICKUP_ERROR"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="SELECT_JBPME_VAR_USER_TASK"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="MONITOR_DB"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="INSERT_JBPME_GROUP_TASK"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="INSERT_JBPME_VAR_USER_TASK"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_OpenItemsForSameMember"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_SearchForImageNo"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_SearchForMember"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_SearchForUser"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_ViewWorkflowQueueItems"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_ViewWorkflowQueueItemsSchemeSpecific"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_ViewWorkflowQueueItemsSchemeSpecificAsc"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_WorkflowUsers"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_getAdditionalTaskVariables"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_getProcessInfo"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_getProcessInfoByProcess"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_getProcessNames"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_getProcessVariables"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_getProcessVariablesByTask"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_getTaskInfo"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_getTaskNames"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_getTaskVariables"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_listAllWfComments"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_listAssignedItems"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_listAssignedItemsSchemeSpecific"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_listCompletedItems"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_listCompletedItemsSchemeSpecific"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="JBPM_listOtherComments"
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="WF_GET_ENQWORK"
@@ -356,14 +819,6 @@
 			desc=""
 			name="WF_GET_GROUPS_FOR_PROCESS"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_GET_INBOX_COUNT"
-			targetBeanName="InboxDetails" />
-		<tq-function
-			desc=""
-			name="WF_GET_ITEM"
-			targetBeanName="ItemDetails" />
 		<tq-function
 			desc=""
 			name="WF_GET_ITEM_DURATION"
@@ -386,36 +841,12 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="WF_GET_PROCESS_DEFINITION"
-			targetBeanName="ProcessDefinitionManagement" />
-		<tq-function
-			desc=""
-			name="WF_GET_MEMBER_OPEN_ITEMS"
-			targetBeanName="OpenItemDetails" />
-		<tq-function
-			desc=""
 			name="WF_GET_PROCESS_DEFINITIONS"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="WF_GET_PROCESS_DEFINITION_BY_ID"
-			targetBeanName="ProcessDefinitionManagement" />
-		<tq-function
-			desc=""
 			name="WF_GET_PROCESS_ID"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_GET_PROCESS_VARIABLES"
-			targetBeanName="ProcessVariableInformation" />
-		<tq-function
-			desc=""
-			name="WF_GET_SPN_DETAILS"
-			targetBeanName="SpnDetails" />
-		<tq-function
-			desc=""
-			name="WF_GET_QUEUE_COUNT"
-			targetBeanName="QueueDetails" />
 		<tq-function
 			desc=""
 			name="WF_GET_QUEUE_ITEMS"
@@ -474,14 +905,6 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="WF_INITIATE_PRIORITY_PROCESS"
-			targetBeanName="ProcessManagement" />
-		<tq-function
-			desc=""
-			name="WF_INITIATE_PROCESS"
-			targetBeanName="ProcessManagement" />
-		<tq-function
-			desc=""
 			name="WF_INSERT_GROUP_TASK"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -504,82 +927,20 @@
 			desc=""
 			name="WF_INSERT_TASK_VARIABLE"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_INVOKE_QC_PUTINSRT"
-			targetBeanName="QualityCheckPutinsrtInvoker" />
-		<tq-function
-			desc=""
-			name="WF_LIST_ASSIGNED_ITEMS"
-			targetBeanName="ListAssignedItems" />
-		<tq-function
-			desc=""
-			name="WF_LIST_PROCESS_DEFINITION_NAMES"
-			targetBeanName="ProcessDefinitionManagement" />
-		<tq-function
-			desc=""
-			name="WF_LIST_USERNAMES_BY_WORKFLOW"
-			targetBeanName="ListUsernames" />
-		<tq-function
-			desc=""
-			name="WF_LIST_QUEUE_NAMES_BY_USER"
-			targetBeanName="QueueManagement" />
-		<tq-function
-			desc=""
-			name="WF_LIST_UNASSIGNED_QUEUE_NAMES_BY_USER"
-			targetBeanName="QueueManagement" />
-		<tq-function
-			desc=""
-			name="WF_LIST_USER_WITH_QUEUE_ACCESS"
-			targetBeanName="ListUserDetailsWithQueueAccess" />
-		<tq-function
-			desc=""
-			name="WF_LOG_ADHOC_ITEM"
-			targetBeanName="AdhocItem" />
+
 		<tq-function
 			desc=""
 			name="WF_QUEUE_Items_MemberDependant_Details"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="WF_LOG_INCOMPLETE_ITEM"
-			targetBeanName="IncompleteItem" />
-		<tq-function
-			desc=""
-			name="WF_REASSIGN_ITEM"
-			targetBeanName="ReassignItemManagement" />
-		<tq-function
-			desc=""
-			name="WF_RELOAD_SPN_DETAILS"
-			targetBeanName="SpnDetails" />
-		<tq-function
-			desc=""
-			name="WF_RESUME_PROCESS"
-			targetBeanName="ResumeProcess" />
-		<tq-function
-			desc=""
 			name="WF_SEARCH_UNCONTEXTUALISED"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_SET_PRIORITY_BY_PROCESS"
-			targetBeanName="ItemPriorityManagementByProcess" />
-		<tq-function
-			desc=""
-			name="WF_SET_PRIORITY"
-			targetBeanName="ItemPriorityManagement" />
-		<tq-function
-			desc=""
-			name="WF_START_ITEM"
-			targetBeanName="AssignedItemManagement" />
+
 		<tq-function
 			desc=""
 			name="WF_SUBPROCESS_KEY_VALUE"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_UNASSIGN_ITEM"
-			targetBeanName="UnassignItemManagement" />
 		<tq-function
 			desc=""
 			name="WF_UPDATE_ENQWORK"
@@ -775,10 +1136,6 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="ASSIGN_WORKFLOW"
-			targetBeanName="MulticastSender" />
-		<tq-function
-			desc=""
 			name="GET_WF_CASE_TRACKER_REF_REPORT"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -827,40 +1184,12 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="ADD_SERVICE_LOGGING"
-			targetBeanName="AddServiceLog" />
-		<tq-function
-			desc=""
-			name="ADD_DYNAMIC_SERVICE"
-			targetBeanName="MulticastSender" />
-		<tq-function
-			desc=""
-			name="ADD_MULTIDYNAMIC_SERVICE"
-			targetBeanName="MulticastSender" />
-		<tq-function
-			desc=""
-			name="ADD_REGULAR_SERVICE"
-			targetBeanName="MulticastSender" />
-		<tq-function
-			desc=""
-			name="BANKMED_CORE_SAVER"
-			targetBeanName="Bankmed" />
-		<tq-function
-			desc=""
-			name="ADD_WEB_SERVICE"
-			targetBeanName="WebServiceManagement" />
-		<tq-function
-			desc=""
 			name="CAREPLAN_SCHEDULE_BY_PATIENT"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="CONTACT_UPDATE_INSERT_VCT"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="CONNECTION_INFO"
-			targetBeanName="SystemManagement" />
 		<tq-function
 			desc=""
 			name="CPTMASTER_SEARCH"
@@ -879,24 +1208,8 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="DELETE_SERVICE"
-			targetBeanName="MulticastSender" />
-		<tq-function
-			desc=""
-			name="DELETE_WEB_SERVICE"
-			targetBeanName="WebServiceManagement" />
-		<tq-function
-			desc=""
-			name="DYNAMIC_SELECT"
-			targetBeanName="DynamicSelect" />
-		<tq-function
-			desc=""
 			name="Delete_from_RISKDET"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="ECHO"
-			targetBeanName="Echo" />
 		<tq-function
 			desc=""
 			name="ENQUIRY_UPDATE_VITEL"
@@ -907,292 +1220,12 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="ENVIRONMENT_INFO"
-			targetBeanName="SystemManagement" />
-		<tq-function
-			desc=""
-			name="EXECUTE_WEB_SERVICE"
-			targetBeanName="WebServiceExecutor" />
-		<tq-function
-			desc=""
-			name="FRIENDS_OF_GEMS"
-			targetBeanName="FriendsOfGems" />
-		<tq-function
-			desc=""
 			name="GEMS_GET_DOCTORS_NETWORK_INFO_COUNT"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="GETIPAPROVIDERCOUNT"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_DYNAMIC_SERVICE"
-			targetBeanName="ListServicesNames" />
-		<tq-function
-			desc=""
-			name="GET_IMAGE_URL_SEE"
-			targetBeanName="GetImage" />
-		<tq-function
-			desc=""
-			name="GET_MULTIDYNAMIC_SERVICE"
-			targetBeanName="ListServicesNames" />
-		<tq-function
-			desc=""
-			name="GET_REGULAR_SERVICE"
-			targetBeanName="ListServicesNames" />
-		<tq-function
-			desc=""
-			name="GET_WAP_IMAGE_WITH_ID"
-			targetBeanName="WAPInterface" />
-		<tq-function
-			desc=""
-			name="INSERT_JBPME_GROUP_TASK"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="INSERT_JBPME_VAR_USER_TASK"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_OpenItemsForSameMember"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_SearchForImageNo"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_SearchForMember"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_SearchForUser"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_ViewWorkflowQueueItems"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_ViewWorkflowQueueItemsSchemeSpecific"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_ViewWorkflowQueueItemsSchemeSpecificAsc"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_WorkflowUsers"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_getAdditionalTaskVariables"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_getProcessInfo"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_getProcessInfoByProcess"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_getProcessNames"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_getProcessVariables"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_getProcessVariablesByTask"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_getTaskInfo"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_getTaskNames"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_getTaskVariables"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_listAllWfComments"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_listAssignedItems"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_listAssignedItemsSchemeSpecific"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_listCompletedItems"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_listCompletedItemsSchemeSpecific"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="JBPM_listOtherComments"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="LISTALLSERVICESNAMES"
-			targetBeanName="ListServicesNames" />
-		<tq-function
-			desc=""
-			name="LIST_BUSINESS_OBJECTS"
-			targetBeanName="BusinessObjectManagement" />
-		<tq-function
-			desc=""
-			name="LIST_DYNAMIC_SERVICES_NAMES"
-			targetBeanName="ListServicesNames" />
-		<tq-function
-			desc=""
-			name="LIST_MULTIDYNAMIC_SERVICES"
-			targetBeanName="ListServicesNames" />
-		<tq-function
-			desc=""
-			name="LIST_MULTIDYNAMIC_SERVICES_NAMES"
-			targetBeanName="ListServicesNames" />
-		<tq-function
-			desc=""
-			name="LIST_REGULAR_SERVICES"
-			targetBeanName="ListServicesNames" />
-		<tq-function
-			desc=""
-			name="LIST_REGULAR_SERVICES_NAMES"
-			targetBeanName="ListServicesNames" />
-		<tq-function
-			desc=""
-			name="MONITOR_DB"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="NIMASSMS_RECEIVE_REPLY"
-			targetBeanName="Nimas" />
-		<tq-function
-			desc=""
-			name="NIMASSMS_RECEIVE_REPLY_OLD"
-			targetBeanName="NimasReceiveReply" />
-		<tq-function
-			desc=""
-			name="NOTIFY_SEE"
-			targetBeanName="NotificationSender" />
-		<tq-function
-			desc=""
-			name="PING"
-			targetBeanName="Echo" />
-		<tq-function
-			desc=""
-			name="POJAS_SOL_AUTHORISATION_SEE"
-			targetBeanName="HospitalAuthorisation" />
-		<tq-function
-			desc=""
-			name="POLEMDSMS_RECEIVE_REPLY"
-			targetBeanName="Polmed" />
-		<tq-function
-			desc=""
-			name="POJAS_SOL_VALIDATE_PATIENT_SEE"
-			targetBeanName="ValidatePatient" />
-		<tq-function
-			desc=""
-			name="POLMEDSMS_RECEIVE_REPLY"
-			targetBeanName="Polmed" />
-		<tq-function
-			desc=""
-			name="QUALSA_STORE_RESULTS"
-			targetBeanName="StoreResults" />
-		<tq-function
-			desc=""
-			name="QUI_GET_USER_APP_CONFIG"
-			targetBeanName="UserAppConfig" />
-		<tq-function
-			desc=""
-			name="REALAUTH_SEND_AUTH"
-			targetBeanName="McAuthSender" />
-		<tq-function
-			desc=""
-			name="REALAUTH_RECEIVE_AUTH"
-			targetBeanName="McAuthReceiver" />
-		<tq-function
-			desc=""
-			name="RELOAD_JARS"
-			targetBeanName="DeployJarManager" />
-		<tq-function
-			desc=""
-			name="REMOVE_ALL_SERVICE_LOGGING"
-			targetBeanName="RemoveAllServiceLog" />
-		<tq-function
-			desc=""
-			name="REMOVE_SERVICE_LOGGING"
-			targetBeanName="RemoveServiceLog" />
-		<tq-function
-			desc=""
-			name="SELECT_JBPME_VAR_USER_TASK"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="SMS_REQUEST_SEE"
-			targetBeanName="SmsRequestHandler" />
-		<tq-function
-			desc=""
-			name="STRING_TEST"
-			targetBeanName="StringTest" />
-		<tq-function
-			desc=""
-			name="SYSTEM_INFO"
-			targetBeanName="SystemManagement" />
-		<tq-function
-			desc=""
-			name="VCT"
-			targetBeanName="VCT" />
-		<tq-function
-			desc=""
-			name="WFDBPICKUP_ERROR"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="Validate_Login"
-			targetBeanName="Login" />
-		<tq-function
-			desc=""
-			name="WFDBPICKUP_OUTSTANDING"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="zFoG_VALIDATEMEMBER"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="zGET_MEMBER_DETAILS2"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="zGET_MEMBER_SUSPEND"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="zGET_MEMBER_PIN"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="zMEMBER_ALL_BY_MEMBERID"
-			targetBeanName="DynamicQueryExecutor" />
-	</pool>
-	<pool
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-		id="WAS">
 		<tq-function
 			desc=""
 			name="SPBioKineticsStaleCheck"
@@ -1908,7 +1941,7 @@
 		<tq-function
 			desc=""
 			name="GET_MICRO_ALL"
-			targetBeanName="DynamicQueryExecutor" />		
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="Get_Doctor_s_prt_overflow"
@@ -3885,10 +3918,7 @@
 			desc=""
 			name="GET_PATIENT_INDICATORS"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_MEMBEN"
-			targetBeanName="DynamicQueryExecutor" />
+
 		<tq-function
 			desc=""
 			name="CLAIM_BY_DOC_SCH_MBR_ROW"
