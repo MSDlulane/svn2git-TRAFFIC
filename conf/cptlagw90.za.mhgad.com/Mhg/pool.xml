@@ -194,6 +194,14 @@
 
 		<tq-function
 			desc=""
+			name="GET_MEMBER_BY_SURNAME"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="GET_MEMBER_DETAILS"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="MEMBERONLINE_MICSERIALBYTYPE"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -1259,10 +1267,6 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="GET_MEMBER_DETAILS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
 			name="Get_Member_Details"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -1904,11 +1908,7 @@
 		<tq-function
 			desc=""
 			name="GET_MICRO_ALL"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_MEMBER_BY_SURNAME"
-			targetBeanName="DynamicQueryExecutor" />
+			targetBeanName="DynamicQueryExecutor" />		
 		<tq-function
 			desc=""
 			name="Get_Doctor_s_prt_overflow"
