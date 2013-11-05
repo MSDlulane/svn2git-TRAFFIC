@@ -22,13 +22,22 @@
 			connections="20"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
+
 		<pool
 			id="EJB"
-			hostname="cptleap01.za.mhgad.com"
+			hostname="cptleap05.za.mhgad.com"
 			port="1099"
 			connections="100"
 			autotimeout="120000"
-			poolMaxWaitTime="1000" />
+			poolMaxWaitTime="1000">
+			<secondaryPool
+				id="EJB_BACKUP"
+				hostname="cptleap01.za.mhgad.com"
+				port="1099"
+				connections="100"
+				autotimeout="120000"
+				poolMaxWaitTime="1000" />
+		</pool>
 		<pool
 			id="POJAS"
 			useSoTimeOut="false"
