@@ -4,10 +4,6 @@
 		id="COBOL"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	/>
-	<pool
-		id="EJB_BACKUP"
-		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
-	/>
 	
 	<pool
 		id="EJB"
