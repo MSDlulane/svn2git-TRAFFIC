@@ -1601,6 +1601,10 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
+			name="Get_Dependant_Details"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="GET_DEPENDANT_DETAILS_BY_ID"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -1793,6 +1797,10 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
+			name="Get_Member_Details"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="GET_MEMBER_DETAILS_BY_ID"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -1874,6 +1882,10 @@
 		<tq-function
 			desc=""
 			name="GET_NEXTNUM"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="GEt_PATIENT_PROFILE_SCORES"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
@@ -4119,27 +4131,15 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="GEt_PATIENT_PROFILE_SCORES"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
 			name="GET_PATIENT_PROFILE_SCORES"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="GET_MEMBER_DETAILS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="Get_Member_Details"
-			targetBeanName="DynamicQueryExecutor" />
+			targetBeanName="DynamicQueryExecutor" />	
 		<tq-function
 			desc=""
 			name="GET_PROVINCES"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="Get_Dependant_Details"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
