@@ -1793,18 +1793,12 @@
 			desc=""
 			name="GET_MEMBEN"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_MEMBER_BY_SURNAME"
-			targetBeanName="DynamicQueryExecutor" />
+		
 		<tq-function
 			desc=""
 			name="GET_MEMBER_CLAIMS"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_MEMBER_DETAILS"
-			targetBeanName="DynamicQueryExecutor" />
+		
 		<tq-function
 			desc=""
 			name="GET_MEMBER_DETAILS_BY_CONFIRMNO"
@@ -4061,6 +4055,14 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="WAS">
+		<tq-function
+			desc=""
+			name="GET_MEMBER_BY_SURNAME"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="GET_MEMBER_DETAILS"
+			targetBeanName="DynamicQueryExecutor" />
 
 		<tq-function
 			desc=""
