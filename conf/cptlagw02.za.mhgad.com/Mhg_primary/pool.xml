@@ -11,7 +11,7 @@
 		id="POJAS_SLOW_BACKUP" />
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
-		id="JEE_BACKUP" >
+		id="JEE_BACKUP">
 		<tq-function
 			desc=""
 			name="PROVIDER_LOOKUP_SERVICE"
@@ -137,7 +137,7 @@
 			desc=""
 			name="PROVIDER_LETTER_INFO_SERVICE"
 			targetBeanName="PROVIDER_LETTER_INFO_SERVICE" />
-		
+
 		<tq-function
 			desc=""
 			name="PROV_LET_INFO_SEARCH_BY_PRAC_NO"
@@ -4138,7 +4138,7 @@
 		<tq-function
 			desc=""
 			name="GET_MEMBER_DETAILS"
-			targetBeanName="DynamicQueryExecutor" />	
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="GET_PROVINCES"
