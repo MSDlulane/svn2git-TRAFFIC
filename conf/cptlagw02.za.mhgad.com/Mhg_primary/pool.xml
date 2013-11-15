@@ -851,6 +851,10 @@
 		id="POJAS">
 		<tq-function
 			desc=""
+			name="SPBioKineticsStaleCheck"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="MEMBERONLINE_MICSERIALBYTYPE"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -4066,10 +4070,6 @@
 		<tq-function
 			desc=""
 			name="GET_MEMBER_BY_SURNAME"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="SPBioKineticsStaleCheck"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
