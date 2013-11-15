@@ -14,9 +14,13 @@
 	/>
 	<pool
 		id="JEE_BACKUP"
-		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
-	/>
-
+		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector">
+		<tq-function
+			name="PROVIDER_LOOKUP_SERVICE"
+			targetBeanName="PROVIDER_LOOKUP_SERVICE"
+			desc=""
+		/>
+	</pool>
 	<pool
 		id="JEE"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
@@ -165,12 +169,7 @@
 			name="PROVIDER_LETTER_INFO_SERVICE"
 			targetBeanName="PROVIDER_LETTER_INFO_SERVICE"
 			desc=""
-		/>
-		<tq-function
-			name="PROVIDER_LOOKUP_SERVICE"
-			targetBeanName="PROVIDER_LOOKUP_SERVICE"
-			desc=""
-		/>
+		/>		
 		<tq-function
 			name="PROV_LET_INFO_SEARCH_BY_PRAC_NO"
 			targetBeanName="PROV_LET_INFO_SEARCH_BY_PRAC_NO"
