@@ -7,6 +7,10 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 		id="JEE">
+			<tq-function
+			desc=""
+			name="REALAUTH_GET_FUNCTION"
+			targetBeanName="DynamicQueryExecutor" />
 
 		<tq-function
 			desc=""
@@ -3915,10 +3919,6 @@
 		<tq-function
 			desc=""
 			name="RESULTS_CALCULATIONS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="REALAUTH_GET_FUNCTION"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
