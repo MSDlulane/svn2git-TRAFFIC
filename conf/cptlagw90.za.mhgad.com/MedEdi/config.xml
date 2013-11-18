@@ -360,9 +360,9 @@
 		
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbPassword="IR0b0t"
-			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
-			DbUserName="traffic"
+			DbPassword="newmed00"
+			DbUrl="jdbc:sybase:Tds:cptlsyb82.za.mhgad.com:7500/JBAUDIT_ARCH"
+			DbUserName="xmdpro"
 			logTable="Mededi"
 			maxpoolsize="2"
 			minpoolsize="1"
