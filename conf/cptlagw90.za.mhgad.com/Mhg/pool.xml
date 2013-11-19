@@ -195,6 +195,10 @@
 
 		<tq-function
 			desc=""
+			name="GET_PROVIDER_GP_NETWORK"
+			targetBeanName="DynamicQueryExecutor" />t
+		<tq-function
+			desc=""
 			name="MEMBERONLINE_MICSERIALBYTYPE"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
