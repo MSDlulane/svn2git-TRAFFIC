@@ -194,6 +194,14 @@
 		id="POJAS">
 		<tq-function
 			desc=""
+			name="GET_AUTH_INFORMATION"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="REALAUTH_GET_FUNCTION"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="GET_MEMBEN"
 			targetBeanName="DynamicQueryExecutor" />
 
@@ -3915,10 +3923,7 @@
 			desc=""
 			name="RESULTS_CALCULATIONS"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="REALAUTH_GET_FUNCTION"
-			targetBeanName="DynamicQueryExecutor" />
+	
 		<tq-function
 			desc=""
 			name="DEBTOR_BY_SCHEME_ACC_TYPE_DATE"
@@ -4078,10 +4083,6 @@
 		<tq-function
 			desc=""
 			name="PILIR_Assessment_Report"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_AUTH_INFORMATION"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
