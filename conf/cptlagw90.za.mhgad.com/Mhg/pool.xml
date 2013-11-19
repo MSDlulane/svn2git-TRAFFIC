@@ -4208,26 +4208,26 @@
 		<tq-function
 			desc=""
 			name="FoG_VALIDATEMEMBER"
-			targetBeanName="DynamicQueryExecutor" />
+			targetBeanName="TQService" />
 		<tq-function
 			desc=""
 			name="GET_MEMBER_DETAILS2"
-			targetBeanName="DynamicQueryExecutor" />
+			targetBeanName="TQService" />
 		<tq-function
 			desc=""
 			name="GET_MEMBER_SUSPEND"
-			targetBeanName="DynamicQueryExecutor" />
+			targetBeanName="TQService" />
 		<tq-function
 			desc=""
 			name="GET_MEMBER_PIN"
-			targetBeanName="DynamicQueryExecutor" />
+			targetBeanName="TQService" />
 		<tq-function
 			desc=""
 			name="MEMBER_ALL_BY_MEMBERID"
-			targetBeanName="DynamicQueryExecutor" />
+			targetBeanName="TQService" />
 		<tq-function
 			desc=""
 			name="zzMEMBERONLINE_GETSCHEMESBYMEMBERNUMBER"
-			targetBeanName="DynamicQueryExecutor" />
+			targetBeanName="TQService" />
 	</pool>
 </pool-classes>
