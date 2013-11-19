@@ -192,12 +192,16 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
+		<tq-function
+			desc=""
+			name="GET_MEMBEN"
+			targetBeanName="DynamicQueryExecutor" />
 
 		<tq-function
 			desc=""
 			name="GET_PROVIDER_GP_NETWORK"
 			targetBeanName="DynamicQueryExecutor" />
-		t
+		
 		<tq-function
 			desc=""
 			name="MEMBERONLINE_MICSERIALBYTYPE"
@@ -3890,10 +3894,6 @@
 		<tq-function
 			desc=""
 			name="GET_PATIENT_INDICATORS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_MEMBEN"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
