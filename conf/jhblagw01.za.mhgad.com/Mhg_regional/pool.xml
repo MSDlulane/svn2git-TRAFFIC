@@ -4,10 +4,12 @@
 		id="COBOL"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	/>
+	
 	<pool
 		id="JEE_BACKUP"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 	/>
+
 	<pool
 		id="JEE"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
@@ -238,6 +240,10 @@
 		id="POJAS"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	>
+		<tq-function
+			desc=""
+			name="GET_PROVIDER_GP_NETWORK"
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			name="GET_ICD_DTPMASTER"
 			targetBeanName="DynamicQueryExecutor"
