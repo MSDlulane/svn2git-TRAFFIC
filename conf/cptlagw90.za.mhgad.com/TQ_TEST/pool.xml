@@ -234,7 +234,12 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS"
 	>
+	</pool>	
 		
+	<pool
+		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+		id="WAS"
+	>
 		<tq-function
 			desc=""
 			name="GET_ICD_DTPMASTER"
@@ -5180,11 +5185,7 @@
 			name="GET_HOSPITAL_GROUPS"
 			targetBeanName="DynamicQueryExecutor"
 		/>
-	</pool>
-	<pool
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-		id="WAS"
-	>
+
 		
 		<tq-function
 			desc=""
