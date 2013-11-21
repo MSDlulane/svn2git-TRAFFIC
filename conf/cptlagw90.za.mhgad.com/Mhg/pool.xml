@@ -194,6 +194,14 @@
 		id="POJAS">
 		<tq-function
 			desc=""
+			name="ENQUIRY_INSERT_VITEL"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="MEMBERONLINE_GETSCHEMESBYMEMBERNUMBER"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="GET_AUTH_INFORMATION"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -1178,26 +1186,7 @@
 			desc=""
 			name="WFDBPICKUP_OUTSTANDING"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="zFoG_VALIDATEMEMBER"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="zGET_MEMBER_DETAILS2"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="zGET_MEMBER_SUSPEND"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="zGET_MEMBER_PIN"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="zMEMBER_ALL_BY_MEMBERID"
-			targetBeanName="DynamicQueryExecutor" />
+		
 
 	</pool>
 	<pool
@@ -1211,10 +1200,7 @@
 			desc=""
 			name="DEPEND_ALL_BY_MEMBERID"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="MEMBERONLINE_GETSCHEMESBYMEMBERNUMBER"
-			targetBeanName="DynamicQueryExecutor" />
+		
 		<tq-function
 			desc=""
 			name="MEMBERONLINE_GETPLANBYSCHEME"
@@ -1359,10 +1345,7 @@
 			desc=""
 			name="QA_GET_QUESTIONAIRETYPE_DESC"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="ENQUIRY_INSERT_VITEL"
-			targetBeanName="DynamicQueryExecutor" />
+		
 		<tq-function
 			desc=""
 			name="QA_GET_QUESTIONAIRES_SUMMARY"
@@ -4226,9 +4209,6 @@
 			desc=""
 			name="MEMBER_ALL_BY_MEMBERID"
 			targetBeanName="TQService" />
-		<tq-function
-			desc=""
-			name="zzMEMBERONLINE_GETSCHEMESBYMEMBERNUMBER"
-			targetBeanName="TQService" />
+	
 	</pool>
 </pool-classes>
