@@ -849,6 +849,10 @@
 		id="POJAS">
 		<tq-function
 			desc=""
+			name="PROVIDER_SEARCH"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="INSERT_MEMBEN"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -3731,10 +3735,6 @@
 		<tq-function
 			desc=""
 			name="Get_GENREFD"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="PROVIDER_SEARCH"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
