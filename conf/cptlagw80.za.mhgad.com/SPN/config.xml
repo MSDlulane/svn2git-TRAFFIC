@@ -25,7 +25,7 @@
 			hostname="cptlapp80.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="15000"
-			port="9106"
+			port="9121"
 		/>
 		<pool
 			autotimeout="120000"
@@ -46,7 +46,7 @@
 			hostname="cptlagw80.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
-			port="33000"
+			port="43000"
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
@@ -67,186 +67,6 @@
 		/>
 	</env>
 	<env
-		name="IMPERIAL"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9105"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		name="MEDIPOS"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9108"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		mhgAccount="HUM"
-		name="HUM"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9106"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		mhgAccount="NEWMED"
-		name="NEWMED"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9107"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		mhgAccount="REDRIB"
-		name="REDRIB"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9111"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
 		mhgAccount="GEMS"
 		name="GEMS"
 	>
@@ -257,7 +77,7 @@
 			hostname="cptlapp80.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="15000"
-			port="9110"
+			port="9126"
 		/>
 		<pool
 			autotimeout="120000"
@@ -278,233 +98,11 @@
 			hostname="cptlagw80.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
-			port="33000"
+			port="43000"
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		/>
-	</env>
-	<env
-		mhgAccount="POLMED"
-		name="POLMED"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9109"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		mhgAccount="PILIR"
-		name="PILIR"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9104"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		mhgAccount="PILIRT"
-		name="PILIRT"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9104"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		mhgAccount="NIMAS"
-		name="NIMAS"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9113"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		mhgAccount="SAMWU"
-		name="SAMWU"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9115"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		mhgAccount="SYSTEM"
-		name="SYSTEM"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-		</pool>
 	</env>
 	<env
 		mhgAccount="SHARE"
@@ -522,7 +120,7 @@
 			hostname="cptlagw80.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
-			port="33000"
+			port="43000"
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
@@ -554,7 +152,7 @@
 			hostname="cptlagw80.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
-			port="33000"
+			port="43000"
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
@@ -594,171 +192,11 @@
 			hostname="cptlagw80.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
-			port="33000"
+			port="43000"
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		/>
-	</env>
-	<env
-		mhgAccount="PRICE"
-		name="PRICE"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-		</pool>
-	</env>
-	<env
-		mhgAccount="SPINE"
-		name="SPINE"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-		</pool>
-	</env>
-	<env
-		mhgAccount="CMS"
-		name="CMS"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-		</pool>
-	</env>
-	<env
-		mhgAccount="IMAGE"
-		name="IMAGE"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-		</pool>
-	</env>
-	<env
-		mhgAccount="SPINELOG"
-		name="SPINELOG"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-		</pool>
 	</env>
 	<env
 		mhgAccount="UTILITY"
@@ -784,7 +222,7 @@
 			hostname="cptlagw80.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
-			port="33000"
+			port="43000"
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
@@ -817,7 +255,7 @@
 			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 			hostName="cptlagw80.za.mhgad.com"
 			id="POJAS"
-			port="33000"
+			port="43000"
 		/>
 	</pool-definitions-file>
 	<snmp-port
