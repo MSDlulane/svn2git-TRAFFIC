@@ -40,22 +40,6 @@
 			poolMaxWaitTime="30000"
 			port="9121"
 		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="30"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="43000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
 	</env>
 	<serverConfig
 		afterConnectorSleepTime="0"
@@ -67,7 +51,6 @@
 	/>
 	<pool-definitions-file
 		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-		name="pool.xml"
 	/>
 	<snmp-port
 		mibFile="mibs.xml"
