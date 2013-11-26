@@ -194,6 +194,10 @@
 		id="POJAS">
 		<tq-function
 			desc=""
+			name="GET_CPT_CODES"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="ENQUIRY_INSERT_VITEL"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -1316,11 +1320,7 @@
 		<tq-function
 			desc=""
 			name="MEMBERONLINE_CLAIMSDETAILS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_CPT_CODES"
-			targetBeanName="DynamicQueryExecutor" />
+			targetBeanName="DynamicQueryExecutor" />		
 		<tq-function
 			desc=""
 			name="ENQWORK_EXITS"
