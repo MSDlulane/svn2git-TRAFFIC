@@ -4,27 +4,7 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="COBOL" />
-	<pool
-		id="COBOL_SLOW"
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
-		<tq-function
-			name="REALAUTH"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="DRGDTL"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="DEDCALC"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="NAPRULE"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-	</pool>
-		
+	
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 		id="JEE">
