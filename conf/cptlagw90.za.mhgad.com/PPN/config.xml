@@ -111,9 +111,9 @@
 			tradingPartner="4"
 		/>
 		<x-ref
-			description="POJAS_SOL_VALIDATE_PATIENT"
+			description="POJAS_PPN_VALIDATE_PATIENT"
 			functionNo="FFFF"
-			mhg="POJAS_SOL_VALIDATE_PATIENT"
+			mhg="POJAS_PPN_VALIDATE_PATIENT"
 			tradingPartner="6"
 		/>
 		<x-ref
