@@ -5,6 +5,7 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="COBOL" />
 	
+		
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 		id="JEE">
@@ -93,6 +94,10 @@
 			desc=""
 			name="POJAS_SOL_AUTHORISATION"
 			targetBeanName="POJAS_SOL_AUTHORISATION" />
+		<tq-function
+			desc=""
+			name="POJAS_PPN_VALIDATE_PATIENT"
+			targetBeanName="POJAS_PPN_VALIDATE_PATIENT" />
 		<tq-function
 			desc=""
 			name="POJAS_SOL_VALIDATE_PATIENT"
