@@ -116,6 +116,11 @@
 		/>
 		<tq-function
 			desc=""
+			name="POJAS_PPN_VALIDATE_PATIENT"
+			targetBeanName="POJAS_PPN_VALIDATE_PATIENT"
+		/>
+		<tq-function
+			desc=""
 			name="PROVIDERS_BY_DISCIPLINE_AND_ADDRESS_SERVICE"
 			targetBeanName="PROVIDERS_BY_DISCIPLINE_AND_ADDRESS_SERVICE"
 		/>
