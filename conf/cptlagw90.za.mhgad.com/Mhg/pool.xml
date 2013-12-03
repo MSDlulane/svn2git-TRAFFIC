@@ -200,6 +200,10 @@
 		id="POJAS">
 		<tq-function
 			desc=""
+			name="Get_Doctor_Group_Details"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="GET_CPT_CODES"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -1242,11 +1246,7 @@
 		<tq-function
 			desc=""
 			name="PROVCLIN_GroupCodeProvId"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="Get_Doctor_Group_Details"
-			targetBeanName="DynamicQueryExecutor" />
+			targetBeanName="DynamicQueryExecutor" />		
 		<tq-function
 			desc=""
 			name="DOCTOR_BY_DOCTORID"
