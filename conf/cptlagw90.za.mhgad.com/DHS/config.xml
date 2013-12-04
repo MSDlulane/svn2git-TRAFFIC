@@ -340,6 +340,31 @@
 			mhg="GEMS"
 			tradingPartner="MGOP0001"
 		/>
+		
+		<x-ref
+			description="MHG: GEMS EMERALD OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGEO0004"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGOO0004"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGRO0006"
+		/>
+		<x-ref
+			description="MHG: BANKMED SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MBSM0001"
+		/>
 		<x-ref
 			description="RTDM0003 - Gems"
 			functionMask="FFFF"
