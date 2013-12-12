@@ -3415,7 +3415,7 @@
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"
-			mhg="RANDWATER"
+			mhg="RANDW"
 			tradingPartner="P28"
 		/>
 		<x-ref
@@ -3637,7 +3637,7 @@
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"
-			mhg="RANDWATER"
+			mhg="RANDW"
 			tradingPartner="Y"
 		/>
 		<x-ref
@@ -3703,7 +3703,7 @@
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"
-			mhg="RANDWATER"
+			mhg="RANDW"
 			tradingPartner="RANDWATER"
 		/>
 		<x-ref
