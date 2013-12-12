@@ -117,6 +117,25 @@
 			tradingPartner="MGES0001"
 		/>
 		<x-ref
+			description="MHG: GEMS EMERALD OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGEO0004"
+		/>
+			<x-ref
+			description="MHG: GEMS ONYX OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOO0004"
+		/>
+			<x-ref
+			description="MHG: GEMS RUBY OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRO0006"
+		/>
+
+		<x-ref
 			description="MHG: GEMS ONYX REALTIME (MEDICAL)"
 			functionMask="FFFF"
 			mhg="GEMS_NON_QPBM"
