@@ -2106,7 +2106,7 @@
 	</env>
 
 	<env
-		name="RANDWATER"
+		name="RANDW"
 		mhgAccount="RANDW">
 		<pool
 			useSoTimeOut="true"
