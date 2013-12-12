@@ -390,6 +390,36 @@
 			tradingPartner="MFRR0001"
 		/>
 		<x-ref
+			description="MHG: GOLDEN ARROW REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GOLDEN"
+			tradingPartner="MGAR0002"
+		/>
+		<x-ref
+			description="MHG: GOLDEN ARROW SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GOLDEN"
+			tradingPartner="MGAS0003"
+		/>
+		<x-ref
+			description="MHG: GOLDEN ARROW REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GOLDEN"
+			tradingPartner="MGAR0003"
+		/>
+		<x-ref
+			description="MHG: GOLDEN ARROW PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GOLDEN"
+			tradingPartner="MGAP0001"
+		/>
+		<x-ref
+			description="MHG: GOLDEN ARROW MEDICLINIC REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GOLDEN"
+			tradingPartner="MGAM0003"
+		/>
+		<x-ref
 			description="MHG: SAPPI REALER RADIO PHYSIO (MEDICAL)"
 			functionMask="FFFF"
 			mhg="AMED"
@@ -802,6 +832,12 @@
 			functionMask="FFFF"
 			mhg="SAMWU"
 			tradingPartner="SMED0010"
+		/>
+		<x-ref
+			description="MHG: SAMWUMED MEDICLINIC REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="MSMR0009"
 		/>
 		<x-ref
 			description="MHG: Real Time Realer claims"
