@@ -3158,7 +3158,7 @@
 			description="Netcare NIMAS" />
 		<x-ref
 			tradingPartner="P28"
-			mhg="RANDWATER"
+			mhg="RANDW"
 			functionMask="FFFF"
 			description="RANDWATER" />
 
@@ -3345,7 +3345,7 @@
 			description="Netcare NIMAS" />
 		<x-ref
 			tradingPartner="Y"
-			mhg="RANDWATER"
+			mhg="RANDW"
 			functionMask="FFFF"
 			description="RANDWATER" />
 
@@ -3401,7 +3401,7 @@
 			description="Wooltru" />
 		<x-ref
 			tradingPartner="RANDWATER"
-			mhg="RANDWATER"
+			mhg="RANDW"
 			functionMask="FFFF"
 			description="RANDWATER" />
 
