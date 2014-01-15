@@ -211,7 +211,7 @@
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
 			poolMaxWaitTime="15000"
-			port="30610"
+			port="40610"
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
