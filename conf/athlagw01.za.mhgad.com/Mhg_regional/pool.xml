@@ -4,13 +4,10 @@
 		id="COBOL"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	/>
+	
 	<pool
-		id="POJAS_BACKUP"
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-	/>
-	<pool
-		id="POJAS_SLOW_BACKUP"
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+		id="JEE_BACKUP"
+		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 	/>
 
 	<pool
@@ -240,35 +237,18 @@
 	</pool>
    
 	<pool
-		id="COBOL_SLOW"
+		id="POJAS"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	>
 		<tq-function
-			name="REALAUTH"
-			targetBeanName="DynamicQueryExecutor"
 			desc=""
-		/>
+			name="GET_PROVIDER_GP_NETWORK"
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
-			name="DRGDTL"
+			name="GET_ICD_DTPMASTER"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
-		<tq-function
-			name="DEDCALC"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-		<tq-function
-			name="NAPRULE"
-			targetBeanName="DynamicQueryExecutor"
-			desc=""
-		/>
-	</pool>
-   
-	<pool
-		id="POJAS_SLOW"
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-	>
 		<tq-function
 			name="WF_LIST_PROCESS_QUEUE_NAMES_BY_USER"
 			targetBeanName="QueueManagement"
@@ -1049,12 +1029,6 @@
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
-	</pool>
-  
-	<pool
-		id="POJAS"
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-	>
 		<tq-function
 			name="Get_DCP_SurveyUser_Section"
 			targetBeanName="DynamicQueryExecutor"
@@ -5219,12 +5193,6 @@
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>	
-	</pool>
-
-	<pool
-		id="WAS"
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-	>
 		<tq-function
 			name="FoG_VALIDATEMEMBER"
 			targetBeanName="DynamicQueryExecutor"
