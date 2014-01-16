@@ -5,12 +5,12 @@
 		active="true"
 		autoDisable="false"
 		cmdPasswd="1q2w3e"
-		diagPort="20601"
+		diagPort="20801"
 		logConfigFile="log4j.xml"
 		maxClientsAllowed="2000"
 		maxQueueLengthAllowed="100"
 		name="Gui Applications"
-		port="20600"
+		port="20800"
 		tradingPartner="GuiApps"
 		trxAbortSizeLimit="10240000"
 		trxSizeLimit="10240000"
@@ -371,7 +371,7 @@
 		name="pool.xml"
 	>
 		
-		<pool
+		<pool_
 			account="SYSTEM"
 			class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 			hostName="cptleap01.za.mhgad.com"
@@ -379,7 +379,7 @@
 			port="1099"
 			serviceTqName="ListServicesNames"
 		/>
-		<pool
+		<pool_
 			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 			hostName="cptlsee01.za.mhgad.com"
 			id="POJAS"
@@ -389,19 +389,19 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		20602
+		20802
 	</snmp-port>
 	<tailWatchServer
 		id="Mediswitch"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="20603"
+		tcpipPort="20803"
 	/>
 	<diagTailWatchServer
 		id="Mediswitch"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="20604"
+		tcpipPort="20804"
 	/>
 	<synchronous-transactions	>
 		true
