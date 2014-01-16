@@ -5,12 +5,12 @@
 		active="true"
 		autoDisable="false"
 		cmdPasswd="1q2w3e"
-		diagPort="20801"
+		diagPort="20601"
 		logConfigFile="log4j.xml"
 		maxClientsAllowed="2000"
 		maxQueueLengthAllowed="100"
 		name="Gui Applications"
-		port="20800"
+		port="20600"
 		tradingPartner="GuiApps"
 		trxAbortSizeLimit="10240000"
 		trxSizeLimit="10240000"
@@ -389,19 +389,19 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		20802
+		20602
 	</snmp-port>
 	<tailWatchServer
 		id="Mediswitch"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="20803"
+		tcpipPort="20603"
 	/>
 	<diagTailWatchServer
 		id="Mediswitch"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="20804"
+		tcpipPort="20604"
 	/>
 	<synchronous-transactions	>
 		true
