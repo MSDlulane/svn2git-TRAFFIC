@@ -200,6 +200,10 @@
 		id="POJAS">
 		<tq-function
 			desc=""
+			name="MH_HOSPITAL_LOOKUP_SERVICE"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="PROVIDER_SEARCH"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
