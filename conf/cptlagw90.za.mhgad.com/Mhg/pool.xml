@@ -203,6 +203,10 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
 		<!--Start Dynamic SQL stored proc DO NOT MOVE -->
+		    <tq-function
+			desc=""
+			name="GET_GENERIC_DOCTORS_NETWORK_INFO"
+			targetBeanName="DynamicQueryExecutor" />
 			<tq-function
 			desc=""
 			name="REALAUTH_GET_FUNCTION"
@@ -3351,10 +3355,6 @@
 		<tq-function
 			desc=""
 			name="SERVICES_BY_MEMBER_DATE_DAIG"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_GENERIC_DOCTORS_NETWORK_INFO"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
