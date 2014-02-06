@@ -36,6 +36,22 @@
 			port="1099"
 		/>
 		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -74,6 +90,22 @@
 			port="1099"
 		/>
 		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -109,6 +141,22 @@
 			id="JEE"
 			poolMaxWaitTime="1000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 		<pool
 			autoDisable="true"
@@ -153,6 +201,22 @@
 			port="1099"
 		/>
 		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -182,6 +246,22 @@
 			poolMaxWaitTime="1000"
 			port="1099"
 		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 	<env
 		mhgAccount="IMAGE"
@@ -195,6 +275,22 @@
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
 	<env
@@ -232,6 +328,22 @@
 			id="JEE"
 			poolMaxWaitTime="1000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
 	<env
@@ -271,6 +383,22 @@
 			poolMaxWaitTime="1000"
 			port="1099"
 		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 	<env
 		mhgAccount="SHARE"
@@ -300,6 +428,22 @@
 			id="JEE"
 			poolMaxWaitTime="1000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
 	<env
@@ -331,6 +475,22 @@
 			poolMaxWaitTime="1000"
 			port="1099"
 		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 	<env
 		mhgAccount="WORKFLOW"
@@ -344,6 +504,22 @@
 			id="JEE"
 			poolMaxWaitTime="1000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 		<pool
 			autoDisable="true"
@@ -391,6 +567,22 @@
 			poolMaxWaitTime="1000"
 			port="1099"
 		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 	<env
 		mhgAccount="NOTIFY"
@@ -421,6 +613,22 @@
 			poolMaxWaitTime="1000"
 			port="1099"
 		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 	<env
 		mhgAccount="PRICE"
@@ -450,6 +658,22 @@
 			id="JEE"
 			poolMaxWaitTime="1000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
 	<env
@@ -503,6 +727,22 @@
 			poolMaxWaitTime="1000"
 			port="1099"
 		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 	<env
 		mhgAccount="SPINELOG"
@@ -533,6 +773,22 @@
 			poolMaxWaitTime="1000"
 			port="1099"
 		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 	<env
 		mhgAccount="PILIR"
@@ -554,6 +810,22 @@
 			id="JEE"
 			poolMaxWaitTime="1000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 		<pool
 			autoDisable="true"
@@ -592,6 +864,22 @@
 			id="JEE"
 			poolMaxWaitTime="1000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 		<pool
 			autoDisable="true"
@@ -647,6 +935,22 @@
 			poolMaxWaitTime="1000"
 			port="1099"
 		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 	<env
 		mhgAccount="REDRIB"
@@ -668,6 +972,22 @@
 			id="JEE"
 			poolMaxWaitTime="1000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 		<pool
 			autoDisable="true"
@@ -715,6 +1035,22 @@
 			poolMaxWaitTime="1000"
 			port="1099"
 		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 	<env
 		mhgAccount="UTILITY"
@@ -745,6 +1081,22 @@
 			poolMaxWaitTime="1000"
 			port="1099"
 		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 	<env
 		mhgAccount="SIGMA"
@@ -766,6 +1118,22 @@
 			id="JEE"
 			poolMaxWaitTime="1000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 		<pool
 			autoDisable="true"
@@ -806,6 +1174,22 @@
 			port="1099"
 		/>
 		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -844,6 +1228,22 @@
 			port="1099"
 		/>
 		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -880,6 +1280,22 @@
 			id="JEE"
 			poolMaxWaitTime="1000"
 			port="1099"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="40600"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 		<pool
 			autoDisable="true"
