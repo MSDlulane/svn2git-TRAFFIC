@@ -21,6 +21,10 @@
 		id="JEE"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector">
 		<tq-function
+			desc=""
+			name="MH_HOSPITAL_LOOKUP_SERVICE"
+			targetBeanName="MH_HOSPITAL_LOOKUP_SERVICE" />
+		<tq-function
 			name="Authorisation_2011_04_01.RequestHandler"
 			targetBeanName="Authorisation_2011_04_01.RequestHandler"
 			desc="" />
