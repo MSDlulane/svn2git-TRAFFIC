@@ -202,6 +202,13 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
+		<!--Start Dynamic SQL stored proc DO NOT MOVE -->
+			<tq-function
+			desc=""
+			name="REALAUTH_GET_FUNCTION"
+			targetBeanName="DynamicQueryExecutor" />
+		<!--  End Dynamic SQL stored proc DO NOT MOVE -     -->
+		
 		<tq-function
 			desc=""
 			name="WF_GET_PROCESS_DEFINITION"
@@ -3581,10 +3588,8 @@
 			desc=""
 			name="GET_AUTH_INFORMATION"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="REALAUTH_GET_FUNCTION"
-			targetBeanName="DynamicQueryExecutor" />
+		
+	
 		<tq-function
 			desc=""
 			name="GET_MEMBEN"
