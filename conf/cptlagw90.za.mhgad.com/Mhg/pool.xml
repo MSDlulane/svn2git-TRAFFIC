@@ -203,6 +203,26 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
 		<!--Start Dynamic SQL stored proc DO NOT MOVE -->
+	   <tq-function
+			desc=""
+			name="GET_WF_ENQUIRY_COMMENTS"
+			targetBeanName="BongisPojos" />
+	   <tq-function
+			desc=""
+			name="WF_GET_ITEM_DURATION"
+			targetBeanName="BongisPojos" />
+		<tq-function
+			desc=""
+			name="WF_GET_COMMENTS"
+			targetBeanName="BongisPojos" />
+		<tq-function
+			desc=""
+			name="WF_GET_ITEM_HIST"
+			targetBeanName="BongisPojos" />
+		<tq-function
+			desc=""
+			name="WF_GET_COMMENTS_ITEM_HIST"
+			targetBeanName="BongisPojos" />
 		<tq-function
 			desc=""
 			name="GET_MEMBEN"
@@ -3779,10 +3799,7 @@
 			desc=""
 			name="GET_WF_CASE_TRACKER_SOURCE"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_WF_ENQUIRY_COMMENTS"
-			targetBeanName="DynamicQueryExecutor" />
+		
 		<tq-function
 			desc=""
 			name="GET_WF_QUEUE_REPORT"
@@ -4131,7 +4148,7 @@
 			desc=""
 			name="WF_GET_USERS"
 			targetBeanName="DynamicQueryExecutor" />
-				<tq-function
+	     <tq-function
 			desc=""
 			name="WF_GET_ITEM_DURATION"
 			targetBeanName="DynamicQueryExecutor" />
@@ -4139,10 +4156,7 @@
 			desc=""
 			name="WF_GET_ITEM_DURATION2"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_GET_ITEM_HIST"
-			targetBeanName="DynamicQueryExecutor" />
+		
 		<tq-function
 			desc=""
 			name="WF_GET_ITEM_HIST2"
@@ -4221,14 +4235,8 @@
 			desc=""
 			name="WF_GET_COMMENTS2"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_GET_COMMENTS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_GET_COMMENTS_ITEM_HIST"
-			targetBeanName="DynamicQueryExecutor" />
+	
+		
 		<tq-function
 			desc=""
 			name="WF_GET_COMMENTS_ITEM_HIST2"
