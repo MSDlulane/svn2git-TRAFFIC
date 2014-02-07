@@ -3916,10 +3916,6 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="WF_GET_QUEUES_BY_PROCESS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
 			name="JBPM_MonitorWorkflowQueues"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
