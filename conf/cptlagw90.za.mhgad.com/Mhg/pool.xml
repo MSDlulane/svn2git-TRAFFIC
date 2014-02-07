@@ -203,26 +203,30 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
 		<!--Start Dynamic SQL stored proc DO NOT MOVE -->
+	   	<tq-function
+			desc=""
+			name="WF_GET_QUEUES_BY_PROCESS"
+			targetBeanName="DynamicQueryExecutor" />
 	   <tq-function
 			desc=""
 			name="GET_WF_ENQUIRY_COMMENTS"
-			targetBeanName="BongisPojos" />
+			targetBeanName="DynamicQueryExecutor" />
 	   <tq-function
 			desc=""
 			name="WF_GET_ITEM_DURATION"
-			targetBeanName="BongisPojos" />
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="WF_GET_COMMENTS"
-			targetBeanName="BongisPojos" />
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="WF_GET_ITEM_HIST"
-			targetBeanName="BongisPojos" />
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="WF_GET_COMMENTS_ITEM_HIST"
-			targetBeanName="BongisPojos" />
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="GET_MEMBEN"
