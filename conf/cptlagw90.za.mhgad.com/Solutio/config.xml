@@ -96,13 +96,6 @@
 	</snmp-port>
 	<pool-definitions-file name="pool.xml"
 		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
-		<pool id="EJB"
-                        class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
-                        hostName="cptlacp01.za.mhgad.com" port="1099" account="AMED"
-                        serviceTqName="ListServicesNames" />
-		<pool id="POJAS"
-			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-			hostName="cptlagw90.za.mhgad.com" port="33000" />
 	</pool-definitions-file>
 	<transaction-x-ref	>
 		
