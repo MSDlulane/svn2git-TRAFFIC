@@ -3880,11 +3880,11 @@
 			name="POLEMDSMS_RECEIVE_REPLY"
 			targetBeanName="Polmed"
 		/>
-		<tq-function
+	<!--  	<tq-function
 			desc=""
 			name="POJAS_SOL_VALIDATE_PATIENT_SEE"
 			targetBeanName="ValidatePatient"
-		/>
+		/>-->
 		<tq-function
 			desc=""
 			name="POLMEDSMS_RECEIVE_REPLY"
