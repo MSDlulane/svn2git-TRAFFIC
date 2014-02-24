@@ -310,6 +310,13 @@
 			mhg="RANDWATER"
 			tradingPartner="RTDM0004"
 		/>
+			<x-ref
+			description="PROTEKTA"
+			functionMask="FFFF"
+			mhg="PROTEKTA"
+			tradingPartner="RTDM0004"
+		/>
+		
 		<x-ref
 			description="RTDM0001 - Metropolitan"
 			functionMask="FFFF"
