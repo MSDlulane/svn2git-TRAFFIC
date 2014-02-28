@@ -594,6 +594,11 @@
 		id="WAS">
 		<tq-function
 			desc=""
+			name="FIND_CORRESPONDENCE"
+			targetBeanName="DynamicQueryExecutor" />
+		
+		<tq-function
+			desc=""
 			name="SPBioKineticsStaleCheck"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
