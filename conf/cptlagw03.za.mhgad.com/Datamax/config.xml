@@ -2,14 +2,20 @@
 <Enviroments>
 
 	<!-- Global Server Parameters -->
-	<server trxSizeLimit="124000" trxAbortSizeLimit="256000"
-		cmdPasswd="1q2w3e" tradingPartner="DataMax" name="DataMax Server"
-	port="23100" diagPort="23101" logConfigFile="log4j.xml" __system_out="default" />
+	<server
+		trxSizeLimit="124000"
+		trxAbortSizeLimit="256000"
+		cmdPasswd="1q2w3e"
+		tradingPartner="DataMax"
+		name="DataMax Server"
+		port="23100"
+		diagPort="23101"
+		logConfigFile="log4j.xml"
+		__system_out="default" />
 
 	<!-- List of Environments that this server can talk to -->
 	<env
-		name="AMED"
-	>
+		name="AMED">
 		<pool
 			useSoTimeOut="false"
 			stickyStandin="false"
@@ -25,368 +31,658 @@
 			port="9107"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000"
-		/>
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="AFROX">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="AFROX">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="BANKMED">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="BANKMED">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="BP">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="BP">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="ENGEN">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="ENGEN">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="FISHMED">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="FISHMED">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="GEMS">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9110" connections="10"
-			autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="GEMS">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9110"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="GOLDEN">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="GOLDEN">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="IMPERIAL">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9114"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="IMPERIAL">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9114"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="MEDIPOS">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9115"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="MEDIPOS">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9115"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="METROPOLITAN">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9108"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="METROPOLITAN">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9108"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="NETCARE">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9113" connections="10"
-			autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="NETCARE">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9113"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="PGG">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9113" connections="10"
-			autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="PGG">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9113"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="POLMED">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9109" connections="10"
-			autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="POLMED">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9109"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="SAMWU">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9105" connections="10"
-			autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="SAMWU">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9105"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="SAPPI">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="SAPPI">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="TRANSMED">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9108"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="TRANSMED">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9108"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="WOOLTRU">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="WOOLTRU">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
 
-	<env name="PROTEKTA">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9116"
-			connections="10" autotimeout="120000" poolMaxWaitTime="28000"/>
+	<env
+		name="PROTEKTA">
+		<pool
+			useSoTimeOut="false"
+			stickyStandin="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="40000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9116"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="28000" />
 	</env>
-	<!-- Log File Parameters  -->
-	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
-	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
+	<!-- Log File Parameters -->
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction" />
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders" />
 
-	<pool-definitions-file name="pool.xml" />
+	<pool-definitions-file
+		name="pool.xml" />
 
-	<snmp-port mibFile="mibs.xml">23102</snmp-port>
+	<snmp-port
+		mibFile="mibs.xml">23102</snmp-port>
 
-	<tailWatchServer id="KaraboIT" tcpipPort="23103"
-	multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="KaraboIT" tcpipPort="23104"
-	multicast-host-ip="" multicast-port="-1" />
-	<inputDataServer id="Mediswitch" tcpipPort="23105"
-	multicast-host-ip="" multicast-port="-1" />
+	<tailWatchServer
+		id="KaraboIT"
+		tcpipPort="23103"
+		multicast-host-ip=""
+		multicast-port="-1" />
+	<diagTailWatchServer
+		id="KaraboIT"
+		tcpipPort="23104"
+		multicast-host-ip=""
+		multicast-port="-1" />
+	<inputDataServer
+		id="Mediswitch"
+		tcpipPort="23105"
+		multicast-host-ip=""
+		multicast-port="-1" />
 
 	<synchronous-transactions>true</synchronous-transactions>
 
 	<transaction-x-ref>
-		<x-ref tradingPartner="1" mhg="ELCHECK" functionNo="0001"
-		description="Elegibility check" />
-		<x-ref tradingPartner="2" mhg="REALCLM" functionNo="000A"
-		description="Realtime Pharmacy Medicine claims" />
-		<x-ref tradingPartner="3" mhg="REALCLM" functionNo="0002"
-		description="Realtime doctor Medicine claims" />
-		<x-ref tradingPartner="4" mhg="REALCLM" functionNo="0004"
-		description="Realtime doctor claims" />
-		<x-ref tradingPartner="5" mhg="REALCLM" functionNo="0010"
-		description="Realtime doctor" />
-		<x-ref tradingPartner="127" mhg="PING" functionNo="0008"
-		isPingOrHandshake="true" description="Ping" />
+		<x-ref
+			tradingPartner="1"
+			mhg="ELCHECK"
+			functionNo="0001"
+			description="Elegibility check" />
+		<x-ref
+			tradingPartner="2"
+			mhg="REALCLM"
+			functionNo="000A"
+			description="Realtime Pharmacy Medicine claims" />
+		<x-ref
+			tradingPartner="3"
+			mhg="REALCLM"
+			functionNo="0002"
+			description="Realtime doctor Medicine claims" />
+		<x-ref
+			tradingPartner="4"
+			mhg="REALCLM"
+			functionNo="0004"
+			description="Realtime doctor claims" />
+		<x-ref
+			tradingPartner="5"
+			mhg="REALCLM"
+			functionNo="0010"
+			description="Realtime doctor" />
+		<x-ref
+			tradingPartner="127"
+			mhg="PING"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			description="Ping" />
 	</transaction-x-ref>
 
 	<destination-x-ref>
 		<x-ref
 			tradingPartner="PU001"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Dentists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Dentists" />
 		<x-ref
 			tradingPartner="PU002"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Pathologists" />
 		<x-ref
 			tradingPartner="PU003"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Specialists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Specialists" />
 		<x-ref
 			tradingPartner="PU004"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED:Optometrists" />
 		<x-ref
 			tradingPartner="PU005"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED:Radiologists" />
 		<x-ref
 			tradingPartner="PU006"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Oncologists " />
 		<x-ref
 			tradingPartner="PU007"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Physiotherapists" />
 		<x-ref
 			tradingPartner="PU008"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Other"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Other" />
 		<x-ref
 			tradingPartner="PU009"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PI001"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Dentists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Dentists" />
 		<x-ref
 			tradingPartner="PI002"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Pathologists" />
 		<x-ref
 			tradingPartner="PI003"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Specialists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Specialists" />
 		<x-ref
 			tradingPartner="PI004"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY:Optometrists" />
 		<x-ref
 			tradingPartner="PI005"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY:Radiologists" />
 		<x-ref
 			tradingPartner="PI006"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Oncologists " />
 		<x-ref
 			tradingPartner="PI007"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Physiotherapists" />
 		<x-ref
 			tradingPartner="PI008"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Other"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Other" />
 		<x-ref
 			tradingPartner="PI009"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Doctors (GP)"
-		/>
-		<x-ref tradingPartner="DMK" mhg="AFROX" functionMask="FFFF"
-		description="DMK - Afrox" />
-		<x-ref tradingPartner="DMA" mhg="BANKMED" functionMask="FFFF"
-		description="DMA - Bankmed" />
-		<x-ref tradingPartner="DMP" mhg="BP" functionMask="FFFF"
-		description="DMP - BP" />
-		<x-ref tradingPartner="DMG" mhg="ENGEN" functionMask="FFFF"
-		description="DMG - Engen" />
-		<x-ref tradingPartner="DMO" mhg="FISHMED" functionMask="FFFF"
-		description="DMO - Fishmed" />
-		<x-ref tradingPartner="DMT" mhg="GEMS" functionMask="FFFF"
-		description="DMT - Gems" />
-		<x-ref tradingPartner="DMT" mhg="GEMS" functionMask="FFFF"
-		description="DMT - Gems" />
-		<x-ref tradingPartner="DMN" mhg="GOLDEN" functionMask="FFFF"
-		description="DMN - Golden" />
-		<x-ref tradingPartner="DM7" mhg="MEDIPOS" functionMask="FFFF"
-		description="DM7 - Medipos" />
-		<x-ref tradingPartner="DMH1" mhg="METROPOLITAN" functionMask="FFFF"
-		description="DMH1 - MEtropolitan" />
-		<x-ref tradingPartner="DM9" mhg="NETCARE" functionMask="FFFF"
-		description="DM9 - Netcare" />
-		<x-ref tradingPartner="DMM" mhg="PGG" functionMask="FFFF"
-		description="DMM - PGG" />
-		<x-ref tradingPartner="DM5" mhg="POLMED" functionMask="FFFF"
-		description="DM5 - POLMED " />
-		<x-ref tradingPartner="DMQ" mhg="SAMWU" functionMask="FFFF"
-		description="DMQ - SAMWU " />
-		<x-ref tradingPartner="DML" mhg="SAPPI" functionMask="FFFF"
-		description="DML - Sappi" />
-		<x-ref tradingPartner="DMV" mhg="TRANSMED" functionMask="FFFF"
-		description="DMV - Transmed" />
-		<x-ref tradingPartner="DME" mhg="WOOLTRU" functionMask="FFFF"
-		description="DME - Wooltru" />
-		<x-ref tradingPartner="PJ001" mhg="PROTEKTA" functionMask="FFFF"
-		description="Metropolitan: Dentists" />
-		<x-ref tradingPartner="PJ002" mhg="PROTEKTA" functionMask="FFFF"
-		description="Metropolitan: Pathologists" />
-		<x-ref tradingPartner="PJ003" mhg="PROTEKTA" functionMask="FFFF"
-		description="Metropolitan: Specialists" />
-		<x-ref tradingPartner="PJ004" mhg="PROTEKTA" functionMask="FFFF"
-		description="Metropolitan:Optometrists" />
-		<x-ref tradingPartner="PJ005" mhg="PROTEKTA" functionMask="FFFF"
-		description="Metropolitan:Radiologists" />
-		<x-ref tradingPartner="PJ006" mhg="PROTEKTA" functionMask="FFFF"
-		description="Metropolitan: Oncologists " />
-		<x-ref tradingPartner="PJ007" mhg="PROTEKTA" functionMask="FFFF"
-		description="Metropolitan: Physiotherapists" />
-		<x-ref tradingPartner="PJ008" mhg="PROTEKTA" functionMask="FFFF"
-		description="Metropolitan: Other" />
-		<x-ref tradingPartner="PJ009" mhg="PROTEKTA" functionMask="FFFF"
-		description="Metropolitan: Doctors (GP)" />
+			functionMask="FFFF"
+			description="PICKNPAY: Doctors (GP)" />
+		<x-ref
+			tradingPartner="DMK"
+			mhg="AFROX"
+			functionMask="FFFF"
+			description="DMK - Afrox" />
+		<x-ref
+			tradingPartner="DMA"
+			mhg="BANKMED"
+			functionMask="FFFF"
+			description="DMA - Bankmed" />
+		<x-ref
+			tradingPartner="DMP"
+			mhg="BP"
+			functionMask="FFFF"
+			description="DMP - BP" />
+		<x-ref
+			tradingPartner="DMG"
+			mhg="ENGEN"
+			functionMask="FFFF"
+			description="DMG - Engen" />
+		<x-ref
+			tradingPartner="DMO"
+			mhg="FISHMED"
+			functionMask="FFFF"
+			description="DMO - Fishmed" />
+		<x-ref
+			tradingPartner="DMT"
+			mhg="GEMS"
+			functionMask="FFFF"
+			description="DMT - Gems" />
+		<x-ref
+			tradingPartner="DMT"
+			mhg="GEMS"
+			functionMask="FFFF"
+			description="DMT - Gems" />
+		<x-ref
+			tradingPartner="DMN"
+			mhg="GOLDEN"
+			functionMask="FFFF"
+			description="DMN - Golden" />
+		<x-ref
+			tradingPartner="DM7"
+			mhg="MEDIPOS"
+			functionMask="FFFF"
+			description="DM7 - Medipos" />
+		<x-ref
+			tradingPartner="DMH1"
+			mhg="METROPOLITAN"
+			functionMask="FFFF"
+			description="DMH1 - MEtropolitan" />
+		<x-ref
+			tradingPartner="DM9"
+			mhg="NETCARE"
+			functionMask="FFFF"
+			description="DM9 - Netcare" />
+		<x-ref
+			tradingPartner="DMM"
+			mhg="PGG"
+			functionMask="FFFF"
+			description="DMM - PGG" />
+		<x-ref
+			tradingPartner="DM5"
+			mhg="POLMED"
+			functionMask="FFFF"
+			description="DM5 - POLMED " />
+		<x-ref
+			tradingPartner="DMQ"
+			mhg="SAMWU"
+			functionMask="FFFF"
+			description="DMQ - SAMWU " />
+		<x-ref
+			tradingPartner="DML"
+			mhg="SAPPI"
+			functionMask="FFFF"
+			description="DML - Sappi" />
+		<x-ref
+			tradingPartner="DMV"
+			mhg="TRANSMED"
+			functionMask="FFFF"
+			description="DMV - Transmed" />
+		<x-ref
+			tradingPartner="DME"
+			mhg="WOOLTRU"
+			functionMask="FFFF"
+			description="DME - Wooltru" />
+		<x-ref
+			tradingPartner="PJ001"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Dentists" />
+		<x-ref
+			tradingPartner="PJ002"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Pathologists" />
+		<x-ref
+			tradingPartner="PJ003"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Specialists" />
+		<x-ref
+			tradingPartner="PJ004"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan:Optometrists" />
+		<x-ref
+			tradingPartner="PJ005"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan:Radiologists" />
+		<x-ref
+			tradingPartner="PJ006"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Oncologists " />
+		<x-ref
+			tradingPartner="PJ007"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Physiotherapists" />
+		<x-ref
+			tradingPartner="PJ008"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Other" />
+		<x-ref
+			tradingPartner="PJ009"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Doctors (GP)" />
 
 	</destination-x-ref>
 
-	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 		logDirectory="log/accesslog">
@@ -395,12 +691,14 @@
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT"
 			logTable="DataMax"
-			DbUserName="traffic" 
-			DbPassword="pJ9fXZ3d" 
-			minpoolsize="1" 
-			maxpoolsize="2" 
+			DbUserName="traffic"
+			DbPassword="pJ9fXZ3d"
+			minpoolsize="1"
+			maxpoolsize="2"
 			timeout="600000">
-			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM" />
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM" />
 		</claimsLogger>
 	</logger>
 
