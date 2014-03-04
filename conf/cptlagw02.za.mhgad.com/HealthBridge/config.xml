@@ -1,193 +1,669 @@
 <?xml version="1.0"?>
-<!--
-startDisabled:				Primary must start is a disabled state
-waitForSyncToFinishTimeout:	max time in ms to wait for backup to finish synchronization
-autoEnable:					if true then connector will automatically be enabled when the SYNC_STOP event is received
-autoDisable:					if true then connector will disable itself as soon as it switches to the backup
-
--->
+<!-- startDisabled: Primary must start is a disabled state waitForSyncToFinishTimeout: 
+	max time in ms to wait for backup to finish synchronization autoEnable: if 
+	true then connector will automatically be enabled when the SYNC_STOP event 
+	is received autoDisable: if true then connector will disable itself as soon 
+	as it switches to the backup -->
 <Enviroments>
-	
+
 	<!-- Global Server Parameters -->
-	<server sendTrxDetailsToStatusMonitor="true" trxSizeLimit="128000"
-		trxAbortSizeLimit="256000" cmdPasswd="1q2w3e" tradingPartner="HealthBridge"
-		name="HealthBridge Server CPT01" active="true" autoDisable="false"
-		port="20880" diagPort="20881" logConfigFile="log4j.xml" />
+	<server
+		sendTrxDetailsToStatusMonitor="true"
+		trxSizeLimit="128000"
+		trxAbortSizeLimit="256000"
+		cmdPasswd="1q2w3e"
+		tradingPartner="HealthBridge"
+		name="HealthBridge Server CPT01"
+		active="true"
+		autoDisable="false"
+		port="20880"
+		diagPort="20881"
+		logConfigFile="log4j.xml" />
 
 	<!-- List of Environments that this server can talk to -->
-	<env name="AFROX" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="AFROX"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="BANKMED" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="BANKMED"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="BP" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="BP"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="ENGEN" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="ENGEN"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="FISHING_INDUSTRY" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="FISHING_INDUSTRY"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="FOSCHINI" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="FOSCHINI"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="GEMS" >
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9110" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="GEMS">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9110"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="GOLDEN_ARROW" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="GOLDEN_ARROW"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="METROPOLITAN" mhgAccount="NEWMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9108" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="METROPOLITAN"
+		mhgAccount="NEWMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9108"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="NIMAS" >
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9113" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="NIMAS">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9113"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="PICK_N_PAY" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="PICK_N_PAY"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="POLMED" >
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9109" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="POLMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9109"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="REMEDI" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="REMEDI"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="SAPPI" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="SAPPI"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="TRANSMED" mhgAccount="NEWMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9108" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="TRANSMED"
+		mhgAccount="NEWMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9108"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="WOOLTRU" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9107" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="WOOLTRU"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9107"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="IMPERIAL" mhgAccount="IMPERIAL">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9114" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="IMPERIAL"
+		mhgAccount="IMPERIAL">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9114"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="MEDIPOS" mhgAccount="MEDIPOS">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9115" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="MEDIPOS"
+		mhgAccount="MEDIPOS">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9115"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<env name="SAMWU" mhgAccount="SAMWU">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9105" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="SAMWU"
+		mhgAccount="SAMWU">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9105"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
-	<env name="PROTEKTA" mhgAccount="PROTEKTA">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" port="9116" connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
+	<env
+		name="PROTEKTA"
+		mhgAccount="PROTEKTA">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="cptlxml01.za.mhgad.com"
+			port="9116"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
-	<!-- Log File Parameters  -->
+	<!-- Log File Parameters -->
 
-	<transaction        class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
-	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders" />
 
-	<pool-definitions-file name="pool.xml" />
+	<pool-definitions-file
+		name="pool.xml" />
 
-	<snmp-port mibFile="mibs.xml">20882</snmp-port>
+	<snmp-port
+		mibFile="mibs.xml">20882</snmp-port>
 
 	<synchronous-transactions>true</synchronous-transactions>
 
-	<tailWatchServer id="HealthBridge" tcpipPort="20883" multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="HealthBridge" tcpipPort="20884" multicast-host-ip="" multicast-port="-1" />
-	<inputDataServer id="HealthBridge" tcpipPort="20885" multicast-host-ip="" multicast-port="-1" />
+	<tailWatchServer
+		id="HealthBridge"
+		tcpipPort="20883"
+		multicast-host-ip=""
+		multicast-port="-1" />
+	<diagTailWatchServer
+		id="HealthBridge"
+		tcpipPort="20884"
+		multicast-host-ip=""
+		multicast-port="-1" />
+	<inputDataServer
+		id="HealthBridge"
+		tcpipPort="20885"
+		multicast-host-ip=""
+		multicast-port="-1" />
 
 	<transaction-x-ref>
-		<x-ref tradingPartner=  "1" mhg="ELCHECK" functionNo="0001" description="Elegibility check"/>
-		<x-ref tradingPartner=  "3" mhg="REALCLM" functionNo="0002" description="Realtime doctor Medicine claims"/>
-		<x-ref tradingPartner=  "4" mhg="REALCLM" functionNo="0004" description="Realtime doctor claims"/>
-		<x-ref tradingPartner="127" mhg="PING"    functionNo="0008" description="Ping" />
+		<x-ref
+			tradingPartner="1"
+			mhg="ELCHECK"
+			functionNo="0001"
+			description="Elegibility check" />
+		<x-ref
+			tradingPartner="3"
+			mhg="REALCLM"
+			functionNo="0002"
+			description="Realtime doctor Medicine claims" />
+		<x-ref
+			tradingPartner="4"
+			mhg="REALCLM"
+			functionNo="0004"
+			description="Realtime doctor claims" />
+		<x-ref
+			tradingPartner="127"
+			mhg="PING"
+			functionNo="0008"
+			description="Ping" />
 	</transaction-x-ref>
 
 	<destination-x-ref>
-		<x-ref tradingPartner=  "HB1A" mhg="METROPOLITAN"   	functionMask="FFFF" description="Premier"/>
-		<x-ref tradingPartner=  "HB1B" mhg="METROPOLITAN" 		functionMask="FFFF" description="Classic"/>
-		<x-ref tradingPartner=  "HB2A" mhg="NIMAS" 						functionMask="FFFF" description="SUPREME"/>
-		<x-ref tradingPartner=  "HB2B" mhg="NIMAS"   					functionMask="FFFF" description="MILLENNIUM"/>
-		<x-ref tradingPartner=  "HB2C" mhg="NIMAS"   					functionMask="FFFF" description="CLASSIC"/>
-		<x-ref tradingPartner=  "HB2D" mhg="NIMAS"   					functionMask="FFFF" description="PRIMARY"/>
-		<x-ref tradingPartner=  "HB5A" mhg="POLMED"   				functionMask="FFFF" description="LOWER PLAN"/>
-		<x-ref tradingPartner=  "HB5B" mhg="POLMED"   				functionMask="FFFF" description="HIGHER PLAN"/>
-		<x-ref tradingPartner=  "HB8A" mhg="PROSANO"   				functionMask="FFFF" description="Prosano ProVision"/>
-		<x-ref tradingPartner=  "HB8B" mhg="PROSANO"   				functionMask="FFFF" description="Prosano ProClassic"/>
-		<x-ref tradingPartner=  "HB8C" mhg="PROSANO"   				functionMask="FFFF" description="Prosano ProVider"/>
-		<x-ref tradingPartner=  "HB8D" mhg="PROSANO" 					functionMask="FFFF" description="Prosano ProCedure"/>
-		<x-ref tradingPartner=  "HB8E" mhg="PROSANO"   				functionMask="FFFF" description="ProSano ProElite"/>
-		<x-ref tradingPartner=  "HB8Z" mhg="PROSANO"   				functionMask="FFFF" description="Prosano ProVision"/>
-		<x-ref tradingPartner=  "HBA1" mhg="BANKMED"  				functionMask="FFFF" description="Bankmed Basic"/>
-		<x-ref tradingPartner=  "HBA2" mhg="BANKMED"  				functionMask="FFFF" description="Bankmed Comprehensive"/>
-		<x-ref tradingPartner=  "HBA3" mhg="BANKMED"  				functionMask="FFFF" description="Bankmed Plus"/>
-		<x-ref tradingPartner=  "HBA4" mhg="BANKMED"  				functionMask="FFFF" description="Bankmed Core Saver"/>
-		<x-ref tradingPartner=  "HBA5" mhg="BANKMED"  				functionMask="FFFF" description="Bankmed Traditional"/>
-		<x-ref tradingPartner=  "HBAA" mhg="BANKMED"  				functionMask="FFFF" description="Equilibrium Plus"/>
-		<x-ref tradingPartner=  "HBAP" mhg="BANKMED"  				functionMask="FFFF" description="Prime Health Plan"/>
-		<x-ref tradingPartner=  "HBEA" mhg="WOOLTRU"   				functionMask="FFFF" description="CORE OPTION"/>
-		<x-ref tradingPartner=  "HBEB" mhg="WOOLTRU"   				functionMask="FFFF" description="PLUS OPTION"/>
-		<x-ref tradingPartner=  "HBEC" mhg="WOOLTRU" 					functionMask="FFFF" description="EXTENDED OPTION"/>
-		<x-ref tradingPartner=  "HBEN" mhg="WOOLTRU"   				functionMask="FFFF" description="PLUS NETWORK"/>
-		<x-ref tradingPartner=  "HBFA" mhg="FOSCHINI"   			functionMask="FFFF" description="Foschini Plan A"/>
-		<x-ref tradingPartner=  "HBFB" mhg="FOSCHINI"  				functionMask="FFFF" description="Foschini Plan B"/>
-		<x-ref tradingPartner=  "HBG"  mhg="ENGEN"  					functionMask="FFFF" description="Engen"/>
-		<x-ref tradingPartner=  "HBIA" mhg="PICK_N_PAY"  			functionMask="FFFF" description="Pick n Pay Medical Scheme"/>
-		<x-ref tradingPartner=  "HBK"  mhg="AFROX"  					functionMask="FFFF" description="Afrox"/>
-		<x-ref tradingPartner=  "HBKA" mhg="AFROX"  					functionMask="FFFF" description="Diamond Plan"/>
-		<x-ref tradingPartner=  "HBKB" mhg="AFROX"  					functionMask="FFFF" description="BASE PLAN"/>
-		<x-ref tradingPartner=  "HBLA" mhg="SAPPI"  					functionMask="FFFF" description="SAPPI MEDICAL AID SCHEME"/>
-		<x-ref tradingPartner=  "HBNA" mhg="GOLDEN_ARROW"  		functionMask="FFFF" description="Primary Option"/>
-		<x-ref tradingPartner=  "HBNB" mhg="GOLDEN_ARROW"  		functionMask="FFFF" description="Standard Option"/>
-		<x-ref tradingPartner=  "HBNC" mhg="GOLDEN_ARROW"  		functionMask="FFFF" description="Advanced Option"/>
-		<x-ref tradingPartner=  "HBOA" mhg="FISHING_INDUSTRY"	functionMask="FFFF" description="Primary Option"/>
-		<x-ref tradingPartner=  "HBOB" mhg="FISHING_INDUSTRY"	functionMask="FFFF" description="Standard Option"/>
-		<x-ref tradingPartner=  "HBP"  mhg="BP"  							functionMask="FFFF" description="BP Medical Aid Society"/>
-		<x-ref tradingPartner=  "HBS"  mhg="REMEDI"						functionMask="FFFF" description="Remedi"/>
-		<x-ref tradingPartner=  "HBSA" mhg="REMEDI"						functionMask="FFFF" description="Standard Option"/>
-		<x-ref tradingPartner=  "HBSB" mhg="REMEDI"						functionMask="FFFF" description="Comprehensive Option"/>
-		<x-ref tradingPartner=  "HBSC" mhg="REMEDI"						functionMask="FFFF" description="Classic Option"/>
-		<x-ref tradingPartner=  "HBTA" mhg="GEMS"  						functionMask="FFFF" description="SAPPHIRE"/>
-		<x-ref tradingPartner=  "HBTB" mhg="GEMS"							functionMask="FFFF" description="BERYL"/>
-		<x-ref tradingPartner=  "HBTC" mhg="GEMS"							functionMask="FFFF" description="RUBY"/>
-		<x-ref tradingPartner=  "HBTD" mhg="GEMS"							functionMask="FFFF" description="EMERALD"/>
-		<x-ref tradingPartner=  "HBTE" mhg="GEMS"							functionMask="FFFF" description="ONYX"/>
-		<x-ref tradingPartner=  "HBV5" mhg="TRANSMED"					functionMask="FFFF" description="GUARDIAN"/>
-		<x-ref tradingPartner=  "HBVL" mhg="TRANSMED"					functionMask="FFFF" description="State Plus Network"/>
-		<x-ref tradingPartner=  "HBVN" mhg="TRANSMED"					functionMask="FFFF" description="State Plus Own Choice"/>
-		<x-ref tradingPartner=  "HBVS" mhg="TRANSMED"					functionMask="FFFF" description="MEMBER STATUS (ACTIVE)"/>
-		<x-ref tradingPartner=  "HBVT" mhg="TRANSMED"					functionMask="FFFF" description="Private Cover Plus Savings Account"/>
-		<x-ref tradingPartner=  "HBU"  mhg="IMPERIAL"					functionMask="FFFF" description="IMPERIAL"/>
-		<x-ref tradingPartner=  "HB7"  mhg="MEDIPOS"					functionMask="FFFF" description="MEDIPOS"/>
-		<x-ref tradingPartner=  "HBQ"  mhg="SAMWU"						functionMask="FFFF" description="SAMWU"/>
-		<x-ref tradingPartner="PJ001" mhg="PROTEKTA" functionMask="FFFF" description="Metropolitan: Dentists" />
-		<x-ref tradingPartner="PJ002" mhg="PROTEKTA" functionMask="FFFF" description="Metropolitan: Pathologists" />
-		<x-ref tradingPartner="PJ003" mhg="PROTEKTA" functionMask="FFFF" description="Metropolitan: Specialists" />
-		<x-ref tradingPartner="PJ004" mhg="PROTEKTA" functionMask="FFFF" description="Metropolitan:Optometrists" />
-		<x-ref tradingPartner="PJ005" mhg="PROTEKTA" functionMask="FFFF" description="Metropolitan:Radiologists" />
-		<x-ref tradingPartner="PJ006" mhg="PROTEKTA" functionMask="FFFF" description="Metropolitan: Oncologists " />
-		<x-ref tradingPartner="PJ007" mhg="PROTEKTA" functionMask="FFFF" description="Metropolitan: Physiotherapists" />
-		<x-ref tradingPartner="PJ008" mhg="PROTEKTA" functionMask="FFFF" description="Metropolitan: Other" />
-		<x-ref tradingPartner="PJ009" mhg="PROTEKTA" functionMask="FFFF" description="Metropolitan: Doctors (GP)" />
+		<x-ref
+			tradingPartner="HB1A"
+			mhg="METROPOLITAN"
+			functionMask="FFFF"
+			description="Premier" />
+		<x-ref
+			tradingPartner="HB1B"
+			mhg="METROPOLITAN"
+			functionMask="FFFF"
+			description="Classic" />
+		<x-ref
+			tradingPartner="HB2A"
+			mhg="NIMAS"
+			functionMask="FFFF"
+			description="SUPREME" />
+		<x-ref
+			tradingPartner="HB2B"
+			mhg="NIMAS"
+			functionMask="FFFF"
+			description="MILLENNIUM" />
+		<x-ref
+			tradingPartner="HB2C"
+			mhg="NIMAS"
+			functionMask="FFFF"
+			description="CLASSIC" />
+		<x-ref
+			tradingPartner="HB2D"
+			mhg="NIMAS"
+			functionMask="FFFF"
+			description="PRIMARY" />
+		<x-ref
+			tradingPartner="HB5A"
+			mhg="POLMED"
+			functionMask="FFFF"
+			description="LOWER PLAN" />
+		<x-ref
+			tradingPartner="HB5B"
+			mhg="POLMED"
+			functionMask="FFFF"
+			description="HIGHER PLAN" />
+		<x-ref
+			tradingPartner="HB8A"
+			mhg="PROSANO"
+			functionMask="FFFF"
+			description="Prosano ProVision" />
+		<x-ref
+			tradingPartner="HB8B"
+			mhg="PROSANO"
+			functionMask="FFFF"
+			description="Prosano ProClassic" />
+		<x-ref
+			tradingPartner="HB8C"
+			mhg="PROSANO"
+			functionMask="FFFF"
+			description="Prosano ProVider" />
+		<x-ref
+			tradingPartner="HB8D"
+			mhg="PROSANO"
+			functionMask="FFFF"
+			description="Prosano ProCedure" />
+		<x-ref
+			tradingPartner="HB8E"
+			mhg="PROSANO"
+			functionMask="FFFF"
+			description="ProSano ProElite" />
+		<x-ref
+			tradingPartner="HB8Z"
+			mhg="PROSANO"
+			functionMask="FFFF"
+			description="Prosano ProVision" />
+		<x-ref
+			tradingPartner="HBA1"
+			mhg="BANKMED"
+			functionMask="FFFF"
+			description="Bankmed Basic" />
+		<x-ref
+			tradingPartner="HBA2"
+			mhg="BANKMED"
+			functionMask="FFFF"
+			description="Bankmed Comprehensive" />
+		<x-ref
+			tradingPartner="HBA3"
+			mhg="BANKMED"
+			functionMask="FFFF"
+			description="Bankmed Plus" />
+		<x-ref
+			tradingPartner="HBA4"
+			mhg="BANKMED"
+			functionMask="FFFF"
+			description="Bankmed Core Saver" />
+		<x-ref
+			tradingPartner="HBA5"
+			mhg="BANKMED"
+			functionMask="FFFF"
+			description="Bankmed Traditional" />
+		<x-ref
+			tradingPartner="HBAA"
+			mhg="BANKMED"
+			functionMask="FFFF"
+			description="Equilibrium Plus" />
+		<x-ref
+			tradingPartner="HBAP"
+			mhg="BANKMED"
+			functionMask="FFFF"
+			description="Prime Health Plan" />
+		<x-ref
+			tradingPartner="HBEA"
+			mhg="WOOLTRU"
+			functionMask="FFFF"
+			description="CORE OPTION" />
+		<x-ref
+			tradingPartner="HBEB"
+			mhg="WOOLTRU"
+			functionMask="FFFF"
+			description="PLUS OPTION" />
+		<x-ref
+			tradingPartner="HBEC"
+			mhg="WOOLTRU"
+			functionMask="FFFF"
+			description="EXTENDED OPTION" />
+		<x-ref
+			tradingPartner="HBEN"
+			mhg="WOOLTRU"
+			functionMask="FFFF"
+			description="PLUS NETWORK" />
+		<x-ref
+			tradingPartner="HBFA"
+			mhg="FOSCHINI"
+			functionMask="FFFF"
+			description="Foschini Plan A" />
+		<x-ref
+			tradingPartner="HBFB"
+			mhg="FOSCHINI"
+			functionMask="FFFF"
+			description="Foschini Plan B" />
+		<x-ref
+			tradingPartner="HBG"
+			mhg="ENGEN"
+			functionMask="FFFF"
+			description="Engen" />
+		<x-ref
+			tradingPartner="HBIA"
+			mhg="PICK_N_PAY"
+			functionMask="FFFF"
+			description="Pick n Pay Medical Scheme" />
+		<x-ref
+			tradingPartner="HBK"
+			mhg="AFROX"
+			functionMask="FFFF"
+			description="Afrox" />
+		<x-ref
+			tradingPartner="HBKA"
+			mhg="AFROX"
+			functionMask="FFFF"
+			description="Diamond Plan" />
+		<x-ref
+			tradingPartner="HBKB"
+			mhg="AFROX"
+			functionMask="FFFF"
+			description="BASE PLAN" />
+		<x-ref
+			tradingPartner="HBLA"
+			mhg="SAPPI"
+			functionMask="FFFF"
+			description="SAPPI MEDICAL AID SCHEME" />
+		<x-ref
+			tradingPartner="HBNA"
+			mhg="GOLDEN_ARROW"
+			functionMask="FFFF"
+			description="Primary Option" />
+		<x-ref
+			tradingPartner="HBNB"
+			mhg="GOLDEN_ARROW"
+			functionMask="FFFF"
+			description="Standard Option" />
+		<x-ref
+			tradingPartner="HBNC"
+			mhg="GOLDEN_ARROW"
+			functionMask="FFFF"
+			description="Advanced Option" />
+		<x-ref
+			tradingPartner="HBOA"
+			mhg="FISHING_INDUSTRY"
+			functionMask="FFFF"
+			description="Primary Option" />
+		<x-ref
+			tradingPartner="HBOB"
+			mhg="FISHING_INDUSTRY"
+			functionMask="FFFF"
+			description="Standard Option" />
+		<x-ref
+			tradingPartner="HBP"
+			mhg="BP"
+			functionMask="FFFF"
+			description="BP Medical Aid Society" />
+		<x-ref
+			tradingPartner="HBS"
+			mhg="REMEDI"
+			functionMask="FFFF"
+			description="Remedi" />
+		<x-ref
+			tradingPartner="HBSA"
+			mhg="REMEDI"
+			functionMask="FFFF"
+			description="Standard Option" />
+		<x-ref
+			tradingPartner="HBSB"
+			mhg="REMEDI"
+			functionMask="FFFF"
+			description="Comprehensive Option" />
+		<x-ref
+			tradingPartner="HBSC"
+			mhg="REMEDI"
+			functionMask="FFFF"
+			description="Classic Option" />
+		<x-ref
+			tradingPartner="HBTA"
+			mhg="GEMS"
+			functionMask="FFFF"
+			description="SAPPHIRE" />
+		<x-ref
+			tradingPartner="HBTB"
+			mhg="GEMS"
+			functionMask="FFFF"
+			description="BERYL" />
+		<x-ref
+			tradingPartner="HBTC"
+			mhg="GEMS"
+			functionMask="FFFF"
+			description="RUBY" />
+		<x-ref
+			tradingPartner="HBTD"
+			mhg="GEMS"
+			functionMask="FFFF"
+			description="EMERALD" />
+		<x-ref
+			tradingPartner="HBTE"
+			mhg="GEMS"
+			functionMask="FFFF"
+			description="ONYX" />
+		<x-ref
+			tradingPartner="HBV5"
+			mhg="TRANSMED"
+			functionMask="FFFF"
+			description="GUARDIAN" />
+		<x-ref
+			tradingPartner="HBVL"
+			mhg="TRANSMED"
+			functionMask="FFFF"
+			description="State Plus Network" />
+		<x-ref
+			tradingPartner="HBVN"
+			mhg="TRANSMED"
+			functionMask="FFFF"
+			description="State Plus Own Choice" />
+		<x-ref
+			tradingPartner="HBVS"
+			mhg="TRANSMED"
+			functionMask="FFFF"
+			description="MEMBER STATUS (ACTIVE)" />
+		<x-ref
+			tradingPartner="HBVT"
+			mhg="TRANSMED"
+			functionMask="FFFF"
+			description="Private Cover Plus Savings Account" />
+		<x-ref
+			tradingPartner="HBU"
+			mhg="IMPERIAL"
+			functionMask="FFFF"
+			description="IMPERIAL" />
+		<x-ref
+			tradingPartner="HB7"
+			mhg="MEDIPOS"
+			functionMask="FFFF"
+			description="MEDIPOS" />
+		<x-ref
+			tradingPartner="HBQ"
+			mhg="SAMWU"
+			functionMask="FFFF"
+			description="SAMWU" />
+		<x-ref
+			tradingPartner="PJ001"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Dentists" />
+		<x-ref
+			tradingPartner="PJ002"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Pathologists" />
+		<x-ref
+			tradingPartner="PJ003"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Specialists" />
+		<x-ref
+			tradingPartner="PJ004"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan:Optometrists" />
+		<x-ref
+			tradingPartner="PJ005"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan:Radiologists" />
+		<x-ref
+			tradingPartner="PJ006"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Oncologists " />
+		<x-ref
+			tradingPartner="PJ007"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Physiotherapists" />
+		<x-ref
+			tradingPartner="PJ008"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Other" />
+		<x-ref
+			tradingPartner="PJ009"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Doctors (GP)" />
 
 
 	</destination-x-ref>
 
-	<!-- Log File Parameters  -->
-	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
+	<!-- Log File Parameters -->
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 		logDirectory="log/accesslog">
@@ -201,7 +677,9 @@ autoDisable:					if true then connector will disable itself as soon as it switch
 			minpoolsize="1"
 			maxpoolsize="2"
 			timeout="600000">
-			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM" />
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM" />
 		</claimsLogger>
 	</logger>
 
