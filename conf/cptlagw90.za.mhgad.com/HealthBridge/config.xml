@@ -1366,7 +1366,7 @@
 		<x-ref
 			description="TRANSMED: Specialists"
 			functionMask="FFFF"
-			mhg="Newmed"
+			mhg="TRANSMED"
 			tradingPartner="PV003"
 		/>
 		<x-ref
