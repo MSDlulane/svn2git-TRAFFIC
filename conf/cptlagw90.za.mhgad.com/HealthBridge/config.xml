@@ -37,7 +37,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -52,7 +52,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -67,7 +67,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -82,7 +82,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -97,7 +97,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -111,7 +111,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9110"
 			useSoTimeOut="false"
 		/>
@@ -126,7 +126,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -141,7 +141,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9107"
 			useSoTimeOut="false"
 		/>
@@ -155,7 +155,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9113"
 			useSoTimeOut="false"
 		/>
@@ -170,7 +170,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -184,7 +184,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9109"
 			useSoTimeOut="false"
 		/>
@@ -199,7 +199,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -214,7 +214,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -229,7 +229,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9115"
 			useSoTimeOut="false"
 		/>
@@ -244,7 +244,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9107"
 			useSoTimeOut="false"
 		/>
@@ -259,7 +259,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -274,7 +274,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9105"
 			useSoTimeOut="false"
 		/>
@@ -289,7 +289,7 @@
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9108"
 			useSoTimeOut="false"
 		/>
