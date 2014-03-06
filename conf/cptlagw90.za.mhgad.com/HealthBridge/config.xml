@@ -17,7 +17,7 @@
 	<env
 		name="PROTEKTA">
 			<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
@@ -33,11 +33,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -48,11 +48,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -63,11 +63,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -78,11 +78,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -93,11 +93,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -107,11 +107,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9110"
 			useSoTimeOut="false"
 		/>
@@ -122,11 +122,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -137,11 +137,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9107"
 			useSoTimeOut="false"
 		/>
@@ -151,11 +151,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9113"
 			useSoTimeOut="false"
 		/>
@@ -166,11 +166,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -180,11 +180,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9109"
 			useSoTimeOut="false"
 		/>
@@ -195,11 +195,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -210,11 +210,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -225,11 +225,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9115"
 			useSoTimeOut="false"
 		/>
@@ -240,11 +240,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9107"
 			useSoTimeOut="false"
 		/>
@@ -255,11 +255,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9106"
 			useSoTimeOut="false"
 		/>
@@ -270,11 +270,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9105"
 			useSoTimeOut="false"
 		/>
@@ -285,11 +285,11 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="1120000"
 			connections="5"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="1120000"
 			port="9108"
 			useSoTimeOut="false"
 		/>
