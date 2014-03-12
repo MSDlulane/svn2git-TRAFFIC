@@ -11,6 +11,11 @@
 		
 		<tq-function
 			desc=""
+			name="MH_HOSPITAL_LOOKUP_SERVICE"
+			targetBeanName="DynamicQueryExecutor" />
+		
+		<tq-function
+			desc=""
 			name="Authorisation_2011_04_01.RequestHandler"
 			targetBeanName="Authorisation_2011_04_01.RequestHandler"
 		/>
