@@ -202,7 +202,15 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
+		<!--  this TQ has stored proc issue @p0 -->
+		<tq-function
+			desc=""
+			name="ENQUIRY_INSERT_SP"
+			targetBeanName="DynamicQueryExecutor" />
+		
 		<!--Start Dynamic SQL stored proc DO NOT MOVE -->
+		
+		
 		<tq-function
 			desc=""
 			name="GET_CPT_CODES"
@@ -3312,10 +3320,6 @@
 		<tq-function
 			desc=""
 			name="GET_PMB_BENEFITS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="ENQUIRY_INSERT_SP"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
