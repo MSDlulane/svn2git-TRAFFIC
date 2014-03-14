@@ -29,6 +29,21 @@
 	
 	<env
 		mhgAccount="AMED"
+		name="AFROX">
+		
+		<pool
+			autotimeout="1120000"
+			connections="5"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="1120000"
+			port="9106"
+			useSoTimeOut="false"
+		/>
+	</env>
+
+	<env
+		mhgAccount="AMED"
 		name="BP"
 	>
 		
