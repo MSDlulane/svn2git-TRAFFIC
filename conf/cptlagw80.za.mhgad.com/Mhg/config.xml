@@ -862,7 +862,7 @@
 	</env>
 	<env
 		mhgAccount="RANDW"
-		name="RANDWATER"
+		name="RANDW"
 	>
 		
 		<pool
@@ -1154,7 +1154,7 @@
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"
-			mhg="RANDWATER"
+			mhg="RANDW"
 			tradingPartner="P28"
 		/>
 		<x-ref
@@ -1178,19 +1178,19 @@
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"
-			mhg="RANDWATER"
+			mhg="RANDW"
 			tradingPartner="Y"
 		/>
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"
-			mhg="RANDWATER"
+			mhg="RANDW"
 			tradingPartner="P28"
 		/>
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"
-			mhg="RANDWATER"
+			mhg="RANDW"
 			tradingPartner="RANDWATER"
 		/>
 		<x-ref
