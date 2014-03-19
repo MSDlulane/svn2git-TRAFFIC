@@ -1583,6 +1583,62 @@
 			tradingPartner="PJ009"
 		/>
 
+		<x-ref
+			description="SAMWU: Dentists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ001"
+		/>
+		<x-ref
+			description="SAMWU: Pathologists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ002"
+		/>
+		<x-ref
+			description="SAMWU: Specialists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ003"
+		/>
+		<x-ref
+			description="SAMWU:Optometrists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ004"
+		/>
+		<x-ref
+			description="SAMWU:Radiologists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ005"
+		/>
+		<x-ref
+			description="SAMWU: Oncologists "
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ006"
+		/>
+		<x-ref
+			description="SAMWU: Physiotherapists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ007"
+		/>
+		<x-ref
+			description="SAMWU: Other"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ008"
+		/>
+		<x-ref
+			description="SAMWU: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ009"
+		/>
+
+
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
