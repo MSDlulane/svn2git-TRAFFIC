@@ -4,8 +4,8 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="COBOL" />
-	
-		
+
+
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 		id="JEE">
@@ -202,33 +202,54 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
+		
+		<tq-function
+			desc=""
+			name="XML_ARCHIVE_GET_LATEST_CONTRBXML_BY_MEMBER"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="XML_ARCHIVE_GET_LATEST_XML_BY_SERIAL"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="XSL_VERSION_GET_XSL_BY_VERSION_ID"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="XSL_VERSION_GET_XSL_BY_TYPE_SCHEME"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="MEMPROF_COMMUNICATION_UPDATE"
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="XML_ARCHIVE_GET_XML_BY_SERIAL"
 			targetBeanName="DynamicQueryExecutor" />
-		
-		<!--  this TQ has stored proc issue @p0 -->
+
+		<!-- this TQ has stored proc issue @p0 -->
 		<tq-function
 			desc=""
 			name="ENQUIRY_INSERT_SP"
 			targetBeanName="DynamicQueryExecutor" />
-		
+
 		<!--Start Dynamic SQL stored proc DO NOT MOVE -->
-		
-		
+
+
 		<tq-function
 			desc=""
 			name="GET_CPT_CODES"
 			targetBeanName="DynamicQueryExecutor" />
-	   	<tq-function
+		<tq-function
 			desc=""
 			name="WF_GET_QUEUES_BY_PROCESS"
 			targetBeanName="DynamicQueryExecutor" />
-	   <tq-function
+		<tq-function
 			desc=""
 			name="GET_WF_ENQUIRY_COMMENTS"
 			targetBeanName="DynamicQueryExecutor" />
-	   <tq-function
+		<tq-function
 			desc=""
 			name="WF_GET_ITEM_DURATION"
 			targetBeanName="DynamicQueryExecutor" />
@@ -248,7 +269,7 @@
 			desc=""
 			name="GET_MEMBEN"
 			targetBeanName="DynamicQueryExecutor" />
-	    <tq-function
+		<tq-function
 			desc=""
 			name="GET_GENERIC_DOCTORS_NETWORK_INFO"
 			targetBeanName="DynamicQueryExecutor" />
@@ -256,8 +277,8 @@
 			desc=""
 			name="REALAUTH_GET_FUNCTION"
 			targetBeanName="DynamicQueryExecutor" />
-		<!--  End Dynamic SQL stored proc DO NOT MOVE -     -->
-		
+		<!-- End Dynamic SQL stored proc DO NOT MOVE - -->
+
 		<tq-function
 			desc=""
 			name="WF_GET_PROCESS_DEFINITION"
@@ -270,7 +291,7 @@
 			desc=""
 			name="WF_GET_PROCESS_DEFINITION_BY_ID"
 			targetBeanName="ProcessDefinitionManagement" />
-		<tq-function		
+		<tq-function
 			desc=""
 			name="WF_GET_PROCESS_VARIABLES"
 			targetBeanName="ProcessVariableInformation" />
@@ -400,7 +421,7 @@
 			desc=""
 			name="ECHO"
 			targetBeanName="Echo" />
-	   <tq-function
+		<tq-function
 			desc=""
 			name="ENVIRONMENT_INFO"
 			targetBeanName="SystemManagement" />
@@ -432,8 +453,8 @@
 			desc=""
 			name="GET_WAP_IMAGE_WITH_ID"
 			targetBeanName="WAPInterface" />
-	   
-	   <tq-function
+
+		<tq-function
 			desc=""
 			name="LISTALLSERVICESNAMES"
 			targetBeanName="ListServicesNames" />
@@ -569,12 +590,12 @@
 			desc=""
 			name="WF_LIST_PROCESS_QUEUE_NAMES_BY_USER"
 			targetBeanName="QueueManagement" />
-		
+
 		<tq-function
 			desc=""
 			name="WF_MAINTAIN_NODE_TRANSITION"
 			targetBeanName="NodeManagement" />
-	
+
 		<tq-function
 			desc=""
 			name="WF_COMPLETE_ITEM"
@@ -609,7 +630,7 @@
 			desc=""
 			name="FIND_CORRESPONDENCE"
 			targetBeanName="DynamicQueryExecutor" />
-		
+
 		<tq-function
 			desc=""
 			name="SPBioKineticsStaleCheck"
@@ -618,7 +639,7 @@
 			desc=""
 			name="DEPEND_ALL_BY_MEMBERID"
 			targetBeanName="DynamicQueryExecutor" />
-		
+
 		<tq-function
 			desc=""
 			name="MEMBERONLINE_GETPLANBYSCHEME"
@@ -650,7 +671,7 @@
 		<tq-function
 			desc=""
 			name="PROVCLIN_GroupCodeProvId"
-			targetBeanName="DynamicQueryExecutor" />		
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="DOCTOR_BY_DOCTORID"
@@ -730,7 +751,7 @@
 		<tq-function
 			desc=""
 			name="MEMBERONLINE_CLAIMSDETAILS"
-			targetBeanName="DynamicQueryExecutor" />		
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="ENQWORK_EXITS"
@@ -755,7 +776,7 @@
 			desc=""
 			name="QA_GET_QUESTIONAIRETYPE_DESC"
 			targetBeanName="DynamicQueryExecutor" />
-		
+
 		<tq-function
 			desc=""
 			name="QA_GET_QUESTIONAIRES_SUMMARY"
@@ -822,10 +843,6 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="XSL_VERSION_GET_XSL_BY_TYPE_SCHEME"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
 			name="QA_GET_INTERVENTIONS_AND_TYPE"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -847,10 +864,6 @@
 		<tq-function
 			desc=""
 			name="DOCTOR_GETDETAILS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="XSL_VERSION_GET_XSL_BY_VERSION_ID"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
@@ -891,10 +904,6 @@
 		<tq-function
 			desc=""
 			name="MEMBERONLINE_GETCLAIMSIMAGE"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="XML_ARCHIVE_GET_LATEST_XML_BY_SERIAL"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
@@ -1176,10 +1185,7 @@
 			desc=""
 			name="Get_recentRISDET_entry"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="MEMPROF_COMMUNICATION_UPDATE"
-			targetBeanName="DynamicQueryExecutor" />
+
 		<tq-function
 			desc=""
 			name="GET_ALL_CLAIMS_DETAILS"
@@ -2674,10 +2680,6 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
-			name="XML_ARCHIVE_GET_LATEST_CONTRBXML_BY_MEMBER"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
 			name="WPF_TARIFF_DETAIL"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
@@ -3276,7 +3278,7 @@
 			desc=""
 			name="GetFoundationCountTest"
 			targetBeanName="DynamicQueryExecutor" />
-	
+
 		<tq-function
 			desc=""
 			name="QMED_LIST_MICRO"
@@ -3309,7 +3311,7 @@
 			desc=""
 			name="RESULTS_CALCULATIONS"
 			targetBeanName="DynamicQueryExecutor" />
-	
+
 		<tq-function
 			desc=""
 			name="DEBTOR_BY_SCHEME_ACC_TYPE_DATE"
@@ -3604,9 +3606,9 @@
 			desc=""
 			name="MEMBER_ALL_BY_MEMBERID"
 			targetBeanName="TQService" />
-			
-			<!-- Workflow TQs -->
-	<tq-function
+
+		<!-- Workflow TQs -->
+		<tq-function
 			desc=""
 			name="PROVIDER_SEARCH"
 			targetBeanName="DynamicQueryExecutor" />
@@ -3627,18 +3629,18 @@
 			desc=""
 			name="GET_AUTH_INFORMATION"
 			targetBeanName="DynamicQueryExecutor" />
-		
+
 
 		<tq-function
 			desc=""
 			name="GET_PROVIDER_GP_NETWORK"
 			targetBeanName="DynamicQueryExecutor" />
-		
+
 		<tq-function
 			desc=""
 			name="MEMBERONLINE_MICSERIALBYTYPE"
 			targetBeanName="DynamicQueryExecutor" />
-				<tq-function
+		<tq-function
 			desc=""
 			name="CPTMASTER_SEARCH"
 			targetBeanName="DynamicQueryExecutor" />
@@ -3798,7 +3800,7 @@
 			desc=""
 			name="WFDBPICKUP_OUTSTANDING"
 			targetBeanName="DynamicQueryExecutor" />
-				<tq-function
+		<tq-function
 			desc=""
 			name="GET_WF_CASE_TRACKER_REF_REPORT"
 			targetBeanName="DynamicQueryExecutor" />
@@ -3814,7 +3816,7 @@
 			desc=""
 			name="GET_WF_CASE_TRACKER_SOURCE"
 			targetBeanName="DynamicQueryExecutor" />
-		
+
 		<tq-function
 			desc=""
 			name="GET_WF_QUEUE_REPORT"
@@ -3852,8 +3854,8 @@
 			desc=""
 			name="CONTACT_UPDATE_INSERT_VCT"
 			targetBeanName="DynamicQueryExecutor" />
-		
-				<tq-function
+
+		<tq-function
 			desc=""
 			name="WF_SUBPROCESS_KEY_VALUE"
 			targetBeanName="DynamicQueryExecutor" />
@@ -4049,7 +4051,7 @@
 			desc=""
 			name="GET_WF_CASE_TRACKER_PROVIDER"
 			targetBeanName="DynamicQueryExecutor" />
-				<tq-function
+		<tq-function
 			desc=""
 			name="WF_INSERT_GROUP_TASK"
 			targetBeanName="DynamicQueryExecutor" />
@@ -4082,7 +4084,7 @@
 			desc=""
 			name="WF_SEARCH_UNCONTEXTUALISED"
 			targetBeanName="DynamicQueryExecutor" />
-			<tq-function
+		<tq-function
 			desc=""
 			name="QUI_CLOSE_WORKFLOW"
 			targetBeanName="DynamicQueryExecutor" />
@@ -4098,12 +4100,12 @@
 			desc=""
 			name="WF_ASSIGN_ITEM_TEMP"
 			targetBeanName="DynamicQueryExecutor" />
-		
+
 		<tq-function
 			desc=""
 			name="WF_ATTACH_ADD_IMAGE"
 			targetBeanName="DynamicQueryExecutor" />
-				<tq-function
+		<tq-function
 			desc=""
 			name="WF_GET_QUEUE_ITEMS"
 			targetBeanName="DynamicQueryExecutor" />
@@ -4159,7 +4161,7 @@
 			desc=""
 			name="WF_GET_USERS"
 			targetBeanName="DynamicQueryExecutor" />
-	     <tq-function
+		<tq-function
 			desc=""
 			name="WF_GET_ITEM_DURATION"
 			targetBeanName="DynamicQueryExecutor" />
@@ -4167,7 +4169,7 @@
 			desc=""
 			name="WF_GET_ITEM_DURATION2"
 			targetBeanName="DynamicQueryExecutor" />
-		
+
 		<tq-function
 			desc=""
 			name="WF_GET_ITEM_HIST2"
@@ -4202,7 +4204,7 @@
 			desc=""
 			name="WF_DELETE_TASK_VARIABLES"
 			targetBeanName="DynamicQueryExecutor" />
-				<tq-function
+		<tq-function
 			desc=""
 			name="WF_GET_ENQWORK"
 			targetBeanName="DynamicQueryExecutor" />
@@ -4218,7 +4220,7 @@
 			desc=""
 			name="WF_FORCE_COMPLETE_TASK"
 			targetBeanName="DynamicQueryExecutor" />
-				<tq-function
+		<tq-function
 			desc=""
 			name="WF_GET_ATTACH"
 			targetBeanName="DynamicQueryExecutor" />
@@ -4246,8 +4248,8 @@
 			desc=""
 			name="WF_GET_COMMENTS2"
 			targetBeanName="DynamicQueryExecutor" />
-	
-		
+
+
 		<tq-function
 			desc=""
 			name="WF_GET_COMMENTS_ITEM_HIST2"
@@ -4264,9 +4266,9 @@
 			desc=""
 			name="WF_GET_ENQUIRY_DATE"
 			targetBeanName="DynamicQueryExecutor" />
-		
-			
-			
-	
+
+
+
+
 	</pool>
 </pool-classes>
