@@ -202,6 +202,11 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
+		<tq-function
+			desc=""
+			name="XML_ARCHIVE_GET_XML_BY_SERIAL"
+			targetBeanName="DynamicQueryExecutor" />
+		
 		<!--  this TQ has stored proc issue @p0 -->
 		<tq-function
 			desc=""
@@ -790,10 +795,6 @@
 		<tq-function
 			desc=""
 			name="MEMBERONLINE_SEARCHCLAIMS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="XML_ARCHIVE_GET_XML_BY_SERIAL"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
