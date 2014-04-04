@@ -5,7 +5,6 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="COBOL" />
 
-
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 		id="JEE">
@@ -202,6 +201,14 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
+		<tq-function
+			desc=""
+			name="WF_DELETE_GROUP_TASK"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="WF_UPDATE_GROUP_TASK"
+			targetBeanName="DynamicQueryExecutor" />
 		
 		<tq-function
 			desc=""
@@ -3867,10 +3874,7 @@
 			desc=""
 			name="WF_UPDATE_ENQWORK"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_UPDATE_GROUP_TASK"
-			targetBeanName="DynamicQueryExecutor" />
+		
 		<tq-function
 			desc=""
 			name="WF_UPDATE_JBPME_ENQUIRY_VAR"
@@ -4188,10 +4192,7 @@
 			desc=""
 			name="WF_GET_PROCESS_ID"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_DELETE_GROUP_TASK"
-			targetBeanName="DynamicQueryExecutor" />
+		
 		<tq-function
 			desc=""
 			name="WF_DELETE_MULTIPLE_GROUP_TASKS"
