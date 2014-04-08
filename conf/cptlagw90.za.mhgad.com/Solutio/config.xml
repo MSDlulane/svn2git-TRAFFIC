@@ -91,7 +91,7 @@
 	/>
 	<snmp-port
 		mibFile="mibs.xml"
-	>
+	> 
 		20822
 	</snmp-port>
 	<pool-definitions-file name="pool.xml"
