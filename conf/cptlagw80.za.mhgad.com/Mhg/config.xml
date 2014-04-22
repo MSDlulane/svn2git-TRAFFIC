@@ -13,6 +13,7 @@
 		tradingPartner="GuiApps"
 		trxAbortSizeLimit="1024000"
 		trxSizeLimit="1024000"
+		
 	/>
 	<env
 		mhgAccount="AMED"
