@@ -201,6 +201,13 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
+		
+		<!-- moved from was as ampersand in data is causing failure -->
+		<tq-function
+			desc=""
+			name="PROVIDER_SEARCH"
+			targetBeanName="DynamicQueryExecutor" />
+		
 		<tq-function
 			desc=""
 			name="WF_DELETE_GROUP_TASK"
@@ -3615,10 +3622,7 @@
 			targetBeanName="TQService" />
 
 		<!-- Workflow TQs -->
-		<tq-function
-			desc=""
-			name="PROVIDER_SEARCH"
-			targetBeanName="DynamicQueryExecutor" />
+	
 		<tq-function
 			desc=""
 			name="Get_Doctor_Group_Details"
