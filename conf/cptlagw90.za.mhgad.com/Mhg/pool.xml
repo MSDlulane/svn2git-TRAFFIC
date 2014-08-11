@@ -207,6 +207,11 @@
 			desc=""
 			name="PROVIDER_SEARCH"
 			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="WF_GET_GROUP_TASKS"
+			targetBeanName="DynamicQueryExecutor" />
+		
 		
 		<tq-function
 			desc=""
@@ -3959,10 +3964,7 @@
 			desc=""
 			name="WF_GET_GROUP_PROCESSES"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="WF_GET_GROUP_TASKS"
-			targetBeanName="DynamicQueryExecutor" />
+	
 		<tq-function
 			desc=""
 			name="WF_GET_TASK_VARIABLES"
