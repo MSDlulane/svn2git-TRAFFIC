@@ -32,7 +32,7 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -53,7 +53,7 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -151,7 +151,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -207,7 +207,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -325,7 +325,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -443,7 +443,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -575,7 +575,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -809,7 +809,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -941,7 +941,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -1073,7 +1073,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -1207,7 +1207,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -1339,7 +1339,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -1457,7 +1457,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -1591,7 +1591,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -1725,7 +1725,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -1859,7 +1859,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -1993,7 +1993,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -2127,7 +2127,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -2243,7 +2243,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -2361,7 +2361,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -2479,7 +2479,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -2597,7 +2597,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -2715,7 +2715,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
@@ -2833,7 +2833,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="cptleap01.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
