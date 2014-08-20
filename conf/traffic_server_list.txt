@@ -150,6 +150,12 @@ cptlagw02.za.mhgad.com Mhg_primary PRODUCTION_LATEST ENABLED 256 512 10011 ENABL
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_secondary/
 cptlagw02.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012 ENABLED
+#
+# Traffic server for MKReal? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/MKReal/
+cptlagw02.za.mhgad.com MKReal PRODUCTION_LEGACY ENABLED 128 256 10013 DISABLED
+#
 # CPTLAGW03
 #
 # CPTLAGW03 is a host/machine/server added for third-parties other than DHS as
@@ -223,6 +229,7 @@ cptlagw03.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012 ENA
 cptlagw03.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013 DISABLED
 # DISASTER RECOVERY
 dralsin01.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013
+
 # REGIONAL
 # 
 # REGIONAL traffic hosts and instances service user interface requests 
@@ -260,6 +267,7 @@ cptlagw90.za.mhgad.com Standin PRODUCTION_LEGACY ENABLED -1 -1 65019 DISABLED
 cptlagw90.za.mhgad.com Sanlam ACCEPTANCE_LATEST ENABLED -1 256 65020 DISABLED
 cptlagw90.za.mhgad.com TQ_TEST ACCEPTANCE_LATEST ENABLED -1 -1 65021 DISABLED
 cptlagw90.za.mhgad.com LEAP05_TEST ACCEPTANCE_LATEST ENABLED -1 -1 65022 DISABLED
+cptlagw90.za.mhgad.com MKReal ACCEPTANCE_LEGACY ENABLED -1 -1 65023 DISABLED
 #   DEVELOPMENT
 cptlagw80.za.mhgad.com DHS DEVELOPMENT_LEGACY ENABLED -1 -1 64001 DISABLED
 cptlagw80.za.mhgad.com IKat DEVELOPMENT_LEGACY ENABLED -1 -1 64002 DISABLED
@@ -291,4 +299,5 @@ cptlagw70.za.mhgad.com WWW PREPROD_LEGACY ENABLED -1 -1 65017 DISABLED
 cptlagw70.za.mhgad.com IKat PREPROD_LEGACY ENABLED -1 -1 65018 DISABLED
 cptlagw70.za.mhgad.com Standin PREPROD_LEGACY ENABLED -1 -1 65019 DISABLED
 cptlagw70.za.mhgad.com Sanlam PREPROD_LATEST DISABLED -1 256 65020 DISABLED
+cptlagw70.za.mhgad.com MKReal PREPROD_LEGACY ENABLED -1 -1 65021 DISABLED
 
