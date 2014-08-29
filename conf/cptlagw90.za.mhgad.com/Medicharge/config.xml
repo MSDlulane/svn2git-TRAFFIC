@@ -421,7 +421,396 @@
 			mhg="TRANSMED"
 			tradingPartner="MCV"			
 		/>
-				<x-ref
+
+			
+	<!-- New destination codes -->
+	
+	<x-ref
+			description="Metropolitan: Dentists"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="P1001"
+		/>
+		<x-ref
+			description="Metropolitan: Pathologists"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="P1002"
+		/>
+		<x-ref
+			description="Metropolitan: Specialists"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="P1003"
+		/>
+		<x-ref
+			description="Metropolitan:Optometrists"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="P1004"
+		/>
+		<x-ref
+			description="Metropolitan:Radiologists"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="P1005"
+		/>
+		<x-ref
+			description="Metropolitan: Oncologists "
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="P1006"
+		/>
+		<x-ref
+			description="Metropolitan: Physiotherapists"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="P1007"
+		/>
+		<x-ref
+			description="Metropolitan: Other"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="P1008"
+		/>
+		<x-ref
+			description="Metropolitan: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="P1009"
+		/>
+			<x-ref
+			description="POLMED: Dentists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5001"
+		/>
+		<x-ref
+			description="POLMED: Pathologists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5002"
+		/>
+		<x-ref
+			description="POLMED: Specialists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5003"
+		/>
+		<x-ref
+			description="POLMED:Optometrists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5004"
+		/>
+		<x-ref
+			description="POLMED:Radiologists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5005"
+		/>
+		<x-ref
+			description="POLMED: Oncologists "
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5006"
+		/>
+		<x-ref
+			description="POLMED: Physiotherapists"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5007"
+		/>
+		<x-ref
+			description="POLMED: Other"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5008"
+		/>
+		<x-ref
+			description="POLMED: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="P5009"
+		/>
+			<x-ref
+			description="Medipos: Dentists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7001"
+		/>
+		<x-ref
+			description="Medipos: Pathologists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7002"
+		/>
+		<x-ref
+			description="Medipos: Specialists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7003"
+		/>
+		<x-ref
+			description="Medipos:Optometrists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7004"
+		/>
+		<x-ref
+			description="Medipos:Radiologists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7005"
+		/>
+		<x-ref
+			description="Medipos: Oncologists "
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7006"
+		/>
+		<x-ref
+			description="Medipos: Physiotherapists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7007"
+		/>
+		<x-ref
+			description="Medipos: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7009"
+		/>
+		<x-ref
+			description="Medipos: Other"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7008"
+		/>
+			<x-ref
+			description="BANKMED: Dentists"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="PA001"
+		/>
+		<x-ref
+			description="BANKMED: Pathologists"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="PA002"
+		/>
+		<x-ref
+			description="BANKMED: Specialists"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="PA003"
+		/>
+		<x-ref
+			description="BANKMED:Optometrists"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="PA004"
+		/>
+		<x-ref
+			description="BANKMED:Radiologists"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="PA005"
+		/>
+		<x-ref
+			description="BANKMED: Oncologists "
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="PA006"
+		/>
+		<x-ref
+			description="BANKMED: Physiotherapists"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="PA007"
+		/>
+		<x-ref
+			description="BANKMED: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="PA009"
+		/>
+		<x-ref
+			description="BANKMED: Other"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="PA008"
+		/>
+			<x-ref
+			description="WOOLTRU: Dentists"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="PE001"
+		/>
+		<x-ref
+			description="WOOLTRU: Pathologists"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="PE002"
+		/>
+		<x-ref
+			description="WOOLTRU: Specialists"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="PE003"
+		/>
+		<x-ref
+			description="WOOLTRU:Optometrists"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="PE004"
+		/>
+		<x-ref
+			description="WOOLTRU:Radiologists"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="PE005"
+		/>
+		<x-ref
+			description="WOOLTRU: Oncologists "
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="PE006"
+		/>
+		<x-ref
+			description="WOOLTRU: Physiotherapists"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="PE007"
+		/>
+		<x-ref
+			description="WOOLTRU: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="PE009"
+		/>
+		<x-ref
+			description="WOOLTRU: Other"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="PE008"
+		/>
+			<x-ref
+			description="WOOLTRU: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="PE009"
+		/>
+				
+		<x-ref
+			description="ENGEN: Dentists"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="PG001"
+		/>
+		<x-ref
+			description="ENGEN: Pathologists"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="PG002"
+		/>
+		<x-ref
+			description="ENGEN: Specialists"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="PG003"
+		/>
+		<x-ref
+			description="ENGEN:Optometrists"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="PG004"
+		/>
+		<x-ref
+			description="ENGEN:Radiologists"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="PG005"
+		/>
+		<x-ref
+			description="ENGEN: Oncologists "
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="PG006"
+		/>
+		<x-ref
+			description="ENGEN: Physiotherapists"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="PG007"
+		/>
+		<x-ref
+			description="ENGEN: Other"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="PG008"
+		/>
+		<x-ref
+			description="ENGEN: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="PG009"
+		/>
+			<x-ref
+			description="PICKNPAY: Dentists"
+			functionMask="FFFF"
+			mhg="PICK_N_PAY"
+			tradingPartner="PI001"
+		/>
+		<x-ref
+			description="PICKNPAY: Pathologists"
+			functionMask="FFFF"
+			mhg="PICK_N_PAY"
+			tradingPartner="PI002"
+		/>
+		<x-ref
+			description="PICKNPAY: Specialists"
+			functionMask="FFFF"
+			mhg="PICK_N_PAY"
+			tradingPartner="PI003"
+		/>
+		<x-ref
+			description="PICKNPAY:Optometrists"
+			functionMask="FFFF"
+			mhg="PICK_N_PAY"
+			tradingPartner="PI004"
+		/>
+		<x-ref
+			description="PICKNPAY:Radiologists"
+			functionMask="FFFF"
+			mhg="PICK_N_PAY"
+			tradingPartner="PI005"
+		/>
+		<x-ref
+			description="PICKNPAY: Oncologists "
+			functionMask="FFFF"
+			mhg="PICK_N_PAY"
+			tradingPartner="PI006"
+		/>
+		<x-ref
+			description="PICKNPAY: Physiotherapists"
+			functionMask="FFFF"
+			mhg="PICK_N_PAY"
+			tradingPartner="PI007"
+		/>
+		<x-ref
+			description="PICKNPAY: Other"
+			functionMask="FFFF"
+			mhg="PICK_N_PAY"
+			tradingPartner="PI008"
+		/>
+		<x-ref
+			description="PICKNPAY: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="PICK_N_PAY"
+			tradingPartner="PI009"
+		/>
+		<x-ref
 			description="PROTEKTA: Dentist"
 			functionMask="FFFF"
 			mhg="PROTEKTA"
@@ -475,6 +864,443 @@
 			mhg="PROTEKTA"
 			tradingPartner="PJ009"
 		/>
+			<x-ref
+			description="PG: Dentists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM001"
+		/>
+		<x-ref
+			description="PG: Pathologists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM002"
+		/>
+		
+		<x-ref
+			description="PG: Specialists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM003"
+		/>
+		<x-ref
+			description="PG:Optometrists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM004"
+		/>
+		<x-ref
+			description="PG:Radiologists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM005"
+		/>
+		<x-ref
+			description="PG: Oncologists "
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM006"
+		/>
+		<x-ref
+			description="PG: Physiotherapists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM007"
+		/>
+		<x-ref
+			description="PG: Other"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM008"
+		/>
+		<x-ref
+			description="PG: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM009"
+		/>
+					<x-ref
+			description="Golden arrow: Dentists"
+			functionMask="FFFF"
+			mhg="GOLDEN_ARROW"
+			tradingPartner="PN001"
+		/>
+		<x-ref
+			description="Golden arrow: Pathologists"
+			functionMask="FFFF"
+			mhg="GOLDEN_ARROW"
+			tradingPartner="PN002"
+		/>
+		<x-ref
+			description="Golden arrow: Specialists"
+			functionMask="FFFF"
+			mhg="GOLDEN_ARROW"
+			tradingPartner="PN003"
+		/>
+		<x-ref
+			description="Golden arrow:Optometrists"
+			functionMask="FFFF"
+			mhg="GOLDEN_ARROW"
+			tradingPartner="PN004"
+		/>
+		<x-ref
+			description="Golden arrow:Radiologists"
+			functionMask="FFFF"
+			mhg="GOLDEN_ARROW"
+			tradingPartner="PN005"
+		/>
+		<x-ref
+			description="Golden arrow: Oncologists "
+			functionMask="FFFF"
+			mhg="GOLDEN_ARROW"
+			tradingPartner="PN006"
+		/>
+		<x-ref
+			description="Golden arrow: Physiotherapists"
+			functionMask="FFFF"
+			mhg="GOLDEN_ARROW"
+			tradingPartner="PN007"
+		/>
+		<x-ref
+			description="Golden arrow: Other"
+			functionMask="FFFF"
+			mhg="GOLDEN_ARROW"
+			tradingPartner="PN008"
+		/>
+		<x-ref
+			description="Golden arrow: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="GOLDEN_ARROW"
+			tradingPartner="PN009"
+		/>
+				<x-ref
+			description="FISHMED: Dentists"
+			functionMask="FFFF"
+			mhg="FISHING_INDUSTRY"
+			tradingPartner="PO001"
+		/>
+		<x-ref
+			description="FISHMED: Pathologists"
+			functionMask="FFFF"
+			mhg="FISHING_INDUSTRY"
+			tradingPartner="PO002"
+		/>
+		<x-ref
+			description="FISHMED: Specialists"
+			functionMask="FFFF"
+			mhg="FISHING_INDUSTRY"
+			tradingPartner="PO003"
+		/>
+		<x-ref
+			description="FISHMED:Optometrists"
+			functionMask="FFFF"
+			mhg="FISHING_INDUSTRY"
+			tradingPartner="PO004"
+		/>
+		<x-ref
+			description="FISHMED:Radiologists"
+			functionMask="FFFF"
+			mhg="FISHING_INDUSTRY"
+			tradingPartner="PO005"
+		/>
+		<x-ref
+			description="FISHMED: Oncologists "
+			functionMask="FFFF"
+			mhg="FISHING_INDUSTRY"
+			tradingPartner="PO006"
+		/>
+		<x-ref
+			description="FISHMED: Physiotherapists"
+			functionMask="FFFF"
+			mhg="FISHING_INDUSTRY"
+			tradingPartner="PO007"
+		/>
+		<x-ref
+			description="FISHMED: Other"
+			functionMask="FFFF"
+			mhg="FISHING_INDUSTRY"
+			tradingPartner="PO008"
+		/>
+
+		<x-ref
+			description="FISHMED: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="FISHING_INDUSTRY"
+			tradingPartner="PO009"
+		/>
+					<x-ref
+			description="BP: Dentists"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="PP001"
+		/>
+		<x-ref
+			description="BP: Pathologists"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="PP002"
+		/>
+		<x-ref
+			description="BP: Oncologists "
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="PP006"
+		/>
+		<x-ref
+			description="BP: Specialists"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="PP003"
+		/>
+		<x-ref
+			description="BP:Optometrists"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="PP004"
+		/>
+		<x-ref
+			description="BP:Radiologists"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="PP005"
+		/>
+		<x-ref
+			description="BP: Physiotherapists"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="PP007"
+		/>
+		<x-ref
+			description="BP: Other"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="PP008"
+		/>
+		<x-ref
+			description="BP: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="PP009"
+		/>
+		<x-ref
+			description="SAMWU: Dentists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ001"
+		/>
+		<x-ref
+			description="SAMWU: Pathologists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ002"
+		/>
+		<x-ref
+			description="SAMWU: Specialists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ003"
+		/>
+		<x-ref
+			description="SAMWU:Optometrists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ004"
+		/>
+		<x-ref
+			description="SAMWU:Radiologists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ005"
+		/>
+		<x-ref
+			description="SAMWU: Oncologists "
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ006"
+		/>
+		<x-ref
+			description="SAMWU: Physiotherapists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ007"
+		/>
+		<x-ref
+			description="SAMWU: Other"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ008"
+		/>
+		<x-ref
+			description="SAMWU: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ009"
+		/>
+			<x-ref
+			description="GEMS: Dentists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT001"
+		/>
+		<x-ref
+			description="GEMS: Pathologists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT002"
+		/>
+		<x-ref
+			description="GEMS: Specialists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT003"
+		/>
+		<x-ref
+			description="GEMS:Optometrists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT004"
+		/>
+		<x-ref
+			description="GEMS:Radiologists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT005"
+		/>
+		<x-ref
+			description="GEMS: Oncologists "
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT006"
+		/>
+		<x-ref
+			description="GEMS: Physiotherapists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT007"
+		/>
+		<x-ref
+			description="GEMS: Other"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT008"
+		/>
+		<x-ref
+			description="GEMS: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT009"
+		/>
+			<x-ref
+			description="IMPERIALMED: Dentists"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="PU001"
+		/>
+		<x-ref
+			description="IMPERIALMED: Pathologists"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="PU002"
+		/>
+		<x-ref
+			description="IMPERIALMED: Specialists"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="PU003"
+		/>
+		<x-ref
+			description="IMPERIALMED:Optometrists"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="PU004"
+		/>
+		<x-ref
+			description="IMPERIALMED:Radiologists"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="PU005"
+		/>
+		<x-ref
+			description="IMPERIALMED: Oncologists "
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="PU006"
+		/>
+		<x-ref
+			description="IMPERIALMED: Physiotherapists"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="PU007"
+		/>
+		<x-ref
+			description="IMPERIALMED: Other"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="PU008"
+		/>
+		<x-ref
+			description="IMPERIALMED: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="PU009"
+		/>
+			<x-ref
+			description="TRANSMED: Dentists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV001"
+		/>
+		<x-ref
+			description="TRANSMED: Pathologists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV002"
+		/>
+		<x-ref
+			description="TRANSMED: Specialists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV003"
+		/>
+		<x-ref
+			description="TRANSMED:Optometrists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV004"
+		/>
+		<x-ref
+			description="TRANSMED:Radiologists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV005"
+		/>
+		<x-ref
+			description="TRANSMED: Oncologists "
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV006"
+		/>
+		<x-ref
+			description="TRANSMED: Physiotherapists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV007"
+		/>
+	
+		<x-ref
+			description="TRANSMED: Other"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV008"
+		/>
+			<x-ref
+			description="TRANSMED: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV009"
+		/>
+
+
 		
 	</destination-x-ref>
 	<logger
