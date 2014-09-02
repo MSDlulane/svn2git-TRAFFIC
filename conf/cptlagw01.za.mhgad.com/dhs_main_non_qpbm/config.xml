@@ -22,10 +22,10 @@
 		<pool
 			autotimeout="120000"
 			connections="5"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-amed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9107"
+			port="9307"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -37,10 +37,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-amed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9107"
+			port="9307"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -51,10 +51,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-amed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9107"
+			port="9307"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -66,10 +66,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-amed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9107"
+			port="9307"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -81,10 +81,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-amed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9107"
+			port="9307"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -96,10 +96,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-imperial.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9114"
+			port="9314"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -111,10 +111,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-medipos.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9115"
+			port="9315"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -125,10 +125,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-newmed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9108"
+			port="9308"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -139,10 +139,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-redrib.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9111"
+			port="9311"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -154,10 +154,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-samwu.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9105"
+			port="9305"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -170,10 +170,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-newmed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9108"
+			port="9308"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -185,10 +185,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-amed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9107"
+			port="9307"
 			useSoTimeOut="false"
 		/>
 	</env>
