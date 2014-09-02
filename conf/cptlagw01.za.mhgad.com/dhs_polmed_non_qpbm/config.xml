@@ -25,10 +25,10 @@
 		<pool
 			autotimeout="120000"
 			connections="20"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-polmed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9109"
+			port="9309"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -39,10 +39,10 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-polmed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9109"
+			port="9309"
 			useSoTimeOut="false"
 		/>
 	</env>
