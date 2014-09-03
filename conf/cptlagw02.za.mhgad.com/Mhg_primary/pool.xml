@@ -850,7 +850,11 @@
 
 	<pool
 		id="POJAS"
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
+		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">		
+		<tq-function
+			desc=""
+			name="FIND_CORRESPONDENCE"
+			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
 			name="GET_PROVIDER_GP_NETWORK"
@@ -4224,7 +4228,7 @@
 			targetBeanName="DynamicQueryExecutor"
 			desc="" />
 		<tq-function
-			name="MEMBERONLINE_Count_Claims_FORDOCTOR"
+			name="MEMBlERONLINE_Count_Claims_FORDOCTOR"
 			targetBeanName="DynamicQueryExecutor"
 			desc="" />
 
