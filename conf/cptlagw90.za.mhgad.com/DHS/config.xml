@@ -385,6 +385,14 @@
 			tradingPartner="rtdm0003"
 		/>
 		<x-ref
+			description="MHG: GEMS MEDICLINIC Onyx"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGOM0001"
+		/>
+		
+		
+		<x-ref
 			description="MHG:GEMS Emerald pathology realer (Medical)"
 			functionMask="FFFF"
 			mhg="GEMS"
