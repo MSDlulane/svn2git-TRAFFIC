@@ -27,8 +27,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9107"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -40,8 +40,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9107"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -53,8 +53,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9107"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -66,8 +66,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9107"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -79,8 +79,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9107"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -91,8 +91,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9110"
+			hostname="apl-gems.za.mhgad.com"
+			port="9310"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -104,8 +104,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9107"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -117,8 +117,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9108"
+			hostname="apl-newmed.za.mhgad.com"
+			port="9308"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -129,8 +129,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9113"
+			hostname="apl-nimas.za.mhgad.com"
+			port="9313"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -142,8 +142,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9107"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -154,8 +154,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9109"
+			hostname="apl-polmed.za.mhgad.com"
+			port="9309"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -167,8 +167,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9108"
+			hostname="apl-newmed.za.mhgad.com"
+			port="9308"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -180,8 +180,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9107"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -193,8 +193,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9114"
+			hostname="apl-imperial.za.mhgad.com"
+			port="9314"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -206,8 +206,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9115"
+			hostname="apl-medipos.za.mhgad.com"
+			port="9315"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -219,8 +219,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9105"
+			hostname="apl-samwu.za.mhgad.com"
+			port="9305"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
@@ -231,8 +231,8 @@
 		<pool
 			id="COBOL"
 			useSoTimeOut="false"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9116"
+			hostname="apl-protekta.za.mhgad.com"
+			port="9316"
 			connections="10"
 			autotimeout="120000"
 			poolMaxWaitTime="60000" />
