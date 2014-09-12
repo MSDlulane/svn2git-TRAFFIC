@@ -205,6 +205,11 @@
 		<!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
 			desc=""
+			name="FIND_CORRESPONDENCE"
+			targetBeanName="DynamicQueryExecutor" />
+		
+		<tq-function
+			desc=""
 			name="MEMBERONLINE_GETMEMBERCLAIMSTATUS"
 			targetBeanName="DynamicQueryExecutor" />
 		
@@ -656,10 +661,7 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="WAS">
-		<tq-function
-			desc=""
-			name="FIND_CORRESPONDENCE"
-			targetBeanName="DynamicQueryExecutor" />
+		
 
 		<tq-function
 			desc=""
