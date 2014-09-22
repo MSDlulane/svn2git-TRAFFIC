@@ -205,6 +205,15 @@
 		<!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
 			desc=""
+			name="WF_LIST_RESPONSE_EXPECTED_ITEMS"
+			targetBeanName="DynamicQueryExecutor" />
+			
+		<tq-function
+			desc=""
+			name="WF_STORE_OUTBOUND_MSG_DETAILS"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="FIND_CORRESPONDENCE"
 			targetBeanName="DynamicQueryExecutor" />
 		
