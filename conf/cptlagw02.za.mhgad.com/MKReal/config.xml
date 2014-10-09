@@ -6,270 +6,223 @@
 		cmdPasswd="1q2w3e"
 		diagPort="24001"
 		logConfigFile="log4j.xml"
-		name="MKReal Prod Server"
+		name="MKReal Server"
 		port="24000"
 		sendTrxDetailsToStatusMonitor="true"
 		tradingPartner="MKReal"
 		trxAbortSizeLimit="84000"
 		trxSizeLimit="64000" />
 
-	<env
-		name="PROTEKTA">
+		<env
+		name="AFROX"
+		mhgAccount="AMED">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9117"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
 	<env
-		mhgAccount="AMED"
-		name="AFROX">
-
+		name="BANKMED"
+		mhgAccount="AMED">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 
 	<env
-		mhgAccount="AMED"
-		name="BP">
-
+		name="BP"
+		mhgAccount="AMED">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 	<env
-		mhgAccount="AMED"
-		name="BANKMED">
-
+		name="ENGEN"
+		mhgAccount="AMED">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
-	<env
-		mhgAccount="AMED"
-		name="ENGEN">
 
-		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
-	</env>
 	<env
-		mhgAccount="AMED"
-		name="FISHING_INDUSTRY">
-
+		name="FISHING_INDUSTRY"
+		mhgAccount="AMED">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
-	<env
-		mhgAccount="AMED"
-		name="FOSCHINI">
-
-		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
-	</env>
-	<env
+		<env
 		name="GEMS">
-
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9110"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-gems.za.mhgad.com"
+			port="9310"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
+
 	<env
-		mhgAccount="AMED"
-		name="GOLDEN_ARROW">
-
+		name="GOLDEN_ARROW"
+		mhgAccount="AMED">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
-	<env
-		mhgAccount="NEWMED"
-		name="METROPOLITAN">
-
+		<env
+		name="METROPOLITAN"
+		mhgAccount="NEWMED">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9107"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-newmed.za.mhgad.com"
+			port="9308"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
+
 	<env
 		name="NIMAS">
-
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9113"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-nimas.za.mhgad.com"
+			port="9313"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
-	<env
-		mhgAccount="AMED"
-		name="PICK_N_PAY">
-
+		<env
+		name="PICK_N_PAY"
+		mhgAccount="AMED">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
+
 	<env
 		name="POLMED">
-
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9109"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-polmed.za.mhgad.com"
+			port="9309"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 	<env
-		mhgAccount="AMED"
-		name="REMEDI">
-
+		name="TRANSMED"
+		mhgAccount="NEWMED">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-newmed.za.mhgad.com"
+			port="9308"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
+	</env>
+
+	<env
+		name="WOOLTRU"
+		mhgAccount="AMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
+	</env>
+		<env
+		name="IMPERIAL"
+		mhgAccount="IMPERIAL">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="apl-imperial.za.mhgad.com"
+			port="9314"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
+	</env>
+
+	<env
+		name="MEDIPOS"
+		mhgAccount="MEDIPOS">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="apl-medipos.za.mhgad.com"
+			port="9315"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 	<env
-		mhgAccount="AMED"
-		name="SAPPI">
-
+		name="SAMWU"
+		mhgAccount="SAMWU">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-samwu.za.mhgad.com"
+			port="9305"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
 	<env
-		mhgAccount="NEWMED"
-		name="SAMWU">
-
+		name="PROTEKTA"
+		mhgAccount="PROTEKTA">
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9115"
-			useSoTimeOut="false" />
+			useSoTimeOut="false"
+			hostname="apl-protekta.za.mhgad.com"
+			port="9316"
+			connections="10"
+			autotimeout="120000"
+			poolMaxWaitTime="60000" />
 	</env>
-	<env
-		mhgAccount="NEWMED"
-		name="TRANSMED">
 
-		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9107"
-			useSoTimeOut="false" />
-	</env>
-	<env
-		mhgAccount="AMED"
-		name="WOOLTRU">
-
-		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9106"
-			useSoTimeOut="false" />
-	</env>
-	<env
-		mhgAccount="IMPERIAL"
-		name="IMPERIAL">
-
-		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9105"
-			useSoTimeOut="false" />
-	</env>
-	<env
-		mhgAccount="MEDIPOS"
-		name="MEDIPOS">
-
-		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9108"
-			useSoTimeOut="false" />
-	</env>
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
 	<transaction-header
@@ -284,12 +237,12 @@
 		true
 	</synchronous-transactions>
 	<tailWatchServer
-		id="HealthBridge"
+		id="MKReal"
 		multicast-host-ip=""
 		multicast-port="-1"
 		tcpipPort="20888" />
 	<diagTailWatchServer
-		id="HealthBridge"
+		id="MKReal"
 		multicast-host-ip=""
 		multicast-port="-1"
 		tcpipPort="20889" />
