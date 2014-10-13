@@ -303,7 +303,24 @@
 		/>
 	</transaction-x-ref>
 	<destination-x-ref	>
-		
+		<x-ref
+			description="MHG: NIMAS REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="MSRR0002"
+		/>
+		<x-ref
+			description="MHG: ENGEN REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MERM0001"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGER0006"
+		/>
 		<x-ref
 			description="RANDW"
 			functionMask="FFFF"
