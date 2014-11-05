@@ -849,6 +849,11 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
 		<tq-function
 			desc=""
+			name="WF_LIST_RESPONSE_EXPECTED_ITEMS"
+			targetBeanName="DynamicQueryExecutor" />
+		
+		<tq-function
+			desc=""
 			name="FIND_CORRESPONDENCE"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
