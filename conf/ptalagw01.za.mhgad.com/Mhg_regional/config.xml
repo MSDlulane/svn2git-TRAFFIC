@@ -135,15 +135,24 @@
 		mhgAccount="SHARE"
 		name="SHARE"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="localhost"
+			hostname="cptleap05.za.mhgad.com"
 			id="JEE"
 			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>	
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
