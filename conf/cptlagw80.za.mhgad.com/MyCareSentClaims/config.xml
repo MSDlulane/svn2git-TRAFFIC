@@ -1,0 +1,170 @@
+<Enviroments>
+	<server
+		__system_out="default"
+		autoTestConnectorsOnStartup="false"
+		diagPort="30911"
+		sdfsf
+		logConfigFile="log4j.xml"
+		name="MyCareSentClaims’ (Solutio clone)"
+		port="30910"
+		trxAbortSizeLimit="512000"
+		trxSizeLimit="512000" />
+	<env
+		mhgAccount="GEMS"
+		name="default">
+
+		<pool
+			autotimeout="120000"
+			connections="20"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9110" />
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptldev01.za.mhgad.com"
+			id="EJB"
+			poolMaxWaitTime="1000"
+			port="1099" />
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="4"
+			dropClientOnError="false"
+			hostname="cptlagw80.za.mhgad.com"
+			id="POJAS"
+			poolMaxWaitTime="60000"
+			port="43000"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000" />
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlesb80.za.mhgad.com"
+			id="WAS"
+			poolMaxWaitTime="15000"
+			port="30610"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000">
+
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="12000"
+				connections="10"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="cptlagw80.za.mhgad.com"
+				id="WAS_POJAS_BACKUP"
+				poolMaxWaitTime="12000"
+				port="43000"
+				startDisabled="false"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="40000" />
+		</pool>
+	</env>
+	<transaction
+		class="InterfaceTransactions.Solutio.SolutioTransaction" />
+
+	<transaction-header
+		class="InterfaceTransactions.Solutio.SolutioHeader" />
+	<snmp-port
+		mibFile="mibs.xml">
+		20822
+	</snmp-port>
+	<pool-definitions-file
+		name="pool.xml"
+		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
+	</pool-definitions-file>
+	<transaction-x-ref>
+
+		<x-ref
+			description="Change the status of a claim"
+			functionNo="FFFF"
+			mhg="CHGCLAIM"
+			tradingPartner="10" />
+		<x-ref
+			description="MHRS Ambulatory claim"
+			functionNo="FFFF"
+			mhg="TRGXML01"
+			tradingPartner="9" />
+		<x-ref
+			description="MHRS Switchback Claims"
+			functionNo="FFFF"
+			mhg="TRGXML01"
+			tradingPartner="8" />
+		<x-ref
+			description="MHRS Switchback Claims"
+			functionNo="FFFF"
+			mhg="TRGXML01"
+			tradingPartner="5" />
+	</transaction-x-ref>
+	<tailWatchServer
+		id="MyCareAuth"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="30912" />
+	<inputDataServer
+		id="MyCareAuth"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="30913" />
+	<transaction-transform>
+
+		<trx-form
+			tqFunctionName="POJAS_SOL_VALIDATE_PATIENT"
+			transformClass="InterfaceTransactions.Solutio.GenericTransaction"
+			type="PatientValidation" />
+		<trx-form
+			tqFunctionName="POJAS_SOL_AUTHORISATION"
+			transformClass="InterfaceTransactions.Solutio.GenericTransaction"
+			type="HospitalAuthorisationInformation" />
+		<trx-form
+			transformClass="InterfaceTransactions.Solutio.AuthTransfrom"
+			type="InAuth" />
+		<trx-form
+			transformClass="InterfaceTransactions.Solutio.BenefitTransfrom"
+			type="MemberBenefitMessage" />
+		<trx-form
+			transformClass="InterfaceTransactions.Solutio.DefaultTransfrom"
+			type="DEFAULT" />
+	</transaction-transform>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.SolutioLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000">
+
+			
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="IR0b0t"
+			DbUrl="jdbc:sybase:Tds:cptlsyb82.za.mhgad.com:7550/JBAUDIT"
+			DbUserName="traffic"
+			logTable="MyCareSentClaims"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH" />
+		</claimsLogger>
+	</logger>
+</Enviroments>
+
