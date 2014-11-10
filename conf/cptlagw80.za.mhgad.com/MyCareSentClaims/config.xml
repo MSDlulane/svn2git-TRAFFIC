@@ -3,7 +3,6 @@
 		__system_out="default"
 		autoTestConnectorsOnStartup="false"
 		diagPort="30911"
-		sdfsf
 		logConfigFile="log4j.xml"
 		name="MyCareSentClaims’ (Solutio clone)"
 		port="30910"
