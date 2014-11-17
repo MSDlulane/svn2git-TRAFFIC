@@ -114,7 +114,7 @@
 	>
 		
 		<pool
-			autotimeout="120000"
+			autotimeout="240000"
 			connections="25"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
