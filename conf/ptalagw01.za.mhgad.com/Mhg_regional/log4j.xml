@@ -15,7 +15,7 @@
     </appender>
 
     <root>
-        <priority value="ERROR" />
+        <priority value="DEBUG" />
         <appender-ref ref="FILE"/>
     </root>
 </log4j:configuration>
