@@ -25,6 +25,7 @@
 			poolMaxWaitTime="1120000"
 			port="9110"
 			useSoTimeOut="false" />
+			
 	</env>
 
 
@@ -256,11 +257,19 @@
 		<!-- New destination codes -->
 
 
+		
+		
+		
 		<x-ref
 			description="GEMS: Dentists"
 			functionMask="FFFF"
 			mhg="GEMS"
 			tradingPartner="PT001" />
+		<x-ref
+			description="GEMS Pathology Claims"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT002" />
 		<x-ref
 			description="GEMS: Specialists"
 			functionMask="FFFF"
@@ -296,6 +305,12 @@
 			functionMask="FFFF"
 			mhg="GEMS"
 			tradingPartner="PT009" />
+		<x-ref
+			description="GEMS Medicine Claims"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT010" />
+		<x-ref
 
 	</destination-x-ref>
 	<logger
