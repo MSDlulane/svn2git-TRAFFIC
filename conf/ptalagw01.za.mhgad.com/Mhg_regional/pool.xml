@@ -9,6 +9,10 @@
 		id="JEE_BACKUP"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 	/>
+	<pool
+		id="JEE_CPT_BACKUP"
+		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
+	/>
 
 	<pool
 		id="JEE"
