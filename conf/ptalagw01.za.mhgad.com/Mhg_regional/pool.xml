@@ -90,11 +90,6 @@
 			desc=""
 		/>
 		<tq-function
-			name="MH_DISCIPLINE_SERVICE"
-			targetBeanName="MH_DISCIPLINE_SERVICE"
-			desc=""
-		/>
-		<tq-function
 			name="Master_2011_04_01.RequestHandler"
 			targetBeanName="Master_2011_04_01.RequestHandler"
 			desc=""
@@ -122,51 +117,6 @@
 		<tq-function
 			name="POJAS_SOL_VALIDATE_PATIENT"
 			targetBeanName="POJAS_SOL_VALIDATE_PATIENT"
-			desc=""
-		/>
-		<tq-function
-			name="PROVIDERS_BY_DISCIPLINE_AND_ADDRESS_SERVICE"
-			targetBeanName="PROVIDERS_BY_DISCIPLINE_AND_ADDRESS_SERVICE"
-			desc=""
-		/>
-		<tq-function
-			name="PROVIDERS_BY_PRACTICE_AND_ADDRESS_SERVICE"
-			targetBeanName="PROVIDERS_BY_PRACTICE_AND_ADDRESS_SERVICE"
-			desc=""
-		/>
-		<tq-function
-			name="PROVIDERS_BY_PRACTICE_AND_HOSP_SERVICE"
-			targetBeanName="PROVIDERS_BY_PRACTICE_AND_HOSP_SERVICE"
-			desc=""
-		/>
-		<tq-function
-			name="PROVIDERS_DEREGISTRATION_SERVICE"
-			targetBeanName="PROVIDERS_DEREGISTRATION_SERVICE"
-			desc=""
-		/>
-		<tq-function
-			name="PROVIDERS_REGISTRATION_SERVICE"
-			targetBeanName="PROVIDERS_REGISTRATION_SERVICE"
-			desc=""
-		/>
-		<tq-function
-			name="PROVIDER_BY_PRACTICE_NUMBER_SERVICE"
-			targetBeanName="PROVIDER_BY_PRACTICE_NUMBER_SERVICE"
-			desc=""
-		/>
-		<tq-function
-			name="PROVIDER_LETTER_INFO_SERVICE"
-			targetBeanName="PROVIDER_LETTER_INFO_SERVICE"
-			desc=""
-		/>
-		<tq-function
-			name="PROVIDER_LOOKUP_SERVICE"
-			targetBeanName="PROVIDER_LOOKUP_SERVICE"
-			desc=""
-		/>
-		<tq-function
-			name="PROV_LET_INFO_SEARCH_BY_PRAC_NO"
-			targetBeanName="PROV_LET_INFO_SEARCH_BY_PRAC_NO"
 			desc=""
 		/>
 		<tq-function
@@ -5229,6 +5179,66 @@
 		/>
 
 	</pool>
+	<pool
+		id="JEE_CPT"
+		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
+	>
+		<tq-function
+			name="PROVIDERS_BY_PRACTICE_AND_HOSP_SERVICE"
+			targetBeanName="PROVIDERS_BY_PRACTICE_AND_HOSP_SERVICE"
+			desc=""
+		/>
+		<tq-function
+			name="MH_DISCIPLINE_SERVICE"
+			targetBeanName="MH_DISCIPLINE_SERVICE"
+			desc=""
+		/>
+		<tq-function
+			name="PROVIDERS_BY_DISCIPLINE_AND_ADDRESS_SERVICE"
+			targetBeanName="PROVIDERS_BY_DISCIPLINE_AND_ADDRESS_SERVICE"
+			desc=""
+		/>
+		<tq-function
+			name="PROVIDERS_REGISTRATION_SERVICE"
+			targetBeanName="PROVIDERS_REGISTRATION_SERVICE"
+			desc=""
+		/>
+		<tq-function
+			name="PROVIDER_LOOKUP_SERVICE"
+			targetBeanName="PROVIDER_LOOKUP_SERVICE"
+			desc=""
+		/>
+		<tq-function
+			name="PROV_LET_INFO_SEARCH_BY_PRAC_NO"
+			targetBeanName="PROV_LET_INFO_SEARCH_BY_PRAC_NO"
+			desc=""
+		/>
+		<tq-function
+			name="PROVIDER_LETTER_INFO_SERVICE"
+			targetBeanName="PROVIDER_LETTER_INFO_SERVICE"
+			desc=""
+		/>
+		<tq-function
+			name="PROVIDERS_DEREGISTRATION_SERVICE"
+			targetBeanName="PROVIDERS_DEREGISTRATION_SERVICE"
+			desc=""
+		/>
+		<tq-function
+			name="PROVIDER_BY_PRACTICE_NUMBER_SERVICE"
+			targetBeanName="PROVIDER_BY_PRACTICE_NUMBER_SERVICE"
+			desc=""
+		/>
+		<tq-function
+			name="PROVIDERS_BY_PRACTICE_AND_ADDRESS_SERVICE"
+			targetBeanName="PROVIDERS_BY_PRACTICE_AND_ADDRESS_SERVICE"
+			desc=""
+		/>
+		<tq-function
+			desc=""
+			name="MH_HOSPITAL_LOOKUP_SERVICE"
+			targetBeanName="MH_HOSPITAL_LOOKUP_SERVICE" />
+	</pool>
+
    
 </pool-classes>
 

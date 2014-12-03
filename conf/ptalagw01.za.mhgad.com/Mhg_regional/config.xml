@@ -39,7 +39,24 @@
 			
 			/>	
 		</pool>
-		
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>			
 		
 		
 	</env>
@@ -113,6 +130,24 @@
 				port="1099"
 			
 			/>	
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
 		</pool>		
 		<pool
 			autoDisable="false"
@@ -138,8 +173,16 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptleap05.za.mhgad.com"
+			hostname="localhost.za.mhgad.com"
 			id="JEE"
+			poolMaxWaitTime="10000"
+			port="1099">
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
 			poolMaxWaitTime="10000"
 			port="1099">
 			
@@ -147,7 +190,25 @@
 				autotimeout="120000"
 				connections="100"			
 				hostname="cptleap01.za.mhgad.com"
-				id="JEE_BACKUP"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
 				poolMaxWaitTime="10000"
 				port="1099"
 			
@@ -204,6 +265,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -246,6 +325,24 @@
 				connections="100"			
 				hostname="cptleap01.za.mhgad.com"
 				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
 				poolMaxWaitTime="10000"
 				port="1099"
 			
@@ -300,6 +397,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -342,6 +457,24 @@
 				connections="100"			
 				hostname="cptleap01.za.mhgad.com"
 				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
 				poolMaxWaitTime="10000"
 				port="1099"
 			
@@ -397,6 +530,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -440,6 +591,24 @@
 				connections="100"			
 				hostname="cptleap01.za.mhgad.com"
 				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
 				poolMaxWaitTime="10000"
 				port="1099"
 			
@@ -495,6 +664,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -544,6 +731,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -578,6 +783,24 @@
 				connections="100"			
 				hostname="cptleap01.za.mhgad.com"
 				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
 				poolMaxWaitTime="10000"
 				port="1099"
 			
@@ -624,6 +847,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -658,6 +899,24 @@
 				connections="100"			
 				hostname="cptleap01.za.mhgad.com"
 				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
 				poolMaxWaitTime="10000"
 				port="1099"
 			
@@ -734,6 +993,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -768,6 +1045,24 @@
 				connections="100"			
 				hostname="cptleap01.za.mhgad.com"
 				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
 				poolMaxWaitTime="10000"
 				port="1099"
 			
@@ -852,6 +1147,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -895,6 +1208,24 @@
 				connections="100"			
 				hostname="cptleap01.za.mhgad.com"
 				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
 				poolMaxWaitTime="10000"
 				port="1099"
 			
@@ -950,6 +1281,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -999,6 +1348,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1039,6 +1406,24 @@
 			/>	
 		</pool>
 		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1073,6 +1458,24 @@
 				connections="100"			
 				hostname="cptleap01.za.mhgad.com"
 				id="JEE_BACKUP"
+				poolMaxWaitTime="10000"
+				port="1099"
+			
+			/>	
+		</pool>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap05.za.mhgad.com"
+			id="JEE_CPT"
+			poolMaxWaitTime="10000"
+			port="1099">
+			
+			<secondaryPool
+				autotimeout="120000"
+				connections="100"			
+				hostname="cptleap01.za.mhgad.com"
+				id="JEE_CPT_BACKUP"
 				poolMaxWaitTime="10000"
 				port="1099"
 			
