@@ -10,7 +10,7 @@
 		tradingPartner="MyCareSentClaims"
 	/>
 	<env
-		name="MyCare"
+		name="MYCARET"
 	>
 		
 		<pool
