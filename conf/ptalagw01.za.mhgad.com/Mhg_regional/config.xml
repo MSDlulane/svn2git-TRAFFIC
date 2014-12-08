@@ -173,7 +173,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="localhost.za.mhgad.com"
+			hostname="localhost"
 			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099">
