@@ -17,10 +17,10 @@
 			autotimeout="7000"
 			connections="1"
 			dropClientOnError="false"
-			hostname="172.29.1.134"
+		   hostname="172.29.1.131"
 			id="COBOL"
 			poolMaxWaitTime="15000"
-			port="3005"
+			port="5281"
 			useSoTimeOut="false"
 		/>
 	</env>
