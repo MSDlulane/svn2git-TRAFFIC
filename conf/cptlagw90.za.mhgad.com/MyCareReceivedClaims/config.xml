@@ -24,8 +24,26 @@
 			id="COBOL"
 			poolMaxWaitTime="1120000"
 			port="9110"
-			useSoTimeOut="false" />
+			useSoTimeOut="false" >
 			
+			<secondaryPool
+				useSoTimeOut="false"
+				autoDisableOnSyncStart="true"
+				autoEnableOnSyncEnd="true"
+				minTrxTime="15000"
+				dropClientOnError="false"
+				startDisabled="true"
+				waitForSyncToFinishTimeout="10000"
+				autoDisable="false"
+				autoEnable="true"
+				id="COBOLBACKUP"
+				hostname="cptlapp90"
+				port="9130"
+				connections="10"
+				autotimeout="90000"
+				poolMaxWaitTime="28000"
+				connectorImplementationClassID="COBOL" />
+		</pool>
 	</env>
 
 
@@ -324,7 +342,7 @@
 			DbPassword="IR0b0t"
 			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
 			DbUserName="traffic"
-			logTable="MyCare"
+			logTable="MyCareClaims"
 			maxpoolsize="2"
 			minpoolsize="1"
 			poolId="generic"
