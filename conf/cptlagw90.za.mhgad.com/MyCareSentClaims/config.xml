@@ -12,13 +12,13 @@
 		name="MYCARET">
 
 		<pool
-			autotimeout="7000"
+			autotimeout="120000"
 			connections="1"
 			dropClientOnError="false"
 			hostname="10.10.71.18"
 			port="7500"
 			id="COBOL"
-			poolMaxWaitTime="15000"
+			poolMaxWaitTime="30000"
 			useSoTimeOut="false" />
 			  	<!--  hostname="196.35.123.84"
 		   port="5281"-->
