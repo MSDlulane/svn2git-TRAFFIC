@@ -15,7 +15,7 @@
 			autotimeout="7000"
 			connections="1"
 			dropClientOnError="false"
-			hostname="192.168.56.1"
+			hostname="10.10.71.18"
 			port="7500"
 			id="COBOL"
 			poolMaxWaitTime="15000"
