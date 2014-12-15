@@ -7,61 +7,53 @@
 		name="MyCare Sent Claims Sweeper Traf"
 		port="30910"
 		sendTrxDetailsToStatusMonitor="true"
-		tradingPartner="MyCareSentClaims"
-	/>
+		tradingPartner="MyCareSentClaims" />
 	<env
-		name="MYCARET"
-	>
-		
+		name="MYCARET">
+
 		<pool
 			autotimeout="7000"
 			connections="1"
 			dropClientOnError="false"
-		   hostname="196.35.123.84"
+			hostname="192.168.56.1"
+			port="7500"
 			id="COBOL"
 			poolMaxWaitTime="15000"
-			port="5281"
-			useSoTimeOut="false"
-		/>
+			useSoTimeOut="false" />
+			  	<!--  hostname="196.35.123.84"
+		   port="5281"-->
 	</env>
-	
+
 
 	<transaction
-		class="InterfaceTransactions.DefaultImplementation.DefaultTransaction"
-	/>
+		class="InterfaceTransactions.DefaultImplementation.DefaultTransaction" />
 	<transaction-header
-		class="InterfaceTransactions.DefaultImplementation.DefaultHeader"
-	/>
+		class="InterfaceTransactions.DefaultImplementation.DefaultHeader" />
 	<pool-definitions-file
-		name="pool.xml"
-	/>
+		name="pool.xml" />
 	<snmp-port
-		mibFile="mibs.xml"
-	>
+		mibFile="mibs.xml">
 		10102
 	</snmp-port>
-	<synchronous-transactions	>
+	<synchronous-transactions>
 		true
 	</synchronous-transactions>
 	<tailWatchServer
 		id="Sweeper"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30912"
-	/>
+		tcpipPort="30912" />
 	<diagTailWatchServer
 		id="Sweeper"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30913"
-	/>
+		tcpipPort="30913" />
 	<logger
 		classname="InterfaceTransactions.Diagnostics.SolutioLogger"
 		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
-		processSleepTime="1000"
-	>
-		
+		processSleepTime="1000">
+
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbPassword="IR0b0t"
@@ -71,13 +63,11 @@
 			maxpoolsize="2"
 			minpoolsize="1"
 			poolId="generic"
-			timeout="600000"
-		>
-			
+			timeout="600000">
+
 			<logTransactions
 				desc="comma seperated list of transactions to log"
-				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH"
-			/>
+				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH" />
 		</claimsLogger>
 	</logger>
 </Enviroments>
