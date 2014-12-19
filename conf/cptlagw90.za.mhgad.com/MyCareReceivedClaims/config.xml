@@ -328,6 +328,14 @@
 			functionMask="FFFF"
 			mhg="GEMS"
 			tradingPartner="PT010" />
+			
+		<x-ref
+			description="GEMS Medicine Claims"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT012" />
+			
+			
 
 
 	</destination-x-ref>
