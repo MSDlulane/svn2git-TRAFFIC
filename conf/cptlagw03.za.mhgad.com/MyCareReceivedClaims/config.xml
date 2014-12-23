@@ -1,0 +1,214 @@
+<Enviroments>
+
+	<server
+		active="true"
+		autoDisable="false"
+		cmdPasswd="1q2w3e"
+		diagPort="30901"
+		logConfigFile="log4j.xml"
+		name="MyCareReceivedClaims ACPT Server"
+		port="30900"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="HealthBridge"
+		trxAbortSizeLimit="84000"
+		trxSizeLimit="64000" />
+
+
+	<env
+		mhgAccount="GEMS"
+		name="GEMS"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="15"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="GEMS"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="20801"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="GEMS"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="10"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="12000"
+				poolMaxWaitTime="28000"
+				port="9309"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="20801"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="GEMS"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="20801"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="GEMS"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="20801"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="GEMS"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
+	</env>
+
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders" />
+	<pool-definitions-file
+		name="pool.xml" />
+	<snmp-port
+		mibFile="mibs.xml">
+		20887
+	</snmp-port>
+	<synchronous-transactions>
+		true
+	</synchronous-transactions>
+	<tailWatchServer
+		id="MyCareReceivedClaims"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="30888" />
+	<diagTailWatchServer
+		id="MyCareReceivedClaims"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="30889" />
+	<transaction-x-ref>
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			isPingOrHandshake="true"
+			mhg="ELCHECK"
+			tradingPartner="1" />
+		<x-ref
+			description="Realtime Pharmacy Medicine claims"
+			functionNo="000A"
+			mhg="REALCLM"
+			tradingPartner="2" />
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3" />
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4" />
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127" />
+		<x-ref
+			description="Realtime doctor"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5" />
+
+	  <x-ref
+			description="Realtime doctor"
+			functionNo="0011"
+			mhg="REALPHM"
+			tradingPartner="6" />
+			
+
+
+	</transaction-x-ref>
+	<destination-x-ref>
+
+		<x-ref
+			description="GEMS Medicine Claims"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT012" />
+
+
+	</destination-x-ref>
+	
+	<logger
+		classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="pJ9fXZ3d"
+			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT"
+			DbUserName="traffic"
+			logTable="MyCareClaims"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM"
+			/>
+		</claimsLogger>
+	</logger>
+
+</Enviroments>
+
