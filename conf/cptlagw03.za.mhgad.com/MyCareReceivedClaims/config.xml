@@ -51,7 +51,7 @@
 				<remoteConnectorOperation
 					action="STATUS"
 					desc="will enable conn if active"
-					diagport="20801"
+					diagport="30901"
 					host="dralsin01.za.mhgad.com"
 					remoteEnv="GEMS"
 					remotePoolId="COBOL"
@@ -81,7 +81,7 @@
 					<remoteConnectorOperation
 						action="STATUS"
 						desc="will enable conn if active"
-						diagport="20801"
+						diagport="30901"
 						host="dralsin01.za.mhgad.com"
 						remoteEnv="GEMS"
 						remotePoolId="COBOL"
@@ -89,7 +89,7 @@
 					<remoteConnectorOperation
 						action="DISABLE"
 						desc="will disable conn if trx processed"
-						diagport="20801"
+						diagport="30901"
 						host="dralsin01.za.mhgad.com"
 						remoteEnv="GEMS"
 						remotePoolId="COBOLBACKUP"
@@ -97,7 +97,7 @@
 					<remoteConnectorOperation
 						action="ENABLE"
 						desc="will enable conn if trx processed"
-						diagport="20801"
+						diagport="30901"
 						host="dralsin01.za.mhgad.com"
 						remoteEnv="GEMS"
 						remotePoolId="COBOL"
@@ -115,7 +115,7 @@
 		name="pool.xml" />
 	<snmp-port
 		mibFile="mibs.xml">
-		20887
+		30902
 	</snmp-port>
 	<synchronous-transactions>
 		true
@@ -124,12 +124,12 @@
 		id="MyCareReceivedClaims"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30888" />
+		tcpipPort="30903" />
 	<diagTailWatchServer
 		id="MyCareReceivedClaims"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30889" />
+		tcpipPort="30904" />
 	<transaction-x-ref>
 		<x-ref
 			description="Elegibility check"
