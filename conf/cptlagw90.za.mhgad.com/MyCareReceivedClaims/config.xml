@@ -27,7 +27,7 @@
 		<pool
 			autotimeout="1120000"
 			connections="5"
-			hostname="cptlap9999p90.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="1120000"
 			port="9110"
