@@ -32,7 +32,7 @@
 		name="pool.xml" />
 	<snmp-port
 		mibFile="mibs.xml">
-		10102
+		30912
 	</snmp-port>
 	<synchronous-transactions>
 		true
@@ -41,12 +41,12 @@
 		id="Sweeper"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30912" />
+		tcpipPort="30913" />
 	<diagTailWatchServer
 		id="Sweeper"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30913" />
+		tcpipPort="30914" />
 	
 	
 	<logger
