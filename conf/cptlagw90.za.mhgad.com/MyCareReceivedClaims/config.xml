@@ -20,7 +20,7 @@
 		<pool
 			autotimeout="1120000"
 			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlap9999p90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="1120000"
 			port="9110"
@@ -55,7 +55,7 @@
 		name="pool.xml" />
 	<snmp-port
 		mibFile="mibs.xml">
-		20887
+		30902
 	</snmp-port>
 	<synchronous-transactions>
 		true
