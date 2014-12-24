@@ -19,39 +19,108 @@
 		
 		
 		/>
-
-
+-------------------------------------------------------
+	
+	<
+	
 	<env
-		name="GEMS">
-
+		mhgAccount="GEMS"
+		name="GEMS"
+		useDistributedCache="true"
+	>
+		
 		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="15"
+			dropClientOnError="false"
+			hostname="cptlhhapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="1120000"
+			poolMaxWaitTime="28000"
 			port="9110"
-			useSoTimeOut="false" >
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
 			
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="GEMS"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="30901"
+					hostname="cptlapp90"
+					remoteEnv="GEMS"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
 			<secondaryPool
-				useSoTimeOut="false"
-				autoDisableOnSyncStart="true"
-				autoEnableOnSyncEnd="true"
-				minTrxTime="15000"
-				dropClientOnError="false"
-				startDisabled="true"
-				waitForSyncToFinishTimeout="10000"
 				autoDisable="false"
+				autoDisableOnSyncStart="true"
 				autoEnable="true"
-				id="COBOLBACKUP"
-				hostname="cptlapp90"
-				port="9130"
-				connections="10"
+				autoEnableOnSyncEnd="true"
 				autotimeout="90000"
+				connections="10"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+			    hostname="cptlapp90"
+				id="COBOLBACKUP"
+				minTrxTime="12000"
 				poolMaxWaitTime="28000"
-				connectorImplementationClassID="COBOL" />
+				port="9310"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="30901"
+						hostname="cptlapp90"
+						remoteEnv="GEMS"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="30901"
+						hostname="cptlapp90"
+						remoteEnv="GEMS"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="30901"
+						hostname="cptlapp90"
+						remoteEnv="GEMS"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
 		</pool>
 	</env>
+
+------------------------------------------------------
+
+	
+			
+		
 
 
 	<transaction
