@@ -19,8 +19,6 @@
 		
 		
 		/>
--------------------------------------------------------
-	
 	<
 	
 	<env
@@ -115,13 +113,6 @@
 			</secondaryPool>
 		</pool>
 	</env>
-
-------------------------------------------------------
-
-	
-			
-		
-
 
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
