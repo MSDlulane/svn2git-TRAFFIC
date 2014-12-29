@@ -4,14 +4,18 @@
 		active="true"
 		autoDisable="false"
 		cmdPasswd="1q2w3e"
+		distributedCacheEnabled="true"
+		distributedCacheEntryTimeout="120"
+		distributedCacheIP="cptlagw03.za.mhgad.com"
+		distributedCachePort="11211"
 		diagPort="30901"
 		logConfigFile="log4j.xml"
-		name="MyCareReceivedClaims ACPT Server"
+		name="MyCareReceivedClaims Prod Server"
 		port="30900"
 		sendTrxDetailsToStatusMonitor="true"
-		tradingPartner="HealthBridge"
-		trxAbortSizeLimit="84000"
-		trxSizeLimit="64000" />
+		tradingPartner="MyCareReceivedClaims"
+		trxAbortSizeLimit="256000"
+		trxSizeLimit="128000" />
 
 
 	<env
