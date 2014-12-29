@@ -247,6 +247,7 @@ cptlagw03.za.mhgad.com MyCareSentClaims PRODUCTION_LEGACY_SOLUTIO ENABLED -1 -1 
 
 # DISASTER RECOVERY
 dralsin01.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013
+dralsin01.za.mhgad.com MyCareReceivedClaims PRODUCTION_LEGACY ENABLED -1 256 10014 DISABLED
 
 
 
