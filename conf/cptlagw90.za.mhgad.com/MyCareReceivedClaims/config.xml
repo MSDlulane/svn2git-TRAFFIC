@@ -59,7 +59,7 @@
 					action="STATUS"
 					desc="will enable conn if active"
 					diagport="10301"
-					hostname="cptlapp90"
+					hostname="cptlagw90"
 					remoteEnv="GEMS"
 					remotePoolId="COBOL"
 				/>
@@ -77,7 +77,7 @@
 				id="COBOLBACKUP"
 				minTrxTime="12000"
 				poolMaxWaitTime="28000"
-				port="9110"
+				port="9130"
 				startDisabled="true"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="10000"
@@ -89,7 +89,7 @@
 						action="STATUS"
 						desc="will enable conn if active"
 						diagport="10301"
-						hostname="cptlapp90"
+						hostname="cptlagw90"
 						remoteEnv="GEMS"
 						remotePoolId="COBOL"
 					/>
@@ -97,7 +97,7 @@
 						action="DISABLE"
 						desc="will disable conn if trx processed"
 						diagport="10301"
-						hostname="cptlapp90"
+						hostname="cptlagw90"
 						remoteEnv="GEMS"
 						remotePoolId="COBOLBACKUP"
 					/>
@@ -105,7 +105,7 @@
 						action="ENABLE"
 						desc="will enable conn if trx processed"
 						diagport="10301"
-						hostname="cptlapp90"
+						hostname="cptlagw90"
 						remoteEnv="GEMS"
 						remotePoolId="COBOL"
 					/>
