@@ -36,7 +36,7 @@
 			connections="15"
 			dropClientOnError="false"
 			hostname="cptlapp90.za.mhgad.com"
-			id="COBOLT"
+			id="COBOL"
 			poolMaxWaitTime="28000"
 			port="9130"
 			startDisabled="false"
