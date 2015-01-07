@@ -22,22 +22,6 @@
 			useSoTimeOut="false" />
 			
 	</env>
-	<env
-		name="ADRIAN">
-
-		<pool
-			autotimeout="120000"
-			connections="1"
-			dropClientOnError="false"
-			hostname="10.10.71.18"
-		    port="7500"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			useSoTimeOut="false" />
-				<!-- hostname="10.10.71.18"
-		    port="7500"-->
-	</env>
-
 
 	<transaction
 		class="InterfaceTransactions.DefaultImplementation.DefaultTransaction" />
