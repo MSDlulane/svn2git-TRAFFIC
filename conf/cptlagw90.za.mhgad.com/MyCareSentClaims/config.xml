@@ -27,7 +27,7 @@
 
 		<pool
 			autotimeout="120000"
-			connections="1"
+			connections="10"
 			dropClientOnError="false"
 			hostname="10.10.71.18"
 		    port="7500"
