@@ -18,7 +18,7 @@
 			hostname="196.35.123.85"
 		    port="5281"
 			id="COBOL"
-			poolMaxWaitTime="30000"
+			poolMaxWaitTime="120000"
 			useSoTimeOut="false" />
 			
 	</env>
