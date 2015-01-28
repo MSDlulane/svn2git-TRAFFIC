@@ -24,6 +24,7 @@
 		port="10100"
 		sendTrxDetailsToStatusMonitor="true"
 		tradingPartner="SolutioSweeper"
+		trxAbortSizeLimit="100000"
 	/>
 	<env
 		name="MHRSTCLM"
