@@ -235,13 +235,13 @@ cptlagw03.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013 DISABLED
 # Gems account.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/MyCareReceivedClaims/
-cptlagw03.za.mhgad.com MyCareReceivedClaims  PRODUCTION_LEGACY ENABLED 128 256 10014 DISABLED
+cptlagw03.za.mhgad.com MyCareReceivedClaims  PRODUCTION_LEGACY ENABLED 256 512 10014 DISABLED
 #
 # Mycare traffic server for routing benefit queries to MyCare for the
 # Gems account.
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Sanlam/
-cptlagw03.za.mhgad.com MyCareSentClaims PRODUCTION_LEGACY_SOLUTIO ENABLED 128 256 10015 DISABLED
+cptlagw03.za.mhgad.com MyCareSentClaims PRODUCTION_LEGACY_SOLUTIO ENABLED 256 512 10015 DISABLED
 
 
 
