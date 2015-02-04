@@ -231,7 +231,7 @@
 		name="pool.xml" />
 	<snmp-port
 		mibFile="mibs.xml">
-		20887
+		24002
 	</snmp-port>
 	<synchronous-transactions>
 		true
