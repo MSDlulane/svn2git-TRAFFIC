@@ -110,6 +110,31 @@
 			</secondaryPool>
 		</pool>-->
 	</env>
+	
+	<env
+		mhgAccount="GEMS"
+		name="GEMS_NON_PHARMACY"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="15"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+	</env>
 
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
@@ -184,6 +209,12 @@
 			functionMask="FFFF"
 			mhg="GEMS"
 			tradingPartner="PT012" />
+			
+		<x-ref
+			description="GEMS Non-Pharmacy"
+			functionMask="FFFF"
+			mhg="GEMS_NON_PHARMACY"
+			tradingPartner="PT013" />
 
 
 	</destination-x-ref>
