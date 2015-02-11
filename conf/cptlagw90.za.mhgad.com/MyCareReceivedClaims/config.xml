@@ -23,7 +23,7 @@
 	
 	<env
 		mhgAccount="GEMS"
-		name="GEMS"
+		name="GEMS_Pharmacy"
 		useDistributedCache="true"
 	>
 		
@@ -113,6 +113,35 @@
 			</secondaryPool>
 		</pool>
 	</env>
+	
+	<env
+		mhgAccount="GEMS"
+		name="GEMS"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="15"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			
+		
+		</pool>
+	</env>
 
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
@@ -183,224 +212,18 @@
 
 
 
-		<x-ref
-			description="SAPPHIRE"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="TBTA" />
-		<x-ref
-			description="Classic Option"
-			functionMask="FFFF"
-			mhg="REMEDI"
-			tradingPartner="TBSC" />
-		<x-ref
-			description="BERYL"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="TBTB" />
-		<x-ref
-			description="RUBY"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="TBTC" />
-		<x-ref
-			description="EMERALD"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="TBTD" />
-		<x-ref
-			description="ONYX"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="TBTE" />
-		<x-ref
-			description="GEMS Onyx"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="METR0006" />
-		<x-ref
-			description="MHG: GEMS EMERALD REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGER0006" />
-		<x-ref
-			description="MHG: GEMS EMERALD SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGES0001" />
-		<x-ref
-			description="MHG: GEMS ONYX REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGOR0001" />
-		<x-ref
-			description="MHG: GEMS ONYX SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGOS0001" />
-		<x-ref
-			description="MHG: GEMS RUBY REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGRR0001" />
-		<x-ref
-			description="MHG: GEMS RUBY SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGRS0001" />
-		<x-ref
-			description="MHG: GEMS Saphire"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MSOP0010" />
 
 		<x-ref
-			description="MHG: GEMS EMERALD PATHOLOGY REALER (MEDICAL)"
+			description="GEMS Pharmacy"
 			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MOPP0003" />
-		<x-ref
-			description="MHG: GEMS Beryl"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MBOP0001" />
-		<x-ref
-			description="MHG: GEMS EMERALD REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MOPR0003" />
-		<x-ref
-			description="MHG: GEMS EMERALD REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MOPR0004" />
-		<x-ref
-			description="MHG: GEMS ONYX PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGOP0001" />
-		<x-ref
-			description="MHG: GEMS ONYX REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGOR0003" />
-		<x-ref
-			description="MHG: GEMS ONYX REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGOR0002" />
-		<x-ref
-			description="MHG: GEMS RUBY PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGRP0002" />
-		<x-ref
-			description="MHG: GEMS RUBY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGRR0002" />
-		<x-ref
-			description="MHG: GEMS RUBY REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGRR0003" />
-		<x-ref
-			description="MHG: GEMS MEDICLINIC Emerald"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGEM0001" />
-		<x-ref
-			description="MHG: GEMS MEDICLINIC Onyx"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGOM0001" />
-		<x-ref
-			description="MHG: GEMS MEDICLINIC Ruby"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGRM0003" />
-
-
-
-		<x-ref
-			description="GRDM0001 - GEMS"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="grdm0001" />
-		<x-ref
-			description="GEMS Emerald"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGEO0001" />
-		<x-ref
-			description="GEMS Ruby"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGRO0003" />
-
-
-		<!-- New destination codes -->
-
-
-		
-		
-		
-		<x-ref
-			description="GEMS: Dentists"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT001" />
-		<x-ref
-			description="GEMS Pathology Claims"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT002" />
-		<x-ref
-			description="GEMS: Specialists"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT003" />
-		<x-ref
-			description="GEMS:Optometrists"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT004" />
-		<x-ref
-			description="GEMS:Radiologists"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT005" />
-		<x-ref
-			description="GEMS: Oncologists "
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT006" />
-		<x-ref
-			description="GEMS: Physiotherapists"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT007" />
-		<x-ref
-			description="GEMS: Other"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT008" />
-		<x-ref
-			description="GEMS: Doctors (GP)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT009" />
-		<x-ref
-			description="GEMS Medicine Claims"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT010" />
-			
-		<x-ref
-			description="GEMS Medicine Claims"
-			functionMask="FFFF"
-			mhg="GEMS"
+			mhg="GEMS_Pharmacy"
 			tradingPartner="PT012" />
+		<x-ref
+			description="GEMS Non-Pharmacy"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT013" />
+			
 			
 			
 
