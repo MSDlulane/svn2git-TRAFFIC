@@ -7,7 +7,8 @@
 		name="MyCare Sent Claims Sweeper Traf"
 		port="30910"
 		sendTrxDetailsToStatusMonitor="true"
-		tradingPartner="MyCareSentClaims" />
+		tradingPartner="MyCareSentClaims" 
+	    trxAbortSizeLimit="100000"/>
 	<env
 		name="MYCARE">
 
@@ -20,6 +21,7 @@
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			useSoTimeOut="false" />
+			
 		
 	</env>
 
