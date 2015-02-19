@@ -1,5 +1,18 @@
 <Enviroments>
 	
+	
+	
+	<server
+		__system_out_="sweeperTraf.system.out"
+		diagPort="10101"
+		internalMessages="true"
+		logConfigFile="log4j.xml"
+		name="Solutio Sweeper Traf"
+		port="10100"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="SolutioSweeper"
+		trxAbortSizeLimit="100000"
+	/>
 	<env
 		name="MHRSTEST"
 	>
@@ -15,17 +28,7 @@
 			useSoTimeOut="false"
 		/>
 	</env>
-	<server
-		__system_out_="sweeperTraf.system.out"
-		diagPort="10101"
-		internalMessages="true"
-		logConfigFile="log4j.xml"
-		name="Solutio Sweeper Traf"
-		port="10100"
-		sendTrxDetailsToStatusMonitor="true"
-		tradingPartner="SolutioSweeper"
-		trxAbortSizeLimit="100000"
-	/>
+	
 	<env
 		name="MHRSTCLM"
 	>
@@ -95,7 +98,7 @@
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbPassword="IR0b0t"
-			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
 			DbUserName="traffic"
 			logTable="Sweeper"
 			maxpoolsize="2"

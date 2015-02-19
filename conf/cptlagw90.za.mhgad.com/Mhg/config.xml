@@ -2376,6 +2376,7 @@
 			mhg="AMED"
 			tradingPartner="WOOLTRU"
 		/>
+		
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
@@ -2387,7 +2388,7 @@
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbPassword="newmed"
-			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
 			DbUserName="pojas"
 			logTable="MHG"
 			maxpoolsize="2"
