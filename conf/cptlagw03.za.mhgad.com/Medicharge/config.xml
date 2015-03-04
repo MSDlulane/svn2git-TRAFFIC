@@ -446,7 +446,7 @@
 		<claimsLogger
 			poolId="generic"
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-prod:5100/JBAUDIT"
 			logTable="Healthbridge"
 			DbUserName="traffic"
 			DbPassword="pJ9fXZ3d"
