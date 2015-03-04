@@ -1,63 +1,183 @@
 <?xml version="1.0"?>
 <Enviroments>
-	
-	<time-zone__ help="optional" reason="fix jdk1.4 bug on Solaris">GMT-2</time-zone__>
+
+	<time-zone__
+		help="optional"
+		reason="fix jdk1.4 bug on Solaris">GMT-2</time-zone__>
 
 	<!-- Global Server Parameters -->
-	<server trxSizeLimit="48000" trxAbortSizeLimit="64000" tradingPartner="Archiving" name="Archiving Server" port="9005" diagPort="9016" logConfigFile="log4j.xml" __system_out="default"/>
+	<server
+		trxSizeLimit="48000"
+		trxAbortSizeLimit="64000"
+		tradingPartner="Archiving"
+		name="Archiving Server"
+		port="9005"
+		diagPort="9016"
+		logConfigFile="log4j.xml"
+		__system_out="default" />
 
 	<!-- List of Environments that this server can talk to -->
-	<env name="AMED" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-amed.za.mhgad.com" port="9307" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+	<env
+		name="AMED">
+		<pool
+			useSoTimeOut="true"
+			id="COBOL"
+			hostname="apl-amed.za.mhgad.com"
+			port="9307"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="90000" />
 	</env>
 
-	<env name="NEWMED" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-newmed.za.mhgad.com" port="9308" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+	<env
+		name="NEWMED">
+		<pool
+			useSoTimeOut="true"
+			id="COBOL"
+			hostname="apl-newmed.za.mhgad.com"
+			port="9308"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="90000" />
 	</env>
 
-	<env name="TRANSMED" mhgAccount="NEWMED" >
-		<pool useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="30000" autoDisable="true" autoEnable="true" id="COBOL" hostname="apl-newmed.za.mhgad.com" port="9308" connections="5" autotimeout="120000" poolMaxWaitTime="30000"/>
+	<env
+		name="TRANSMED"
+		mhgAccount="NEWMED">
+		<pool
+			useSoTimeOut="false"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="30000"
+			autoDisable="true"
+			autoEnable="true"
+			id="COBOL"
+			hostname="apl-newmed.za.mhgad.com"
+			port="9308"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="30000" />
 	</env>
 
-	<env name="REDRIB" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-redrib.za.mhgad.com" port="9311" connections="5" autotimeout="120000" poolMaxWaitTime="30000"/>
+	<env
+		name="REDRIB">
+		<pool
+			useSoTimeOut="true"
+			id="COBOL"
+			hostname="apl-redrib.za.mhgad.com"
+			port="9311"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="30000" />
 	</env>
 
-	<env name="SAMWU"  mhgAccount="SAMWU" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-samwu.za.mhgad.com" port="9305" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+	<env
+		name="SAMWU"
+		mhgAccount="SAMWU">
+		<pool
+			useSoTimeOut="true"
+			id="COBOL"
+			hostname="apl-samwu.za.mhgad.com"
+			port="9305"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="90000" />
 	</env>
 
-	<env name="POLMED" mhgAccount="POLMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="apl-polmed.za.mhgad.com" port="9309" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="POLMED"
+		mhgAccount="POLMED">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="apl-polmed.za.mhgad.com"
+			port="9309"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="30000" />
 	</env>
 
-	<env name="GEMS" mhgAccount="GEMS">
-		<pool id="COBOL" useSoTimeOut="false" hostname="apl-gems.za.mhgad.com" port="9310" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="GEMS"
+		mhgAccount="GEMS">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="apl-gems.za.mhgad.com"
+			port="9310"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="30000" />
 	</env>
 
-	<env name="NIMAS" mhgAccount="NIMAS">
-		<pool id="COBOL" useSoTimeOut="false" hostname="apl-nimas.za.mhgad.com" port="9313" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="NIMAS"
+		mhgAccount="NIMAS">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="apl-nimas.za.mhgad.com"
+			port="9313"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="30000" />
 	</env>
 
-	<env name="PILIR" mhgAccount="PILIR">
-		<pool id="COBOL" useSoTimeOut="false" hostname="apl-pilir.za.mhgad.com" port="9304" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
+	<env
+		name="PILIR"
+		mhgAccount="PILIR">
+		<pool
+			id="COBOL"
+			useSoTimeOut="false"
+			hostname="apl-pilir.za.mhgad.com"
+			port="9304"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="30000" />
 	</env>
 
-	<env name="SIGMA" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-sigma.za.mhgad.com" port="9312" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+	<env
+		name="SIGMA">
+		<pool
+			useSoTimeOut="true"
+			id="COBOL"
+			hostname="apl-sigma.za.mhgad.com"
+			port="9312"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="90000" />
 	</env>
 
-	<env name="IMPERIAL" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-imperial.za.mhgad.com" port="9314" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+	<env
+		name="IMPERIAL">
+		<pool
+			useSoTimeOut="true"
+			id="COBOL"
+			hostname="apl-imperial.za.mhgad.com"
+			port="9314"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="90000" />
 	</env>
 
-	<env name="MEDIPOS" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-medipos.za.mhgad.com" port="9315" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+	<env
+		name="MEDIPOS">
+		<pool
+			useSoTimeOut="true"
+			id="COBOL"
+			hostname="apl-medipos.za.mhgad.com"
+			port="9315"
+			connections="5"
+			autotimeout="120000"
+			poolMaxWaitTime="90000" />
 	</env>
 
 
-	<!-- Log File Parameters  -->
-	<logger_ classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
+	<!-- Log File Parameters -->
+	<logger_
+		classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 		logDirectory="/data1/var/logs/TRAF/FormwareLogs">
@@ -69,18 +189,32 @@
 			DbPassword=""
 			minpoolsize="1"
 			maxpoolsize="20"
-			timeout ="30000">
-			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM"/>
+			timeout="30000">
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM" />
 		</claimsLogger>
 	</logger_>
 
-	<transaction        class="InterfaceTransactions.DefaultImplementation.DefaultTransaction" />
-	<transaction-header class="InterfaceTransactions.DefaultImplementation.DefaultHeader" />
+	<transaction
+		class="InterfaceTransactions.DefaultImplementation.DefaultTransaction" />
+	<transaction-header
+		class="InterfaceTransactions.DefaultImplementation.DefaultHeader" />
 
-	<pool-definitions-file name="pool.xml" />
+	<pool-definitions-file
+		name="pool.xml" />
 
-	<snmp-port mibFile="mibs.xml">9361</snmp-port>
-	<tailWatchServer id="Internet" tcpipPort="9018" multicast-host-ip="" multicast-port="-1" />
-	<diagTailWatchServer id="Internet" tcpipPort="9019" multicast-host-ip="" multicast-port="-1" />
+	<snmp-port
+		mibFile="mibs.xml">9361</snmp-port>
+	<tailWatchServer
+		id="Internet"
+		tcpipPort="9018"
+		multicast-host-ip=""
+		multicast-port="-1" />
+	<diagTailWatchServer
+		id="Internet"
+		tcpipPort="9019"
+		multicast-host-ip=""
+		multicast-port="-1" />
 
 </Enviroments>
