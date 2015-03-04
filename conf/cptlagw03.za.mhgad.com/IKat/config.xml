@@ -1,19 +1,26 @@
 <?xml version="1.0"?>
 <Enviroments>
 
-	<time-zone_ help="optional" reason="fix jdk1.4 bug on Solaris">GMT-2</time-zone_>
+	<time-zone_
+		help="optional"
+		reason="fix jdk1.4 bug on Solaris">GMT-2</time-zone_>
 
 	<!-- Global Server Parameters -->
 	<server
-		trxSizeLimit="48000" trxAbortSizeLimit="64000"
-		cmdPasswd="p34nu7" tradingPartner="IKat" name="IKat"
-		port="27010" diagPort="27011" logConfigFile="log4j.xml" __system_out="default" />
+		trxSizeLimit="48000"
+		trxAbortSizeLimit="64000"
+		cmdPasswd="p34nu7"
+		tradingPartner="IKat"
+		name="IKat"
+		port="27010"
+		diagPort="27011"
+		logConfigFile="log4j.xml"
+		__system_out="default" />
 
 	<!-- List of Environments that this server can talk to -->
 
 	<env
-		name="AMED"
-	>
+		name="AMED">
 		<pool
 			useSoTimeOut="false"
 			stickyStandin="false"
@@ -29,18 +36,16 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000"
-		/>
+			poolMaxWaitTime="28000" />
 	</env>
 
 	<env
 		name="GEMS"
-		mhgAccount="GEMS"
-	>
+		mhgAccount="GEMS">
 		<pool
-			useSoTimeOut="false" 
+			useSoTimeOut="false"
 			stickyStandin="false"
-			autoDisableOnSyncStart="true" 
+			autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true"
 			dropClientOnError="false"
 			startDisabled="false"
@@ -52,15 +57,13 @@
 			port="9310"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000"
-		/>
+			poolMaxWaitTime="28000" />
 	</env>
 
 	<env
-		name="IMPERIAL"
-	>
+		name="IMPERIAL">
 		<pool
-			id="COBOL" 
+			id="COBOL"
 			stickyStandin="false"
 			autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true"
@@ -69,19 +72,17 @@
 			waitForSyncToFinishTimeout="40000"
 			autoDisable="true"
 			autoEnable="true"
-			hostname="apl-imperial.za.mhgad.com" 
+			hostname="apl-imperial.za.mhgad.com"
 			port="9314"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000"
-		/>
+			poolMaxWaitTime="28000" />
 	</env>
 
 	<env
-		name="MEDIPOS"
-	>
-		<pool 
-			id="COBOL" 
+		name="MEDIPOS">
+		<pool
+			id="COBOL"
 			stickyStandin="false"
 			autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true"
@@ -94,16 +95,14 @@
 			port="9315"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000"
-		/>
-		
+			poolMaxWaitTime="28000" />
+
 	</env>
 
 
 	<env
 		name="NEWMED"
-		mhgAccount="NEWMED"
-	>
+		mhgAccount="NEWMED">
 		<pool
 			useSoTimeOut="false"
 			stickyStandin="false"
@@ -119,13 +118,11 @@
 			port="9308"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000"
-		/>
+			poolMaxWaitTime="28000" />
 	</env>
 
 	<env
-		name="NIMAS"
-	>
+		name="NIMAS">
 		<pool
 			useSoTimeOut="false"
 			stickyStandin="false"
@@ -141,8 +138,7 @@
 			port="9313"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000"
-		/>
+			poolMaxWaitTime="28000" />
 	</env>
 
 	<env
@@ -162,13 +158,11 @@
 			port="9309"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000"
-		/>
+			poolMaxWaitTime="28000" />
 	</env>
 
 	<env
-		name="SAMWU"
-	>
+		name="SAMWU">
 		<pool
 			useSoTimeOut="false"
 			stickyStandin="false"
@@ -184,13 +178,11 @@
 			port="9305"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000"
-		/>
+			poolMaxWaitTime="28000" />
 	</env>
 
 	<env
-		name="PROTEKTA"
-	>
+		name="PROTEKTA">
 		<pool
 			useSoTimeOut="false"
 			stickyStandin="false"
@@ -206,24 +198,19 @@
 			port="9316"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000"
-		/>
+			poolMaxWaitTime="28000" />
 	</env>
-	<!-- Log File Parameters  -->
-	<transaction 
-		class="InterfaceTransactions.Generic.GenTransaction"
-	/>
+	<!-- Log File Parameters -->
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction" />
 	<transaction-header
-		class="InterfaceTransactions.Generic.GenHeaders"
-	/>
+		class="InterfaceTransactions.Generic.GenHeaders" />
 
 	<pool-definitions-file
-		name="pool.xml"
-	/>
+		name="pool.xml" />
 
 	<snmp-port
-		mibFile="mibs.xml"
-	>
+		mibFile="mibs.xml">
 		27007
 	</snmp-port>
 
@@ -231,14 +218,12 @@
 		id="IKat"
 		tcpipPort="27012"
 		multicast-host-ip=""
-		multicast-port="-1"
-	/>
+		multicast-port="-1" />
 	<diagTailWatchServer
 		id="IKat"
 		tcpipPort="27013"
 		multicast-host-ip=""
-		multicast-port="-1"
-	/>
+		multicast-port="-1" />
 
 	<synchronous-transactions>
 		true
@@ -247,1026 +232,869 @@
 	<transaction-x-ref>
 		<x-ref
 			tradingPartner="1"
-			mhg="ELCHECK" functionNo="0001"
+			mhg="ELCHECK"
+			functionNo="0001"
 			description="Elegibility check" />
 		<x-ref
 			tradingPartner="2"
-			mhg="REALCLM" functionNo="000A"
+			mhg="REALCLM"
+			functionNo="000A"
 			description="Realtime Pharmacy Medicine claims" />
 		<x-ref
 			tradingPartner="3"
-			mhg="REALCLM" functionNo="0002"
+			mhg="REALCLM"
+			functionNo="0002"
 			description="Realtime doctor Medicine claims" />
 		<x-ref
 			tradingPartner="4"
-			mhg="REALCLM" functionNo="0004"
+			mhg="REALCLM"
+			functionNo="0004"
 			description="Realtime doctor claims" />
 		<x-ref
 			tradingPartner="5"
-			mhg="REALCLM" functionNo="0010"
+			mhg="REALCLM"
+			functionNo="0010"
 			description="Realtime doctor" />
 		<x-ref
 			tradingPartner="127"
-			mhg="PING" functionNo="0008"
-			isPingOrHandshake="true" description="Ping" />
+			mhg="PING"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			description="Ping" />
 	</transaction-x-ref>
 
 	<destination-x-ref>
 		<x-ref
 			tradingPartner="PA001"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BANKMED: Dentists"
-		/>
+			functionMask="FFFF"
+			description="BANKMED: Dentists" />
 		<x-ref
 			tradingPartner="PA002"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BANKMED: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="BANKMED: Pathologists" />
 		<x-ref
 			tradingPartner="PA003"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BANKMED: Specialists"
-		/>
+			functionMask="FFFF"
+			description="BANKMED: Specialists" />
 		<x-ref
 			tradingPartner="PA004"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BANKMED:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="BANKMED:Optometrists" />
 		<x-ref
 			tradingPartner="PA005"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BANKMED:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="BANKMED:Radiologists" />
 		<x-ref
 			tradingPartner="PA006"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BANKMED: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="BANKMED: Oncologists " />
 		<x-ref
 			tradingPartner="PA007"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BANKMED: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="BANKMED: Physiotherapists" />
 		<x-ref
 			tradingPartner="PA008"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BANKMED: Other"
-		/>
+			functionMask="FFFF"
+			description="BANKMED: Other" />
 		<x-ref
 			tradingPartner="PA009"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BANKMED: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="BANKMED: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PE001"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="WOOLTRU: Dentists"
-		/>
+			functionMask="FFFF"
+			description="WOOLTRU: Dentists" />
 		<x-ref
 			tradingPartner="PE002"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="WOOLTRU: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="WOOLTRU: Pathologists" />
 		<x-ref
 			tradingPartner="PE003"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="WOOLTRU: Specialists"
-		/>
+			functionMask="FFFF"
+			description="WOOLTRU: Specialists" />
 		<x-ref
 			tradingPartner="PE004"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="WOOLTRU:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="WOOLTRU:Optometrists" />
 		<x-ref
 			tradingPartner="PE005"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="WOOLTRU:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="WOOLTRU:Radiologists" />
 		<x-ref
 			tradingPartner="PE006"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="WOOLTRU: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="WOOLTRU: Oncologists " />
 		<x-ref
 			tradingPartner="PE007"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="WOOLTRU: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="WOOLTRU: Physiotherapists" />
 		<x-ref
 			tradingPartner="PE008"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="WOOLTRU: Other"
-		/>
+			functionMask="FFFF"
+			description="WOOLTRU: Other" />
 		<x-ref
 			tradingPartner="PE009"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="WOOLTRU: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="WOOLTRU: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PG001"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="ENGEN: Dentists"
-		/>
+			functionMask="FFFF"
+			description="ENGEN: Dentists" />
 		<x-ref
 			tradingPartner="PG002"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="ENGEN: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="ENGEN: Pathologists" />
 		<x-ref
 			tradingPartner="PG003"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="ENGEN: Specialists"
-		/>
+			functionMask="FFFF"
+			description="ENGEN: Specialists" />
 		<x-ref
 			tradingPartner="PG004"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="ENGEN:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="ENGEN:Optometrists" />
 		<x-ref
 			tradingPartner="PG005"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="ENGEN:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="ENGEN:Radiologists" />
 		<x-ref
 			tradingPartner="PG006"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="ENGEN: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="ENGEN: Oncologists " />
 		<x-ref
 			tradingPartner="PG007"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="ENGEN: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="ENGEN: Physiotherapists" />
 		<x-ref
 			tradingPartner="PG008"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="ENGEN: Other"
-		/>
+			functionMask="FFFF"
+			description="ENGEN: Other" />
 		<x-ref
 			tradingPartner="PG009"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="ENGEN: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="ENGEN: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PK001"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="AFROX: Dentists"
-		/>
+			functionMask="FFFF"
+			description="AFROX: Dentists" />
 		<x-ref
 			tradingPartner="PK002"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="AFROX: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="AFROX: Pathologists" />
 		<x-ref
 			tradingPartner="PK003"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="AFROX: Specialists"
-		/>
+			functionMask="FFFF"
+			description="AFROX: Specialists" />
 		<x-ref
 			tradingPartner="PK004"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="AFROX:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="AFROX:Optometrists" />
 		<x-ref
 			tradingPartner="PK005"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="AFROX:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="AFROX:Radiologists" />
 		<x-ref
 			tradingPartner="PK006"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="AFROX: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="AFROX: Oncologists " />
 		<x-ref
 			tradingPartner="PK007"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="AFROX: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="AFROX: Physiotherapists" />
 		<x-ref
 			tradingPartner="PK008"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="AFROX: Other"
-		/>
+			functionMask="FFFF"
+			description="AFROX: Other" />
 		<x-ref
 			tradingPartner="PK009"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="AFROX: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="AFROX: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PL001"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="SAPPI: Dentists"
-		/>
+			functionMask="FFFF"
+			description="SAPPI: Dentists" />
 		<x-ref
 			tradingPartner="PL002"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="SAPPI: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="SAPPI: Pathologists" />
 		<x-ref
 			tradingPartner="PL003"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="SAPPI: Specialists"
-		/>
+			functionMask="FFFF"
+			description="SAPPI: Specialists" />
 		<x-ref
 			tradingPartner="PL004"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="SAPPI:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="SAPPI:Optometrists" />
 		<x-ref
 			tradingPartner="PL005"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="SAPPI:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="SAPPI:Radiologists" />
 		<x-ref
 			tradingPartner="PL006"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="SAPPI: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="SAPPI: Oncologists " />
 		<x-ref
 			tradingPartner="PL007"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="SAPPI: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="SAPPI: Physiotherapists" />
 		<x-ref
 			tradingPartner="PL008"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="SAPPI: Other"
-		/>
+			functionMask="FFFF"
+			description="SAPPI: Other" />
 		<x-ref
 			tradingPartner="PL009"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="SAPPI: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="SAPPI: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PN001"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="Golden arrow: Dentists"
-		/>
+			functionMask="FFFF"
+			description="Golden arrow: Dentists" />
 		<x-ref
 			tradingPartner="PN002"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="Golden arrow: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="Golden arrow: Pathologists" />
 		<x-ref
 			tradingPartner="PN003"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="Golden arrow: Specialists"
-		/>
+			functionMask="FFFF"
+			description="Golden arrow: Specialists" />
 		<x-ref
 			tradingPartner="PN004"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="Golden arrow:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="Golden arrow:Optometrists" />
 		<x-ref
 			tradingPartner="PN005"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="Golden arrow:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="Golden arrow:Radiologists" />
 		<x-ref
 			tradingPartner="PN006"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="Golden arrow: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="Golden arrow: Oncologists " />
 		<x-ref
 			tradingPartner="PN007"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="Golden arrow: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="Golden arrow: Physiotherapists" />
 		<x-ref
 			tradingPartner="PN008"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="Golden arrow: Other"
-		/>
+			functionMask="FFFF"
+			description="Golden arrow: Other" />
 		<x-ref
 			tradingPartner="PN009"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="Golden arrow: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="Golden arrow: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PO001"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="FISHMED: Dentists"
-		/>
+			functionMask="FFFF"
+			description="FISHMED: Dentists" />
 		<x-ref
 			tradingPartner="PO002"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="FISHMED: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="FISHMED: Pathologists" />
 		<x-ref
 			tradingPartner="PO003"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="FISHMED: Specialists"
-		/>
+			functionMask="FFFF"
+			description="FISHMED: Specialists" />
 		<x-ref
 			tradingPartner="PO004"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="FISHMED:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="FISHMED:Optometrists" />
 		<x-ref
 			tradingPartner="PO005"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="FISHMED:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="FISHMED:Radiologists" />
 		<x-ref
 			tradingPartner="PO006"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="FISHMED: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="FISHMED: Oncologists " />
 		<x-ref
 			tradingPartner="PO007"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="FISHMED: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="FISHMED: Physiotherapists" />
 		<x-ref
 			tradingPartner="PO008"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="FISHMED: Other"
-		/>
+			functionMask="FFFF"
+			description="FISHMED: Other" />
 		<x-ref
 			tradingPartner="PO009"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="FISHMED: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="FISHMED: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PP001"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BP: Dentists"
-		/>
+			functionMask="FFFF"
+			description="BP: Dentists" />
 		<x-ref
 			tradingPartner="PP002"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BP: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="BP: Pathologists" />
 		<x-ref
 			tradingPartner="PP003"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BP: Specialists"
-		/>
+			functionMask="FFFF"
+			description="BP: Specialists" />
 		<x-ref
 			tradingPartner="PP004"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BP:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="BP:Optometrists" />
 		<x-ref
 			tradingPartner="PP005"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BP:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="BP:Radiologists" />
 		<x-ref
 			tradingPartner="PP006"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BP: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="BP: Oncologists " />
 		<x-ref
 			tradingPartner="PP007"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BP: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="BP: Physiotherapists" />
 		<x-ref
 			tradingPartner="PP008"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BP: Other"
-		/>
+			functionMask="FFFF"
+			description="BP: Other" />
 		<x-ref
 			tradingPartner="PP009"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="BP: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="BP: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PI001"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Dentists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Dentists" />
 		<x-ref
 			tradingPartner="PI002"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Pathologists" />
 		<x-ref
 			tradingPartner="PI003"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Specialists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Specialists" />
 		<x-ref
 			tradingPartner="PI004"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY:Optometrists" />
 		<x-ref
 			tradingPartner="PI005"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY:Radiologists" />
 		<x-ref
 			tradingPartner="PI006"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Oncologists " />
 		<x-ref
 			tradingPartner="PI007"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Physiotherapists" />
 		<x-ref
 			tradingPartner="PI008"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Other"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Other" />
 		<x-ref
 			tradingPartner="PI009"
 			mhg="AMED"
-			functionMask="FFFF" 
-			description="PICKNPAY: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="PICKNPAY: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PT001"
 			mhg="GEMS"
-			functionMask="FFFF" 
-			description="GEMS: Dentists"
-		/>
+			functionMask="FFFF"
+			description="GEMS: Dentists" />
 		<x-ref
 			tradingPartner="PT002"
 			mhg="GEMS"
-			functionMask="FFFF" 
-			description="GEMS: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="GEMS: Pathologists" />
 		<x-ref
 			tradingPartner="PT003"
 			mhg="GEMS"
-			functionMask="FFFF" 
-			description="GEMS: Specialists"
-		/>
+			functionMask="FFFF"
+			description="GEMS: Specialists" />
 		<x-ref
 			tradingPartner="PT004"
 			mhg="GEMS"
-			functionMask="FFFF" 
-			description="GEMS:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="GEMS:Optometrists" />
 		<x-ref
 			tradingPartner="PT005"
 			mhg="GEMS"
-			functionMask="FFFF" 
-			description="GEMS:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="GEMS:Radiologists" />
 		<x-ref
 			tradingPartner="PT006"
 			mhg="GEMS"
-			functionMask="FFFF" 
-			description="GEMS: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="GEMS: Oncologists " />
 		<x-ref
 			tradingPartner="PT007"
 			mhg="GEMS"
-			functionMask="FFFF" 
-			description="GEMS: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="GEMS: Physiotherapists" />
 		<x-ref
 			tradingPartner="PT008"
 			mhg="GEMS"
-			functionMask="FFFF" 
-			description="GEMS: Other"
-		/>
+			functionMask="FFFF"
+			description="GEMS: Other" />
 		<x-ref
 			tradingPartner="PT009"
 			mhg="GEMS"
-			functionMask="FFFF" 
-			description="GEMS: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="GEMS: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PU001"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Dentists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Dentists" />
 		<x-ref
 			tradingPartner="PU002"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Pathologists" />
 		<x-ref
 			tradingPartner="PU003"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Specialists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Specialists" />
 		<x-ref
 			tradingPartner="PU004"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED:Optometrists" />
 		<x-ref
 			tradingPartner="PU005"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED:Radiologists" />
 		<x-ref
 			tradingPartner="PU006"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Oncologists " />
 		<x-ref
 			tradingPartner="PU007"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Physiotherapists" />
 		<x-ref
 			tradingPartner="PU008"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Other"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Other" />
 		<x-ref
 			tradingPartner="PU009"
 			mhg="IMPERIAL"
-			functionMask="FFFF" 
-			description="IMPERIALMED: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="IMPERIALMED: Doctors (GP)" />
 		<x-ref
 			tradingPartner="P7001"
 			mhg="MEDIPOS"
-			functionMask="FFFF" 
-			description="Medipos: Dentists"
-		/>
+			functionMask="FFFF"
+			description="Medipos: Dentists" />
 		<x-ref
 			tradingPartner="P7002"
 			mhg="MEDIPOS"
-			functionMask="FFFF" 
-			description="Medipos: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="Medipos: Pathologists" />
 		<x-ref
 			tradingPartner="P7003"
 			mhg="MEDIPOS"
-			functionMask="FFFF" 
-			description="Medipos: Specialists"
-		/>
+			functionMask="FFFF"
+			description="Medipos: Specialists" />
 		<x-ref
 			tradingPartner="P7004"
 			mhg="MEDIPOS"
-			functionMask="FFFF" 
-			description="Medipos:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="Medipos:Optometrists" />
 		<x-ref
 			tradingPartner="P7005"
 			mhg="MEDIPOS"
-			functionMask="FFFF" 
-			description="Medipos:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="Medipos:Radiologists" />
 		<x-ref
 			tradingPartner="P7006"
 			mhg="MEDIPOS"
-			functionMask="FFFF" 
-			description="Medipos: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="Medipos: Oncologists " />
 		<x-ref
 			tradingPartner="P7007"
 			mhg="MEDIPOS"
-			functionMask="FFFF" 
-			description="Medipos: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="Medipos: Physiotherapists" />
 		<x-ref
 			tradingPartner="P7008"
 			mhg="MEDIPOS"
-			functionMask="FFFF" 
-			description="Medipos: Other"
-		/>
+			functionMask="FFFF"
+			description="Medipos: Other" />
 		<x-ref
 			tradingPartner="P7009"
 			mhg="MEDIPOS"
-			functionMask="FFFF" 
-			description="Medipos: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="Medipos: Doctors (GP)" />
 		<x-ref
 			tradingPartner="P1001"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="Metropolitan: Dentists"
-		/>
+			functionMask="FFFF"
+			description="Metropolitan: Dentists" />
 		<x-ref
 			tradingPartner="P1002"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="Metropolitan: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="Metropolitan: Pathologists" />
 		<x-ref
 			tradingPartner="P1003"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="Metropolitan: Specialists"
-		/>
+			functionMask="FFFF"
+			description="Metropolitan: Specialists" />
 		<x-ref
 			tradingPartner="P1004"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="Metropolitan:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="Metropolitan:Optometrists" />
 		<x-ref
 			tradingPartner="P1005"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="Metropolitan:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="Metropolitan:Radiologists" />
 		<x-ref
 			tradingPartner="P1006"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="Metropolitan: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="Metropolitan: Oncologists " />
 		<x-ref
 			tradingPartner="P1007"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="Metropolitan: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="Metropolitan: Physiotherapists" />
 		<x-ref
 			tradingPartner="P1008"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="Metropolitan: Other"
-		/>
+			functionMask="FFFF"
+			description="Metropolitan: Other" />
 		<x-ref
 			tradingPartner="P1009"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="Metropolitan: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="Metropolitan: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PV001"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="TRANSMED: Dentists"
-		/>
+			functionMask="FFFF"
+			description="TRANSMED: Dentists" />
 		<x-ref
 			tradingPartner="PV002"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="TRANSMED: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="TRANSMED: Pathologists" />
 		<x-ref
 			tradingPartner="PV003"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="TRANSMED: Specialists"
-		/>
+			functionMask="FFFF"
+			description="TRANSMED: Specialists" />
 		<x-ref
 			tradingPartner="PV004"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="TRANSMED:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="TRANSMED:Optometrists" />
 		<x-ref
 			tradingPartner="PV005"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="TRANSMED:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="TRANSMED:Radiologists" />
 		<x-ref
 			tradingPartner="PV006"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="TRANSMED: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="TRANSMED: Oncologists " />
 		<x-ref
 			tradingPartner="PV007"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="TRANSMED: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="TRANSMED: Physiotherapists" />
 		<x-ref
 			tradingPartner="PV008"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="TRANSMED: Other"
-		/>
+			functionMask="FFFF"
+			description="TRANSMED: Other" />
 		<x-ref
 			tradingPartner="PV009"
 			mhg="Newmed"
-			functionMask="FFFF" 
-			description="TRANSMED: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="TRANSMED: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PM001"
 			mhg="Nimas"
-			functionMask="FFFF" 
-			description="PG: Dentists"
-		/>
+			functionMask="FFFF"
+			description="PG: Dentists" />
 		<x-ref
 			tradingPartner="PM002"
 			mhg="Nimas"
-			functionMask="FFFF" 
-			description="PG: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="PG: Pathologists" />
 		<x-ref
 			tradingPartner="PM003"
 			mhg="Nimas"
-			functionMask="FFFF" 
-			description="PG: Specialists"
-		/>
+			functionMask="FFFF"
+			description="PG: Specialists" />
 		<x-ref
 			tradingPartner="PM004"
 			mhg="Nimas"
-			functionMask="FFFF" 
-			description="PG:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="PG:Optometrists" />
 		<x-ref
 			tradingPartner="PM005"
 			mhg="Nimas"
-			functionMask="FFFF" 
-			description="PG:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="PG:Radiologists" />
 		<x-ref
 			tradingPartner="PM006"
 			mhg="Nimas"
-			functionMask="FFFF" 
-			description="PG: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="PG: Oncologists " />
 		<x-ref
 			tradingPartner="PM007"
 			mhg="Nimas"
-			functionMask="FFFF" 
-			description="PG: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="PG: Physiotherapists" />
 		<x-ref
 			tradingPartner="PM008"
 			mhg="Nimas"
-			functionMask="FFFF" 
-			description="PG: Other"
-		/>
+			functionMask="FFFF"
+			description="PG: Other" />
 		<x-ref
 			tradingPartner="PM009"
 			mhg="Nimas"
-			functionMask="FFFF" 
-			description="PG: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="PG: Doctors (GP)" />
 		<x-ref
 			tradingPartner="P5001"
 			mhg="POLMED"
-			functionMask="FFFF" 
-			description="POLMED: Dentists"
-		/>
+			functionMask="FFFF"
+			description="POLMED: Dentists" />
 		<x-ref
 			tradingPartner="P5002"
 			mhg="POLMED"
-			functionMask="FFFF" 
-			description="POLMED: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="POLMED: Pathologists" />
 		<x-ref
 			tradingPartner="P5003"
 			mhg="POLMED"
-			functionMask="FFFF" 
-			description="POLMED: Specialists"
-		/>
+			functionMask="FFFF"
+			description="POLMED: Specialists" />
 		<x-ref
 			tradingPartner="P5004"
 			mhg="POLMED"
-			functionMask="FFFF" 
-			description="POLMED:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="POLMED:Optometrists" />
 		<x-ref
 			tradingPartner="P5005"
 			mhg="POLMED"
-			functionMask="FFFF" 
-			description="POLMED:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="POLMED:Radiologists" />
 		<x-ref
 			tradingPartner="P5006"
 			mhg="POLMED"
-			functionMask="FFFF" 
-			description="POLMED: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="POLMED: Oncologists " />
 		<x-ref
 			tradingPartner="P5007"
 			mhg="POLMED"
-			functionMask="FFFF" 
-			description="POLMED: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="POLMED: Physiotherapists" />
 		<x-ref
 			tradingPartner="P5008"
 			mhg="POLMED"
-			functionMask="FFFF" 
-			description="POLMED: Other"
-		/>
+			functionMask="FFFF"
+			description="POLMED: Other" />
 		<x-ref
 			tradingPartner="P5009"
 			mhg="POLMED"
-			functionMask="FFFF" 
-			description="POLMED: Doctors (GP)"
-		/>
+			functionMask="FFFF"
+			description="POLMED: Doctors (GP)" />
 		<x-ref
 			tradingPartner="PQ001"
 			mhg="SAMWU"
-			functionMask="FFFF" 
-			description="SAMWU: Dentists"
-		/>
+			functionMask="FFFF"
+			description="SAMWU: Dentists" />
 		<x-ref
 			tradingPartner="PQ002"
 			mhg="SAMWU"
-			functionMask="FFFF" 
-			description="SAMWU: Pathologists"
-		/>
+			functionMask="FFFF"
+			description="SAMWU: Pathologists" />
 		<x-ref
 			tradingPartner="PQ003"
 			mhg="SAMWU"
-			functionMask="FFFF" 
-			description="SAMWU: Specialists"
-		/>
+			functionMask="FFFF"
+			description="SAMWU: Specialists" />
 		<x-ref
 			tradingPartner="PQ004"
 			mhg="SAMWU"
-			functionMask="FFFF" 
-			description="SAMWU:Optometrists"
-		/>
+			functionMask="FFFF"
+			description="SAMWU:Optometrists" />
 		<x-ref
 			tradingPartner="PQ005"
 			mhg="SAMWU"
-			functionMask="FFFF" 
-			description="SAMWU:Radiologists"
-		/>
+			functionMask="FFFF"
+			description="SAMWU:Radiologists" />
 		<x-ref
 			tradingPartner="PQ006"
 			mhg="SAMWU"
-			functionMask="FFFF" 
-			description="SAMWU: Oncologists "
-		/>
+			functionMask="FFFF"
+			description="SAMWU: Oncologists " />
 		<x-ref
 			tradingPartner="PQ007"
 			mhg="SAMWU"
-			functionMask="FFFF" 
-			description="SAMWU: Physiotherapists"
-		/>
+			functionMask="FFFF"
+			description="SAMWU: Physiotherapists" />
 		<x-ref
 			tradingPartner="PQ008"
 			mhg="SAMWU"
-			functionMask="FFFF" 
-			description="SAMWU: Other"
-		/>
+			functionMask="FFFF"
+			description="SAMWU: Other" />
 		<x-ref
 			tradingPartner="PQ009"
 			mhg="SAMWU"
-			functionMask="FFFF" 
-			description="SAMWU: Doctors (GP)"
-		/>
-		<x-ref 
-			tradingPartner="PJ001" 
-			mhg="PROTEKTA" 
-			functionMask="FFFF" 
-			description="Metropolitan: Dentists" 
-		/>
-		<x-ref 
-			tradingPartner="PJ002" 
-			mhg="PROTEKTA" 
-			functionMask="FFFF" 
-			description="Metropolitan: Pathologists" 
-		/>
-		<x-ref 
-			tradingPartner="PJ003" 
-			mhg="PROTEKTA" 
-			functionMask="FFFF" 
-			description="Metropolitan: Specialists" 
-		/>
-		<x-ref 
-			tradingPartner="PJ004" 
-			mhg="PROTEKTA" 
-			functionMask="FFFF" 
-			description="Metropolitan:Optometrists" 
-		/>
-		<x-ref 
-			tradingPartner="PJ005" 
-			mhg="PROTEKTA" 
-			functionMask="FFFF" 
-			description="Metropolitan:Radiologists" 
-		/>
-		<x-ref 
-			tradingPartner="PJ006" 
-			mhg="PROTEKTA" 
-			functionMask="FFFF" 
-			description="Metropolitan: Oncologists " 
-		/>
-		<x-ref 
-			tradingPartner="PJ007" 
-			mhg="PROTEKTA" 
-			functionMask="FFFF" 
-			description="Metropolitan: Physiotherapists" 
-		/>
-		<x-ref 
-			tradingPartner="PJ008" 
-			mhg="PROTEKTA" 
-			functionMask="FFFF" 
-			description="Metropolitan: Other" 
-		/>
-		<x-ref 
-			tradingPartner="PJ009" 
-			mhg="PROTEKTA" 
-			functionMask="FFFF" 
-			description="Metropolitan: Doctors (GP)" 
-		/>
+			functionMask="FFFF"
+			description="SAMWU: Doctors (GP)" />
+		<x-ref
+			tradingPartner="PJ001"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Dentists" />
+		<x-ref
+			tradingPartner="PJ002"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Pathologists" />
+		<x-ref
+			tradingPartner="PJ003"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Specialists" />
+		<x-ref
+			tradingPartner="PJ004"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan:Optometrists" />
+		<x-ref
+			tradingPartner="PJ005"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan:Radiologists" />
+		<x-ref
+			tradingPartner="PJ006"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Oncologists " />
+		<x-ref
+			tradingPartner="PJ007"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Physiotherapists" />
+		<x-ref
+			tradingPartner="PJ008"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Other" />
+		<x-ref
+			tradingPartner="PJ009"
+			mhg="PROTEKTA"
+			functionMask="FFFF"
+			description="Metropolitan: Doctors (GP)" />
 
 	</destination-x-ref>
 
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logFileRefreshInterval="Daily" 
-		processSleepTime="1000" 
-		logDirectory="log/accesslog"
-	>
-		<claimsLogger 
-			poolId="generic" 
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+		logDirectory="log/accesslog">
+		<claimsLogger
+			poolId="generic"
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT" 
-			logTable="IKat" 
-			DbUserName="traffic" 
-			DbPassword="pJ9fXZ3d" 
-			minpoolsize="1" 
-			maxpoolsize="2" 
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-prod:5100/JBAUDIT"
+			logTable="IKat"
+			DbUserName="traffic"
+			DbPassword="pJ9fXZ3d"
+			minpoolsize="1"
+			maxpoolsize="2"
 			timeout="600000">
-			<logTransactions 
+			<logTransactions
 				desc="comma seperated list of transactions to log"
-				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH"
-			/>
+				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH" />
 		</claimsLogger>
 	</logger>
 </Enviroments>
