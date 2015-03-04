@@ -361,6 +361,61 @@
 			mhg="PROTEKTA"
 			functionMask="FFFF"
 			description="Metropolitan: Doctors (GP)" />
+			
+		<x-ref
+			description="PG: Dentists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM001"
+		/>
+		<x-ref
+			description="PG: Pathologists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM002"
+		/>	
+		<x-ref
+			description="PG: Specialists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM003"
+		/>
+		<x-ref
+			description="PG:Optometrists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM004"
+		/>
+		<x-ref
+			description="PG:Radiologists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM005"
+		/>
+		<x-ref
+			description="PG: Oncologists "
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM006"
+		/>
+		<x-ref
+			description="PG: Physiotherapists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM007"
+		/>
+		<x-ref
+			description="PG: Other"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM008"
+		/>
+		<x-ref
+			description="PG: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM009"
+		/>
 
 	</destination-x-ref>
 
@@ -372,7 +427,7 @@
 		<claimsLogger
 			poolId="generic"
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:cptlsyb30.za.mhgad.com:5100/JBAUDIT"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-prod:5100/JBAUDIT"
 			logTable="Mededi"
 			DbUserName="traffic"
 			DbPassword="pJ9fXZ3d"
