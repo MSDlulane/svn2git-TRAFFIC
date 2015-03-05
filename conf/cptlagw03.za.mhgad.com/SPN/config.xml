@@ -123,7 +123,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000",
+			autotimeout="120000"
 			poolMaxWaitTime="120000" />
 	</env>
 
