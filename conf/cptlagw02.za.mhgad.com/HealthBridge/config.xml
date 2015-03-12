@@ -213,18 +213,7 @@
 			poolMaxWaitTime="60000" />
 	</env>
 
-	<env
-		name="SAMWU"
-		mhgAccount="SAMWU">
-		<pool
-			id="COBOL"
-			useSoTimeOut="false"
-			hostname="apl-samwu.za.mhgad.com"
-			port="9305"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="60000" />
-	</env>
+	
 	<env
 		name="PROTEKTA"
 		mhgAccount="PROTEKTA">
@@ -537,11 +526,7 @@
 			mhg="MEDIPOS"
 			functionMask="FFFF"
 			description="MEDIPOS" />
-		<x-ref
-			tradingPartner="HBQ"
-			mhg="SAMWU"
-			functionMask="FFFF"
-			description="SAMWU" />
+		
 		
 			
 	<!-- New destination codes -->
@@ -1416,65 +1401,6 @@
 			mhg="PROTEKTA"
 			tradingPartner="PJ009"
 		/>
-
-		<x-ref
-			description="SAMWU: Dentists"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="PQ001"
-		/>
-		<x-ref
-			description="SAMWU: Pathologists"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="PQ002"
-		/>
-		<x-ref
-			description="SAMWU: Specialists"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="PQ003"
-		/>
-		<x-ref
-			description="SAMWU:Optometrists"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="PQ004"
-		/>
-		<x-ref
-			description="SAMWU:Radiologists"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="PQ005"
-		/>
-		<x-ref
-			description="SAMWU: Oncologists "
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="PQ006"
-		/>
-		<x-ref
-			description="SAMWU: Physiotherapists"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="PQ007"
-		/>
-		<x-ref
-			description="SAMWU: Other"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="PQ008"
-		/>
-		<x-ref
-			description="SAMWU: Doctors (GP)"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="PQ009"
-		/>
-
-			
-			
-			
 
 
 	</destination-x-ref>
