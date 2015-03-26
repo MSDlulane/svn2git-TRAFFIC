@@ -11,7 +11,7 @@
 		port="10100"
 		sendTrxDetailsToStatusMonitor="true"
 		tradingPartner="SolutioSweeper"
-		trxAbortSizeLimit="100000"
+		trxAbortSizeLimit="251000"
 	/>
 	<env
 		name="MHRSTEST"
