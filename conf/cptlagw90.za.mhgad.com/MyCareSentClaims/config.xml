@@ -25,6 +25,21 @@
 			useSoTimeOut="false" />
 			
 	</env>
+		<env
+	
+		name="MYCARE">
+
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="196.35.123.84"
+		    port="5281"
+			id="COBOL"
+			poolMaxWaitTime="120000"
+			useSoTimeOut="false" />
+			
+	</env>
 	<env
 		name="ADRIAN">
 
