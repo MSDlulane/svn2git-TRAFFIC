@@ -8,7 +8,7 @@
 		port="30910"
 		sendTrxDetailsToStatusMonitor="true"
 		tradingPartner="MyCareSentClaims"
-		trxAbortSizeLimit="100000"
+		trxAbortSizeLimit="255000"
 		 />
 	<env
 	
