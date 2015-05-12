@@ -44,73 +44,32 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="10000"
 		>
-			
-			<localConnectorsToManipulateOnSync			>
-				
-				<localConnectorToManipulateOnSync
-					desc="Test"
-					remoteEnv="GEMS"
-					remotePoolId="COBOLBACKUP"
-				/>
-			</localConnectorsToManipulateOnSync>
-			<remoteConnectorOperations			>
-				
-				<remoteConnectorOperation
-					action="STATUS"
-					desc="will enable conn if active"
-					diagport="10301"
-					hostname="cptlagw90"
-					remoteEnv="GEMS"
-					remotePoolId="COBOL"
-				/>
-			</remoteConnectorOperations>
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="15000"
-				connections="15"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-			    hostname="cptlapp90"
-				id="COBOLBACKUP"
-				minTrxTime="15000"
-				poolMaxWaitTime="15000"
-				port="9130"
-				startDisabled="true"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="10000"
-			>
-				
-				<remoteConnectorOperations				>
-					
-					<remoteConnectorOperation
-						action="STATUS"
-						desc="will enable conn if active"
-						diagport="10301"
-						hostname="cptlagw90"
-						remoteEnv="GEMS"
-						remotePoolId="COBOL"
-					/>
-					<remoteConnectorOperation
-						action="DISABLE"
-						desc="will disable conn if trx processed"
-						diagport="10301"
-						hostname="cptlagw90"
-						remoteEnv="GEMS"
-						remotePoolId="COBOLBACKUP"
-					/>
-					<remoteConnectorOperation
-						action="ENABLE"
-						desc="will enable conn if trx processed"
-						diagport="10301"
-						hostname="cptlagw90"
-						remoteEnv="GEMS"
-						remotePoolId="COBOL"
-					/>
-				</remoteConnectorOperations>
-			</secondaryPool>
+		</pool>
+	</env>
+	
+	<env
+		mhgAccount="GEMS"
+		name="GEMS_PHARM_REV"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="15000"
+			connections="25"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="15000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="10000"
+		>
 		</pool>
 	</env>
 	
@@ -223,10 +182,11 @@
 			functionMask="FFFF"
 			mhg="GEMS"
 			tradingPartner="PT013" />
-			
-			
-			
-
+		<x-ref
+			description="GEMS PHARM REVERSAL"
+			functionMask="FFFF"
+			mhg="GEMS_PHARM_REV"
+			tradingPartner="PT099" />
 
 	</destination-x-ref>
 	<logger
