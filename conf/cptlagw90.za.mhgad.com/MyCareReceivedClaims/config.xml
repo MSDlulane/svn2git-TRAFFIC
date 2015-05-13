@@ -32,13 +32,39 @@
 			autoDisableOnSyncStart="false"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
+			autotimeout="23000"
 			connections="25"
 			dropClientOnError="false"
 			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="15000"
+			poolMaxWaitTime="10000"
 			port="9510"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="10000"
+		>
+		</pool>
+	</env>
+	
+	<env
+		mhgAccount="GEMS"
+		name="GEMS_Pharmacy_2"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="23000"
+			connections="25"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="10000"
+			port="9110"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
@@ -58,12 +84,12 @@
 			autoDisableOnSyncStart="false"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
+			autotimeout="23000"
 			connections="25"
 			dropClientOnError="false"
 			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="15000"
+			poolMaxWaitTime="10000"
 			port="9510"
 			startDisabled="false"
 			stickyStandin="false"
@@ -177,6 +203,11 @@
 			functionMask="FFFF"
 			mhg="GEMS_Pharmacy"
 			tradingPartner="PT012" />
+		<x-ref
+			description="GEMS Pharmacy"
+			functionMask="FFFF"
+			mhg="GEMS_Pharmacy_2"
+			tradingPartner="PT014" />
 		<x-ref
 			description="GEMS Non-Pharmacy"
 			functionMask="FFFF"
