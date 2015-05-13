@@ -33,7 +33,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="23000"
-			connections="25"
+			connections="37"
 			dropClientOnError="false"
 			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
