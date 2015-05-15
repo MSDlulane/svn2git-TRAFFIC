@@ -218,6 +218,11 @@
 			functionMask="FFFF"
 			mhg="GEMS_PHARM_REV"
 			tradingPartner="PT099" />
+			<x-ref
+		    description="GEMS_ACPT"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT088" />
 
 	</destination-x-ref>
 	<logger
