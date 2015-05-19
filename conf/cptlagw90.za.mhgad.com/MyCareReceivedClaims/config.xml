@@ -64,7 +64,7 @@
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="10000"
-			port="9510"
+			port="9110"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
