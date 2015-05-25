@@ -10,6 +10,56 @@
 		tradingPartner="MyCareSentClaims"
 		trxAbortSizeLimit="255000"
 		 />
+	
+
+	<env
+		name="MHRS">
+
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="10.10.71.18"
+		    port="7500"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			useSoTimeOut="false" />
+				<!-- hostname="10.10.71.18"
+		    port="7500"-->
+	</env>
+	<env
+		name="MHRSCLMS">
+
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="10.10.71.18"
+		    port="7500"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			useSoTimeOut="false" />
+				<!-- hostname="10.10.71.18"
+		    port="7500"-->
+	</env>
+	<env
+		name="MHRSMEDS">
+
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="10.10.71.18"
+		    port="7500"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			useSoTimeOut="false" />
+				<!-- hostname="10.10.71.18"
+		    port="7500"-->
+	</env>
+	
+	
+	
 	<env
 	
 		name="MYCARET">
