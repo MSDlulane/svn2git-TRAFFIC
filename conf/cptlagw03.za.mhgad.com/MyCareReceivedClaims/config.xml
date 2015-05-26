@@ -20,7 +20,7 @@
 
 	<env
 		mhgAccount="GEMS"
-		name="GEMS"
+		name="GEMS_PHARMACY"
 		useDistributedCache="true"
 	>
 		
@@ -29,19 +29,20 @@
 			autoDisableOnSyncStart="false"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
-			autotimeout="150000"
-			connections="15"
+			autotimeout="23000"
+			connections="25"
 			dropClientOnError="false"
 			hostname="cptlxml01.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="150000"
+			poolMaxWaitTime="10000"
 			port="9110"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
+			waitForSyncToFinishTimeout="10000"
 		/>
-			
+
+
 			<!--  <localConnectorsToManipulateOnSync			>
 				
 				<localConnectorToManipulateOnSync
@@ -109,8 +110,59 @@
 				</remoteConnectorOperations>
 			</secondaryPool>
 		</pool>-->
+
 	</env>
-	
+
+	<env
+		mhgAccount="GEMS"
+		name="GEMS_PHARMACY_2"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="23000"
+			connections="37"
+			dropClientOnError="false"
+			hostname="cptlxml02.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="10000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="10000"
+		/>
+	</env>
+
+	<env
+		mhgAccount="GEMS"
+		name="GEMS_REVERSALS"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="23000"
+			connections="37"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="10000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="10000"
+		/>
+	</env>
+
 	<env
 		mhgAccount="GEMS"
 		name="GEMS_NON_PHARMACY"
@@ -122,12 +174,12 @@
 			autoDisableOnSyncStart="false"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
-			autotimeout="150000"
+			autotimeout="120000"
 			connections="15"
 			dropClientOnError="false"
 			hostname="apl-gems.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="150000"
+			poolMaxWaitTime="120000"
 			port="9310"
 			startDisabled="false"
 			stickyStandin="false"
@@ -207,9 +259,21 @@
 		<x-ref
 			description="GEMS Medicine Claims"
 			functionMask="FFFF"
-			mhg="GEMS"
+			mhg="GEMS_PHARMACY"
 			tradingPartner="PT012" />
-			
+
+		<x-ref
+			description="GEMS Medicine Claims"
+			functionMask="FFFF"
+			mhg="GEMS_PHARMACY_2"
+			tradingPartner="PT014" />
+
+		<x-ref
+			description="GEMS Medicine Claims"
+			functionMask="FFFF"
+			mhg="GEMS_REVERSALS"
+			tradingPartner="PT099" />
+
 		<x-ref
 			description="GEMS Non-Pharmacy"
 			functionMask="FFFF"
