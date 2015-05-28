@@ -12,6 +12,7 @@
 		__system_out="sweeperTraf.system.out"
 		internalMessages="true" 
 		trxAbortSizeLimit="100000"
+		trxSizeLimit="100000"
 	/>
 	<!-- List of Environments that this server can talk to -->
 	<env
