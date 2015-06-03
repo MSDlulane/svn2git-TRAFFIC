@@ -37,12 +37,12 @@
 			dropClientOnError="false"
 			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="10000"
+			poolMaxWaitTime="15000"
 			port="9510"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="10000"
+			waitForSyncToFinishTimeout="15000"
 		>
 		</pool>
 	</env>
@@ -63,12 +63,12 @@
 			dropClientOnError="false"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="10000"
-			port="9131"
+			poolMaxWaitTime="15000"
+			port="9110"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="10000"
+			waitForSyncToFinishTimeout="15000"
 		>
 		</pool>
 	</env>
@@ -84,17 +84,17 @@
 			autoDisableOnSyncStart="false"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
-			autotimeout="23000"
+			autotimeout="150000"
 			connections="25"
 			dropClientOnError="false"
 			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="10000"
+			poolMaxWaitTime="120000"
 			port="9510"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="10000"
+			waitForSyncToFinishTimeout="40000"
 		>
 		</pool>
 	</env>
@@ -110,12 +110,12 @@
 			autoDisableOnSyncStart="false"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
+			autotimeout="150000"
 			connections="15"
 			dropClientOnError="false"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="28000"
+			poolMaxWaitTime="120000"
 			port="9110"
 			startDisabled="false"
 			stickyStandin="false"
