@@ -15,7 +15,7 @@
 		sendTrxDetailsToStatusMonitor="true"
 		tradingPartner="MyCareReceivedClaims"
 		trxAbortSizeLimit="256000"
-		trxSizeLimit="128000" />
+		trxSizeLimit="256000" />
 
 
 	<env
@@ -34,12 +34,12 @@
 			dropClientOnError="false"
 			hostname="cptlxml02.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="10000"
+			poolMaxWaitTime="20000"
 			port="9110"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="10000"
+			waitForSyncToFinishTimeout="20000"
 		/>
 	</env>
 
@@ -59,12 +59,12 @@
 			dropClientOnError="false"
 			hostname="cptlxml01.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="10000"
+			poolMaxWaitTime="20000"
 			port="9110"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="10000"
+			waitForSyncToFinishTimeout="20000"
 		/>
 	</env>
 
@@ -84,12 +84,12 @@
 			dropClientOnError="false"
 			hostname="cptlxml01.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="10000"
+			poolMaxWaitTime="20000"
 			port="9110"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="10000"
+			waitForSyncToFinishTimeout="20000"
 		/>
 	</env>
 
