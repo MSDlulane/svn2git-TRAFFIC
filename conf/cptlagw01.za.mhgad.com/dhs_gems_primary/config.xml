@@ -300,6 +300,13 @@
 		/>
 	</transaction-x-ref>
 	<destination-x-ref	>
+	
+	<x-ref
+			description="PING TEST"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MNPG0004"
+		/>
 		
 		<x-ref
 			description="GEMS Onyx"
