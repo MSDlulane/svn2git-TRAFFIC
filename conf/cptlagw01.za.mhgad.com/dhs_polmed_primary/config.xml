@@ -286,6 +286,13 @@
 	<destination-x-ref	>
 		
 		<x-ref
+			description="PING TEST"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="MNPG0004"
+		/>
+		
+		<x-ref
 			description="Polmed - Real Time - "
 			functionMask="FFFF"
 			mhg="POLMED_DOC"
