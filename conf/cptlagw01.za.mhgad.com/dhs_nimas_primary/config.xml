@@ -370,6 +370,13 @@
 			tradingPartner="MPGG0001"
 		/>
 		<x-ref
+			description="PGG Pharmacy Real Time"
+			functionMask="FFFF"
+			mhg="PGG"
+			tradingPartner="MNPG0004"
+		/>
+		
+		<x-ref
 			description="RANDW"
 			functionMask="FFFF"
 			mhg="RANDWATER"
