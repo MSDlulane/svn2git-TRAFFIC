@@ -871,6 +871,13 @@
 	</transaction-x-ref>
 	<destination-x-ref	>
 		
+			<x-ref
+			description="PING TEST"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MNPG0004"
+		/>
+		
 		<x-ref
 			description="MRDE0004 - Methealth"
 			functionMask="FFFF"
