@@ -104,7 +104,7 @@
 			hostname="apl-polmed.za.mhgad.com"
 			port="9309"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="300000"
 			poolMaxWaitTime="60000" />
 	</env>
 
