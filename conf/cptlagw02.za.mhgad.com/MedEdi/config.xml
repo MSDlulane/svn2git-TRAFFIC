@@ -31,7 +31,7 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="60000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -56,7 +56,7 @@
 			port="9314"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="60000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -69,7 +69,7 @@
 			port="9315"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="60000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -81,7 +81,7 @@
 			port="9308"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="60000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -118,7 +118,7 @@
 			port="9305"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="60000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -131,7 +131,7 @@
 			port="9308"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="60000" />
+			poolMaxWaitTime="300000" />
 	</env>
 	<env
 		name="PROTEKTA"
@@ -143,7 +143,7 @@
 			port="9316"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="60000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<transaction
