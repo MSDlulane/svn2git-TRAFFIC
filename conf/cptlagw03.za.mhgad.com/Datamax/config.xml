@@ -31,7 +31,7 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -51,7 +51,7 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -71,7 +71,7 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -91,7 +91,7 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -111,7 +111,7 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -131,7 +131,7 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -151,7 +151,7 @@
 			port="9310"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="60000" />
 	</env>
 
 	<env
@@ -171,7 +171,7 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -191,7 +191,7 @@
 			port="9314"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -211,7 +211,7 @@
 			port="9315"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -231,7 +231,7 @@
 			port="9308"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -251,7 +251,7 @@
 			port="9313"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -271,7 +271,7 @@
 			port="9313"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -291,7 +291,7 @@
 			port="9309"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -311,7 +311,7 @@
 			port="9305"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -331,7 +331,7 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -347,11 +347,11 @@
 			autoDisable="true"
 			autoEnable="true"
 			id="COBOL"
-			hostname="apl-transmed.za.mhgad.com"
+			hostname="apl-newmed.za.mhgad.com"
 			port="9308"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -371,7 +371,7 @@
 			port="9307"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
@@ -391,7 +391,7 @@
 			port="9316"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="28000" />
+			poolMaxWaitTime="300000" />
 	</env>
 	<!-- Log File Parameters -->
 	<transaction
