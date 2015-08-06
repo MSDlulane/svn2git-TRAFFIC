@@ -186,7 +186,7 @@
 		
 
 	</destination-x-ref>
-	<logger
+	<!--<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
 		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
@@ -208,6 +208,6 @@
 				desc="comma seperated list of transactions to log"
 				value="*" />
 		</claimsLogger>
-	</logger>
+	</logger> -->
 </Enviroments>
 
