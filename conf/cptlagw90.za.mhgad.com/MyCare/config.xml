@@ -4,12 +4,12 @@
 		active="true"
 		autoDisable="false"
 		cmdPasswd="1q2w3e"
-		diagPort="30901"
+		diagPort="30921"
 		logConfigFile="log4j.xml"
-		name="MyCareReceivedClaims ACPT Server"
+		name="MyCare Standin ACPT Server"
 		port="30920"
 		sendTrxDetailsToStatusMonitor="true"
-		tradingPartner="MyCareReceivedClaims"
+		tradingPartner="MyCare"
 		trxAbortSizeLimit="256000"
 		trxSizeLimit="128000" 
 		distributedCacheEnabled="true"
@@ -109,7 +109,7 @@
 		name="pool.xml" />
 	<snmp-port
 		mibFile="mibs.xml">
-		30902
+		30922
 	</snmp-port>
 	<synchronous-transactions>
 		true
@@ -118,12 +118,12 @@
 		id="MyCareReceivedClaims"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30903" />
+		tcpipPort="30923" />
 	<diagTailWatchServer
 		id="MyCareReceivedClaims"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30904" />
+		tcpipPort="30924" />
 	<transaction-x-ref>
 		<x-ref
 			description="Elegibility check"
