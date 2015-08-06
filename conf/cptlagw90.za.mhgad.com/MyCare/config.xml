@@ -4,12 +4,12 @@
 		active="true"
 		autoDisable="false"
 		cmdPasswd="1q2w3e"
-		diagPort="30901"
+		diagPort="30921"
 		logConfigFile="log4j.xml"
-		name="MyCareReceivedClaims ACPT Server"
-		port="30900"
+		name="MyCare Standin ACPT Server"
+		port="30920"
 		sendTrxDetailsToStatusMonitor="true"
-		tradingPartner="MyCareReceivedClaims"
+		tradingPartner="MyCare"
 		trxAbortSizeLimit="256000"
 		trxSizeLimit="128000" 
 		distributedCacheEnabled="true"
@@ -38,7 +38,7 @@
 			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="15000"
-			port="9510"
+			port="9515"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
@@ -61,10 +61,10 @@
 			autotimeout="23000"
 			connections="25"
 			dropClientOnError="false"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp95.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="15000"
-			port="9110"
+			port="9131"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
@@ -90,7 +90,7 @@
 			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9510"
+			port="9515"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
@@ -99,34 +99,7 @@
 		</pool>
 	</env>
 	
-	<env
-		mhgAccount="GEMS"
-		name="GEMS"
-		useDistributedCache="true"
-	>
-		
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="false"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="150000"
-			connections="15"
-			dropClientOnError="false"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9110"
-			startDisabled="false"
-			stickyStandin="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			
-		
-		</pool>
-	</env>
+	
 
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
@@ -136,7 +109,7 @@
 		name="pool.xml" />
 	<snmp-port
 		mibFile="mibs.xml">
-		30902
+		30922
 	</snmp-port>
 	<synchronous-transactions>
 		true
@@ -145,12 +118,12 @@
 		id="MyCareReceivedClaims"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30903" />
+		tcpipPort="30923" />
 	<diagTailWatchServer
 		id="MyCareReceivedClaims"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30904" />
+		tcpipPort="30924" />
 	<transaction-x-ref>
 		<x-ref
 			description="Elegibility check"
@@ -209,23 +182,14 @@
 			mhg="GEMS_Pharmacy_2"
 			tradingPartner="PT014" />
 		<x-ref
-			description="GEMS Non-Pharmacy"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT013" />
-		<x-ref
 			description="GEMS PHARM REVERSAL"
 			functionMask="FFFF"
 			mhg="GEMS_PHARM_REV"
 			tradingPartner="PT099" />
-			<x-ref
-		    description="GEMS_ACPT"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="PT088" />
+		
 
 	</destination-x-ref>
-	<logger
+    <logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
 		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
