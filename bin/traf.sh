@@ -31,7 +31,7 @@ if [ "$TRAFJMXPORT" = "" ]; then
 	exit 4
 else
 	echo "TRAF JMX/SNMP port set to #$TRAFJMXPORT."
-	TRAFJMXSETTINGS="-Xdebug -Xrunjdwp:transport=dt_socket,address=1053,server=y,suspend=n -Dcom.sun.management.jmxremote.port=$TRAFJMXPORT -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false"
+	TRAFJMXSETTINGS="-Dcom.sun.management.jmxremote.port=$TRAFJMXPORT -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false"
 	TRAFSNMPSETTINGS="-Dcom.sun.management.snmp.acl.file=$TRAFHOME/conf/snmp.acl -Dcom.sun.management.snmp.port=$TRAFJMXPORT -Dcom.sun.management.snmp.interface=0.0.0.0"
 fi
 
