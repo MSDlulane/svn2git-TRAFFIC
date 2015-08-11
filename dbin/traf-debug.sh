@@ -10,12 +10,12 @@ if [ "${HOSTNAME}" = "" ]; then
 fi
 
 if [ "${TRAFHOME}" = "" ]; then
-	echo "Please specify a hostname."
+	echo "Please specify a traffic home dir."
 	exit 2
 fi
 
 if [ "${TRAFNAME}" = "" ]; then
-	echo "Please specify a hostname."
+	echo "Please specify a traffic server name."
 	exit 4
 fi
 
