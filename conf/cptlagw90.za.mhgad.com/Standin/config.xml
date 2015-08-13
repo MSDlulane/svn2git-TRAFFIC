@@ -92,6 +92,24 @@
 		/>
 	</env>
 	<env
+		name="GEMS_PHARMACY"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90"
+			id="COBOL"
+			poolMaxWaitTime="60000"
+			port="9110"
+			useSoTimeOut="false"
+		/>
+	</env>
+	
+	
+	
+	<env
 		name="GENESIS"
 	>
 		
