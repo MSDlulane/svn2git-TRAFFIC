@@ -11,22 +11,18 @@
 		sendTrxDetailsToStatusMonitor="true"
 		tradingPartner="MyCareReceivedClaims"
 		trxAbortSizeLimit="256000"
-		trxSizeLimit="128000" 
+		trxSizeLimit="128000"
 		distributedCacheEnabled="true"
 		distributedCacheEntryTimeout="120"
 		distributedCacheIP="cptlagw90.za.mhgad.com"
-		distributedCachePort="11211"
-		
-		
-		/>
-	
-	
+		distributedCachePort="11211" />
+
+
 	<env
 		mhgAccount="GEMS"
 		name="GEMS_Pharmacy"
-		useDistributedCache="true"
-	>
-		
+		useDistributedCache="true">
+
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="false"
@@ -42,17 +38,15 @@
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="15000"
-		>
+			waitForSyncToFinishTimeout="15000">
 		</pool>
 	</env>
-	
+
 	<env
 		mhgAccount="GEMS"
 		name="GEMS_Pharmacy_2"
-		useDistributedCache="true"
-	>
-		
+		useDistributedCache="true">
+
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="false"
@@ -68,17 +62,15 @@
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="15000"
-		>
+			waitForSyncToFinishTimeout="15000">
 		</pool>
 	</env>
-	
+
 	<env
 		mhgAccount="GEMS"
 		name="GEMS_PHARM_REV"
-		useDistributedCache="true"
-	>
-		
+		useDistributedCache="true">
+
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="false"
@@ -94,17 +86,15 @@
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
+			waitForSyncToFinishTimeout="40000">
 		</pool>
 	</env>
-	
+
 	<env
 		mhgAccount="GEMS"
 		name="GEMS"
-		useDistributedCache="true"
-	>
-		
+		useDistributedCache="true">
+
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="false"
@@ -120,11 +110,10 @@
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			
-		
+			waitForSyncToFinishTimeout="40000">
+
+
+
 		</pool>
 	</env>
 
@@ -195,8 +184,11 @@
 	</transaction-x-ref>
 	<destination-x-ref>
 
-
-
+		<x-ref
+			description="GEMS Standin"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MYCARE" />
 
 		<x-ref
 			description="GEMS Pharmacy"
@@ -218,8 +210,8 @@
 			functionMask="FFFF"
 			mhg="GEMS_PHARM_REV"
 			tradingPartner="PT099" />
-			<x-ref
-		    description="GEMS_ACPT"
+		<x-ref
+			description="GEMS_ACPT"
 			functionMask="FFFF"
 			mhg="GEMS"
 			tradingPartner="PT088" />
