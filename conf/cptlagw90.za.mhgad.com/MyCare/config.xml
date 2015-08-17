@@ -11,22 +11,18 @@
 		sendTrxDetailsToStatusMonitor="true"
 		tradingPartner="MyCare"
 		trxAbortSizeLimit="256000"
-		trxSizeLimit="128000" 
+		trxSizeLimit="128000"
 		distributedCacheEnabled="true"
 		distributedCacheEntryTimeout="120"
 		distributedCacheIP="cptlagw90.za.mhgad.com"
-		distributedCachePort="11211"
-		
-		
-		/>
-	
-	
+		distributedCachePort="11211" />
+
+
 	<env
 		mhgAccount="GEMS"
 		name="GEMS_Pharmacy"
-		useDistributedCache="true"
-	>
-		
+		useDistributedCache="true">
+
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="false"
@@ -35,24 +31,22 @@
 			autotimeout="23000"
 			connections="37"
 			dropClientOnError="false"
-			hostname="cptlapp95.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="15000"
-			port="9131"
+			port="9510"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="15000"
-		>
+			waitForSyncToFinishTimeout="15000">
 		</pool>
 	</env>
-	
+
 	<env
 		mhgAccount="GEMS"
 		name="GEMS_Pharmacy_2"
-		useDistributedCache="true"
-	>
-		
+		useDistributedCache="true">
+
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="false"
@@ -61,24 +55,22 @@
 			autotimeout="23000"
 			connections="25"
 			dropClientOnError="false"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="15000"
-			port="9515"
+			port="9110"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="15000"
-		>
+			waitForSyncToFinishTimeout="15000">
 		</pool>
 	</env>
-	
+
 	<env
 		mhgAccount="GEMS"
 		name="GEMS_PHARM_REV"
-		useDistributedCache="true"
-	>
-		
+		useDistributedCache="true">
+
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="false"
@@ -87,19 +79,43 @@
 			autotimeout="150000"
 			connections="25"
 			dropClientOnError="false"
-			hostname="cptlapp95.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9131"
+			port="9510"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
+			waitForSyncToFinishTimeout="40000">
 		</pool>
 	</env>
-	
-	
+
+	<env
+		mhgAccount="GEMS"
+		name="GEMS"
+		useDistributedCache="true">
+
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="150000"
+			connections="15"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="120000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000">
+
+
+
+		</pool>
+	</env>
 
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
@@ -168,8 +184,11 @@
 	</transaction-x-ref>
 	<destination-x-ref>
 
-
-
+		<x-ref
+			description="GEMS Standin"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MYCARE" />
 
 		<x-ref
 			description="GEMS Pharmacy"
@@ -182,14 +201,23 @@
 			mhg="GEMS_Pharmacy_2"
 			tradingPartner="PT014" />
 		<x-ref
+			description="GEMS Non-Pharmacy"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT013" />
+		<x-ref
 			description="GEMS PHARM REVERSAL"
 			functionMask="FFFF"
 			mhg="GEMS_PHARM_REV"
 			tradingPartner="PT099" />
-		
+		<x-ref
+			description="GEMS_ACPT"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT088" />
 
 	</destination-x-ref>
-    <logger
+	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
 		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
@@ -200,7 +228,7 @@
 			DbPassword="IR0b0t"
 			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
 			DbUserName="traffic"
-			logTable="Sanlam"
+			logTable="MyCareClaims"
 			maxpoolsize="2"
 			minpoolsize="1"
 			poolId="generic"
