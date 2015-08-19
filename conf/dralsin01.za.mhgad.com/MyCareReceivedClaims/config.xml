@@ -1,232 +1,243 @@
-<?xml version="1.0"?>
 <Enviroments>
 
-	<!-- Global Server Parameters -->
 	<server
-		sendTrxDetailsToStatusMonitor="true"
-		trxSizeLimit="128000"
-		trxAbortSizeLimit="256000"
+		active="true"
+		autoDisable="false"
 		cmdPasswd="1q2w3e"
-		tradingPartner="Mediswitch"
-		name="MyCare GEMS Server"
-		port="30900"
-		diagPort="30901"
-		logConfigFile="log4j_gems.xml"
 		distributedCacheEnabled="true"
+		distributedCacheEntryTimeout="120"
 		distributedCacheIP="cptlagw03.za.mhgad.com"
 		distributedCachePort="11211"
-		distributedCacheEntryTimeout="120"
-		__system_out="default" />
+		diagPort="30901"
+		logConfigFile="log4j.xml"
+		name="MyCareReceivedClaims Prod Server"
+		port="30900"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="MyCareReceivedClaims"
+		trxAbortSizeLimit="256000"
+		trxSizeLimit="256000" />
+
 
 	<env
-		name="GEMS"
 		mhgAccount="GEMS"
-		useDistributedCache="true">
+		name="GEMS_PHARMACY"
+		useDistributedCache="true"
+	>
+		
 		<pool
-			useSoTimeOut="false"
-			stickyStandin="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="true"
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
 			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="23000"
+			connections="37"
+			dropClientOnError="false"
+			hostname="cptlxml02.za.mhgad.com"
 			id="COBOL"
-			hostname="cptlxml01.za.mhgad.com"
+			poolMaxWaitTime="20000"
 			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="20000"
+		/>
+	</env>
+
+	<env
+		mhgAccount="GEMS"
+		name="GEMS_PHARMACY_2"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="23000"
+			connections="25"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="20000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="20000"
+		/>
+	</env>
+
+	<env
+		mhgAccount="GEMS"
+		name="GEMS_REVERSALS"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="23000"
 			connections="15"
-			autotimeout="120000"
-			poolMaxWaitTime="28000">
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="20000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="20000"
+		/>
+	</env>
 
-			<!-- Auto dis/enable these connectors on a SYNC message -->
-			<localConnectorsToManipulateOnSync>
-				<localConnectorToManipulateOnSync
-					desc="Test"
-					remoteEnv="GEMS"
-					remotePoolId="COBOLBACKUP" />
-			</localConnectorsToManipulateOnSync>
-
-			<!-- On startup the folowing connectors will be queried - if all active 
-				then this connector will be enabled -->
-			<remoteConnectorOperations>
-
-				<remoteConnectorOperation
-					desc="will enable conn if active"
-					action="STATUS"
-					host="cptlagw03.za.mhgad.com"
-					diagport="30901"
-					remoteEnv="GEMS"
-					remotePoolId="COBOL" />
-				<remoteConnectorOperation
-					desc="will disable conn if active"
-					action="DISABLE"
-					host="cptlagw03.za.mhgad.com"
-					diagport="30901"
-					remoteEnv="GEMS"
-					remotePoolId="COBOL" />
-				<remoteConnectorOperation
-					desc="will enable conn if active"
-					action="ENABLE"
-					host="cptlagw03.za.mhgad.com"
-					diagport="30901"
-					remoteEnv="GEMS"
-					remotePoolId="COBOLBACKUP" />
-
-			</remoteConnectorOperations>
-
-			<secondaryPool
-				useSoTimeOut="false"
-				autoDisableOnSyncStart="true"
-				autoEnableOnSyncEnd="true"
-				minTrxTime="15000"
-				dropClientOnError="false"
-				startDisabled="true"
-				waitForSyncToFinishTimeout="10000"
-				autoDisable="false"
-				autoEnable="true"
-				id="COBOLBACKUP"
-				hostname="dralsin01.za.mhgad.com"
-				port="9309"
-				connections="10"
-				autotimeout="90000"
-				poolMaxWaitTime="28000"
-				connectorImplementationClassID="COBOL">
-				<remoteConnectorOperations>
-
-					<remoteConnectorOperation
-						desc="will enable conn if active"
-						action="STATUS"
-						host="cptlagw03.za.mhgad.com"
-						diagport="30901"
-						remoteEnv="GEMS"
-						remotePoolId="COBOL" />
-					<remoteConnectorOperation
-						desc="will disable conn if trx processed"
-						action="DISABLE"
-						host="cptlagw03.za.mhgad.com"
-						diagport="30901"
-						remoteEnv="GEMS"
-						remotePoolId="COBOLBACKUP" />
-					<remoteConnectorOperation
-						desc="will enable conn if trx processed"
-						action="ENABLE"
-						host="cptlagw03.za.mhgad.com"
-						diagport="30901"
-						remoteEnv="GEMS"
-						remotePoolId="COBOL" />
-
-				</remoteConnectorOperations>
-
-			</secondaryPool>
-		</pool>
+	<env
+		mhgAccount="GEMS"
+		name="GEMS_NON_PHARMACY"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="150000"
+			connections="15"
+			dropClientOnError="false"
+			hostname="apl-gems.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="150000"
+			port="9310"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
 	</env>
 
 	<transaction
-		class="InterfaceTransactions.Generic.GenTransaction" />
+		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
 	<transaction-header
 		class="InterfaceTransactions.Generic.GenHeaders" />
-
 	<pool-definitions-file
-		name="pool.xml"
-		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-		defaultCobolCharcaterSet="ISO-8859-1">
-		<pool
-			id="POJAS"
-			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-			hostName="cptlagw03.za.mhgad.com"
-			port="43000"
-			characterSet="ISO-8859-1" />
-	</pool-definitions-file>
-
+		name="pool.xml" />
 	<snmp-port
-		mibFile="mibs.xml">30902</snmp-port>
+		mibFile="mibs.xml">
+		30902
+	</snmp-port>
+	<synchronous-transactions>
+		true
+	</synchronous-transactions>
 	<tailWatchServer
-		id="MyCare"
-		tcpipPort="30903"
+		id="MyCareReceivedClaims"
 		multicast-host-ip=""
-		multicast-port="-1" />
+		multicast-port="-1"
+		tcpipPort="30903" />
 	<diagTailWatchServer
-		id="Mycare"
-		tcpipPort="30904"
+		id="MyCareReceivedClaims"
 		multicast-host-ip=""
-		multicast-port="-1" />
-
-	<synchronous-transactions>true</synchronous-transactions>
-
+		multicast-port="-1"
+		tcpipPort="30904" />
 	<transaction-x-ref>
 		<x-ref
-			tradingPartner="1"
-			mhg="ELCHECK"
+			description="Elegibility check"
 			functionNo="0001"
 			isPingOrHandshake="true"
-			description="Elegibility check" />
+			mhg="ELCHECK"
+			tradingPartner="1" />
 		<x-ref
-			tradingPartner="2"
-			mhg="REALCLM"
+			description="Realtime Pharmacy Medicine claims"
 			functionNo="000A"
-			description="Realtime Pharmacy Medicine claims" />
-		<x-ref
-			tradingPartner="3"
 			mhg="REALCLM"
+			tradingPartner="2" />
+		<x-ref
+			description="Realtime doctor Medicine claims"
 			functionNo="0002"
-			description="Realtime doctor Medicine claims" />
-		<x-ref
-			tradingPartner="4"
 			mhg="REALCLM"
-			functionNo="0004"
-			description="Realtime doctor claims" />
+			tradingPartner="3" />
 		<x-ref
-			tradingPartner="127"
-			mhg="PING"
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4" />
+		<x-ref
+			description="Ping"
 			functionNo="0008"
 			isPingOrHandshake="true"
-			description="Ping" />
+			mhg="PING"
+			tradingPartner="127" />
 		<x-ref
-			tradingPartner="138"
-			mhg="ELIXIR_STORE_CLINICAL_INFO"
-			functionNo="0016"
-			description="ELIXIR_STORE_CLINICAL_INFO" />
-		<x-ref
-			tradingPartner="5"
-			mhg="REALCLM"
+			description="Realtime doctor"
 			functionNo="0010"
-			description="Realtime doctor" />
-	 <x-ref
+			mhg="REALCLM"
+			tradingPartner="5" />
+
+	  <x-ref
 			description="Realtime doctor"
 			functionNo="0011"
 			mhg="REALPHM"
 			tradingPartner="6" />
-	</transaction-x-ref>
+			
 
+
+	</transaction-x-ref>
 	<destination-x-ref>
-	
+
 		<x-ref
 			description="GEMS Medicine Claims"
 			functionMask="FFFF"
-			mhg="GEMS"
+			mhg="GEMS_PHARMACY"
 			tradingPartner="PT012" />
-	</destination-x-ref>
 
+		<x-ref
+			description="GEMS Medicine Claims"
+			functionMask="FFFF"
+			mhg="GEMS_PHARMACY_2"
+			tradingPartner="PT014" />
+
+		<x-ref
+			description="GEMS Medicine Claims"
+			functionMask="FFFF"
+			mhg="GEMS_REVERSALS"
+			tradingPartner="PT099" />
+
+		<x-ref
+			description="GEMS Non-Pharmacy"
+			functionMask="FFFF"
+			mhg="GEMS_NON_PHARMACY"
+			tradingPartner="PT013" />
+
+
+	</destination-x-ref>
+		
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
-		logDirectory="log/accesslog-gems">
+	>
+		
 		<claimsLogger
-			poolId="generic"
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbUrl="jdbc:sybase:Tds:dralsyb03.za.mhgad.com:7100/JBAUDIT"
-			logTable="DHSGems"
-			DbUserName="traffic"
 			DbPassword="pJ9fXZ3d"
-			minpoolsize="1"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-prod:5100/JBAUDIT"
+			DbUserName="traffic"
+			logTable="MyCareClaims"
 			maxpoolsize="2"
-			timeout="600000">
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
 			<logTransactions
 				desc="comma seperated list of transactions to log"
-				value="REALCLM" />
+				value="*"
+			/>
 		</claimsLogger>
 	</logger>
 
 </Enviroments>
+
