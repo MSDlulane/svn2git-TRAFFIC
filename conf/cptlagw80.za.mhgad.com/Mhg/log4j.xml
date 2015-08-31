@@ -11,7 +11,7 @@
 	>
 		<param 
 			name="Threshold" 
-			value="DEBUG"
+			value="ERROR"
 		/>
 		<param
 			name="File"
@@ -33,7 +33,7 @@
 
     <root>
         <priority
-		value="DEBUG"
+		value="ERROR"
 	/>
         <appender-ref
 		ref="FILE"
