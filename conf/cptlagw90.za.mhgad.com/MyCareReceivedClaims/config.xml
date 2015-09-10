@@ -28,17 +28,17 @@
 			autoDisableOnSyncStart="false"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
-			autotimeout="23000"
+			autotimeout="30000"
 			connections="37"
 			dropClientOnError="false"
 			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="15000"
+			poolMaxWaitTime="30000"
 			port="9510"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="15000">
+			waitForSyncToFinishTimeout="30000">
 		</pool>
 	</env>
 
@@ -52,17 +52,17 @@
 			autoDisableOnSyncStart="false"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
-			autotimeout="23000"
+			autotimeout="30000"
 			connections="25"
 			dropClientOnError="false"
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="15000"
+			poolMaxWaitTime="30000"
 			port="9110"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="15000">
+			waitForSyncToFinishTimeout="30000">
 		</pool>
 	</env>
 
