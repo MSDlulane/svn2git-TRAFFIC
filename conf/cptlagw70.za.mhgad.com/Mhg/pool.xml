@@ -5,7 +5,7 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	/>
 	<pool
-		id="JEE"
+		id="EJB"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 	>
 		<tq-function

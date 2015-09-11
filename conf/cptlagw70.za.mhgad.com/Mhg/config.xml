@@ -21,7 +21,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9106"
@@ -29,7 +29,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -92,7 +92,7 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -105,7 +105,7 @@
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -117,7 +117,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9105"
@@ -125,7 +125,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -187,7 +187,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9108"
@@ -195,7 +195,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="1000"
 			port="1099"
@@ -258,7 +258,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9106"
@@ -321,7 +321,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9107"
@@ -329,7 +329,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -386,8 +386,8 @@
 		</pool>
 	</env>
 	<env
-		mhgAccount="RANDWATER"
-		name="RANDWATER"
+		mhgAccount="REDRIB"
+		name="REDRIB"
 	>
 		<pool
 			autotimeout="120000"
@@ -395,83 +395,12 @@
 			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
-			port="9518"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw90.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb80.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="30610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlagw90.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="33000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-	</env>
-	<env
-		mhgAccount="REDRIB"
-		name="REDRIB"
-	>
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
 			port="9111"
 		/>
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -534,7 +463,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9110"
@@ -542,7 +471,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -605,7 +534,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9109"
@@ -613,7 +542,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -676,7 +605,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9104"
@@ -684,7 +613,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -747,7 +676,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9104"
@@ -755,7 +684,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -818,7 +747,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9113"
@@ -826,7 +755,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -889,7 +818,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9114"
@@ -952,7 +881,7 @@
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9115"
@@ -960,7 +889,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1023,7 +952,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1136,7 +1065,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1199,7 +1128,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1212,7 +1141,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1275,7 +1204,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1338,7 +1267,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1401,7 +1330,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1464,7 +1393,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1527,7 +1456,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1590,7 +1519,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptlagw70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1661,7 +1590,7 @@
 		<pool_
 			account="AMED"
 			class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
-			hostName="cptlacp01.za.mhgad.com"
+			hostName="cptlagw70.za.mhgad.com"
 			id="EJB"
 			port="1099"
 			serviceTqName="ListServicesNames"
@@ -2053,18 +1982,6 @@
 			functionMask="FFFF"
 			mhg="NIMAS"
 			tradingPartner="P27"
-		/>
-		<x-ref
-			description="RANDWATER"
-			functionMask="FFFF"
-			mhg="RANDWATER"
-			tradingPartner="P28"
-		/>
-		<x-ref
-			description="RANDWATER"
-			functionMask="FFFF"
-			mhg="RANDWATER"
-			tradingPartner="RANDWATER"
 		/>
 		<x-ref
 			description="SHARE access"
