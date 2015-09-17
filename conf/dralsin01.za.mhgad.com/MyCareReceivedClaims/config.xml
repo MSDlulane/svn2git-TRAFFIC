@@ -6,7 +6,7 @@
 		cmdPasswd="1q2w3e"
 		distributedCacheEnabled="true"
 		distributedCacheEntryTimeout="120"
-		distributedCacheIP="cptlagw03.za.mhgad.com"
+		distributedCacheIP="drals1n01.za.mhgad.com"
 		distributedCachePort="11211"
 		diagPort="30901"
 		logConfigFile="log4j.xml"
@@ -40,8 +40,76 @@
 			stickyStandin="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="20000"
-		/>
+		>
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="MYCARE"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="30901"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="GEMS"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="37"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="12000"
+				poolMaxWaitTime="28000"
+				port="9315"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="30901"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="MYCARE"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="30901"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="MYCARE"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="30901"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="MYCARE"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
 	</env>
+		
 
 	<env
 		mhgAccount="GEMS"
@@ -65,8 +133,77 @@
 			stickyStandin="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="20000"
-		/>
+		>
+		<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="MYCARE"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="30901"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="GEMS"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="37"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="12000"
+				poolMaxWaitTime="28000"
+				port="9316"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="30901"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="MYCARE"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="30901"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="MYCARE"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="30901"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="MYCARE"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
 	</env>
+		
+	
 
 	<env
 		mhgAccount="GEMS"
@@ -89,10 +226,77 @@
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="20000"
-		/>
+			waitForSyncToFinishTimeout="20000">
+			<localConnectorsToManipulateOnSync	>
+					
+					<localConnectorToManipulateOnSync
+						desc="Test"
+						remoteEnv="MYCARE"
+						remotePoolId="COBOLBACKUP"
+					/>
+				</localConnectorsToManipulateOnSync>
+				<remoteConnectorOperations			>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="30901"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="GEMS"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+				<secondaryPool
+					autoDisable="false"
+					autoDisableOnSyncStart="true"
+					autoEnable="true"
+					autoEnableOnSyncEnd="true"
+					autotimeout="90000"
+					connections="37"
+					connectorImplementationClassID="COBOL"
+					dropClientOnError="false"
+					hostname="dralsin01.za.mhgad.com"
+					id="COBOLBACKUP"
+					minTrxTime="12000"
+					poolMaxWaitTime="28000"
+					port="9315"
+					startDisabled="true"
+					useSoTimeOut="false"
+					waitForSyncToFinishTimeout="10000"
+				>
+					
+					<remoteConnectorOperations				>
+						
+						<remoteConnectorOperation
+							action="STATUS"
+							desc="will enable conn if active"
+							diagport="30901"
+							host="dralsin01.za.mhgad.com"
+							remoteEnv="MYCARE"
+							remotePoolId="COBOL"
+						/>
+						<remoteConnectorOperation
+							action="DISABLE"
+							desc="will disable conn if trx processed"
+							diagport="30901"
+							host="dralsin01.za.mhgad.com"
+							remoteEnv="MYCARE"
+							remotePoolId="COBOLBACKUP"
+						/>
+						<remoteConnectorOperation
+							action="ENABLE"
+							desc="will enable conn if trx processed"
+							diagport="30901"
+							host="dralsin01.za.mhgad.com"
+							remoteEnv="MYCARE"
+							remotePoolId="COBOL"
+						/>
+					</remoteConnectorOperations>
+				</secondaryPool>
+			</pool>
 	</env>
 
+<!-- 
 	<env
 		mhgAccount="GEMS"
 		name="GEMS_NON_PHARMACY"
@@ -116,7 +320,9 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		/>
+		
 	</env>
+-->
 
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
@@ -215,27 +421,22 @@
 		
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
-	>
-		
+		logDirectory="log/accesslog-gems">
 		<claimsLogger
-			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbPassword="pJ9fXZ3d"
-			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-prod:5100/JBAUDIT"
-			DbUserName="traffic"
-			logTable="MyCareClaims"
-			maxpoolsize="2"
-			minpoolsize="1"
 			poolId="generic"
-			timeout="600000"
-		>
-			
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbUrl="jdbc:sybase:Tds:dralsyb03.za.mhgad.com:7100/JBAUDIT"
+			logTable="MyCareClaims"
+			DbUserName="traffic"
+			DbPassword="pJ9fXZ3d"
+			minpoolsize="1"
+			maxpoolsize="2"
+			timeout="600000">
 			<logTransactions
 				desc="comma seperated list of transactions to log"
-				value="*"
-			/>
+				value="*" />
 		</claimsLogger>
 	</logger>
 
