@@ -3,7 +3,7 @@
 
 	<server sendTrxDetailsToStatusMonitor="true" tradingPartner="Sweeper" name="Sweeper Traf"
 		port="10100" diagPort="10101" trxSizeLimit="256000" trxAbortSizeLimit="512000"
-		logConfigFile="log4j_sweeper.xml" __system_out="sweeperTraf.system.out" internalMessages="true"/>
+		logConfigFile="log4j.xml" __system_out="sweeperTraf.system.out" internalMessages="true"/>
 
 	<!-- List of Environments that this server can talk to -->
 	<env name="AMED" >

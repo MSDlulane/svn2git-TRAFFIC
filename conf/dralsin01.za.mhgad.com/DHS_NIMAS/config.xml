@@ -4,7 +4,7 @@
 	<!-- Global Server Parameters -->
 	<server sendTrxDetailsToStatusMonitor="true" trxSizeLimit="128000"
 		trxAbortSizeLimit="256000" cmdPasswd="1q2w3e" tradingPartner="Mediswitch"
-		name="DHS GEMS Server" port="20300" diagPort="20301" logConfigFile="log4j_nimas.xml"
+		name="DHS GEMS Server" port="20300" diagPort="20301" logConfigFile="log4j.xml"
 		distributedCacheEnabled="true" distributedCacheIP="cptlagw01.za.mhgad.com"
 		distributedCachePort="11211" distributedCacheEntryTimeout="120"
 		__system_out="default" />

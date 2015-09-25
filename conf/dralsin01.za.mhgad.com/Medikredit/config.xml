@@ -6,7 +6,7 @@
 
 	<server sendTrxDetailsToStatusMonitor="true" trxSizeLimit="48000" trxAbortSizeLimit="64000" cmdPasswd="1q2w3e" 
 					tradingPartner="Medikredit" name="AMED" active="true" autoDisable="false" port="21000" diagPort="21001" 
-					logConfigFile="log4jAMED.xml" __system_out="mk_Amed_System.out"/>
+					logConfigFile="log4j.xml" __system_out="mk_Amed_System.out"/>
 
 	<!-- List of Environments that this server can talk to -->
 	<env name="MEDIKREDIT" mhgAccount="AMED" >

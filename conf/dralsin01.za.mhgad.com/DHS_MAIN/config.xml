@@ -3,7 +3,7 @@
 
 	<server trxSizeLimit="48000" trxAbortSizeLimit="64000"
 		cmdPasswd="1q2w3e" tradingPartner="Mediswitch" name="DHS MAIN Server"
-		port="20100" diagPort="20101" logConfigFile="log4j_main.xml" 
+		port="20100" diagPort="20101" logConfigFile="log4j.xml" 
 		distributedCacheEnabled="true" distributedCacheIP="cptlagw01.za.mhgad.com" 
 		distributedCachePort="11211" distributedCacheEntryTimeout="120"
 		__system_out="default" />
