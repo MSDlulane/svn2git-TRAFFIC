@@ -122,10 +122,12 @@
 		</pool>
 	</env>
 
+	<!--
 	<env name="POLMED_DOC">
 		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
 			port="9109" connections="5" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
+	-->
 
 	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
 	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
