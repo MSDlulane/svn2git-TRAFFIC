@@ -22,7 +22,7 @@
 					desc="Test" remoteEnv="METROPOLITAN" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
-			<!--
+
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -77,11 +77,10 @@
 					desc="Test" remoteEnv="POLMED" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
-			<!--
+
 				On startup the folowing connectors will be queried - if all active
 				then this connector will be enabled
-			-->
-			<!--
+
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"

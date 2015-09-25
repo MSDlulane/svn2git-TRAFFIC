@@ -22,8 +22,7 @@
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="GEMS" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
-
-			<!--
+			
 				On startup the folowing connectors will be queried - if all active
 				then this connector will be enabled
 			
@@ -85,8 +84,6 @@
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="NIMAS" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
-
-			
 			
 				On startup the folowing connectors will be queried - if all active
 				then this connector will be enabled
@@ -148,8 +145,6 @@
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="NETCARE" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
-
-			
 			
 				On startup the folowing connectors will be queried - if all active
 				then this connector will be enabled
