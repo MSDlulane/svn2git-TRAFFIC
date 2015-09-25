@@ -19,7 +19,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107" connections="5"
+			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9306" connections="5"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
 			<!-- Auto dis/enable these connectors on a SYNC message -->
@@ -28,6 +28,7 @@
 					desc="Test" remoteEnv="BP" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
+			<!--
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -63,7 +64,7 @@
 						
 				</remoteConnectorOperations>
 			</secondaryPool>
-			
+			-->
 		</pool>
 	</env>	
 
@@ -77,7 +78,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107" connections="3"
+			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9306" connections="3"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
 			<!-- Auto dis/enable these connectors on a SYNC message -->
@@ -86,6 +87,8 @@
 					desc="Test" remoteEnv="FISHMED" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
+			
+			<!--
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -122,6 +125,7 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
+			-->
 		</pool>
 	</env>
 
@@ -130,7 +134,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107" connections="3"
+			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9306" connections="3"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
 			<!-- Auto dis/enable these connectors on a SYNC message -->
@@ -139,6 +143,8 @@
 					desc="Test" remoteEnv="GOLDEN" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
+			
+			<!--
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -175,6 +181,7 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
+			-->
 		</pool>
 	</env>
 	
@@ -183,7 +190,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9114" connections="10"
+			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9308" connections="10"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
 			<!-- Auto dis/enable these connectors on a SYNC message -->
@@ -192,6 +199,7 @@
 					desc="Test" remoteEnv="IMPERIAL" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
+			<!--
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -228,6 +236,7 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
+			-->
 		</pool>
 	</env>
 
@@ -236,7 +245,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9115" connections="10"
+			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9314" connections="10"
 			autotimeout="120000" poolMaxWaitTime="28000">
 			
 			<localConnectorsToManipulateOnSync>
@@ -244,6 +253,8 @@
 					desc="Test" remoteEnv="MEDIPOS" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
+			
+			<!--
 			<remoteConnectorOperations>
 				<remoteConnectorOperation desc="will enable conn if active"
 					action="STATUS" host="dralsin01.za.mhgad.com" diagport="20101"
@@ -271,7 +282,7 @@
 						
 				</remoteConnectorOperations>
 			</secondaryPool>
-			
+			-->
 		</pool>
 	</env>	
 
@@ -290,7 +301,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9105"
+			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9312"
 			connections="3" autotimeout="120000" poolMaxWaitTime="28000">
 
 			<!-- Auto dis/enable these connectors on a SYNC message -->
@@ -299,6 +310,7 @@
 					desc="Test" remoteEnv="SAMWU" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
+			<!--
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -335,6 +347,7 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
+			-->
 		</pool>
 	</env>
 
@@ -343,7 +356,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9108"
+			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9307"
 			connections="3" autotimeout="120000" poolMaxWaitTime="28000">
 
 			<!-- Auto dis/enable these connectors on a SYNC message -->
@@ -352,6 +365,7 @@
 					desc="Test" remoteEnv="TRANSMED" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
+			<!--
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -388,6 +402,7 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
+			-->
 		</pool>
 	</env>
 
@@ -396,7 +411,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107" connections="3"
+			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9306" connections="3"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
 			<!-- Auto dis/enable these connectors on a SYNC message -->
@@ -408,7 +423,7 @@
 			<!--
 				On startup the folowing connectors will be queried - if all active
 				then this connector will be enabled
-			-->
+			
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -445,6 +460,7 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
+			-->
 		</pool>
 	</env>
 
