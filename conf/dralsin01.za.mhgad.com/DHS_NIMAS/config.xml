@@ -17,13 +17,14 @@
 			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9313" connections="15"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
+			<!--
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="NIMAS" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
 			
-			<!--
+			
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -72,13 +73,14 @@
 			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9313" connections="15"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
+			<!--
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="NETCARE" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
 			
-			<!--
+			
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -127,12 +129,13 @@
 			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9313" connections="15"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
+			<!--
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="MIDMED" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
-			<!--
+			
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -181,12 +184,13 @@
 			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9313" connections="15"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
+			<!--
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="PGG" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
-			<!--
+			
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -248,6 +252,8 @@
 			autoDisable="true"
 			autoEnable="true"
 		>
+		
+			<!--
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test"
@@ -256,7 +262,7 @@
 				 />
 			</localConnectorsToManipulateOnSync>
 
-			<!--
+			
 			<remoteConnectorOperations>
 				<remoteConnectorOperation 
 					desc="will enable conn if active"

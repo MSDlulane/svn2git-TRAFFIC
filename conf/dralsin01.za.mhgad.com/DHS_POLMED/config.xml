@@ -16,7 +16,7 @@
 			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9307"
 			connections="5" autotimeout="120000" poolMaxWaitTime="28000">
 
-			<!-- Auto dis/enable these connectors on a SYNC message -->
+			<!-- Auto dis/enable these connectors on a SYNC message
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="METROPOLITAN" remotePoolId="COBOLBACKUP" />
@@ -71,7 +71,7 @@
 			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9310"
 			connections="12" autotimeout="120000" poolMaxWaitTime="28000">
 
-			<!-- Auto dis/enable these connectors on a SYNC message -->
+			<!-- Auto dis/enable these connectors on a SYNC message
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="POLMED" remotePoolId="COBOLBACKUP" />
@@ -122,12 +122,11 @@
 		</pool>
 	</env>
 
-	<!--
+	
 	<env name="POLMED_DOC">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
-			port="9109" connections="5" autotimeout="120000" poolMaxWaitTime="28000" />
+		<pool id="COBOL" useSoTimeOut="false" hostname="dralsin01.za.mhgad.com"
+			port="9310" connections="5" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
-	-->
 
 	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
 	<transaction-header class="InterfaceTransactions.Generic.GenHeaders" />
