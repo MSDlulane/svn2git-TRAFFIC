@@ -5,8 +5,8 @@
 
     <!-- A time/date based rolling appender -->
     <appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender">
-	<param name="Threshold" value="INFO"/>
-	<param name="File" value="log/DHSPOLMED.log"/>
+	<param name="Threshold" value="DEBUG"/>
+	<param name="File" value="log/ALL_LOG.log"/>
 	<param name="DatePattern" value="'.'yyyyMMdd"/>
 	<layout class="org.apache.log4j.PatternLayout">
             <!-- The default pattern: Date Priority [Category] Message\n -->
