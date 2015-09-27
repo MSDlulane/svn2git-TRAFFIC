@@ -13,15 +13,14 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9307"
+			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9108"
 			connections="5" autotimeout="120000" poolMaxWaitTime="28000">
 
-			<!-- Auto dis/enable these connectors on a SYNC message
+			<!-- Auto dis/enable these connectors on a SYNC message -->
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="METROPOLITAN" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
-
 
 			<remoteConnectorOperations>
 				
@@ -59,7 +58,6 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
-			-->
 		</pool>
 	</env>
 	
@@ -68,19 +66,19 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9310"
+			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9109"
 			connections="12" autotimeout="120000" poolMaxWaitTime="28000">
 
-			<!-- Auto dis/enable these connectors on a SYNC message
+			<!-- Auto dis/enable these connectors on a SYNC message -->
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="POLMED" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
-
+			<!--
 				On startup the folowing connectors will be queried - if all active
 				then this connector will be enabled
-
+			-->
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -117,14 +115,12 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
-			-->
 		</pool>
 	</env>
 
-	
 	<env name="POLMED_DOC">
-		<pool id="COBOL" useSoTimeOut="false" hostname="dralsin01.za.mhgad.com"
-			port="9310" connections="5" autotimeout="120000" poolMaxWaitTime="28000" />
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
+			port="9109" connections="5" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<transaction class="InterfaceTransactions.Generic.GenTransaction" />
