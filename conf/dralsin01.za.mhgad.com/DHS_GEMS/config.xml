@@ -14,18 +14,19 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9309" connections="15"
+			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9110" connections="15"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
-			<!-- Auto dis/enable these connectors on a SYNC message
+			<!-- Auto dis/enable these connectors on a SYNC message -->
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="GEMS" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
-			
+
+			<!--
 				On startup the folowing connectors will be queried - if all active
 				then this connector will be enabled
-			
+			-->
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -62,12 +63,11 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
-			-->
 		</pool>
 	</env>
 
 	<env name="GEMS_NON_QPBM" mhgAccount="GEMS">
-		<pool id="COBOL" hostname="dralsin01.za.mhgad.com" port="9309"
+		<pool id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9110"
 			connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
 	</env>
 
@@ -76,17 +76,14 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9313" connections="15"
+			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9113" connections="15"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
-			<!--
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="NIMAS" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
-			
-				On startup the folowing connectors will be queried - if all active
-				then this connector will be enabled
+
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -123,13 +120,12 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
-			-->
 		</pool>
 	</env>
 
 	<env name="NIMAS_NON_QPBM" mhgAccount="NIMAS">
-		<pool useSoTimeOut="true" id="COBOL" hostname="dralsin01.za.mhgad.com"
-			port="9313" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
+		<pool useSoTimeOut="true" id="COBOL" hostname="cptlxml01.za.mhgad.com"
+			port="9113" connections="10" autotimeout="120000" poolMaxWaitTime="120000" />
 	</env>
 
 	<env name="NETCARE" mhgAccount="NIMAS" useDistributedCache="true">
@@ -137,17 +133,14 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9313" connections="15"
+			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9113" connections="15"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
-			<!--
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="NETCARE" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
-			
-				On startup the folowing connectors will be queried - if all active
-				then this connector will be enabled
+
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -184,7 +177,6 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
-			-->
 		</pool>
 	</env>
 
@@ -193,19 +185,14 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="dralsin01.za.mhgad.com" port="9313" connections="15"
+			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9113" connections="15"
 			autotimeout="120000" poolMaxWaitTime="28000">
 
-			<!--
 			<localConnectorsToManipulateOnSync>
 				<localConnectorToManipulateOnSync
 					desc="Test" remoteEnv="PGG" remotePoolId="COBOLBACKUP" />
 			</localConnectorsToManipulateOnSync>
 
-			
-			
-				On startup the folowing connectors will be queried - if all active
-				then this connector will be enabled
 			<remoteConnectorOperations>
 				
 				<remoteConnectorOperation desc="will enable conn if active"
@@ -242,7 +229,6 @@
 				</remoteConnectorOperations>
 
 			</secondaryPool>
-			-->
 		</pool>
 	</env>
 
