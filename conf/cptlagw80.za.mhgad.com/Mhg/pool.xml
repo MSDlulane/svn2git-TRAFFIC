@@ -53,11 +53,11 @@
 			name="ENCRYPTION_MANAGER"
 			targetBeanName="ENCRYPTION_MANAGER"
 		/>
-		<tq-function
+		<!--<tq-function
 			desc=""
 			name="EnrollmentDriver"
 			targetBeanName="EnrollmentDriver"
-		/>
+		/>-->
 		<tq-function
 			desc=""
 			name="FLAG_PROTOCOL_SERVICE"
