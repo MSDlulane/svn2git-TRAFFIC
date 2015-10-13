@@ -55,10 +55,10 @@
 			autotimeout="30000"
 			connections="25"
 			dropClientOnError="false"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlapp95.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
-			port="9110"
+			port="9131"
 			startDisabled="false"
 			stickyStandin="false"
 			useSoTimeOut="false"
@@ -205,6 +205,11 @@
 			functionMask="FFFF"
 			mhg="GEMS"
 			tradingPartner="PT013" />
+		<x-ref
+			description="GEMS Medipost Claims"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT015" />
 		<x-ref
 			description="GEMS PHARM REVERSAL"
 			functionMask="FFFF"
