@@ -1190,6 +1190,14 @@
 			mhg="BP"
 			tradingPartner="MBSA0007"
 		/>
+			<x-ref
+			description="MHG: BP NAMIBIA INFRASTRUCTURE"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="MBSA0001"
+		/>
+		
+		
 		<x-ref
 			description="MHG: FOSCHINI PATHOLOGY REALER (MEDICAL)"
 			functionMask="FFFF"
