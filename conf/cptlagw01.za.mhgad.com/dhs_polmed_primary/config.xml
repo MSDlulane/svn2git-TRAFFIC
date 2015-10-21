@@ -346,6 +346,15 @@
 			mhg="POLMED"
 			tradingPartner="MPMR0003"
 		/>
+			<x-ref
+			description="MHG: POLMED NAMIBIA INFRASTRUCTURE"
+			functionMask="FFFF"
+			mhg="POLMED"
+			tradingPartner="MPPH0001"
+		/>
+		
+		
+		
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
