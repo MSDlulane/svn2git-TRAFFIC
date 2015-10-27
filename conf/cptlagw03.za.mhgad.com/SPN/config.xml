@@ -142,8 +142,8 @@
 			hostname="apl-gems.za.mhgad.com"
 			port="9210"
 			connections="5"
-			autotimeout="15000"
-			poolMaxWaitTime="15000"
+			autotimeout="120000"
+			poolMaxWaitTime="120000"
 			minTrxTime="200" />
 		<pool
 			id="POJAS"
