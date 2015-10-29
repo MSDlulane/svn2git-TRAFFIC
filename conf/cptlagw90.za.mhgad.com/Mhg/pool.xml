@@ -205,6 +205,14 @@
 		<!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
 			desc=""
+			name="GET_MEMBER_DETAILS"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="Get_Member_Details"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="WF_LIST_RESPONSE_EXPECTED_ITEMS"
 			targetBeanName="DynamicQueryExecutor" />
 			
@@ -737,14 +745,8 @@
 			desc=""
 			name="GET_PATIENT_PROFILE_SCORES"
 			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="GET_MEMBER_DETAILS"
-			targetBeanName="DynamicQueryExecutor" />
-		<tq-function
-			desc=""
-			name="Get_Member_Details"
-			targetBeanName="DynamicQueryExecutor" />
+	
+		
 		<tq-function
 			desc=""
 			name="GET_PROVINCES"
