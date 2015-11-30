@@ -156,6 +156,12 @@ cptlagw02.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012 ENA
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/MKReal/
 cptlagw02.za.mhgad.com MKReal PRODUCTION_LEGACY ENABLED 128 256 10013 DISABLED
 #
+# Traffic server for MedikreditGems? TODO 
+# Config:
+# https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/MedikreditGems/
+cptlagw02.za.mhgad.com MedikreditGems PRODUCTION_LEGACY ENABLED 128 256 10014 DISABLED
+#
+#
 # CPTLAGW03
 #
 # CPTLAGW03 is a host/machine/server added for third-parties other than DHS as
