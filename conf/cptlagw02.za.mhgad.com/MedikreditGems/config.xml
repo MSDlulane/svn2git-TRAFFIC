@@ -11,11 +11,11 @@
 		name="Medikredit PRIMARY"
 		active="true"
 		autoDisable="false"
-		port="21010"
+		port="25010"
 		useDistributedCache="true"
 		distributedCacheIP="cptlagw01.za.mhgad.com"
 		distributedCachePort="11211"
-		diagPort="21011"
+		diagPort="25011"
 		logConfigFile="log4j.xml"
 		__system_out="mk_Amed_System.out" />
 
@@ -99,15 +99,15 @@
 		name="pool.xml" />
 
 	<snmp-port
-		mibFile="mibs.xml">21012</snmp-port>
+		mibFile="mibs.xml">25012</snmp-port>
 	<tailWatchServer
 		id="Medikredit Gems Primary"
-		tcpipPort="21013"
+		tcpipPort="25013"
 		multicast-host-ip=""
 		multicast-port="-1" />
 	<diagTailWatchServer
 		id="Medikredit Gems"
-		tcpipPort="21014"
+		tcpipPort="25014"
 		multicast-host-ip=""
 		multicast-port="-1" />
 
