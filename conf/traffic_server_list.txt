@@ -159,7 +159,7 @@ cptlagw02.za.mhgad.com MKReal PRODUCTION_LEGACY ENABLED 128 256 10013 DISABLED
 # Traffic server for MedikreditGems? TODO 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/MedikreditGems/
-cptlagw02.za.mhgad.com MedikreditGems PRODUCTION_LEGACY ENABLED 128 256 10014 DISABLED
+cptlagw02.za.mhgad.com MedikreditGems PRODUCTION_LEGACY ENABLED 128 256 10016 DISABLED
 #
 #
 # CPTLAGW03
