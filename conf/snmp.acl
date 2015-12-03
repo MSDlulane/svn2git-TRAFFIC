@@ -10,11 +10,7 @@ acl = {
           access = read-only
           managers = cptlmon01.za.mhgad.com
         }
-        {
-          communities = snmp-ro
-          access = read-only
-          managers = cptlsyb20.za.mhgad.com
-        }
+      
       }
 # Traps are sent to localhost only
 trap = {
