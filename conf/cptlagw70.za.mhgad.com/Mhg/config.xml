@@ -1,5 +1,4 @@
 <Enviroments>
-	
 	<server
 		__system_out="pojas.system.out"
 		active="true"
@@ -19,20 +18,18 @@
 		mhgAccount="AMED"
 		name="AMED"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp70.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9106"
 		/>
-	
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -45,7 +42,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -59,81 +56,8 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
-			dropClientOnError="false"
-			hostname="cptlesb80.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="30610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="33000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-	</env>
-	<env
-		mhgAccount="PROTEKTA"
-		name="PROTEKTA"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9117"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
-			id="EJB"
-			poolMaxWaitTime="10000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="100"
-			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
 			poolMaxWaitTime="15000"
@@ -142,7 +66,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -152,7 +75,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -166,11 +89,10 @@
 		mhgAccount="AMED"
 		name="JBoss"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -180,11 +102,10 @@
 		mhgAccount="IMAGE"
 		name="JBossW"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="10"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -193,11 +114,10 @@
 	<env
 		name="IMPERIAL"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9105"
@@ -205,7 +125,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -218,7 +138,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -232,7 +152,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -242,7 +162,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -252,7 +171,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -265,11 +184,10 @@
 	<env
 		name="MEDIPOS"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9108"
@@ -277,7 +195,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="1000"
 			port="1099"
@@ -290,7 +208,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -304,7 +222,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -314,7 +232,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -324,7 +241,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -338,11 +255,10 @@
 		mhgAccount="HUM"
 		name="HUM"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9106"
@@ -355,7 +271,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -369,7 +285,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -379,7 +295,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -389,7 +304,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -403,11 +318,10 @@
 		mhgAccount="NEWMED"
 		name="NEWMED"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9107"
@@ -415,7 +329,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -428,7 +342,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -442,7 +356,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -452,7 +366,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -462,7 +375,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -473,23 +386,22 @@
 		</pool>
 	</env>
 	<env
-		mhgAccount="RANDW"
-		name="RANDW"
+		mhgAccount="RANDWATER"
+		name="RANDWATER"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
 			hostname="cptlapp71.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
-			port="9118"
+			port="9518"
 		/>
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
-			id="EJB"
+			hostname="cptlacp01.za.mhgad.com"
+			id="JEE"
 			poolMaxWaitTime="10000"
 			port="1099"
 		/>
@@ -501,7 +413,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -515,7 +427,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -525,7 +437,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -535,7 +446,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -549,11 +460,10 @@
 		mhgAccount="REDRIB"
 		name="REDRIB"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9111"
@@ -561,7 +471,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -574,7 +484,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -588,7 +498,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -598,7 +508,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -608,7 +517,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -622,19 +531,18 @@
 		mhgAccount="GEMS"
 		name="GEMS"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="120000"
+			poolMaxWaitTime="30000"
 			port="9110"
 		/>
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -647,7 +555,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -661,7 +569,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -671,7 +579,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -681,7 +588,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -695,11 +602,10 @@
 		mhgAccount="POLMED"
 		name="POLMED"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9109"
@@ -707,7 +613,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -720,7 +626,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -734,7 +640,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -744,7 +650,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -754,7 +659,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -768,11 +673,10 @@
 		mhgAccount="PILIR"
 		name="PILIR"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9104"
@@ -780,7 +684,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -793,7 +697,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -807,7 +711,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -817,7 +721,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -827,7 +730,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -841,11 +744,10 @@
 		mhgAccount="PILIRT"
 		name="PILIRT"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9104"
@@ -853,7 +755,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -866,7 +768,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -880,7 +782,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -890,7 +792,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -900,7 +801,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -914,11 +815,10 @@
 		mhgAccount="NIMAS"
 		name="NIMAS"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9113"
@@ -926,7 +826,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -939,7 +839,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -953,7 +853,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -963,7 +863,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -973,7 +872,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -987,11 +886,10 @@
 		mhgAccount="GENESIS"
 		name="GENESIS"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9114"
@@ -1004,7 +902,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1018,7 +916,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1028,7 +926,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1038,7 +935,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1052,11 +949,10 @@
 		mhgAccount="SAMWU"
 		name="SAMWU"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="2"
-			hostname="cptlapp71.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9115"
@@ -1064,7 +960,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1077,7 +973,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1091,7 +987,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1101,7 +997,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1111,7 +1006,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1125,11 +1020,10 @@
 		mhgAccount="SYSTEM"
 		name="SYSTEM"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1142,7 +1036,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1156,7 +1050,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1166,7 +1060,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1176,7 +1069,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1190,7 +1083,6 @@
 		mhgAccount="SHARE"
 		name="SHARE"
 	>
-		
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -1199,7 +1091,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1213,7 +1105,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1223,7 +1115,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1233,7 +1124,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1245,7 +1136,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1255,7 +1146,6 @@
 		mhgAccount="WORKFLOW"
 		name="WORKFLOW"
 	>
-		
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -1264,7 +1154,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1278,7 +1168,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1288,7 +1178,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1298,7 +1187,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1310,7 +1199,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1320,11 +1209,10 @@
 		mhgAccount="GAME_LOCAL"
 		name="GAME_LOCAL"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1337,7 +1225,7 @@
 			autotimeout="120000"
 			connections="30"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1351,7 +1239,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1361,7 +1249,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1371,7 +1258,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1385,11 +1272,10 @@
 		mhgAccount="PRICE"
 		name="PRICE"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1402,7 +1288,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1416,7 +1302,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1426,7 +1312,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1436,7 +1321,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1450,11 +1335,10 @@
 		mhgAccount="SPINE"
 		name="SPINE"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1467,7 +1351,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1481,7 +1365,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1491,7 +1375,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1501,7 +1384,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1515,11 +1398,10 @@
 		mhgAccount="CMS"
 		name="CMS"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1532,7 +1414,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1546,7 +1428,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1556,7 +1438,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1566,7 +1447,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1580,11 +1461,10 @@
 		mhgAccount="IMAGE"
 		name="IMAGE"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1597,7 +1477,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1611,7 +1491,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1621,7 +1501,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1631,7 +1510,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1645,11 +1524,10 @@
 		mhgAccount="SPINELOG"
 		name="SPINELOG"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1662,7 +1540,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1676,7 +1554,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1686,7 +1564,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1696,7 +1573,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1710,11 +1587,10 @@
 		mhgAccount="UTILITY"
 		name="UTILITY"
 	>
-		
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlacp01.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="10000"
 			port="1099"
@@ -1727,7 +1603,7 @@
 			autotimeout="120000"
 			connections="10"
 			dropClientOnError="false"
-			hostname="cptlagw70.za.mhgad.com"
+			hostname="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			poolMaxWaitTime="120000"
 			port="33000"
@@ -1741,7 +1617,7 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="15000"
-			connections="100"
+			connections="10"
 			dropClientOnError="false"
 			hostname="cptlesb80.za.mhgad.com"
 			id="WAS"
@@ -1751,7 +1627,6 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		>
-			
 			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
@@ -1761,7 +1636,7 @@
 				connections="10"
 				connectorImplementationClassID="COBOL"
 				dropClientOnError="false"
-				hostname="cptlagw70.za.mhgad.com"
+				hostname="cptlagw90.za.mhgad.com"
 				id="WAS_POJAS_BACKUP"
 				poolMaxWaitTime="12000"
 				port="33000"
@@ -1783,27 +1658,24 @@
 		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		name="pool.xml"
 	>
-		
 		<pool_
 			account="AMED"
 			class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
-			hostName="cptlagw70.za.mhgad.com"
+			hostName="cptlacp01.za.mhgad.com"
 			id="EJB"
 			port="1099"
 			serviceTqName="ListServicesNames"
 		/>
 		<pool_
 			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-			hostName="cptlagw70.za.mhgad.com"
+			hostName="cptlagw90.za.mhgad.com"
 			id="POJAS"
 			port="33000"
 		/>
 	</pool-definitions-file>
 	<snmp-port
 		mibFile="mibs.xml"
-	>
-		30602
-	</snmp-port>
+	/>
 	<tailWatchServer
 		id="Mediswitch"
 		multicast-host-ip=""
@@ -1837,7 +1709,6 @@
 		useTqFunctionIfNoTpe="true"
 	/>
 	<transaction-x-ref	>
-		
 		<x-ref
 			description="Elegibility check"
 			functionNo="0001"
@@ -1865,7 +1736,6 @@
 		/>
 	</transaction-x-ref>
 	<destination-x-ref	>
-		
 		<x-ref
 			description="Mediclinic Bankmed"
 			functionMask="FFFF"
@@ -2119,16 +1989,16 @@
 			tradingPartner="P18"
 		/>
 		<x-ref
-			description="GEMS Acpt"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="P19"
-		/>
-		<x-ref
 			description="Samwu option B"
 			functionMask="FFFF"
 			mhg="SAMWUB"
 			tradingPartner="P17"
+		/>
+		<x-ref
+			description="GEMS Acpt"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="P19"
 		/>
 		<x-ref
 			description="PILIR Acpt"
@@ -2187,44 +2057,20 @@
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"
-			mhg="RANDW"
+			mhg="RANDWATER"
 			tradingPartner="P28"
 		/>
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"
-			mhg="RANDW"
-			tradingPartner="Y"
-		/>
-		<x-ref
-			description="PROTEKTA"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="P29"
-		/>
-		<x-ref
-			description="PROTEKTA"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="J"
-		/>
-		<x-ref
-			description="PROTEKTA"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PROTEKTA"
+			mhg="RANDWATER"
+			tradingPartner="RANDWATER"
 		/>
 		<x-ref
 			description="SHARE access"
 			functionMask="FFFF"
 			mhg="SHARE"
 			tradingPartner="P86"
-		/>
-		<x-ref
-			description="RANDWATER"
-			functionMask="FFFF"
-			mhg="RANDW"
-			tradingPartner="RANDWATER"
 		/>
 		<x-ref
 			description="SHARE access via COMMON"
@@ -2376,7 +2222,6 @@
 			mhg="AMED"
 			tradingPartner="WOOLTRU"
 		/>
-		
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
@@ -2384,11 +2229,10 @@
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 	>
-		
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbPassword="newmed"
-			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
+			DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT"
 			DbUserName="pojas"
 			logTable="MHG"
 			maxpoolsize="2"
@@ -2396,7 +2240,6 @@
 			poolId="generic"
 			timeout="600000"
 		>
-			
 			<logTransactions
 				desc="comma seperated list of transactions to log"
 				value="*"
