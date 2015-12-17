@@ -5,10 +5,10 @@
 		autoDisable="false"
 		autoTestConnectorsOnStartup="false"
 		cmdPasswd="1q2w3e"
-		diagPort="30700"
+		diagPort="30606"
 		logConfigFile="log4j.xml"
 		name="Gui Applications"
-		port="30699"
+		port="30605"
 		sendTrxDetailsToStatusMonitor="true"
 		tradingPartner="QUI ACPT"
 		trxAbortSizeLimit="10240000"
@@ -1622,7 +1622,7 @@
 		id="Mediswitch"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="30605"
+		tcpipPort="30609"
 	/>
 	<synchronous-transactions	/>
 	<transaction_
