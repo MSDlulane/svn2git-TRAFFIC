@@ -37,7 +37,7 @@
 			id="COBOL"
 			hostname="cptlxml01.za.mhgad.com"
 			port="9110"
-			connections="2"
+			connections="15"
 			autotimeout="120000"
 			poolMaxWaitTime="10000" />
 	</env>
