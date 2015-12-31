@@ -3241,6 +3241,41 @@
 			mhg="PING"
 			tradingPartner="127"
 		/>
+		<!-- New TPE codes as Rewuested by Brent Engelbrecht -->
+			
+		<x-ref
+			description="PSTHVHDR"
+			functionNo="0010"
+			mhg="PSTHVHDR"
+			tradingPartner="10"
+		/>
+		<x-ref
+			description="PSTMEMBN"
+			functionNo="0011"
+			mhg="PSTMEMBN"
+			tradingPartner="11"
+		/>
+		<x-ref
+			description="PSTCMPTH"
+			functionNo="0012"
+			mhg="PSTCMPTH"
+			tradingPartner="12"
+		/>
+		<x-ref
+			description="PSTRESLT"
+			functionNo="0013"
+			mhg="PSTRESLT"
+			tradingPartner="13"
+		/>
+		<x-ref
+			description="PSTHPROF"
+			functionNo="0014"
+			mhg="PSTHPROF"
+			tradingPartner="14"
+		/>
+		
+		
+		
 	</transaction-x-ref>
 	<destination-x-ref	>
 		
