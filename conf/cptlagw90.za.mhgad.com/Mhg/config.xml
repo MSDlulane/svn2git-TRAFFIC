@@ -2352,6 +2352,12 @@
 			tradingPartner="AFROX"
 		/>
 		<x-ref
+			description="SAPS"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="SAPS"
+		/>
+		<x-ref
 			description="BPSA"
 			functionMask="FFFF"
 			mhg="AMED"
