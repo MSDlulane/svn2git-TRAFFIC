@@ -1555,6 +1555,12 @@
 			tradingPartner="D"
 		/>
 		<x-ref
+			description="Pilir"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="B"
+		/>
+		<x-ref
 			description="Prosano"
 			functionMask="FFFF"
 			mhg="SIGMA"
