@@ -28,7 +28,7 @@
 			hostname="cptleap82.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="1000"
-			port="1099"
+			port="4447"
 		/>
 		<pool
 			autoDisable="true"
