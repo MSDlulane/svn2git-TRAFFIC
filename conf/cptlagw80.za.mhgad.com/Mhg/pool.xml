@@ -252,6 +252,12 @@
 			desc=""
 			name="WF_STORE_OUTBOUND_MSG_DETAILS"
 			targetBeanName="DynamicQueryExecutor" />
+		
+		<tq-function
+			desc=""
+			name="GET_BENEFIT_DESCRIPTION"
+			targetBeanName="DynamicQueryExecutor" />
+		
 		<tq-function
 			desc=""
 			name="MH_HOSPITAL_LOOKUP_SERVICE"
