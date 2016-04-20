@@ -30,7 +30,7 @@
 		/>
 	
 		<pool
-			autotimeout="120000" 
+			autotimeout="120000"
 			connections="100"
 			hostname="cptlacp01.za.mhgad.com"
 			id="JEE"
