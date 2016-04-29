@@ -4,6 +4,7 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="COBOL"
 	/>
+	
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 		id="JEE"
@@ -243,6 +244,13 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS"
 	>
+		<tq-function
+            name="GET_DOC_PRAC"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>
+
+		
+		
 		<tq-function
 			desc=""
 			name="WF_LIST_RESPONSE_EXPECTED_ITEMS"
