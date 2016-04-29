@@ -204,6 +204,11 @@
 		
 		<!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
+            name="GET_DOC_PRAC"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>
+            
+		<tq-function
 			desc=""
 			name="GET_BENEFIT_DESCRIPTION"
 			targetBeanName="DynamicQueryExecutor" />
