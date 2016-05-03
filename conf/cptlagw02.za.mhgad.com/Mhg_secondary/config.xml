@@ -3158,6 +3158,19 @@
 			functionMask="0000"
 			description="PILIR Prod" />
 		<x-ref
+			description="SAPS"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="SAPS"
+		/>
+		<x-ref
+			description="Pilir"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="B"
+		/>
+			
+		<x-ref
 			tradingPartner="P21"
 			mhg="NIMAS"
 			functionMask="0000"
