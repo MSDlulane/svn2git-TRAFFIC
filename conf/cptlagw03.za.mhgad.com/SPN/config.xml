@@ -346,40 +346,7 @@
 			poolMaxWaitTime="120000" />
 	</env>
 
-	<env
-		name="POLMED"
-		mhgAccount="POLMED">
-		<pool
-			id="COBOL"
-			hostname="apl-polmed.za.mhgad.com"
-			port="9209"
-			connections="5"
-			autotimeout="120000"
-			poolMaxWaitTime="120000" />
-		<pool
-			id="JEE"
-			hostname="cptleap01.za.mhgad.com "
-			port="1099"
-			connections="100"
-			autotimeout="120000"
-			poolMaxWaitTime="1000" />
-		<pool
-			id="POJAS"
-			useSoTimeOut="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="true"
-			autoEnable="true"
-			hostname="cptlsee01.za.mhgad.com"
-			port="23000"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="120000" />
-	</env>
-
+	
 	<env
 		name="PRICE"
 		mhgAccount="PRICE">
@@ -829,11 +796,7 @@
 			mhg="SAMWU"
 			functionMask="FFFF"
 			description="Samwu" />
-		<x-ref
-			tradingPartner="P18"
-			mhg="POLMED"
-			functionMask="0000"
-			description="POLMED Prod" />
+	
 		<x-ref
 			tradingPartner="P19"
 			mhg="GEMS"
@@ -1016,11 +979,7 @@
 			mhg="NEWMED"
 			functionMask="FFFF"
 			description="Mediclinic OpenPlan" />
-		<x-ref
-			tradingPartner="5"
-			mhg="POLMED"
-			functionMask="FFFF"
-			description="Mediclinic Polmed" />
+		
 		<x-ref
 			tradingPartner="I"
 			mhg="AMED"

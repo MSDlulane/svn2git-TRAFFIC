@@ -49,10 +49,7 @@
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 
-	<env name="POLMED" mhgAccount="POLMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="apl-polmed.za.mhgad.com" port="9309" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
-	</env>
+	
 
 	<env name="SHARE" >
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />

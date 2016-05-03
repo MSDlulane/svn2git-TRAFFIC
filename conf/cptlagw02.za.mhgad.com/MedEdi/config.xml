@@ -96,17 +96,7 @@
 			poolMaxWaitTime="60000" />
 	</env>
 
-	<env
-		name="POLMED">
-		<pool
-			id="COBOL"
-			useSoTimeOut="false"
-			hostname="apl-polmed.za.mhgad.com"
-			port="9309"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="300000" />
-	</env>
+
 
 	<env
 		name="SAMWU"
@@ -291,11 +281,7 @@
 			mhg="AMED"
 			functionMask="FFFF"
 			description="Remedi" />
-		<x-ref
-			tradingPartner="P18"
-			mhg="POLMED"
-			functionMask="FFFF"
-			description="Polmed" />
+	
 		<x-ref
 			tradingPartner="P19"
 			mhg="GEMS"

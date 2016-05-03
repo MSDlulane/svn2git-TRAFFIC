@@ -1420,149 +1420,7 @@
 			/>
 		</pool>
 	</env>
-	<env
-		mhgAccount="POLMED"
-		name="POLMED"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="5"
-			hostname="apl-polmed.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9209"
-		/>
-		<pool
-			autotimeout="30000"
-			connections="5"
-			hostname="apl-polmed.za.mhgad.com"
-			id="COBOL_SLOW"
-			poolMaxWaitTime="30000"
-			port="9209"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptleap05.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099">
-			
-			<secondaryPool
-				autotimeout="120000"
-				connections="10"			
-				hostname="cptleap01.za.mhgad.com"
-				id="JEE_BACKUP"
-				poolMaxWaitTime="10000"
-				port="1099"
-			
-			/>	
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlsee03.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="23000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="120000"
-				connections="10"
-				dropClientOnError="false"
-				hostname="cptlsee02.za.mhgad.com"
-				id="POJAS_BACKUP"
-				poolMaxWaitTime="120000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="30000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlsee02.za.mhgad.com"
-			id="POJAS_SLOW"
-			poolMaxWaitTime="30000"
-			port="23000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="120000"
-				connections="10"
-				dropClientOnError="false"
-				hostname="cptlsee03.za.mhgad.com"
-				id="POJAS_SLOW_BACKUP"
-				poolMaxWaitTime="120000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-	</env>
+	
 	<env
 		mhgAccount="PRICE"
 		name="PRICE"
@@ -3387,12 +3245,7 @@
 			mhg="SAMWU"
 			tradingPartner="P15"
 		/>
-		<x-ref
-			description="POLMED Prod"
-			functionMask="0000"
-			mhg="POLMED"
-			tradingPartner="P18"
-		/>
+	
 		<x-ref
 			description="GEMS Prod"
 			functionMask="0000"
@@ -3633,12 +3486,7 @@
 			mhg="NEWMED"
 			tradingPartner="3"
 		/>
-		<x-ref
-			description="Mediclinic Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="5"
-		/>
+	
 		<x-ref
 			description="Mediclinic PicknPay"
 			functionMask="FFFF"
@@ -3723,12 +3571,7 @@
 			mhg="NEWMED"
 			tradingPartner="METROPOLITAN"
 		/>
-		<x-ref
-			description="Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="POLMED"
-		/>
+	
 		<x-ref
 			description="Sappi"
 			functionMask="FFFF"

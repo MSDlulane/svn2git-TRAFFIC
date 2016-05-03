@@ -86,18 +86,7 @@
 			poolMaxWaitTime="90000" />
 	</env>
 
-	<env
-		name="POLMED"
-		mhgAccount="POLMED">
-		<pool
-			id="COBOL"
-			useSoTimeOut="false"
-			hostname="apl-polmed.za.mhgad.com"
-			port="9309"
-			connections="5"
-			autotimeout="120000"
-			poolMaxWaitTime="30000" />
-	</env>
+	
 
 	<env
 		name="GEMS"

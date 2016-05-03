@@ -149,18 +149,7 @@
 			poolMaxWaitTime="300000" />
 	</env>
 
-	<env
-		name="POLMED">
-		<pool
-			id="COBOL"
-			useSoTimeOut="false"
-			hostname="apl-polmed.za.mhgad.com"
-			port="9309"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="300000" />
-	</env>
-
+	
 	<env
 		name="TRANSMED"
 		mhgAccount="NEWMED">
@@ -312,16 +301,7 @@
 			mhg="NIMAS"
 			functionMask="FFFF"
 			description="PRIMARY" />
-		<x-ref
-			tradingPartner="HB5A"
-			mhg="POLMED"
-			functionMask="FFFF"
-			description="LOWER PLAN" />
-		<x-ref
-			tradingPartner="HB5B"
-			mhg="POLMED"
-			functionMask="FFFF"
-			description="HIGHER PLAN" />
+	
 		<x-ref
 			tradingPartner="HB8A"
 			mhg="PROSANO"
@@ -1293,60 +1273,8 @@
 			mhg="Nimas"
 			tradingPartner="PM009"
 		/>
-		<x-ref
-			description="POLMED: Dentists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5001"
-		/>
-		<x-ref
-			description="POLMED: Pathologists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5002"
-		/>
-		<x-ref
-			description="POLMED: Specialists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5003"
-		/>
-		<x-ref
-			description="POLMED:Optometrists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5004"
-		/>
-		<x-ref
-			description="POLMED:Radiologists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5005"
-		/>
-		<x-ref
-			description="POLMED: Oncologists "
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5006"
-		/>
-		<x-ref
-			description="POLMED: Physiotherapists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5007"
-		/>
-		<x-ref
-			description="POLMED: Other"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5008"
-		/>
-		<x-ref
-			description="POLMED: Doctors (GP)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5009"
-		/>
+		
+	
 		<x-ref
 			description="PROTEKTA: Dentist"
 			functionMask="FFFF"

@@ -1319,138 +1319,7 @@
 
 	</env>
 
-	<env
-		name="POLMED"
-		mhgAccount="POLMED">
-		<pool
-			id="COBOL"
-			hostname="apl-polmed.za.mhgad.com"
-			port="9209"
-			connections="5"
-			autotimeout="120000"
-			poolMaxWaitTime="120000" />
-		<pool
-			id="COBOL_SLOW"
-			hostname="apl-polmed.za.mhgad.com"
-			port="9209"
-			connections="5"
-			autotimeout="30000"
-			poolMaxWaitTime="30000" />
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptleap05.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099">
-			<secondaryPool
-				autotimeout="120000"
-				connections="100"			
-				hostname="cptleap01.za.mhgad.com"
-				id="JEE_BACKUP"
-				poolMaxWaitTime="10000"
-				port="1099"
-			/>
-		</pool>
-		<pool
-			id="POJAS"
-			useSoTimeOut="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="false"
-			autoEnable="true"
-			hostname="cptlsee03.za.mhgad.com"
-			port="23000"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="120000">
-			<secondaryPool
-				id="POJAS_BACKUP"
-				useSoTimeOut="false"
-				autoDisableOnSyncStart="true"
-				autoEnableOnSyncEnd="true"
-				dropClientOnError="false"
-				startDisabled="false"
-				waitForSyncToFinishTimeout="40000"
-				autoDisable="false"
-				autoEnable="true"
-				hostname="cptlsee02.za.mhgad.com"
-				port="23000"
-				connections="10"
-				autotimeout="120000"
-				poolMaxWaitTime="120000" />
-		</pool>
-		<pool
-			id="POJAS_SLOW"
-			useSoTimeOut="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="false"
-			autoEnable="true"
-			hostname="cptlsee02.za.mhgad.com"
-			port="23000"
-			connections="10"
-			autotimeout="30000"
-			poolMaxWaitTime="30000">
-			<secondaryPool
-				id="POJAS_SLOW_BACKUP"
-				useSoTimeOut="false"
-				autoDisableOnSyncStart="true"
-				autoEnableOnSyncEnd="true"
-				dropClientOnError="false"
-				startDisabled="false"
-				waitForSyncToFinishTimeout="40000"
-				autoDisable="false"
-				autoEnable="true"
-				hostname="cptlsee03.za.mhgad.com"
-				port="23000"
-				connections="10"
-				autotimeout="120000"
-				poolMaxWaitTime="120000" />
-		</pool>
-
-		<pool
-			id="WAS"
-			useSoTimeOut="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="false"
-			autoEnable="true"
-			hostname="cptlesb01.za.mhgad.com"
-			port="20610"
-			connections="10"
-			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
-				id="WAS_POJAS_BACKUP"
-				useSoTimeOut="false"
-				autoDisableOnSyncStart="true"
-				autoEnableOnSyncEnd="true"
-				dropClientOnError="false"
-				startDisabled="false"
-				waitForSyncToFinishTimeout="40000"
-				autoDisable="false"
-				autoEnable="true"
-				hostname="cptlsee01.za.mhgad.com"
-				port="23000"
-				connections="10"
-				autotimeout="12000"
-				poolMaxWaitTime="12000"
-				connectorImplementationClassID="COBOL" />
-		</pool>
-
-	</env>
-
+	
 	<env
 		name="PRICE"
 		mhgAccount="PRICE">
@@ -3142,11 +3011,7 @@
 			mhg="SAMWU"
 			functionMask="FFFF"
 			description="Samwu" />
-		<x-ref
-			tradingPartner="P18"
-			mhg="POLMED"
-			functionMask="0000"
-			description="POLMED Prod" />
+		
 		<x-ref
 			tradingPartner="P19"
 			mhg="GEMS"
@@ -3352,11 +3217,7 @@
 			mhg="NEWMED"
 			functionMask="FFFF"
 			description="Mediclinic OpenPlan" />
-		<x-ref
-			tradingPartner="5"
-			mhg="POLMED"
-			functionMask="FFFF"
-			description="Mediclinic Polmed" />
+	
 		<x-ref
 			tradingPartner="I"
 			mhg="AMED"
@@ -3428,11 +3289,7 @@
 			mhg="NEWMED"
 			functionMask="FFFF"
 			description="Metropolitan" />
-		<x-ref
-			tradingPartner="POLMED"
-			mhg="POLMED"
-			functionMask="FFFF"
-			description="Polmed" />
+	
 		<x-ref
 			tradingPartner="SAPPI"
 			mhg="AMED"

@@ -22,14 +22,24 @@
 			poolMaxWaitTime="30000"
 			port="9110"
 		/>
-		<pool
+<!--  	<pool
 			autotimeout="120000"
 			connections="100"
 			hostname="cptleap82.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="1000"
 			port="4447"
+		/>-->
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptleap83"
+			id="EJB"
+			poolMaxWaitTime="1000"
+			port="1099"
 		/>
+		
+		
 		<pool
 			autoDisable="true"
 			autoDisableOnSyncStart="true"
