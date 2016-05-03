@@ -108,112 +108,8 @@
 			</secondaryPool>
 		</pool>
 	</env>
-	<env
-		mhgAccount="POLMED"
-		name="POLMED"
-		useDistributedCache="true"
-	>
-		
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="12"
-			dropClientOnError="false"
-			hostname="cptlxml01.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9109"
-			startDisabled="false"
-			stickyStandin="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<localConnectorsToManipulateOnSync			>
-				
-				<localConnectorToManipulateOnSync
-					desc="Test"
-					remoteEnv="POLMED"
-					remotePoolId="COBOLBACKUP"
-				/>
-			</localConnectorsToManipulateOnSync>
-			<remoteConnectorOperations			>
-				
-				<remoteConnectorOperation
-					action="STATUS"
-					desc="will enable conn if active"
-					diagport="20701"
-					host="dralsin01.za.mhgad.com"
-					remoteEnv="POLMED"
-					remotePoolId="COBOL"
-				/>
-			</remoteConnectorOperations>
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="90000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="dralsin01.za.mhgad.com"
-				id="COBOLBACKUP"
-				minTrxTime="15000"
-				poolMaxWaitTime="28000"
-				port="9310"
-				startDisabled="true"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="10000"
-			>
-				
-				<remoteConnectorOperations				>
-					
-					<remoteConnectorOperation
-						action="STATUS"
-						desc="will enable conn if active"
-						diagport="20701"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="POLMED"
-						remotePoolId="COBOL"
-					/>
-					<remoteConnectorOperation
-						action="DISABLE"
-						desc="will disable conn if trx processed"
-						diagport="20701"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="POLMED"
-						remotePoolId="COBOLBACKUP"
-					/>
-					<remoteConnectorOperation
-						action="ENABLE"
-						desc="will enable conn if trx processed"
-						diagport="20701"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="POLMED"
-						remotePoolId="COBOL"
-					/>
-				</remoteConnectorOperations>
-			</secondaryPool>
-		</pool>
-	</env>
-	<env
-		name="POLMED_DOC"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="5"
-			hostname="cptlxml01.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9109"
-			useSoTimeOut="false"
-		/>
-	</env>
+	
+	
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
@@ -285,73 +181,15 @@
 	</transaction-x-ref>
 	<destination-x-ref	>
 		
-		<x-ref
-			description="PING TEST"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MNPG0004"
-		/>
 		
-		<x-ref
-			description="Polmed - Real Time - "
-			functionMask="FFFF"
-			mhg="POLMED_DOC"
-			tradingPartner="prph0003"
-		/>
-		<x-ref
-			description="POLMED"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="METR0007"
-		/>
 		<x-ref
 			description="METROPOLITAN"
 			functionMask="FFFF"
 			mhg="METROPOLITAN"
 			tradingPartner="METR0008"
 		/>
-		<x-ref
-			description="MHG: POLMED REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MPRM0003"
-		/>
-		<x-ref
-			description="MHG: POLMED SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MPSM0004"
-		/>
-		<x-ref
-			description="MHG: POLMED PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MSOB0003"
-		/>
-		<x-ref
-			description="MHG: POLMED REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MSOB0004"
-		/>
-		<x-ref
-			description="MHG: POLMED REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MSOB0005"
-		/>
-		<x-ref
-			description="MHG: POLMED MEDICLINIC (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MPMR0003"
-		/>
-			<x-ref
-			description="MHG: POLMED NAMIBIA INFRASTRUCTURE"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MPPH0001"
-		/>
+	
+	
 		
 		
 		
