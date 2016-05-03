@@ -16,36 +16,8 @@
 		trxAbortSizeLimit="256000"
 		trxSizeLimit="128000"
 	/>
-	<env
-		mhgAccount="POLMED"
-		name="POLMED"
-		useDistributedCache="true"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="20"
-			hostname="apl-polmed.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9309"
-			useSoTimeOut="false"
-		/>
-	</env>
-	<env
-		name="POLMED_DOC"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="10"
-			hostname="apl-polmed.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9309"
-			useSoTimeOut="false"
-		/>
-	</env>
+
+	
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
@@ -123,48 +95,7 @@
 	</transaction-x-ref>
 	<destination-x-ref	>
 		
-		<x-ref
-			description="Polmed - Real Time - "
-			functionMask="FFFF"
-			mhg="POLMED_DOC"
-			tradingPartner="prph0003"
-		/>
-		<x-ref
-			description="MHG: POLMED REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MPRM0003"
-		/>
-		<x-ref
-			description="MHG: POLMED SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MPSM0004"
-		/>
-		<x-ref
-			description="MHG: POLMED PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MSOB0003"
-		/>
-		<x-ref
-			description="MHG: POLMED REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MSOB0004"
-		/>
-		<x-ref
-			description="MHG: POLMED REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MSOB0005"
-		/>
-		<x-ref
-			description="MHG: POLMED MEDICLINIC (MEDICAL)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MPMR0003"
-		/>
+		
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
