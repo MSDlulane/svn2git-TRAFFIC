@@ -192,6 +192,22 @@
 			useSoTimeOut="false"
 		/>
 	</env>
+	<env
+		mhgAccount="PILIR"
+		name="PILIR"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="apl-pilir.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="120000"
+			port="9104"
+			useSoTimeOut="true"
+		/>		
+	</env>
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
@@ -934,6 +950,60 @@
 			functionMask="FFFF"
 			mhg="MEDIPOS"
 			tradingPartner="MMRM0006"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Switchon Medical claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWS0001"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Pathology Realer claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWP0001"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Realer claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWR0001"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Realer Radio Physio claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWR0003"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Mediclinic Realer claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWM0008"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Medical claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWM0009"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Mediclinic claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWM0007"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Netcare claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWN0001"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Hospital claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWH0001"
 		/>
 	</destination-x-ref>
 	<logger
