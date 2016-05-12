@@ -800,97 +800,6 @@
 			</secondaryPool>
 		</pool>
 	</env>
-	<env
-		name="PILIR"
-		useDistributedCache="true"
-	>
-		
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlxml01.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9104"
-			startDisabled="false"
-			stickyStandin="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<localConnectorsToManipulateOnSync			>
-				
-				<localConnectorToManipulateOnSync
-					desc="Test"
-					remoteEnv="PILIR"
-					remotePoolId="COBOLBACKUP"
-				/>
-			</localConnectorsToManipulateOnSync>
-			<remoteConnectorOperations			>
-				
-				<remoteConnectorOperation
-					action="STATUS"
-					desc="will enable conn if active"
-					diagport="20101"
-					host="dralsin01.za.mhgad.com"
-					remoteEnv="PILIR"
-					remotePoolId="COBOL"
-				/>
-			</remoteConnectorOperations>
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="90000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="dralsin01.za.mhgad.com"
-				id="COBOLBACKUP"
-				minTrxTime="15000"
-				poolMaxWaitTime="28000"
-				port="9308"
-				startDisabled="true"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="10000"
-			>
-				
-				<remoteConnectorOperations				>
-					
-					<remoteConnectorOperation
-						action="STATUS"
-						desc="will enable conn if active"
-						diagport="20101"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="PILIR"
-						remotePoolId="COBOL"
-					/>
-					<remoteConnectorOperation
-						action="DISABLE"
-						desc="will disable conn if trx processed"
-						diagport="20101"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="PILIR"
-						remotePoolId="COBOLBACKUP"
-					/>
-					<remoteConnectorOperation
-						action="ENABLE"
-						desc="will enable conn if trx processed"
-						diagport="20101"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="PILIR"
-						remotePoolId="COBOL"
-					/>
-				</remoteConnectorOperations>
-			</secondaryPool>
-		</pool>
-	</env>
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
@@ -1633,18 +1542,6 @@
 			functionMask="FFFF"
 			mhg="NEWMED"
 			tradingPartner="MMMR0005"
-		/>
-		<x-ref
-			description="MHG: SAPS Wellness Realtime Medical claims"
-			functionMask="FFFF"
-			mhg="PILIR"
-			tradingPartner="MSWR0002"
-		/>
-		<x-ref
-			description="MHG: SAPS Wellness realtime pharmacy medicine claims"
-			functionMask="FFFF"
-			mhg="PILIR"
-			tradingPartner="MSWE0003"
 		/>
 	</destination-x-ref>
 	<logger
