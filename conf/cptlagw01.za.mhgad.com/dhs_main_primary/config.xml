@@ -1646,6 +1646,36 @@
 			mhg="PILIR"
 			tradingPartner="MSWE0003"
 		/>
+		<x-ref
+			description="MHG: SAPS Wellness Switchon Medical claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWS0001"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Pathology Realer claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWP0001"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Realer claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWR0001"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Realer Radio Physio claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWR0003"
+		/>
+		<x-ref
+			description="MHG: SAPS Wellness Mediclinic Realer claims"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MSWM0008"
+		/>
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
