@@ -683,6 +683,12 @@
 			desc=""
 			name="WF_GET_FILTERED_TRANSITIONS"
 			targetBeanName="TransitionFilter" />
+			
+		<tq-function
+			desc=""
+			name="WF_CONTEXTUALISE_PROCESS"
+			targetBeanName="ContextualiseProcessInstance"
+		/>
 
 	</pool>
 	<pool
