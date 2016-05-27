@@ -5211,6 +5211,11 @@
 			name="GET_HOSPITAL_GROUPS"
 			targetBeanName="DynamicQueryExecutor"
 		/>
+		<tq-function
+			desc=""
+			name="WF_CONTEXTUALISE_PROCESS"
+			targetBeanName="ContextualiseProcessInstance"
+		/>
 	</pool>
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
