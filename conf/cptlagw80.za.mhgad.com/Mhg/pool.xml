@@ -5214,7 +5214,7 @@
 		<tq-function
 			desc=""
 			name="WF_CONTEXTUALISE_PROCESS"
-			targetBeanName="ContextualiseProcessInstance"
+			targetBeanName="ContextualiseProcess"
 		/>
 	</pool>
 	<pool
