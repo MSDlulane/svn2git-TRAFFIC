@@ -202,12 +202,18 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS">
 		
-		<!-- moved from was as ampersand in data is causing failure -->
+		
+		
+		<!-- new TQ addition for GEMS API gate way -->
+		<tq-function
+            name="GET_CONTLANG"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>
 		<tq-function
             name="GET_DOC_PRAC"
             targetBeanName="DynamicQueryExecutor"
             desc=""/>
-            
+        <!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
 			desc=""
 			name="GET_BENEFIT_DESCRIPTION"
