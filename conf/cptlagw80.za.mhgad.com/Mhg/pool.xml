@@ -244,6 +244,12 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="POJAS"
 	>
+		<!-- new TQ addition for GEMS API gate way -->
+		<tq-function
+            name="GET_CONTLANG"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>
+		
 		<tq-function
             name="GET_DOC_PRAC"
             targetBeanName="DynamicQueryExecutor"
