@@ -213,6 +213,20 @@
             name="GET_DOC_PRAC"
             targetBeanName="DynamicQueryExecutor"
             desc=""/>
+        <tq-function
+            name="GET_MEMBER_MEDICINE_SERVICES"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>
+            
+          <tq-function
+            name="GET_BASKET_DETAILS"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>  
+          
+          <tq-function
+            name="GET_BASKETS_BY_SCHEME"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>   
         <!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
 			desc=""
