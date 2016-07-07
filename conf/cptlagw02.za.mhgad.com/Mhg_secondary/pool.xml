@@ -4162,6 +4162,10 @@
 			name="GET_HOSPITAL_GROUPS"
 			targetBeanName="DynamicQueryExecutor"
 			desc="" />
+		<tq-function			
+			name="WF_CONTEXTUALISE_PROCESS"
+			targetBeanName="ContextualiseProcess"
+			desc=""	/>
 	</pool>
 
 	<pool
