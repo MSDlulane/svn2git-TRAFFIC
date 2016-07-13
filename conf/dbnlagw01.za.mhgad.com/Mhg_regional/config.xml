@@ -1402,7 +1402,18 @@
 				mhg="PILIR"
 				tradingPartner="P20"
 			/>
-		
+			<x-ref
+				description="SAPS"
+				functionMask="FFFF"
+				mhg="PILIR"
+				tradingPartner="SAPS"
+			/>
+			<x-ref
+				description="Pilir"
+				functionMask="FFFF"
+				mhg="PILIR"
+				tradingPartner="B"
+			/>
 			<x-ref
 				description="LDAP Query"
 				functionMask="FFFF"
