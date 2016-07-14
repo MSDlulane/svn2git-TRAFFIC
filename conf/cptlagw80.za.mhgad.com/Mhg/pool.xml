@@ -270,7 +270,11 @@
             targetBeanName="DynamicQueryExecutor"
             desc=""/>   
             
-		
+		<tq-function
+            name="UPDATE_MIC_DEPEND"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>  
+            
 		<tq-function
 			desc=""
 			name="WF_LIST_RESPONSE_EXPECTED_ITEMS"
