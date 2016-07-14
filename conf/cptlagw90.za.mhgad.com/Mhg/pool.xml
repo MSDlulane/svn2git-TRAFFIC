@@ -227,6 +227,11 @@
             name="GET_BASKETS_BY_SCHEME"
             targetBeanName="DynamicQueryExecutor"
             desc=""/>   
+         
+          <tq-function
+            name="UPDATE_MIC_DEPEND"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>  
         <!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
 			desc=""
