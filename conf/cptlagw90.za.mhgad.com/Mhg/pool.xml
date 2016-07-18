@@ -232,6 +232,13 @@
             name="UPDATE_MIC_DEPEND"
             targetBeanName="DynamicQueryExecutor"
             desc=""/>  
+         
+         <tq-function
+            name="GET_LIST_ALL_MICRO"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>  
+            
+            <!-- end of new TQ for GEMS HIV 2 -->
         <!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
 			desc=""

@@ -275,6 +275,13 @@
             targetBeanName="DynamicQueryExecutor"
             desc=""/>  
             
+       <tq-function
+            name="GET_LIST_ALL_MICRO"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>  
+            
+            <!-- end of new TQ for GEMS HIV 2 -->
+            
 		<tq-function
 			desc=""
 			name="WF_LIST_RESPONSE_EXPECTED_ITEMS"
