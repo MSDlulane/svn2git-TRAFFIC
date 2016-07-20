@@ -52,45 +52,7 @@
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
 		/>
-	</env>
-	<env
-		mhgAccount="PROTEKTA"
-		name="PROTEKTA"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9133"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptldev01.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="100"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="43000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
+	</env>	
 	<env
 		name="IMPERIAL"
 	>
@@ -1193,25 +1155,7 @@
 			functionMask="FFFF"
 			mhg="RANDW"
 			tradingPartner="P28"
-		/>
-		<x-ref
-			description="PROTEKTA"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="P29"
-		/>
-		<x-ref
-			description="PROTEKTA"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="J"
-		/>
-		<x-ref
-			description="PROTEKTA"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PROTEKTA"
-		/>
+		/>		
 		<x-ref
 			description="RANDWATER"
 			functionMask="FFFF"

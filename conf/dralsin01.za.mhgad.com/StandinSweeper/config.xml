@@ -69,12 +69,7 @@
 	<env name="PGG" >
 		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9113" 
 					connections="10" autotimeout="120000" poolMaxWaitTime="60000" />
-	</env>
-
-	<env name="POLMED" >
-		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9109" 
-					connections="10" autotimeout="120000" poolMaxWaitTime="60000" />
-	</env>
+	</env>	
 
 	<env name="REMEDI" >
 		<pool useSoTimeOut="false" dropClientOnError="false" id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9107" 

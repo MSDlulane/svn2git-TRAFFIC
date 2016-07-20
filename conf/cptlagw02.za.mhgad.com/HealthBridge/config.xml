@@ -202,20 +202,7 @@
 			poolMaxWaitTime="300000" />
 	</env>
 
-	
-	<env
-		name="PROTEKTA"
-		mhgAccount="PROTEKTA">
-		<pool
-			id="COBOL"
-			useSoTimeOut="false"
-			hostname="apl-protekta.za.mhgad.com"
-			port="9316"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="300000" />
-	</env>
-
+		
 	<!-- Log File Parameters -->
 
 	<transaction
@@ -1274,63 +1261,6 @@
 			tradingPartner="PM009"
 		/>
 		
-	
-		<x-ref
-			description="PROTEKTA: Dentist"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PJ001"
-		/>
-		<x-ref
-			description="PROTEKTA: Pathologist"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PJ002"
-		/>
-		<x-ref
-			description="PROTEKTA: Specialists"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PJ003"
-		/>
-		<x-ref
-			description="PROTEKTA:Optometrists"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PJ004"
-		/>
-		<x-ref
-			description="PROTEKTA:Radiologists"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PJ005"
-		/>
-		<x-ref
-			description="PROTEKTA: Oncologists "
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PJ006"
-		/>
-		<x-ref
-			description="PROTEKTA: Physiotherapists"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PJ007"
-		/>
-		<x-ref
-			description="PROTEKTA: Other"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PJ008"
-		/>
-		<x-ref
-			description="PROTEKTA: Doctors (GP)"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="PJ009"
-		/>
-
-
 	</destination-x-ref>
 
 	<!-- Log File Parameters -->

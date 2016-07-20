@@ -123,19 +123,7 @@
 			autotimeout="120000"
 			poolMaxWaitTime="300000" />
 	</env>
-	<env
-		name="PROTEKTA"
-		mhgAccount="PROTEKTA">
-		<pool
-			id="COBOL"
-			useSoTimeOut="false"
-			hostname="apl-protekta.za.mhgad.com"
-			port="9316"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="300000" />
-	</env>
-
+	
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
 	<transaction-header
@@ -301,53 +289,7 @@
 			tradingPartner="P22"
 			mhg="MEDIPOS"
 			functionMask="FFFF"
-			description="Medipos" />
-		<x-ref
-			tradingPartner="PJ001"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Dentists" />
-		<x-ref
-			tradingPartner="PJ002"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Pathologists" />
-		<x-ref
-			tradingPartner="PJ003"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Specialists" />
-		<x-ref
-			tradingPartner="PJ004"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan:Optometrists" />
-		<x-ref
-			tradingPartner="PJ005"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan:Radiologists" />
-		<x-ref
-			tradingPartner="PJ006"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Oncologists " />
-		<x-ref
-			tradingPartner="PJ007"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Physiotherapists" />
-		<x-ref
-			tradingPartner="PJ008"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Other" />
-		<x-ref
-			tradingPartner="PJ009"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Doctors (GP)" />
-			
+			description="Medipos" />			
 		<x-ref
 			description="PG: Dentists"
 			functionMask="FFFF"

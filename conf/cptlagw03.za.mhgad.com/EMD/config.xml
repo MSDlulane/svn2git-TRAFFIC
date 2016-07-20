@@ -164,26 +164,7 @@
 			autotimeout="120000"
 			poolMaxWaitTime="300000" />
 	</env>
-	<env
-		name="PROTEKTA">
-		<pool
-			useSoTimeOut="false"
-			stickyStandin="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="true"
-			autoEnable="true"
-			id="COBOL"
-			hostname="apl-protekta.za.mhgad.com"
-			port="9316"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="300000" />
-	</env>
-
+	
 	<!-- Log File Parameters -->
 	<loggerOLD
 		classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
@@ -332,52 +313,7 @@
 			mhg="SAMWU"
 			functionMask="FFFF"
 			description="MHGQ - Samwu" />
-		<x-ref
-			tradingPartner="PJ001"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Dentists" />
-		<x-ref
-			tradingPartner="PJ002"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Pathologists" />
-		<x-ref
-			tradingPartner="PJ003"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Specialists" />
-		<x-ref
-			tradingPartner="PJ004"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan:Optometrists" />
-		<x-ref
-			tradingPartner="PJ005"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan:Radiologists" />
-		<x-ref
-			tradingPartner="PJ006"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Oncologists " />
-		<x-ref
-			tradingPartner="PJ007"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Physiotherapists" />
-		<x-ref
-			tradingPartner="PJ008"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Other" />
-		<x-ref
-			tradingPartner="PJ009"
-			mhg="PROTEKTA"
-			functionMask="FFFF"
-			description="Metropolitan: Doctors (GP)" />
-
+		
 	</destination-x-ref>
 
 	<!-- Log File Parameters -->

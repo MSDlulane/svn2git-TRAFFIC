@@ -199,99 +199,6 @@
 		</pool>
 	</env>
 	
-	<env
-		mhgAccount="PROTEKTA"
-		name="PROTEKTA"
-	>
-		
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="25"
-			dropClientOnError="false"
-			hostname="cptlxml01.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="50000"
-			port="9116"
-			startDisabled="false"
-			stickyStandin="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<localConnectorsToManipulateOnSync			>
-				
-				<localConnectorToManipulateOnSync
-					desc="Test"
-					remoteEnv="PROTEKTA"
-					remotePoolId="COBOLBACKUP"
-				/>
-			</localConnectorsToManipulateOnSync>
-			<remoteConnectorOperations			>
-				
-				<remoteConnectorOperation
-					action="STATUS"
-					desc="will enable conn if active"
-					diagport="20301"
-					host="dralsin01.za.mhgad.com"
-					remoteEnv="PROTEKTA"
-					remotePoolId="COBOL"
-				/>
-			</remoteConnectorOperations>
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="90000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="dralsin01.za.mhgad.com"
-				id="COBOLBACKUP"
-				minTrxTime="15000"
-				poolMaxWaitTime="40000"
-				port="9316"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="10000"
-			>
-				
-				<remoteConnectorOperations				>
-					
-					<remoteConnectorOperation
-						action="STATUS"
-						desc="will enable conn if active"
-						diagport="20301"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="PROTEKTA"
-						remotePoolId="COBOL"
-					/>
-					<remoteConnectorOperation
-						action="DISABLE"
-						desc="will disable conn if trx processed"
-						diagport="20301"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="PROTEKTA"
-						remotePoolId="COBOLBACKUP"
-					/>
-					<remoteConnectorOperation
-						action="ENABLE"
-						desc="will enable conn if trx processed"
-						diagport="20301"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="PROTEKTA"
-						remotePoolId="COBOL"
-					/>
-				</remoteConnectorOperations>
-			</secondaryPool>
-		</pool>
-	</env>
-	
-	
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
@@ -381,13 +288,7 @@
 			functionMask="FFFF"
 			mhg="RANDWATER"
 			tradingPartner="MRWM0003"
-		/>
-		<x-ref
-			description="MHG: PROTEKTA (PHARMACY)"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="MPPH0043"
-		/>
+		/>		
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"

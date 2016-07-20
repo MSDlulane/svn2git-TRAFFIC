@@ -218,20 +218,7 @@
 			port="9118"
 		/>
 	</env>
-	<env
-		mhgAccount="PROTEKTA"
-		name="PROTEKTA"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="25"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9117"
-		/>
-	</env>
+	
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
@@ -309,13 +296,7 @@
 			functionMask="FFFF"
 			mhg="RANDWATER"
 			tradingPartner="RTDM0004"
-		/>
-			<x-ref
-			description="PROTEKTA"
-			functionMask="FFFF"
-			mhg="PROTEKTA"
-			tradingPartner="RTDM0004"
-		/>
+		/>			
 		
 		<x-ref
 			description="RTDM0001 - Metropolitan"
