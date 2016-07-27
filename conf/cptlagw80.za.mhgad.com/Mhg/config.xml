@@ -197,44 +197,7 @@
 			port="1099"
 		/>
 	</env>
-	<env
-		mhgAccount="POLMED"
-		name="POLMED"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9122"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="30"
-			dropClientOnError="false"
-			hostname="cptlagw80.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="43000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="10"
-			hostname="cptldev01.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="1000"
-			port="1099"
-		/>
-	</env>
+	
 	<env
 		mhgAccount="SHARE"
 		name="SHARE"
@@ -1083,13 +1046,7 @@
 			functionMask="FFFF"
 			mhg="SIGMA"
 			tradingPartner="P16"
-		/>
-		<x-ref
-			description="POLMED Dev"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P18"
-		/>
+		/>		
 		<x-ref
 			description="GEMS Dev"
 			functionMask="FFFF"
@@ -1431,13 +1388,7 @@
 			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="L"
-		/>
-		<x-ref
-			description="Mediclinic Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="5"
-		/>
+		/>		
 		<x-ref
 			description="Mediclinic BP"
 			functionMask="FFFF"
@@ -1576,12 +1527,7 @@
 			mhg="NEWMED"
 			tradingPartner="METROPOLITAN"
 		/>
-		<x-ref
-			description="Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="POLMED"
-		/>
+		
 		<x-ref
 			description="Sappi"
 			functionMask="FFFF"

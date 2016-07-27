@@ -139,19 +139,7 @@
 			port="9107"
 		/>
 	</env>
-	<env
-		name="POLMED"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="25"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9109"
-		/>
-	</env>
+	
 	<env
 		name="REDRIB"
 	>
@@ -335,18 +323,7 @@
 			mhg="NIMAS"
 			tradingPartner="rtdm0004"
 		/>
-		<x-ref
-			description="RTDM0005 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="RTDM0005"
-		/>
-		<x-ref
-			description="rtdm0005 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="rtdm0005"
-		/>
+		
 		<x-ref
 			description="RTDM0006 - Red Ribbon"
 			functionMask="FFFF"

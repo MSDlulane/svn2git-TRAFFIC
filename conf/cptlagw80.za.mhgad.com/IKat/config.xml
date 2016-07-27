@@ -107,28 +107,7 @@
 			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
-	<env
-		name="POLMED"
-	>
-		
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlapp80.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9109"
-			startDisabled="false"
-			stickyStandin="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
+	
 	<env
 		name="SAMWU"
 	>
@@ -1032,60 +1011,7 @@
 			mhg="Nimas"
 			tradingPartner="PM009"
 		/>
-		<x-ref
-			description="POLMED: Dentists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5001"
-		/>
-		<x-ref
-			description="POLMED: Pathologists"
-			functionMask="0000"
-			mhg="POLMED"
-			tradingPartner="P5002"
-		/>
-		<x-ref
-			description="POLMED: Specialists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5003"
-		/>
-		<x-ref
-			description="POLMED:Optometrists"
-			functionMask="0000"
-			mhg="POLMED"
-			tradingPartner="P5004"
-		/>
-		<x-ref
-			description="POLMED:Radiologists"
-			functionMask="0000"
-			mhg="POLMED"
-			tradingPartner="P5005"
-		/>
-		<x-ref
-			description="POLMED: Oncologists "
-			functionMask="0000"
-			mhg="POLMED"
-			tradingPartner="P5006"
-		/>
-		<x-ref
-			description="POLMED: Physiotherapists"
-			functionMask="0000"
-			mhg="POLMED"
-			tradingPartner="P5007"
-		/>
-		<x-ref
-			description="POLMED: Other"
-			functionMask="0000"
-			mhg="POLMED"
-			tradingPartner="P5008"
-		/>
-		<x-ref
-			description="POLMED: Doctors (GP)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5009"
-		/>
+		
 		<x-ref
 			description="SAMWU: Pathologists"
 			functionMask="0000"
