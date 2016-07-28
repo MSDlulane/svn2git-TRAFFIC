@@ -107,28 +107,7 @@
 			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
-	<env
-		name="POLMED"
-	>
-		
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9109"
-			startDisabled="false"
-			stickyStandin="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
+	
 	<env
 		name="SAMWU"
 	>
@@ -234,12 +213,7 @@
 			mhg="NIMAS"
 			tradingPartner="MHG2"
 		/>
-		<x-ref
-			description="MHG5 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MHG5"
-		/>
+		
 		<x-ref
 			description="MHGG - Engen"
 			functionMask="FFFF"

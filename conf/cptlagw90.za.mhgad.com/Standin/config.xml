@@ -213,17 +213,7 @@
 			port="9113"
 			useSoTimeOut="false" />
 	</env>
-	<env
-		name="POLMED">
-
-		<pool
-			autotimeout="120000"
-			connections="25"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9109" />
-	</env>
+	
 	<env
 		name="REMEDI">
 

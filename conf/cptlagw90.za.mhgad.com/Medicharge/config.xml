@@ -69,20 +69,7 @@
 			port="9113"
 		/>
 	</env>
-	<env
-		mhgAccount="POLMED"
-		name="POLMED"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9109"
-		/>
-	</env>
+	
 	<env
 		mhgAccount="AMED"
 		name="BANKMED"
@@ -331,12 +318,7 @@
 			mhg="PGG"
 			tradingPartner="MCPG"
 		/>
-		<x-ref
-			description="MC5 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MC5"
-		/>
+		
 		<x-ref
 			description="MCNET - NETCARE"
 			functionMask="FFFF"
@@ -467,61 +449,7 @@
 			mhg="METROPOLITAN"
 			tradingPartner="P1009"
 		/>
-			<x-ref
-			description="POLMED: Dentists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5001"
-		/>
 		<x-ref
-			description="POLMED: Pathologists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5002"
-		/>
-		<x-ref
-			description="POLMED: Specialists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5003"
-		/>
-		<x-ref
-			description="POLMED:Optometrists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5004"
-		/>
-		<x-ref
-			description="POLMED:Radiologists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5005"
-		/>
-		<x-ref
-			description="POLMED: Oncologists "
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5006"
-		/>
-		<x-ref
-			description="POLMED: Physiotherapists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5007"
-		/>
-		<x-ref
-			description="POLMED: Other"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5008"
-		/>
-		<x-ref
-			description="POLMED: Doctors (GP)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5009"
-		/>
-			<x-ref
 			description="Medipos: Dentists"
 			functionMask="FFFF"
 			mhg="MEDIPOS"

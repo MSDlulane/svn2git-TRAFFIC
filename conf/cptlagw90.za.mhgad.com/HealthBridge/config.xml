@@ -177,20 +177,7 @@
 			useSoTimeOut="false"
 		/>
 	</env>
-	<env
-		name="POLMED"
-	>
-		
-		<pool
-			autotimeout="1120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="1120000"
-			port="9109"
-			useSoTimeOut="false"
-		/>
-	</env>
+	
 	<env
 		mhgAccount="AMED"
 		name="REMEDI"
@@ -390,18 +377,7 @@
 			mhg="NIMAS"
 			tradingPartner="TB2D"
 		/>
-		<x-ref
-			description="LOWER PLAN"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="TB5A"
-		/>
-		<x-ref
-			description="HIGHER PLAN"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="TB5B"
-		/>
+		
 		<x-ref
 			description="Prosano ProVision"
 			functionMask="FFFF"
@@ -690,13 +666,7 @@
 			mhg="SAMWU"
 			tradingPartner="TBQ"
 		/>
-		<x-ref
-			description="TEMPORARY: Shaun reddy to confirm missing code reason."
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="HB5A"
-		/>
-		
+				
 		<!-- New destination codes -->
 		
 		<x-ref
@@ -1461,60 +1431,7 @@
 			mhg="Nimas"
 			tradingPartner="PM009"
 		/>
-		<x-ref
-			description="POLMED: Dentists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5001"
-		/>
-		<x-ref
-			description="POLMED: Pathologists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5002"
-		/>
-		<x-ref
-			description="POLMED: Specialists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5003"
-		/>
-		<x-ref
-			description="POLMED:Optometrists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5004"
-		/>
-		<x-ref
-			description="POLMED:Radiologists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5005"
-		/>
-		<x-ref
-			description="POLMED: Oncologists "
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5006"
-		/>
-		<x-ref
-			description="POLMED: Physiotherapists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5007"
-		/>
-		<x-ref
-			description="POLMED: Other"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5008"
-		/>
-		<x-ref
-			description="POLMED: Doctors (GP)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5009"
-		/>
+		
 		<x-ref
 			description="SAMWU: Dentists"
 			functionMask="FFFF"

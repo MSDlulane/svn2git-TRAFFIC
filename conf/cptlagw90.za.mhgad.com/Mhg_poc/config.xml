@@ -746,95 +746,7 @@
 			/>
 		</pool>
 	</env>
-	<env
-		mhgAccount="POLMED"
-		name="POLMED"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="2"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9109"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099"
-		/>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw90.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw90.za.mhgad.com"
-			id="NEW_POJAS"
-			poolMaxWaitTime="120000"
-			port="9088"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="100"
-			dropClientOnError="false"
-			hostname="cptlesb80.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="30610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlagw90.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="33000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-	</env>
+	
 	<env
 		mhgAccount="PILIR"
 		name="PILIR"
@@ -2237,12 +2149,7 @@
 			mhg="AMED"
 			tradingPartner="L"
 		/>
-		<x-ref
-			description="Mediclinic Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="5"
-		/>
+		
 		<x-ref
 			description="Mediclinic BP"
 			functionMask="FFFF"
@@ -2423,12 +2330,7 @@
 			mhg="SAMWU"
 			tradingPartner="P15"
 		/>
-		<x-ref
-			description="POLMED Acpt"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P18"
-		/>
+		
 		<x-ref
 			description="GEMS Acpt"
 			functionMask="FFFF"
@@ -2639,12 +2541,7 @@
 			mhg="NEWMED"
 			tradingPartner="METROPOLITAN"
 		/>
-		<x-ref
-			description="Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="POLMED"
-		/>
+		
 		<x-ref
 			description="Sappi"
 			functionMask="FFFF"

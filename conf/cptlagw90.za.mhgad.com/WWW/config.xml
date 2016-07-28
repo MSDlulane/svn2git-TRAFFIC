@@ -300,37 +300,7 @@
 			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
-	<env
-		mhgAccount="POLMED"
-		name="POLMED"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9109"
-			useSoTimeOut="false"
-		/>
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="4"
-			dropClientOnError="false"
-			hostname="cptlagw90.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="40000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
+	
 	<env
 		name="GEMS"
 	>

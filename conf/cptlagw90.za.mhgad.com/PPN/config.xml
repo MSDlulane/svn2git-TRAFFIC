@@ -39,36 +39,7 @@
 			port="1099"
 		/>
 	</env>
-	<env
-		name="POLMED"
-	>
-		
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9109"
-			startDisabled="false"
-			stickyStandin="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099"
-		/>
-	</env>
+	
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionPlainTextInput"
 	/>
@@ -186,60 +157,7 @@
 			mhg="AMED"
 			tradingPartner="PA008"
 		/>
-		<x-ref
-			description="POLMED: Dentists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5001"
-		/>
-		<x-ref
-			description="POLMED: Pathologists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5002"
-		/>
-		<x-ref
-			description="POLMED: Specialists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5003"
-		/>
-		<x-ref
-			description="POLMED:Optometrists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5004"
-		/>
-		<x-ref
-			description="POLMED:Radiologists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5005"
-		/>
-		<x-ref
-			description="POLMED: Oncologists "
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5006"
-		/>
-		<x-ref
-			description="POLMED: Physiotherapists"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5007"
-		/>
-		<x-ref
-			description="POLMED: Other"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5008"
-		/>
-		<x-ref
-			description="POLMED: Doctors (GP)"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="P5009"
-		/>
+		
 	</destination-x-ref>
 	<tailWatchServer
 		id="PPNPat"

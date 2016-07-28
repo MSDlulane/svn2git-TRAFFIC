@@ -159,19 +159,7 @@
 			port="9311"
 		/>
 	</env>
-	<env
-		name="POLMED"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="25"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9109"
-		/>
-	</env>
+	
 	<env
 		name="REDRIB"
 	>
@@ -450,72 +438,7 @@
 			mhg="NIMAS"
 			tradingPartner="rtdm0004"
 		/>
-		<x-ref
-			description="RTDM0005 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="RTDM0005"
-		/>
-		<x-ref
-			description="METR0007 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="METR0007"
-		/>
-		<x-ref
-			description="rtdm0005 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="rtdm0005"
-		/>
-		<x-ref
-			description="METR0008 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="METR0008"
-		/>
-		<x-ref
-			description="MPMR0003 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MPMR0003"
-		/>
-		<x-ref
-			description="MPRM0003 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MPRM0003"
-		/>
-		<x-ref
-			description="MPSM0004 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MPSM0004"
-		/>
-		<x-ref
-			description="MSOB0003 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MSOB0003"
-		/>
-		<x-ref
-			description="MSOB0004 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MSOB0004"
-		/>
-		<x-ref
-			description="MSOB0005 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="MSOB0005"
-		/>
-		<x-ref
-			description="prph0003 - Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="prph0003"
-		/>
+		
 		<x-ref
 			description="RTDM0006 - Red Ribbon"
 			functionMask="FFFF"

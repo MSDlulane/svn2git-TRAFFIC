@@ -97,19 +97,7 @@
 			port="9113"
 		/>
 	</env>
-	<env
-		name="POLMED"
-	>
-		
-		<pool
-			autotimeout="240000"
-			connections="25"
-			hostname="cptlapp90.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9109"
-		/>
-	</env>
+	
 	<env
 		name="SAMWU"
 	>
@@ -320,12 +308,7 @@
 			mhg="AMED"
 			tradingPartner="T17"
 		/>
-		<x-ref
-			description="Polmed"
-			functionMask="FFFF"
-			mhg="POLMED"
-			tradingPartner="T18"
-		/>
+		
 		<x-ref
 			description="Gems"
 			functionMask="FFFF"
