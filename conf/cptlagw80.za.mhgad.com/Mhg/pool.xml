@@ -280,6 +280,11 @@
             targetBeanName="DynamicQueryExecutor"
             desc=""/>  
             
+            <tq-function
+            name="DELETE_HISTPROF"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>
+            
             <!-- end of new TQ for GEMS HIV 2 -->
             
 		<tq-function
