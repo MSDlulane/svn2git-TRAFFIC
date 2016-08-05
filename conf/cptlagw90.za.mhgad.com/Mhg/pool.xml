@@ -238,6 +238,11 @@
             targetBeanName="DynamicQueryExecutor"
             desc=""/>  
             
+            <tq-function
+            name="DELETE_HISTPROF"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>  
+            
             <!-- end of new TQ for GEMS HIV 2 -->
         <!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
