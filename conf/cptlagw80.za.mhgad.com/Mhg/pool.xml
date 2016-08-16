@@ -285,6 +285,12 @@
             targetBeanName="DynamicQueryExecutor"
             desc=""/>
             
+            <tq-function
+            name="GET_REGIMENS"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>
+            
+            
             <!-- end of new TQ for GEMS HIV 2 -->
             
 		<tq-function
