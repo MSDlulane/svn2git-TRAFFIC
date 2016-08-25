@@ -4204,6 +4204,11 @@
             name="GET_REGIMENS"
             targetBeanName="DynamicQueryExecutor"
             desc=""/>
+            
+            <tq-function
+			desc=""
+			name="GET_BENEFIT_DESCRIPTION"
+			targetBeanName="DynamicQueryExecutor" />
                      
             <!-- end of new TQ addition for GEMS API gate way -->
 	</pool>
