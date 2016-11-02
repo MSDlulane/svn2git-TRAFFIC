@@ -165,7 +165,7 @@
 			/>
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -179,9 +179,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -197,8 +197,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -283,7 +282,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -297,9 +296,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -315,8 +314,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -401,7 +399,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -415,9 +413,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -433,8 +431,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -533,7 +530,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -547,9 +544,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -565,8 +562,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -651,7 +647,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -665,9 +661,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -683,8 +679,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -753,7 +748,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -767,9 +762,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -785,8 +780,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -885,7 +879,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -899,9 +893,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -917,8 +911,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -1017,7 +1010,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -1031,9 +1024,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -1049,8 +1042,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -1149,7 +1141,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -1163,9 +1155,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -1181,8 +1173,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -1283,7 +1274,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -1297,9 +1288,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -1315,12 +1306,10 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	
-
 	<env
 		name="PRICE"
 		mhgAccount="PRICE">
@@ -1403,7 +1392,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -1417,9 +1406,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -1435,8 +1424,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -1537,7 +1525,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -1551,9 +1539,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -1569,8 +1557,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 	<env
 		name="REDRIB"
@@ -1670,7 +1657,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -1684,9 +1671,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -1702,8 +1689,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -1804,7 +1790,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -1818,9 +1804,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -1836,8 +1822,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -1937,7 +1922,7 @@
 				autotimeout="120000"
 				poolMaxWaitTime="120000" />
 		</pool>
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -1952,8 +1937,9 @@
 			connections="10"
 			autotimeout="12000"
 			connectorImplementationClassID="COBOL"
-			poolMaxWaitTime="12000">
-			<secondaryPool
+			poolMaxWaitTime="12000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -1969,7 +1955,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
+		
 	</env>
 
 	<env
@@ -2054,7 +2040,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -2068,9 +2054,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -2086,8 +2072,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -2172,7 +2157,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -2186,9 +2171,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -2204,8 +2189,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -2290,7 +2274,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -2304,9 +2288,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -2322,8 +2306,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -2408,7 +2391,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -2422,9 +2405,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -2440,8 +2423,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -2526,7 +2508,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -2540,9 +2522,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -2558,8 +2540,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<env
@@ -2644,7 +2625,7 @@
 				poolMaxWaitTime="120000" />
 		</pool>
 
-		<pool
+		<!--<pool
 			id="WAS"
 			useSoTimeOut="false"
 			autoDisableOnSyncStart="true"
@@ -2658,9 +2639,9 @@
 			port="20610"
 			connections="10"
 			autotimeout="15000"
-			poolMaxWaitTime="15000">
-
-			<secondaryPool
+			poolMaxWaitTime="15000">-->
+			
+			<pool
 				id="WAS_POJAS_BACKUP"
 				useSoTimeOut="false"
 				autoDisableOnSyncStart="true"
@@ -2676,8 +2657,7 @@
 				autotimeout="12000"
 				poolMaxWaitTime="12000"
 				connectorImplementationClassID="COBOL" />
-		</pool>
-
+		
 	</env>
 
 	<!-- server config args determines 1 - useBufferedOutputStreamInPool (boolean) 
@@ -2747,7 +2727,7 @@
 			mhg="PING"
 			functionNo="0008"
 			description="Ping" />
-				<!-- New TPE codes as Rewuested by Brent Engelbrecht -->
+	 <!-- New TPE codes as Rewuested by Brent Engelbrecht -->
 			
 		<x-ref
 			description="PSTHVHDR"
@@ -2876,7 +2856,7 @@
 			mhg="SAMWU"
 			functionMask="FFFF"
 			description="Samwu" />
-	
+
 		<x-ref
 			tradingPartner="P19"
 			mhg="GEMS"
@@ -2899,6 +2879,7 @@
 			mhg="PILIR"
 			tradingPartner="B"
 		/>
+			
 		<x-ref
 			tradingPartner="P21"
 			mhg="NIMAS"
