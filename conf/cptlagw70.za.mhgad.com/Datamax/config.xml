@@ -71,12 +71,7 @@
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
-
-	<env name="POLMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9109"
-		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
-	</env>
-
+	
 	<env name="SAMWU">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9115"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
@@ -151,9 +146,7 @@
 		<x-ref tradingPartner="DM9" mhg="NETCARE" functionMask="FFFF"
 		description="DM9 - Netcare" />
 		<x-ref tradingPartner="DMM" mhg="PGG" functionMask="FFFF"
-		description="DMM - PGG" />
-		<x-ref tradingPartner="DM5" mhg="POLMED" functionMask="FFFF"
-		description="DM5 - POLMED " />
+		description="DMM - PGG" />		
 		<x-ref tradingPartner="DMQ" mhg="SAMWU" functionMask="FFFF"
 		description="DMQ - SAMWU " />
 		<x-ref tradingPartner="DML" mhg="SAPPI" functionMask="FFFF"

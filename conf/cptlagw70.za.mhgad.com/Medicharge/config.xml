@@ -25,11 +25,7 @@
 	<!-- NIMAS  NIMAS -->
 	<env name="NIMAS" mhgAccount="NIMAS" >
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113" connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-	</env>
-	
-	<env name="POLMED" mhgAccount="POLMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9109" connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-	</env>
+	</env>	
 	
 	<!-- AMED -->
 	<env name="BANKMED" mhgAccount="AMED">
@@ -118,9 +114,7 @@
 		<x-ref tradingPartner="MCPG" mhg="PGG" functionMask="FFFF"
 			description="MCPG - PGG" />
 		<x-ref tradingPartner="MCNET" mhg="NETCARE" functionMask="FFFF"
-			description="MCNET - NETCARE" />
-		<x-ref tradingPartner="MC5" mhg="POLMED" functionMask="FFFF"
-			description="MC5 - Polmed" />
+			description="MCNET - NETCARE" />		
 		<x-ref tradingPartner="MCA" mhg="BANKMED" functionMask="FFFF"
 			description="MCA - Bankmed" />
 		<x-ref tradingPartner="MCE" mhg="WOOLTRU" functionMask="FFFF"

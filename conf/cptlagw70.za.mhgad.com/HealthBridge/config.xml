@@ -52,11 +52,7 @@ autoDisable:					if true then connector will disable itself as soon as it switch
 
 	<env name="PICK_N_PAY" mhgAccount="AMED">
 		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
-	</env>
-
-	<env name="POLMED" >
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9109" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
-	</env>
+	</env>	
 
 	<env name="REMEDI" mhgAccount="AMED">
 		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
@@ -112,9 +108,7 @@ autoDisable:					if true then connector will disable itself as soon as it switch
 		<x-ref tradingPartner=  "TB2A" mhg="NIMAS"					functionMask="FFFF" description="SUPREME"/>
 		<x-ref tradingPartner=  "TB2B" mhg="NIMAS"					functionMask="FFFF" description="MILLENNIUM"/>
 		<x-ref tradingPartner=  "TB2C" mhg="NIMAS"					functionMask="FFFF" description="CLASSIC"/>
-		<x-ref tradingPartner=  "TB2D" mhg="NIMAS"					functionMask="FFFF" description="PRIMARY"/>
-		<x-ref tradingPartner=  "TB5A" mhg="POLMED"					functionMask="FFFF" description="LOWER PLAN"/>
-		<x-ref tradingPartner=  "TB5B" mhg="POLMED"					functionMask="FFFF" description="HIGHER PLAN"/>
+		<x-ref tradingPartner=  "TB2D" mhg="NIMAS"					functionMask="FFFF" description="PRIMARY"/>		
 		<x-ref tradingPartner=  "TB8A" mhg="PROSANO"				functionMask="FFFF" description="Prosano ProVision"/>
 		<x-ref tradingPartner=  "TB8B" mhg="PROSANO"				functionMask="FFFF" description="Prosano ProClassic"/>
 		<x-ref tradingPartner=  "TB8C" mhg="PROSANO"				functionMask="FFFF" description="Prosano ProVider"/>

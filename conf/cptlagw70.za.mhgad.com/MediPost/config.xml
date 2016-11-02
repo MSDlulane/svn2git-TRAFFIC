@@ -47,12 +47,7 @@ switches to the backup
 	<env name="NIMAS" mhgAccount="NIMAS">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
-	</env>
-
-	<env name="POLMED" mhgAccount="POLMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9109"
-		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
-	</env>
+	</env>	
 
 	<env name="TRANSMED" mhgAccount="NEWMED">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9107"
@@ -102,8 +97,7 @@ switches to the backup
 		<x-ref tradingPartner=  "T05" mhg="ENGEN"    			functionMask="FFFF" description="Engen"/>
 		<x-ref tradingPartner=  "T11" mhg="METROPOLITAN" 	functionMask="FFFF" description="Metropolitan"/>
 		<x-ref tradingPartner=  "T12" mhg="BP"   					functionMask="FFFF" description="BP"/>
-		<x-ref tradingPartner=  "T15" mhg="SAMWU"   			functionMask="FFFF" description="Samwu"/>
-		<x-ref tradingPartner=  "T18" mhg="POLMED"  			functionMask="FFFF" description="Polmed"/>
+		<x-ref tradingPartner=  "T15" mhg="SAMWU"   			functionMask="FFFF" description="Samwu"/>		
 		<x-ref tradingPartner=  "T19" mhg="GEMS"  				functionMask="FFFF" description="Gems"/>
 		<x-ref tradingPartner=  "T20" mhg="NIMAS"  				functionMask="FFFF" description="Nimas"/>
 		<x-ref tradingPartner=  "T21" mhg="IMPERIAL" 			functionMask="FFFF"	description="Imperial" />

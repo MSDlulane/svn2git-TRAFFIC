@@ -44,12 +44,7 @@ switches to the backup
 	<env name="NIMAS">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
-	</env>
-
-	<env name="POLMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9109"
-		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
-	</env>
+	</env>	
 
 	<env name="SAMWU">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9115"
@@ -129,9 +124,7 @@ switches to the backup
 		<x-ref tradingPartner="T16" mhg="SIGMA" functionMask="FFFF"
 		description="Prosano" />
 		<x-ref tradingPartner="T17" mhg="AMED" functionMask="FFFF"
-		description="Remedi" />
-		<x-ref tradingPartner="T18" mhg="POLMED" functionMask="FFFF"
-		description="Polmed" />
+		description="Remedi" />		
 		<x-ref tradingPartner="T19" mhg="GEMS" functionMask="FFFF"
 		description="Gems" />
 		<x-ref tradingPartner="T20" mhg="NIMAS" functionMask="FFFF"

@@ -46,15 +46,6 @@
 			autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
-	<env name="POLMED">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9109" connections="10"
-			autotimeout="120000" poolMaxWaitTime="28000"/>
-	</env>
-
 	<env name="SAMWU">
 		<pool useSoTimeOut="false" stickyStandin="false"
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
@@ -98,9 +89,7 @@
 		<x-ref tradingPartner="MHG1" mhg="NEWMED" functionMask="FFFF"
 			description="MHG1 - Metropolitan" />
 		<x-ref tradingPartner="MHG2" mhg="NIMAS" functionMask="FFFF"
-			description="MHG2 - Nimas" />
-		<x-ref tradingPartner="MHG5" mhg="POLMED" functionMask="FFFF"
-			description="MHG5 - Polmed" />
+			description="MHG2 - Nimas" />		
 		<x-ref tradingPartner="MHGA" mhg="AMED" functionMask="FFFF"
 			description="MHGA - Bankmed" />
 		<x-ref tradingPartner="MHGE" mhg="AMED" functionMask="FFFF"

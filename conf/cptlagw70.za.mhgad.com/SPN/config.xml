@@ -104,19 +104,7 @@ switches to the backup
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
 			hostname="cptlagw70.za.mhgad.com" port="23000" connections="10" autotimeout="120000"
 		poolMaxWaitTime="120000" />
-	</env>
-
-	<env name="POLMED" mhgAccount="POLMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9109"
-		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
-		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
-		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			hostname="cptlagw70.za.mhgad.com" port="23000" connections="10" autotimeout="120000"
-		poolMaxWaitTime="120000" />
-	</env>
+	</env>	
 
 	<env name="PILIR" mhgAccount="PILIR">
 		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9104"
@@ -358,9 +346,7 @@ switches to the backup
 		<x-ref tradingPartner="J" mhg="AMED" functionMask="FFFF"
 		description="Mediclinic Holcim" />
 		<x-ref tradingPartner="L" mhg="AMED" functionMask="FFFF"
-		description="Mediclinic Sappi" />
-		<x-ref tradingPartner="5" mhg="POLMED" functionMask="FFFF"
-		description="Mediclinic Polmed" />
+		description="Mediclinic Sappi" />		
 		<x-ref tradingPartner="P" mhg="AMED" functionMask="FFFF"
 		description="Mediclinic BP" />
 		<x-ref tradingPartner="2" mhg="NIMAS" functionMask="FFFF"
@@ -425,9 +411,7 @@ switches to the backup
 		<!--x-ref tradingPartner="P16" mhg="SIGMA" functionMask="FFFF"
 		description="Prosano" /-->
 		<x-ref tradingPartner="P17" mhg="SAMWUB" functionMask="FFFF"
-		description="Samwu option B" />
-		<x-ref tradingPartner="P18" mhg="POLMED" functionMask="FFFF"
-		description="POLMED Acpt" />
+		description="Samwu option B" />		
 		<x-ref tradingPartner="P19" mhg="GEMS" functionMask="FFFF"
 		description="GEMS Acpt" />
 		<x-ref tradingPartner="P20" mhg="PILIR" functionMask="FFFF"
