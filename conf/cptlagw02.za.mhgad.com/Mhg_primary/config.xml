@@ -177,7 +177,7 @@
 			
 			/>	
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -192,8 +192,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -210,7 +211,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="SHARE"
@@ -303,7 +304,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -318,8 +319,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -336,7 +338,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="GAME_LOCAL"
@@ -429,7 +431,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -444,8 +446,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -462,7 +465,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="GEMS"
@@ -571,7 +574,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -586,8 +589,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -604,7 +608,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="IMAGE"
@@ -697,7 +701,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -712,8 +716,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -730,7 +735,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="LDAP"
@@ -805,7 +810,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -820,8 +825,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -838,7 +844,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="IMPERIAL"
@@ -947,7 +953,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -962,8 +968,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -980,7 +987,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="MEDIPOS"
@@ -1089,7 +1096,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1104,8 +1111,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1122,7 +1130,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="NEWMED"
@@ -1231,7 +1239,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1246,8 +1254,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1264,7 +1273,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="NIMAS"
@@ -1375,7 +1384,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1390,8 +1399,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1408,7 +1418,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 
 	<env
@@ -1502,7 +1512,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1517,8 +1527,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1535,7 +1546,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="PILIR"
@@ -1646,7 +1657,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1661,8 +1672,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1679,7 +1691,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>	
 	<env
 		mhgAccount="REDRIB"
@@ -1790,7 +1802,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1805,8 +1817,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1823,7 +1836,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="SAMWU"
@@ -1934,7 +1947,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1949,8 +1962,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1967,7 +1981,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="RANDW"
@@ -2078,7 +2092,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -2094,8 +2108,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -2112,7 +2127,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="SHARE"
@@ -2205,7 +2220,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -2220,8 +2235,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -2238,7 +2254,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="SPINE"
@@ -2331,7 +2347,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -2346,8 +2362,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -2364,7 +2381,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="SPINELOG"
@@ -2457,7 +2474,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -2472,8 +2489,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -2490,7 +2508,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="SYSTEM"
@@ -2583,7 +2601,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -2598,8 +2616,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -2616,7 +2635,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="UTILITY"
@@ -2709,7 +2728,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -2724,8 +2743,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -2742,7 +2762,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<env
 		mhgAccount="WORKFLOW"
@@ -2835,7 +2855,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<!--<pool
+		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -2850,8 +2870,9 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>-->
-		<pool
+		>
+			
+			<secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -2868,7 +2889,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		
+		</pool>
 	</env>
 	<serverConfig
 		afterConnectorSleepTime="0"
