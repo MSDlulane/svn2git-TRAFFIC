@@ -736,13 +736,8 @@
 			name="WF_CONTEXTUALISE_PROCESS"
 			targetBeanName="ContextualiseProcess"
 		/>
-
-	</pool>
-	<pool
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-		id="WAS">
 		
-
+		<!-- Below Tq's were copied from 'WAS' pool to 'pojas' pool to be executed by SEE Server and deleted WAS pool completly -->
 		<tq-function
 			desc=""
 			name="SPBioKineticsStaleCheck"
@@ -4351,9 +4346,6 @@
 			desc=""
 			name="WF_GET_ENQUIRY_DATE"
 			targetBeanName="DynamicQueryExecutor" />
-
-
-
-
 	</pool>
+	
 </pool-classes>
