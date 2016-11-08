@@ -4220,15 +4220,8 @@
 			name="GET_BENEFIT_DESCRIPTION"
 			targetBeanName="DynamicQueryExecutor" />
                      
-            <!-- end of new TQ addition for GEMS API gate way -->
-		
-		
-	</pool>
-
-	<pool
-		id="WAS"
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
-		<!-- WAS 2013-10-10 END -->
+         <!-- end of new TQ addition for GEMS API gate way -->
+	
 		<tq-function
 			name="GETIPAPROVIDERCOUNT"
 			targetBeanName="DynamicQueryExecutor"
