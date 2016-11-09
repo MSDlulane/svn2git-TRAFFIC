@@ -177,41 +177,6 @@
 			
 			/>	
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="SHARE"
@@ -304,41 +269,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="GAME_LOCAL"
@@ -425,41 +355,6 @@
 				hostname="cptlsee03.za.mhgad.com"
 				id="POJAS_SLOW_BACKUP"
 				poolMaxWaitTime="120000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
 				port="23000"
 				startDisabled="false"
 				useSoTimeOut="false"
@@ -574,41 +469,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="IMAGE"
@@ -701,41 +561,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="LDAP"
@@ -804,41 +629,6 @@
 				hostname="cptlsee03.za.mhgad.com"
 				id="POJAS_SLOW_BACKUP"
 				poolMaxWaitTime="120000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
 				port="23000"
 				startDisabled="false"
 				useSoTimeOut="false"
@@ -953,41 +743,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="MEDIPOS"
@@ -1096,41 +851,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="NEWMED"
@@ -1233,41 +953,6 @@
 				hostname="cptlsee03.za.mhgad.com"
 				id="POJAS_SLOW_BACKUP"
 				poolMaxWaitTime="120000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
 				port="23000"
 				startDisabled="false"
 				useSoTimeOut="false"
@@ -1384,41 +1069,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	
 	<env
@@ -1506,41 +1156,6 @@
 				hostname="cptlsee03.za.mhgad.com"
 				id="POJAS_SLOW_BACKUP"
 				poolMaxWaitTime="120000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
 				port="23000"
 				startDisabled="false"
 				useSoTimeOut="false"
@@ -1657,41 +1272,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>	
 	<env
 		mhgAccount="REDRIB"
@@ -1796,41 +1376,6 @@
 				hostname="cptlsee03.za.mhgad.com"
 				id="POJAS_SLOW_BACKUP"
 				poolMaxWaitTime="120000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
 				port="23000"
 				startDisabled="false"
 				useSoTimeOut="false"
@@ -1947,41 +1492,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="RANDW"
@@ -2092,42 +1602,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="12000"
-			connections="10"
-			connectorImplementationClassID="COBOL"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="12000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee03.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="SHARE"
@@ -2214,41 +1688,6 @@
 				hostname="cptlsee03.za.mhgad.com"
 				id="POJAS_SLOW_BACKUP"
 				poolMaxWaitTime="120000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
 				port="23000"
 				startDisabled="false"
 				useSoTimeOut="false"
@@ -2347,41 +1786,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="SPINELOG"
@@ -2468,41 +1872,6 @@
 				hostname="cptlsee03.za.mhgad.com"
 				id="POJAS_SLOW_BACKUP"
 				poolMaxWaitTime="120000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
 				port="23000"
 				startDisabled="false"
 				useSoTimeOut="false"
@@ -2601,41 +1970,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="UTILITY"
@@ -2728,41 +2062,6 @@
 				waitForSyncToFinishTimeout="40000"
 			/>
 		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
 	</env>
 	<env
 		mhgAccount="WORKFLOW"
@@ -2849,41 +2148,6 @@
 				hostname="cptlsee03.za.mhgad.com"
 				id="POJAS_SLOW_BACKUP"
 				poolMaxWaitTime="120000"
-				port="23000"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="15000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlesb01.za.mhgad.com"
-			id="WAS"
-			poolMaxWaitTime="15000"
-			port="20610"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="12000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="cptlsee01.za.mhgad.com"
-				id="WAS_POJAS_BACKUP"
-				poolMaxWaitTime="12000"
 				port="23000"
 				startDisabled="false"
 				useSoTimeOut="false"

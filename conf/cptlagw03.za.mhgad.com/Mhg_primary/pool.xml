@@ -4216,81 +4216,76 @@
 			targetBeanName="DynamicQueryExecutor" />
                      
             <!-- end of new TQ addition for GEMS API gate way -->
-	</pool>
-
-	<pool
-		id="WAS"
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
-		<!-- WAS 2013-10-10 END -->
-		<tq-function
-			name="GETIPAPROVIDERCOUNT"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="GEMS_GET_DOCTORS_NETWORK_INFO_COUNT"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="ENQUIRY_UPDATE_VITEL"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="ENQUIRY_UPDATE"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="Delete_from_RISKDET"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="CPT_SEARCH_CROSS"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="CPT_SEARCH"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="CPTMASTER_SEARCH"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="CONTACT_UPDATE_INSERT_VCT"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="CAREPLAN_SCHEDULE_BY_PATIENT"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<!-- WAS 2013-10-10 END -->
-		<tq-function
-			name="FoG_VALIDATEMEMBER"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="GET_MEMBER_DETAILS2"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="GET_MEMBER_PIN"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="GET_MEMBER_SUSPEND"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="MEMBER_ALL_BY_MEMBERID"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="zzMEMBERONLINE_GETSCHEMESBYMEMBERNUMBER"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
-		<tq-function
-			name="MEMBERONLINE_Count_Claims_FORDOCTOR"
-			targetBeanName="DynamicQueryExecutor"
-			desc="" />
+	
+			<tq-function
+				name="GETIPAPROVIDERCOUNT"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="GEMS_GET_DOCTORS_NETWORK_INFO_COUNT"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="ENQUIRY_UPDATE_VITEL"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="ENQUIRY_UPDATE"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="Delete_from_RISKDET"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="CPT_SEARCH_CROSS"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="CPT_SEARCH"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="CPTMASTER_SEARCH"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="CONTACT_UPDATE_INSERT_VCT"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="CAREPLAN_SCHEDULE_BY_PATIENT"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<!-- WAS 2013-10-10 END -->
+			<tq-function
+				name="FoG_VALIDATEMEMBER"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="GET_MEMBER_DETAILS2"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="GET_MEMBER_PIN"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="GET_MEMBER_SUSPEND"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="MEMBER_ALL_BY_MEMBERID"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="zzMEMBERONLINE_GETSCHEMESBYMEMBERNUMBER"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+			<tq-function
+				name="MEMBERONLINE_Count_Claims_FORDOCTOR"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
 
 	</pool>
 
