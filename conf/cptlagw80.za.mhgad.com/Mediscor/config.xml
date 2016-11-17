@@ -51,7 +51,7 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		20302
+		20742
 	</snmp-port>
 	<tailWatchServer
 		id="MEDISCOR"
