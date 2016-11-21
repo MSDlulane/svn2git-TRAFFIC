@@ -33,7 +33,7 @@
 
     <root>
         <priority
-		value="INFO"
+		value="DEBUG"
 	/>
         <appender-ref
 		ref="FILE"
