@@ -3,10 +3,10 @@
 	<server
 		__system_out="default"
 		cmdPasswd="p34nu7"
-		diagPort="27101"
+		diagPort="27201"
 		logConfigFile="log4j.xml"
 		name="MEDISCOR DEV"
-		port="27100"
+		port="27200"
 		tradingPartner="MEDISCOR"
 		trxAbortSizeLimit="64000"
 		trxSizeLimit="48000"
@@ -51,19 +51,19 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		20742
+		27202
 	</snmp-port>
 	<tailWatchServer
 		id="MEDISCOR"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="20303"
+		tcpipPort="27203"
 	/>
 	<diagTailWatchServer
 		id="MEDISCOR"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="20304"
+		tcpipPort="27204"
 	/>
 	<synchronous-transactions	>
 		true
@@ -72,9 +72,9 @@
 		
 		<x-ref
 			description="Realtime claims"
-			functionNo="000A"
+			functionNo="190"
 			mhg="MEDPAYMT"
-			tradingPartner="1"
+			tradingPartner="190"
 		/>
 	</transaction-x-ref>
 	
