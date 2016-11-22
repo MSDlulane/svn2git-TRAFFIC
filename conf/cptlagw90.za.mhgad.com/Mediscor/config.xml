@@ -1,0 +1,124 @@
+<Enviroments>
+	
+	<server
+		__system_out="default"
+		cmdPasswd="p34nu7"
+		diagPort="27201"
+		logConfigFile="log4j.xml"
+		name="MEDISCOR DEV"
+		port="27200"
+		tradingPartner="MEDISCOR"
+		trxAbortSizeLimit="64000"
+		trxSizeLimit="48000"
+	/>
+	<env
+		mhgAccount="MEDIPOS"
+		name="MEDIPOS"
+	>		
+		<pool
+			autotimeout="30000"
+			connections="10"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9130"
+		/>
+	</env>
+		
+	<env
+		mhgAccount="METSTAFF"
+		name="METSTAFF"
+	>		
+		<pool
+			autotimeout="30000"
+			connections="10"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9124"
+		/>
+	</env>
+	
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		27202
+	</snmp-port>
+	<tailWatchServer
+		id="MEDISCOR"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="27203"
+	/>
+	<diagTailWatchServer
+		id="MEDISCOR"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="27204"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Realtime claims"
+			functionNo="190"
+			mhg="MEDPAYMT"
+			tradingPartner="190"
+		/>
+	</transaction-x-ref>
+	
+	<destination-x-ref	>		
+		<x-ref
+			description="Medipos"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="MDSC01"
+		/>
+	</destination-x-ref>
+	<destination-x-ref	>		
+		<x-ref
+			description="Metstaff"
+			functionMask="FFFF"
+			mhg="METSTAFF"
+			tradingPartner="MDSC02"
+		/>
+	</destination-x-ref>
+	
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/Mediscor"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="IR0b0t"			
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="Mediscor"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="*"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
+
