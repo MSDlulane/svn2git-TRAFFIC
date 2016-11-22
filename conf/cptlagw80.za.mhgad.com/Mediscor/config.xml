@@ -97,7 +97,7 @@
 	
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logDirectory="log/Mediscorlog"
+		logDirectory="log/Mediscor"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 	>
