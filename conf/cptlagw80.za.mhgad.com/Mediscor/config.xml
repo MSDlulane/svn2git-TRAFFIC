@@ -18,7 +18,7 @@
 		<pool
 			autotimeout="30000"
 			connections="10"
-			hostname="cptlapp80.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9130"
@@ -32,7 +32,7 @@
 		<pool
 			autotimeout="30000"
 			connections="10"
-			hostname="cptlapp80.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9124"
@@ -97,15 +97,15 @@
 	
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logDirectory="log/accesslog"
+		logDirectory="log/Mediscorlog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 	>
 		
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbPassword="IR0b0t"
-			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-dev:7550/JBAUDIT"
+			DbPassword="IR0b0t"			
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
 			DbUserName="traffic"
 			logTable="Mediscor"
 			maxpoolsize="2"
