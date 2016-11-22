@@ -21,7 +21,7 @@
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
-			port="9130"
+			port="9108"
 		/>
 	</env>
 		
@@ -35,7 +35,7 @@
 			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
-			port="9124"
+			port="9107"
 		/>
 	</env>
 	
