@@ -11,11 +11,11 @@
 	>
 		<param 
 			name="Threshold" 
-			value="INFO"
+			value="DEBUG"
 		/>
 		<param
 			name="File"
-			value="log/Mediscorlog.log"
+			value="log/ALL_LOG.log"
 		/>
 		<param
 			name="DatePattern"
