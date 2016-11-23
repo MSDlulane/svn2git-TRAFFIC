@@ -4346,6 +4346,11 @@
 			desc=""
 			name="WF_GET_ENQUIRY_DATE"
 			targetBeanName="DynamicQueryExecutor" />
+			
+		<tq-function
+			desc=""
+			name="PROVIDER_NETWORK_SEARCH_TOWN_SUBURB"
+			targetBeanName="DynamicQueryExecutor" />
 	</pool>
 	
 </pool-classes>
