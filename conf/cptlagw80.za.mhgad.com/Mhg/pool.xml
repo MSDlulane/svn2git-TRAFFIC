@@ -5262,6 +5262,11 @@
 			name="WF_CONTEXTUALISE_PROCESS"
 			targetBeanName="ContextualiseProcess"
 		/>
+		<!-- Garth  -->
+		<tq-function
+			desc=""
+			name="PROVIDER_NETWORK_SEARCH_TOWN_SUBURB"
+			targetBeanName="DynamicQueryExecutor" />
 	</pool>
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
