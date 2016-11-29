@@ -69,7 +69,20 @@
 		true
 	</synchronous-transactions>
 	<transaction-x-ref	>
-		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			isPingOrHandshake="true"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
 		<x-ref
 			description="Realtime claims"
 			functionNo="190"
