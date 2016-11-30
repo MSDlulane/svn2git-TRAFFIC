@@ -4224,6 +4224,11 @@
 			desc=""
 			name="GET_BENEFIT_DESCRIPTION"
 			targetBeanName="DynamicQueryExecutor" />
+			
+			<tq-function
+			desc=""
+			name="PROVIDER_NETWORK_SEARCH_TOWN_SUBURB"
+			targetBeanName="DynamicQueryExecutor" />
                      
             <!-- end of new TQ addition for GEMS API gate way -->
 			<tq-function

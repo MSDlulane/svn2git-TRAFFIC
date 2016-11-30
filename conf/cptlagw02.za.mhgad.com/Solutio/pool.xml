@@ -5209,6 +5209,12 @@
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
+		
+		<tq-function
+			desc=""
+			name="PROVIDER_NETWORK_SEARCH_TOWN_SUBURB"
+			targetBeanName="DynamicQueryExecutor" 
+		/>
 
 	</pool>
    
