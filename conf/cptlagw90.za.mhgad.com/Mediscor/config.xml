@@ -5,7 +5,7 @@
 		cmdPasswd="p34nu7"
 		diagPort="27201"
 		logConfigFile="log4j.xml"
-		name="MEDISCOR DEV"
+		name="MEDISCOR ACPT"
 		port="27200"
 		tradingPartner="MEDISCOR"
 		trxAbortSizeLimit="64000"
