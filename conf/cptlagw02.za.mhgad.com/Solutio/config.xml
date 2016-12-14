@@ -3,8 +3,8 @@
 
 	<!-- Global Server Parameters -->
 	<server
-		trxSizeLimit="512000"
-		trxAbortSizeLimit="512000"
+		trxSizeLimit="5120000"
+		trxAbortSizeLimit="5120000"
 		name="Solutio (MHRS)"
 		port="20810"
 		diagPort="20811"
