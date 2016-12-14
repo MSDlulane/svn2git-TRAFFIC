@@ -83,8 +83,8 @@
 		logConfigFile="log4j.xml"
 		name="Solutio (MHRS)"
 		port="20820"
-		trxAbortSizeLimit="512000"
-		trxSizeLimit="512000"
+		trxAbortSizeLimit="5120000"
+		trxSizeLimit="5120000"
 	/>
 	<transaction-header
 		class="InterfaceTransactions.Solutio.SolutioHeader"
