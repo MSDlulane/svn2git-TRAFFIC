@@ -91,14 +91,14 @@
 		/>
 	</transaction-x-ref>
 	
-	<destination-x-ref	>		
+	<!-- <destination-x-ref	>		
 		<x-ref
 			description="Medipos"
 			functionMask="FFFF"
 			mhg="MEDIPOS"
 			tradingPartner="MDSC01"
 		/>
-	</destination-x-ref>
+	</destination-x-ref> -->
 	<destination-x-ref	>		
 		<x-ref
 			description="Metstaff"
