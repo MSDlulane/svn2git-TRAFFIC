@@ -106,6 +106,12 @@
 			mhg="METSTAFF"
 			tradingPartner="MDSC02"
 		/>
+		<x-ref
+			description="Medipos"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="MDSC01"
+		/>
 	</destination-x-ref>
 	
 	<logger
