@@ -4351,6 +4351,11 @@
 			desc=""
 			name="PROVIDER_NETWORK_SEARCH_TOWN_SUBURB"
 			targetBeanName="DynamicQueryExecutor" />
+			<!-- for garth -->
+			<tq-function
+			desc=""
+			name="MEMBERONLINE_SCHEME_NETWORKS"
+			targetBeanName="DynamicQueryExecutor" />
 	</pool>
 	
 </pool-classes>
