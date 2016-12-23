@@ -93,18 +93,16 @@
 	
 	<destination-x-ref	>		
 		<x-ref
-			description="Medipos"
-			functionMask="FFFF"
-			mhg="MEDIPOS"
-			tradingPartner="MDSC01"
-		/>
-	</destination-x-ref>
-	<destination-x-ref	>		
-		<x-ref
 			description="Metstaff"
 			functionMask="FFFF"
 			mhg="METSTAFF"
 			tradingPartner="MDSC02"
+		/>
+		<x-ref
+			description="Medipos"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="MDSC01"
 		/>
 	</destination-x-ref>
 	
