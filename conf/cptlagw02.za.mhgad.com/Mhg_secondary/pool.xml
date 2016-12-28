@@ -4216,6 +4216,11 @@
             desc=""/>
             
             <tq-function
+            name="GET_ENQWORK"
+            targetBeanName="DynamicQueryExecutor"
+            desc=""/>
+            
+            <tq-function
 			desc=""
 			name="GET_BENEFIT_DESCRIPTION"
 			targetBeanName="DynamicQueryExecutor" />
