@@ -4356,6 +4356,18 @@
 			desc=""
 			name="MEMBERONLINE_SCHEME_NETWORKS"
 			targetBeanName="DynamicQueryExecutor" />
+			<tq-function
+			desc=""
+			name="MEDPAGES_GET_PROVINCES"
+			targetBeanName="DynamicQueryExecutor" />
+			<tq-function
+			desc=""
+			name="MEDPAGES_GET_TOWN_BY_PROVINCE"
+			targetBeanName="DynamicQueryExecutor" />
+			<tq-function
+			desc=""
+			name="MEDPAGES_GET_SUBURB_BY_TOWN"
+			argetBeanName="DynamicQueryExecutor" />
 	</pool>
 	
 </pool-classes>
