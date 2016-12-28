@@ -5282,7 +5282,7 @@
 		<tq-function
 				desc=""
 				name="MEDPAGES_GET_SUBURB_BY_TOWN"
-				argetBeanName="DynamicQueryExecutor" />
+				targetBeanName="DynamicQueryExecutor" />
 	</pool>
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
