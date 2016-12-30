@@ -4226,8 +4226,29 @@
 			targetBeanName="DynamicQueryExecutor" />
                      
             <!-- end of new TQ addition for GEMS API gate way -->
-	
+
 			<tq-function
+			desc=""
+			name="MEMBERONLINE_SCHEME_NETWORKS"
+			targetBeanName="DynamicQueryExecutor" />
+
+			<tq-function
+			desc=""
+			name="MEDPAGES_GET_PROVINCES"
+			targetBeanName="DynamicQueryExecutor" />
+
+			<tq-function
+			desc=""
+			name="MEDPAGES_GET_TOWN_BY_PROVINCE"
+			targetBeanName="DynamicQueryExecutor" />
+
+			<tq-function
+			desc=""
+			name="MEDPAGES_GET_SUBURB_BY_TOWN"
+			targetBeanName="DynamicQueryExecutor" />
+
+
+		<tq-function
 				name="GETIPAPROVIDERCOUNT"
 				targetBeanName="DynamicQueryExecutor"
 				desc="" />
