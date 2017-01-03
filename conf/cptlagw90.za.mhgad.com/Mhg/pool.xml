@@ -252,6 +252,11 @@
             name="GET_ENQWORK"
             targetBeanName="DynamicQueryExecutor"
             desc=""/>
+
+			<tq-function
+			name="GET_MEMBER_HIST_MEDICINE_SERVICES"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
             
             <!-- end of new TQ for GEMS HIV 2 -->
         <!-- moved from was as ampersand in data is causing failure -->

@@ -294,8 +294,14 @@
             name="GET_ENQWORK"
             targetBeanName="DynamicQueryExecutor"
             desc=""/>
-            
-            <!-- end of new TQ for GEMS HIV 2 -->
+
+			<tq-function
+			name="GET_MEMBER_HIST_MEDICINE_SERVICES"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
+
+
+		<!-- end of new TQ for GEMS HIV 2 -->
             
 		<tq-function
 			desc=""
