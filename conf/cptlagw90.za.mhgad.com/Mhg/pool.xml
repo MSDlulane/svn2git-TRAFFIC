@@ -259,6 +259,11 @@
 			desc=""/>
 
             <tq-function
+             name="GET_USER_REMINDER"
+             targetBeanName="DynamicQueryExecutor"
+             desc=""/>
+
+            <tq-function
              name="INSERT_USER_REMINDER"
              targetBeanName="DynamicQueryExecutor"
              desc=""/>
