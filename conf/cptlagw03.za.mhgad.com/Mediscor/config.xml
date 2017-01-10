@@ -5,7 +5,7 @@
 		cmdPasswd="p34nu7"
 		diagPort="27201"
 		logConfigFile="log4j.xml"
-		name="MEDISCOR ACPT"
+		name="MEDISCOR PROD"
 		port="27200"
 		tradingPartner="MEDISCOR"
 		trxAbortSizeLimit="64000"
@@ -18,10 +18,10 @@
 		<pool
 			autotimeout="30000"
 			connections="10"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlxml01.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
-			port="9108"
+			port="9115"
 		/>
 	</env>
 		
@@ -32,10 +32,10 @@
 		<pool
 			autotimeout="30000"
 			connections="10"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="cptlxml01.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
-			port="9107"
+			port="9108"
 		/>
 	</env>
 	
