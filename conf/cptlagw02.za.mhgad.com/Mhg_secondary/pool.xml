@@ -4229,6 +4229,31 @@
 			desc=""
 			name="PROVIDER_NETWORK_SEARCH_TOWN_SUBURB"
 			targetBeanName="DynamicQueryExecutor" />
+
+			<tq-function
+			name="GET_MEMBER_HIST_MEDICINE_SERVICES"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
+
+			<tq-function
+			name="GET_USER_REMINDER"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
+
+			<tq-function
+			name="INSERT_USER_REMINDER"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
+
+			<tq-function
+			name="UPDATE_USER_REMINDER"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
+
+			<tq-function
+			name="DELETE_USER_REMINDER"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
                      
          <!-- end of new TQ addition for GEMS API gate way -->
 
