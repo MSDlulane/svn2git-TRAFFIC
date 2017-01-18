@@ -278,6 +278,11 @@
             targetBeanName="DynamicQueryExecutor"
             desc=""/>
 
+			<tq-function
+			name="WF_GET_QUEUE_ITEMS_VARMATCH1"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
+
             <!-- end of new TQ for GEMS HIV 2 -->
         <!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
