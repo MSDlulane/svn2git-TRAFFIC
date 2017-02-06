@@ -4395,9 +4395,14 @@
 			name="MEDPAGES_GET_TOWN_BY_PROVINCE"
 			targetBeanName="DynamicQueryExecutor" />
 			<tq-function
-			desc=""
-			name="MEDPAGES_GET_SUBURB_BY_TOWN"
-			targetBeanName="DynamicQueryExecutor" />
+            desc=""
+            name="MEDPAGES_GET_SUBURB_BY_TOWN"
+            targetBeanName="DynamicQueryExecutor" />
+            <tq-function
+            desc=""
+            name="PROVIDER_NETWORKS_SEARCH_GENERIC"
+            targetBeanName="DynamicQueryExecutor" />
+
 	</pool>
 	
 </pool-classes>

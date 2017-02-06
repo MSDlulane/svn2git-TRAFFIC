@@ -5316,6 +5316,10 @@
 				desc=""
 				name="MEDPAGES_GET_SUBURB_BY_TOWN"
 				targetBeanName="DynamicQueryExecutor" />
+        <tq-function
+                desc=""
+                name="PROVIDER_NETWORKS_SEARCH_GENERIC"
+                targetBeanName="DynamicQueryExecutor" />
 	</pool>
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
