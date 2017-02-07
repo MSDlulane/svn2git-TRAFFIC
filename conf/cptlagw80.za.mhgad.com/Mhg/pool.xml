@@ -5320,6 +5320,10 @@
                 desc=""
                 name="PROVIDER_NETWORKS_SEARCH_GENERIC"
                 targetBeanName="DynamicQueryExecutor" />
+        <tq-function
+                desc=""
+                name="GAME_GET_WORKFLOW_USERNAMES_CONCAT"
+                targetBeanName="DynamicQueryExecutor" />
 	</pool>
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
