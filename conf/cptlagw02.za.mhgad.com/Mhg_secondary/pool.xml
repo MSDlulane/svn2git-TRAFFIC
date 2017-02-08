@@ -4254,8 +4254,14 @@
 			name="DELETE_USER_REMINDER"
 			targetBeanName="DynamicQueryExecutor"
 			desc=""/>
-                     
-         <!-- end of new TQ addition for GEMS API gate way -->
+
+			<tq-function
+			name="WF_GET_QUEUE_ITEMS_VARMATCH1"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
+
+
+		<!-- end of new TQ addition for GEMS API gate way -->
 
 			<tq-function
 				desc=""
