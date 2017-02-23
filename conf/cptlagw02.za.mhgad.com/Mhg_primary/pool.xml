@@ -4328,6 +4328,11 @@
 				name="CAREPLAN_SCHEDULE_BY_PATIENT"
 				targetBeanName="DynamicQueryExecutor"
 				desc="" />
+			<tq-function
+				name="GAME_GET_WORKFLOW_USERNAMES_CONCAT"
+				targetBeanName="DynamicQueryExecutor"
+				desc="" />
+
 			<!-- WAS 2013-10-10 END -->
 			<tq-function
 				name="FoG_VALIDATEMEMBER"
