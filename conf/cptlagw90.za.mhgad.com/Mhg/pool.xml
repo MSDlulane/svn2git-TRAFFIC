@@ -283,6 +283,10 @@
 			targetBeanName="DynamicQueryExecutor"
 			desc=""/>
 
+			<tq-function
+			name="comms_fetch_letter"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
             <!-- end of new TQ for GEMS HIV 2 -->
         <!-- moved from was as ampersand in data is causing failure -->
 		<tq-function
