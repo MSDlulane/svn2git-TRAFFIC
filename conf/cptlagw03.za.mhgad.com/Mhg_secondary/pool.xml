@@ -4345,6 +4345,10 @@
 				name="MEMBERONLINE_Count_Claims_FORDOCTOR"
 				targetBeanName="DynamicQueryExecutor"
 				desc="" />
+        <tq-function
+                name="PROVIDER_NETWORKS_SEARCH_GENERIC"
+                targetBeanName="DynamicQueryExecutor"
+                desc="" />
 
 	</pool>
 
