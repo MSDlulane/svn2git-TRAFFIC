@@ -4410,6 +4410,14 @@
             desc=""
             name="GAME_GET_WORKFLOW_USERNAMES_CONCAT"
             targetBeanName="DynamicQueryExecutor" />
+            <tq-function
+            desc=""
+            name="WF_TASKS_FOR_PROCESS"
+             targetBeanName="DynamicQueryExecutor" />
+            <tq-function
+            desc=""
+            name="WF_GET_USER_QUEUEACCESS"
+            targetBeanName="DynamicQueryExecutor" />
 	</pool>
 	
 </pool-classes>
