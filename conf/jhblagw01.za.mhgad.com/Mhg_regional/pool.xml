@@ -5227,6 +5227,11 @@
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
+		<tq-function
+				name="GAME_GET_WORKFLOW_USERNAMES_CONCAT"
+				targetBeanName="DynamicQueryExecutor"
+				desc=""
+		/>
 
 	</pool>
    
