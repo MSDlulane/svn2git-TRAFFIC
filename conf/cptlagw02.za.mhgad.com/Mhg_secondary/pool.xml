@@ -4327,6 +4327,14 @@
 			name="GAME_GET_WORKFLOW_USERNAMES_CONCAT"
 			targetBeanName="DynamicQueryExecutor"
 			desc="" />
+		<tq-function
+			desc=""
+			name="WF_TASKS_FOR_PROCESS"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="WF_GET_USER_QUEUEACCESS"
+			targetBeanName="DynamicQueryExecutor" />
 		<!-- WAS 2013-10-10 END -->
 		<tq-function
 			name="FoG_VALIDATEMEMBER"
