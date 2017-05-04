@@ -4250,6 +4250,11 @@
 			targetBeanName="DynamicQueryExecutor"
 			desc=""/>
 
+             <tq-function
+             name="comms_fetch_letter"
+             targetBeanName="DynamicQueryExecutor"
+             desc=""/>
+
 		<!-- end of new TQ addition for GEMS API gate way -->
 
 			<tq-function
