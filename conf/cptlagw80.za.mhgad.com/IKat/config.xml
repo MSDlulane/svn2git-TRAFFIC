@@ -1,5 +1,4 @@
-<Enviroments>
-	
+<Enviroments>	
 	<time-zone_
 		help="optional"
 		reason="fix jdk1.4 bug on Solaris"
