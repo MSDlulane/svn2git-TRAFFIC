@@ -4269,6 +4269,11 @@
             name="comms_fetch_letter"
             targetBeanName="DynamicQueryExecutor"
             desc=""/>
+
+			<tq-function
+			name="Get_Tariff"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
                      
             <!-- end of new TQ addition for GEMS API gate way -->
 
