@@ -4345,6 +4345,14 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
+			name="WF_GET_CASE_TRACKER_BY_PROCESSID"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="WF_GET_CASE_TRACKER_BY_IMAGE"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="WF_GET_CASE_TRACKER_BY_MEMBER"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
