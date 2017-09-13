@@ -12,7 +12,7 @@
 		<pool useSoTimeOut="false" stickyStandin="true" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9108" connections="2"
+			id="COBOL" hostname="cptlapp97.za.mhgad.com" port="9108" connections="2"
 			autotimeout="120000" poolMaxWaitTime="10000"/>
 	</env>
 
