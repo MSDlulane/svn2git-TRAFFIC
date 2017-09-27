@@ -13,7 +13,7 @@
 			autotimeout="120000"
 			connections="2"
 			dropClientOnError="false"
-			hostname="cptlapp97.za.mhgad.com"
+			hostname="cptlapp90.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="10000"
 			port="9106"
