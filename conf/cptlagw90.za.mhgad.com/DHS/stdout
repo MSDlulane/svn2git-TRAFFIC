@@ -24,57 +24,57 @@ log4j: Adding appender named [CONSOLE] to category [root].
 13:12:54,185 INFO  [InterfaceClientServer] No default COBOL connector class defined
 13:12:54,185 INFO  [InterfaceClientServer] No default WEB connector class defined
 13:12:54,192 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,195 INFO  [InterfaceClientServer] Pool AMED, ID = COBOL on :cptlapp90.za.mhgad.com, port 9106, maxConnections = 20, autoTimeOut = 120000
+13:12:54,195 INFO  [InterfaceClientServer] Pool AMED, ID = COBOL on :cptlapp97.za.mhgad.com, port 9106, maxConnections = 20, autoTimeOut = 120000
 13:12:54,195 INFO  [InterfaceClientServer] No remote connector operations for pool AMED:COBOL
 13:12:54,196 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool AMED:COBOL
 13:12:54,197 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,198 INFO  [InterfaceClientServer] Pool GEMS, ID = COBOL on :cptlapp90.za.mhgad.com, port 9110, maxConnections = 25, autoTimeOut = 120000
+13:12:54,198 INFO  [InterfaceClientServer] Pool GEMS, ID = COBOL on :cptlapp97.za.mhgad.com, port 9110, maxConnections = 25, autoTimeOut = 120000
 13:12:54,199 ERROR [InterfaceClientServer] waitForSyncToFinishTimeout must be >=  minTrxTime
 13:12:54,200 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,201 INFO  [InterfaceClientServer] Pool GEMS, ID = COBOLBACKUP on :cptlapp90.za.mhgad.com, port 9233, maxConnections = 10, autoTimeOut = 90000
+13:12:54,201 INFO  [InterfaceClientServer] Pool GEMS, ID = COBOLBACKUP on :cptlapp97.za.mhgad.com, port 9233, maxConnections = 10, autoTimeOut = 90000
 13:12:54,202 INFO  [InterfaceClientServer] No remote connector operations for pool GEMS:COBOLBACKUP
 13:12:54,203 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool GEMS:COBOLBACKUP
 13:12:54,203 INFO  [InterfaceClientServer] RPC_Secondary_Connector: COBOLBACKUP
 13:12:54,204 INFO  [InterfaceClientServer] No remote connector operations for pool GEMS:COBOL
 13:12:54,205 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool GEMS:COBOL
 13:12:54,215 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,218 INFO  [InterfaceClientServer] Pool IMPERIAL, ID = COBOL on :cptlapp90.za.mhgad.com, port 9105, maxConnections = 20, autoTimeOut = 120000
+13:12:54,218 INFO  [InterfaceClientServer] Pool IMPERIAL, ID = COBOL on :cptlapp97.za.mhgad.com, port 9105, maxConnections = 20, autoTimeOut = 120000
 13:12:54,219 INFO  [InterfaceClientServer] No remote connector operations for pool IMPERIAL:COBOL
 13:12:54,219 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool IMPERIAL:COBOL
 13:12:54,220 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,221 INFO  [InterfaceClientServer] Pool MEDIPOS, ID = COBOL on :cptlapp90.za.mhgad.com, port 9108, maxConnections = 20, autoTimeOut = 120000
+13:12:54,221 INFO  [InterfaceClientServer] Pool MEDIPOS, ID = COBOL on :cptlapp97.za.mhgad.com, port 9108, maxConnections = 20, autoTimeOut = 120000
 13:12:54,221 INFO  [InterfaceClientServer] No remote connector operations for pool MEDIPOS:COBOL
 13:12:54,227 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool MEDIPOS:COBOL
 13:12:54,228 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,229 INFO  [InterfaceClientServer] Pool NEWMED, ID = COBOL on :cptlapp90.za.mhgad.com, port 9107, maxConnections = 25, autoTimeOut = 120000
+13:12:54,229 INFO  [InterfaceClientServer] Pool NEWMED, ID = COBOL on :cptlapp97.za.mhgad.com, port 9107, maxConnections = 25, autoTimeOut = 120000
 13:12:54,230 INFO  [InterfaceClientServer] No remote connector operations for pool NEWMED:COBOL
 13:12:54,230 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool NEWMED:COBOL
 13:12:54,231 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,232 INFO  [InterfaceClientServer] Pool NIMAS, ID = COBOL on :cptlapp90.za.mhgad.com, port 9113, maxConnections = 25, autoTimeOut = 120000
+13:12:54,232 INFO  [InterfaceClientServer] Pool NIMAS, ID = COBOL on :cptlapp97.za.mhgad.com, port 9113, maxConnections = 25, autoTimeOut = 120000
 13:12:54,232 INFO  [InterfaceClientServer] No remote connector operations for pool NIMAS:COBOL
 13:12:54,232 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool NIMAS:COBOL
 13:12:54,233 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,234 INFO  [InterfaceClientServer] Pool METROPOLITAN, ID = COBOL on :cptlapp90.za.mhgad.com, port 9311, maxConnections = 25, autoTimeOut = 120000
+13:12:54,234 INFO  [InterfaceClientServer] Pool METROPOLITAN, ID = COBOL on :cptlapp97.za.mhgad.com, port 9311, maxConnections = 25, autoTimeOut = 120000
 13:12:54,234 INFO  [InterfaceClientServer] No remote connector operations for pool METROPOLITAN:COBOL
 13:12:54,235 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool METROPOLITAN:COBOL
 13:12:54,236 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,236 INFO  [InterfaceClientServer] Pool POLMED, ID = COBOL on :cptlapp90.za.mhgad.com, port 9109, maxConnections = 25, autoTimeOut = 120000
+13:12:54,236 INFO  [InterfaceClientServer] Pool POLMED, ID = COBOL on :cptlapp97.za.mhgad.com, port 9109, maxConnections = 25, autoTimeOut = 120000
 13:12:54,237 INFO  [InterfaceClientServer] No remote connector operations for pool POLMED:COBOL
 13:12:54,244 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool POLMED:COBOL
 13:12:54,259 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,260 INFO  [InterfaceClientServer] Pool REDRIB, ID = COBOL on :cptlapp90.za.mhgad.com, port 9111, maxConnections = 20, autoTimeOut = 120000
+13:12:54,260 INFO  [InterfaceClientServer] Pool REDRIB, ID = COBOL on :cptlapp97.za.mhgad.com, port 9111, maxConnections = 20, autoTimeOut = 120000
 13:12:54,260 INFO  [InterfaceClientServer] No remote connector operations for pool REDRIB:COBOL
 13:12:54,261 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool REDRIB:COBOL
 13:12:54,262 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,262 INFO  [InterfaceClientServer] Pool SAMWU, ID = COBOL on :cptlapp90.za.mhgad.com, port 9115, maxConnections = 25, autoTimeOut = 120000
+13:12:54,262 INFO  [InterfaceClientServer] Pool SAMWU, ID = COBOL on :cptlapp97.za.mhgad.com, port 9115, maxConnections = 25, autoTimeOut = 120000
 13:12:54,263 INFO  [InterfaceClientServer] No remote connector operations for pool SAMWU:COBOL
 13:12:54,263 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool SAMWU:COBOL
 13:12:54,264 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,264 INFO  [InterfaceClientServer] Pool TRANSMED, ID = COBOL on :cptlapp90.za.mhgad.com, port 9107, maxConnections = 25, autoTimeOut = 120000
+13:12:54,264 INFO  [InterfaceClientServer] Pool TRANSMED, ID = COBOL on :cptlapp97.za.mhgad.com, port 9107, maxConnections = 25, autoTimeOut = 120000
 13:12:54,265 INFO  [InterfaceClientServer] No remote connector operations for pool TRANSMED:COBOL
 13:12:54,266 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool TRANSMED:COBOL
 13:12:54,266 INFO  [TcpipPool] Pool Connector className: InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector
-13:12:54,267 INFO  [InterfaceClientServer] Pool SIGMA, ID = COBOL on :cptlapp90.za.mhgad.com, port 9112, maxConnections = 25, autoTimeOut = 120000
+13:12:54,267 INFO  [InterfaceClientServer] Pool SIGMA, ID = COBOL on :cptlapp97.za.mhgad.com, port 9112, maxConnections = 25, autoTimeOut = 120000
 13:12:54,267 INFO  [InterfaceClientServer] No remote connector operations for pool SIGMA:COBOL
 13:12:54,268 INFO  [InterfaceClientServer] No dis/enable on local connectors for SYNC operations for pool SIGMA:COBOL
 13:12:54,271 INFO  [InterfaceLogger] Starting InterfaceLogger /opt/mhg/TRAFFIC/etc/DHS_ACPT/config.xml
@@ -197,123 +197,123 @@ log4j: Adding appender named [CONSOLE] to category [root].
 13:12:54,448 DEBUG [Agent] Waiting for connection
 13:12:54,497 ERROR [InterfaceClientServer] Starting automatic connector test sequence...
 13:12:54,497 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:54,604 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9107,localport=37924]
+13:12:54,604 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9107,localport=37924]
 13:12:54,604 DEBUG [CobolConnector] Creating CobolConnector Instance
-13:12:54,605 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9107,localport=37924] - 9 bytes
+13:12:54,605 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9107,localport=37924] - 9 bytes
 13:12:54,650 DEBUG [TCPIPClient] 000000115
-13:12:54,651 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9107,localport=37924] - 115 bytes
+13:12:54,651 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9107,localport=37924] - 115 bytes
 13:12:54,652 DEBUG [TCPIPClient] <DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> 
 13:12:54,652 DEBUG [TCPIPClient] ZZZZZzzzzzz..... Sleeping 50ms
-13:12:54,705 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = NEWMED, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9107
-13:12:54,705 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9107
+13:12:54,705 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = NEWMED, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9107
+13:12:54,705 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9107
 13:12:54,706 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:54,712 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp90.za.mhgad.com:9107. Closing pool object, java.net.SocketException: Socket closed
-13:12:54,814 FATAL [InterfaceClientServer] Failed to test RPC Connector: env = GEMS, pool = COBOLBACKUP, hostDetails = cptlapp90.za.mhgad.com:9233
-13:12:54,815 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9233
+13:12:54,712 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp97.za.mhgad.com:9107. Closing pool object, java.net.SocketException: Socket closed
+13:12:54,814 FATAL [InterfaceClientServer] Failed to test RPC Connector: env = GEMS, pool = COBOLBACKUP, hostDetails = cptlapp97.za.mhgad.com:9233
+13:12:54,815 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9233
 13:12:54,817 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:54,920 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9110,localport=48680]
+13:12:54,920 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9110,localport=48680]
 13:12:54,920 DEBUG [CobolConnector] Creating CobolConnector Instance
-13:12:54,927 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9110,localport=48680] - 9 bytes
+13:12:54,927 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9110,localport=48680] - 9 bytes
 13:12:54,982 DEBUG [TCPIPClient] 000000115
-13:12:54,982 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9110,localport=48680] - 115 bytes
+13:12:54,982 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9110,localport=48680] - 115 bytes
 13:12:54,983 DEBUG [TCPIPClient] <DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> 
 13:12:54,983 DEBUG [TCPIPClient] ZZZZZzzzzzz..... Sleeping 50ms
-13:12:55,042 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = GEMS, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9110
-13:12:55,042 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9110
+13:12:55,042 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = GEMS, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9110
+13:12:55,042 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9110
 13:12:55,043 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:55,043 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp90.za.mhgad.com:9110. Closing pool object, java.net.SocketException: Socket closed
-13:12:55,146 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9115,localport=36394]
+13:12:55,043 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp97.za.mhgad.com:9110. Closing pool object, java.net.SocketException: Socket closed
+13:12:55,146 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9115,localport=36394]
 13:12:55,147 DEBUG [CobolConnector] Creating CobolConnector Instance
-13:12:55,147 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9115,localport=36394] - 9 bytes
+13:12:55,147 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9115,localport=36394] - 9 bytes
 13:12:55,191 DEBUG [TCPIPClient] 000000115
-13:12:55,191 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9115,localport=36394] - 115 bytes
+13:12:55,191 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9115,localport=36394] - 115 bytes
 13:12:55,192 DEBUG [TCPIPClient] <DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> 
 13:12:55,192 DEBUG [TCPIPClient] ZZZZZzzzzzz..... Sleeping 50ms
-13:12:55,244 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = SAMWU, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9115
-13:12:55,244 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9115
+13:12:55,244 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = SAMWU, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9115
+13:12:55,244 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9115
 13:12:55,244 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:55,245 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp90.za.mhgad.com:9115. Closing pool object, java.net.SocketException: Socket closed
-13:12:55,347 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9108,localport=53034]
+13:12:55,245 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp97.za.mhgad.com:9115. Closing pool object, java.net.SocketException: Socket closed
+13:12:55,347 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9108,localport=53034]
 13:12:55,349 DEBUG [CobolConnector] Creating CobolConnector Instance
-13:12:55,350 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9108,localport=53034] - 9 bytes
+13:12:55,350 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9108,localport=53034] - 9 bytes
 13:12:55,392 DEBUG [TCPIPClient] 000000115
-13:12:55,393 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9108,localport=53034] - 115 bytes
+13:12:55,393 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9108,localport=53034] - 115 bytes
 13:12:55,394 DEBUG [TCPIPClient] <DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> 
 13:12:55,405 DEBUG [TCPIPClient] ZZZZZzzzzzz..... Sleeping 50ms
-13:12:55,457 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = MEDIPOS, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9108
-13:12:55,461 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9108
+13:12:55,457 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = MEDIPOS, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9108
+13:12:55,461 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9108
 13:12:55,462 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:55,464 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp90.za.mhgad.com:9108. Closing pool object, java.net.SocketException: Socket closed
-13:12:55,567 FATAL [InterfaceClientServer] Failed to test RPC Connector: env = SIGMA, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9112
-13:12:55,567 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9112
+13:12:55,464 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp97.za.mhgad.com:9108. Closing pool object, java.net.SocketException: Socket closed
+13:12:55,567 FATAL [InterfaceClientServer] Failed to test RPC Connector: env = SIGMA, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9112
+13:12:55,567 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9112
 13:12:55,568 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:55,670 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9107,localport=37930]
+13:12:55,670 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9107,localport=37930]
 13:12:55,671 DEBUG [CobolConnector] Creating CobolConnector Instance
-13:12:55,691 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9107,localport=37930] - 9 bytes
+13:12:55,691 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9107,localport=37930] - 9 bytes
 13:12:55,732 DEBUG [TCPIPClient] 000000115
-13:12:55,733 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9107,localport=37930] - 115 bytes
+13:12:55,733 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9107,localport=37930] - 115 bytes
 13:12:55,733 DEBUG [TCPIPClient] <DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> 
 13:12:55,733 DEBUG [TCPIPClient] ZZZZZzzzzzz..... Sleeping 50ms
-13:12:55,786 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = TRANSMED, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9107
-13:12:55,787 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9107
+13:12:55,786 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = TRANSMED, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9107
+13:12:55,787 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9107
 13:12:55,788 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:55,790 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp90.za.mhgad.com:9107. Closing pool object, java.net.SocketException: Socket closed
-13:12:55,893 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9111,localport=59663]
+13:12:55,790 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp97.za.mhgad.com:9107. Closing pool object, java.net.SocketException: Socket closed
+13:12:55,893 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9111,localport=59663]
 13:12:55,893 DEBUG [CobolConnector] Creating CobolConnector Instance
-13:12:55,894 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9111,localport=59663] - 9 bytes
+13:12:55,894 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9111,localport=59663] - 9 bytes
 13:12:55,933 DEBUG [TCPIPClient] 000000115
-13:12:55,934 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9111,localport=59663] - 115 bytes
+13:12:55,934 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9111,localport=59663] - 115 bytes
 13:12:55,935 DEBUG [TCPIPClient] <DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> 
 13:12:55,936 DEBUG [TCPIPClient] ZZZZZzzzzzz..... Sleeping 50ms
-13:12:55,988 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = REDRIB, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9111
-13:12:55,989 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9111
+13:12:55,988 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = REDRIB, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9111
+13:12:55,989 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9111
 13:12:55,990 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:55,992 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp90.za.mhgad.com:9111. Closing pool object, java.net.SocketException: Socket closed
-13:12:56,095 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9113,localport=38810]
+13:12:55,992 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp97.za.mhgad.com:9111. Closing pool object, java.net.SocketException: Socket closed
+13:12:56,095 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9113,localport=38810]
 13:12:56,097 DEBUG [CobolConnector] Creating CobolConnector Instance
-13:12:56,098 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9113,localport=38810] - 9 bytes
+13:12:56,098 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9113,localport=38810] - 9 bytes
 13:12:56,142 DEBUG [TCPIPClient] 000000115
-13:12:56,143 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9113,localport=38810] - 115 bytes
+13:12:56,143 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9113,localport=38810] - 115 bytes
 13:12:56,144 DEBUG [TCPIPClient] <DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> 
 13:12:56,145 DEBUG [TCPIPClient] ZZZZZzzzzzz..... Sleeping 50ms
-13:12:56,197 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = NIMAS, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9113
-13:12:56,198 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9113
+13:12:56,197 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = NIMAS, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9113
+13:12:56,198 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9113
 13:12:56,199 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:56,201 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp90.za.mhgad.com:9113. Closing pool object, java.net.SocketException: Socket closed
-13:12:56,304 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9106,localport=39814]
+13:12:56,201 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp97.za.mhgad.com:9113. Closing pool object, java.net.SocketException: Socket closed
+13:12:56,304 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9106,localport=39814]
 13:12:56,305 DEBUG [CobolConnector] Creating CobolConnector Instance
-13:12:56,307 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9106,localport=39814] - 9 bytes
+13:12:56,307 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9106,localport=39814] - 9 bytes
 13:12:56,350 DEBUG [TCPIPClient] 000000115
-13:12:56,351 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9106,localport=39814] - 115 bytes
+13:12:56,351 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9106,localport=39814] - 115 bytes
 13:12:56,352 DEBUG [TCPIPClient] <DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> 
 13:12:56,353 DEBUG [TCPIPClient] ZZZZZzzzzzz..... Sleeping 50ms
-13:12:56,405 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = AMED, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9106
-13:12:56,406 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9106
+13:12:56,405 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = AMED, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9106
+13:12:56,406 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9106
 13:12:56,407 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:56,409 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp90.za.mhgad.com:9106. Closing pool object, java.net.SocketException: Socket closed
-13:12:56,512 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9109,localport=34853]
+13:12:56,409 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp97.za.mhgad.com:9106. Closing pool object, java.net.SocketException: Socket closed
+13:12:56,512 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9109,localport=34853]
 13:12:56,512 DEBUG [CobolConnector] Creating CobolConnector Instance
-13:12:56,513 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9109,localport=34853] - 9 bytes
+13:12:56,513 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9109,localport=34853] - 9 bytes
 13:12:56,553 DEBUG [TCPIPClient] 000000115
-13:12:56,554 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9109,localport=34853] - 115 bytes
+13:12:56,554 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9109,localport=34853] - 115 bytes
 13:12:56,554 DEBUG [TCPIPClient] <DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> 
 13:12:56,555 DEBUG [TCPIPClient] ZZZZZzzzzzz..... Sleeping 50ms
-13:12:56,607 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = POLMED, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9109
-13:12:56,608 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9109
+13:12:56,607 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = POLMED, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9109
+13:12:56,608 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9109
 13:12:56,609 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:56,610 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp90.za.mhgad.com:9109. Closing pool object, java.net.SocketException: Socket closed
-13:12:56,714 FATAL [InterfaceClientServer] Failed to test RPC Connector: env = METROPOLITAN, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9311
-13:12:56,715 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9311
+13:12:56,610 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp97.za.mhgad.com:9109. Closing pool object, java.net.SocketException: Socket closed
+13:12:56,714 FATAL [InterfaceClientServer] Failed to test RPC Connector: env = METROPOLITAN, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9311
+13:12:56,715 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9311
 13:12:56,716 DEBUG [TCPIPClient] TCP/IP Connection Timeout = 28000
-13:12:56,819 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9105,localport=49820]
+13:12:56,819 DEBUG [TCPIPClient] Socket info = Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9105,localport=49820]
 13:12:56,819 DEBUG [CobolConnector] Creating CobolConnector Instance
-13:12:56,820 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9105,localport=49820] - 9 bytes
+13:12:56,820 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9105,localport=49820] - 9 bytes
 13:12:56,865 DEBUG [TCPIPClient] 000000115
-13:12:56,866 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp90.za.mhgad.com/172.23.113.200,port=9105,localport=49820] - 115 bytes
+13:12:56,866 DEBUG [TCPIPClient] Reading data from Socket[addr=cptlapp97.za.mhgad.com/172.23.113.200,port=9105,localport=49820] - 115 bytes
 13:12:56,867 DEBUG [TCPIPClient] <DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> 
 13:12:56,868 DEBUG [TCPIPClient] ZZZZZzzzzzz..... Sleeping 50ms
-13:12:56,920 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = IMPERIAL, pool = COBOL, hostDetails = cptlapp90.za.mhgad.com:9105
-13:12:56,921 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp90.za.mhgad.com:9105
-13:12:56,922 FATAL [InterfaceClientServer] Automatic connector test sequence result: <connectorTest><server><serverName>DHS Test Server </serverName><tradingPartner>Mediswitch</tradingPartner><active>true</active><cache>false</cache></server><connectors><connector><env>NEWMED</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9107</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>GEMS</env><id>COBOLBACKUP</id><hostDetails>cptlapp90.za.mhgad.com:9233</hostDetails><status>failed</status><msg>java.lang.reflect.InvocationTargetException</msg></connector><connector><env>GEMS</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9110</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>SAMWU</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9115</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>MEDIPOS</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9108</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>SIGMA</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9112</hostDetails><status>failed</status><msg>java.lang.reflect.InvocationTargetException</msg></connector><connector><env>TRANSMED</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9107</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>REDRIB</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9111</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>NIMAS</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9113</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>AMED</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9106</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>POLMED</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9109</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>METROPOLITAN</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9311</hostDetails><status>failed</status><msg>java.lang.reflect.InvocationTargetException</msg></connector><connector><env>IMPERIAL</env><id>COBOL</id><hostDetails>cptlapp90.za.mhgad.com:9105</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector></connectors></connectorTest>
+13:12:56,920 INFO  [InterfaceClientServer] Successfully tested RPC Connector: env = IMPERIAL, pool = COBOL, hostDetails = cptlapp97.za.mhgad.com:9105
+13:12:56,921 INFO  [InterfaceClientServer] Connector test closing tcpip client: cptlapp97.za.mhgad.com:9105
+13:12:56,922 FATAL [InterfaceClientServer] Automatic connector test sequence result: <connectorTest><server><serverName>DHS Test Server </serverName><tradingPartner>Mediswitch</tradingPartner><active>true</active><cache>false</cache></server><connectors><connector><env>NEWMED</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9107</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>GEMS</env><id>COBOLBACKUP</id><hostDetails>cptlapp97.za.mhgad.com:9233</hostDetails><status>failed</status><msg>java.lang.reflect.InvocationTargetException</msg></connector><connector><env>GEMS</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9110</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>SAMWU</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9115</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>MEDIPOS</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9108</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>SIGMA</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9112</hostDetails><status>failed</status><msg>java.lang.reflect.InvocationTargetException</msg></connector><connector><env>TRANSMED</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9107</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>REDRIB</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9111</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>NIMAS</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9113</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>AMED</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9106</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>POLMED</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9109</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector><connector><env>METROPOLITAN</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9311</hostDetails><status>failed</status><msg>java.lang.reflect.InvocationTargetException</msg></connector><connector><env>IMPERIAL</env><id>COBOL</id><hostDetails>cptlapp97.za.mhgad.com:9105</hostDetails><status>success</status><msg><DUMMY> </DUMMY>  <SST-STATUS>0000</SST-STATUS><SST-NO-OF-ERRORS>00</SST-NO-OF-ERRORS><SST-MESSAGE> </SST-MESSAGE> </msg></connector></connectors></connectorTest>
 13:12:56,924 INFO  [InterfaceClientServer]  Started DHS Test Server :20750
-13:12:56,925 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp90.za.mhgad.com:9105. Closing pool object, java.net.SocketException: Socket closed
+13:12:56,925 WARN  [TCPIPClient] Socket read error from server (Autotimeout maybe) cptlapp97.za.mhgad.com:9105. Closing pool object, java.net.SocketException: Socket closed
