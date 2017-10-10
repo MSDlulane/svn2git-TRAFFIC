@@ -4025,6 +4025,16 @@
 			name="WF_UPDATE_USER_SP_Allocation"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
+			 desc=""
+			 name="WF_GET_ORIGIN_TASK_ID"
+			 targetBeanName="DynamicQueryExecutor"
+		/>
+		<tq-function
+			 desc=""
+			 name="GET_CORRESPONDENCE_DETAILS"
+			 targetBeanName="DynamicQueryExecutor"
+		/>
+		<tq-function
 			desc=""
 			name="WORKFLOW_GET_VALIDATION_CODES"
 			targetBeanName="DynamicQueryExecutor" />
