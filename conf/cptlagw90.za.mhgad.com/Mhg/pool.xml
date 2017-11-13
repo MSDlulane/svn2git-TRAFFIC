@@ -4441,6 +4441,11 @@
             desc=""
             name="WF_GET_USER_QUEUEACCESS"
             targetBeanName="DynamicQueryExecutor" />
+			<tq-function
+			desc=""
+			name="GET_IMAGE_SIZE"
+			targetBeanName="DynamicQueryExecutor" />
+
 	</pool>
 	
 </pool-classes>
