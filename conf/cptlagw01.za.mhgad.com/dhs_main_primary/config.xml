@@ -514,25 +514,7 @@
 			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="nrde0003"
-		/>
-		<x-ref
-			description="WOOLTRU (Pharmacy Claim)"
-			functionMask="FFFF"
-			mhg="WOOLTRU"
-			tradingPartner="METR0003"
-		/>
-		<x-ref
-			description="FISHMED"
-			functionMask="FFFF"
-			mhg="FISHMED"
-			tradingPartner="METR0004"
-		/>
-		<x-ref
-			description="GOLDEN ARROW EMPLOYEES"
-			functionMask="FFFF"
-			mhg="GOLDEN"
-			tradingPartner="METR0005"
-		/>
+		/>				
 		<x-ref
 			description="METROPOLITAN"
 			functionMask="FFFF"
@@ -550,13 +532,7 @@
 			functionMask="FFFF"
 			mhg="REDRIB"
 			tradingPartner="METR0010"
-		/>
-		<x-ref
-			description="SAMWU"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="METR0011"
-		/>
+		/>		
 		<x-ref
 			description="TRANSMED"
 			functionMask="FFFF"
@@ -586,25 +562,7 @@
 			functionMask="FFFF"
 			mhg="REDRIB"
 			tradingPartner="rrdt0001"
-		/>
-		<x-ref
-			description="fish0002 - FISHMED"
-			functionMask="FFFF"
-			mhg="FISHMED"
-			tradingPartner="fish0002"
-		/>
-		<x-ref
-			description="nrde0004 - WOOLTRU"
-			functionMask="FFFF"
-			mhg="WOOLTRU"
-			tradingPartner="nrde0004"
-		/>
-		<x-ref
-			description="Engen - Real Time - MENG0001 = ENGEN"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MENG0001"
-		/>
+		/>		
 		<x-ref
 			description="MHG: AFROX REALTIME (MEDICAL)"
 			functionMask="FFFF"
@@ -628,28 +586,8 @@
 			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="MBSM0001"
-		/>
+		/>	
 		
-	
-		
-		<x-ref
-			description="MHG: BP SOUTHERN AFRICA REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0002"
-		/>
-		<x-ref
-			description="MHG: BP SOUTHERN AFRICA SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0003"
-		/>
-		<x-ref
-			description="MHG: BP SOUTHERN AFRICA SWITCHON (Pharmacy Claim)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0005"
-		/>
 		<x-ref
 			description="MHG: FOSCHINI REALTIME (MEDICAL)"
 			functionMask="FFFF"
@@ -697,19 +635,7 @@
 			functionMask="FFFF"
 			mhg="NEWMED"
 			tradingPartner="MMSM0002"
-		/>
-		<x-ref
-			description="MHG: ENGEN REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MERM0001"
-		/>
-		<x-ref
-			description="MHG: ENGEN SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MESM0001"
-		/>
+		/>		
 		<x-ref
 			description="MHG: REMEDI REALTIME (MEDICAL)"
 			functionMask="FFFF"
@@ -733,19 +659,7 @@
 			functionMask="FFFF"
 			mhg="TRANSMED"
 			tradingPartner="MTSM0001"
-		/>
-		<x-ref
-			description="MHG: WOOLTRU REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="WOOLTRU"
-			tradingPartner="MWRM0001"
-		/>
-		<x-ref
-			description="MHG: WOOLTRU SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="WOOLTRU"
-			tradingPartner="MWSM0001"
-		/>
+		/>		
 		<x-ref
 			description="Bankmed Docters claim"
 			functionMask="FFFF"
@@ -782,50 +696,7 @@
 			mhg="AMED"
 			tradingPartner="MARR0001"
 		/>
-		<x-ref
-			description="MHG: ENGEN PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MEPR0001"
-		/>
-		<x-ref
-			description="MHG: ENGEN REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MERM0003"
-		/>
-		<x-ref
-			description="MHG: ENGEN REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MERR0003"
-		/>
-		<x-ref
-			description="MHG: BP SOUTHERN AFRICA PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0006"
-		/>
-		<x-ref
-			description="MHG: BP SOUTHERN REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSR0001"
-		/>
-		<x-ref
-			description="MHG: BP SOUTHERN AFRICA REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0007"
-		/>
-		<x-ref
-			description="MHG: BP NAMIBIA INFRASTRUCTURE"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0001"
-		/>
-		
-		
+				
 		<x-ref
 			description="MHG: FOSCHINI PATHOLOGY REALER (MEDICAL)"
 			functionMask="FFFF"
@@ -897,25 +768,7 @@
 			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="MPNP0019"
-		/>
-		<x-ref
-			description="MHG: WOOLTRU PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="WOOLTRU"
-			tradingPartner="MWPR0003"
-		/>
-		<x-ref
-			description="MHG: WOOLTRU REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="WOOLTRU"
-			tradingPartner="MWRM0002"
-		/>
-		<x-ref
-			description="MHG: WOOLTRU REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="WOOLTRU"
-			tradingPartner="MWRR0001"
-		/>
+		/>		
 		<x-ref
 			description="MHG: METROPOLITAN REALER RADIO PHYSIO (MEDICAL)"
 			functionMask="FFFF"
@@ -1041,13 +894,7 @@
 			functionMask="FFFF"
 			mhg="MEDIPOS"
 			tradingPartner="MMRR0010"
-		/>
-		<x-ref
-			description="MHG: SAMWU Realtime"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="SAMW0001"
-		/>
+		/>		
 		<x-ref
 			description="MHG: Mediclinic Hospital to MHG"
 			functionMask="FFFF"

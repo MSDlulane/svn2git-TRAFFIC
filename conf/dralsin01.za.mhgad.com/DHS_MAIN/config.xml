@@ -12,11 +12,6 @@
 	<env name="AMED">
 		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
 			port="9107" connections="5" autotimeout="120000" poolMaxWaitTime="28000" />
-	</env>
-
-	<env name="ENGEN">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com"
-			port="9107" connections="5" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>	
 	
 	<env name="IMPERIAL" useDistributedCache="true">
@@ -124,60 +119,7 @@
 	<env name="REDRIB">
 	  	<pool id="COBOL" useSoTimeOut="false" hostname="cptlxml01.za.mhgad.com" 
 	  	port="9111" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
-	</env>
-	
-	<env name="SAMWU" mhgAccount="SAMWU" useDistributedCache="true">
-		<pool useSoTimeOut="false" stickyStandin="false"
-			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
-			dropClientOnError="false" startDisabled="false"
-			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9105"
-			connections="3" autotimeout="120000" poolMaxWaitTime="28000">
-
-			<!-- Auto dis/enable these connectors on a SYNC message -->
-			<localConnectorsToManipulateOnSync>
-				<localConnectorToManipulateOnSync
-					desc="Test" remoteEnv="SAMWU" remotePoolId="COBOLBACKUP" />
-			</localConnectorsToManipulateOnSync>
-
-			<remoteConnectorOperations>
-				
-				<remoteConnectorOperation desc="will enable conn if active"
-					action="STATUS" host="cptlagw01.za.mhgad.com" diagport="20101"
-					remoteEnv="SAMWU" remotePoolId="COBOL" />
-				<remoteConnectorOperation desc="will enable conn if trx processed"
-					action="ENABLE" host="cptlagw01.za.mhgad.com" diagport="20101"
-					remoteEnv="SAMWU" remotePoolId="COBOLBACKUP" />
-				<remoteConnectorOperation desc="will enable conn if trx processed"
-					action="DISABLE" host="cptlagw01.za.mhgad.com" diagport="20101"
-					remoteEnv="SAMWU" remotePoolId="COBOL" />
-					
-			</remoteConnectorOperations>
-
-			<secondaryPool useSoTimeOut="false"
-				autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" minTrxTime="15000"
-				dropClientOnError="false" startDisabled="true"
-				waitForSyncToFinishTimeout="10000" autoDisable="false" autoEnable="true"
-				id="COBOLBACKUP" hostname="dralsin01.za.mhgad.com" port="9312"
-				connections="3" autotimeout="90000" poolMaxWaitTime="28000"
-				connectorImplementationClassID="COBOL">
-				<remoteConnectorOperations>
-
-					<remoteConnectorOperation desc="will enable conn if active"
-						action="STATUS" host="cptlagw01.za.mhgad.com" diagport="20101"
-						remoteEnv="SAMWU" remotePoolId="COBOL" />
-					<remoteConnectorOperation desc="will disable conn if trx processed"
-						action="DISABLE" host="cptlagw01.za.mhgad.com" diagport="20101"
-						remoteEnv="SAMWU" remotePoolId="COBOLBACKUP" />
-					<remoteConnectorOperation desc="will enable conn if trx processed"
-						action="ENABLE" host="cptlagw01.za.mhgad.com" diagport="20101"
-						remoteEnv="SAMWU" remotePoolId="COBOL" />
-						
-				</remoteConnectorOperations>
-
-			</secondaryPool>
-		</pool>
-	</env>
+	</env>	
 
 	<env name="TRANSMED" mhgAccount="NEWMED" useDistributedCache="true">
 		<pool useSoTimeOut="false" stickyStandin="false"

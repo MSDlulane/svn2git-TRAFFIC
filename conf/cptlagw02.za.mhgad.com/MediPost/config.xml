@@ -160,46 +160,6 @@
 		</pool>
 	</env>
 
-	
-	<env
-		name="SAMWU"
-		useDistributedCache="true">
-		<pool
-			useSoTimeOut="false"
-			stickyStandin="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="false"
-			autoEnable="true"
-			id="COBOL"
-			hostname="cptlxml01.za.mhgad.com"
-			port="9105"
-			connections="20"
-			autotimeout="120000"
-			poolMaxWaitTime="28000">
-			<secondaryPool
-				useSoTimeOut="false"
-				autoDisableOnSyncStart="true"
-				autoEnableOnSyncEnd="true"
-				minTrxTime="15000"
-				dropClientOnError="false"
-				startDisabled="true"
-				waitForSyncToFinishTimeout="10000"
-				autoDisable="false"
-				autoEnable="true"
-				id="COBOLBACKUP"
-				hostname="dralsin01.za.mhgad.com"
-				port="9310"
-				connections="10"
-				autotimeout="90000"
-				poolMaxWaitTime="28000"
-				connectorImplementationClassID="COBOL" />
-		</pool>
-	</env>
-
 	<env
 		name="TRANSMED"
 		mhgAccount="NEWMED"
@@ -293,33 +253,13 @@
 			tradingPartner="P02"
 			mhg="TRANSMED"
 			functionMask="FFFF"
-			description="Transmed" />
-		<x-ref
-			tradingPartner="P03"
-			mhg="WOOLTRU"
-			functionMask="FFFF"
-			description="Woolthru" />
-		<x-ref
-			tradingPartner="P05"
-			mhg="ENGEN"
-			functionMask="FFFF"
-			description="Engen" />
+			description="Transmed" />		
 		<x-ref
 			tradingPartner="P11"
 			mhg="METROPOLITAN"
 			functionMask="FFFF"
 			description="Metropolitan" />
-		<x-ref
-			tradingPartner="P12"
-			mhg="BP"
-			functionMask="FFFF"
-			description="BP" />
-		<x-ref
-			tradingPartner="P15"
-			mhg="SAMWU"
-			functionMask="FFFF"
-			description="Samwu" />
-		
+				
 		<x-ref
 			tradingPartner="P19"
 			mhg="GEMS"
