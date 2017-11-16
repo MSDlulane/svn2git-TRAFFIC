@@ -29,15 +29,9 @@ PRODUCTIONXML WOOLTRU cptlxml01.za.mhgad.com 9107
 PRODUCTIONXML RANDW cptlxml01.za.mhgad.com 9118
 # Production: STANDIN
 STANDIN GEMS dralsin01.za.mhgad.com 9110
-STANDIN BP dralsin01.za.mhgad.com 9306
-STANDIN FISHMED dralsin01.za.mhgad.com 9306
-STANDIN GOLDEN dralsin01.za.mhgad.com 9306
 STANDIN IMPERIAL dralsin01.za.mhgad.com 9308
 STANDIN MEDIPOS dralsin01.za.mhgad.com 9314
-STANDIN SAMWU dralsin01.za.mhgad.com 9312
 STANDIN TRANSMED dralsin01.za.mhgad.com 9307
-STANDIN WOOLTRU dralsin01.za.mhgad.com 9306
-STANDIN RANDW dralsin01.za.mhgad.com 9317
 # Pre-Production
 PREPRODUCTION PILIR cptlapp72.za.mhgad.com 9504
 PREPRODUCTION IMPERIAL cptlapp72.za.mhgad.com 9505
