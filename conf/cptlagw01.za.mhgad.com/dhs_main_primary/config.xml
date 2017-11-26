@@ -29,7 +29,293 @@
 		trxAbortSizeLimit="256000"
 		trxSizeLimit="128000"
 	/>
+	<env
+		name="BP"
+		useDistributedCache="true"
+	>
 		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="BP"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="20101"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="BP"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="3"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="28000"
+				port="9306"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="BP"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="BP"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="BP"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
+	</env>
+	<env
+		name="ENGEN"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		name="FISHMED"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="FISHMED"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="20101"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="FISHMED"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="3"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="28000"
+				port="9306"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="FISHMED"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="FISHMED"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="FISHMED"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
+	</env>
+	<env
+		name="GOLDEN"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="GOLDEN"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="20101"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="GOLDEN"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="3"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="28000"
+				port="9306"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="GOLDEN"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="GOLDEN"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="GOLDEN"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
+	</env>
 	<env
 		name="IMPERIAL"
 		useDistributedCache="true"
@@ -240,7 +526,97 @@
 			useSoTimeOut="false"
 		/>
 	</env>
-	
+	<env
+		name="SAMWU"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9105"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="SAMWU"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="20101"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="SAMWU"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="3"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="28000"
+				port="9312"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="SAMWU"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="SAMWU"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="SAMWU"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
+	</env>
 	<env
 		mhgAccount="NEWMED"
 		name="TRANSMED"
@@ -333,7 +709,97 @@
 			</secondaryPool>
 		</pool>
 	</env>
-	
+	<env
+		name="WOOLTRU"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="WOOLTRU"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="20101"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="WOOLTRU"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="3"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="28000"
+				port="9306"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="WOOLTRU"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="WOOLTRU"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="20101"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="WOOLTRU"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
+	</env>
 	<env
 		name="PILIR"
 		useDistributedCache="true"
@@ -514,7 +980,25 @@
 			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="nrde0003"
-		/>				
+		/>
+		<x-ref
+			description="WOOLTRU (Pharmacy Claim)"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="METR0003"
+		/>
+		<x-ref
+			description="FISHMED"
+			functionMask="FFFF"
+			mhg="FISHMED"
+			tradingPartner="METR0004"
+		/>
+		<x-ref
+			description="GOLDEN ARROW EMPLOYEES"
+			functionMask="FFFF"
+			mhg="GOLDEN"
+			tradingPartner="METR0005"
+		/>
 		<x-ref
 			description="METROPOLITAN"
 			functionMask="FFFF"
@@ -532,7 +1016,13 @@
 			functionMask="FFFF"
 			mhg="REDRIB"
 			tradingPartner="METR0010"
-		/>		
+		/>
+		<x-ref
+			description="SAMWU"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="METR0011"
+		/>
 		<x-ref
 			description="TRANSMED"
 			functionMask="FFFF"
@@ -562,7 +1052,25 @@
 			functionMask="FFFF"
 			mhg="REDRIB"
 			tradingPartner="rrdt0001"
-		/>		
+		/>
+		<x-ref
+			description="fish0002 - FISHMED"
+			functionMask="FFFF"
+			mhg="FISHMED"
+			tradingPartner="fish0002"
+		/>
+		<x-ref
+			description="nrde0004 - WOOLTRU"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="nrde0004"
+		/>
+		<x-ref
+			description="Engen - Real Time - MENG0001 = ENGEN"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="MENG0001"
+		/>
 		<x-ref
 			description="MHG: AFROX REALTIME (MEDICAL)"
 			functionMask="FFFF"
@@ -586,8 +1094,28 @@
 			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="MBSM0001"
-		/>	
+		/>
 		
+	
+		
+		<x-ref
+			description="MHG: BP SOUTHERN AFRICA REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="MBSA0002"
+		/>
+		<x-ref
+			description="MHG: BP SOUTHERN AFRICA SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="MBSA0003"
+		/>
+		<x-ref
+			description="MHG: BP SOUTHERN AFRICA SWITCHON (Pharmacy Claim)"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="MBSA0005"
+		/>
 		<x-ref
 			description="MHG: FOSCHINI REALTIME (MEDICAL)"
 			functionMask="FFFF"
@@ -635,7 +1163,19 @@
 			functionMask="FFFF"
 			mhg="NEWMED"
 			tradingPartner="MMSM0002"
-		/>		
+		/>
+		<x-ref
+			description="MHG: ENGEN REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="MERM0001"
+		/>
+		<x-ref
+			description="MHG: ENGEN SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="MESM0001"
+		/>
 		<x-ref
 			description="MHG: REMEDI REALTIME (MEDICAL)"
 			functionMask="FFFF"
@@ -659,7 +1199,19 @@
 			functionMask="FFFF"
 			mhg="TRANSMED"
 			tradingPartner="MTSM0001"
-		/>		
+		/>
+		<x-ref
+			description="MHG: WOOLTRU REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="MWRM0001"
+		/>
+		<x-ref
+			description="MHG: WOOLTRU SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="MWSM0001"
+		/>
 		<x-ref
 			description="Bankmed Docters claim"
 			functionMask="FFFF"
@@ -696,7 +1248,50 @@
 			mhg="AMED"
 			tradingPartner="MARR0001"
 		/>
-				
+		<x-ref
+			description="MHG: ENGEN PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="MEPR0001"
+		/>
+		<x-ref
+			description="MHG: ENGEN REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="MERM0003"
+		/>
+		<x-ref
+			description="MHG: ENGEN REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="MERR0003"
+		/>
+		<x-ref
+			description="MHG: BP SOUTHERN AFRICA PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="MBSA0006"
+		/>
+		<x-ref
+			description="MHG: BP SOUTHERN REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="MBSR0001"
+		/>
+		<x-ref
+			description="MHG: BP SOUTHERN AFRICA REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="MBSA0007"
+		/>
+		<x-ref
+			description="MHG: BP NAMIBIA INFRASTRUCTURE"
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="MBSA0001"
+		/>
+		
+		
 		<x-ref
 			description="MHG: FOSCHINI PATHOLOGY REALER (MEDICAL)"
 			functionMask="FFFF"
@@ -768,7 +1363,25 @@
 			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="MPNP0019"
-		/>		
+		/>
+		<x-ref
+			description="MHG: WOOLTRU PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="MWPR0003"
+		/>
+		<x-ref
+			description="MHG: WOOLTRU REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="MWRM0002"
+		/>
+		<x-ref
+			description="MHG: WOOLTRU REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="MWRR0001"
+		/>
 		<x-ref
 			description="MHG: METROPOLITAN REALER RADIO PHYSIO (MEDICAL)"
 			functionMask="FFFF"
@@ -894,7 +1507,13 @@
 			functionMask="FFFF"
 			mhg="MEDIPOS"
 			tradingPartner="MMRR0010"
-		/>		
+		/>
+		<x-ref
+			description="MHG: SAMWU Realtime"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="SAMW0001"
+		/>
 		<x-ref
 			description="MHG: Mediclinic Hospital to MHG"
 			functionMask="FFFF"
