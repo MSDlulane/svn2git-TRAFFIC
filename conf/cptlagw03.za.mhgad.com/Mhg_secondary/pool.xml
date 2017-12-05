@@ -4268,6 +4268,21 @@
 			 targetBeanName="DynamicQueryExecutor"
 			 desc=""/>
 
+			<tq-function
+			name="WF_GET_ORIGIN_TASK_ID"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
+
+			<tq-function
+			name="GET_CORRESPONDENCE_DETAILS"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
+
+			<tq-function
+			name="GET_IMAGE_SIZE"
+			targetBeanName="DynamicQueryExecutor"
+			desc=""/>
+
 		<!-- end of new TQ addition for GEMS API gate way -->
 
 			<tq-function
