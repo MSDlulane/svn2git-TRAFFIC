@@ -5315,6 +5315,12 @@
 			name="WF_CONTEXTUALISE_PROCESS"
 			targetBeanName="ContextualiseProcess"
 		/>
+		<tq-function
+				desc=""
+				name="GEMS_EVO_GET_DOCTORS_NETWORK_INFO"
+				targetBeanName="ContextualiseProcess"
+		/>
+
 		<!-- Garth  -->
 		<tq-function
 			desc=""

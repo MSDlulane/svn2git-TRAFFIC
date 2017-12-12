@@ -4445,6 +4445,10 @@
 			desc=""
 			name="GET_IMAGE_SIZE"
 			targetBeanName="DynamicQueryExecutor" />
+			<tq-function
+			desc=""
+			name="GEMS_EVO_GET_DOCTORS_NETWORK_INFO"
+			targetBeanName="DynamicQueryExecutor" />
 
 	</pool>
 	
