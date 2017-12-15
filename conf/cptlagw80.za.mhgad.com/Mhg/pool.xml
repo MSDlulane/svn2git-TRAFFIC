@@ -5320,6 +5320,11 @@
 				name="GEMS_EVO_GET_DOCTORS_NETWORK_INFO"
 				targetBeanName="ContextualiseProcess"
 		/>
+        <tq-function
+                desc=""
+                name="FoG_GET_DOCTORS_NETWORK_INFO_BY_OPTION"
+                targetBeanName="ContextualiseProcess"
+        />
 
 		<!-- Garth  -->
 		<tq-function
