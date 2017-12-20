@@ -4375,6 +4375,16 @@
 				name="WF_GET_USER_QUEUEACCESS"
 				targetBeanName="DynamicQueryExecutor" />
 
+			<tq-function
+				desc=""
+				name="GEMS_EVO_GET_DOCTORS_NETWORK_INFO"
+				targetBeanName="DynamicQueryExecutor" />
+
+			<tq-function
+				desc=""
+				name="FoG_GET_DOCTORS_NETWORK_INFO_BY_OPTION"
+				targetBeanName="DynamicQueryExecutor" />
+
 			<!-- WAS 2013-10-10 END -->
 			<tq-function
 				name="FoG_VALIDATEMEMBER"
