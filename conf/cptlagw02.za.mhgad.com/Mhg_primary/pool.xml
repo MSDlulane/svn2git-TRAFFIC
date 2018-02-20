@@ -4384,6 +4384,10 @@
 				desc=""
 				name="FoG_GET_DOCTORS_NETWORK_INFO_BY_OPTION"
 				targetBeanName="DynamicQueryExecutor" />
+			<tq-function
+				desc=""
+				name="GET_ENQUIRIES_FOR_GEMS_LISTENS"
+				targetBeanName="DynamicQueryExecutor" />
 
 			<!-- WAS 2013-10-10 END -->
 			<tq-function

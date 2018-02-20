@@ -5242,6 +5242,10 @@
 			targetBeanName="DynamicQueryExecutor"
 			desc=""
 		/>
+		<tq-function
+			desc=""
+			name="GET_ENQUIRIES_FOR_GEMS_LISTENS"
+			targetBeanName="DynamicQueryExecutor" />
 
 	</pool>
    
