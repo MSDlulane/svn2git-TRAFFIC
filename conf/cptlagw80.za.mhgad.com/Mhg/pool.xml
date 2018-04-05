@@ -5371,6 +5371,10 @@
 				desc=""
 				name="GET_ENQUIRIES_FOR_GEMS_LISTENS"
 				targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+				desc=""
+				name="GET_PROVIDER_DISCIPLINE_DETAILS"
+				targetBeanName="DynamicQueryExecutor" />
 	</pool>
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
