@@ -4413,6 +4413,10 @@
                 name="PROVIDER_NETWORKS_SEARCH_GENERIC"
                 targetBeanName="DynamicQueryExecutor"
                 desc="" />
+			<tq-function
+				desc=""
+				name="GET_PROVIDER_DISCIPLINE_DETAILS"
+				targetBeanName="DynamicQueryExecutor" />
 
 	</pool>
 
