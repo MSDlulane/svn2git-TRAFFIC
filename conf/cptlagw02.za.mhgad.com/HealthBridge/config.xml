@@ -95,7 +95,7 @@
 			port="9310"
 			connections="10"
 			autotimeout="120000"
-			poolMaxWaitTime="60000" />
+			poolMaxWaitTime="300000" />
 	</env>
 
 	<env
