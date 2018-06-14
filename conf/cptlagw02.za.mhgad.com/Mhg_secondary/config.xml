@@ -123,8 +123,8 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
-			poolMaxWaitTime="30000">
+			autotimeout="120000"
+			poolMaxWaitTime="120000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
 				useSoTimeOut="false"
@@ -146,8 +146,8 @@
 			hostname="apl-amed.za.mhgad.com"
 			port="9207"
 			connections="5"
-			autotimeout="30000"
-			poolMaxWaitTime="30000" />
+			autotimeout="120000"
+			poolMaxWaitTime="120000" />
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -230,8 +230,8 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
-			poolMaxWaitTime="30000">
+			autotimeout="120000"
+			poolMaxWaitTime="120000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
 				useSoTimeOut="false"
@@ -313,8 +313,8 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
-			poolMaxWaitTime="30000">
+			autotimeout="120000"
+			poolMaxWaitTime="120000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
 				useSoTimeOut="false"
@@ -364,8 +364,8 @@
 			hostname="apl-gems.za.mhgad.com"
 			port="9210"
 			connections="5"
-			autotimeout="30000"
-			poolMaxWaitTime="30000" />
+			autotimeout="120000"
+			poolMaxWaitTime="120000" />
 		<pool
 			id="POJAS"
 			useSoTimeOut="false"
@@ -410,8 +410,8 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
-			poolMaxWaitTime="30000">
+			autotimeout="120000"
+			poolMaxWaitTime="120000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
 				useSoTimeOut="false"
@@ -494,7 +494,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -562,7 +562,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -598,7 +598,7 @@
 			hostname="apl-imperial.za.mhgad.com"
 			port="9214"
 			connections="5"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000" />
 		<pool
 			autotimeout="120000"
@@ -660,7 +660,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -695,7 +695,7 @@
 			hostname="apl-medipos.za.mhgad.com"
 			port="9215"
 			connections="5"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000" />
 		<pool
 			autotimeout="120000"
@@ -757,7 +757,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -793,7 +793,7 @@
 			hostname="apl-newmed.za.mhgad.com"
 			port="9208"
 			connections="5"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000" />
 		<pool
 			autotimeout="120000"
@@ -855,7 +855,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -893,7 +893,7 @@
 			hostname="apl-nimas.za.mhgad.com"
 			port="9213"
 			connections="5"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000" />
 		<pool
 			autotimeout="120000"
@@ -955,7 +955,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1039,7 +1039,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1077,7 +1077,7 @@
 			hostname="apl-pilir.za.mhgad.com"
 			port="9204"
 			connections="5"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000" />
 		<pool
 			autotimeout="120000"
@@ -1139,7 +1139,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1175,7 +1175,7 @@
 			hostname="apl-redrib.za.mhgad.com"
 			port="9211"
 			connections="5"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000" />
 		<pool
 			autotimeout="120000"
@@ -1237,7 +1237,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1275,7 +1275,7 @@
 			hostname="apl-samwu.za.mhgad.com"
 			port="9205"
 			connections="5"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000" />
 		<pool
 			autotimeout="120000"
@@ -1337,7 +1337,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1375,7 +1375,7 @@
 			hostname="apl-randw.za.mhgad.com"
 			port="9217"
 			connections="5"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000" />
 		<pool
 			autotimeout="120000"
@@ -1437,7 +1437,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1520,7 +1520,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1603,7 +1603,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1687,7 +1687,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1770,7 +1770,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1853,7 +1853,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
@@ -1936,7 +1936,7 @@
 			hostname="cptlsee02.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="30000"
+			autotimeout="120000"
 			poolMaxWaitTime="30000">
 			<secondaryPool
 				id="POJAS_SLOW_BACKUP"
