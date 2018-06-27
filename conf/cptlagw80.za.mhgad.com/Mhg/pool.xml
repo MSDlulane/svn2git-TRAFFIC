@@ -5375,6 +5375,10 @@
 				desc=""
 				name="GET_PROVIDER_DISCIPLINE_DETAILS"
 				targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+				desc=""
+				name="WF_GET_QUEUE_NAMES"
+				targetBeanName="DynamicQueryExecutor" />
 	</pool>
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
