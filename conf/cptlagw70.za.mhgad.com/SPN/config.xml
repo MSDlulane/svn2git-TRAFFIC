@@ -19,7 +19,7 @@ switches to the backup
 	<!-- List of Environments that this server can talk to -->
 
 	<env name="AMED" mhgAccount="AMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 		connections="2" autotimeout="15000" poolMaxWaitTime="15000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
@@ -35,7 +35,7 @@ switches to the backup
 	</env>
 
 	<env name="IMPERIAL">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9105"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9105"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
@@ -47,7 +47,7 @@ switches to the backup
 	</env>
 
 	<env name="MEDIPOS">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9108"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9108"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
@@ -59,7 +59,7 @@ switches to the backup
 	</env>
 
 	<env name="HUM" mhgAccount="HUM">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -70,7 +70,7 @@ switches to the backup
 
 	<!-- This is an entry for NEWMED Pojas -->
 	<env name="NEWMED" mhgAccount="NEWMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9107"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9107"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
@@ -83,7 +83,7 @@ switches to the backup
 
 
 	<env name="REDRIB" mhgAccount="REDRIB">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9111"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9111"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
@@ -95,7 +95,7 @@ switches to the backup
 	</env>
 
 	<env name="GEMS" mhgAccount="GEMS">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9110"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9110"
 		connections="5" autotimeout="15000" poolMaxWaitTime="15000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
@@ -107,7 +107,7 @@ switches to the backup
 	</env>	
 
 	<env name="PILIR" mhgAccount="PILIR">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9104"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9104"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
@@ -119,7 +119,7 @@ switches to the backup
 	</env>
 
 	<env name="PILIRT" mhgAccount="PILIRT">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9104"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9104"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
@@ -132,7 +132,7 @@ switches to the backup
 
 
 	<env name="NIMAS" mhgAccount="NIMAS">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9113"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
@@ -144,7 +144,7 @@ switches to the backup
 	</env>
 
 	<!--<env name="GENESIS" mhgAccount="GENESIS">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9114"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9114"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
 			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
@@ -154,7 +154,7 @@ switches to the backup
 	</env>
 -->
 	<env name="SAMWU" mhgAccount="SAMWU">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9115"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9115"
 		connections="2" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
 		connections="100" autotimeout="120000" poolMaxWaitTime="1000" />

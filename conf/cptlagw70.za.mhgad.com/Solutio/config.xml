@@ -7,7 +7,7 @@
 
 	<!-- List of Environments that this server can talk to -->
 	<env name="default" mhgAccount="GEMS">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9110"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9110"
 			connections="20" autotimeout="120000" poolMaxWaitTime="60000" />
 		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
                                         connections="100" autotimeout="120000" poolMaxWaitTime="1000" />

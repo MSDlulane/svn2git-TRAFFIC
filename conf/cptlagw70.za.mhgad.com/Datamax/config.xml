@@ -9,27 +9,27 @@
 	<!-- List of Environments that this server can talk to -->
 
 	<env name="AFROX">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="BANKMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="BP">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="ENGEN">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="FISHMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
@@ -38,57 +38,57 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9110" connections="25"
+			id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9110" connections="25"
 			autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="GOLDEN">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="IMPERIAL">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9105"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9105"
 		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="MEDIPOS">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9108"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9108"
 		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="METROPOLITAN">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9107"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9107"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="NETCARE">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9113"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="PGG">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9113"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 	
 	<env name="SAMWU">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9115"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9115"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="SAPPI">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="TRANSMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9107"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9107"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="WOOLTRU">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 		connections="20" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 

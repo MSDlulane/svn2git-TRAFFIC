@@ -13,7 +13,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9106"
+			id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9106"
 			connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
 	</env>
 
@@ -22,7 +22,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113" connections="10"
+			id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9113" connections="10"
 			autotimeout="120000" poolMaxWaitTime="60000"/>
 	</env>
 
@@ -31,7 +31,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9110" connections="10"
+			id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9110" connections="10"
 			autotimeout="120000" poolMaxWaitTime="60000"/>
 	</env>
 
@@ -40,7 +40,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9107"
+			id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9107"
 			connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
 	</env>
 
@@ -49,7 +49,7 @@
 			autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true"
 			dropClientOnError="false" startDisabled="false"
 			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
-			id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9115"
+			id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9115"
 			connections="10" autotimeout="120000" poolMaxWaitTime="60000"/>
 	</env>
 

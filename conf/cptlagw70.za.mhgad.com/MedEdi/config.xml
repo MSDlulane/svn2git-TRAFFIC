@@ -17,47 +17,47 @@ switches to the backup
 
 	<!-- List of Environments that this server can talk to -->
 	<env name="AMED" mhgAccount="AMED">
-		<pool startDisabled="false" id="COBOL" hostname="cptlapp90.za.mhgad.com"
+		<pool startDisabled="false" id="COBOL" hostname="cptlapp70.za.mhgad.com"
 		port="9106" connections="25" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 
 	<env name="GEMS">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9110"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9110"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="IMPERIAL" mhgAccount="IMPERIAL">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com"
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com"
 		port="9105" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="MEDIPOS" mhgAccount="MEDIPOS">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com"
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com"
 		port="9108" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="NEWMED">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9311"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9311"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="NIMAS">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9113"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9113"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>	
 
 	<env name="SAMWU">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9115"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9115"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="SIGMA">
-		<pool id="COBOL" hostname="cptlapp90.za.mhgad.com" port="9112"
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9112"
 		connections="25" autotimeout="120000" poolMaxWaitTime="28000" />
 	</env>
 
 	<env name="TRANSMED" mhgAccount="NEWMED">
-		<pool startDisabled="false" id="COBOL" hostname="cptlapp90.za.mhgad.com"
+		<pool startDisabled="false" id="COBOL" hostname="cptlapp70.za.mhgad.com"
 			port="9107" connections="25" autotimeout="120000" poolMaxWaitTime="40000"
 		  waitForSyncToFinishTimeout="15000" autoDisable="true" autoEnable="true" />
 	</env>

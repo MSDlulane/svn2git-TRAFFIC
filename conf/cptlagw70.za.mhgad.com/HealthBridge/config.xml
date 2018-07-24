@@ -15,71 +15,71 @@ autoDisable:					if true then connector will disable itself as soon as it switch
 	<!-- Test Connections -->
 
 	<env name="BP" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="BANKMED" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="ENGEN" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="FISHING_INDUSTRY" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="FOSCHINI" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="GEMS" >
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9110" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9110" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="GOLDEN_ARROW" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="METROPOLITAN" mhgAccount="NEWMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9107" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9107" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="NIMAS" >
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9113" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9113" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="PICK_N_PAY" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>	
 
 	<env name="REMEDI" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="SAPPI" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="SAMWU" mhgAccount="NEWMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9115" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9115" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="TRANSMED" mhgAccount="NEWMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9107" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9107" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="WOOLTRU" mhgAccount="AMED">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9106" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="IMPERIAL" mhgAccount="IMPERIAL">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9105" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9105" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<env name="MEDIPOS" mhgAccount="MEDIPOS">
-		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp90.za.mhgad.com" port="9108" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
+		<pool id="COBOL" useSoTimeOut="false" hostname="cptlapp70.za.mhgad.com" port="9108" connections="5" autotimeout="120000" poolMaxWaitTime="28000"/>
 	</env>
 
 	<transaction        class="InterfaceTransactions.Generic.GenTransactionWellformedXML" />
