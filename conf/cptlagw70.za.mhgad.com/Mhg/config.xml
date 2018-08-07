@@ -99,7 +99,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -114,7 +114,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -217,7 +217,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -232,7 +232,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -309,7 +309,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -324,7 +324,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -417,7 +417,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -432,7 +432,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -509,7 +509,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -524,7 +524,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -583,7 +583,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -598,7 +598,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -691,7 +691,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -706,7 +706,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -799,7 +799,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -814,7 +814,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -907,7 +907,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -922,7 +922,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -1017,7 +1017,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1032,7 +1032,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -1110,7 +1110,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1125,7 +1125,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -1220,7 +1220,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1235,7 +1235,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -1330,7 +1330,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1345,7 +1345,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -1440,7 +1440,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1455,7 +1455,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -1550,7 +1550,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1565,7 +1565,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -1642,7 +1642,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1657,7 +1657,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -1734,7 +1734,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1749,7 +1749,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -1826,7 +1826,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1841,7 +1841,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -1918,7 +1918,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -1933,7 +1933,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -2010,7 +2010,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -2025,7 +2025,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
@@ -2102,7 +2102,7 @@
 			waitForSyncToFinishTimeout="40000"
 		>
 			
-			<secondaryPool
+			<!-- <secondaryPool
 				autoDisable="false"
 				autoDisableOnSyncStart="true"
 				autoEnable="true"
@@ -2117,7 +2117,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
+			/> -->
 		</pool>
 		<pool
 			autoDisable="false"
