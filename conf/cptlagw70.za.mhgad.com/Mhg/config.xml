@@ -97,7 +97,7 @@
 			startDisabled="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>
+		/>
 			
 			<!-- <secondaryPool
 				autoDisable="false"
@@ -114,7 +114,7 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/> -->
+			/> 
 		</pool>
 		<pool
 			autoDisable="false"
@@ -157,7 +157,7 @@
 			id="COBOL_SLOW"
 			poolMaxWaitTime="30000"
 			port="9207"
-		/>
+		/>-->
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -234,7 +234,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -267,7 +267,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="GAME_LOCAL"
@@ -326,7 +326,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -359,7 +359,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="GEMS"
@@ -392,14 +392,14 @@
 			poolMaxWaitTime="120000"
 			port="9210"
 		/>
-		<pool
+		<!-- <pool
 			autotimeout="30000"
 			connections="5"
 			hostname="cptlapp70.za.mhgad.com"
 			id="COBOL_SLOW"
 			poolMaxWaitTime="30000"
 			port="9210"
-		/>
+		/> -->
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
@@ -434,7 +434,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -467,7 +467,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="IMAGE"
@@ -526,7 +526,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -559,7 +559,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="LDAP"
@@ -600,7 +600,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -633,7 +633,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="IMPERIAL"
@@ -648,14 +648,14 @@
 			poolMaxWaitTime="120000"
 			port="9214"
 		/>
-		<pool
+		<!-- <pool
 			autotimeout="30000"
 			connections="5"
 			hostname="cptlapp70.za.mhgad.com"
 			id="COBOL_SLOW"
 			poolMaxWaitTime="30000"
 			port="9214"
-		/>
+		/> -->
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -708,7 +708,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -741,7 +741,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="MEDIPOS"
@@ -756,14 +756,14 @@
 			poolMaxWaitTime="120000"
 			port="9215"
 		/>
-		<pool
+		<!-- <pool
 			autotimeout="30000"
 			connections="5"
 			hostname="cptlapp70.za.mhgad.com"
 			id="COBOL_SLOW"
 			poolMaxWaitTime="30000"
 			port="9215"
-		/>
+		/> -->
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -816,7 +816,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -849,7 +849,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="NEWMED"
@@ -864,14 +864,14 @@
 			poolMaxWaitTime="120000"
 			port="9208"
 		/>
-		<pool
+		<!-- <pool
 			autotimeout="30000"
 			connections="5"
 			hostname="cptlapp70.za.mhgad.com"
 			id="COBOL_SLOW"
 			poolMaxWaitTime="30000"
 			port="9208"
-		/>
+		/> -->
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -924,7 +924,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -957,7 +957,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="NIMAS"
@@ -973,7 +973,7 @@
 			port="9213"
 			useSoTimeOut="true"
 		/>
-		<pool
+		<!-- <pool
 			autotimeout="30000"
 			connections="5"
 			hostname="cptlapp70.za.mhgad.com"
@@ -981,7 +981,7 @@
 			poolMaxWaitTime="30000"
 			port="9213"
 			useSoTimeOut="true"
-		/>
+		/> -->
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1034,7 +1034,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1067,7 +1067,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 
 	<env
@@ -1127,7 +1127,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1160,7 +1160,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="PILIR"
@@ -1176,7 +1176,7 @@
 			port="9204"
 			useSoTimeOut="true"
 		/>
-		<pool
+		<!-- <pool
 			autotimeout="30000"
 			connections="5"
 			hostname="cptlapp70.za.mhgad.com"
@@ -1184,7 +1184,7 @@
 			poolMaxWaitTime="30000"
 			port="9204"
 			useSoTimeOut="true"
-		/>
+		/> -->
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1237,7 +1237,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1270,7 +1270,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>	
 	<env
 		mhgAccount="REDRIB"
@@ -1286,7 +1286,7 @@
 			port="9211"
 			useSoTimeOut="true"
 		/>
-		<pool
+		<!-- <pool
 			autotimeout="30000"
 			connections="5"
 			hostname="cptlapp70.za.mhgad.com"
@@ -1294,7 +1294,7 @@
 			poolMaxWaitTime="30000"
 			port="9211"
 			useSoTimeOut="true"
-		/>
+		/> -->
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1347,7 +1347,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1380,7 +1380,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="SAMWU"
@@ -1396,7 +1396,7 @@
 			port="9205"
 			useSoTimeOut="true"
 		/>
-		<pool
+		<!-- <pool
 			autotimeout="30000"
 			connections="5"
 			hostname="cptlapp70.za.mhgad.com"
@@ -1404,7 +1404,7 @@
 			poolMaxWaitTime="30000"
 			port="9205"
 			useSoTimeOut="true"
-		/>
+		/> -->
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1457,7 +1457,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1490,7 +1490,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="RANDW"
@@ -1506,7 +1506,7 @@
 			port="9217"
 			useSoTimeOut="true"
 		/>
-		<pool
+		<!-- <pool
 			autotimeout="30000"
 			connections="5"
 			hostname="cptlapp70.za.mhgad.com"
@@ -1514,7 +1514,7 @@
 			poolMaxWaitTime="30000"
 			port="9217"
 			useSoTimeOut="true"
-		/>
+		/> -->
 		<pool
 			autotimeout="120000"
 			connections="100"
@@ -1567,7 +1567,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1600,7 +1600,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="SHARE"
@@ -1659,7 +1659,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1692,7 +1692,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="SPINE"
@@ -1751,7 +1751,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1784,7 +1784,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="SPINELOG"
@@ -1843,7 +1843,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1876,7 +1876,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="SYSTEM"
@@ -1935,7 +1935,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -1968,7 +1968,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="UTILITY"
@@ -2027,7 +2027,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -2060,7 +2060,7 @@
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
 			/>
-		</pool>
+		</pool> -->
 	</env>
 	<env
 		mhgAccount="WORKFLOW"
@@ -2119,7 +2119,7 @@
 				waitForSyncToFinishTimeout="40000"
 			/> -->
 		</pool>
-		<pool
+		<!-- <pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
@@ -2151,8 +2151,8 @@
 				startDisabled="false"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="40000"
-			/>
-		</pool>
+			/> 
+		</pool>-->
 	</env>
 	<serverConfig
 		afterConnectorSleepTime="0"
