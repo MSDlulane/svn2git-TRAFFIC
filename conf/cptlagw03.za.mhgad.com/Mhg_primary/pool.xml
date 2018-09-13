@@ -4421,6 +4421,10 @@
 				desc=""
 				name="WF_GET_QUEUE_NAMES"
 				targetBeanName="DynamicQueryExecutor" />
+			<tq-function
+			desc=""
+			name="WORKFLOW_UNASSIGN_ITEM"
+			targetBeanName="DynamicQueryExecutor" />
 
 	</pool>
 
