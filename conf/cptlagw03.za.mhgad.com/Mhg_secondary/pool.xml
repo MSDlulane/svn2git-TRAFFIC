@@ -4417,7 +4417,10 @@
 			desc=""
 			name="WORKFLOW_UNASSIGN_ITEM"
 			targetBeanName="DynamicQueryExecutor" />
-
+		<tq-function
+			desc=""
+			name="WF_GET_QUEUE_ITEMS_PAGING"
+			targetBeanName="DynamicQueryExecutor" />
 	</pool>
 
 </pool-classes>
