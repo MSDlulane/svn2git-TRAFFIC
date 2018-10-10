@@ -75,7 +75,7 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		27014
+		27205
 	</snmp-port>
 	<tailWatchServer
 		id="Medista"
