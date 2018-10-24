@@ -94,6 +94,12 @@
 			mhg="ELCHECK"
 			tradingPartner="1"
 		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
 		
 	</transaction-x-ref>
 	<destination-x-ref	>
