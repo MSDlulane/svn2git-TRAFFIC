@@ -98,7 +98,7 @@
 			description="Realtime doctor Medicine claims"
 			functionNo="0002"
 			mhg="REALCLM"
-			tradingPartner="3"
+			tradingPartner="4"
 		/>
 		
 	</transaction-x-ref>
