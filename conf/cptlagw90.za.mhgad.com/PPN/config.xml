@@ -1,0 +1,206 @@
+<Enviroments>
+	
+	<server
+		__system_out="default"
+		diagPort="20856"
+		logConfigFile="log4j.xml"
+		name="PPN"
+		port="20855"
+		trxAbortSizeLimit="512000"
+		trxSizeLimit="512000"
+	/>
+	<env
+		name="AMED"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptlacp01.za.mhgad.com"
+			id="JEE"
+			poolMaxWaitTime="10000"
+			port="1099"
+		/>
+	</env>
+	
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransactionPlainTextInput"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		20857
+	</snmp-port>
+	<pool-definitions-file
+		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+		name="pool.xml"
+	/>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime Pharmacy Medicine claims"
+			functionNo="000A"
+			mhg="REALCLM"
+			tradingPartner="2"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="POJAS_PPN_VALIDATE_PATIENT"
+			functionNo="FFFF"
+			mhg="POJAS_PPN_VALIDATE_PATIENT"
+			tradingPartner="6"
+		/>
+		<x-ref
+			description="Realtime doctor"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+	</transaction-x-ref>
+	<destination-x-ref	>
+		
+		<x-ref
+			description="BANKMED: Dentists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA001"
+		/>
+		<x-ref
+			description="BANKMED: Pathologists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA002"
+		/>
+		<x-ref
+			description="BANKMED: Specialists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA003"
+		/>
+		<x-ref
+			description="BANKMED:Optometrists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA004"
+		/>
+		<x-ref
+			description="BANKMED:Radiologists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA005"
+		/>
+		<x-ref
+			description="BANKMED: Oncologists "
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA006"
+		/>
+		<x-ref
+			description="BANKMED: Physiotherapists"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA007"
+		/>
+		<x-ref
+			description="BANKMED: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA009"
+		/>
+		<x-ref
+			description="BANKMED: Other"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="PA008"
+		/>
+		
+	</destination-x-ref>
+	<tailWatchServer
+		id="PPNPat"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20858"
+	/>
+	<diagTailWatchServer
+		id="PPNPat"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20859"
+	/>
+	<inputDataServer
+		id="PPNPat"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20860"
+	/>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.SolutioLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="newmed"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
+			DbUserName="pojas"
+			logTable="PPN"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM,TRGXML01,CHGCLAIM,PPNAUTH"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
+

@@ -1,0 +1,524 @@
+<Enviroments>
+	
+	<env
+		mhgAccount="GEMS"
+		name="GEMS"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="false"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="15"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="GEMS"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="20801"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="GEMS"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="10"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="12000"
+				poolMaxWaitTime="28000"
+				port="9309"
+				startDisabled="true"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="20801"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="GEMS"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="20801"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="GEMS"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="20801"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="GEMS"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
+	</env>
+	<server
+		__system_out="default"
+		cmdPasswd="1q2w3e"
+		diagPort="20801"
+		distributedCacheEnabled="true"
+		distributedCacheEntryTimeout="120"
+		distributedCacheIP="cptlagw01.za.mhgad.com"
+		distributedCachePort="11211"
+		logConfigFile="log4j.xml"
+		name="DHS Gems Server"
+		port="20800"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="Mediswitch"
+		trxAbortSizeLimit="256000"
+		trxSizeLimit="128000"
+	/>
+	<env
+		mhgAccount="GEMS"
+		name="GEMS_NON_QPBM"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="120000"
+			port="9110"
+		/>
+	</env>
+	<env
+		mhgAccount="NIMAS"
+		name="NIMAS"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="50000"
+			port="9113"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<localConnectorsToManipulateOnSync			>
+				
+				<localConnectorToManipulateOnSync
+					desc="Test"
+					remoteEnv="NIMAS"
+					remotePoolId="COBOLBACKUP"
+				/>
+			</localConnectorsToManipulateOnSync>
+			<remoteConnectorOperations			>
+				
+				<remoteConnectorOperation
+					action="STATUS"
+					desc="will enable conn if active"
+					diagport="20801"
+					host="dralsin01.za.mhgad.com"
+					remoteEnv="NIMAS"
+					remotePoolId="COBOL"
+				/>
+			</remoteConnectorOperations>
+			<secondaryPool
+				autoDisable="false"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="10"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="dralsin01.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="40000"
+				port="9313"
+				startDisabled="false"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+				<remoteConnectorOperations				>
+					
+					<remoteConnectorOperation
+						action="STATUS"
+						desc="will enable conn if active"
+						diagport="20801"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="NIMAS"
+						remotePoolId="COBOL"
+					/>
+					<remoteConnectorOperation
+						action="DISABLE"
+						desc="will disable conn if trx processed"
+						diagport="20801"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="NIMAS"
+						remotePoolId="COBOLBACKUP"
+					/>
+					<remoteConnectorOperation
+						action="ENABLE"
+						desc="will enable conn if trx processed"
+						diagport="20801"
+						host="dralsin01.za.mhgad.com"
+						remoteEnv="NIMAS"
+						remotePoolId="COBOL"
+					/>
+				</remoteConnectorOperations>
+			</secondaryPool>
+		</pool>
+	</env>
+	<env
+		mhgAccount="NIMAS"
+		name="NIMAS_NON_QPBM"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlxml01.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="120000"
+			port="9113"
+			useSoTimeOut="true"
+		/>
+	</env>
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		20802
+	</snmp-port>
+	<tailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20803"
+	/>
+	<diagTailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20804"
+	/>
+	<synchronous-transactions>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			isPingOrHandshake="true"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime Pharmacy Medicine claims"
+			functionNo="000A"
+			mhg="REALCLM"
+			tradingPartner="2"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+		<x-ref
+			description="Realtime doctor"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
+		/>
+	</transaction-x-ref>
+	<destination-x-ref	>
+	
+	<x-ref
+			description="PING TEST"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MNPG0004"
+		/>
+		
+		<x-ref
+			description="GEMS Onyx"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="METR0006"
+		/>
+		<x-ref
+			description="GRDM0001 - GEMS"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="grdm0001"
+		/>
+		<x-ref
+			description="GEMS Emerald"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGEO0001"
+		/>
+		<x-ref
+			description="GEMS Ruby"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGRO0003"
+		/>
+		<x-ref
+			description="Doctors Real Time Procedures/Meds"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="nrdd0001"
+		/>
+		<x-ref
+			description="Pharmacy Real Time"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="MNIM0001"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGER0006"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGES0001"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOR0001"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOS0001"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRR0001"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRS0001"
+		/>
+		<x-ref
+			description="MHG: GEMS Saphire"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MSOP0010"
+		/>
+		<x-ref
+			description="MHG: NIMAS REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MNRM0001"
+		/>
+		<x-ref
+			description="MHG: NIMAS SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MNSM0002"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MOPP0003"
+		/>
+		<x-ref
+			description="MHG: GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MBOP0001"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MOPR0003"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MOPR0004"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOP0001"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOR0003"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOR0002"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRP0002"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRR0002"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRR0003"
+		/>
+		<x-ref
+			description="MHG: GEMS MEDICLINIC Emerald"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGEM0001"
+		/>
+		<x-ref
+			description="MHG: GEMS MEDICLINIC Onyx"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOM0001"
+		/>
+		<x-ref
+			description="MHG: GEMS MEDICLINIC Ruby"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRM0003"
+		/>
+		<x-ref
+			description="MHG: NIMAS REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MSRR0002"
+		/>
+		<x-ref
+			description="MHG: NIMAS PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MSPR0006"
+		/>
+		<x-ref
+			description="MHG: NIMAS REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS_NON_QPBM"
+			tradingPartner="MSRM0007"
+		/>
+	</destination-x-ref>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="pJ9fXZ3d"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-prod:5100/JBAUDIT"
+			DbUserName="traffic"
+			logTable="DHSGems"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
+
