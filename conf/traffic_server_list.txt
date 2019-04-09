@@ -244,7 +244,6 @@ cptlagw03.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012 ENA
 cptlagw03.za.mhgad.com Sanlam PRODUCTION_LATEST ENABLED -1 256 10013 DISABLED
 
 
-
 #
 # Mycare traffic server for processing claims from MyCare for the
 # Gems account.
