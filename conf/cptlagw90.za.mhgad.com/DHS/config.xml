@@ -810,6 +810,12 @@
 			mhg="GEMS_NON_QPBM"
 			tradingPartner="MOPP0003"
 		/>
+		<x-ref
+			description="MHG:GEMS connectivity"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="METR0005"
+		/>
 		
 	</destination-x-ref>
 	<logger
