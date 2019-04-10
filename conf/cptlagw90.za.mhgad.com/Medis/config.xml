@@ -230,8 +230,7 @@
 			minpoolsize="1"
 			poolId="generic"
 			timeout="600000"
-		>
-			
+		>			
 			<logTransactions
 				desc="comma seperated list of transactions to log"
 				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH"

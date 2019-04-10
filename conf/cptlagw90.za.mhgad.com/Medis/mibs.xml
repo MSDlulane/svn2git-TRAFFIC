@@ -1,5 +1,5 @@
 <MIBS>
-  <MIB name="1.3.6.1.2.1.1.1.0" desc="SysDescr"    className="jmgmt.data.MIB_SysDescr"    fixedValue="NewmedAI"/>
+ <MIB name="1.3.6.1.2.1.1.1.0" desc="SysDescr"    className="jmgmt.data.MIB_SysDescr"    fixedValue="NewmedAI"/>
   <MIB name="1.3.6.1.2.1.1.3.0" desc="SysUpTime"   className="jmgmt.data.MIB_SysUpTime" />
   <MIB name="1.3.6.1.2.1.1.4.0" desc="SysContact"  className="jmgmt.data.MIB_SysContact"  fixedValue="ebusiness@mhg.co.za"/>
   <MIB name="1.3.6.1.2.1.1.5.0" desc="SysName"     className="jmgmt.data.MIB_SysName"     fixedValue="NewmedAI"/>

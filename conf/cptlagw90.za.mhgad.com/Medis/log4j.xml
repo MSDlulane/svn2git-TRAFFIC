@@ -30,7 +30,6 @@
 			/>
         		</layout>
     </appender>
-
     <root>
         <priority
 		value="DEBUG"
