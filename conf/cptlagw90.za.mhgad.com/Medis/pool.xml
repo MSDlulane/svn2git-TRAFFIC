@@ -1,9 +1,0 @@
-<pool-classes>
-	
-	<pool
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-		id="COBOL"
-	/>
-	
-</pool-classes>
-
