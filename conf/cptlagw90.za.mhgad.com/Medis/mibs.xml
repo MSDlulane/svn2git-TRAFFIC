@@ -21,4 +21,4 @@
   <MIB name="1.3.6.1.4.15.0"    desc="Heartbeat transaction counter"     className="InterfaceTransactions.Diagnostics.snmp.MIB_PingAndHandshake"/>
   <MIB name="1.3.6.1.4.16.0"    desc="Dropped Transactions On Max LengthExceeded counter"     className="InterfaceTransactions.Diagnostics.snmp.MIB_DroppedTrxOnMaxLengthExceeded"/>
   <MIB name="1.3.6.1.4.17.0"    desc="Connected Clients"     className="InterfaceTransactions.Diagnostics.snmp.MIB_ClientConnections"/>
-</MIBS>
+</MIBS> 
