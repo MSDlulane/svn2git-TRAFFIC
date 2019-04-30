@@ -1,0 +1,426 @@
+<Enviroments>
+	
+	<server
+		__system_out="default"
+		cmdPasswd="1q2w3e"
+		diagPort="27106"
+		logConfigFile="log4j.xml"
+		name="Medicharge Test Server"
+		port="27105"
+		tradingPartner="Medicharge"
+		trxAbortSizeLimit="64000"
+		trxSizeLimit="48000"
+	/>
+	<env
+		mhgAccount="NEWMED"
+		name="METROPOLITAN"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="NIMAS"
+		name="PGG"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="2"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9113"
+		/>
+	</env>
+	<env
+		mhgAccount="NIMAS"
+		name="NETCARE"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="2"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9113"
+		/>
+	</env>
+	<env
+		mhgAccount="NIMAS"
+		name="NIMAS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="2"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9113"
+		/>
+	</env>
+	
+	<env
+		mhgAccount="AMED"
+		name="BANKMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="AMED"
+		name="WOOLTRU"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="AMED"
+		name="ENGEN"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="AMED"
+		name="AFROX"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="AMED"
+		name="SAPPI"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="AMED"
+		name="GOLDEN_ARROW"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="AMED"
+		name="FISHMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="AMED"
+		name="BP"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="GEMS"
+		name="GEMS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9110"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="NEWMED"
+		name="SAMWU"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9115"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="NEWMED"
+		name="TRANSMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<loggerOLD
+		classname="InterfaceTransactions.Diagnostics.HpInterFaceLogger"
+		logDirectory="Logs"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	/>
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		27107
+	</snmp-port>
+	<tailWatchServer
+		id="Medicharge"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="27108"
+	/>
+	<diagTailWatchServer
+		id="Medicharge"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="27109"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+		<x-ref
+			description="Realtime doctor"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
+		/>
+	</transaction-x-ref>
+	<destination-x-ref	>
+		
+		<x-ref
+			description="MCH1 - Metropolitan"
+			functionMask="FFFF"
+			mhg="METROPOLITAN"
+			tradingPartner="MCH1"
+		/>
+		<x-ref
+			description="MC2 - Nimas"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="MC2"
+		/>
+		<x-ref
+			description="MCPG - PGG"
+			functionMask="FFFF"
+			mhg="PGG"
+			tradingPartner="MCPG"
+		/>
+		
+		<x-ref
+			description="MCNET - NETCARE"
+			functionMask="FFFF"
+			mhg="NETCARE"
+			tradingPartner="MCNET"
+		/>
+		<x-ref
+			description="MCA - Bankmed"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="MCA"
+		/>
+		<x-ref
+			description="MCE - Wooltru"
+			functionMask="FFFF"
+			mhg="WOOLTRU"
+			tradingPartner="MCE"
+		/>
+		<x-ref
+			description="MCG - Engen"
+			functionMask="FFFF"
+			mhg="ENGEN"
+			tradingPartner="MCG"
+		/>
+		<x-ref
+			description="MCK - Afrox"
+			functionMask="FFFF"
+			mhg="AFROX"
+			tradingPartner="MCK"
+		/>
+		<x-ref
+			description="MCL - Sappi"
+			functionMask="FFFF"
+			mhg="SAPPI"
+			tradingPartner="MCL"
+		/>
+		<x-ref
+			description="MCN - GoldenArrow"
+			functionMask="FFFF"
+			mhg="GOLDEN_ARROW"
+			tradingPartner="MCN"
+		/>
+		<x-ref
+			description="MCO - Fishmed"
+			functionMask="FFFF"
+			mhg="FISHMED"
+			tradingPartner="MCO"
+		/>
+		<x-ref
+			description="MCP - BPSA "
+			functionMask="FFFF"
+			mhg="BP"
+			tradingPartner="MCP"
+		/>
+		<x-ref
+			description="MCQ - SAMWU "
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="MCQ"
+		/>
+		<x-ref
+			description="MCT - GEMS"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MCT"
+		/>
+		<x-ref
+			description="MCV - Transmed"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="MCV"
+		/>
+	</destination-x-ref>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="IR0b0t"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-dev:7550/JBAUDIT"
+			DbUserName="traffic"
+			logTable="Medicharge"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
+

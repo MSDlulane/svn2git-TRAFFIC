@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<pool-classes>
+   <pool id="COBOL" class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector" />
+   <pool id="EJB" class="InterfaceTransactions.TcpPool.Connectors.Ejb.EjbConnector">
+		  <tq-function name="EJB-ELCHECK" targetBeanName="ejbMemberDetais" desc="eligibility check"/>
+		  <tq-function name="EJB-PING" targetBeanName="none" desc="ping function directly from controller bean"/>
+		  <tq-function name="REALCLMNOLOG_" targetBeanName="ejbMemberDetais" desc="test without logger"/>
+   </pool>
+   <pool id="JWS" class="InterfaceTransactions.TcpPool.Connectors.webservice.WebserviceConnector">
+		  <tq-function name="JWS-SYSSTAT" targetBeanName="none" desc="get system status"/>
+   </pool>
+   <pool id="CARDHOLD" class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
+		  <tq-function name="MYSQL-VALMEM" targetBeanName="none" desc="Validate a member"/>
+		  <tq-function name="MYSQL-VALNAPPI" targetBeanName="none" desc="Validate Nappi"/>
+		  <tq-function name="MYSQL-VALTARIFF" targetBeanName="none" desc="Validate Tariff"/>
+		  <tq-function name="MYSQL-VALPRACTICE" targetBeanName="none" desc="Validate Practice"/>
+		  <tq-function name="MYSQL-VALPRACTICE-CODE" targetBeanName="none" desc="Validate Practice Code"/>
+   </pool>
+
+</pool-classes>
+

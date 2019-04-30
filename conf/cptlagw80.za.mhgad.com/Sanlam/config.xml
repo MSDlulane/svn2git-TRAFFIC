@@ -1,0 +1,100 @@
+<Enviroments>
+	
+	<server
+		__system_out="default"
+		cmdPasswd="p34nu7"
+		diagPort="20301"
+		logConfigFile="log4j.xml"
+		name="Sanlam"
+		port="20300"
+		tradingPartner="Sanlam"
+		trxAbortSizeLimit="64000"
+		trxSizeLimit="48000"
+	/>
+	<env
+		name="SANLAMBEN"
+	>
+		
+		<pool
+			autotimeout="30000"
+			connections="10"
+			hostname="197.96.70.216"
+			id="SANLAMBENOUT"
+			poolMaxWaitTime="30000"
+			port="5571"
+		/>
+	</env>
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		20302
+	</snmp-port>
+	<tailWatchServer
+		id="SANLAM"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20303"
+	/>
+	<diagTailWatchServer
+		id="SANLAM"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20304"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Benefit look-up"
+			functionNo="0001"
+			mhg="BENLOOKUP"
+			tradingPartner="1"
+		/>
+	</transaction-x-ref>
+	<destination-x-ref	>
+		
+		<x-ref
+			description="Benefit Requests to Sanlam Health"
+			functionMask="FFFF"
+			mhg="SANLAMBEN"
+			tradingPartner="SAN001"
+		/>
+	</destination-x-ref>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="IR0b0t"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-dev:7550/JBAUDIT"
+			DbUserName="traffic"
+			logTable="SANLAM"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="*"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
+

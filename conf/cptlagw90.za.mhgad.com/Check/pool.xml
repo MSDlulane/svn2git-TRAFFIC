@@ -1,0 +1,8 @@
+<pool-classes>
+	
+	<pool
+		class="InterfaceTransactions.Solutio.CobolConnector"
+		id="COBOL"
+	/>
+</pool-classes>
+
