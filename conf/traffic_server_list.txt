@@ -326,7 +326,7 @@ cptlagw90.za.mhgad.com MyCareStandinTest PRODUCTION_LATEST ENABLED -1 -1 65100 D
 cptlagw90.za.mhgad.com MedikreditGems ACCEPTANCE_LEGACY ENABLED -1 -1 65101 DISABLED
 cptlagw90.za.mhgad.com MedikreditGemsTest PRODUCTION_LEGACY ENABLED -1 -1 65104 DISABLED
 cptlagw90.za.mhgad.com Mediscor ACCEPTANCE_LEGACY ENABLED -1 -1 27202 ENABLED
-
+cptlagw90.za.mhgad.com Medista ACCEPTANCE_LEGACY ENABLED -1 -1 27202 ENABLED
 
 
 #   DEVELOPMENT
