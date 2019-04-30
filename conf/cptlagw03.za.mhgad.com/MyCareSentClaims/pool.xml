@@ -1,8 +1,0 @@
-<pool-classes>
-	
-	<pool
-		class="InterfaceTransactions.Solutio.MhrsConnector"
-		id="COBOL"
-	/>
-</pool-classes>
-

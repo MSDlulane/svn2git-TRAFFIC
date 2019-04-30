@@ -1,3 +1,0 @@
-log4j:WARN Failed to set property [priority] to value "DEBUG". 
-log4j:WARN [log/System.out] should be System.out or System.err.
-log4j:WARN Using previously set target, System.out by default.
