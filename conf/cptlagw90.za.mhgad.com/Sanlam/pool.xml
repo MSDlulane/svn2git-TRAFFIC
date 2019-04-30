@@ -1,0 +1,15 @@
+<pool-classes>
+	
+	<pool
+		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+		id="SANLAMBENOUT"
+	>
+		
+		<tq-function
+			desc="Benefit look-up"
+			name="BENLOOKUP"
+			targetBeanName="DynamicQueryExecutor"
+		/>
+	</pool>
+</pool-classes>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Enviroments>
+
+	<!-- Global Server Parameters -->
+	<server trxSizeLimit="512000" trxAbortSizeLimit="512000" name="Solutio (MHRS)"
+		port="20820" diagPort="20821" logConfigFile="log4j.xml" __system_out="default" autoTestConnectorsOnStartup="false" />
+
+	<!-- List of Environments that this server can talk to -->
+	<env name="default" mhgAccount="GEMS">
+		<pool id="COBOL" hostname="cptlapp70.za.mhgad.com" port="9110"
+			connections="20" autotimeout="120000" poolMaxWaitTime="60000" />
+		<pool id="EJB" hostname="cptlacp01.za.mhgad.com" port="1099"
+                                        connections="100" autotimeout="120000" poolMaxWaitTime="1000" />
+		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false"
+			waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true"
+			hostname="cptlagw70.za.mhgad.com" port="23000" connections="4"
+			autotimeout="120000" poolMaxWaitTime="60000" />
+	</env>
+
+	<transaction class="InterfaceTransactions.Solutio.SolutioTransaction" />
+	<transaction-header class="InterfaceTransactions.Solutio.SolutioHeader" />
+
+	<snmp-port mibFile="mibs.xml">20822</snmp-port>
+	<pool-definitions-file name="pool.xml"
+		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector">
+		<pool id="EJB"
+                        class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
+                        hostName="cptlacp01.za.mhgad.com" port="1099" account="AMED"
+                        serviceTqName="ListServicesNames" />
+		<pool id="POJAS"
+			class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+			hostName="cptlagw70.za.mhgad.com" port="23000" />
+	</pool-definitions-file>
+
+	<transaction-x-ref>
+		<!-- This xref id used for the MHG default transformation -->
+		<x-ref tradingPartner="10" mhg="CHGCLAIM" functionNo="FFFF"
+			description="Change the status of a claim" />
+		<x-ref tradingPartner="9" mhg="TRGXML01" functionNo="FFFF"
+			description="MHRS Ambulatory claim" />
+		<x-ref tradingPartner="8" mhg="TRGXML01" functionNo="FFFF" 
+			description="MHRS Switchback Claims" />
+		<x-ref tradingPartner="5" mhg="TRGXML01" functionNo="FFFF" 
+			description="MHRS Switchback Claims" />
+	</transaction-x-ref>
+
+	<tailWatchServer id="SolutioAuth" tcpipPort="20823"
+		multicast-host-ip="" multicast-port="-1" />
+	<inputDataServer id="SolutioAuth" tcpipPort="20825" multicast-host-ip="" multicast-port="-1" />
+
+	<transaction-transform>
+		<trx-form type="PatientValidation"
+			transformClass="InterfaceTransactions.Solutio.GenericTransaction"
+			tqFunctionName="POJAS_SOL_VALIDATE_PATIENT" />
+		<trx-form type="HospitalAuthorisationInformation"
+			transformClass="InterfaceTransactions.Solutio.GenericTransaction"
+			tqFunctionName="POJAS_SOL_AUTHORISATION" />
+		<trx-form type="InAuth" transformClass="InterfaceTransactions.Solutio.AuthTransfrom" />
+		<trx-form type="MemberBenefitMessage"
+			transformClass="InterfaceTransactions.Solutio.BenefitTransfrom" />
+		<trx-form type="DEFAULT"
+			transformClass="InterfaceTransactions.Solutio.DefaultTransfrom" />
+	</transaction-transform>
+
+	<logger classname="InterfaceTransactions.Diagnostics.SolutioLogger"
+		logFileRefreshInterval="Daily" 
+		processSleepTime="1000" 
+		logDirectory="log/Solutio/accesslog">
+		<claimsLogger 
+				poolId="generic" 
+				DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+				DbUrl="jdbc:sybase:Tds:cptlsyb92.za.mhgad.com:7500/JBAUDIT" 
+				logTable="Solutio" 
+				DbUserName="traffic" 
+				DbPassword="IR0b0t" 
+				minpoolsize="1" 
+				maxpoolsize="2" 
+				timeout="600000">
+				<logTransactions desc="comma seperated list of transactions to log" value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH" />
+		</claimsLogger>
+	</logger>
+
+</Enviroments>

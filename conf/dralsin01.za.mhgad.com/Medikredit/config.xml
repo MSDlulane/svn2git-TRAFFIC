@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Enviroments>
+	<time-zone_ help="optional" reason="fix jdk1.4 bug on Solaris">GMT-2</time-zone_>
+
+	<!-- Global Server Parameters -->
+
+	<server sendTrxDetailsToStatusMonitor="true" trxSizeLimit="48000" trxAbortSizeLimit="64000" cmdPasswd="1q2w3e" 
+					tradingPartner="Medikredit" name="AMED" active="true" autoDisable="false" port="21000" diagPort="21001" 
+					logConfigFile="log4j.xml" __system_out="mk_Amed_System.out"/>
+
+	<!-- List of Environments that this server can talk to -->
+	<env name="MEDIKREDIT" mhgAccount="AMED" >
+		<pool useSoTimeOut="false" stickyStandin="true" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" 
+					dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="false" 
+					autoEnable="true" id="COBOL" hostname="dralsin01.za.mhgad.com" port="9107" connections="2" autotimeout="120000" 
+					poolMaxWaitTime="9000">
+		</pool>
+	</env>
+
+	<MKLoad inMap="maps/MediKreditIn.txt" outMap="maps/MediKreditOut.txt" inReverseMap="maps/MediKreditInReverse.txt">
+		<save>
+			<single name="64"/>
+			<single name="V"/>
+			<single name="CDTE"/>
+			<single name="CTME"/>
+			<single name="PDR"/>
+		</save>
+		<add-input>
+			<pair name="63" value="MK"/>
+			<pair name="65" value="6034284"/>
+			<pair name="66" value="D"/>
+			<pair name="67" value="REALCLM"/>
+			<pair name="REVSC" value="1"/>
+		</add-input>
+		<add-output>
+			<pair name="ONE" value="1"/>
+			<pair name="OR1" value="BANKMED "/>
+			<pair name="JNK" value="000"/>
+			<pair name="RC1" value="0000"/>
+		</add-output>
+	</MKLoad>
+	<transaction        class="InterfaceTransactions.Medikredit.SingleLine.MkTransaction" />
+	<transaction-header class="InterfaceTransactions.Medikredit.SingleLine.MkHeaders" />
+
+
+	<pool-definitions-file name="pool.xml" />
+
+	<snmp-port mibFile="mibs.xml">21002</snmp-port>
+	<tailWatchServer id="Medikredit AMED Primary" tcpipPort="21003" multicast-host-ip="" multicast-port="-1" />
+	<diagTailWatchServer id="Medikredit AMED" tcpipPort="21004" multicast-host-ip="" multicast-port="-1" />
+
+	<synchronous-transactions>true</synchronous-transactions>
+
+	<!-- Log File Parameters  -->
+	<logger classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logFileRefreshInterval="Daily" 
+		processSleepTime="1000" 
+		logDirectory="log/accesslog">
+		<claimsLogger 
+			poolId="generic" 
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbUrl="jdbc:sybase:Tds:dralsyb02.za.mhgad.com:7100/JBAUDIT" 
+			logTable="Medikredit" 
+			DbUserName="traffic" 
+			DbPassword="pJ9fXZ3d" 
+			minpoolsize="1" 
+			maxpoolsize="2" 
+			timeout="600000">
+			<logTransactions desc="comma seperated list of transactions to log" value="REALCLM" />
+		</claimsLogger>
+	</logger>
+
+</Enviroments>

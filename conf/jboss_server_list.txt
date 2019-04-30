@@ -1,0 +1,8 @@
+PRODUCTION _ALL cptleap01.za.mhgad.com 1099
+PRODUCTIONPTA _ALL ptalagw01.za.mhgad.com 1099
+PRODUCTIONJHB _ALL jhblagw01.za.mhgad.com 1099
+PRODUCTIONDBN _ALL dbnlagw01.za.mhgad.com 1099
+PRODUCTIONCPA _ALL cpalagw01.za.mhgad.com 1099
+PRODUCTIONCPM _ALL cpmlagw01.za.mhgad.com 1099
+PRODUCTIONATH _ALL athlagw01.za.mhgad.com 1099
+
