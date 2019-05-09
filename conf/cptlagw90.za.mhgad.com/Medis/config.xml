@@ -86,10 +86,28 @@
 			tradingPartner="1"
 		/>
 		<x-ref
+			description="Realtime Pharmacy Medicine claims"
+			functionNo="000A"
+			mhg="REALCLM"
+			tradingPartner="2"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
 			description="Realtime doctor claims"
 			functionNo="0004"
 			mhg="REALCLM"
 			tradingPartner="4"
+		/>		
+		<x-ref
+			description="Realtime claims"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
 		/>
 		<x-ref
 			description="Ping"
