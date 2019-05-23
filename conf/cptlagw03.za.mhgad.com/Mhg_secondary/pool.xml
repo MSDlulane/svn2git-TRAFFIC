@@ -4421,6 +4421,10 @@
 			desc=""
 			name="WF_GET_QUEUE_ITEMS_PAGING"
 			targetBeanName="DynamicQueryExecutor" />
+			<tq-function
+			desc=""
+			name="WF_GET_QUEUE_ITEMS_PAGING_SUBJ"
+			targetBeanName="DynamicQueryExecutor" />
 	</pool>
 
 </pool-classes>
