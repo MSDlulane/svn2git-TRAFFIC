@@ -18,7 +18,7 @@
 		<pool
 			autotimeout="30000"
 			connections="10"
-			hostname="apl-medipos.za.mhgad.com"
+			hostname="cptlxml01.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9115"
@@ -32,7 +32,7 @@
 		<pool
 			autotimeout="30000"
 			connections="10"
-			hostname="apl-newmed.za.mhgad.com"
+			hostname="cptlxml01.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="30000"
 			port="9108"

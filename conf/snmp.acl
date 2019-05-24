@@ -15,16 +15,13 @@ acl = {
           access = read-only
           managers = cptwgnms01.za.mhgad.com
         }
+
       }
 # Traps are sent to localhost only
 trap = {
           {
             trap-community = public
-            hosts = cptlmon01.za.mhgad.com
-          }
-          {
-            trap-community = public
             hosts = cptwgnms01.za.mhgad.com
           }
-       }
+        }
 

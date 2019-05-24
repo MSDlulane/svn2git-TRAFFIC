@@ -34,7 +34,7 @@
 			autoDisable="false"
 			autoEnable="true"
 			id="COBOL"
-			hostname="apl-amed.za.mhgad.com"
+			hostname="cptlxml01.za.mhgad.com"
 			port="9107"
 			connections="2"
 			autotimeout="120000"
