@@ -810,12 +810,6 @@
 			mhg="GEMS_NON_QPBM"
 			tradingPartner="MOPP0003"
 		/>
-		<x-ref
-			description="Dummy member"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="METR0005"
-		/>
 		
 	</destination-x-ref>
 	<logger
@@ -839,7 +833,7 @@
 			
 			<logTransactions
 				desc="comma seperated list of transactions to log"
-				value="*"
+				value="REALCLM,TRGXML01,CHGCLAIM,SOLAUTH"
 			/>
 		</claimsLogger>
 	</logger>

@@ -17,7 +17,7 @@
 		mhgAccount="GEMS">
 		<pool
 			id="COBOL"
-			hostname="cptlxml01.za.mhgad.com"
+			hostname="apl-gems.za.mhgad.com"
 			port="9110"
 			connections="20"
 			autotimeout="120000"

@@ -77,12 +77,6 @@
 			tradingPartner="1"
 		/>
 		<x-ref
-			description="Realtime doctor claims"
-			functionNo="0004"
-			mhg="REALCLM"
-			tradingPartner="4"
-		/>
-		<x-ref
 			description="Ping"
 			functionNo="0008"
 			isPingOrHandshake="true"

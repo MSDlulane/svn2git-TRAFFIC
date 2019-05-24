@@ -13,7 +13,7 @@
           <pool useSoTimeOut="false" stickyStandin="true" autoDisableOnSyncStart="true" 
 	          autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" 
 	          waitForSyncToFinishTimeout="40000" autoDisable="false" autoEnable="true" 
-	          id="COBOL" hostname="cptlxml01.za.mhgad.com" port="9115" connections="5" 
+	          id="COBOL" hostname="apl-medipos.za.mhgad.com" port="9115" connections="5" 
 	          autotimeout="120000" poolMaxWaitTime="10000">
           </pool>
 	</env>

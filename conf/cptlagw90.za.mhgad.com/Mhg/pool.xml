@@ -4475,7 +4475,7 @@
 			targetBeanName="DynamicQueryExecutor" />
 			<tq-function
 			desc=""
-			name="WF_GET_QUEUE_ITEMS_PAGING_SUBJ"
+			name="WF_GET_QUEUE_DUP_ITEMS"
 			targetBeanName="DynamicQueryExecutor" />
 
 	</pool>
