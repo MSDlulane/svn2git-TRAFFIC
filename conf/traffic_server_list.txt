@@ -275,11 +275,6 @@ dralsin01.za.mhgad.com Medikredit PRODUCTION_LEGACY ENABLED -1 256 21010 DISABLE
 dralsin01.za.mhgad.com StandinSweeper PRODUCTION_LEGACY ENABLED -1 256 20911 DISABLED
 
 
-
-
-
-
-
 # REGIONAL
 # 
 # REGIONAL traffic hosts and instances service user interface requests 
@@ -326,7 +321,8 @@ cptlagw90.za.mhgad.com MyCareStandinTest PRODUCTION_LATEST ENABLED -1 -1 65100 D
 cptlagw90.za.mhgad.com MedikreditGems ACCEPTANCE_LEGACY ENABLED -1 -1 65101 DISABLED
 cptlagw90.za.mhgad.com MedikreditGemsTest PRODUCTION_LEGACY ENABLED -1 -1 65104 DISABLED
 cptlagw90.za.mhgad.com Mediscor ACCEPTANCE_LEGACY ENABLED -1 -1 27202 ENABLED
-
+cptlagw90.za.mhgad.com Medista ACCEPTANCE_LEGACY ENABLED -1 -1 27205 ENABLED
+cptlagw90.za.mhgad.com Medis ACCEPTANCE_LEGACY ENABLED -1 -1 27206 ENABLED
 
 
 #   DEVELOPMENT
@@ -343,10 +339,11 @@ cptlagw80.za.mhgad.com MyCareReceivedClaims ACCEPTANCE_LEGACY ENABLED -1 -1 6501
 cptlagw80.za.mhgad.com MyCareSentClaims ACCEPTANCE_LEGACY_SOLUTIO ENABLED -1 -1 65011 DISABLED
 cptlagw80.za.mhgad.com MedikreditGems DEVELOPMENT_LEGACY ENABLED -1 -1 65012 DISABLED
 cptlagw80.za.mhgad.com Mediscor DEVELOPMENT_LEGACY ENABLED -1 -1 27202 ENABLED
+cptlagw80.za.mhgad.com Medista DEVELOPMENT_LEGACY ENABLED -1 -1 27205 ENABLED
 
 # PREPROD
 cptlagw70.za.mhgad.com PPN PREPROD_LATEST ENABLED -1 -1 65001 DISABLED
-cptlagw70.za.mhgad.com Mhg RICHARD_TEST ENABLED -1 -1 65002 ENABLED
+cptlagw70.za.mhgad.com Mhg PRODUCTION_LATEST ENABLED 256 512 65002 ENABLED
 cptlagw70.za.mhgad.com Check PREPROD_LEGACY DISABLED -1 -1 65003 DISABLED
 cptlagw70.za.mhgad.com Datamax PREPROD_LEGACY ENABLED -1 -1 65004 DISABLED
 cptlagw70.za.mhgad.com DHS PREPROD_LEGACY ENABLED -1 -1 65005 DISABLED
@@ -366,4 +363,3 @@ cptlagw70.za.mhgad.com IKat PREPROD_LEGACY ENABLED -1 -1 65018 DISABLED
 cptlagw70.za.mhgad.com Standin PREPROD_LEGACY ENABLED -1 -1 65019 DISABLED
 cptlagw70.za.mhgad.com Sanlam PREPROD_LATEST DISABLED -1 256 65020 DISABLED
 cptlagw70.za.mhgad.com MKReal PREPROD_LEGACY ENABLED -1 -1 65021 DISABLED
-
