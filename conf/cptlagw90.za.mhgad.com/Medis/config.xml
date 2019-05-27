@@ -1,0 +1,263 @@
+<Enviroments>
+	
+	<server
+		__system_out="default"
+		cmdPasswd="p34nu7"
+		diagPort="27306"
+		logConfigFile="log4j.xml"
+		name="MEDIS ACPT"
+		port="27305"
+		tradingPartner="MEDIS"
+		trxAbortSizeLimit="64000"
+		trxSizeLimit="48000"
+	/>
+	<env
+		mhgAccount="MEDIPOS"
+		name="MEDIPOS"
+	>		
+		<pool
+			autotimeout="120000"
+			connections="10"
+			hostname="cptlapp97.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9108"
+		/>
+	</env>
+		
+	<env
+		mhgAccount="GEMS"
+		name="GEMS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="100"
+			hostname="cptlapp97.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="120000"
+			port="9110"
+		/>
+	</env>
+	
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<serverConfig
+		afterConnectorSleepTime="0"
+		useBufferedOutputStreamInPool="true"
+	/>
+	<multicastDiagServer
+		multicast-host-ip="225.225.225.225"
+		multicast-port="30000"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		27307
+	</snmp-port>
+	<tailWatchServer
+		id="MEDIS"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="27308"
+	/>
+	<diagTailWatchServer
+		id="MEDIS"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="27309"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref	>
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			isPingOrHandshake="true"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime Pharmacy Medicine claims"
+			functionNo="000A"
+			mhg="REALCLM"
+			tradingPartner="2"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>		
+		<x-ref
+			description="Realtime claims"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+		<x-ref
+			description="Realtime claims"
+			functionNo="190"
+			mhg="MEDPAYMT"
+			tradingPartner="190"
+		/>
+	</transaction-x-ref>
+	
+	<destination-x-ref	>		
+		<x-ref
+			description="Medipos: Dentists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7001"
+		/>
+		<x-ref
+			description="Medipos: Pathologists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7002"
+		/>
+		<x-ref
+			description="Medipos: Specialists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7003"
+		/>
+		<x-ref
+			description="Medipos:Optometrists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7004"
+		/>
+		<x-ref
+			description="Medipos:Radiologists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7005"
+		/>
+		<x-ref
+			description="Medipos: Oncologists "
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7006"
+		/>
+		<x-ref
+			description="Medipos: Physiotherapists"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7007"
+		/>
+		<x-ref
+			description="Medipos: Other"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7008"
+		/>
+		<x-ref
+			description="Medipos: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="MEDIPOS"
+			tradingPartner="P7009"
+		/>
+		<x-ref
+			description="GEMS: Dentists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT001"
+		/>		
+		<x-ref
+			description="GEMS: Pathologists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT002"
+		/>		
+		<x-ref
+			description="GEMS: Specialists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT003"
+		/>
+		<x-ref
+			description="GEMS:Optometrists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT004"
+		/>
+		<x-ref
+			description="GEMS:Radiologists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT005"
+		/>
+		<x-ref
+			description="GEMS: Oncologists "
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT006"
+		/>
+		<x-ref
+			description="GEMS: Physiotherapists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT007"
+		/>
+		<x-ref
+			description="GEMS: Other"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT008"
+		/>
+		<x-ref
+			description="GEMS: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT009"
+		/>
+	</destination-x-ref>
+	
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/Medis"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="IR0b0t"			
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="Medis"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="*"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
