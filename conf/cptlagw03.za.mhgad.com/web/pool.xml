@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <pool-classes>
    <pool id="COBOL" class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector" />
-   mfundo siyongwana
+   rudi
 </pool-classes>
 
