@@ -122,113 +122,7 @@
 			port="9110"
 		/>
 	</env>
-	<env
-		mhgAccount="NIMAS"
-		name="NIMAS"
-		useDistributedCache="true"
-	>
-		
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlxml01.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="50000"
-			port="9113"
-			startDisabled="false"
-			stickyStandin="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<localConnectorsToManipulateOnSync			>
-				
-				<localConnectorToManipulateOnSync
-					desc="Test"
-					remoteEnv="NIMAS"
-					remotePoolId="COBOLBACKUP"
-				/>
-			</localConnectorsToManipulateOnSync>
-			<remoteConnectorOperations			>
-				
-				<remoteConnectorOperation
-					action="STATUS"
-					desc="will enable conn if active"
-					diagport="20801"
-					host="dralsin01.za.mhgad.com"
-					remoteEnv="NIMAS"
-					remotePoolId="COBOL"
-				/>
-			</remoteConnectorOperations>
-			<secondaryPool
-				autoDisable="false"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="90000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="dralsin01.za.mhgad.com"
-				id="COBOLBACKUP"
-				minTrxTime="15000"
-				poolMaxWaitTime="40000"
-				port="9313"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="10000"
-			>
-				
-				<remoteConnectorOperations				>
-					
-					<remoteConnectorOperation
-						action="STATUS"
-						desc="will enable conn if active"
-						diagport="20801"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="NIMAS"
-						remotePoolId="COBOL"
-					/>
-					<remoteConnectorOperation
-						action="DISABLE"
-						desc="will disable conn if trx processed"
-						diagport="20801"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="NIMAS"
-						remotePoolId="COBOLBACKUP"
-					/>
-					<remoteConnectorOperation
-						action="ENABLE"
-						desc="will enable conn if trx processed"
-						diagport="20801"
-						host="dralsin01.za.mhgad.com"
-						remoteEnv="NIMAS"
-						remotePoolId="COBOL"
-					/>
-				</remoteConnectorOperations>
-			</secondaryPool>
-		</pool>
-	</env>
-	<env
-		mhgAccount="NIMAS"
-		name="NIMAS_NON_QPBM"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="5"
-			hostname="cptlxml01.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9113"
-			useSoTimeOut="true"
-		/>
-	</env>
+	
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
@@ -332,18 +226,7 @@
 			mhg="GEMS"
 			tradingPartner="MGRO0003"
 		/>
-		<x-ref
-			description="Doctors Real Time Procedures/Meds"
-			functionMask="FFFF"
-			mhg="NIMAS"
-			tradingPartner="nrdd0001"
-		/>
-		<x-ref
-			description="Pharmacy Real Time"
-			functionMask="FFFF"
-			mhg="NIMAS"
-			tradingPartner="MNIM0001"
-		/>
+		
 		<x-ref
 			description="MHG: GEMS EMERALD REALTIME (MEDICAL)"
 			functionMask="FFFF"
@@ -386,18 +269,7 @@
 			mhg="GEMS"
 			tradingPartner="MSOP0010"
 		/>
-		<x-ref
-			description="MHG: NIMAS REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MNRM0001"
-		/>
-		<x-ref
-			description="MHG: NIMAS SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MNSM0002"
-		/>
+		
 		<x-ref
 			description="MHG: GEMS EMERALD PATHOLOGY REALER (MEDICAL)"
 			functionMask="FFFF"
@@ -476,24 +348,7 @@
 			mhg="GEMS_NON_QPBM"
 			tradingPartner="MGRM0003"
 		/>
-		<x-ref
-			description="MHG: NIMAS REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MSRR0002"
-		/>
-		<x-ref
-			description="MHG: NIMAS PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MSPR0006"
-		/>
-		<x-ref
-			description="MHG: NIMAS REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MSRM0007"
-		/>
+		
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"

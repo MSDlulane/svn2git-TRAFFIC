@@ -25,19 +25,7 @@
 		/>
 	</env>
 		
-	<env
-		mhgAccount="METSTAFF"
-		name="METSTAFF"
-	>		
-		<pool
-			autotimeout="30000"
-			connections="10"
-			hostname="cptlxml01.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="30000"
-			port="9108"
-		/>
-	</env>
+	
 	
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
@@ -92,12 +80,7 @@
 	</transaction-x-ref>
 	
 	<destination-x-ref	>		
-		<x-ref
-			description="Metstaff"
-			functionMask="FFFF"
-			mhg="METSTAFF"
-			tradingPartner="MDSC02"
-		/>
+		
 		<x-ref
 			description="Medipos"
 			functionMask="FFFF"

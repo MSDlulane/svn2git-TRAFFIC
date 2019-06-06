@@ -357,55 +357,7 @@
 			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>	
-	<env
-		mhgAccount="NIMAS"
-		name="NIMAS"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="5"
-			hostname="apl-nimas.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9213"
-			useSoTimeOut="true"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptleap05.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099">
-			
-			<secondaryPool
-				autotimeout="120000"
-				connections="100"			
-				hostname="cptleap01.za.mhgad.com"
-				id="JEE_BACKUP"
-				poolMaxWaitTime="10000"
-				port="1099"
-			
-			/>	
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlsee01.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="23000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
+	
 	<env
 		mhgAccount="REDRIB"
 		name="REDRIB"
@@ -763,153 +715,7 @@
 			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
-	<env
-		mhgAccount="SIGMA"
-		name="SIGMA"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="5"
-			hostname="apl-sigma.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9212"
-			useSoTimeOut="true"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptleap05.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099">
-			
-			<secondaryPool
-				autotimeout="120000"
-				connections="100"			
-				hostname="cptleap01.za.mhgad.com"
-				id="JEE_BACKUP"
-				poolMaxWaitTime="10000"
-				port="1099"
-			
-			/>	
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlsee01.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="23000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		mhgAccount="RANDW"
-		name="RANDWATER"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="5"
-			hostname="apl-randw.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9217"
-			useSoTimeOut="true"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptleap05.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099">
-			
-			<secondaryPool
-				autotimeout="120000"
-				connections="100"			
-				hostname="cptleap01.za.mhgad.com"
-				id="JEE_BACKUP"
-				poolMaxWaitTime="10000"
-				port="1099"
-			
-			/>	
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlsee01.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="23000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
-	<env
-		mhgAccount="SAMWU"
-		name="SAMWUMED"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="5"
-			hostname="apl-samwu.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9205"
-			useSoTimeOut="true"
-		/>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptleap05.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099">
-			
-			<secondaryPool
-				autotimeout="120000"
-				connections="100"			
-				hostname="cptleap01.za.mhgad.com"
-				id="JEE_BACKUP"
-				poolMaxWaitTime="10000"
-				port="1099"
-			
-			/>	
-		</pool>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlsee01.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="23000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>
+	
 	<env
 		mhgAccount="SHARE"
 		name="COMMON"
@@ -1053,90 +859,21 @@
 		/>
 	</transaction-x-ref>
 	<destination-x-ref>
-			<x-ref
-				description="Bankmed"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="A"
-			/>
+			
 			<x-ref
 				description="Mediclinic Wooltru"
 				functionMask="FFFF"
 				mhg="AMED"
 				tradingPartner="E"
 			/>
-			<x-ref
-				description="Mediclinic Foschini"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="F"
-			/>
-			<x-ref
-				description="Mediclinic Engen"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="G"
-			/>
-			<x-ref
-				description="Mediclinic PicknPay"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="I"
-			/>
-			<x-ref
-				description="Mediclinic Afrox"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="K"
-			/>
-			<x-ref
-				description="Mediclinic Sappi"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="L"
-			/>
-			<x-ref
-				description="Mediclinic Golden Arrow"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="N"
-			/>
-			<x-ref
-				description="Mediclinic Fishmed"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="O"
-			/>
-			<x-ref
-				description="Mediclinic BP"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="P"
-			/>
-			<x-ref
-				description="Bankmed"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="P00"
-			/>
+			
 			<x-ref
 				description="Woolthru"
 				functionMask="FFFF"
 				mhg="AMED"
 				tradingPartner="P03"
 			/>
-			<x-ref
-				description="Sappi"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="P04"
-			/>
-			<x-ref
-				description="Engen"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="P05"
-			/>
+			
 			<x-ref
 				description="Relyant"
 				functionMask="FFFF"
@@ -1149,36 +886,14 @@
 				mhg="AMED"
 				tradingPartner="P07"
 			/>
-			<x-ref
-				description="Pick 'n Pay"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="P08"
-			/>
-			<x-ref
-				description="Afrox"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="P09"
-			/>
+			
 			<x-ref
 				description="Remedi"
 				functionMask="FFFF"
 				mhg="AMED"
 				tradingPartner="P10"
 			/>
-			<x-ref
-				description="BPSA"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="P12"
-			/>
-			<x-ref
-				description="Foshini"
-				functionMask="FFFF"
-				mhg="AMED"
-				tradingPartner="P13"
-			/>
+			
 			<x-ref
 				description="Remedi"
 				functionMask="FFFF"
@@ -1293,54 +1008,14 @@
 				mhg="NEWMED"
 				tradingPartner="P01"
 			/>
-			<x-ref
-				description="Metstaff"
-				functionMask="FFFF"
-				mhg="NEWMED"
-				tradingPartner="P11"
-			/>
+			
 			<x-ref
 				description="Mediclinic Transmed"
 				functionMask="FFFF"
 				mhg="NEWMED"
 				tradingPartner="V"
 			/>
-			<x-ref
-				description="Mediclinic NIMAS"
-				functionMask="FFFF"
-				mhg="NIMAS"
-				tradingPartner="2"
-			/>
-			<x-ref
-				description="PGG NIMAS"
-				functionMask="FFFF"
-				mhg="NIMAS"
-				tradingPartner="9"
-			/>
-			<x-ref
-				description="Netcare NIMAS"
-				functionMask="FFFF"
-				mhg="NIMAS"
-				tradingPartner="M"
-			/>
-			<x-ref
-				description="Nimas"
-				functionMask="FFFF"
-				mhg="NIMAS"
-				tradingPartner="P21"
-			/>
-			<x-ref
-				description="PGG NIMAS"
-				functionMask="FFFF"
-				mhg="NIMAS"
-				tradingPartner="P26"
-			/>
-			<x-ref
-				description="Netcare NIMAS"
-				functionMask="FFFF"
-				mhg="NIMAS"
-				tradingPartner="P27"
-			/>
+			
 			<x-ref
 				description="Mediclinic Pilir"
 				functionMask="FFFF"
@@ -1371,24 +1046,7 @@
 				mhg="PRICE"
 				tradingPartner="P92"
 			/>
-			<x-ref
-				description="Randwater Medical Scheme"
-				functionMask="FFFF"
-				mhg="RANDWATER"
-				tradingPartner="P28"
-			/>
-			<x-ref
-				description="Randwater Medical Scheme"
-				functionMask="FFFF"
-				mhg="RANDWATER"
-				tradingPartner="RANDWATER"
-			/>
-			<x-ref
-				description="Randwater Medical Scheme"
-				functionMask="FFFF"
-				mhg="RANDWATER"
-				tradingPartner="Y"
-			/>
+			
 			<x-ref
 				description="REDRIB Dev"
 				functionMask="FFFF"
@@ -1401,24 +1059,7 @@
 				mhg="REDRIB"
 				tradingPartner="R"
 			/>
-			<x-ref
-				description="Samwu"
-				functionMask="FFFF"
-				mhg="SAMWUMED"
-				tradingPartner="P15"
-			/>
-			<x-ref
-				description="Mediclinic SAMWU"
-				functionMask="FFFF"
-				mhg="SAMWUMED"
-				tradingPartner="Q"
-			/>
-			<x-ref
-				description="Samwu option B"
-				functionMask="FFFF"
-				mhg="SAMWUB"
-				tradingPartner="P17"
-			/>
+			
 			<x-ref
 				description="Share Database"
 				functionMask="FFFF"
@@ -1431,12 +1072,7 @@
 				mhg="SHARE"
 				tradingPartner="P99"
 			/>
-			<x-ref
-				description="Prosano"
-				functionMask="FFFF"
-				mhg="SIGMA"
-				tradingPartner="P16"
-			/>
+			
 			<x-ref
 				description="Spine Query"
 				functionMask="FFFF"

@@ -34,10 +34,6 @@
 	  <pool id="COBOL" useSoTimeOut="false" hostname="apl-gems.za.mhgad.com" port="9310" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
 	</env>
 
-	<env name="SAMWU" mhgAccount="SAMWU">
-	  <pool id="COBOL" useSoTimeOut="false" hostname="apl-samwu.za.mhgad.com" port="9305" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
-	</env>
-
 	<transaction        class="InterfaceTransactions.HpEqualise.HpEqualiseTransaction" />
 	<transaction-header class="InterfaceTransactions.DefaultImplementation.DefaultHeader" />
 

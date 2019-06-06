@@ -44,24 +44,12 @@
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 
-	<env name="NIMAS" mhgAccount="NIMAS">
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-nimas.za.mhgad.com" port="9313" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
-		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
-	</env>
-
-	
-
 	<env name="SHARE" >
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 
 	<env name="GEMS" mhgAccount="GEMS">
 		<pool id="COBOL" useSoTimeOut="false" hostname="apl-gems.za.mhgad.com" port="9310" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
-		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
-	</env>
-
-	<env name="SAMWU" mhgAccount="SAMWU">
-		<pool id="COBOL" useSoTimeOut="false" hostname="apl-samwu.za.mhgad.com" port="9305" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 

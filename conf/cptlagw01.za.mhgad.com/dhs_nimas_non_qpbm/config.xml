@@ -147,55 +147,7 @@
 			mhg="NIMAS_NON_QPBM"
 			tradingPartner="MNMR0002"
 		/>
-		<x-ref
-			description="MHG: NETCARE (HOSPITAL)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MNHO0002"
-		/>
-		<x-ref
-			description="MHG: MHG: NETCARE (MEDICAL)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MNME0006"
-		/>
-		<x-ref
-			description="MHG: NETCARE (MEDICLINIC)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MNME0005"
-		/>
-		<x-ref
-			description="MHG: NETCARE (NETCARE)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MNNE0002"
-		/>
-		<x-ref
-			description="MHG: PG (HOSPITAL)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MPHO0016"
-		/>
-		<x-ref
-			description="MHG: PG (MEDICLINIC)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MPME0007"
-		/>
-		<x-ref
-			description="MHG: PG (NETCARE)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MPNE0004"
-		/>
-		<x-ref
-			description="MHG: PG GROUP (MEDICAL)"
-			functionMask="FFFF"
-			mhg="NIMAS_NON_QPBM"
-			tradingPartner="MPGM0005"
-		/>
-		
+				
 	</destination-x-ref>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"

@@ -182,16 +182,7 @@
 	<destination-x-ref	>
 		
 		
-		<x-ref
-			description="METROPOLITAN"
-			functionMask="FFFF"
-			mhg="METROPOLITAN"
-			tradingPartner="METR0008"
-		/>
-	
-	
-		
-		
+			
 		
 	</destination-x-ref>
 	<logger

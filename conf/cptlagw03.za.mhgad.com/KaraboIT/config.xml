@@ -39,26 +39,7 @@
 			poolMaxWaitTime="300000" />
 	</env>
 
-	<env
-		name="NIMAS">
-		<pool
-			useSoTimeOut="false"
-			stickyStandin="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="true"
-			autoEnable="true"
-			id="COBOL"
-			hostname="apl-nimas.za.mhgad.com"
-			port="9313"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="300000" />
-	</env>
-
+	
 	<env
 		name="GEMS"
 		mhgAccount="GEMS">
@@ -142,27 +123,6 @@
 			autotimeout="120000"
 			poolMaxWaitTime="300000" />
 	</env>
-
-	
-	<env
-		name="SAMWU">
-		<pool
-			useSoTimeOut="false"
-			stickyStandin="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="true"
-			autoEnable="true"
-			id="COBOL"
-			hostname="apl-samwu.za.mhgad.com"
-			port="9305"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="300000" />
-	</env>
 	
 	<!-- Log File Parameters -->
 	<loggerOLD
@@ -235,62 +195,14 @@
 			mhg="NEWMED"
 			functionMask="FFFF"
 			description="MHG1 - Metropolitan" />
-		<x-ref
-			tradingPartner="MHG2"
-			mhg="NIMAS"
-			functionMask="FFFF"
-			description="MHG2 - Nimas" />
 		
-		<x-ref
-			tradingPartner="MHGA"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="MHGA - Bankmed" />
 		<x-ref
 			tradingPartner="MHGE"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="MHGE - Wooltru" />
-		<x-ref
-			tradingPartner="MHGF"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="MHGF - Foschini" />
-		<x-ref
-			tradingPartner="MHGG"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="MHGG - Engen" />
-		<x-ref
-			tradingPartner="MHGK"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="MHGK - Afrox" />
-		<x-ref
-			tradingPartner="MHGP"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="MHGP - BPSA " />
-		<x-ref
-			tradingPartner="MHGO"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="MHGO - Fishmed" />
-		<x-ref
-			tradingPartner="MHGN"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="MHGN - GoldenArrow" />
-		<x-ref
-			tradingPartner="MHGI"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="MHGI - Pick N Pay " />
-		<x-ref
-			tradingPartner="MHGL"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="MHGL - Sappi" />
+		
+				
 		<x-ref
 			tradingPartner="MHGT"
 			mhg="GEMS"
@@ -311,12 +223,7 @@
 			mhg="MEDIPOS"
 			functionMask="FFFF"
 			description="MHG7 - Medipos" />
-		<x-ref
-			tradingPartner="MHGQ"
-			mhg="SAMWU"
-			functionMask="FFFF"
-			description="MHGQ - Samwu" />
-		
+				
 	</destination-x-ref>
 
 	<!-- Log File Parameters -->

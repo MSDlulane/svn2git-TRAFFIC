@@ -105,61 +105,7 @@
 	</transaction-x-ref>
 
 	<destination-x-ref>
-		<x-ref
-			tradingPartner="PA001"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BANKMED: Dentists"
-		/>
-		<x-ref
-			tradingPartner="PA002"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BANKMED: Pathologists"
-		/>
-		<x-ref
-			tradingPartner="PA003"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BANKMED: Specialists"
-		/>
-		<x-ref
-			tradingPartner="PA004"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BANKMED:Optometrists"
-		/>
-		<x-ref
-			tradingPartner="PA005"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BANKMED:Radiologists"
-		/>
-		<x-ref
-			tradingPartner="PA006"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BANKMED: Oncologists "
-		/>
-		<x-ref
-			tradingPartner="PA007"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BANKMED: Physiotherapists"
-		/>
-		<x-ref
-			tradingPartner="PA008"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BANKMED: Other"
-		/>
-		<x-ref
-			tradingPartner="PA009"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BANKMED: Doctors (GP)"
-		/>
-	
+			
 	</destination-x-ref>
 
 	<tailWatchServer

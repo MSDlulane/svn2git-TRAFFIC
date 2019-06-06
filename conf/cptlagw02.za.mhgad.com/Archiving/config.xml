@@ -73,21 +73,7 @@
 			poolMaxWaitTime="30000" />
 	</env>
 
-	<env
-		name="SAMWU"
-		mhgAccount="SAMWU">
-		<pool
-			useSoTimeOut="true"
-			id="COBOL"
-			hostname="apl-samwu.za.mhgad.com"
-			port="9305"
-			connections="5"
-			autotimeout="120000"
-			poolMaxWaitTime="90000" />
-	</env>
-
 	
-
 	<env
 		name="GEMS"
 		mhgAccount="GEMS">
@@ -101,19 +87,7 @@
 			poolMaxWaitTime="30000" />
 	</env>
 
-	<env
-		name="NIMAS"
-		mhgAccount="NIMAS">
-		<pool
-			id="COBOL"
-			useSoTimeOut="false"
-			hostname="apl-nimas.za.mhgad.com"
-			port="9313"
-			connections="5"
-			autotimeout="120000"
-			poolMaxWaitTime="30000" />
-	</env>
-
+	
 	<env
 		name="PILIR"
 		mhgAccount="PILIR">
@@ -127,18 +101,7 @@
 			poolMaxWaitTime="30000" />
 	</env>
 
-	<env
-		name="SIGMA">
-		<pool
-			useSoTimeOut="true"
-			id="COBOL"
-			hostname="apl-sigma.za.mhgad.com"
-			port="9312"
-			connections="5"
-			autotimeout="120000"
-			poolMaxWaitTime="90000" />
-	</env>
-
+	
 	<env
 		name="IMPERIAL">
 		<pool

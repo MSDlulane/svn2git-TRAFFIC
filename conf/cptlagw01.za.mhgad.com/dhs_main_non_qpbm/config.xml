@@ -29,65 +29,7 @@
 			useSoTimeOut="false"
 		/>
 	</env>
-	<env
-		name="BP"
-		useDistributedCache="true"
-	>
 		
-		<pool
-			autotimeout="120000"
-			connections="10"
-			hostname="apl-amed.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9307"
-			useSoTimeOut="false"
-		/>
-	</env>
-	<env
-		name="ENGEN"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="10"
-			hostname="apl-amed.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9307"
-			useSoTimeOut="false"
-		/>
-	</env>
-	<env
-		name="FISHMED"
-		useDistributedCache="true"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="10"
-			hostname="apl-amed.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9307"
-			useSoTimeOut="false"
-		/>
-	</env>
-	<env
-		name="GOLDEN"
-		useDistributedCache="true"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="10"
-			hostname="apl-amed.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9307"
-			useSoTimeOut="false"
-		/>
-	</env>
 	<env
 		name="IMPERIAL"
 		useDistributedCache="true"
@@ -146,21 +88,7 @@
 			useSoTimeOut="false"
 		/>
 	</env>
-	<env
-		name="SAMWU"
-		useDistributedCache="true"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="10"
-			hostname="apl-samwu.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="120000"
-			port="9305"
-			useSoTimeOut="false"
-		/>
-	</env>
+	
 	<env
 		mhgAccount="NEWMED"
 		name="TRANSMED"
@@ -285,192 +213,7 @@
 	</transaction-x-ref>
 	<destination-x-ref	>
 		
-		<x-ref
-			description="NRDE0003 - Bankmed"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="nrde0003"
-		/>
-		<x-ref
-			description="MHG: AFROX REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MARM0001"
-		/>
-		<x-ref
-			description="MHG: AFROX SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MASM0001"
-		/>
-		<x-ref
-			description="MHG: BANKMED REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MBRM0001"
-		/>
-		<x-ref
-			description="MHG: BANKMED SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MBSM0001"
-		/>
-		<x-ref
-			description="MHG: FOSCHINI REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MFOS0002"
-		/>
-		<x-ref
-			description="MHG: FOSCHINI SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MFSM0002"
-		/>
-		<x-ref
-			description="MHG: PICK N PAY REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MPNP0002"
-		/>
-		<x-ref
-			description="MHG: PICK N PAY SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MPNP0003"
-		/>
-		<x-ref
-			description="MHG: SAPPI REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MSRM0001"
-		/>
-		<x-ref
-			description="MHG: SAPPI SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MSSM0003"
-		/>
-		<x-ref
-			description="Bankmed Docters claim"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MBRM0004"
-		/>
-		<x-ref
-			description="Bankmed Pathology claim"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MBPR0002"
-		/>
-		<x-ref
-			description="Bankmed Radiology, Physio claim"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MBRR0003"
-		/>
-		<x-ref
-			description="MHG: AFROX REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MARM0003"
-		/>
-		<x-ref
-			description="MHG: AFROX PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MAPR0002"
-		/>
-		<x-ref
-			description="MHG: AFROX REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MARR0001"
-		/>
-		<x-ref
-			description="MHG: FOSCHINI PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MFPR0001"
-		/>
-		<x-ref
-			description="MHG: FOSCHINI REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MFRM0001"
-		/>
-		<x-ref
-			description="MHG: FOSCHINI REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MFRR0001"
-		/>
-		<x-ref
-			description="MHG: GOLDEN ARROW REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GOLDEN"
-			tradingPartner="MGAR0002"
-		/>
-		<x-ref
-			description="MHG: GOLDEN ARROW SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GOLDEN"
-			tradingPartner="MGAS0003"
-		/>
-		<x-ref
-			description="MHG: GOLDEN ARROW REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GOLDEN"
-			tradingPartner="MGAR0003"
-		/>
-		<x-ref
-			description="MHG: GOLDEN ARROW PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GOLDEN"
-			tradingPartner="MGAP0001"
-		/>
-		<x-ref
-			description="MHG: GOLDEN ARROW MEDICLINIC REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="GOLDEN"
-			tradingPartner="MGAM0003"
-		/>
-		<x-ref
-			description="MHG: SAPPI REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MSRR0001"
-		/>
-		<x-ref
-			description="MMHG: SAPPI PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MSPR0005"
-		/>
-		<x-ref
-			description="MHG: SAPPI REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MSRM0006"
-		/>
-		<x-ref
-			description="MHG: PICK N PAY PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MPNP0017"
-		/>
-		<x-ref
-			description="MHG: PICK N PAY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MPNP0018"
-		/>
-		<x-ref
-			description="MHG: PICK N PAY REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="MPNP0019"
-		/>
+						
 		<x-ref
 			description="MHG: MEDICLINIC Doctor"
 			functionMask="FFFF"
@@ -501,84 +244,7 @@
 			mhg="AMED"
 			tradingPartner="MSMR0008"
 		/>
-		<x-ref
-			description="MHG: BP SOUTHERN AFRICA REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0002"
-		/>
-		<x-ref
-			description="MHG: BP SOUTHERN AFRICA SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0003"
-		/>
-		<x-ref
-			description="MHG: BP SOUTHERN AFRICA PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0006"
-		/>
-		<x-ref
-			description="MHG: BP SOUTHERN REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSR0001"
-		/>
-		<x-ref
-			description="MHG: BP SOUTHERN AFRICA REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0007"
-		/>
-		<x-ref
-			description="MHG: MEDICLINIC Doctor"
-			functionMask="FFFF"
-			mhg="BP"
-			tradingPartner="MBSA0008"
-		/>
-		<x-ref
-			description="MHG: ENGEN REALTIME (MEDICAL)"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MERM0001"
-		/>
-		<x-ref
-			description="MHG: ENGEN SWITCHON (MEDICAL)"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MESM0001"
-		/>
-		<x-ref
-			description="MHG: ENGEN PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MEPR0001"
-		/>
-		<x-ref
-			description="MHG: ENGEN REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MERM0003"
-		/>
-		<x-ref
-			description="MHG: ENGEN REALER RADIO PHYSIO (MEDICAL)"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MERR0003"
-		/>
-		<x-ref
-			description="MHG: MEDICLINIC Doctor"
-			functionMask="FFFF"
-			mhg="ENGEN"
-			tradingPartner="MEMR0004"
-		/>
-		<x-ref
-			description="fish0002 - FISHMED"
-			functionMask="FFFF"
-			mhg="FISHMED"
-			tradingPartner="fish0002"
-		/>
+		
 		<x-ref
 			description="MHG: IMPERIAL Pharmacy"
 			functionMask="FFFF"
@@ -621,12 +287,7 @@
 			mhg="IMPERIAL"
 			tradingPartner="MIGM0002"
 		/>
-		<x-ref
-			description="MHG: IMPERIAL Netcare"
-			functionMask="FFFF"
-			mhg="IMPERIAL"
-			tradingPartner="MIGN0001"
-		/>
+		
 		<x-ref
 			description="MHG: IMPERIAL Hospital"
 			functionMask="FFFF"
@@ -645,12 +306,7 @@
 			mhg="MEDIPOS"
 			tradingPartner="MMHO0007"
 		/>
-		<x-ref
-			description="MHG: MEDIPOS Netcare"
-			functionMask="FFFF"
-			mhg="MEDIPOS"
-			tradingPartner="MMNE0005"
-		/>
+		
 		<x-ref
 			description="MHG: MEDIPOS Mediclinic"
 			functionMask="FFFF"
@@ -807,66 +463,7 @@
 			mhg="NEWMED"
 			tradingPartner="MMMR0005"
 		/>
-		<x-ref
-			description="MHG: SAMWU Realtime"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="SAMW0001"
-		/>
-		<x-ref
-			description="MHG: Mediclinic Hospital to MHG"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="METR0054"
-		/>
-		<x-ref
-			description="MHG: Netcare Hospital to MHG"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="METR0055"
-		/>
-		<x-ref
-			description="MHG: Hospital to MHG"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="METR0056"
-		/>
-		<x-ref
-			description="MHG: Real Time Medical (Doctors) to MHG"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="MSRM0002"
-		/>
-		<x-ref
-			description="MHG: SwitchOn Real Time claims to MHG"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="SSME0006"
-		/>
-		<x-ref
-			description="MHG: Doctors batch claims to MHG"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="SMED0010"
-		/>
-		<x-ref
-			description="MHG: SAMWUMED MEDICLINIC REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="MSMR0009"
-		/>
-		<x-ref
-			description="MHG: Real Time Realer claims"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="MSRM0010"
-		/>
-		<x-ref
-			description="MHG: Pathology Real Time Realer"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="MSPR0007"
-		/>
+		
 		<x-ref
 			description="MHG: TRANSMED REALTIME (MEDICAL)"
 			functionMask="FFFF"
@@ -993,12 +590,7 @@
 			mhg="PILIR"
 			tradingPartner="MSWM0007"
 		/>
-		<x-ref
-			description="MHG: SAPS Wellness Netcare claims"
-			functionMask="FFFF"
-			mhg="PILIR"
-			tradingPartner="MSWN0001"
-		/>
+		
 		<x-ref
 			description="MHG: SAPS Wellness Hospital claims"
 			functionMask="FFFF"

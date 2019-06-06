@@ -33,7 +33,7 @@
 			hostname="cptleap01.za.mhgad.com"
 			port="1099"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 	</env>
 
@@ -46,7 +46,7 @@
 			hostname="apl-amed.za.mhgad.com"
 			port="9207"
 			connections="5"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000"
 			minTrxTime="200" />
 		<pool
@@ -54,7 +54,7 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -69,7 +69,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -81,7 +81,7 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -96,7 +96,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -108,7 +108,7 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -123,7 +123,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -135,14 +135,14 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="COBOL"
 			hostname="apl-gems.za.mhgad.com"
 			port="9210"
 			connections="5"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000"
 			minTrxTime="200" />
 		<pool
@@ -158,7 +158,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -170,7 +170,7 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -185,7 +185,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -205,7 +205,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -217,14 +217,14 @@
 			hostname="apl-imperial.za.mhgad.com"
 			port="9214"
 			connections="5"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 		<pool
 			id="JEE"
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -239,7 +239,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -251,14 +251,14 @@
 			hostname="apl-medipos.za.mhgad.com"
 			port="9215"
 			connections="5"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 		<pool
 			id="JEE"
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -273,7 +273,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -285,14 +285,14 @@
 			hostname="apl-newmed.za.mhgad.com"
 			port="9208"
 			connections="5"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 		<pool
 			id="JEE"
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -307,42 +307,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="120000" />
-	</env>
-
-	<env
-		name="NIMAS"
-		mhgAccount="NIMAS">
-		<pool
-			useSoTimeOut="true"
-			id="COBOL"
-			hostname="apl-nimas.za.mhgad.com"
-			port="9213"
-			connections="5"
-			autotimeout="120000"
-			poolMaxWaitTime="120000" />
-		<pool
-			id="JEE"
-			hostname="cptleap01.za.mhgad.com "
-			port="1099"
-			connections="100"
-			autotimeout="120000"
-			poolMaxWaitTime="1000" />
-		<pool
-			id="POJAS"
-			useSoTimeOut="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="true"
-			autoEnable="true"
-			hostname="cptlsee01.za.mhgad.com"
-			port="23000"
-			connections="4"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -355,7 +320,7 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -370,7 +335,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -383,14 +348,14 @@
 			hostname="apl-pilir.za.mhgad.com"
 			port="9204"
 			connections="5"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 		<pool
 			id="JEE"
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -405,7 +370,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="4"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -418,14 +383,14 @@
 			hostname="apl-redrib.za.mhgad.com"
 			port="9211"
 			connections="5"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 		<pool
 			id="JEE"
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -440,45 +405,11 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="4"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
-	<env
-		name="SAMWU"
-		mhgAccount="SAMWU">
-		<pool
-			useSoTimeOut="true"
-			id="COBOL"
-			hostname="apl-samwu.za.mhgad.com"
-			port="9205"
-			connections="5"
-			autotimeout="120000"
-			poolMaxWaitTime="120000" />
-		<pool
-			id="JEE"
-			hostname="cptleap01.za.mhgad.com "
-			port="1099"
-			connections="100"
-			autotimeout="120000"
-			poolMaxWaitTime="1000" />
-		<pool
-			id="POJAS"
-			useSoTimeOut="false"
-			autoDisableOnSyncStart="true"
-			autoEnableOnSyncEnd="true"
-			dropClientOnError="false"
-			startDisabled="false"
-			waitForSyncToFinishTimeout="40000"
-			autoDisable="true"
-			autoEnable="true"
-			hostname="cptlsee01.za.mhgad.com"
-			port="23000"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="120000" />
-	</env>
-
+	
 	<env
 		name="SHARE"
 		mhgAccount="SHARE">
@@ -495,7 +426,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000">
 		</pool>
 	</env>
@@ -508,7 +439,7 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -523,7 +454,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -535,7 +466,7 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -550,7 +481,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -562,7 +493,7 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -577,7 +508,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -589,7 +520,7 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -604,7 +535,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -616,7 +547,7 @@
 			hostname="cptleap01.za.mhgad.com "
 			port="1099"
 			connections="100"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="1000" />
 		<pool
 			id="POJAS"
@@ -631,7 +562,7 @@
 			hostname="cptlsee01.za.mhgad.com"
 			port="23000"
 			connections="10"
-			autotimeout="120000"
+			autotimeout="180000"
 			poolMaxWaitTime="120000" />
 	</env>
 
@@ -716,11 +647,7 @@
 			mhg="JBoss"
 			functionMask="FFFF"
 			description="JBoss" />
-		<x-ref
-			tradingPartner="P00"
-			mhg="AMED"
-			functionMask="0000"
-			description="Bankmed" />
+		
 		<x-ref
 			tradingPartner="P01"
 			mhg="NEWMED"
@@ -736,16 +663,7 @@
 			mhg="AMED"
 			functionMask="0000"
 			description="Woolthru" />
-		<x-ref
-			tradingPartner="P04"
-			mhg="AMED"
-			functionMask="0000"
-			description="Sappi" />
-		<x-ref
-			tradingPartner="P05"
-			mhg="AMED"
-			functionMask="0000"
-			description="Engen" />
+		
 		<x-ref
 			tradingPartner="P06"
 			mhg="AMED"
@@ -756,47 +674,19 @@
 			mhg="AMED"
 			functionMask="0000"
 			description="Alpha" />
-		<x-ref
-			tradingPartner="P08"
-			mhg="AMED"
-			functionMask="0000"
-			description="Pick 'n Pay" />
-		<x-ref
-			tradingPartner="P09"
-			mhg="AMED"
-			functionMask="0000"
-			description="Afrox" />
+		
 		<x-ref
 			tradingPartner="P10"
 			mhg="AMED"
 			functionMask="0000"
 			description="Remedi" />
-		<x-ref
-			tradingPartner="P11"
-			mhg="NEWMED"
-			functionMask="0000"
-			description="Metstaff" />
-		<x-ref
-			tradingPartner="P12"
-			mhg="AMED"
-			functionMask="0000"
-			description="BPSA" />
-		<x-ref
-			tradingPartner="P13"
-			mhg="AMED"
-			functionMask="0000"
-			description="Foshini" />
+		
 		<x-ref
 			tradingPartner="P14"
 			mhg="LAMAF"
 			functionMask="0000"
 			description="Lamaf" />
-		<x-ref
-			tradingPartner="P15"
-			mhg="SAMWU"
-			functionMask="FFFF"
-			description="Samwu" />
-	
+			
 		<x-ref
 			tradingPartner="P19"
 			mhg="GEMS"
@@ -807,11 +697,7 @@
 			mhg="PILIR"
 			functionMask="0000"
 			description="PILIR Prod" />
-		<x-ref
-			tradingPartner="P21"
-			mhg="NIMAS"
-			functionMask="0000"
-			description="NIMAS Prod" />
+		
 		<x-ref
 			tradingPartner="P22"
 			mhg="GENESIS"
@@ -895,11 +781,6 @@
 			description="Share Connection" />
 
 		<x-ref
-			tradingPartner="A"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Mediclinic Bankmed" />
-		<x-ref
 			tradingPartner="S"
 			mhg="AMED"
 			functionMask="FFFF"
@@ -909,26 +790,7 @@
 			mhg="NEWMED"
 			functionMask="FFFF"
 			description="Mediclinic Newmed" />
-		<x-ref
-			tradingPartner="K"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Mediclinic Afrox" />
-		<x-ref
-			tradingPartner="G"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Mediclinic Engen" />
-		<x-ref
-			tradingPartner="O"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Mediclinic Fishmed" />
-		<x-ref
-			tradingPartner="N"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Mediclinic Golden Arrow" />
+		
 		<x-ref
 			tradingPartner="E"
 			mhg="AMED"
@@ -949,47 +811,14 @@
 			mhg="AMED"
 			functionMask="FFFF"
 			description="Mediclinic Holcim" />
-		<x-ref
-			tradingPartner="L"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Mediclinic Sappi" />
-		<x-ref
-			tradingPartner="P"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Mediclinic BP" />
-		<x-ref
-			tradingPartner="Q"
-			mhg="SAMWU"
-			functionMask="FFFF"
-			description="Mediclinic SAMWU" />
-		<x-ref
-			tradingPartner="1"
-			mhg="NEWMED"
-			functionMask="FFFF"
-			description="Mediclinic Metropolitan" />
-		<x-ref
-			tradingPartner="2"
-			mhg="NIMAS"
-			functionMask="FFFF"
-			description="Mediclinic NIMAS" />
+		
+		
 		<x-ref
 			tradingPartner="3"
 			mhg="NEWMED"
 			functionMask="FFFF"
 			description="Mediclinic OpenPlan" />
 		
-		<x-ref
-			tradingPartner="I"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Mediclinic PicknPay" />
-		<x-ref
-			tradingPartner="F"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Mediclinic Foschini" />
 		<x-ref
 			tradingPartner="T"
 			mhg="GEMS"

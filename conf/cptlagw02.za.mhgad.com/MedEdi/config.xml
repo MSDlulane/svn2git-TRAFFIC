@@ -84,33 +84,7 @@
 			poolMaxWaitTime="300000" />
 	</env>
 
-	<env
-		name="NIMAS">
-		<pool
-			id="COBOL"
-			useSoTimeOut="false"
-			hostname="apl-nimas.za.mhgad.com"
-			port="9313"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="60000" />
-	</env>
-
-
-
-	<env
-		name="SAMWU"
-		mhgAccount="SAMWU">
-		<pool
-			id="COBOL"
-			useSoTimeOut="false"
-			hostname="apl-samwu.za.mhgad.com"
-			port="9305"
-			connections="10"
-			autotimeout="120000"
-			poolMaxWaitTime="300000" />
-	</env>
-
+	
 	<env
 		name="TRANSMED"
 		mhgAccount="NEWMED">
@@ -179,11 +153,7 @@
 
 	<destination-x-ref>
 		<!-- Production Env's -->
-		<x-ref
-			tradingPartner="P00"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Bankmed" />
+		
 		<x-ref
 			tradingPartner="P01"
 			mhg="NEWMED"
@@ -199,16 +169,8 @@
 			mhg="AMED"
 			functionMask="FFFF"
 			description="Woolthru" />
-		<x-ref
-			tradingPartner="P04"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Sappi" />
-		<x-ref
-			tradingPartner="P05"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Engen" />
+		
+		
 		<x-ref
 			tradingPartner="P06"
 			mhg="AMED"
@@ -219,51 +181,20 @@
 			mhg="AMED"
 			functionMask="FFFF"
 			description="Alpha" />
-		<x-ref
-			tradingPartner="P08"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Pick 'n Pay" />
-		<x-ref
-			tradingPartner="P09"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Afrox" />
+		
 		<x-ref
 			tradingPartner="P10"
 			mhg="AMED"
 			functionMask="FFFF"
 			description="Remedi" />
-		<x-ref
-			tradingPartner="P11"
-			mhg="NEWMED"
-			functionMask="FFFF"
-			description="Metstaff" />
-		<x-ref
-			tradingPartner="P12"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="BPSA" />
-		<x-ref
-			tradingPartner="P13"
-			mhg="AMED"
-			functionMask="FFFF"
-			description="Foshini" />
+		
+		
 		<x-ref
 			tradingPartner="P14"
 			mhg="LAMAF"
 			functionMask="0000"
 			description="Lamaf" />
-		<x-ref
-			tradingPartner="P15"
-			mhg="SAMWU"
-			functionMask="FFFF"
-			description="Samwu" />
-		<x-ref
-			tradingPartner="P16"
-			mhg="SIGMA"
-			functionMask="FFFF"
-			description="Prosano" />
+		
 		<x-ref
 			tradingPartner="P17"
 			mhg="AMED"
@@ -275,11 +206,7 @@
 			mhg="GEMS"
 			functionMask="FFFF"
 			description="Gems" />
-		<x-ref
-			tradingPartner="P20"
-			mhg="NIMAS"
-			functionMask="FFFF"
-			description="Nimas" />
+		
 		<x-ref
 			tradingPartner="P21"
 			mhg="IMPERIAL"
@@ -290,61 +217,7 @@
 			mhg="MEDIPOS"
 			functionMask="FFFF"
 			description="Medipos" />			
-		<x-ref
-			description="PG: Dentists"
-			functionMask="FFFF"
-			mhg="Nimas"
-			tradingPartner="PM001"
-		/>
-		<x-ref
-			description="PG: Pathologists"
-			functionMask="FFFF"
-			mhg="Nimas"
-			tradingPartner="PM002"
-		/>	
-		<x-ref
-			description="PG: Specialists"
-			functionMask="FFFF"
-			mhg="Nimas"
-			tradingPartner="PM003"
-		/>
-		<x-ref
-			description="PG:Optometrists"
-			functionMask="FFFF"
-			mhg="Nimas"
-			tradingPartner="PM004"
-		/>
-		<x-ref
-			description="PG:Radiologists"
-			functionMask="FFFF"
-			mhg="Nimas"
-			tradingPartner="PM005"
-		/>
-		<x-ref
-			description="PG: Oncologists "
-			functionMask="FFFF"
-			mhg="Nimas"
-			tradingPartner="PM006"
-		/>
-		<x-ref
-			description="PG: Physiotherapists"
-			functionMask="FFFF"
-			mhg="Nimas"
-			tradingPartner="PM007"
-		/>
-		<x-ref
-			description="PG: Other"
-			functionMask="FFFF"
-			mhg="Nimas"
-			tradingPartner="PM008"
-		/>
-		<x-ref
-			description="PG: Doctors (GP)"
-			functionMask="FFFF"
-			mhg="Nimas"
-			tradingPartner="PM009"
-		/>
-
+		
 	</destination-x-ref>
 
 	<logger
