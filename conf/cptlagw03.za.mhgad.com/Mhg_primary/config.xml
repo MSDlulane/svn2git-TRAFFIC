@@ -2192,6 +2192,12 @@
 			mhg="AMED"
 			tradingPartner="P00"
 		/>
+		<x-ref
+			description="Afrox"
+			functionMask="0000"
+			mhg="AMED"
+			tradingPartner="P09"
+		/>
 				
 	</destination-x-ref>
 	<logger
