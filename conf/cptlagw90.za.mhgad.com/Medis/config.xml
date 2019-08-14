@@ -60,19 +60,19 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		27307
+		27206
 	</snmp-port>
 	<tailWatchServer
 		id="MEDIS"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="27308"
+		tcpipPort="27207"
 	/>
 	<diagTailWatchServer
 		id="MEDIS"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="27309"
+		tcpipPort="27208"
 	/>
 	<synchronous-transactions	>
 		true
