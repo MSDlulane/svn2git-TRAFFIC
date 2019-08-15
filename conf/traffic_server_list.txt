@@ -263,10 +263,10 @@ cptlagw03.za.mhgad.com MyCareSentClaims PRODUCTION_LEGACY_SOLUTIO ENABLED 256 51
 #https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mediscor/
 cptlagw03.za.mhgad.com Mediscor PRODUCTION_LEGACY ENABLED -1 -1 27202 ENABLED
 
-#Mediscor traffic server
+#Medis traffic server
 #Config:
 #https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Medis/
-cptlagw03.za.mhgad.com Medis PRODUCTION_LEGACY ENABLED -1 -1 27206 ENABLED
+cptlagw03.za.mhgad.com Medis PRODUCTION_LATEST ENABLED 128 256 27206 ENABLED
 
 
 # DISASTER RECOVERY
