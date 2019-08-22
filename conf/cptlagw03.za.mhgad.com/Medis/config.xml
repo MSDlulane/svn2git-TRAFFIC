@@ -244,7 +244,7 @@
 		
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
-			DbPassword="IR0b0t"			
+			DbPassword="pJ9fXZ3d"			
 			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-prod:5100/JBAUDIT"
 			DbUserName="traffic"
 			logTable="Medis"
