@@ -7,7 +7,7 @@
 #		4. TRAF Enabled/Disabled
 #		5. JVM start-heap
 #		6. JVM max-heap
-#		7. JMX/JVM-SNMP port
+#		7. JMX/JVM-SNMP port (Linux Admin provides open port for monitoring,to get stats)
 #		8. Indicates whether tq-access is logged (log/accesslog)
 # Traffic servers listed for a specific 
 # host can only be installed and started on 
@@ -288,12 +288,9 @@ dralsin01.za.mhgad.com StandinSweeper PRODUCTION_LEGACY ENABLED -1 256 20911 DIS
 # scheme-specific (Services which require access to scheme databases) 
 # requests are serviced by SEE and JBoss instances in the Town
 # Square data centre.
-ptalagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
+
 jhblagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
-dbnlagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
-cpalagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
-cpmlagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
-athlagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
+
 # ACCEPTANCE
 cptlagw90.za.mhgad.com PPN ACCEPTANCE_LATEST ENABLED -1 -1 65001 DISABLED
 cptlagw90.za.mhgad.com Mhg RICHARD_TEST ENABLED -1 -1 65002 ENABLED
@@ -325,9 +322,9 @@ cptlagw90.za.mhgad.com MyCare PRODUCTION_LATEST ENABLED -1 -1 65026 DISABLED
 cptlagw90.za.mhgad.com MyCareStandinTest PRODUCTION_LATEST ENABLED -1 -1 65100 DISABLED
 cptlagw90.za.mhgad.com MedikreditGems ACCEPTANCE_LEGACY ENABLED -1 -1 65101 DISABLED
 cptlagw90.za.mhgad.com MedikreditGemsTest PRODUCTION_LEGACY ENABLED -1 -1 65104 DISABLED
-cptlagw90.za.mhgad.com Mediscor ACCEPTANCE_LEGACY ENABLED -1 -1 27202 ENABLED
-cptlagw90.za.mhgad.com Medista ACCEPTANCE_LEGACY ENABLED -1 -1 27205 ENABLED
-cptlagw90.za.mhgad.com Medis ACCEPTANCE_LEGACY ENABLED -1 -1 27206 ENABLED
+cptlagw90.za.mhgad.com Mediscor ACCEPTANCE_LEGACY ENABLED -1 -1 65105 ENABLED
+cptlagw90.za.mhgad.com Medista ACCEPTANCE_LEGACY ENABLED -1 -1 65106 ENABLED
+cptlagw90.za.mhgad.com Medis ACCEPTANCE_LEGACY ENABLED -1 -1 65107 ENABLED
 
 
 #   DEVELOPMENT
@@ -343,8 +340,9 @@ cptlagw80.za.mhgad.com SPN ACCEPTANCE_LEGACY ENABLED -1 -1 65009 DISABLED
 cptlagw80.za.mhgad.com MyCareReceivedClaims ACCEPTANCE_LEGACY ENABLED -1 -1 65010 DISABLED
 cptlagw80.za.mhgad.com MyCareSentClaims ACCEPTANCE_LEGACY_SOLUTIO ENABLED -1 -1 65011 DISABLED
 cptlagw80.za.mhgad.com MedikreditGems DEVELOPMENT_LEGACY ENABLED -1 -1 65012 DISABLED
-cptlagw80.za.mhgad.com Mediscor DEVELOPMENT_LEGACY ENABLED -1 -1 27202 ENABLED
-cptlagw80.za.mhgad.com Medista DEVELOPMENT_LEGACY ENABLED -1 -1 27205 ENABLED
+cptlagw80.za.mhgad.com Mediscor DEVELOPMENT_LEGACY ENABLED -1 -1 65013 ENABLED
+cptlagw80.za.mhgad.com Medis DEVELOPMENT_LEGACY ENABLED -1 -1 65014 ENABLED
+cptlagw80.za.mhgad.com Medista DEVELOPMENT_LEGACY ENABLED -1 -1 65015 ENABLED
 
 # PREPROD
 cptlagw70.za.mhgad.com PPN PREPROD_LATEST ENABLED -1 -1 65001 DISABLED
