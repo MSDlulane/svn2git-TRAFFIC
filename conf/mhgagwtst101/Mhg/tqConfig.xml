@@ -1,0 +1,1417 @@
+<?xml version="1.0"?>
+<TQList>
+	<TQ name="AADETAIL" system="COBOL" />
+	<TQ name="ACBINFO" system="COBOL" />
+	<TQ name="ADDDEP" system="COBOL" />
+	<TQ name="ADDDEP2" system="COBOL" />
+	<TQ name="ADDFUNK" system="COBOL" />
+	<TQ name="ADDMEM" system="COBOL" />
+	<TQ name="ADDMEMU" system="COBOL" />
+	<TQ name="ADDRESS" system="COBOL" />
+	<TQ name="ALLCLM" system="COBOL" />
+	<TQ name="ALLOCWRK" system="COBOL" />
+	<TQ name="AMENDDEP" system="COBOL" />
+	<TQ name="AMENDEP2" system="COBOL" />
+	<TQ name="AMENDMEM" system="COBOL" />
+	<TQ name="AMENDMEV" system="COBOL" />
+	<TQ name="ATC" system="COBOL" />
+	<TQ name="AUTHCOST" system="COBOL" />
+	<TQ name="AUTHPROC" system="COBOL" />
+	<TQ name="AUTHSUM" system="COBOL" />
+	<TQ name="AUTHTEXT" system="COBOL" />
+	<TQ name="BASKET" system="COBOL" />
+	<TQ name="BD" system="COBOL" />
+	<TQ name="BENEFITS" system="COBOL" />
+	<TQ name="BKCHGPIN" system="COBOL" />
+	<TQ name="BKCOMDT" system="COBOL" />
+	<TQ name="BRANCH" system="COBOL" />
+	<TQ name="BROKINFO" system="COBOL" />
+	<TQ name="BROWSDEP" system="COBOL" />
+	<TQ name="BT2" system="COBOL" />
+	<TQ name="CANCDEP" system="COBOL" />
+	<TQ name="CANCMEM" system="COBOL" />
+	<TQ name="CAREBEN" system="COBOL" />
+	<TQ name="CCH" system="COBOL" />
+	<TQ name="CD" system="COBOL" />
+	<TQ name="CERTPRNT" system="COBOL" />
+	<TQ name="CHGCLAIM" system="COBOL" />
+	<TQ name="CHSUBSCR" system="COBOL" />
+	<TQ name="CLINUPD" system="COBOL" />
+	<TQ name="CLMCALC" system="COBOL" />
+	<TQ name="CLMDET" system="COBOL" />
+	<TQ name="CLMDET2" system="COBOL" />
+	<TQ name="CLOSOPEN" system="COBOL" />
+	<TQ name="CLREAD" system="COBOL" />
+	<TQ name="CLT" system="COBOL" />
+	<TQ name="CMPBIN" system="COBOL" />
+	<TQ name="CMPFAX01" system="COBOL" />
+	<TQ name="CMPHIST" system="COBOL" />
+	<TQ name="CMPMEDSW" system="COBOL" />
+	<TQ name="CMPNOTE" system="COBOL" />
+	<TQ name="CMUPD01" system="COBOL" />
+	<TQ name="COBCOMM" system="COBOL" />
+	<TQ name="COMPRUN" system="COBOL" />
+	<TQ name="COMPRUNW" system="COBOL" />
+	<TQ name="CONFMEM" system="COBOL" />
+	<TQ name="CONTRIB" system="COBOL" />
+	<TQ name="CONTRIBI" system="COBOL" />
+	<TQ name="CPTDET" system="COBOL" />
+	<TQ name="CPTMAIN" system="COBOL" />
+	<TQ name="CR040" system="COBOL" />
+	<TQ name="CR040AP" system="COBOL" />
+	<TQ name="CR040HIV" system="COBOL" />
+	<TQ name="CR040NAP" system="COBOL" />
+	<TQ name="CRONIC1" system="COBOL" />
+	<TQ name="DEDCALC" system="COBOL" />
+	<TQ name="DEDECEAS" system="COBOL" />
+	<TQ name="DEPINFO" system="COBOL" />
+	<TQ name="DEPINFO2" system="COBOL" />
+	<TQ name="DIPSTICK" system="COBOL" />
+	<TQ name="DMAREP01" system="COBOL" />
+	<TQ name="DMAXML" system="COBOL" />
+	<TQ name="DMREP01" system="COBOL" />
+	<TQ name="DOCHKNUM" system="COBOL" />
+	<TQ name="DOCHKPIN" system="COBOL" />
+	<TQ name="DOCINFO" system="COBOL" />
+	<TQ name="DOCNAME" system="COBOL" />
+	<TQ name="DOCPINAD" system="COBOL" />
+	<TQ name="DOCSRCH" system="COBOL" />
+	<TQ name="DOCTOR" system="COBOL" />
+	<TQ name="DOCUPDAT" system="COBOL" />
+	<TQ name="DPSAINV" system="COBOL" />
+	<TQ name="DRGDTL" system="COBOL" />
+	<TQ name="DRMENLET" system="COBOL" />
+	<TQ name="DRQUOT" system="COBOL" />
+	<TQ name="ECLMSTMT" system="COBOL" />
+	<TQ name="EDGNGET" system="COBOL" />
+	<TQ name="ELCHECK" system="COBOL" />
+	<TQ name="EMPGROUP" system="COBOL" />
+	<TQ name="EMPLOY" system="COBOL" />
+	<TQ name="ENQUIRI" system="COBOL" />
+	<TQ name="EXCLUDES" system="COBOL" />
+	<TQ name="FASADMIN" system="COBOL" />
+	<TQ name="FASCHPIN" system="COBOL" />
+	<TQ name="FASPIN" system="COBOL" />
+	<TQ name="FOGLOADD" system="COBOL" />
+	<TQ name="FOGLOADH" system="COBOL" />
+	<TQ name="FOGLOADT" system="COBOL" />
+	<TQ name="FUNKEY" system="COBOL" />
+	<TQ name="FUNKSET" system="COBOL" />
+	<TQ name="FUTSCHM" system="COBOL" />
+	<TQ name="GAUDINFO" system="COBOL" />
+	<TQ name="GAUDREP" system="COBOL" />
+	<TQ name="GEMSMCLM" system="COBOL" />
+	<TQ name="GEMSMEM" system="COBOL" />
+	<TQ name="GEMSOPTC" system="COBOL" />
+	<TQ name="GEMSPCLM" system="COBOL" />
+	<TQ name="GETADDR" system="COBOL" />
+	<TQ name="GETFIELD" system="COBOL" />
+	<TQ name="GETPARM" system="COBOL" />
+	<TQ name="GETSTAFF" system="COBOL" />
+	<TQ name="GMIVRCRD" system="COBOL" />
+	<TQ name="GMPUTINS" system="COBOL" />
+	<TQ name="GREP01" system="COBOL" />
+	<TQ name="GTSERIAL" system="COBOL" />
+	<TQ name="GUARDIAN" system="COBOL" />
+	<TQ name="GUCRTOK" system="COBOL" />
+	<TQ name="GUIDELIN" system="COBOL" />
+	<TQ name="GUREP01" system="COBOL" />
+	<TQ name="GUVALID2" system="COBOL" />
+	<TQ name="HOSPAUT1" system="COBOL" />
+	<TQ name="HOSPAUTH" system="COBOL" />
+	<TQ name="HOSPCLMS" system="COBOL" />
+	<TQ name="HOSPGRP" system="COBOL" />
+	<TQ name="HOSPRSI" system="COBOL" />
+	<TQ name="HPDATE" system="COBOL" />
+	<TQ name="INETCNT" system="COBOL" />
+	<TQ name="INITMEM" system="COBOL" />
+	<TQ name="INVAUTH" system="COBOL" />
+	<TQ name="IVCLMDET" system="COBOL" />
+	<TQ name="IVCRONAP" system="COBOL" />
+	<TQ name="IVCRONFM" system="COBOL" />
+	<TQ name="IVCRONST" system="COBOL" />
+	<TQ name="IVOUTDBT" system="COBOL" />
+	<TQ name="IVRDECHK" system="COBOL" />
+	<TQ name="IVRMECHK" system="COBOL" />
+	<TQ name="IVROPT" system="COBOL" />
+	<TQ name="KOXERRAP" system="COBOL" />
+	<TQ name="KOXTAR" system="COBOL" />
+	<TQ name="KTADDR" system="COBOL" />
+	<TQ name="KTCONT" system="COBOL" />
+	<TQ name="LDR001" system="COBOL" />
+	<TQ name="LISTBOX" system="COBOL" />
+	<TQ name="LISTBOX2" system="COBOL" />
+	<TQ name="LISTFUNK" system="COBOL" />
+	<TQ name="LOYALTYM" system="COBOL" />
+	<TQ name="LOYALTYT" system="COBOL" />
+	<TQ name="LPADMIN" system="COBOL" />
+	<TQ name="LPDEPO" system="COBOL" />
+	<TQ name="LPPADMIN" system="COBOL" />
+	<TQ name="MAG" system="COBOL" />
+	<TQ name="MANUF" system="COBOL" />
+	<TQ name="MAUDIT" system="COBOL" />
+	<TQ name="MEBATCH" system="COBOL" />
+	<TQ name="MECALLID" system="COBOL" />
+	<TQ name="MEDCRD01" system="COBOL" />
+	<TQ name="MEDEBTOR" system="COBOL" />
+	<TQ name="MEDECEAS" system="COBOL" />
+	<TQ name="MEDS" system="COBOL" />
+	<TQ name="MEDSDTL" system="COBOL" />
+	<TQ name="MEIMAGE" system="COBOL" />
+	<TQ name="MEMBEN" system="COBOL" />
+	<TQ name="MEMBER" system="COBOL" />
+	<TQ name="MEMBER2" system="COBOL" />
+	<TQ name="MEMBER3" system="COBOL" />
+	<TQ name="MEMBER4" system="COBOL" />
+	<TQ name="MEMBONLY" system="COBOL" />
+	<TQ name="MEMBPRO2" system="COBOL" />
+	<TQ name="MEMBPROV" system="COBOL" />
+	<TQ name="MEMCONT" system="COBOL" />
+	<TQ name="MEMDETS" system="COBOL" />
+	<TQ name="MEMFIL" system="COBOL" />
+	<TQ name="MEMICRO" system="COBOL" />
+	<TQ name="MEMLOGF" system="COBOL" />
+	<TQ name="MEMNAME" system="COBOL" />
+	<TQ name="MEMNOTES" system="COBOL" />
+	<TQ name="MEMNUM" system="COBOL" />
+	<TQ name="MEMPROF" system="COBOL" />
+	<TQ name="MENQUIR2" system="COBOL" />
+	<TQ name="MENQUIRY" system="COBOL" />
+	<TQ name="MEPCHADR" system="COBOL" />
+	<TQ name="MEPCLM01" system="COBOL" />
+	<TQ name="MEPCLM02" system="COBOL" />
+	<TQ name="MEPCLM03" system="COBOL" />
+	<TQ name="MEPIDNO" system="COBOL" />
+	<TQ name="MEPREG" system="COBOL" />
+	<TQ name="MEQQUO" system="COBOL" />
+	<TQ name="MERULES" system="COBOL" />
+	<TQ name="MESERIAL" system="COBOL" />
+	<TQ name="MESUBACJ" system="COBOL" />
+	<TQ name="MESUBACT" system="COBOL" />
+	<TQ name="METAR" system="COBOL" />
+	<TQ name="METARD" system="COBOL" />
+	<TQ name="MICREF" system="COBOL" />
+	<TQ name="ML1" system="COBOL" />
+	<TQ name="ML10" system="COBOL" />
+	<TQ name="ML2A" system="COBOL" />
+	<TQ name="ML3" system="COBOL" />
+	<TQ name="ML4B" system="COBOL" />
+	<TQ name="ML4C" system="COBOL" />
+	<TQ name="ML5" system="COBOL" />
+	<TQ name="ML5A" system="COBOL" />
+	<TQ name="ML6" system="COBOL" />
+	<TQ name="ML8" system="COBOL" />
+	<TQ name="ML8B" system="COBOL" />
+	<TQ name="ML9" system="COBOL" />
+	<TQ name="ML9A" system="COBOL" />
+	<TQ name="MRMSUM" system="COBOL" />
+	<TQ name="MSOAUTHA" system="COBOL" />
+	<TQ name="MSOAUTHD" system="COBOL" />
+	<TQ name="MSOAUTHE" system="COBOL" />
+	<TQ name="MSOAUTHH" system="COBOL" />
+	<TQ name="MSOAUTHM" system="COBOL" />
+	<TQ name="MSOAUTHT" system="COBOL" />
+	<TQ name="NAMSRCH" system="COBOL" />
+	<TQ name="NAPINFO" system="COBOL" />
+	<TQ name="NAPMNT" system="COBOL" />
+	<TQ name="NAPPI" system="COBOL" />
+	<TQ name="NAPPRICE" system="COBOL" />
+	<TQ name="NAPRULE" system="COBOL" />
+	<TQ name="NEWMNUM" system="COBOL" />
+	<TQ name="NEWNUM" system="COBOL" />
+	<TQ name="NEWPIN" system="COBOL" />
+	<TQ name="NEWQDSPD" system="COBOL" />
+	<TQ name="NEWQDSPH" system="COBOL" />
+	<TQ name="NEWQDSPT" system="COBOL" />
+	<TQ name="NEWS" system="COBOL" />
+	<TQ name="NIMIVR" system="COBOL" />
+	<TQ name="ONCDOCLD" system="COBOL" />
+	<TQ name="ONCNAPLD" system="COBOL" />
+	<TQ name="OPTHRMN" system="COBOL" />
+	<TQ name="OPTICIAN" system="COBOL" />
+	<TQ name="OPTMAINK" system="COBOL" />
+	<TQ name="PARMCONT" system="COBOL" />
+	<TQ name="PARTNER" system="COBOL" />
+	<TQ name="PARTNER2" system="COBOL" />
+	<TQ name="PATIENTD" system="COBOL" />
+	<TQ name="PATIENTN" system="COBOL" />
+	<TQ name="PATNAME" system="COBOL" />
+	<TQ name="PATNAME3" system="COBOL" />
+	<TQ name="PATNOTES" system="COBOL" />
+	<TQ name="PATTARLD" system="COBOL" />
+	<TQ name="PHRDATA" system="COBOL" />
+	<TQ name="PHRDATAW" system="COBOL" />
+	<TQ name="PILIRREG" system="COBOL" />
+	<TQ name="PING" system="COBOL" />
+	<TQ name="PJAGEANL" system="COBOL" />
+	<TQ name="PJBRADDR" system="COBOL" />
+	<TQ name="PJCLMDET" system="COBOL" />
+	<TQ name="PJCLMSCR" system="COBOL" />
+	<TQ name="PJCORSCR" system="COBOL" />
+	<TQ name="PJDEBENQ" system="COBOL" />
+	<TQ name="PJDEPSEL" system="COBOL" />
+	<TQ name="PJDOCSEL" system="COBOL" />
+	<TQ name="PJDOCUPD" system="COBOL" />
+	<TQ name="PJENQALL" system="COBOL" />
+	<TQ name="PJENQINS" system="COBOL" />
+	<TQ name="PJENQSEL" system="COBOL" />
+	<TQ name="PJERRMES" system="COBOL" />
+	<TQ name="PJMEMADR" system="COBOL" />
+	<TQ name="PJMEMFIL" system="COBOL" />
+	<TQ name="PJMEMSEL" system="COBOL" />
+	<TQ name="PJMEMUPD" system="COBOL" />
+	<TQ name="PMBAUTH" system="COBOL" />
+	<TQ name="PPCONF" system="COBOL" />
+	<TQ name="PPDIAG" system="COBOL" />
+	<TQ name="PPHTEXT" system="COBOL" />
+	<TQ name="PPLOS" system="COBOL" />
+	<TQ name="PPPROC" system="COBOL" />
+	<TQ name="PRACTYPE" system="COBOL" />
+	<TQ name="PRNAMADR" system="COBOL" />
+	<TQ name="PRNTQPBM" system="COBOL" />
+	<TQ name="PROTOCOL" system="COBOL" />
+	<TQ name="PROVIDER" system="COBOL" />
+	<TQ name="PRTDEPND" system="COBOL" />
+	<TQ name="PRTINSRT" system="COBOL" />
+	<TQ name="PRTMEMCD" system="COBOL" />
+	<TQ name="PRTMRM01" system="COBOL" />
+	<TQ name="PRTMRMG" system="COBOL" />
+	<TQ name="PRTNPMB" system="COBOL" />
+	<TQ name="PRTPMB" system="COBOL" />
+	<TQ name="PSYENLET" system="COBOL" />
+	<TQ name="PUTINSRT" system="COBOL" />
+	<TQ name="QGETBAT" system="COBOL" />
+	<TQ name="QHXCOSTC" system="COBOL" />
+	<TQ name="QPBMCMP" system="COBOL" />
+	<TQ name="QPBMDSP" system="COBOL" />
+	<TQ name="QPBMFORM" system="COBOL" />
+	<TQ name="QPBMSPEC" system="COBOL" />
+	<TQ name="QUALCONT" system="COBOL" />
+	<TQ name="QUINAPPI" system="COBOL" />
+	<TQ name="QUOTEMEM" system="COBOL" />
+	<TQ name="RADNAPLD" system="COBOL" />
+	<TQ name="RADTARLD" system="COBOL" />
+	<TQ name="REALAUTH" system="COBOL" />
+	<TQ name="REALCLM" system="COBOL" />
+	<TQ name="RECON" system="COBOL" />
+	<TQ name="REQCARD" system="COBOL" />
+	<TQ name="RETURN02" system="COBOL" />
+	<TQ name="SAVEBAL" system="COBOL" />
+	<TQ name="SAVINGS" system="COBOL" />
+	<TQ name="SAVRULEA" system="COBOL" />
+	<TQ name="SAVRULEB" system="COBOL" />
+	<TQ name="SAVRULED" system="COBOL" />
+	<TQ name="SAVRULEU" system="COBOL" />
+	<TQ name="SBDBREP" system="COBOL" />
+	<TQ name="SBDBREP1" system="COBOL" />
+	<TQ name="SBDBSUM1" system="COBOL" />
+	<TQ name="SBINVDT" system="COBOL" />
+	<TQ name="SBSUBBAL" system="COBOL" />
+	<TQ name="SCHEME" system="COBOL" />
+	<TQ name="SCHMSPEC" system="COBOL" />
+	<TQ name="SENDSMS" system="COBOL" />
+	<TQ name="SERVPROV" system="COBOL" />
+	<TQ name="SHUTDOWN" system="COBOL" />
+	<TQ name="SM000001" system="COBOL" />
+	<TQ name="SM000002" system="COBOL" />
+	<TQ name="SM000003" system="COBOL" />
+	<TQ name="SM000004" system="COBOL" />
+	<TQ name="SM000005" system="COBOL" />
+	<TQ name="SM000007" system="COBOL" />
+	<TQ name="SM000032" system="COBOL" />
+	<TQ name="SM000033" system="COBOL" />
+	<TQ name="SM000035" system="COBOL" />
+	<TQ name="SM000036" system="COBOL" />
+	<TQ name="SM000039" system="COBOL" />
+	<TQ name="SM000042" system="COBOL" />
+	<TQ name="SM000043" system="COBOL" />
+	<TQ name="SM000050" system="COBOL" />
+	<TQ name="SM000051" system="COBOL" />
+	<TQ name="SM000052" system="COBOL" />
+	<TQ name="SM000060" system="COBOL" />
+	<TQ name="SM000061" system="COBOL" />
+	<TQ name="SM000062" system="COBOL" />
+	<TQ name="SM000063" system="COBOL" />
+	<TQ name="SM000065" system="COBOL" />
+	<TQ name="SM000099" system="COBOL" />
+	<TQ name="SM000100" system="COBOL" />
+	<TQ name="SM000101" system="COBOL" />
+	<TQ name="SM000102" system="COBOL" />
+	<TQ name="SM000103" system="COBOL" />
+	<TQ name="SM000105" system="COBOL" />
+	<TQ name="SM100001" system="COBOL" />
+	<TQ name="SM100002" system="COBOL" />
+	<TQ name="SM100009" system="COBOL" />
+	<TQ name="SMARTDSC" system="COBOL" />
+	<TQ name="SMARTTMP" system="COBOL" />
+	<TQ name="SMSBEN01" system="COBOL" />
+	<TQ name="smsicd" system="COBOL" />
+	<TQ name="SOLAUTH" system="COBOL" />
+	<TQ name="SOLBEN" system="COBOL" />
+	<TQ name="STAFFMNT" system="COBOL" />
+	<TQ name="STAFSTUF" system="COBOL" />
+	<TQ name="STAFXREF" system="COBOL" />
+	<TQ name="SUBACCT" system="COBOL" />
+	<TQ name="SUBHIST" system="COBOL" />
+	<TQ name="SUBPARMS" system="COBOL" />
+	<TQ name="SUPSCHNM" system="COBOL" />
+	<TQ name="TAXCRT" system="COBOL" />
+	<TQ name="TAXHIST" system="COBOL" />
+	<TQ name="TESTFUNK" system="COBOL" />
+	<TQ name="TMEDUCMP" system="COBOL" />
+	<TQ name="TMVALPIN" system="COBOL" />
+	<TQ name="TQADDENQ" system="COBOL" />
+	<TQ name="TQADHOC" system="COBOL" />
+	<TQ name="TRANQARC" system="COBOL" />
+	<TQ name="TRANQREP" system="COBOL" />
+	<TQ name="TRGXML01" system="COBOL" />
+	<TQ name="TRNQREP" system="COBOL" />
+	<TQ name="UNDWRITE" system="COBOL" />
+	<TQ name="UPDPIN" system="COBOL" />
+	<TQ name="US010" system="COBOL" />
+	<TQ name="UWCHGST" system="COBOL" />
+	<TQ name="VALMSTRO" system="COBOL" />
+	<TQ name="VALPIN" system="COBOL" />
+	<TQ name="WEBACC" system="COBOL" />
+	<TQ name="WEBCOMM" system="COBOL" />
+	<TQ name="WEBPIN" system="COBOL" />
+	<TQ name="WEBREPCT" system="COBOL" />
+	<TQ name="XMBRNTFR" system="COBOL" />
+	<TQ name="XMCHGADR" system="COBOL" />
+	<TQ name="XMCHGBNK" system="COBOL" />
+	<TQ name="XMCHGDET" system="COBOL" />
+	<TQ name="XMCHGDST" system="COBOL" />
+	<TQ name="XMCHGEMP" system="COBOL" />
+	<TQ name="XMCHGGRD" system="COBOL" />
+	<TQ name="XMCHGMEM" system="COBOL" />
+	<TQ name="XMCHGPIN" system="COBOL" />
+	<TQ name="XMCHGSAL" system="COBOL" />
+	<TQ name="XMCONFTP" system="COBOL" />
+	<TQ name="XMCONTRB" system="COBOL" />
+	<TQ name="XMFLEXST" system="COBOL" />
+	<TQ name="XMNEWDEP" system="COBOL" />
+	<TQ name="XMPENS" system="COBOL" />
+	<TQ name="XMPRTCRD" system="COBOL" />
+	<TQ name="XMRES01" system="COBOL" />
+	<TQ name="XMRESDEP" system="COBOL" />
+	<TQ name="XMSTATU" system="COBOL" />
+	<TQ name="XMSTATUS" system="COBOL" />
+	<TQ name="XMSTRJ1" system="COBOL" />
+	<TQ name="XMSTRJ2" system="COBOL" />
+	<TQ name="XMUSE01" system="COBOL" />
+	<TQ name="XUSE01" system="COBOL" />
+	<TQ name="Authorisation_2011_04_01.RequestHandler" system="JEE" className="Authorisation_2011_04_01.RequestHandler" />
+	<TQ name="CLEANER" system="JEE" className="CLEANER" />
+	<TQ name="Claims_2011_04_01.RequestHandler" system="JEE" className="Claims_2011_04_01.RequestHandler" />
+	<TQ name="Display" system="JEE" className="Display" />
+	<TQ name="DrmManage" system="JEE" className="DrmManage" />
+	<TQ name="ENCRYPTION_MANAGER" system="JEE" className="ENCRYPTION_MANAGER" />
+	<TQ name="EnrollmentDriver" system="JEE" className="EnrollmentDriver" />
+	<TQ name="GET_IMAGE_URL" system="JEE" className="GET_IMAGE_URL" />
+	<TQ name="GenerateNumber" system="JEE" className="GenerateNumber" />
+	<TQ name="ImageIDGenerator" system="JEE" className="ImageIDGenerator" />
+	<TQ name="ListServicesNames" system="JEE" className="ListServicesNames" />
+	<TQ name="Master_2011_04_01.RequestHandler" system="JEE" className="Master_2011_04_01.RequestHandler" />
+	<TQ name="Membership_2011_04_01.RequestHandler" system="JEE" className="Membership_2011_04_01.RequestHandler" />
+	<TQ name="Mrm_2011_04_01.RequestHandler" system="JEE" className="Mrm_2011_04_01.RequestHandler" />
+	<TQ name="NOTIFY" system="JEE" className="NOTIFY" />
+	<TQ name="POJAS_SOL_AUTHORISATION" system="JEE" className="POJAS_SOL_AUTHORISATION" />
+	<TQ name="POJAS_SOL_VALIDATE_PATIENT" system="JEE" className="POJAS_SOL_VALIDATE_PATIENT" />
+	<TQ name="ReferenceBean" system="JEE" className="ReferenceBean" />
+	<TQ name="RequestHandler" system="JEE" className="RequestHandler" />
+	<TQ name="Results_2011_04_01.RequestHandler" system="JEE" className="Results_2011_04_01.RequestHandler" />
+	<TQ name="SERVICEMANAGER" system="JEE" className="SERVICEMANAGER" />
+	<TQ name="SMS_REQUEST" system="JEE" className="SMS_REQUEST" />
+	<TQ name="TestDBConnection" system="JEE" className="TestDBConnection" />
+	<TQ name="UNITY_2011_03_12.RequestHandler" system="JEE" className="UNITY_2011_03_12.RequestHandler" />
+	<TQ name="Util_2011_04_01.RequestHandler" system="JEE" className="Util_2011_04_01.RequestHandler" />
+	<TQ name="Workflow_2011_04_01.RequestHandler" system="JEE" className="Workflow_2011_04_01.RequestHandler" />
+	<TQ name="mc.CancellationInformation" system="JEE" className="mc.CancellationInformation" />
+	<TQ name="mc.NewAuthorisationInformation" system="JEE" className="mc.NewAuthorisationInformation" />
+	<TQ name="mc.ReAuthorisationInformation" system="JEE" className="mc.ReAuthorisationInformation" />
+	<TQ name="AAAmultipurpose_TQ" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ADD_DYNAMIC_SERVICE" system="POJAS" className="MulticastSender" />
+	<TQ name="ADD_MULTIDYNAMIC_SERVICE" system="POJAS" className="MulticastSender" />
+	<TQ name="ADD_REGULAR_SERVICE" system="POJAS" className="MulticastSender" />
+	<TQ name="ADD_SERVICE_LOGGING" system="POJAS" className="AddServiceLog" />
+	<TQ name="ADD_WEB_SERVICE" system="POJAS" className="WebServiceManagement" />
+	<TQ name="ASSIGN_WORKFLOW" system="POJAS" className="MulticastSender" />
+	<TQ name="AUD_QUI_SELECT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="BANKMED_CORE_SAVER" system="JEE" className="BANKMED_CORE_SAVER" />
+	<TQ name="BANKMED_INSMICRO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="BATCH_UPDATE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="BMED_LOGON" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="BRM_Get_Process_Definition" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="BRM_MULTI_UTIL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="BRM_Multi_Util" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="BRM_Utility" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CAREPLAN_DISTINCT_PERIOD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CAREPLAN_SCHEDULE_BY_PATIENT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CHECK_IPA_DOCTOR_EXISTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CHECK_USERNAME_PASS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CLAIM_BY_DOC_DATE_SCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CLAIM_BY_DOC_SCH_MBR_ROW" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CLAIM_BY_DOC_SCH_REF_ROW" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CLAIM_BY_PROV_DATE_SCHEME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CLAIM_BY_PROV_DATE_SCHM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CONNECTION_INFO" system="POJAS" className="SystemManagement" />
+	<TQ name="CONTACT_UPDATE_INSERT_VCT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CPTMASTER_SEARCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CPT_SEARCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="CPT_SEARCH_CROSS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DATABASE_NAME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DEBTOR_BY_SCHEME_ACC_TYPE_DATE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_BUSINESS_EVENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_CONTACT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_CONTADDR" system="POJAS" className="DynamicQueryExecutor" />
+    <TQ name="DELETE_USER_SCHEMES" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="DELETE_CORRDESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_HISTPROF_RECORD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_USER_SCHEMES" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="DELETE_ITEMDESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_JBPME_VAR_USER_TASK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_MEMBEN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_PILIR_ASSESSMENT_RECORD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_SERVICE" system="POJAS" className="MulticastSender" />
+	<TQ name="DELETE_SERVICE_EVENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_SYSTEM_EVENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_USER_SCHEME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DELETE_WEB_SERVICE" system="POJAS" className="WebServiceManagement" />
+	<TQ name="DEPEND_ALL_ACTIVE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DEPEND_ALL_BY_MEMBERID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DISPLAY_OP_MAUDIT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DOCTOR_BY_DOCTORID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_Doctor_s_prt_overflow" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DOCTOR_BY_PROVCLIN_GROUP_CODE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DOCTOR_GETDETAILS" system="POJAS" className="DynamicQueryExecutor" /> 
+	<TQ name="Update_Doctor_s_prt_overflow" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DRM_RESULT_ENQUIRY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DTPMASTER_SEARCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DTPMASTER_SEARCH_BY_ICD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DYNAMIC_QUERY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="DYNAMIC_SELECT" system="POJAS" className="DynamicSelect" />
+	<TQ name="Delete_GENREFD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Delete_QIDESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Delete_from_RISKDET" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ECHO" system="POJAS" className="Echo" />
+	<TQ name="ENQUIRY_INSERT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ENQUIRY_INSERT_SP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ENQUIRY_INSERT_VITEL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ENQUIRY_SUMMARY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ENQUIRY_SUMMARY_GET_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ENQUIRY_SUMMARY_GET_INFO_VITEL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ENQUIRY_UPDATE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ENQUIRY_UPDATE_VITEL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ENQWORK_EXITS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ENQWORK_INSERT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ENVIRONMENT_INFO" system="JEE" className="ENVIRONMENT_INFO" />
+	<TQ name="EXECUTE_WEB_SERVICE" system="POJAS" className="WebServiceExecutor" />
+	<TQ name="FRIENDS_OF_GEMS" system="JEE" className="FRIENDS_OF_GEMS" />
+	<TQ name="FoG_COUNTRECORDS_ONE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="FoG_COUNTRECORDS_TWO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="FoG_COUNT_SUBURBS_BY_PROVINCE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="FoG_COUNT_TOWNS_BY_PROVINCE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="FoG_GET_DOCTORS_BY_COORDS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="FoG_GET_DOCTORS_NETWORK_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="FoG_GET_DOCTORS_NETWORK_INFO_ALLSUB" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="FoG_VALIDATEMEMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DEL_REMOVE_USER_FROM_ALL_GROUPS" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="GAME_INSERT_ADD_USER_TO_GROUP_FROM_MODEL_USER" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="GAME_DEBUG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DELETE_APPFORMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DELETE_APPLICATION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DELETE_APPUSER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DELETE_FORM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DELETE_FUNCTIONKEY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DELETE_GROUP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DELETE_PROCESSFORM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DEL_FORM_FROM_APP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DEL_GROUP_APP_ACCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DEL_REMOVE_USER_FROM_GROUP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_DEL_USER_APP_ACCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_APPLICATIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_APPLICATION_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_APPLICATION_FORMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_APPLICATION_FORM_BY_CRITERIA" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_APPLICATION_GROUPS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_APPUSER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_APP_FORMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_APP_GROUPS_ACCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_APP_USERS_ACCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_AVAILABLE_FORMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_AVAILABLE_GROUPS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_AVAILABLE_USERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_DYNAMIC_SERVICES_DEF_SPECIFIC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_FORMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_FUNCTIONKEYS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_GROUPS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_GROUP_AVAILABLE_USERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_GROUP_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_GROUP_USERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_PROCESSFORMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_USER_APP_CONFIG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_USER_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WF_USERSTATS_TASKS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WF_US_TASKS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WF_US_TASKS_USER_SPECIFIC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WORKFLOW_PROCESS_STATS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WORKFLOW_PS_PROCESSES_AND_TASKS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WORKFLOW_SOURCE_NAMES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WORKFLOW_SOURCE_STATS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WORKFLOW_TASK_STATS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WORKFLOW_USERNAMES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WORKFLOW_USER_STATS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WORKFLOW_USER_STATS_NEW" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET_WORKFLOW_US_PROCESSES_AND_TASKS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_GET__GROUPS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INSERT_ADD_USER_TO_GROUP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INSERT_APPUSER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INSERT_FORM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INSERT_GIVE_GROUP_APP_ACCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INSERT_GIVE_GROUP_SCREEN_ACCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INSERT_LINK_SCREEN_APP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INSERT_NEW_APPLICATION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INSERT_NEW_GROUP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INSERT_PROCESSFORM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INSERT_USER_APP_ACCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_INS_FKEY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_SEARCH_B2BAUTHLOG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_UPDATE_APPFORMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_UPDATE_APPLICATION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_UPDATE_APPUSER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_UPDATE_FORM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_UPDATE_FUNCTIONKEY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_UPDATE_GROUP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GAME_UPDATE_PROCESSFORM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GEMS_GET_DOCTORS_NETWORK_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GEMS_GET_DOCTORS_NETWORK_INFO_COUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GENERATE_REPORT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET ALL DSM DESCRIPTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET record from DSM_ICD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETBUSINESSEVENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETFOUNDATIONPROVIDERCOUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETFOUNDATIONPROVIDERLIST" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETGDT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETIPAPROVIDERCOUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETPARAMETEREVENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETQUERYEVENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETRECENTSERVICEEVENTS_WITH_ERRORS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETRECENTSERVICES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETSERVICEEVENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETSERVICEEVENTS_BY_DATE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETSERVICEEVENTS_BY_DATE_BOTH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETSERVICEEVENTS_BY_DATE_INPUT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETSERVICEEVENTS_BY_DATE_OUTPUT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETSERVICEEVENTS_WITH_ERRORS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETSERVICEEVENTXML" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GETSERVICEEXCEPTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ADDRESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ALL_CLAIMS_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ALL_CLAIMS_DETAILS_All_DEPENDENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ALL_REAL_CLAIMS_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ALL_REAL_CLAIMS_DETAILS_All_DEPENDENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ALL_REPORTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ARCHIVE_DESCRIPTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_AUDMEMBEN_RECORDS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_AUTH_HEADER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_AUTH_INFORMATION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_BRANCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CALL_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CLAIMS_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CLAIMS_DETAILS_All_DEPENDENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CLAIMS_SUMMARY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CLM_IMAGE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CMPPATH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CMP_NOTES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CORRESPONDENCE_MICRO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CORRESPONDENCE_MICRO2" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CORR_DESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CPT_CODES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CPT_ICD_DESCRIPTION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_CURRENT_SCHEME_OPTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DEPENDANT_BY_SURNAME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DEPENDANT_DETAILS" system="POJAS" className="DynamicQueryExecutor" /> 
+	<TQ name="GET_DEPENDANT_DETAILS_BY_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DESCRIPTIONS_BY_FILTER1" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DESCRIPTIONS_BY_KEY_TYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DISCIPLINE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DOCTORS_NETWORK_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DOCTORS_NETWORK_INFO_ALLSUB" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DOCTOR_CONTACT_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DOCTOR_INFOR" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DOCTOR_PIN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DOCTOR_PROFILE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DOC_QUALSA_CONTACTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DRM_USERNAMES_FOR_SYSTEM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DSM_DESCRIPTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_DYNAMIC_SERVICE" system="POJAS" className="ListServicesNames" />
+	<TQ name="GET_EMPLOYER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_EMPLOYER_BRANCH" system="POJAS" className="DynamicQueryExecutor" /> 
+	<TQ name="GET_EMPLOY_DETAILS" system="POJAS" className="DynamicQueryExecutor" /> 
+	<TQ name="GET_ENQUIRIES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ENQWORK_EMAIL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ERROR_DESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ERROR_MSG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_FORMULARYLOOKUP_WEB" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_GENERIC_DOCTORS_NETWORK_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_GENREFD_CROSSWALK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_HISTPROF_RECORDS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_HIV_CLAIMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_HOSP_AGREEMENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ICD_DESCRIPTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ICD_DSM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ICD_XREF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_IMAGE_DETAILS_BY_ACC_TYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_IMAGE_FROM_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_IMAGE_URL_SEE" system="POJAS" className="GetImage" />
+	<TQ name="GET_INSRTDETIDX" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_INTERVEN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ITEMDESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ITEMDESC_AUI" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ITEMDESC_BY_ITEM_KEY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ITEMDESC_BY_ITEM_TYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ITEMDESC_BY_ITEM_TYPE_KEY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_ITEMDESC_BY_TYPE_FILTER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_LETTER_DESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_LOC_BUCKETS_BY_TYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MCDESC_MIC_TYPE_CODE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEDICINE_BASKETS_FOR_MEMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEDICINE_SUMMARY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMBEN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMBER_BY_SURNAME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMBER_CLAIMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMBER_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMBER_DETAILS2" system="WAS" portTypeName="MemberInterface" portTypeNamespace="http://za.mhgad.com/legacy/member/service/v1/" portTypeVersion="1.0" overrideEndpoint="http://cptwaspre.za.mhgad.com/MemberRouter/Member" />
+	<TQ name="GET_MEMBER_DETAILS_BY_CONFIRMNO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMBER_DETAILS_BY_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMBER_EMAIL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMBER_LANG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMBER_PIN" system="WAS" portTypeName="MemberInterface" portTypeNamespace="http://za.mhgad.com/legacy/member/service/v1/" portTypeVersion="1.0" overrideEndpoint="http://cptwaspre.za.mhgad.com/MemberRouter/Member" />
+	<TQ name="GET_MEMBER_PIN_FOR_PIN_RETREIVE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMBER_SUSPEND" system="WAS" portTypeName="MemberInterface" portTypeNamespace="http://za.mhgad.com/legacy/member/service/v1/" portTypeVersion="1.0" overrideEndpoint="http://cptwaspre.za.mhgad.com/MemberRouter/Member" />
+	<TQ name="GET_MEMNOTES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEMPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MEM_ADDR_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MICRO_ALL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MIC_DETAILS_ALL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MIC_DETAILS_EXCLUDE_DOCTYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MIC_DETAILS_FILTER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MIC_REF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MIC_SERIAL_BY_ACC_TYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MULTIDYNAMIC_SERVICE" system="POJAS" className="ListServicesNames" />
+	<TQ name="GET_MULTIPLE_CPT_DESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MULTIPLE_ICD_DESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MULTIPLE_NAPPI_DESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_MULTIPLE_TARIFF_DESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_NAPPI_DESCRIPTION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_NEXTNUM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PATIENT_DOCTORS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PATIENT_EXCLUSIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PATIENT_FILTERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PATIENT_INDICATORS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PATIENT_PROFILE_DETAIL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PATIENT_PROFILE_SCORES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PAT_NOTES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PAYMENTS_VS_CONTRIBUTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PILIR_AUTH_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PILIR_CM_GROUP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PILIR_REPORT_ADVICE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PILLIR_INVOCING" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PILLIR_INVOCING_ALL_BRANCHES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PMB_BENEFITS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PMB_BENEFITS2" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PMB_CLAIMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PMB_CLAIMS_All_DEPENDENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PMB_GENERIC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PMB_PCP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PMB_PROFILE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PROVIDER_CATEGORY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PROVIDER_FROM_MEMBPROV" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PROVIDER_FROM_NETWORK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_PROVINCES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_REAL_CLAIMS_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_REAL_CLAIMS_DETAILS_All_DEPENDENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_REAL_PMB_CLAIMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_REAL_PMB_CLAIMS_All_DEPENDENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_REGULAR_SERVICE" system="POJAS" className="ListServicesNames" />
+	<TQ name="GET_REPORT_BY_DATE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_REPORT_SERVICES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_REPORT_USERDATA" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_SCHEME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_SERVICE_BY_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_SERVICE_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_SERVICE_INFO2" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_STAFF_CHRONIC_IND" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_STAFF_DETAIL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_STAFF_EMAIL_ADDRESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_STAFF_OPERATOR_CODE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_TARIFF_BY_DESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_TOWNLIST_BY_PROVINCE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_TQBuilder_Admin" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_TRAF_SERVERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_Towns_By_Province_Name" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_USER_GROUPS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_VCT_EMPLOYER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WAP_IMAGE_WITH_ID" system="POJAS" className="WAPInterface" />
+	<TQ name="GET_WELL_PROG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_CASE_TRACKER_PROVIDER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_CASE_TRACKER_REF_REPORT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_CASE_TRACKER_REPORT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_CASE_TRACKER_REPORT_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_CASE_TRACKER_SOURCE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_ENQUIRY_COMMENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_QUEUE_REPORT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_QUEUE_REPORT_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_QUEUE_REPORT_NEW" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_QUEUE_REPORT_USERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_SLA_DETAIL_REPORT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_SLA_REPORT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_WEEKLY_TASKS_COMPLETED" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_WF_WEEKLY_TASKS_OPEN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GET_dOCTOR_INFOR" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GEt_PATIENT_PROFILE_SCORES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GP_DISEASE_PERIOD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GUARDIAN_GET_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GUIDELINES_LOG_USAGE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GarthTESTPROD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Gems_Last_CLM_Stmnt" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Gems_Last_CNTRB_Stmnt" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GetFormularyDiagnosis" system="POJAS" className="DynamicQueryExecutor" /> 
+	<TQ name="GetFormularyDiagnosisPrimecure" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GetFormularyICDCode" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GetFormularyICDCodeCount" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GetFormularyLookup" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GetFormularyLookupPrimecure" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GetFoundationCountTest" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GetIPAGPDetails" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GetIPAList" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="GetProvclinProviderSearch" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_ALL_claims_details" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_Auth_Details" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_Dependant_Details" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_Doctor_Group_Details" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_Doctor_Types" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_GENREFD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_Member_Details" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_Member_Details_Surname_Initail" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_PMB_Claims" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_Patient_Exclusions" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_QIDESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_Suburb_By_Town" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_claims_details" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_histRISDET_entry" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_histRISDET_entryTimeChange" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_recentRISDET_entry" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_recentRISDET_entry_with_RL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Get_DCP_Existing_Survey_Section" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Get_DCP_SurveyAnswers" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Get_DCP_SurveyQuestionOption" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Get_DCP_SurveyUser" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Get_DCP_SurveyUser_Section" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Get_DCP_SurveyUserSurvey" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Get_Existing_DCP_Survey" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="GET_HOSPITAL_GROUPS" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="GET_ICD_DTPMASTER" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="GET_MHDISCIPLINE" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="GET_STAFF_VALIDATE_MOBILE" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="GET_SUBURBS_BY_DESC" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="GET_USER_GROUP_TASKS" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="HOSPITALAUTH_GETAUTHS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="HOSPITALAUTH_GETCPTCODE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="HOSPITALAUTH_GETSCHEME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="HOSPITALAUTH_LOGIN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="HOSPITALAUTH_MEMBERDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="HOSPITALS_BY_REGION_TYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INDEX_MICRO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_APPGROUP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_AUDIT_TRAIL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_AUDIT_TRAIL_NIMAS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_AUD_QUI" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_CLINICAL_HISTORY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_CMPPATH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_HISTPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_INTERVEN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_IPA_CONTACT_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_ITEMDESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_JBPME_GROUP_TASK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_JBPME_VAR_USER_TASK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_MEMBEN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_MICRO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_NEW_DOCTOR_CONTACTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_NEW_DOCTOR_CONTADDR" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_NEXTNUM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_PILIR_CHECKLIST" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_QKAUDIT_SEARCH_RECORD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Insert_DCP_SurveyAnswer" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Insert_DCP_SurveyQuestionOption" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Insert_DCP_SurveyUser" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Insert_DCP_SurveyUserSection" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Insert_DCP_SurveyUserSurvey" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="INSERT_SMSTEXT_TO_TLINES" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="INSERT_USER_SCHEME_FROM_MODEL_USER" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="INSERT_SCHEME_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_TLINES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="INSERT_USER_SCHEME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="IPAValidateLogin" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="IPA_GET_DOCTORS_NETWORK_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ITEMDESC_COUNTRY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ITEMDESC_GET_SCHEME_PROGRAM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ITEMDESC_HOSPITALS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="IVR_GET_LATEST_BNKMED_IMAGE_NO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="IVR_GET_LATEST_IMAGE_NO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="IVR_GET_LATEST_POLMED_IMAGE_NO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="IVR_GET_LATEST_TRANSMED_IMAGE_NO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="IVR_HOSP_AUTH_LKP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="IVR_RR_MEMVAL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Insert_GENREFD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Insert_GENREFM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Insert_QIDESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Insert_Qualsa_Contact_Details" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Insert_into_RISKDET" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Insert_newContactTypeContact" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Insert_newContactTypeContaddr" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Intract_xwalk" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="IsValidClicksLogin" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_GetDistinctQueueNames" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_MonitorWorkflowQueues" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_MonitorWorkflowQueuesSpecific" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_OpenItemsForSameMember" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_SearchForImageNo" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_SearchForMember" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_SearchForUser" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_ViewWorkflowQueueItems" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_ViewWorkflowQueueItemsSchemeSpecific" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_ViewWorkflowQueueItemsSchemeSpecificAsc" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_ViewWorkflowQueues" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_ViewWorkflowQueuesSchemeSpecific" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_WorkflowProcessStats" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_WorkflowSourceStats" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_WorkflowTasksStats" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_WorkflowUserStats" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_WorkflowUsers" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_getAdditionalTaskVariables" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_getProcessInfo" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_getProcessInfoByProcess" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_getProcessNames" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_getProcessVariables" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_getProcessVariablesByTask" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_getTaskInfo" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_getTaskNames" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_getTaskVariables" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_listAllWfComments" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_listAssignedItems" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_listAssignedItemsSchemeSpecific" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_listCompletedItems" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_listCompletedItemsSchemeSpecific" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_listOtherComments" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="JBPM_populateProcessComboBox" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="LISTALLSERVICESNAMES" system="POJAS" className="ListServicesNames" />
+	<TQ name="LIST_BUSINESS_OBJECTS" system="POJAS" className="BusinessObjectManagement" />
+	<TQ name="LIST_DYNAMIC_SERVICES" system="JEE" className="LIST_DYNAMIC_SERVICES" />
+	<TQ name="LIST_DYNAMIC_SERVICES_NAMES" system="POJAS" className="ListServicesNames" />
+	<TQ name="LIST_MULTIDYNAMIC_SERVICES" system="POJAS" className="ListServicesNames" />
+	<TQ name="LIST_MULTIDYNAMIC_SERVICES_NAMES" system="POJAS" className="ListServicesNames" />
+	<TQ name="LIST_REGULAR_SERVICES" system="POJAS" className="ListServicesNames" />
+	<TQ name="LIST_REGULAR_SERVICES_NAMES" system="POJAS" className="ListServicesNames" />
+	<TQ name="LIST_TQ_FUNCTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="LOAD_MEMBER_BY_SCHEME_GRP_PROV" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINEMEMPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_CLAIMSBANKDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_CLAIMSDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_CLAIMSSTATEMENTBALANCEFORWARD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_CLAIMSSTATEMENTCOUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_CLAIMS_STATEMENT_PAGING" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_CLAIM_DOCTORS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_CLAIM_DOCTORS_PAGING" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_CONTRIBUTIONBANKDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_COUNTHOSPAUTHPROV" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_COUNTMEMBERCLAIMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_COUNTPROVIDERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_COUNT_CHRONICAUTHS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_COUNT_CLAIMS_FOR_CLAIMSSTATEMENTPAG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_COUNT_CLAIMS_FOR_CLAIMS_STATEMENT_P" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_CREATELETTER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_CREATEMEMPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_ChronicAuth" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_ChronicAuthValid" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_ChronicAuthValidC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_Count_Claims_FORDOCTOR" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_DELETECONTLANG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_DELETEMEMPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_DELETEMEMPROF_NEWSLETTERPREF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_DELETE_DEPCONTLANG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_DISPLAYTOPCLAIMSFORCLAIMSSTATEMENT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_EMPLOYERDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GEMSCREATEMEMPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GEMSCREATEMEMPROF_NEWSLETTERPREF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GETCLAIMSIMAGE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GETCONTLANG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GETDEPENDENTSFORCLAIMSSEARCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GETIMAGEBYID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GETMEMBERCLAIMSTATUS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GETPLANBYSCHEME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GETPROVIDERCOUNTFORCLAIMSEARCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GETPROVIDERCOUNTFORHOSPAUTH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GETSCHEMESBYMEMBERNUMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GETSTDCOUNTFORCLAIMSEARCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_GET_MEMBER_AND_DEPENDANTS_BY_MEMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_HOSPITALAUTHLETTERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_Hospital_Authorisation" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_Hospital_Authorisation_COUNTRECORDS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_Hospital_Authorisation_GETPROVIDERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_Hospital_Authorisation_paging" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_INSERTCONTLANG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_INSERT_DEPCONTLANG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_MEMBERCOMMUNICATIONSETTINGS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_MEMBERCOMMUNICATION_IND" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_MEMBERCONTACTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_MEMBERDEPENDENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_MEMBERDEPENDENTS_LANGIND" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_MEMBERDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_MEMBERPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_MEMPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_MICSERIAL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_PAGETHRUCLAIMSINCLAIMSSTATEMENT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_QUALSADISEASEINFORMATION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_SCHEMEDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_SCHEMEINFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_SEARCHCLAIMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_SEARCHCLAIMSSTATEMENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_STDCLAIMSEARCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_UPDATEMEMPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBERONLINE_WEBSITESUPERSCHEME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBER_BY_MEMBER_ID_NUM" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="MEMBERONLINE_CAREPLANLETTER" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="MemberOnline_CarePlanLetter" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="MEMBER_ALL_ACTIVE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMBER_ALL_BY_MEMBERID" system="WAS" portTypeName="MemberInterface" portTypeNamespace="http://za.mhgad.com/legacy/member/service/v1/" portTypeVersion="1.0" overrideEndpoint="http://cptwaspre.za.mhgad.com/MemberRouter/Member" />
+	<TQ name="MEMBER_BY_SA_ID_NUMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMLOGHIST_SCHEME_WEB" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMMOBI_CONTACT_UPDATE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MEMPROF_COMMUNICATION_UPDATE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MICRO_EXITS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MICRO_LETTER_BY_PROV_DATE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="MONITOR_DB" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NAPPI_SEARCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NAV_TRACKING_INSERT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NAV_TRACKING_REPORT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NAV_TRACKING_REPORT_HITS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NAV_TRACKING_REPORT_UNIQUE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETCARE911_GET_DEPEND_MEMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETCARE911_GET_MEMBER_ID_NO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETCARE911_GET_MEMBER_MEMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETCARE911_GET_MEMBER_SURNAME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETPROVDEL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETPROVMAXPRAC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETPROVMAXREC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETPROVPRAC_COUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETPROVREG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETPROVREGUPD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETPROVUPD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETWORKS_BY_PROVIDER" system="POJAS" className="DynamicQueryExecutor" />	
+	<TQ name="NETWORK_DISTINCT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETWORK_GET_DOCS" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="NETWORK_DISTINCT_PROVINCE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETWORK_DISTINCT_SUBURB_BY_TOWN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETWORK_DISTINCT_TOWN_BY_PROVINCE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETWORK_GET_PROVIDER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NETWORK_GET_PROVIDER_EXISTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NIMASSMS_RECEIVE_REPLY" system="JEE" className="NIMASSMS_RECEIVE_REPLY" />
+	<TQ name="NIMASSMS_RECEIVE_REPLY_OLD" system="JEE" className="NIMASSMS_RECEIVE_REPLY_OLD" />
+	<TQ name="NOTIFY_LIST_GROUPS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="NOTIFY_SEE" system="POJAS" className="NotificationSender" />
+	<TQ name="ONCENRL_GET_ONCTREATMENT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ONCENRL_INS_CHEMOTREATMENT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ONCENRL_INS_RADIOTREATMENT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PATIENTS_BY_PROVIDER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIRASSESSMENT_GET_FUNCTION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_ASSESSMENTS_BY_EMPLOYEE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_ASSESSMENTS_BY_GUARDIAN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_ASSESSMENT_BY_CONFIRMNUM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_Assessment_Report" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_EMPLOYEE_POSITION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_EMPLOYER_BRANCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_GET_ACCOUNT_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_GET_BRANCH_NAME" system="POJAS" className="DynamicQueryExecutor" />   
+	<TQ name="PILIR_GET_CONTACT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_GET_ITEMDESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_GUARDIAN_AUTHENTICATION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_LIST_BRANCH" system="POJAS" className="DynamicQueryExecutor" /> 
+	<TQ name="PILIR_LIST_EMPLOY" system="POJAS" className="DynamicQueryExecutor" /> 
+	<TQ name="PILIR_LIST_EMP_BRANCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_MANAGE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_ONLINE_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PILIR_UNIQUE_CASES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PING" system="POJAS" className="Echo" />
+	<TQ name="POJAS_SOL_AUTHORISATION_SEE" system="POJAS" className="HospitalAuthorisation" />
+	<TQ name="POJAS_SOL_VALIDATE_PATIENT_SEE" system="POJAS" className="ValidatePatient" />
+	<TQ name="POLEMDSMS_RECEIVE_REPLY" system="JEE" className="POLEMDSMS_RECEIVE_REPLY" />
+	<TQ name="POLMEDSMS_RECEIVE_REPLY" system="JEE" className="POLMEDSMS_RECEIVE_REPLY" />
+	<TQ name="PRACTYPE_HOSPITALS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROFILE_SEGMENT_DESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVCLIN_GET_PROV_NETWORKS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVCLIN_GroupCodeProvId" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_ADD_TO_NETWORK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_BY_NETWORK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_BY_NETWORK_PROVNUM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_CLAIMS_BY_DOC_CYCL_STAT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_GET_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_MANAGE_IPA_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_MICRO_ACC_DTE_TYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_PROFILE_SCORE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_PROF_SCORE_DETAIL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_REMOVE_FROM_NETWORK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_SEARCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_SELECT_IPAS_ON" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_SELECT_LIST_IPAS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_SELECT_NETWORKS_NOT_ON" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_SELECT_NETWORKS_ON" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_UPDATE_TO_NETWORK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="PROVIDER_MEDPAGES_PRACTICES" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="PROVIDER_NETWORKS_PROFILE" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="PROVIDER_PATIENT_CELL_NUMBER" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="PROVIDER_PRACTICE_PROFILE" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="ProviderByPracPrvNmSnmGroup" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ProviderByPracPrvNmSnmGroupCount" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_ANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_CATEGORIES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_INTERVENTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_QUESTIONANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_QUESTIONDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_QUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_QUESTIONTYPEQUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_QUESTIONTYPES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_QUESTIONTYPESECTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_SECTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_DELETE_VALIDATIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_ANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_CATEGORIES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_INTERVENTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_QUESTIONANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_QUESTIONDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_QUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_QUESTIONTYPEQUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_QUESTIONTYPES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_QUESTIONTYPESECTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_SECTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_INSERT_VALIDATIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_ANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_ANSWERTYPES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_CATEGORIES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_INTERVENTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_INTERVENTIONSTYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_QUESTIONAIRES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_QUESTIONANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_QUESTIONDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_QUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_QUESTIONS_KEYWORD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_QUESTIONTYPEQUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_QUESTIONTYPES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_QUESTIONTYPESECTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_SECTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_SELECT_VALIDATIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_ANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_CATEGORIES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_INTERVENTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_QUESTIONANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_QUESTIONDETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_QUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_QUESTIONTYPEQUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_QUESTIONTYPES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_QUESTIONTYPESECTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_SECTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_ADMIN_UPDATE_VALIDATIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_ANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_INTERVENTIONS_AND_TYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_LATEST_RESULT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONAIRES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONAIRES_HISTORY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONAIRES_SUMMARY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONAIRETYPE_DESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONAIRE_ANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONAIRE_HISTORY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONAIRE_LATEST_ANSWERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONAIRE_QUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONAIRE_TYPES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_GET_QUESTIONTYPES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_INSERT_QUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_INSERT_RESULTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_INSERT_UNANSWERED_QUESTIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QA_TEST_TQS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QMED_GET_ERRMESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QMED_GET_MANAGED_CARE_PROGRAMMES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QMED_LIST_BATCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QMED_LIST_BATCH_AUTHS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QMED_LIST_BATCH_AUTHS_DETAIL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QMED_LIST_BATCH_AUTHS_NEW" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QMED_LIST_BATCH_PREAUTHS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QMED_LIST_MICRO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QMED_SEARCH_DOCTOR" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QMED_SEARCH_ICDCODE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSADSP_GETDATABYPROV" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSADSP_GETDATABYPROVANDNET" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSADSP_GETDATABYPROVANDTOWN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSADSP_GETDATABYPROVANDTOWNANDNET" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSADSP_LOADNETWORKS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSADSP_LOADPROVINCES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSADSP_LOADTOWNS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_CONTACT_INSERT_MEMPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_CONTACT_UPDATE_MEMPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_LOADNETWORKS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_LOADPROVINCES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_LOADTOWNSBYPROV" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_PROVINCE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_PROVINCE_COUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_PROVNETWORK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_PROVNETWORK_COUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_PROVTWN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_PROVTWNNET" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_PROVTWNNET_COUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_DSP_PROVTWN_COUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_GET_DOCTORS_NETWORK_COUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_GET_DOCTORS_NETWORK_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_NETWORK_GET_PROVIDER_EXISTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUALSA_STORE_RESULTS" system="POJAS" className="StoreResults" />
+	<TQ name="QUI_CLOSE_WORKFLOW" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUI_GET_ACCOUNT_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUI_GET_LEAVE_INFO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUI_GET_MEMBER_REGISTER_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUI_GET_USER_APP_CONFIG" system="JEE" className="QUI_GET_USER_APP_CONFIG" />
+	<TQ name="QUI_IMAGE_AVAILABLE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUI_LIST_ALLOCATED_WORKFLOWS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUI_REASSIGN_WORKFLOW" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="QUI_SEARCH_ICDCODE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="READ_CLINES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="READ_CMPFRM" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="READ_MEMBEN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="REALAUTH_GET_FUNCTION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="REALAUTH_RECEIVE_AUTH" system="POJAS" className="McAuthReceiver" />
+	<TQ name="REALAUTH_SEND_AUTH" system="POJAS" className="McAuthSender" />
+	<TQ name="RELOAD_JARS" system="POJAS" className="DeployJarManager" />
+	<TQ name="REMOVE_ALL_SERVICE_LOGGING" system="POJAS" className="RemoveAllServiceLog" />
+	<TQ name="REMOVE_SERVICE_LOGGING" system="POJAS" className="RemoveServiceLog" />
+	<TQ name="RESULTS_CALCULATIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="RESULTS_ENQUIRY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="RESULTS_GETDOCTOR" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="RESULTS_INSERT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SCHEME_ALL_BY_ZSCHEME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_APPUSERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_APPUSERS_BY_GROUP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_APPUSERS_BY_SP_GROUP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_APPUSERS_CONCAT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_CLINICAL_HISTORY" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_EMPLOY_BRANCH_LIST" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_HISTPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_JBPME_VAR_USER_TASK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_PATNOTES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_PILIR_CHECKLIST" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_QKAUDIT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_SCHEMES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_USER_SCHEME_GRANTED" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SELECT_USER_SCHEME_UNGRANTED" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SERVICES_BY_MEMBER_DATE_DAIG" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SET_CORRESPONDENCE_MICRO" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SET_MIC_REF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SET_WORKFLOW_AVAILABLE" system="POJAS" className="MulticastSender" />
+	<TQ name="SMS_APPLICATION_NAME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SMS_REPORT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SMS_REPORT_BY_APP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SMS_REPORT_DATA" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SMS_REQUEST_SEE" system="POJAS" className="SmsRequestHandler" />
+	<TQ name="SPINELOG_DATA" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="STRING_TEST" system="POJAS" className="StringTest" />
+	<TQ name="SYSTEM_INFO" system="POJAS" className="SystemManagement" />
+	<TQ name="SYS_INSERT_SCHEME_XREF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SYS_REMOVE_SCHEME_XREF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Select_Eligibility_Code_frmMEMBEN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Select_fromRISKDET_dis" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Select_fromRISKDET_icd" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Select_fromRISKDET_mod" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Selects question types (Questionaires)" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SiteMap_Insert" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SiteMap_Update" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="SPBioKineticsStaleCheck" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="TARIFF_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="TARIFF_SEARCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="TEMP_SPINE_INPUT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="TOP_DISEASES_BY_BENEFITS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="TOP_DISEASES_BY_PATIENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UNITY_GetMHGAppInfo" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UNITY_GetMHGAppInfoViewer" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_ADDRESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_BRANCH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_CMPPATH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_DOCTOR_CONTACTS" system="POJAS" className="DynamicQueryExecutor" />	
+	<TQ name="Update_DCP_SurveyQuestionOption" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Update_DCP_SurveyUserSection" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="Update_DCP_SurveyUserSurvey" system="POJAS" classname="DynamicQueryExecutor"  />
+	<TQ name="UPDATE_HISTPROF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_IPA_CONTACT_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_ITEMDESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_MEMBEN" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_MEMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_PASSWORD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_PILIR_ASSESSMENT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_PILIR_CHECKLIST" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="UPDATE_STAFF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Unity_GetMHGSystem" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Unity_GetMHGSystemViewer" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Unity_GetSiteMap" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Unity_GetSiteMapGAMEViewer" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Update_GENREFD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Update_QIDESC" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VALIDATEMEMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VALIDATE_AUTH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VALIDATE_PILIR_AUTH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VCT" system="JEE" className="VCT" />
+	<TQ name="VCT_INFORMATION_LOOKUP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VCT_MEMBER_VALIDATION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VLOOKUP_DELETE_STAFF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VLOOKUP_GET_USER_DETAIL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VLOOKUP_INSERT_STAFF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VLOOKUP_SET_LOGON_DATE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VLOOKUP_UPDATE_SECTION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="VLOOKUP_UPDATE_STAFF" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="Validate_Login" system="POJAS" className="Login" />
+	<TQ name="WFDBPICKUP_ERROR" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WFDBPICKUP_OUTSTANDING" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_ASSIGN_ITEM" system="POJAS" className="AssignItem" />
+	<TQ name="WF_ASSIGN_ITEM2" system="POJAS" className="AssignItem2" />
+	<TQ name="WF_ASSIGN_ITEM_TEMP" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_ATTACH_ADD_IMAGE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_COMPLETE_ITEM" system="POJAS" className="CompleteItem" />
+	<TQ name="WF_CREATE_ENQWORK" system="POJAS" className="CreateEnqWork" />
+	<TQ name="WF_DELETE_GROUP_TASK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_DELETE_MULTIPLE_GROUP_TASKS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_DELETE_PROCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_DELETE_TASK_VARIABLES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_DEPLOY_PROCESS_DEFINITION" system="POJAS" className="ProcessDefinitionManagement" />
+	<TQ name="WF_FORCE_COMPLETE_ITEM" system="POJAS" className="ForceCompleteItem" />
+	<TQ name="WF_FORCE_COMPLETE_PROCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_FORCE_COMPLETE_TASK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_ALL_COUNTS" system="POJAS" className="QueueDetails2" />
+	<TQ name="WF_GET_ATTACH" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_CASE_TRACKER_BY_MEMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_CASE_TRACKER_BY_PROVIDER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_CASE_TRACKER_BY_REFERENCE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_CASE_TRACKER_BY_SOURCE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_CASE_TRACKER_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_COMMENTS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_COMMENTS2" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_COMMENTS_ITEM_HIST" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_COMMENTS_ITEM_HIST2" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_COMPLETED_QUEUE_ITEMS_BY_USER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_CURRENT_TASK_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_ENQUIRY_DATE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_ENQWORK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_FILTERED_TRANSITIONS" system="POJAS" className="TransitionFilter" />
+	<TQ name="WF_GET_GROUPS_FOR_PROCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_GROUP_PROCESSES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_GROUP_TASKS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_INBOX_COUNT" system="POJAS" className="InboxDetails" />
+	<TQ name="WF_GET_ITEM" system="POJAS" className="ItemDetails" />
+	<TQ name="WF_GET_ITEM_DURATION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_ITEM_DURATION2" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_ITEM_HIST" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_ITEM_HIST2" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_ITEM_HIST_WITH_SUB_PROCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_OUTSTANDING_BY_PROC_QNAME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_PROCESSES_FOR_A_PERIOD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_PROCESS_DEFINITION" system="POJAS" className="ProcessDefinitionManagement" />
+	<TQ name="WF_GET_PROCESS_DEFINITIONS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_PROCESS_DEFINITION_BY_ID" system="POJAS" className="ProcessDefinitionManagement" />
+	<TQ name="WF_GET_PROCESS_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_PROCESS_ITEMS_CREATE_BY_DATE_RANGE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_PROCESS_VARIABLES" system="POJAS" className="ProcessVariableInformation" />
+	<TQ name="WF_GET_QUEUES_BY_PROCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_QUEUES_BY_USERNAME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_QUEUE_COUNT" system="POJAS" className="QueueDetails" />
+	<TQ name="WF_GET_QUEUE_ITEMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_QUEUE_ITEMS_3DAYS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_QUEUE_ITEMS_>3DAYS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_QUEUE_ITEMS_BY_USER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_QUEUE_ITEMS_BY_USER_3DAYS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_QUEUE_ITEMS_BY_USER_>3DAYS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_SCHEME_QUEUE_USERNAMES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_SERVICE_EVENT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_SERVICE_EVENT2" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_TASKS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_TASK_VARIABLES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_TOKEN_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_TOTAL_FOR_IMAGE_IN_QUEUE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_TOTAL_OPEN_PROCESSES_VAR" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_TOTAL_PROCESSES_CREATED" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_TOTAL_PROCESSES_CREATED_IN_DATE_RANGE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_UNASSIGNED_WORK_ITEMS_COUNT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_USERS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_GET_USER_QUEUE_STATS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_INITIATE_PRIORITY_PROCESS" system="POJAS" className="ProcessManagement" />
+	<TQ name="WF_INITIATE_PROCESS" system="POJAS" className="ProcessManagement" />
+	<TQ name="WF_INSERT_GROUP_TASK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_INSERT_GROUP_TASKS_BY_NAME_WILDCARD" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_INSERT_PROCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_INSERT_SCHEME_TRANSITION" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_INSERT_TASK_VARIABLE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_INVOKE_QC_PUTINSRT" system="POJAS" className="QualityCheckPutinsrtInvoker" />
+	<TQ name="WF_LIST_ASSIGNED_ITEMS" system="POJAS" className="ListAssignedItems" />
+	<TQ name="WF_LIST_PROCESS_DEFINITION_NAMES" system="POJAS" className="ProcessDefinitionManagement" />
+	<TQ name="WF_LIST_QUEUE_NAMES_BY_USER" system="POJAS" className="QueueManagement" />
+	<TQ name="WF_LIST_UNASSIGNED_QUEUE_NAMES_BY_USER" system="POJAS" className="QueueManagement" />
+	<TQ name="WF_LIST_USERNAMES_BY_WORKFLOW" system="POJAS" className="ListUsernames" />
+	<TQ name="WF_LIST_USER_WITH_QUEUE_ACCESS" system="POJAS" className="ListUserDetailsWithQueueAccess" />
+	<TQ name="WF_LOG_ADHOC_ITEM" system="POJAS" className="AdhocItem" />
+	<TQ name="WF_LOG_INCOMPLETE_ITEM" system="POJAS" className="IncompleteItem" />
+	<TQ name="WF_QUEUE_Items_MemberDependant_Details" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_REASSIGN_ITEM" system="POJAS" className="ReassignItemManagement" />
+	<TQ name="WF_RELOAD_SPN_DETAILS" system="POJAS" className="SpnDetails" />
+	<TQ name="WF_RESUME_PROCESS" system="POJAS" className="ResumeProcess" />
+	<TQ name="WF_SEARCH_UNCONTEXTUALISED" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_SET_PRIORITY" system="POJAS" className="ItemPriorityManagement" />
+	<TQ name="WF_SET_PRIORITY_BY_PROCESS" system="POJAS" className="ItemPriorityManagementByProcess" />
+	<TQ name="WF_START_ITEM" system="POJAS" className="AssignedItemManagement" />
+	<TQ name="WF_SUBPROCESS_KEY_VALUE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_UNASSIGN_ITEM" system="POJAS" className="UnassignItemManagement" />
+	<TQ name="WF_UPDATE_ENQWORK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_UPDATE_GROUP_TASK" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_UPDATE_JBPME_ENQUIRY_VAR" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_UPDATE_JBPME_ENQUIRY_VAR2" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_UPDATE_JBPM_TASKINSTANCE_SET_END_TO_START" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_UPDATE_MEMBER_DEPEND" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_UPDATE_PROCESS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_UPDATE_TASK_VARIABLES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WF_UPDATE_USER_SP_Allocation" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WORKFLOW_GET_VALIDATION_CODES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WORKFLOW_GET_VALIDATION_RULES" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WORKFLOW_INSERT_ITEMTYPE" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WPF_GET_MEMBER_DEP_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WPF_GET_MEMBER_DETAILS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="WPF_TARIFF_DETAIL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="XML_ARCHIVE_GET_LATEST_CONTRBXML_BY_MEMBER" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="XML_ARCHIVE_GET_LATEST_XML_BY_SERIAL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="XML_ARCHIVE_GET_XML_BY_SERIAL" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="XML_ARCHIVE_INSERT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="XSL_VERSION_GET_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="XSL_VERSION_GET_XSL_BY_TYPE_SCHEME" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="XSL_VERSION_GET_XSL_BY_VERSION_ID" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="XSL_VERSION_INSERT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="XWALK_ICD_CPT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="XWALK_NHRPL_CPT" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="all_contact_details" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="fnIrshaad1" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="getMedicineSummary" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="getSpecificDepInfo2" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="get_Dep_info" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="get_ct_types" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="icdxref_get_via_type_and_code" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="insert_qualsa_contaddr" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ivr_get_future_scheme" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ivr_get_future_zscheme" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="ivr_get_id_no" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="memloghist_scheme_web" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="multipurposeTQ for GEMS" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="multipurpose_TQ" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="select top 10 * from timages_optio" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="update_contact_details" system="POJAS" className="DynamicQueryExecutor" />
+	<TQ name="update_qualsa_contact" system="POJAS" className="DynamicQueryExecutor" />
+</TQList>

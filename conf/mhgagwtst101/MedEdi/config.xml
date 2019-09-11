@@ -1,0 +1,290 @@
+<Enviroments>
+	
+	<server
+		active="true"
+		autoDisable="false"
+		cmdPasswd="1q2w3e"
+		diagPort="20846"
+		logConfigFile="log4j.xml"
+		name="MedEDI TEST"
+		port="20845"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="MediEDI"
+		trxAbortSizeLimit="64000"
+		trxSizeLimit="48000"
+	/>
+	<env
+		mhgAccount="AMED"
+		name="AMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp97.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="40000"
+			port="9106"
+			startDisabled="false"
+		/>
+	</env>
+	<env
+		name="GEMS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp97.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9110"
+		/>
+	</env>	
+	
+	<env
+		name="NEWMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp97.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9311"
+		/>
+	</env>
+	<env
+		name="NIMAS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp97.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9113"
+		/>
+	</env>
+	
+	<env
+		name="SAMWU"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp97.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9115"
+		/>
+	</env>
+	
+	<env
+		mhgAccount="NEWMED"
+		name="TRANSMED"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoEnable="true"
+			autotimeout="120000"
+			connections="25"
+			hostname="cptlapp97.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="40000"
+			port="9107"
+			startDisabled="false"
+			waitForSyncToFinishTimeout="15000"
+		/>
+	</env>
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransactionWellformedXML"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		20847
+	</snmp-port>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+	</transaction-x-ref>
+	<tailWatchServer
+		id="MedEdi Primary"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20848"
+	/>
+	<diagTailWatchServer
+		id="MedEdi Primary"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20849"
+	/>
+	<destination-x-ref	>
+		
+		<x-ref
+			description="Bankmed"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="T00"
+		/>
+		<x-ref
+			description="Openplan"
+			functionMask="FFFF"
+			mhg="NEWMED"
+			tradingPartner="T01"
+		/>
+		<x-ref
+			description="Transmed"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="T02"
+		/>
+		
+		<x-ref
+			description="Metstaff"
+			functionMask="FFFF"
+			mhg="NEWMED"
+			tradingPartner="T11"
+		/>
+		
+		<x-ref
+			description="Samwu"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="T15"
+		/>
+		
+		<x-ref
+			description="Gems"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="T19"
+		/>
+		<x-ref
+			description="Nimas"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="T20"
+		/>
+					
+		<x-ref
+			description="PG: Dentists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM001"
+		/>
+		<x-ref
+			description="PG: Pathologists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM002"
+		/>	
+		<x-ref
+			description="PG: Specialists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM003"
+		/>
+		<x-ref
+			description="PG:Optometrists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM004"
+		/>
+		<x-ref
+			description="PG:Radiologists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM005"
+		/>
+		<x-ref
+			description="PG: Oncologists "
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM006"
+		/>
+		<x-ref
+			description="PG: Physiotherapists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM007"
+		/>
+		<x-ref
+			description="PG: Other"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM008"
+		/>
+		<x-ref
+			description="PG: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM009"
+		/>
+		
+	</destination-x-ref>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="IR0b0t"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="Mededi"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
+
