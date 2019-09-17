@@ -1,0 +1,167 @@
+<Enviroments>
+	
+
+	<server
+		__system_out="mk_Amed_System.out"
+		active="true"
+		autoDisable="false"
+		cmdPasswd="1q2w3e"
+		diagPort="11003"
+		logConfigFile="log4j.xml"
+		name="Medikredit Gems"
+		port="11002"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="Medikredit Gems"
+		trxAbortSizeLimit="64000"
+		trxSizeLimit="48000"
+	/>
+	
+		<env
+		mhgAccount="GEMS"
+		name="MEDIKREDIT"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="15"
+			dropClientOnError="false"
+			hostname="cptlapp90.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="10000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="true"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+		</pool>
+	</env>
+	
+	
+	<MKLoad
+		inMap="maps/mkamed-in.txt"
+		inReverseMap="maps/mkamed-reverse.txt"
+		outMap="maps/mkamed-out.txt"
+	>
+		
+		<save		>
+			
+			<single
+				name="64"
+			/>
+			<single
+				name="V"
+			/>
+			<single
+				name="CDTE"
+			/>
+			<single
+				name="CTME"
+			/>
+			<single
+				name="PDR"
+			/>
+		</save>
+		<add-input		>
+			
+			<pair
+				name="63"
+				value="MK"
+			/>
+			<pair
+				name="65"
+				value="6034284"
+			/>
+			<pair
+				name="66"
+				value="D"
+			/>
+			<pair
+				name="67"
+				value="REALCLM"
+			/>
+			<pair
+				name="REVSC"
+				value="1"
+			/>
+		</add-input>
+		<add-output		>
+			
+			<pair
+				name="ONE"
+				value="1"
+			/>
+			<pair
+				name="OR1"
+				value="GEMS "
+			/>
+			<pair
+				name="JNK"
+				value="000"
+			/>
+			<pair
+				name="RC1"
+				value="0000"
+			/>
+		</add-output>
+	</MKLoad>
+	<transaction
+		class="InterfaceTransactions.Medikredit.SingleLine.MkTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Medikredit.SingleLine.MkHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		11004
+	</snmp-port>
+	<tailWatchServer
+		id="Medikredit Test"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="11005"
+	/>
+	<diagTailWatchServer
+		id="Medikredit TEST"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="11006"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.MediskorLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="IR0b0t"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="Medikredit"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
