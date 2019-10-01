@@ -50,7 +50,7 @@
 		<pool
 			autotimeout="120000"
 			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
 			port="9104"
@@ -102,7 +102,7 @@
 		<pool
 			autotimeout="120000"
 			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
 			port="9113"
@@ -161,7 +161,7 @@
 		<pool
 			autotimeout="120000"
 			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
 			port="9106"
@@ -190,7 +190,7 @@
 		<pool
 			autotimeout="120000"
 			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
 			port="9206"
@@ -219,7 +219,7 @@
 		<pool
 			autotimeout="120000"
 			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
 			port="9107"
@@ -277,7 +277,7 @@
 		<pool
 			autotimeout="120000"
 			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
 			port="9111"
@@ -307,7 +307,7 @@
 		<pool
 			autotimeout="120000"
 			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
 			port="9110"
@@ -336,7 +336,7 @@
 		<pool
 			autotimeout="120000"
 			connections="5"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
 			port="9115"
