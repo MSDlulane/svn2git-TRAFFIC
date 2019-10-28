@@ -29,7 +29,7 @@
 			autotimeout="120000"
 			connections="15"
 			dropClientOnError="false"
-			hostname="cptlapp90.za.mhgad.com"
+			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="10000"
 			port="9110"

@@ -8,7 +8,7 @@
 		<pool
 			autotimeout="120000"
 			connections="20"
-			hostname="cptlapp97.za.mhgad.com"
+			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="60000"
 			port="9110"
