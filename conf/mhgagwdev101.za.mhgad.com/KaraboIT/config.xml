@@ -1,45 +1,56 @@
 <Enviroments>
 	
-	<env
-		name="AMED"
-	>		
-		<pool
-			autotimeout="120000"
-			connections="20"
-			hostname="lbs-appall-dev1.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9106"
-		/>
-	</env>
+	<time-zone_
+		help="optional"
+		reason="fix jdk1.4 bug on Solaris"
+	>
+		GMT-2
+	</time-zone_>
 	<server
 		__system_out="default"
 		cmdPasswd="1q2w3e"
-		diagPort="20751"
-		distributedCacheEnabled="true"
-		distributedCacheEntryTimeout="120"
-		distributedCacheIP="172.23.113.33"
-		distributedCachePort="11211"
-		logConfigFile="log4j_dev.xml"
-		name="DHS DEV Server"
-		port="20750"
-		sendTrxDetailsToStatusMonitor="true"
-		tradingPartner="Mediswitch"
+		diagPort="27006"
+		logConfigFile="log4j.xml"
+		name="KaraboIT Dev Server"
+		port="27005"
+		tradingPartner="KaraboIT"
 		trxAbortSizeLimit="64000"
 		trxSizeLimit="48000"
 	/>
 	<env
-		name="GEMS"
-		useDistributedCache="true"
+		name="AMED"
 	>
 		
 		<pool
-			autoDisable="false"
+			autoDisable="true"
 			autoDisableOnSyncStart="true"
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
-			connections="25"
+			connections="10"
+			dropClientOnError="false"
+			hostname="lbs-appall-dev1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+	</env>	
+	<env
+		mhgAccount="GEMS"
+		name="GEMS"
+	>
+		
+		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
 			dropClientOnError="false"
 			hostname="lbs-appall-dev1.za.mhgad.com"
 			id="COBOL"
@@ -49,55 +60,29 @@
 			stickyStandin="false"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>
-			
-			<secondaryPool
-				autoDisable="true"
-				autoDisableOnSyncStart="true"
-				autoEnable="true"
-				autoEnableOnSyncEnd="true"
-				autotimeout="90000"
-				connections="10"
-				connectorImplementationClassID="COBOL"
-				dropClientOnError="false"
-				hostname="lbs-appall-dev1.za.mhgad.com"
-				id="COBOLBACKUP"
-				minTrxTime="15000"
-				poolMaxWaitTime="28000"
-				port="9233"
-				startDisabled="false"
-				useSoTimeOut="false"
-				waitForSyncToFinishTimeout="10000"
-			>
-				
-			</secondaryPool>
-		</pool>
-	</env>
-	<env
-		name="IMPERIAL"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="20"
-			hostname="lbs-appall-dev1.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9105"
 		/>
 	</env>
-	
 	<env
+		mhgAccount="NEWMED"
 		name="NEWMED"
 	>
 		
 		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
-			connections="25"
+			connections="10"
+			dropClientOnError="false"
 			hostname="lbs-appall-dev1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="28000"
 			port="9107"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
 	<env
@@ -105,12 +90,21 @@
 	>
 		
 		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
-			connections="25"
+			connections="10"
+			dropClientOnError="false"
 			hostname="lbs-appall-dev1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="28000"
 			port="9113"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
 	
@@ -119,28 +113,23 @@
 	>
 		
 		<pool
+			autoDisable="true"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
-			connections="25"
+			connections="10"
+			dropClientOnError="false"
 			hostname="lbs-appall-dev1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="28000"
 			port="9115"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
 		/>
 	</env>
-	<env
-		name="SIGMA"
-	>
-		
-		<pool
-			autotimeout="120000"
-			connections="25"
-			hostname="lbs-appall-dev1.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9112"
-		/>
-	</env>
-	
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
@@ -153,19 +142,19 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		20752
+		27007
 	</snmp-port>
 	<tailWatchServer
-		id="Mediswitch"
+		id="KaraboIT"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="20753"
+		tcpipPort="27008"
 	/>
 	<diagTailWatchServer
-		id="Mediswitch"
+		id="KaraboIT"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="20754"
+		tcpipPort="27009"
 	/>
 	<synchronous-transactions	>
 		true
@@ -175,7 +164,6 @@
 		<x-ref
 			description="Elegibility check"
 			functionNo="0001"
-			isPingOrHandshake="true"
 			mhg="ELCHECK"
 			tradingPartner="1"
 		/>
@@ -205,7 +193,7 @@
 			tradingPartner="127"
 		/>
 		<x-ref
-			description="Realtime claims"
+			description="Realtime doctor"
 			functionNo="0010"
 			mhg="REALCLM"
 			tradingPartner="5"
@@ -214,121 +202,89 @@
 	<destination-x-ref	>
 		
 		<x-ref
-			description="RTDM0001 - Metropolitan"
-			functionMask="FFFF"
-			mhg="METROPOLITAN"
-			tradingPartner="RTDM0004"
-		/>
-		
-		<x-ref
-			description="RTDM0002 - Bankmed"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="RTDM0002"
-		/>
-		<x-ref
-			description="rtdm0002 - Bankmed"
-			functionMask="FFFF"
-			mhg="AMED"
-			tradingPartner="rtdm0002"
-		/>
-		<x-ref
-			description="MHG:GEMS Emerald pathology realer (Medical)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGOP0001"
-		/>
-		<x-ref
-			description="RTDM0003 - Gems"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="RTDM0003"
-		/>
-		<x-ref
-			description="rtdm0003 - Gems"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="rtdm0003"
-		/>
-		<x-ref
-			description="MHG:GEMS Emerald pathology realer (Medical)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MOPP0003"
-		/>
-		<x-ref
-			description="MHG:GEMS Ruby pathology realer (Medical)"
-			functionMask="FFFF"
-			mhg="GEMS"
-			tradingPartner="MGRP0002"
-		/>
-		<x-ref
-			description="ITES0001 - Imperial"
-			functionMask="FFFF"
-			mhg="IMPERIAL"
-			tradingPartner="ITES0001"
-		/>
-		<x-ref
-			description="ites0001 - Imperial"
-			functionMask="FFFF"
-			mhg="IMPERIAL"
-			tradingPartner="ites0001"
-		/>
-		
-		<x-ref
-			description="RTDM0004 - Nimas"
-			functionMask="FFFF"
-			mhg="NIMAS"
-			tradingPartner="RTDM0004"
-		/>
-		<x-ref
-			description="rtdm0004 - Nimas"
-			functionMask="FFFF"
-			mhg="NIMAS"
-			tradingPartner="rtdm0004"
-		/>		
-		
-		<x-ref
-			description="RTDM0007 - Prosano"
-			functionMask="FFFF"
-			mhg="SIGMA"
-			tradingPartner="RTDM0007"
-		/>
-		<x-ref
-			description="rtdm0007 - Prosano"
-			functionMask="FFFF"
-			mhg="SIGMA"
-			tradingPartner="rtdm0007"
-		/>
-		<x-ref
-			description="RTDM0008 - Newmed"
+			description="MHG1 - Metropolitan"
 			functionMask="FFFF"
 			mhg="NEWMED"
-			tradingPartner="RTDM0008"
+			tradingPartner="MHG1"
 		/>
 		<x-ref
-			description="rtdm0008 - Newmed"
+			description="MHG2 - Nimas"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="MHG2"
+		/>
+		
+		<x-ref
+			description="MHGG - Engen"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGG"
+		/>
+		<x-ref
+			description="MHGA - Bankmed"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGA"
+		/>
+		<x-ref
+			description="MHGE - Wooltru"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGE"
+		/>
+		<x-ref
+			description="MHGF - Foschini"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGF"
+		/>
+		<x-ref
+			description="MHGK - Afrox"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGK"
+		/>
+		<x-ref
+			description="MHGL - Sappi"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGL"
+		/>
+		<x-ref
+			description="MHGN - GoldenArrow"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGN"
+		/>
+		<x-ref
+			description="MHGP - BPSA "
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGP"
+		/>
+		<x-ref
+			description="MHGO - Fishmed"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MHGO"
+		/>
+		<x-ref
+			description="MHGQ - SAMWU "
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="MHGQ"
+		/>
+		<x-ref
+			description="MHGT - GEMS"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MHGT"
+		/>
+		<x-ref
+			description="MHGV - Transmed"
 			functionMask="FFFF"
 			mhg="NEWMED"
-			tradingPartner="rtdm0008"
-		/>
-		<x-ref
-			description="RTDM0011 - Samwu"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="RTDM0011"
-		/>
-		<x-ref
-			description="rtdm0011 - Samwu"
-			functionMask="FFFF"
-			mhg="SAMWU"
-			tradingPartner="rtdm0011"
-		/>
-		<x-ref
-			description="MHG: IMPERIAL GROUP PATHOLOGY REALER (MEDICAL)"
-			functionMask="FFFF"
-			mhg="IMPERIAL"
-			tradingPartner="MIGP0001"
+			tradingPartner="MHGV"
 		/>
 		
 	</destination-x-ref>
@@ -342,10 +298,9 @@
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbPassword="IR0b0t"
-			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-dev:7550/JBAUDIT"
-			
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-dev:7500/JBAUDIT"
 			DbUserName="traffic"
-			logTable="DHSMain"
+			logTable="KaraboIT"
 			maxpoolsize="2"
 			minpoolsize="1"
 			poolId="generic"

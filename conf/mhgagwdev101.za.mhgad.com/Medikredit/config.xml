@@ -1,23 +1,7 @@
 <Enviroments>
 	
-
-	<server
-		__system_out="mk_Amed_System.out"
-		active="true"
-		autoDisable="false"
-		cmdPasswd="1q2w3e"
-		diagPort="11003"
-		logConfigFile="log4j.xml"
-		name="Medikredit Gems"
-		port="11002"
-		sendTrxDetailsToStatusMonitor="true"
-		tradingPartner="Medikredit Gems"
-		trxAbortSizeLimit="64000"
-		trxSizeLimit="48000"
-	/>
-	
-		<env
-		mhgAccount="GEMS"
+	<env
+		mhgAccount="AMED"
 		name="MEDIKREDIT"
 	>
 		
@@ -27,12 +11,12 @@
 			autoEnable="true"
 			autoEnableOnSyncEnd="true"
 			autotimeout="120000"
-			connections="15"
+			connections="2"
 			dropClientOnError="false"
 			hostname="lbs-appall-dev1.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="10000"
-			port="9110"
+			port="9126"
 			startDisabled="false"
 			stickyStandin="true"
 			useSoTimeOut="false"
@@ -41,8 +25,20 @@
 			
 		</pool>
 	</env>
-	
-	
+	<server
+		__system_out="mk_Amed_System.out"
+		active="true"
+		autoDisable="false"
+		cmdPasswd="1q2w3e"
+		diagPort="10003"
+		logConfigFile="log4j.xml"
+		name="Medikredit Dev"
+		port="10002"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="Medikredit TEST"
+		trxAbortSizeLimit="64000"
+		trxSizeLimit="48000"
+	/>
 	<MKLoad
 		inMap="maps/mkamed-in.txt"
 		inReverseMap="maps/mkamed-reverse.txt"
@@ -98,7 +94,7 @@
 			/>
 			<pair
 				name="OR1"
-				value="GEMS "
+				value="BANKMED "
 			/>
 			<pair
 				name="JNK"
@@ -122,19 +118,19 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		11004
+		10004
 	</snmp-port>
 	<tailWatchServer
 		id="Medikredit Test"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="11005"
+		tcpipPort="10005"
 	/>
 	<diagTailWatchServer
 		id="Medikredit TEST"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="11006"
+		tcpipPort="10006"
 	/>
 	<synchronous-transactions	>
 		true

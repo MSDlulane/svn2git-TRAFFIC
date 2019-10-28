@@ -1,0 +1,169 @@
+<Enviroments>
+	
+	<server
+		__system_out="system.out"
+		active="true"
+		autoDisable="false"
+		cmdPasswd="1q2w3e"
+		diagPort="30607"
+		logConfigFile="log4j.xml"
+		name="GEMS SPN TEST"
+		port="30606"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="QUI Dev"
+		trxAbortSizeLimit="10240000"
+		trxSizeLimit="10240000"
+	/>
+	<env
+		mhgAccount="GEMS"
+		name="GEMS"
+	>
+		
+		<pool
+			autotimeout="15000"
+			connections="5"
+			hostname="cptlapp80.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="15000"
+			port="9126"
+		/>
+	</env>
+	<env
+		mhgAccount="SHARE"
+		name="SHARE"
+	>
+		<pool
+			autotimeout="120000"
+			connections="2"
+			hostname="lbs-appall-dev1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9121"
+		/>
+	</env>
+	<serverConfig
+		afterConnectorSleepTime="0"
+		useBufferedOutputStreamInPool="true"
+	/>
+	<multicastDiagServer
+		multicast-host-ip="225.225.225.225"
+		multicast-port="30000"
+	/>
+	<pool-definitions-file
+		defaultCOBOL_ConnectorClass="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		30608
+	</snmp-port>
+	<tailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="30603"
+	/>
+	<diagTailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="30604"
+	/>
+	<inputDataServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="30605"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction_
+		class="InterfaceTransactions.DefaultImplementation.DefaultTransaction"
+	/>
+	<transaction-header_
+		class="InterfaceTransactions.Vanilla.VanillaHeader"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransactionNotRemoveXMLChars"
+		useTqFunctionIfNoTpe="true"
+	/>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+	</transaction-x-ref>
+	<destination-x-ref	>
+		
+		<x-ref
+			description="GEMS"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="T"
+		/>
+		<x-ref
+			description="GEMS"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="P19"
+		/>
+		<x-ref
+			description="Share Connection"
+			functionMask="FFFF"
+			mhg="SHARE"
+			tradingPartner="P99"
+		/>
+	</destination-x-ref>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="newmed"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-dev:7500/JBAUDIT"
+			DbUserName="pojas"
+			logTable="MHG"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="*"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
+
