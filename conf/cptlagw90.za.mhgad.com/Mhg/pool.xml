@@ -4481,6 +4481,10 @@
 			desc=""
 			name="WF_GET_QUEUE_DUP_ITEMS"
 			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="WF_GET_CASE_TRACKER_BY_TASKID"
+			targetBeanName="DynamicQueryExecutor" />
 
 	</pool>
 	

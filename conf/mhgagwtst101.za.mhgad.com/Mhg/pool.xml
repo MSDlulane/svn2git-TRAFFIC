@@ -4477,6 +4477,10 @@
 			desc=""
 			name="WF_GET_QUEUE_ITEMS_PAGING_SUBJ"
 			targetBeanName="DynamicQueryExecutor" />
+			<tq-function
+			desc=""
+			name="WF_GET_CASE_TRACKER_BY_TASKID"
+			targetBeanName="DynamicQueryExecutor" />
 
 	</pool>
 	
