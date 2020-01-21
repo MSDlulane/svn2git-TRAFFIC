@@ -5384,6 +5384,11 @@
 			desc=""
 			name="WF_GET_CASE_TRACKER_BY_TASKID"
 			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
+			name="WF_GET_CASE_TRACKER_BY_SOURCE_DETAIL"
+			targetBeanName="DynamicQueryExecutor" />
+			
 	</pool>
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
