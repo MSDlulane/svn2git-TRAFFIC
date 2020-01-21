@@ -662,6 +662,116 @@
 			tradingPartner="MGRO0003"
 		/>
 		
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTR0001"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTS0001"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTP0001"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTR0002"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTR0003"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTM0001"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTO0001"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTO0002"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTO0003"
+		/>
+		
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBR0001"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBS0001"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBP0002"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBR0002"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBR0003"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBM0002"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBO0004"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBO0005"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBO0006"
+		/>
+		
 	
 	<!-- Doctor claims start  -->
 		
