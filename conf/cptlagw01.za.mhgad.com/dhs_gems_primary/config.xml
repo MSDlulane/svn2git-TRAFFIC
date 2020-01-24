@@ -405,6 +405,24 @@
 			tradingPartner="MOPR0004"
 		/>
 		<x-ref
+			description="MHG: GEMS EMERALD OPTION RADIOLOGY (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGEO0005"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD OPTION PATHOLOGY (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGEO0006"
+		/>
+		<x-ref
+			description="MHG: GEMS Onyx"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="GOOM0001"
+		/>
+		<x-ref
 			description="MHG: GEMS ONYX PATHOLOGY REALER (MEDICAL)"
 			functionMask="FFFF"
 			mhg="GEMS_NON_QPBM"
