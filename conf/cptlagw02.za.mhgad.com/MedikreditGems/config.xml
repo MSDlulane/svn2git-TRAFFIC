@@ -39,7 +39,7 @@
 			port="9110"
 			connections="15"
 			autotimeout="120000"
-			poolMaxWaitTime="10000" />
+			poolMaxWaitTime="15000" />
 	</env>
 
 	<MKLoad
