@@ -18,6 +18,18 @@
 			targetBeanName="Authorisation_2011_04_01.RequestHandler"
 			desc=""
 		/>
+		
+	<pool
+			id="CORRMAN" 
+            class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
+    >
+            <tq-function                     
+               name="GET_IMAGE_URL"
+               targetBeanName="GET_IMAGE_URL"
+               desc="" 
+            />
+    </pool>
+		
 		<tq-function
 			name="BANKMED_VALIDATE_PATIENT"
 			targetBeanName="BANKMED_VALIDATE_PATIENT"
@@ -57,12 +69,12 @@
 			name="FLAG_PROTOCOL_SERVICE"
 			targetBeanName="FLAG_PROTOCOL_SERVICE"
 			desc=""
-		/>
+		/><!-- 
 		<tq-function
 			name="GET_IMAGE_URL"
 			targetBeanName="GET_IMAGE_URL"
 			desc=""
-		/>
+		/> -->
 		<tq-function
 			name="GenerateNumber"
 			targetBeanName="GenerateNumber"
