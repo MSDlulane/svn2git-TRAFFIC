@@ -9,6 +9,16 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 		id="JEE"
 	>
+	<pool
+			id="CORRMAN" 
+            class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
+            >
+            <tq-function                     
+               name="GET_IMAGE_URL"
+               targetBeanName="GET_IMAGE_URL"
+               desc="" 
+            />
+    </pool>
 		<tq-function
 			desc=""
 			name="MH_HOSPITAL_LOOKUP_SERVICE"
