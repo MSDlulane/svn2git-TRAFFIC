@@ -536,7 +536,7 @@
 			poolMaxWaitTime="10000"
 			port="1099"
 		/>
-		<pool
+		<!-- <pool
            autotimeout="120000"
            connections="100"
            hostname="corrman-integration-gems-integration.mhgrcp01.metmom.mmih.biz"
@@ -545,7 +545,7 @@
            port="80"
            >
            <arg>/v1/traf</arg>
-     </pool>
+     </pool> -->
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
