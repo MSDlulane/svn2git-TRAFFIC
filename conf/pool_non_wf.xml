@@ -8,6 +8,16 @@
 		id="POJAS_BACKUP"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	/>
+	<pool
+			id="CORRMAN" 
+            class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
+    >
+            <tq-function                     
+               name="GET_IMAGE_URL"
+               targetBeanName="GET_IMAGE_URL"
+               desc="" 
+            />
+    </pool>
 
 	<pool
 		id="JEE"
@@ -19,16 +29,7 @@
 			desc=""
 		/>
 		
-	<pool
-			id="CORRMAN" 
-            class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
-    >
-            <tq-function                     
-               name="GET_IMAGE_URL"
-               targetBeanName="GET_IMAGE_URL"
-               desc="" 
-            />
-    </pool>
+	
 		
 		<tq-function
 			name="BANKMED_VALIDATE_PATIENT"
