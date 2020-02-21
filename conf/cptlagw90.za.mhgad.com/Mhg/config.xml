@@ -747,14 +747,7 @@
            >
            <arg>/v1/traf</arg>
      </pool>
-		<pool
-			autotimeout="120000"
-			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
-			id="JEE"
-			poolMaxWaitTime="10000"
-			port="1099"
-		/>
+		
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
