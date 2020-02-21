@@ -408,7 +408,7 @@
            autotimeout="120000"
            connections="100"
            hostname="corrman-integration-gems-integration.mhgrcp01.metmom.mmih.biz"
-           id="CORRMAN"
+           id="POJAS"
            poolMaxWaitTime="10000"
            port="80"
            >
