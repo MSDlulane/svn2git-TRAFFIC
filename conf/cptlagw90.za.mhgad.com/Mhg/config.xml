@@ -68,7 +68,7 @@
 			port="1099"
 		/>
 	</env>
-	<env
+	<!-- <env
 		mhgAccount="IMAGE"
 		name="JBossW"
 	>
@@ -81,7 +81,7 @@
 			poolMaxWaitTime="10000"
 			port="1099"
 		/>
-	</env>
+	</env> -->
 	<env
 		name="IMPERIAL"
 	>
