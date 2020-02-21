@@ -407,7 +407,7 @@
 	<TQ name="DrmManage" system="JEE" className="DrmManage" />
 	<TQ name="ENCRYPTION_MANAGER" system="JEE" className="ENCRYPTION_MANAGER" />
 	<TQ name="EnrollmentDriver" system="JEE" className="EnrollmentDriver" />
-	<TQ name="GET_IMAGE_URL" system="JEE" className="GET_IMAGE_URL" />
+	<TQ name="GET_IMAGE_URL" system="CORRMAN" className="GET_IMAGE_URL" />
 	<TQ name="GenerateNumber" system="JEE" className="GenerateNumber" />
 	<TQ name="ImageIDGenerator" system="JEE" className="ImageIDGenerator" />
 	<TQ name="ListServicesNames" system="JEE" className="ListServicesNames" />
