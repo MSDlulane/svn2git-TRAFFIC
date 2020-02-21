@@ -4,21 +4,20 @@
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="COBOL"
 	/>
+   <pool
+         class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
+         id="CORRMAN" >
+            <tq-function
+              desc=""
+              name="GET_IMAGE_URL"
+              targetBeanName="GET_IMAGE_URL" />
+   </pool>
+	
 	
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 		id="JEE"
 	>
-	<pool
-			id="CORRMAN" 
-            class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
-            >
-            <tq-function                     
-               name="GET_IMAGE_URL"
-               targetBeanName="GET_IMAGE_URL"
-               desc="" 
-            />
-    </pool>
 		<tq-function
 			desc=""
 			name="MH_HOSPITAL_LOOKUP_SERVICE"
@@ -29,6 +28,7 @@
 			name="Authorisation_2011_04_01.RequestHandler"
 			targetBeanName="Authorisation_2011_04_01.RequestHandler"
 		/>
+		
 		<tq-function
 			desc=""
 			name="AUTHORISATION_TRIGGER"
