@@ -4,17 +4,6 @@
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 		id="COBOL" />
-		
-	<pool
-		id="CORRMAN" 
-        class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
-     >
-            <tq-function                     
-               name="GET_IMAGE_URL"
-               targetBeanName="GET_IMAGE_URL"
-               desc="" 
-             />
-    </pool>
 
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
