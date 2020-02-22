@@ -68,7 +68,7 @@
 			port="1099"
 		/>
 	</env>
-	<!-- <env
+	 <env
 		mhgAccount="IMAGE"
 		name="JBossW"
 	>
@@ -81,7 +81,7 @@
 			poolMaxWaitTime="10000"
 			port="1099"
 		/>
-	</env> -->
+	</env>
 	<env
 		name="IMPERIAL"
 	>
@@ -536,16 +536,6 @@
 			poolMaxWaitTime="10000"
 			port="1099"
 		/>
-		<!-- <pool
-           autotimeout="120000"
-           connections="100"
-           hostname="corrman-integration-gems-integration.mhgrcp01.metmom.mmih.biz"
-           id="CORRMAN"
-           poolMaxWaitTime="10000"
-           port="80"
-           >
-           <arg>/v1/traf</arg>
-     </pool> -->
 		<pool
 			autoDisable="false"
 			autoDisableOnSyncStart="true"
