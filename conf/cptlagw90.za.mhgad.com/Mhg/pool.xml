@@ -61,7 +61,11 @@
 		<tq-function
 			desc=""
 			name="FLAG_PROTOCOL_SERVICE"
-			targetBeanName="FLAG_PROTOCOL_SERVICE" />		
+			targetBeanName="FLAG_PROTOCOL_SERVICE" />
+		<tq-function
+			desc=""
+			name="GET_IMAGE_URL"
+			targetBeanName="GET_IMAGE_URL" />
 		<tq-function
 			desc=""
 			name="ImageIDGenerator"
