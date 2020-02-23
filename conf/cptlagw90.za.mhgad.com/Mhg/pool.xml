@@ -21,11 +21,7 @@
 			desc=""
 			name="MH_HOSPITAL_LOOKUP_SERVICE"
 			targetBeanName="MH_HOSPITAL_LOOKUP_SERVICE" />
-			<tq-function
-              desc=""
-              name="GET_IMAGE_URL"
-              targetBeanName="GET_IMAGE_URL" />
-
+			
 		<tq-function
 			desc=""
 			name="Authorisation_2011_04_01.RequestHandler"
