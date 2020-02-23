@@ -1840,10 +1840,10 @@
                 <pool
                         autotimeout="120000"
                         connections="100"
-                        hostname="corrman-integration-gems-integration.mhgrcp01.metmom.mmih.biz"
+                        hostname="cptlacp01.za.mhgad.com"
                         id="CORRMAN"
                         poolMaxWaitTime="10000"
-                        port="80"
+                        port="1099"
                 >
                 </pool>
                 <pool
