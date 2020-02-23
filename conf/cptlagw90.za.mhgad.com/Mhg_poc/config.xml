@@ -1845,7 +1845,6 @@
                         poolMaxWaitTime="10000"
                         port="80"
                 >
-                        <arg>/v1/traf</arg>
                 </pool>
                 <pool
                         autotimeout="120000"
