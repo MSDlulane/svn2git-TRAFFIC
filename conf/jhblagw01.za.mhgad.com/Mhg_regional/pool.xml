@@ -4,6 +4,14 @@
 		id="COBOL"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
 	/>
+	<pool
+        class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
+        id="CORRMAN" >
+           <tq-function
+             desc=""
+             name="GET_IMAGE_URL"
+             targetBeanName="GET_IMAGE_URL" />
+   </pool>
 	
 	<pool
 		id="JEE_BACKUP"
@@ -62,11 +70,6 @@
 		<tq-function
 			name="FLAG_PROTOCOL_SERVICE"
 			targetBeanName="FLAG_PROTOCOL_SERVICE"
-			desc=""
-		/>
-		<tq-function
-			name="GET_IMAGE_URL"
-			targetBeanName="GET_IMAGE_URL"
 			desc=""
 		/>
 		<tq-function
