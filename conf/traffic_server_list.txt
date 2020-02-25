@@ -143,13 +143,13 @@ cptlagw02.za.mhgad.com web_auth PRODUCTION_LEGACY ENABLED -1 256 10010 DISABLED
 # QUI, UNITY, WEB user-interfaces etc. 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_primary/
-cptlagw02.za.mhgad.com Mhg_primary PRODUCTION_LATEST ENABLED 256 512 10011 ENABLED
+cptlagw02.za.mhgad.com Mhg_primary PRODUCTION_LATEST_01 ENABLED 256 512 10011 ENABLED
 #
 # Secondary traffic server User interface requests. Intended service consumers
 # COBOL text-based user interfaces etc. 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw02.za.mhgad.com/Mhg_secondary/
-cptlagw02.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012 ENABLED
+cptlagw02.za.mhgad.com Mhg_secondary PRODUCTION_LATEST_01 ENABLED 128 256 10012 ENABLED
 #
 # Traffic server for MKReal? TODO 
 # Config:
@@ -229,13 +229,13 @@ cptlagw03.za.mhgad.com web_auth PRODUCTION_LEGACY ENABLED -1 256 10010 DISABLED
 # WEB user-interfaces etc. 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_primary/
-cptlagw03.za.mhgad.com Mhg_primary PRODUCTION_LATEST ENABLED 256 512 10011 ENABLED
+cptlagw03.za.mhgad.com Mhg_primary PRODUCTION_LATEST_01 ENABLED 256 512 10011 ENABLED
 #
 # Secondary traffic server User interface requests. Only service consumers
 # WEB user-interfaces etc. 
 # Config:
 # https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Mhg_secondary/
-cptlagw03.za.mhgad.com Mhg_secondary PRODUCTION_LATEST ENABLED 128 256 10012 ENABLED
+cptlagw03.za.mhgad.com Mhg_secondary PRODUCTION_LATEST_01 ENABLED 128 256 10012 ENABLED
 #
 # Sanlam traffic server for routing benefit queries to Sanlam Health for the
 # Randwater account.
@@ -289,7 +289,7 @@ dralsin01.za.mhgad.com StandinSweeper PRODUCTION_LEGACY ENABLED -1 256 20911 DIS
 # requests are serviced by SEE and JBoss instances in the Town
 # Square data centre.
 
-jhblagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST ENABLED -1 256 10010 ENABLED
+jhblagw01.za.mhgad.com Mhg_regional PRODUCTION_LATEST_01 ENABLED -1 256 10010 ENABLED
 
 # ACCEPTANCE
 cptlagw90.za.mhgad.com PPN ACCEPTANCE_LATEST ENABLED -1 -1 65001 DISABLED
