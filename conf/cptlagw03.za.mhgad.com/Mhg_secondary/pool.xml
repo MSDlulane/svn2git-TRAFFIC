@@ -17,14 +17,7 @@
 			targetBeanName="PROVIDER_LOOKUP_SERVICE"
 			desc="" />
 	</pool>
-	<pool
-        class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
-        id="CORRMAN" >
-           <tq-function
-             desc=""
-             name="GET_IMAGE_URL"
-             targetBeanName="GET_IMAGE_URL" />
-   </pool>
+	
 	<pool
 		id="JEE"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector">
@@ -36,6 +29,10 @@
 			name="AUTHORISATION_TRIGGER"
 			targetBeanName="AUTHORISATION_TRIGGER"
 			desc="" />
+		<tq-function
+			name="GET_IMAGE_URL"
+			targetBeanName="GET_IMAGE_URL"
+            desc="" />
 		<tq-function
 			name="BANKMED_VALIDATE_PATIENT"
 			targetBeanName="BANKMED_VALIDATE_PATIENT"
