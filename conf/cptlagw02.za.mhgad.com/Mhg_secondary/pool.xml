@@ -9,14 +9,7 @@
 	<pool
 		id="POJAS_SLOW_BACKUP"
 		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector" />
-	<pool
-		id="JEE_BACKUP"
-		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector">
-		<tq-function
-			name="PROVIDER_LOOKUP_SERVICE"
-			targetBeanName="PROVIDER_LOOKUP_SERVICE"
-			desc="" />
-	</pool>
+	
 	<pool
         class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
         id="CORRMAN" >
@@ -40,6 +33,10 @@
 			name="AUTHORISATION_TRIGGER"
 			targetBeanName="AUTHORISATION_TRIGGER"
 			desc="" />
+		<tq-function
+			name="GET_IMAGE_URL"
+			targetBeanName="GET_IMAGE_URL"
+            desc="" />
 		<tq-function
 			name="BANKMED_VALIDATE_PATIENT"
 			targetBeanName="BANKMED_VALIDATE_PATIENT"
