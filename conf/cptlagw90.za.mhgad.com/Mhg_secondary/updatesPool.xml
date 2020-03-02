@@ -18,14 +18,6 @@
 			targetBeanName="PROVIDER_LOOKUP_SERVICE" />
 	</pool>
 	<pool
-         class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
-         id="CORRMAN" >
-            <tq-function
-              desc=""
-              name="GET_IMAGE_URL"
-              targetBeanName="GET_IMAGE_URL" />
-   </pool>
-	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
 		id="JEE">
 		<tq-function

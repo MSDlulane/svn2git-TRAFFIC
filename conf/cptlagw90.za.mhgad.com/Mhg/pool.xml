@@ -31,6 +31,10 @@
 			name="AUTHORISATION_TRIGGER"
 			targetBeanName="AUTHORISATION_TRIGGER" />
 		<tq-function
+              desc=""
+              name="GET_IMAGE_URL"
+              targetBeanName="GET_IMAGE_URL" />
+		<tq-function
 			desc=""
 			name="BANKMED_VALIDATE_PATIENT"
 			targetBeanName="BANKMED_VALIDATE_PATIENT" />
