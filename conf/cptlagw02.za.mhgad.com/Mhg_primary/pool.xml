@@ -18,13 +18,13 @@
 			desc="" />
 	</pool>
 	<pool
-        class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
-        id="CORRMAN" >
-           <tq-function
-             desc=""
-             name="GET_IMAGE_URL"
-             targetBeanName="GET_IMAGE_URL" />
-   </pool>
+         class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
+         id="UNTIQUE" >
+            <tq-function
+              desc=""
+              name="GET_IMAGE_URL"
+              targetBeanName="GET_IMAGE_URL" />
+	</pool>
 	<pool
 		id="JEE"
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector">
