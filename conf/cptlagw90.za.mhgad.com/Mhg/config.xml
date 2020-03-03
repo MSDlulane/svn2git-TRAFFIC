@@ -740,13 +740,14 @@
 		<pool
            autotimeout="120000"
            connections="100"
-           hostname="corrman-integration-gems-integration.mhgrcp01.metmom.mmih.biz"
-           id="CORRMAN"
+           hostname="untique-gems-integration.mhgrcp01.metmom.mmih.biz"
+           id="UNTIQUE"
            poolMaxWaitTime="10000"
            port="80"
            >
            <arg>/v1/traf</arg>
      </pool>
+
 		<pool
 			autotimeout="120000"
 			connections="100"

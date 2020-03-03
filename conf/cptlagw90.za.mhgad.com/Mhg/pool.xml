@@ -7,12 +7,12 @@
 		
 	<pool
          class="InterfaceTransactions.TcpPool.Connectors.webservice.HTTPPostConnector"
-         id="CORRMAN" >
+         id="UNTIQUE" >
             <tq-function
               desc=""
               name="GET_IMAGE_URL"
               targetBeanName="GET_IMAGE_URL" />
-   </pool>
+	</pool>
 
 	<pool
 		class="InterfaceTransactions.TcpPool.Connectors.Ejb.JBossEjbConnector"
