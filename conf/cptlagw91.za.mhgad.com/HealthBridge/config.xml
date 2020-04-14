@@ -1,0 +1,528 @@
+<Enviroments>
+	
+	<server
+		active="true"
+		autoDisable="false"
+		cmdPasswd="1q2w3e"
+		diagPort="20886"
+		logConfigFile="log4j.xml"
+		name="HealthBridge Test Server"
+		port="20885"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="HealthBridge"
+		trxAbortSizeLimit="84000"
+		trxSizeLimit="64000"
+	/>		
+	
+	<env
+		mhgAccount="AMED"
+		name="BANKMED"
+	>
+		
+		<pool
+			autotimeout="1120000"
+			connections="5"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="1120000"
+			port="9106"
+			useSoTimeOut="false"
+		/>
+	</env>
+	
+	<env
+		name="GEMS"
+	>
+		
+		<pool
+			autotimeout="1120000"
+			connections="5"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="1120000"
+			port="9110"
+			useSoTimeOut="false"
+		/>
+	</env>
+	
+	<env
+		name="NIMAS"
+	>
+		
+		<pool
+			autotimeout="1120000"
+			connections="5"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="1120000"
+			port="9113"
+			useSoTimeOut="false"
+		/>
+	</env>
+	
+	<env
+		mhgAccount="NEWMED"
+		name="SAMWU"
+	>
+		
+		<pool
+			autotimeout="1120000"
+			connections="5"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="1120000"
+			port="9115"
+			useSoTimeOut="false"
+		/>
+	</env>
+	<env
+		mhgAccount="NEWMED"
+		name="TRANSMED"
+	>
+		
+		<pool
+			autotimeout="1120000"
+			connections="5"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="1120000"
+			port="9107"
+			useSoTimeOut="false"
+		/>
+	</env>
+	
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransactionWellformedXML"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		20887
+	</snmp-port>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<tailWatchServer
+		id="HealthBridge"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20888"
+	/>
+	<diagTailWatchServer
+		id="HealthBridge"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20889"
+	/>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+	</transaction-x-ref>
+	<destination-x-ref	>		
+		
+		<x-ref
+			description="SUPREME"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="TB2A"
+		/>
+		<x-ref
+			description="MILLENNIUM"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="TB2B"
+		/>
+		<x-ref
+			description="CLASSIC"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="TB2C"
+		/>
+		<x-ref
+			description="PRIMARY"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="TB2D"
+		/>
+				
+		<x-ref
+			description="Bankmed Basic"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="TBA1"
+		/>
+		<x-ref
+			description="Bankmed Comprehensive"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="TBA2"
+		/>
+		<x-ref
+			description="Bankmed Plus"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="TBA3"
+		/>
+		<x-ref
+			description="Bankmed Core Saver"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="TBA4"
+		/>
+		<x-ref
+			description="Bankmed Traditional"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="TBA5"
+		/>
+		<x-ref
+			description="Equilibrium Plus"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="TBAA"
+		/>
+		<x-ref
+			description="Prime Health Plan"
+			functionMask="FFFF"
+			mhg="BANKMED"
+			tradingPartner="TBAP"
+		/>
+		
+		<x-ref
+			description="SAPPHIRE"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="TBTA"
+		/>
+		
+		<x-ref
+			description="BERYL"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="TBTB"
+		/>
+		<x-ref
+			description="RUBY"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="TBTC"
+		/>
+		<x-ref
+			description="EMERALD"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="TBTD"
+		/>
+		<x-ref
+			description="ONYX"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="TBTE"
+		/>
+		<x-ref
+			description="GUARDIAN"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="TBV5"
+		/>
+		<x-ref
+			description="State Plus Network"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="TBVL"
+		/>
+		<x-ref
+			description="State Plus Own Choice"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="TBVN"
+		/>
+		<x-ref
+			description="ABSENTEE MEMBER STATUS (ACTIVE)"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="TBVS"
+		/>
+		<x-ref
+			description="Private Cover Plus Savings Account"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="TBVT"
+		/>
+		
+		<x-ref
+			description="GEMS: Pathologists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT002"
+		/>
+		<x-ref
+			description="GEMS: Dentists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT001"
+		/>
+		<x-ref
+			description="GEMS: Specialists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT003"
+		/>
+		<x-ref
+			description="GEMS:Optometrists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT004"
+		/>
+		<x-ref
+			description="GEMS:Radiologists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT005"
+		/>
+		<x-ref
+			description="GEMS: Oncologists "
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT006"
+		/>
+		<x-ref
+			description="GEMS: Physiotherapists"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT007"
+		/>
+		<x-ref
+			description="GEMS: Other"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT008"
+		/>
+		<x-ref
+			description="GEMS: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="PT009"
+		/>
+		
+		<x-ref
+			description="TRANSMED: Dentists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV001"
+		/>
+		<x-ref
+			description="TRANSMED: Pathologists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV002"
+		/>
+		<x-ref
+			description="TRANSMED: Specialists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV003"
+		/>
+		<x-ref
+			description="TRANSMED:Optometrists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV004"
+		/>
+		<x-ref
+			description="TRANSMED:Radiologists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV005"
+		/>
+		<x-ref
+			description="TRANSMED: Oncologists "
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV006"
+		/>
+		<x-ref
+			description="TRANSMED: Physiotherapists"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV007"
+		/>
+		<x-ref
+			description="TRANSMED: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV009"
+		/>
+		<x-ref
+			description="TRANSMED: Other"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="PV008"
+		/>
+		<x-ref
+			description="PG: Dentists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM001"
+		/>
+		<x-ref
+			description="PG: Pathologists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM002"
+		/>
+		<x-ref
+			description="PG: Oncologists "
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM006"
+		/>
+		<x-ref
+			description="PG: Specialists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM003"
+		/>
+		<x-ref
+			description="PG:Optometrists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM004"
+		/>
+		<x-ref
+			description="PG:Radiologists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM005"
+		/>
+		<x-ref
+			description="PG: Physiotherapists"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM007"
+		/>
+		<x-ref
+			description="PG: Other"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM008"
+		/>
+		<x-ref
+			description="PG: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="Nimas"
+			tradingPartner="PM009"
+		/>
+		
+		<x-ref
+			description="SAMWU: Dentists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ001"
+		/>
+		<x-ref
+			description="SAMWU: Pathologists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ002"
+		/>
+		<x-ref
+			description="SAMWU: Specialists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ003"
+		/>
+		<x-ref
+			description="SAMWU:Optometrists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ004"
+		/>
+		<x-ref
+			description="SAMWU:Radiologists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ005"
+		/>
+		<x-ref
+			description="SAMWU: Oncologists "
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ006"
+		/>
+		<x-ref
+			description="SAMWU: Physiotherapists"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ007"
+		/>
+		<x-ref
+			description="SAMWU: Other"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ008"
+		/>
+		<x-ref
+			description="SAMWU: Doctors (GP)"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="PQ009"
+		/>
+
+
+	</destination-x-ref>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="IR0b0t"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="Healthbridge"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="*"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>

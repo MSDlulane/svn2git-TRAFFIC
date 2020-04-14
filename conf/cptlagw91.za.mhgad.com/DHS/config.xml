@@ -1,0 +1,805 @@
+<Enviroments>
+	
+	<server
+		__system_out="default"
+		cmdPasswd="1q2w3e"
+		diagPort="20751"
+		distributedCacheEnabled="true"
+		distributedCacheEntryTimeout="120"
+		distributedCacheIP="172.23.113.33"
+		distributedCachePort="11211"
+		logConfigFile="log4j.xml"
+		name="DHS Test Server "
+		port="20750"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="Mediswitch"
+		trxAbortSizeLimit="256000"
+		trxSizeLimit="128000"
+	/>
+	<env
+		name="AMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="20"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9106"
+		/>
+	</env>
+					
+	<env
+		name="GEMS"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="25"
+			dropClientOnError="false"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<secondaryPool
+				autoDisable="true"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="10"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="lbs-appall-acp1.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="28000"
+				port="9233"
+				startDisabled="false"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+			</secondaryPool>
+		</pool>
+	</env>
+	<env
+		name="GEMS_NON_QPBM"
+		useDistributedCache="true"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="25"
+			dropClientOnError="false"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9110"
+			startDisabled="false"
+			stickyStandin="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		>
+			
+			<secondaryPool
+				autoDisable="true"
+				autoDisableOnSyncStart="true"
+				autoEnable="true"
+				autoEnableOnSyncEnd="true"
+				autotimeout="90000"
+				connections="10"
+				connectorImplementationClassID="COBOL"
+				dropClientOnError="false"
+				hostname="lbs-appall-acp1.za.mhgad.com"
+				id="COBOLBACKUP"
+				minTrxTime="15000"
+				poolMaxWaitTime="28000"
+				port="9233"
+				startDisabled="false"
+				useSoTimeOut="false"
+				waitForSyncToFinishTimeout="10000"
+			>
+				
+			</secondaryPool>
+		</pool>
+	</env>
+	
+	<env
+		name="NEWMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+		/>
+	</env>
+	<env
+		name="NIMAS"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9113"
+		/>
+	</env>
+	
+	<env
+		name="REDRIB"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="20"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9111"
+		/>
+	</env>
+	<env
+		name="SAMWU"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9115"
+		/>
+	</env>
+	<env
+		name="TRANSMED"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="25"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="28000"
+			port="9107"
+		/>
+	</env>
+	
+	<transaction
+		class="InterfaceTransactions.Generic.GenTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		20752
+	</snmp-port>
+	<tailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20753"
+	/>
+	<diagTailWatchServer
+		id="Mediswitch"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="20754"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<transaction-x-ref	>
+		
+		<x-ref
+			description="Elegibility check"
+			functionNo="0001"
+			isPingOrHandshake="true"
+			mhg="ELCHECK"
+			tradingPartner="1"
+		/>
+		<x-ref
+			description="Realtime Pharmacy Medicine claims"
+			functionNo="000A"
+			mhg="REALCLM"
+			tradingPartner="2"
+		/>
+		<x-ref
+			description="Realtime doctor Medicine claims"
+			functionNo="0002"
+			mhg="REALCLM"
+			tradingPartner="3"
+		/>
+		<x-ref
+			description="Realtime doctor claims"
+			functionNo="0004"
+			mhg="REALCLM"
+			tradingPartner="4"
+		/>
+		<x-ref
+			description="Ping"
+			functionNo="0008"
+			isPingOrHandshake="true"
+			mhg="PING"
+			tradingPartner="127"
+		/>
+		<x-ref
+			description="Realtime claims"
+			functionNo="0010"
+			mhg="REALCLM"
+			tradingPartner="5"
+		/>
+	</transaction-x-ref>
+	<destination-x-ref	>
+		<x-ref
+			description="MHG: NIMAS REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="MSRR0002"
+		/>
+		<x-ref
+			description="MHG: ENGEN REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MERM0001"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGER0006"
+		/>
+		
+		<x-ref
+			description="RTDM0002 - Bankmed"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="RTDM0002"
+		/>
+		<x-ref
+			description="rtdm0002 - Bankmed"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="rtdm0002"
+		/>
+		<x-ref
+			description="MHG:GEMS Emerald pathology realer (Medical)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGOP0001"
+		/>
+		
+		<x-ref
+			description="MHG: GEMS EMERALD OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGEO0004"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGOO0004"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGRO0006"
+		/>
+		<x-ref
+			description="MHG: BANKMED SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MBSM0001"
+		/>
+		<x-ref
+			description="RTDM0003 - Gems"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="RTDM0003"
+		/>
+		<x-ref
+			description="rtdm0003 - Gems"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="rtdm0003"
+		/>
+		<x-ref
+			description="MHG: GEMS MEDICLINIC Onyx"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGOM0001"
+		/>
+		
+		
+		<x-ref
+			description="MHG:GEMS Emerald pathology realer (Medical)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MOPP0003"
+		/>
+		<x-ref
+			description="MHG:GEMS Ruby pathology realer (Medical)"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGRP0002"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTR0001"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTS0001"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTP0001"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTR0002"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTR0003"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTM0001"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTO0001"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTO0002"
+		/>
+		<x-ref
+			description="GEMS Tanzanite One"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGTO0003"
+		/>
+		
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBR0001"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBS0001"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBP0002"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBR0002"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBR0003"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBM0002"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBO0004"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBO0005"
+		/>
+		<x-ref
+			description="GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGBO0006"
+		/>
+		<x-ref
+			description="rtdm0004 - Nimas"
+			functionMask="FFFF"
+			mhg="NIMAS"
+			tradingPartner="rtdm0004"
+		/>
+		
+		<x-ref
+			description="RTDM0006 - Red Ribbon"
+			functionMask="FFFF"
+			mhg="REDRIB"
+			tradingPartner="RTDM0006"
+		/>
+		<x-ref
+			description="rtdm0006 - Red Ribbon"
+			functionMask="FFFF"
+			mhg="REDRIB"
+			tradingPartner="rtdm0006"
+		/>
+		
+		<x-ref
+			description="RTDM0008 - Newmed"
+			functionMask="FFFF"
+			mhg="NEWMED"
+			tradingPartner="RTDM0008"
+		/>
+		<x-ref
+			description="rtdm0008 - Newmed"
+			functionMask="FFFF"
+			mhg="NEWMED"
+			tradingPartner="rtdm0008"
+		/>
+		<x-ref
+			description="RTDM0011 - Samwu"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="RTDM0011"
+		/>
+		<x-ref
+			description="rtdm0011 - Samwu"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="rtdm0011"
+		/>
+		<x-ref
+			description="METR0011 - Samwu"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="METR0011"
+		/>
+		<x-ref
+			description="METR0014 - TRANSMED"
+			functionMask="FFFF"
+			mhg="TRANSMED"
+			tradingPartner="METR0014"
+		/>
+		<x-ref
+			description="MHG: IMPERIAL GROUP PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="IMPERIAL"
+			tradingPartner="MIGP0001"
+		/>
+		
+		<x-ref
+			description="MHG: SAMWUMED (MEDICAL) Doctors"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="MSMR0009"
+		/>
+		<x-ref
+			description="MHG: SAMWUMED MEDICLINIC REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="MSRM0002"
+		/>
+		<x-ref
+			description="MHG: SAMWUMED PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="MSPR0007"
+		/>
+		<x-ref
+			description="MHG: SAMWUMED REALTIME REALER claims"
+			functionMask="FFFF"
+			mhg="SAMWU"
+			tradingPartner="MSRM0010"
+		/>
+		<x-ref
+			description="MHG: GOLDEN ARROW REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MGAR0002"
+		/>
+		<x-ref
+			description="MHG: GOLDEN ARROW SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MGAS0003"
+		/>
+		<x-ref
+			description="MHG: GOLDEN ARROW REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MGAR0003"
+		/>
+		<x-ref
+			description="MHG: GOLDEN ARROW PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MGAP0001"
+		/>
+		<x-ref
+			description="MHG: GOLDEN ARROW MEDICLINIC REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="MGAM0003"
+		/>		
+		
+		<!-- Broker configs -->
+		
+		<x-ref
+			description="MHG: GEMS Beryl"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MBOP0001"
+		/>
+		
+		<x-ref
+			description="MHG: GEMS Saphire"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MSOP0010"
+		/>
+		<x-ref
+			description="GEMS Onyx"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="METR0006"
+		/>
+		<x-ref
+			description="GRDM0001 - GEMS"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="grdm0001"
+		/>
+		<x-ref
+			description="GEMS Emerald"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGEO0001"
+		/>
+		<x-ref
+			description="GEMS Ruby"
+			functionMask="FFFF"
+			mhg="GEMS"
+			tradingPartner="MGRO0003"
+		/>
+		
+	
+	<!-- Doctor claims start  -->
+		
+		<x-ref
+			description="MHG: GEMS EMERALD REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGER0006"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGES0001"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGEO0004"
+		/>
+			<x-ref
+			description="MHG: GEMS ONYX OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOO0004"
+		/>
+			<x-ref
+			description="MHG: GEMS RUBY OPTION DENTAL (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRO0006"
+		/>
+
+		<x-ref
+			description="MHG: GEMS ONYX REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOR0001"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOS0001"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY REALTIME (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRR0001"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY SWITCHON (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRS0001"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MOPP0003"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MOPR0003"
+		/>
+		<x-ref
+			description="MHG: GEMS EMERALD REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MOPR0004"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOP0001"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOR0003"
+		/>
+		<x-ref
+			description="MHG: GEMS ONYX REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOR0002"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY PATHOLOGY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRP0002"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY REALER (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRR0002"
+		/>
+		<x-ref
+			description="MHG: GEMS RUBY REALER RADIO PHYSIO (MEDICAL)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRR0003"
+		/>
+		<x-ref
+			description="MHG: GEMS MEDICLINIC Emerald"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGEM0001"
+		/>
+		<x-ref
+			description="MHG: GEMS MEDICLINIC Onyx"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOM0001"
+		/>
+		<x-ref
+			description="MHG: GEMS MEDICLINIC Ruby"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRM0003"
+		/>
+		<x-ref
+			description="MHG:GEMS Emerald pathology realer (Medical)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGOP0001"
+		/>
+		<x-ref
+			description="MHG:GEMS Ruby pathology realer (Medical)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MGRP0002"
+		/>
+		<x-ref
+			description="MHG:GEMS Emerald pathology realer (Medical)"
+			functionMask="FFFF"
+			mhg="GEMS_NON_QPBM"
+			tradingPartner="MOPP0003"
+		/>
+		<x-ref
+			description="Dummy member"
+			functionMask="FFFF"
+			mhg="AMED"
+			tradingPartner="METR0005"
+		/>
+		
+	</destination-x-ref>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.GenericLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="IR0b0t"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="DHSMain"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="*"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
+
