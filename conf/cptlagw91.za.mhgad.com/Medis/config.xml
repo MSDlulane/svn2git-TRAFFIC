@@ -3,11 +3,11 @@
 	<server
 		__system_out="default"
 		cmdPasswd="p34nu7"
-		diagPort="28406"
+		diagPort="27306"
 		logConfigFile="log4j.xml"
-		name="XPEDIENT ACPT"
-		port="28407"
-		tradingPartner="XPEDIENT"
+		name="MEDIS ACPT"
+		port="27305"
+		tradingPartner="MEDIS"
 		trxAbortSizeLimit="64000"
 		trxSizeLimit="48000"
 	/>
@@ -60,7 +60,7 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		28408
+		27206
 	</snmp-port>
 	<tailWatchServer
 		id="MEDIS"
@@ -237,7 +237,7 @@
 	
 	<logger
 		classname="InterfaceTransactions.Diagnostics.GenericLogger"
-		logDirectory="log/Xpedient"
+		logDirectory="log/Medis"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
 	>
@@ -247,7 +247,7 @@
 			DbPassword="IR0b0t"			
 			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
 			DbUserName="traffic"
-			logTable="Xpedient"
+			logTable="Medis"
 			maxpoolsize="2"
 			minpoolsize="1"
 			poolId="generic"
