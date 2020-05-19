@@ -442,6 +442,7 @@ cptlagw91.za.mhgad.com MyCare PRODUCTION_LATEST ENABLED -1 -1 65026 DISABLED
 cptlagw91.za.mhgad.com MyCareStandinTest PRODUCTION_LATEST ENABLED -1 -1 65100 DISABLED
 cptlagw91.za.mhgad.com MedikreditGemsTest PRODUCTION_LEGACY ENABLED -1 -1 65104 DISABLED
 cptlagw91.za.mhgad.com Mediscor ACCEPTANCE_LEGACY ENABLED -1 -1 65105 ENABLED
+cptlagw91.za.mhgad.com Mhg_secondary ACCEPTANCE_LATEST_01 ENABLED -1 -1 65102 ENABLED
 
 
 
