@@ -1,0 +1,162 @@
+<Enviroments>
+	
+	<server
+		__system_out="Medipos_System.out"
+		active="true"
+		autoDisable="false"
+		cmdPasswd="1q2w3e"
+		diagPort="22006"
+		logConfigFile="log4j.xml"
+		name="Medipos TEST"
+		port="22005"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="Medipos TEST"
+		trxAbortSizeLimit="64000"
+		trxSizeLimit="48000"
+	/>
+	<env
+		mhgAccount="MEDIPOS"
+		name="MEDIPOS"
+	>
+		
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="2"
+			dropClientOnError="false"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="10000"
+			port="9108"
+			startDisabled="false"
+			stickyStandin="true"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+	</env>
+	<MKLoad
+		inMap="maps/mkamed-in.txt"
+		inReverseMap="maps/mkamed-reverse.txt"
+		outMap="maps/mkamed-out.txt"
+	>
+		
+		<save		>
+			
+			<single
+				name="64"
+			/>
+			<single
+				name="V"
+			/>
+			<single
+				name="CDTE"
+			/>
+			<single
+				name="CTME"
+			/>
+			<single
+				name="PDR"
+			/>
+		</save>
+		<add-input		>
+			
+			<pair
+				name="63"
+				value="MK"
+			/>
+			<pair
+				name="65"
+				value="6034284"
+			/>
+			<pair
+				name="66"
+				value="D"
+			/>
+			<pair
+				name="67"
+				value="REALCLM"
+			/>
+			<pair
+				name="REVSC"
+				value="1"
+			/>
+		</add-input>
+		<add-output		>
+			
+			<pair
+				name="ONE"
+				value="1"
+			/>
+			<pair
+				name="OR1"
+				value="MEDIPOS "
+			/>
+			<pair
+				name="JNK"
+				value="000"
+			/>
+			<pair
+				name="RC1"
+				value="0000"
+			/>
+		</add-output>
+	</MKLoad>
+	<transaction
+		class="InterfaceTransactions.Medipos.MediposTransaction"
+	/>
+	<transaction-header
+		class="InterfaceTransactions.Medipos.MediposHeaders"
+	/>
+	<pool-definitions-file
+		name="pool.xml"
+	/>
+	<snmp-port
+		mibFile="mibs.xml"
+	>
+		22007
+	</snmp-port>
+	<tailWatchServer
+		id="Medipos Test"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="22008"
+	/>
+	<diagTailWatchServer
+		id="Medipos"
+		multicast-host-ip=""
+		multicast-port="-1"
+		tcpipPort="22009"
+	/>
+	<synchronous-transactions	>
+		true
+	</synchronous-transactions>
+	<logger
+		classname="InterfaceTransactions.Diagnostics.MediskorLogger"
+		logDirectory="log/accesslog"
+		logFileRefreshInterval="Daily"
+		processSleepTime="1000"
+	>
+		
+		<claimsLogger
+			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
+			DbPassword="IR0b0t"
+			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
+			DbUserName="traffic"
+			logTable="Medikredit"
+			maxpoolsize="2"
+			minpoolsize="1"
+			poolId="generic"
+			timeout="600000"
+		>
+			
+			<logTransactions
+				desc="comma seperated list of transactions to log"
+				value="REALCLM"
+			/>
+		</claimsLogger>
+	</logger>
+</Enviroments>
+
