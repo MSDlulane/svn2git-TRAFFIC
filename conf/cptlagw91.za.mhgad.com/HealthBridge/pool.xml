@@ -1,8 +1,0 @@
-<pool-classes>
-	
-	<pool
-		characterSet="ISO-8859-1"
-		class="InterfaceTransactions.TcpPool.Connectors.Cobol.CobolConnector"
-		id="COBOL"
-	/>
-</pool-classes>
