@@ -968,13 +968,13 @@
 			tradingPartner="DOHCOVGP"
 		/>
 		<x-ref
-			description="PILIR:DoH COVID19 KwaZulu-Natal"
+			description="PILIR: DoH COVID19 KwaZulu-Natal"
 			functionMask="FFFF"
 			mhg="PILIR"
 			tradingPartner="DOHCOVKZ"
 		/>
 		<x-ref
-			description="PILIR:DoH COVID19 Limpopo"
+			description="PILIR: DoH COVID19 Limpopo"
 			functionMask="FFFF"
 			mhg="PILIR"
 			tradingPartner="DOHCOVLP"
