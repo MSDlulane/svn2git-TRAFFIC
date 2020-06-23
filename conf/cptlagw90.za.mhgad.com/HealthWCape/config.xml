@@ -9,10 +9,10 @@
 	<server
 		__system_out="default"
 		autoTestConnectorsOnStartup="false"
-		diagPort="28011"
+		diagPort="28015"
 		logConfigFile="log4j.xml"
 		name="HealthWCape"
-		port="28010"
+		port="28014"
 		tradingPartner="HealthWCape"
 		trxAbortSizeLimit="64000"
 		trxSizeLimit="48000"
@@ -54,19 +54,19 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		28007
+		28016
 	</snmp-port>
 	<tailWatchServer
 		id="HealthWCape"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="28012"
+		tcpipPort="28018"
 	/>
 	<diagTailWatchServer
 		id="HealthWCape"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="28013"
+		tcpipPort="28019"
 	/>
 	<synchronous-transactions	>
 		true
