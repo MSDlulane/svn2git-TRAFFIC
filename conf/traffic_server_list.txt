@@ -321,7 +321,7 @@ cptlagw90.za.mhgad.com MedikreditGemsTest PRODUCTION_LEGACY ENABLED -1 -1 65104 
 cptlagw90.za.mhgad.com Medista ACCEPTANCE_LEGACY ENABLED -1 -1 65106 ENABLED
 cptlagw90.za.mhgad.com Medis ACCEPTANCE_LEGACY ENABLED -1 -1 65107 ENABLED
 cptlagw90.za.mhgad.com Xpedient ACCEPTANCE_LEGACY ENABLED -1 -1 65108 ENABLED
-cptlagw90.za.mhgad.com HealthWCape ACCEPTANCE_LEGACY ENABLED -1 -1 65020 DISABLED
+cptlagw90.za.mhgad.com HealthWCape ACCEPTANCE_LATEST_01 ENABLED -1 -1 65011 DISABLED
 
 
 #   DEVELOPMENT
