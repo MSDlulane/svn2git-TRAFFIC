@@ -173,7 +173,7 @@
 			DbPassword="IR0b0t"
 			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
 			DbUserName="traffic"
-			logTable="Healthbridge"
+			logTable="CovidWcape"
 			maxpoolsize="2"
 			minpoolsize="1"
 			poolId="generic"
