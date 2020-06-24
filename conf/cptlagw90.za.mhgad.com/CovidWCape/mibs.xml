@@ -1,8 +1,8 @@
 <MIBS>
-	<MIB name="1.3.6.1.2.1.1.1.0" desc="SysDescr"    className="jmgmt.data.MIB_SysDescr"    fixedValue="HealthWCape Traf Server"/>
+	<MIB name="1.3.6.1.2.1.1.1.0" desc="SysDescr"    className="jmgmt.data.MIB_SysDescr"    fixedValue="CovidWcape Traf Server"/>
 	<MIB name="1.3.6.1.2.1.1.3.0" desc="SysUpTime"   className="jmgmt.data.MIB_SysUpTime" />
 	<MIB name="1.3.6.1.2.1.1.4.0"	desc="SysContact"					className="jmgmt.data.MIB_SysContact"  fixedValue="ebusiness@mhg.co.za"/>
-	<MIB name="1.3.6.1.2.1.1.5.0"	desc="SysName"						className="jmgmt.data.MIB_SysName"     fixedValue="HealthWCape"/>
+	<MIB name="1.3.6.1.2.1.1.5.0"	desc="SysName"						className="jmgmt.data.MIB_SysName"     fixedValue="CovidWcape"/>
 	<MIB name="1.3.6.1.2.1.1.6.0"	desc="SysLocation"					className="jmgmt.data.MIB_SysLocation" fixedValue="MHG server room"/>
 	<MIB name="1.3.6.1.4.1.0"		desc="Transacions"					className="InterfaceTransactions.Diagnostics.snmp.MIB_Transactions"/>
 	<MIB name="1.3.6.1.4.2.0"		desc="FailedTransactions" 			className="InterfaceTransactions.Diagnostics.snmp.MIB_FailedTransactions"/>
