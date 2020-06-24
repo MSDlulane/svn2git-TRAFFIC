@@ -1,18 +1,14 @@
 <Enviroments>
 	
-	<time-zone_
-		help="optional"
-		reason="fix jdk1.4 bug on Solaris"
-	>
-		GMT-2
-	</time-zone_>
 	<server
-		__system_out="default"
-		autoTestConnectorsOnStartup="false"
+		active="true"
+		autoDisable="false"
+		cmdPasswd="1q3w3e"
 		diagPort="28015"
 		logConfigFile="log4j.xml"
 		name="HealthWCape"
 		port="28014"
+		sendTrxDetailsToStatusMonitor="true"
 		tradingPartner="HealthWCape"
 		trxAbortSizeLimit="64000"
 		trxSizeLimit="48000"
