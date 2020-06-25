@@ -27,22 +27,7 @@
 			poolMaxWaitTime="30000"
 			port="9104"
 		/>
-		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="cptlagw90.za.mhgad.com"
-			id="POJAS"
-			poolMaxWaitTime="120000"
-			port="33000"
-			startDisabled="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
+		
 		</env>
 
 	
@@ -173,7 +158,7 @@
 			DbPassword="IR0b0t"
 			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
 			DbUserName="traffic"
-			logTable="CovidWcape"
+			logTable="WCDOH"
 			maxpoolsize="2"
 			minpoolsize="1"
 			poolId="generic"
