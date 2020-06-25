@@ -1,8 +1,7 @@
 <Enviroments>
 	
 	<server
-		active="true"
-		autoDisable="false"
+		__system_out="default"
 		cmdPasswd="1q3w3e"
 		diagPort="20986"
 		logConfigFile="log4j.xml"
@@ -32,10 +31,18 @@
 
 	
 	<transaction
-		class="InterfaceTransactions.Generic.GenTransactionWellformedXML"
+		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
 	<transaction-header
 		class="InterfaceTransactions.Generic.GenHeaders"
+	/>
+	<serverConfig
+		afterConnectorSleepTime="0"
+		useBufferedOutputStreamInPool="true"
+	/>
+	<multicastDiagServer
+		multicast-host-ip="225.225.225.225"
+		multicast-port="30000"
 	/>
 	<pool-definitions-file
 		name="pool.xml"
