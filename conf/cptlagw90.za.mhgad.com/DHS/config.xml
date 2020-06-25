@@ -269,29 +269,7 @@
 			port="9118"
 		/>
 	</env>
-	<env
-		mhgAccount="PILIR"
-		name="PILIR"
-	>
-		
-		<pool
-			autoDisable="true"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="10"
-			dropClientOnError="false"
-			hostname="lbs-appall-acp1.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="28000"
-			port="9110"
-			startDisabled="false"
-			stickyStandin="false"
-			useSoTimeOut="false"
-			waitForSyncToFinishTimeout="40000"
-		/>
-	</env>	
+	
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
