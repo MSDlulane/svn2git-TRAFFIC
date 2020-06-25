@@ -282,6 +282,36 @@
 			useSoTimeOut="false"
 		/>
 	</env>
+	<env
+		mhgAccount="PILIR"
+		name="PILIR"
+	>
+		
+		<pool
+			autotimeout="120000"
+			connections="2"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9104"
+		/>
+		<pool
+			autoDisable="false"
+			autoDisableOnSyncStart="true"
+			autoEnable="true"
+			autoEnableOnSyncEnd="true"
+			autotimeout="120000"
+			connections="10"
+			dropClientOnError="false"
+			hostname="cptlagw90.za.mhgad.com"
+			id="POJAS"
+			poolMaxWaitTime="120000"
+			port="33000"
+			startDisabled="false"
+			useSoTimeOut="false"
+			waitForSyncToFinishTimeout="40000"
+		/>
+		</env>
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransactionWellformedXML"
 	/>
@@ -1485,6 +1515,61 @@
 			mhg="SAMWU"
 			tradingPartner="PQ009"
 		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Eastern Cape"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVEC"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Free State"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVFS"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Gauteng"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVGP"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 KwaZulu-Natal"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVKZ"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Limpopo"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVLP"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Mpumalanga "
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVMP"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 North West"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVNW"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Northern Cape"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVNC"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Western Cape"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVWC"
+		/>
+		
 
 
 	</destination-x-ref>
