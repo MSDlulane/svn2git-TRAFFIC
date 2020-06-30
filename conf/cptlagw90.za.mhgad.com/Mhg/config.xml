@@ -740,7 +740,7 @@
 		<pool
 	           autotimeout="120000"
 	           connections="100"
-	           hostname="untique-gems-integration.apps.mhsrcp02.metmom.mmih.biz"
+	           hostname="untique-gems-integration.mhgrcp01.metmom.mmih.biz"
 	           id="UNTIQUE"
 	           poolMaxWaitTime="10000"
 	           port="80"
