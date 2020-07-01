@@ -928,58 +928,40 @@
 			tradingPartner="METR0005"
 		/>
 		<x-ref
-			description="PILIR: DoH COVID19 Eastern Cape"
+			description="PILIR: DOH Covid 19 Western Cape Hospital claims to MHG"
 			functionMask="FFFF"
 			mhg="PILIR"
-			tradingPartner="DOHCOVEC"
+			tradingPartner="MDCW0005"
 		/>
 		<x-ref
-			description="PILIR: DoH COVID19 Free State"
+			description="PILIR: DOH Covid 19 Western Cape Medical claims to MHG"
 			functionMask="FFFF"
 			mhg="PILIR"
-			tradingPartner="DOHCOVFS"
+			tradingPartner="MDCW0006"
 		/>
 		<x-ref
-			description="PILIR: DoH COVID19 Gauteng"
+			description="PILIR: DOH Covid 19 Western Cape Realtime Medical claims to MHG"
 			functionMask="FFFF"
 			mhg="PILIR"
-			tradingPartner="DOHCOVGP"
+			tradingPartner="MDCW0007"
 		/>
 		<x-ref
-			description="PILIR: DoH COVID19 KwaZulu-Natal"
+			description="PILIR: DOH Covid 19 Western Cape Switchon Medical claims to MHG"
 			functionMask="FFFF"
 			mhg="PILIR"
-			tradingPartner="DOHCOVKZ"
+			tradingPartner="MDCW0008"
 		/>
 		<x-ref
-			description="PILIR: DoH COVID19 Limpopo"
+			description="PILIR: DOH Covid 19 Western Cape Pathology Realer claims to MHG"
 			functionMask="FFFF"
 			mhg="PILIR"
-			tradingPartner="DOHCOVLP"
+			tradingPartner="MDCW0009"
 		/>
 		<x-ref
-			description="PILIR: DoH COVID19 Mpumalanga "
+			description="PILIR: DOH Covid 19 Western Cape Realer Radio Physio claims to MHG"
 			functionMask="FFFF"
 			mhg="PILIR"
-			tradingPartner="DOHCOVMP"
-		/>
-		<x-ref
-			description="PILIR: DoH COVID19 North West"
-			functionMask="FFFF"
-			mhg="PILIR"
-			tradingPartner="DOHCOVNW"
-		/>
-		<x-ref
-			description="PILIR: DoH COVID19 Northern Cape"
-			functionMask="FFFF"
-			mhg="PILIR"
-			tradingPartner="DOHCOVNC"
-		/>
-		<x-ref
-			description="PILIR: DoH COVID19 Western Cape"
-			functionMask="FFFF"
-			mhg="PILIR"
-			tradingPartner="DOHCOVWC"
+			tradingPartner="MDCW0010"
 		/>
 			
 		
