@@ -2,7 +2,7 @@
 	
 	<server
 		__system_out="default"
-		cmdPasswd="p34nu7"
+		cmdPasswd="p43nu8"
 		diagPort="27301"
 		logConfigFile="log4j.xml"
 		name="MEDISTA PROD"
