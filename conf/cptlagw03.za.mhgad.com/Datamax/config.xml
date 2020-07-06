@@ -135,6 +135,19 @@
 			autotimeout="120000"
 			poolMaxWaitTime="300000" />
 	</env>
+	<env
+		mhgAccount="PILIR"
+		name="PILIR"
+	>		
+		<pool
+			autotimeout="120000"
+			connections="2"
+			hostname="apl-pilir.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9104"
+		/>		
+		</env>
 	
 	<!-- Log File Parameters -->
 	<transaction
@@ -274,6 +287,60 @@
 			mhg="WOOLTRU"
 			functionMask="FFFF"
 			description="DME - Wooltru" />
+			<x-ref
+			description="PILIR: DoH COVID19 Eastern Cape"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVEC"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Free State"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVFS"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Gauteng"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVGP"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 KwaZulu-Natal"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVKZ"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Limpopo"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVLP"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Mpumalanga "
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVMP"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 North West"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVNW"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Northern Cape"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVNC"
+		/>
+		<x-ref
+			description="PILIR: DoH COVID19 Western Cape"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="DOHCOVWC"
+		/>
 		
 	</destination-x-ref>
 
