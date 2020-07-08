@@ -26,6 +26,19 @@
 			port="9310"
 		/>
 	</env>
+	<env
+		mhgAccount="PILIR"
+		name="PILIR"
+	>		
+		<pool
+			autotimeout="120000"
+			connections="2"
+			hostname="apl-pilir.za.mhgad.com"
+			id="COBOL"
+			poolMaxWaitTime="30000"
+			port="9104"
+		/>		
+	</env>
 	<transaction
 		class="InterfaceTransactions.Generic.GenTransaction"
 	/>
@@ -248,6 +261,42 @@
 			functionMask="FFFF"
 			mhg="GEMS_NON_QPBM"
 			tradingPartner="MOPP0003"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Hospital claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0005"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Medical claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0006"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Realtime Medical claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0007"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Switchon Medical claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0008"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Pathology Realer claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0009"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Realer Radio Physio claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0010"
 		/>
 	</destination-x-ref>
 	<logger
