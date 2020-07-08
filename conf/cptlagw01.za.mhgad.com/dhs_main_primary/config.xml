@@ -810,6 +810,42 @@
 			functionMask="FFFF"
 			mhg="AMED"
 			tradingPartner="METR0005"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Hospital claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0005"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Medical claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0006"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Realtime Medical claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0007"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Switchon Medical claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0008"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Pathology Realer claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0009"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Realer Radio Physio claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0010"
 		/>	
 			
 	</destination-x-ref>
