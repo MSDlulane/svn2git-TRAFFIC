@@ -132,7 +132,7 @@
 			hostname="apl-pilir.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9304"
+			port="9104"
 			useSoTimeOut="true"
 		/>		
 	</env>
@@ -596,6 +596,42 @@
 			functionMask="FFFF"
 			mhg="PILIR"
 			tradingPartner="MSWH0001"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Hospital claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0005"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Medical claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0006"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Realtime Medical claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0007"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Switchon Medical claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0008"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Pathology Realer claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0009"
+		/>
+		<x-ref
+			description="PILIR: DOH Covid 19 Western Cape Realer Radio Physio claims to MHG"
+			functionMask="FFFF"
+			mhg="PILIR"
+			tradingPartner="MDCW0010"
 		/>
 	</destination-x-ref>
 	<logger
