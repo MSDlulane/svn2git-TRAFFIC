@@ -16,7 +16,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="cptlacp01.za.mhgad.com"
+			hostname="cptleap70.za.mhgad.com"
 			id="EJB"
 			poolMaxWaitTime="1000"
 			port="1099"
