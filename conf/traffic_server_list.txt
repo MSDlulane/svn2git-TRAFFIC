@@ -271,7 +271,7 @@ cptlagw03.za.mhgad.com Medis PRODUCTION_LATEST ENABLED 128 256 10017 ENABLED
 #Medista traffic server
 #Config:
 #https://cptlsvn01.za.mhgad.com/repos/TRAFFIC/conf/cptlagw03.za.mhgad.com/Medista/
-cptlagw03.za.mhgad.com Medista PRODUCTION_LATEST ENABLED -1 -1 27202 ENABLED
+cptlagw03.za.mhgad.com Medista PRODUCTION_LATEST ENABLED -1 -1 10018 ENABLED
 
 
 # DISASTER RECOVERY
