@@ -33,7 +33,7 @@
 		<pool
 			autotimeout="120000"
 			connections="100"
-			hostname="apl-gems.za.mhgad.com"
+			hostname="cptlapp12.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
 			port="9110"
