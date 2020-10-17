@@ -1567,6 +1567,10 @@
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
 			desc=""
+			name="GET_PROVIDER_BY_NAME"
+			targetBeanName="DynamicQueryExecutor" />
+		<tq-function
+			desc=""
 			name="DTPMASTER_SEARCH_BY_ICD"
 			targetBeanName="DynamicQueryExecutor" />
 		<tq-function
