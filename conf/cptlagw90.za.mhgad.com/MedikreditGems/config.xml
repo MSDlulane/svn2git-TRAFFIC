@@ -37,9 +37,8 @@
 			stickyStandin="true"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>
-			
-		</pool>
+			/>
+		
 	</env>
 	
 	
@@ -49,7 +48,7 @@
 		outMap="maps/mkamed-out.txt"
 	>
 		
-		<save		>
+		<save>
 			
 			<single
 				name="64"
