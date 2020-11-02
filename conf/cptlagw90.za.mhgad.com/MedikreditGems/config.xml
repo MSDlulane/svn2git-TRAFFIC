@@ -1,112 +1,90 @@
+<?xml version="1.0"?>
 <Enviroments>
-	
+	<!-- Global Server Parameters -->
 
 	<server
-		__system_out="mk_Amed_System.out"
+		sendTrxDetailsToStatusMonitor="true"
+		trxSizeLimit="48000"
+		trxAbortSizeLimit="64000"
+		cmdPasswd="1q2w3e"
+		tradingPartner="Medikredit Gems"
+		name="Medikredit PRIMARY"
 		active="true"
 		autoDisable="false"
-		cmdPasswd="1q2w3e"
+		port="11002"
 		diagPort="11003"
 		logConfigFile="log4j.xml"
-		name="Medikredit Gems"
-		port="11002"
-		sendTrxDetailsToStatusMonitor="true"
-		tradingPartner="Medikredit Gems"
-		trxAbortSizeLimit="64000"
-		trxSizeLimit="48000"
-	/>
-	
-		<env
-		mhgAccount="GEMS"
+		__system_out="mk_Amed_System.out" />
+
+	<!-- List of Environments that this server can talk to -->
+	<env
 		name="MEDIKREDIT"
-	>
-		
+		mhgAccount="GEMS">
+
 		<pool
-			autoDisable="false"
-			autoDisableOnSyncStart="true"
-			autoEnable="true"
-			autoEnableOnSyncEnd="true"
-			autotimeout="120000"
-			connections="15"
-			dropClientOnError="false"
-			hostname="lbs-appall-acp1.za.mhgad.com"
-			id="COBOL"
-			poolMaxWaitTime="10000"
-			port="9110"
-			startDisabled="false"
-			stickyStandin="true"
 			useSoTimeOut="false"
+			stickyStandin="true"
+			autoDisableOnSyncStart="true"
+			autoEnableOnSyncEnd="true"
+			dropClientOnError="false"
+			startDisabled="false"
 			waitForSyncToFinishTimeout="40000"
-			/>
-		
+			autoDisable="false"
+			autoEnable="true"
+			id="COBOL"
+			hostname="lbs-appall-acp1.za.mhgad.com"
+			port="9106"
+			connections="15"
+			autotimeout="120000"
+			poolMaxWaitTime="15000" />
 	</env>
-	
-	
+
 	<MKLoad
 		inMap="maps/mkamed-in.txt"
-		inReverseMap="maps/mkamed-reverse.txt"
 		outMap="maps/mkamed-out.txt"
-	>
-		
+		inReverseMap="maps/mkamed-reverse.txt">
 		<save>
-			
 			<single
-				name="64"
-			/>
+				name="64" />
 			<single
-				name="V"
-			/>
+				name="V" />
 			<single
-				name="CDTE"
-			/>
+				name="CDTE" />
 			<single
-				name="CTME"
-			/>
+				name="CTME" />
 			<single
-				name="PDR"
-			/>
+				name="PDR" />
 		</save>
-		<add-input		>
-			
+		<add-input>
 			<pair
 				name="63"
-				value="MK"
-			/>
+				value="MK" />
 			<pair
 				name="65"
-				value="6034284"
-			/>
+				value="6034284" />
 			<pair
 				name="66"
-				value="D"
-			/>
+				value="D" />
 			<pair
 				name="67"
-				value="REALCLM"
-			/>
+				value="REALCLM" />
 			<pair
 				name="REVSC"
-				value="1"
-			/>
+				value="1" />
 		</add-input>
-		<add-output		>
-			
+		<add-output>
 			<pair
 				name="ONE"
-				value="1"
-			/>
+				value="1" />
 			<pair
 				name="OR1"
-				value="GEMS "
-			/>
+				value="GEMS " />
 			<pair
 				name="JNK"
-				value="000"
-			/>
+				value="000" />
 			<pair
 				name="RC1"
-				value="0000"
-			/>
+				value="0000" />
 		</add-output>
 	</MKLoad>
 	<transaction
@@ -135,33 +113,27 @@
 		multicast-port="-1"
 		tcpipPort="11006"
 	/>
-	<synchronous-transactions	>
-		true
-	</synchronous-transactions>
+
+	<synchronous-transactions>true</synchronous-transactions>
+
+	<!-- Log File Parameters -->
 	<logger
 		classname="InterfaceTransactions.Diagnostics.MediskorLogger"
-		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
 		processSleepTime="1000"
-	>
-		
+		logDirectory="log/accesslog">
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
 			DbPassword="IR0b0t"
 			DbUrl="jdbc:sybase:Tds:sybdb-admin-jbaudit-acpt:7500/JBAUDIT"
 			DbUserName="traffic"
 			logTable="Medikredit"
-			maxpoolsize="2"
 			minpoolsize="1"
-			poolId="generic"
-			timeout="600000"
-		>
-			
+			maxpoolsize="2"
+			timeout="600000">
 			<logTransactions
 				desc="comma seperated list of transactions to log"
-				value="REALCLM"
-			/>
+				value="REALCLM" />
 		</claimsLogger>
 	</logger>
 </Enviroments>
-
