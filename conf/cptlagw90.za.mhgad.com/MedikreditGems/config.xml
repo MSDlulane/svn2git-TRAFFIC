@@ -1,18 +1,17 @@
-<?xml version="1.0"?>
 <Enviroments>
-	<!-- Global Server Parameters -->
-
-	<server
-		__system_out="default"
-		sendTrxDetailsToStatusMonitor="true"		
-		cmdPasswd="1q2w3e"
-		tradingPartner="Medikredit Gems"
-		name="Medikredit ACPT"
-		port="11002"
-		diagPort="11003"
+		<server
+		active="true"
+		autoDisable="false"
+		cmdPasswd="1q3w3e"
+		diagPort="20986"
 		logConfigFile="log4j.xml"
-		trxSizeLimit="48000"
-		trxAbortSizeLimit="64000" />
+		name="MedikreditGems Test Server"
+		port="20985"
+		sendTrxDetailsToStatusMonitor="true"
+		tradingPartner="MedikreditGems"
+		trxAbortSizeLimit="84000"
+		trxSizeLimit="64000"
+	/>
 		
 		<!-- List of Environments that this server can talk to -->
 	<env
@@ -99,19 +98,19 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		11004
+		20987
 	</snmp-port>
 	<tailWatchServer
 		id="Medikredit Test"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="11005"
+		tcpipPort="20988"
 	/>
 	<diagTailWatchServer
 		id="Medikredit TEST"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="11006"
+		tcpipPort="20989"
 	/>
 
 	<synchronous-transactions>true</synchronous-transactions>
