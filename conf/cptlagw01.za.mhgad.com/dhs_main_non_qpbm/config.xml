@@ -25,7 +25,7 @@
 			hostname="apl-amed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9307"
+			port="9207"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -41,7 +41,7 @@
 			hostname="apl-imperial.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9314"
+			port="9214"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -56,7 +56,7 @@
 			hostname="apl-medipos.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9315"
+			port="9215"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -70,7 +70,7 @@
 			hostname="apl-newmed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9308"
+			port="9208"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -84,7 +84,7 @@
 			hostname="apl-redrib.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9311"
+			port="9211"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -101,7 +101,7 @@
 			hostname="apl-newmed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9308"
+			port="9208"
 			useSoTimeOut="false"
 		/>
 	</env>
@@ -116,7 +116,7 @@
 			hostname="apl-amed.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="120000"
-			port="9307"
+			port="9207"
 			useSoTimeOut="false"
 		/>
 	</env>
