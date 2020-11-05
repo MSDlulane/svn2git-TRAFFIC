@@ -56,7 +56,7 @@
 				id="COBOLBACKUP"
 				minTrxTime="12000"
 				poolMaxWaitTime="28000"
-				port="9309"
+				port="9209"
 				startDisabled="true"
 				useSoTimeOut="false"
 				waitForSyncToFinishTimeout="10000"
