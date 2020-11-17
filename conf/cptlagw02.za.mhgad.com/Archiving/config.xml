@@ -23,7 +23,7 @@
 			useSoTimeOut="true"
 			id="COBOL"
 			hostname="apl-amed.za.mhgad.com"
-			port="9307"
+			port="9207"
 			connections="5"
 			autotimeout="120000"
 			poolMaxWaitTime="90000" />
@@ -35,7 +35,7 @@
 			useSoTimeOut="true"
 			id="COBOL"
 			hostname="apl-newmed.za.mhgad.com"
-			port="9308"
+			port="9208"
 			connections="5"
 			autotimeout="120000"
 			poolMaxWaitTime="90000" />
@@ -55,7 +55,7 @@
 			autoEnable="true"
 			id="COBOL"
 			hostname="apl-newmed.za.mhgad.com"
-			port="9308"
+			port="9208"
 			connections="5"
 			autotimeout="120000"
 			poolMaxWaitTime="30000" />
@@ -67,7 +67,7 @@
 			useSoTimeOut="true"
 			id="COBOL"
 			hostname="apl-redrib.za.mhgad.com"
-			port="9311"
+			port="9211"
 			connections="5"
 			autotimeout="120000"
 			poolMaxWaitTime="30000" />
@@ -81,7 +81,7 @@
 			id="COBOL"
 			useSoTimeOut="false"
 			hostname="apl-gems.za.mhgad.com"
-			port="9310"
+			port="9210"
 			connections="5"
 			autotimeout="120000"
 			poolMaxWaitTime="30000" />
@@ -95,7 +95,7 @@
 			id="COBOL"
 			useSoTimeOut="false"
 			hostname="apl-pilir.za.mhgad.com"
-			port="9304"
+			port="9204"
 			connections="5"
 			autotimeout="120000"
 			poolMaxWaitTime="30000" />
@@ -108,7 +108,7 @@
 			useSoTimeOut="true"
 			id="COBOL"
 			hostname="apl-imperial.za.mhgad.com"
-			port="9314"
+			port="9214"
 			connections="5"
 			autotimeout="120000"
 			poolMaxWaitTime="90000" />
