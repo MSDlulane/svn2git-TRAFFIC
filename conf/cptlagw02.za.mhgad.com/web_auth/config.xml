@@ -5,11 +5,11 @@
 
 	<!-- List of Environments that this server can talk to -->
 	<env name="AMED" >
-	  <pool useSoTimeOut="true" id="COBOL" hostname="apl-amed.za.mhgad.com" port="9307" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+	  <pool useSoTimeOut="true" id="COBOL" hostname="apl-amed.za.mhgad.com" port="9207" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
 	</env>
 	
 	<env name="NEWMED" >
-	  <pool useSoTimeOut="true" id="COBOL" hostname="apl-newmed.za.mhgad.com" port="9308" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+	  <pool useSoTimeOut="true" id="COBOL" hostname="apl-newmed.za.mhgad.com" port="9208" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
 	</env>
 	
 	<env name="AMEDEMED" >
@@ -17,7 +17,7 @@
 	</env>
 	
 	<env name="IMPERIAL" >
-	  <pool useSoTimeOut="true" id="COBOL" hostname="apl-imperial.za.mhgad.com" port="9314" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+	  <pool useSoTimeOut="true" id="COBOL" hostname="apl-imperial.za.mhgad.com" port="9214" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
 	</env>
 	
 	<env name="MEDIPOS" >
@@ -31,7 +31,7 @@
 	
 	
 	<env name="GEMS" mhgAccount="GEMS">
-	  <pool id="COBOL" useSoTimeOut="false" hostname="apl-gems.za.mhgad.com" port="9310" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
+	  <pool id="COBOL" useSoTimeOut="false" hostname="apl-gems.za.mhgad.com" port="9210" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
 	</env>
 
 	<transaction        class="InterfaceTransactions.HpEqualise.HpEqualiseTransaction" />
