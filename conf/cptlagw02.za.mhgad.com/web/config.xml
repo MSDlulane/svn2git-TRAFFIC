@@ -6,12 +6,12 @@
 
 	<!-- List of Environments that this server can talk to -->
 	<env name="AMED" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-amed.za.mhgad.com" port="9307" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-amed.za.mhgad.com" port="9207" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 
 	<env name="NEWMED" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-newmed.za.mhgad.com" port="9308" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-newmed.za.mhgad.com" port="9208" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 
@@ -21,7 +21,7 @@
 	</env>
 
 	<env name="REDRIB" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-redrib.za.mhgad.com" port="9311" connections="5" autotimeout="120000" poolMaxWaitTime="30000"/>
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-redrib.za.mhgad.com" port="9211" connections="5" autotimeout="120000" poolMaxWaitTime="30000"/>
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 
@@ -30,7 +30,7 @@
 	</env>
 
 	<env name="IMPERIAL" >
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-imperial.za.mhgad.com" port="9314" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-imperial.za.mhgad.com" port="9214" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 
@@ -40,7 +40,7 @@
 	</env>
 
 	<env name="PILIR" mhgAccount="PILIR">
-		<pool useSoTimeOut="true" id="COBOL" hostname="apl-pilir.za.mhgad.com" port="9304" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
+		<pool useSoTimeOut="true" id="COBOL" hostname="apl-pilir.za.mhgad.com" port="9204" connections="5" autotimeout="120000" poolMaxWaitTime="90000"/>
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 
@@ -49,7 +49,7 @@
 	</env>
 
 	<env name="GEMS" mhgAccount="GEMS">
-		<pool id="COBOL" useSoTimeOut="false" hostname="apl-gems.za.mhgad.com" port="9310" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
+		<pool id="COBOL" useSoTimeOut="false" hostname="apl-gems.za.mhgad.com" port="9210" connections="5" autotimeout="120000" poolMaxWaitTime="30000" />
 		<pool id="POJAS" useSoTimeOut="false" autoDisableOnSyncStart="true" autoEnableOnSyncEnd="true" dropClientOnError="false" startDisabled="false" waitForSyncToFinishTimeout="40000" autoDisable="true" autoEnable="true" hostname="cptlsee01.za.mhgad.com" port="23000" connections="4" autotimeout="120000" poolMaxWaitTime="40000" />
 	</env>
 
