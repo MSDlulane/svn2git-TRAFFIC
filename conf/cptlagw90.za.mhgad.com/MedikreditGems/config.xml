@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <Enviroments>
 	
 
@@ -30,7 +29,7 @@
 			autotimeout="120000"
 			connections="15"
 			dropClientOnError="false"
-			hostname="lbs-appall-acp1.za.mhgad.com"
+			hostname="cptlapp97.za.mhgad.com"
 			id="COBOL"
 			poolMaxWaitTime="10000"
 			port="9110"
@@ -38,14 +37,17 @@
 			stickyStandin="true"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		/>
+		>
+			
+		</pool>
 	</env>
 	
 	
 	<MKLoad
 		inMap="maps/mkamed-in.txt"
 		inReverseMap="maps/mkamed-reverse.txt"
-		outMap="maps/mkamed-out.txt">
+		outMap="maps/mkamed-out.txt"
+	>
 		
 		<save>
 			
