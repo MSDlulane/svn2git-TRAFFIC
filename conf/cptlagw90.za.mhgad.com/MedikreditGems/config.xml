@@ -67,7 +67,7 @@
 				name="PDR"
 			/>
 		</save>
-		<add-input		>
+		<add-input>
 			
 			<pair
 				name="63"
@@ -90,7 +90,7 @@
 				value="1"
 			/>
 		</add-input>
-		<add-output		>
+		<add-output>
 			
 			<pair
 				name="ONE"
@@ -111,40 +111,29 @@
 		</add-output>
 	</MKLoad>
 	<transaction
-		class="InterfaceTransactions.Medikredit.SingleLine.MkTransaction"
-	/>
+		class="InterfaceTransactions.Medikredit.SingleLine.MkTransaction"/>
 	<transaction-header
-		class="InterfaceTransactions.Medikredit.SingleLine.MkHeaders"
-	/>
+		class="InterfaceTransactions.Medikredit.SingleLine.MkHeaders"/>
 	<pool-definitions-file
-		name="pool.xml"
-	/>
+		name="pool.xml"/>
 	<snmp-port
-		mibFile="mibs.xml"
-	>
-		11004
-	</snmp-port>
+		mibFile="mibs.xml">	11004</snmp-port>
 	<tailWatchServer
 		id="Medikredit Test"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="11005"
-	/>
+		tcpipPort="11005"/>
 	<diagTailWatchServer
 		id="Medikredit TEST"
 		multicast-host-ip=""
 		multicast-port="-1"
-		tcpipPort="11006"
-	/>
-	<synchronous-transactions	>
-		true
-	</synchronous-transactions>
+		tcpipPort="11006"/>
+	<synchronous-transactions>true</synchronous-transactions>
 	<logger
 		classname="InterfaceTransactions.Diagnostics.MediskorLogger"
 		logDirectory="log/accesslog"
 		logFileRefreshInterval="Daily"
-		processSleepTime="1000"
-	>
+		processSleepTime="1000">
 		
 		<claimsLogger
 			DbDriverName="com.sybase.jdbc3.jdbc.SybDriver"
@@ -155,13 +144,11 @@
 			maxpoolsize="2"
 			minpoolsize="1"
 			poolId="generic"
-			timeout="600000"
-		>
+			timeout="600000">
 			
 			<logTransactions
 				desc="comma seperated list of transactions to log"
-				value="REALCLM"
-			/>
+				value="REALCLM"/>
 		</claimsLogger>
 	</logger>
 </Enviroments>
