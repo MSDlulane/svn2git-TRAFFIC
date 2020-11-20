@@ -26,7 +26,7 @@
 			connections="20"
 			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="60000"
+			poolMaxWaitTime="1120000"
 			port="9110"
 		/>
 		
