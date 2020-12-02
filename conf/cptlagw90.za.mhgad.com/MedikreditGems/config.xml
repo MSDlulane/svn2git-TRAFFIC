@@ -31,25 +31,22 @@
 			dropClientOnError="false"
 			hostname="lbs-appall-acp1.za.mhgad.com"
 			id="COBOL"
-			poolMaxWaitTime="10000"
+			poolMaxWaitTime="60000"
 			port="9110"
 			startDisabled="false"
 			stickyStandin="true"
 			useSoTimeOut="false"
 			waitForSyncToFinishTimeout="40000"
-		>
-			
-		</pool>
+		/>
 	</env>
 	
 	
 	<MKLoad
 		inMap="maps/mkamed-in.txt"
 		inReverseMap="maps/mkamed-reverse.txt"
-		outMap="maps/mkamed-out.txt"
-	>
+		outMap="maps/mkamed-out.txt">
 		
-		<save		>
+		<save>
 			
 			<single
 				name="64"
