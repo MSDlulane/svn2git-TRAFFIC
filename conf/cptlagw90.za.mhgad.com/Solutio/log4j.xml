@@ -13,7 +13,7 @@
 	<param	name="File"	value="log/ALL_LOG.log"	/>
 	<param	name="DatePattern"	value="'.'yyyyMMdd"	/>
 	<param name = "MaxFileSize"    value = "5MB"/>
-    <param name = "MaxBackupIndex" value = "5" />
+    <param name = "MaxBackupIndex" value = "3" />
     <param name="FileNamePattern" value="log/ALL_LOG-%i.log.gz"/>
 			<layout
 				class="org.apache.log4j.PatternLayout"
