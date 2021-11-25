@@ -308,19 +308,19 @@
 	<snmp-port
 		mibFile="mibs.xml"
 	>
-		20887
+		24002
 	</snmp-port>
 	<synchronous-transactions	>
 		true
 	</synchronous-transactions>
 	<tailWatchServer
-		id="HealthBridge"
+		id="MKReal"
 		multicast-host-ip=""
 		multicast-port="-1"
 		tcpipPort="20888"
 	/>
 	<diagTailWatchServer
-		id="HealthBridge"
+		id="MKReal"
 		multicast-host-ip=""
 		multicast-port="-1"
 		tcpipPort="20889"
