@@ -12,7 +12,7 @@
 		diagPort="27011"
 		logConfigFile="log4j.xml"
 		name="IKat ACPT"
-		port="27015"
+		port="27010"
 		tradingPartner="IKat"
 		trxAbortSizeLimit="64000"
 		trxSizeLimit="48000"
